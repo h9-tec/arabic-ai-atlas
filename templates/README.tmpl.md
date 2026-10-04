@@ -8,7 +8,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Entries](https://img.shields.io/badge/entries-{{COUNT}}-0A7E8C)
-![Updated](https://img.shields.io/badge/updated-{{DATE}}-555)
+![Updated](https://img.shields.io/badge/updated-{{DATE_BADGE}}-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 

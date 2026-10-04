@@ -8,7 +8,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Entries](https://img.shields.io/badge/entries-271-0A7E8C)
-![Updated](https://img.shields.io/badge/updated-2026-10-04-555)
+![Updated](https://img.shields.io/badge/updated-2026--10--04-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -100,17 +100,17 @@ Add this to your `.mcp.json`:
 | AceGPT | FreedomIntelligence | 🌍 INTL | 7B | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/FreedomIntelligence/AceGPT) |
 | AIN | MBZUAI | 🇦🇪 AE | 8B | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/mbzuai-oryx/AIN) |
 | ALLaM 34B | HUMAIN (Saudi) | 🇸🇦 SA | 34B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.humain.com/en/news/humain-chat-launch) |
-| ALLaM-2 | SDAIA & IBM | 🇸🇦 SA | 7B-70B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ALLaM-AI) |
+| ALLaM-2 | SDAIA & IBM | 🇸🇦 SA | 7B-70B | unknown | — | — | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ALLaM-AI) |
 | AraBERT | AUB MIND Lab | 🇱🇧 LB | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/aub-mind/arabert) |
 | AraLLaMA | Bashar Alhafni | 🌍 INTL | 7B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/bashar-talafha/AraLLaMA) |
 | Arcee-Meraj | Arcee AI | 🌍 INTL | 72B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/arcee-ai/Arcee-Meraj) |
 | Arcee-Meraj-Mini | Arcee AI | 🌍 INTL | 7B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/arcee-ai/Arcee-Meraj-Mini) |
-| Atlas-Chat | MBZUAI-Paris Lab | 🇦🇪 AE | 2B-27B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/MBZUAI-Paris/atlas-chat) |
-| Aya-Expanse | Cohere | 🌍 INTL | 8B-32B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-66f573116fef65271be752e9) |
+| Atlas-Chat | MBZUAI-Paris Lab | 🇦🇪 AE | 2B-27B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/MBZUAI-Paris/atlas-chat) |
+| Aya-Expanse | Cohere | 🌍 INTL | 8B-32B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-66f573116fef65271be752e9) |
 | CAMeLBERT | CAMeL Lab, NYUAD | 🇦🇪 AE | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/CAMeL-Lab/CAMeLBERT) |
-| Falcon-H1-Arabic | TII (UAE) | 🇦🇪 AE | 3B-34B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/tiiuae/falcon-h1-6819f2795bc4d0b25a2567e3) |
+| Falcon-H1-Arabic | TII (UAE) | 🇦🇪 AE | 3B-34B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/tiiuae/falcon-h1-6819f2795bc4d0b25a2567e3) |
 | Fanar Star | QCRI (Qatar) | 🇶🇦 QA | 7B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.fanar.qa/en) |
-| Gemma 3 | Google | 🌍 INTL | 1B-27B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d) |
+| Gemma 3 | Google | 🌍 INTL | 1B-27B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d) |
 | GemmAr | ClusterlabAi | 🌍 INTL | 7B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.02147) |
 | Karnak | ITIDA (Egypt) | 🇪🇬 EG | 30B-70B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://itida.gov.eg/English/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx) |
 | Kawn | Misraj AI (Saudi) | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/) |
@@ -121,11 +121,11 @@ Add this to your `.mcp.json`:
 | Mistral Saba | Mistral | 🌍 INTL | 24B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://mistral.ai/news/mistral-saba) |
 | Mulhem | SDAIA | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sdaia.gov.sa/) |
 | Mutarjim | Misraj AI | 🇸🇦 SA | 1.5B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.17894) |
-| Nile-Chat | MBZUAI-Paris Lab | 🇦🇪 AE | 4B-12B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/MBZUAI-Paris/nile-chat) |
+| Nile-Chat | MBZUAI-Paris Lab | 🇦🇪 AE | 4B-12B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/MBZUAI-Paris/nile-chat) |
 | NOOR | TII (UAE) | 🇦🇪 AE | 10B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://noor.tii.ae/) |
 | Nuha | Elm (Saudi) | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://elm.sa/en/about-us/why-elm/case-studies/Pages/Nuha-Bridging-Technology-and-Arabic-Culture.aspx) |
 | Qalam | unknown | 🌍 INTL | — | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.13559) |
-| Qwen 3 | Alibaba | 🌍 INTL | 0.6B-235B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |
+| Qwen 3 | Alibaba | 🌍 INTL | 0.6B-235B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |
 | Shahin | malhajar | 🌍 INTL | 14B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/malhajar/Shahin-v0.1-14B) |
 
 ## 🎙️ Speech Recognition
@@ -243,10 +243,10 @@ Add this to your `.mcp.json`:
 | Calliar | ARBML | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ARBML/Calliar) |
 | Casablanca | unknown | 🌍 INTL | — | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.04527) |
 | dialogue-arabic-dialects | tareknaous | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/tareknaous/dialogue-arabic-dialects) |
-| Gazelle | papers | 🌍 INTL | — | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/papers/2410.18163) |
+| Gazelle | papers | 🌍 INTL | — | unknown | — | — | [![HF](https://img.shields.io/badge/-Paper-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/papers/2410.18163) |
 | masader | ARBML | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ARBML/masader) |
 | Misraj-DocOCR Benchmark | Misraj | 🇸🇦 SA | — | unknown | — | — | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Misraj/Misraj-DocOCR-Benchmark) |
-| Open-Source Arabic TTS Benchmark | silma-ai | 🇸🇦 SA | — | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/silma-ai/opensource-arabic-tts-benchmark) |
+| Open-Source Arabic TTS Benchmark | silma-ai | 🇸🇦 SA | — | unknown | — | — | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/silma-ai/opensource-arabic-tts-benchmark) |
 | SawtArabi | unknown | 🌍 INTL | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.isca-archive.org/interspeech_2025/lodagala25_interspeech.pdf) |
 | Tashkeela | Anwarvic | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Anwarvic/Arabic-Tashkeela-Model) |
 | Wojood | SinaLab | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/SinaLab/ArabicNER) |
@@ -287,17 +287,17 @@ Add this to your `.mcp.json`:
 | ACVA | FreedomIntelligence | 🌍 INTL | apache-2.0 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/FreedomIntelligence/ACVA-Arabic-Cultural-Value-Alignment) | Arabic Cultural Value Alignment (8000+ questions, 58 areas) |
 | Arabic Broad Benchmark (ABB) | silma-ai | 🇸🇦 SA | apache-2.0 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/silma-ai/arabic-broad-benchmark) | Comprehensive evaluation tool for Arabic LLMs |
 | ALUE | unknown | 🌍 INTL | unknown | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.alue.org/) | Arabic Language Understanding Evaluation benchmark |
-| Arabic Broad Leaderboard (ABL) | silma-ai | 🇸🇦 SA | unknown | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/silma-ai/Arabic-LLM-Broad-Leaderboard) | NextGen evaluation for Arabic LLMs by SILMA AI |
+| Arabic Broad Leaderboard (ABL) | silma-ai | 🇸🇦 SA | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/silma-ai/Arabic-LLM-Broad-Leaderboard) | NextGen evaluation for Arabic LLMs by SILMA AI |
 | AraDiCE | unknown | 🌍 INTL | unknown | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.11404) | Benchmarks for dialectal and cultural capabilities of LLMs |
 | BALSAM | unknown | 🌍 INTL | unknown | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://benchmarks.ksaa.gov.sa/) | Benchmark of Arabic Language AI Systems and Models |
 | GATmath and GATLc | unknown | 🌍 INTL | unknown | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329129) | Benchmarks from Saudi GAT exams |
 | KITAB-Bench | MBZUAI | 🇦🇪 AE | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MBZUAI/KITAB-Bench) | Arabic OCR benchmark: 8,809 samples, 9 domains, 36 sub-domains (MBZUAI) |
-| MTEB Arabic Leaderboard | mteb | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/mteb/leaderboard) | Massive Text Embedding Benchmark for Arabic |
+| MTEB Arabic Leaderboard | mteb | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/mteb/leaderboard) | Massive Text Embedding Benchmark for Arabic |
 | NADI 2024 | unknown | 🌍 INTL | unknown | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.04910) | NADI 2024 - Fifth Nuanced Arabic Dialect Identification |
 | NADI 2025 | unknown | 🌍 INTL | unknown | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://nadi.dlnlp.ai/2025/) | NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR) |
 | NADI Shared Tasks | unknown | 🌍 INTL | unknown | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://nadi.dlnlp.ai/) | NADI Shared Tasks - Ongoing series of Arabic DID shared tasks |
-| Open Arabic LLM Leaderboard | OALL | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard) | Evaluation of Arabic LLMs across multiple benchmarks |
-| Open Universal Arabic ASR Leaderboard | elmresearchcenter | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard) | Multi-dialectal Arabic speech recognition benchmark |
+| Open Arabic LLM Leaderboard | OALL | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard) | Evaluation of Arabic LLMs across multiple benchmarks |
+| Open Universal Arabic ASR Leaderboard | elmresearchcenter | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard) | Multi-dialectal Arabic speech recognition benchmark |
 
 ## 🏢 Organizations
 
@@ -322,7 +322,7 @@ Add this to your `.mcp.json`:
 | G42 | 🇦🇪 AE | AI holding company, Arabic LLMs - Jais LLM, enterprise AI solutions | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.g42.ai/) |
 | G42 / Inception AI | 🇦🇪 AE | Arabic-centric LLMs - Jais LLM family | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.g42.ai/) |
 | Hazen.ai | 🇸🇦 SA | AI traffic safety & computer vision - Deep learning road safety, seatbelt/phone detection | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.hazen.ai/) |
-| Helsinki-NLP | 🌍 INTL | Machine translation models - OPUS-MT Arabic translation models | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Helsinki-NLP) |
+| Helsinki-NLP | 🌍 INTL | Machine translation models - OPUS-MT Arabic translation models | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Helsinki-NLP) |
 | Hudhud AI | 🇸🇦 SA | Arabic conversational AI (no-code SaaS) - Saudi-accent chatbots, Arabic-first customer engagement | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://hudhud.ai/) |
 | HUMAIN | 🇸🇦 SA | PIF-backed full-stack AI company - ALLaM 34B, HUMAIN Chat, 8PB Arabic training data | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.humain.com/) |
 | HUMAIN (Saudi PIF) | 🇸🇦 SA | Full-stack AI company - ALLaM 34B, HUMAIN Chat, AI factories | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.humain.com/) |
@@ -332,35 +332,35 @@ Add this to your `.mcp.json`:
 | ITIDA / MCIT (Egypt) | 🇪🇬 EG | Egypt's national AI, sovereign models - Karnak LLM, BelMasry, Torgoman, SIA, AcQua | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://itida.gov.eg/) |
 | KAUST | 🇸🇦 SA | AI research, Arabic NLP - Center of Excellence in Generative AI | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://cemse.kaust.edu.sa/) |
 | KAUST (CEMSE) | 🇸🇦 SA | Generative AI center, Arabic NLP research, sentiment analysis | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://cemse.kaust.edu.sa/) |
-| KFUPM-JRCAI | 🇸🇦 SA | Joint SDAIA-KFUPM AI research - Arabic AI text detection datasets | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/KFUPM-JRCAI) |
+| KFUPM-JRCAI | 🇸🇦 SA | Joint SDAIA-KFUPM AI research - Arabic AI text detection datasets | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/KFUPM-JRCAI) |
 | Kngine | 🇪🇬 EG | Semantic search & NLP - Arabic semantic search, data mining, knowledge engine | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://kngine.com/) |
-| LightOn AI | 🌍 INTL | Arabic web data - ArabicWeb24 corpus (39B+ tokens) | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/lightonai) |
+| LightOn AI | 🌍 INTL | Arabic web data - ArabicWeb24 corpus (39B+ tokens) | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/lightonai) |
 | Lucidya | 🇸🇦 SA | AI customer experience analytics - Arabic social listening, sentiment analysis | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.lucidya.com/) |
 | Maqsam | 🇯🇴 JO | Arabic speech AI, call center AI - Arabic dialect STT, AI voice bots, surpasses Google/Microsoft | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://maqsam.com/) |
 | Mawdoo3 | 🇯🇴 JO | Arabic AI & content, NLP toolkit - Arabic LLMs, largest Arabic website, Saudi expansion | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://mawdoo3.com/) |
-| MBZUAI | 🇦🇪 AE | Multimodal and speech models - AIN, ArTST, ClArTTS | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MBZUAI) |
+| MBZUAI | 🇦🇪 AE | Multimodal and speech models - AIN, ArTST, ClArTTS | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MBZUAI) |
 | Misraj AI | 🇸🇦 SA | Arabic-first AI ecosystem - Kawn LLM, Baseer OCR, Mutarjim, Workforces, SeamlessAPI | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/) |
 | Mistral AI | 🌍 INTL | Multilingual LLMs - Mistral Saba (Arabic-optimized) | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://mistral.ai/) |
 | Monta AI | 🇪🇬 EG | Enterprise AI solutions - LLM & RAG-based Arabic business automation | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://monta-ai.com/) |
 | Mozn | 🇸🇦 SA | Enterprise AI, Arabic NLU - OSOS Arabic NLU platform, FOCAL compliance suite | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.mozn.ai/) |
-| NAMAA-Space | 🇸🇦 SA | Arabic NLP models & dialect hub - Qari-OCR, EgypTalk-ASR, Masrawy translator, GLiNER Arabic | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space) |
+| NAMAA-Space | 🇸🇦 SA | Arabic NLP models & dialect hub - Qari-OCR, EgypTalk-ASR, Masrawy translator, GLiNER Arabic | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space) |
 | Nile University | 🇪🇬 EG | AI research, M.Sc. in AI co-designed with MIT/IBM | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://nu.edu.eg/) |
-| Omartificial-Intelligence-Space | 🇸🇦 SA | Arabic embedding models - GATE, Matryoshka embeddings | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space) |
-| Prince Sultan University (RIOTU Lab) | 🇸🇦 SA | ArabianGPT, Arabic IoT/robotics AI | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/riotu-lab) |
-| Prince Sultan University (RIOTU) | 🇸🇦 SA | Arabic language models - ArabianGPT, Arabic IoT AI | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/riotu-lab) |
-| QCRI | 🇶🇦 QA | Arabic LLMs, text processing - Fanar LLMs, AraDiCE, Farasa | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/QCRI) |
+| Omartificial-Intelligence-Space | 🇸🇦 SA | Arabic embedding models - GATE, Matryoshka embeddings | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space) |
+| Prince Sultan University (RIOTU Lab) | 🇸🇦 SA | ArabianGPT, Arabic IoT/robotics AI | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/riotu-lab) |
+| Prince Sultan University (RIOTU) | 🇸🇦 SA | Arabic language models - ArabianGPT, Arabic IoT AI | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/riotu-lab) |
+| QCRI | 🇶🇦 QA | Arabic LLMs, text processing - Fanar LLMs, AraDiCE, Farasa | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/QCRI) |
 | Saal.ai | 🇦🇪 AE | Cognitive AI solutions - Arabic NLP, speech, generative AI | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://saal.ai/) |
 | SambaNova Systems | 🌍 INTL | Arabic language adaptation - SambaLingo Arabic models | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sambanova.ai/) |
 | SDAIA | 🇸🇦 SA | Sovereign AI, national data authority - ALLaM model, SADA dataset, NCAI, BALSAM benchmark | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sdaia.gov.sa/) |
 | SDAIA (Saudi Data & AI Authority) | 🇸🇦 SA | Sovereign Arabic LLM, national AI strategy - ALLaM model, SADA dataset, BALSAM benchmark | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sdaia.gov.sa/) |
-| SDAIA-KFUPM Joint Research Center (JRCAI) | 🇸🇦 SA | Arabic AI text detection, Arabic NLP datasets | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/KFUPM-JRCAI) |
+| SDAIA-KFUPM Joint Research Center (JRCAI) | 🇸🇦 SA | Arabic AI text detection, Arabic NLP datasets | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/KFUPM-JRCAI) |
 | SILMA AI | 🇸🇦 SA | State-of-the-art Arabic LLMs - SILMA LLMs, Arabic Broad Benchmark | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://silma.ai/) |
 | SinaLab | 🌍 INTL | SinaTools, Wojood NER corpus | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/SinaLab) |
 | SinaLab, Birzeit University | 🌍 INTL | Arabic NLP tools and datasets - SinaTools, Wojood NER | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/SinaLab) |
 | Synapse Analytics | 🇪🇬 EG | AI for financial inclusion - ML-powered credit scoring, Arabic data analytics | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://synapseanalytics.com/) |
 | Technology Innovation Institute (TII) | 🇦🇪 AE | Open-source LLMs, research - Falcon LLM family | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.tii.ae/) |
 | TII (Technology Innovation Institute) | 🇦🇪 AE | Arabic LLM benchmarks, Falcon - Open Arabic LLM Leaderboard, Falcon LLM | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.tii.ae/) |
-| UBC-NLP | 🌍 INTL | Dialectal Arabic, multimodal models - MARBERT, AraT5, NileChat, PEARL, Dallah | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/UBC-NLP) |
+| UBC-NLP | 🌍 INTL | Dialectal Arabic, multimodal models - MARBERT, AraT5, NileChat, PEARL, Dallah | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/UBC-NLP) |
 | Unifonic | 🇸🇦 SA | Conversational AI platform - Arabic-first CX Intelligence, AI chatbots | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.unifonic.com/) |
 | WideBot AI | 🇪🇬 EG | Arabic-first conversational AI - AQL Arabic LLM, chatbots, voicebots, AI agents | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://widebot.ai/) |
 | Wittify.ai | 🇸🇦 SA | Conversational AI for Arabic - Interactive Arabic AI agents | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://wittify.ai/) |

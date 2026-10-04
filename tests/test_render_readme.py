@@ -45,3 +45,25 @@ def test_shipped_skills(tmp_path):
     d.mkdir()
     (d / "SKILL.md").write_text("---\nname: x\ndescription: Does x\n---\nbody\n", encoding="utf-8")
     assert load_shipped_skills(tmp_path) == [{"name": "x", "description": "Does x", "path": "skills/x-skill"}]
+
+
+def test_date_badge_doubles_dashes(fixture_entries):
+    out = render(fixture_entries)
+    assert "updated-2026--10--04-555" in out
+    assert "updated-2026-10-04-" not in out
+
+
+import pytest
+
+
+@pytest.mark.parametrize("url,label", [
+    ("https://huggingface.co/org/model", "Model"),
+    ("https://huggingface.co/datasets/org/ds", "Dataset"),
+    ("https://huggingface.co/papers/2401.00001", "Paper"),
+    ("https://huggingface.co/spaces/org/app", "Space"),
+    ("https://huggingface.co/collections/org/c-123", "Collection"),
+    ("https://huggingface.co/org", "Hub"),
+])
+def test_hf_badge_label(url, label):
+    from atlas.render_readme import badges
+    assert f"https://img.shields.io/badge/-{label}-FFD21E" in badges({"links": {"hf": url}})

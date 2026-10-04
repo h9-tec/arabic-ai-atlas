@@ -1,5 +1,6 @@
 """Render README.md from merged entries and templates/README.tmpl.md."""
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -40,11 +41,19 @@ def esc(value) -> str:
     return " ".join(str(value).split()).replace("|", "\\|")
 
 
+def hf_label(url: str) -> str:
+    segs = [x for x in urlparse(url).path.split("/") if x]
+    prefixes = {"datasets": "Dataset", "papers": "Paper", "spaces": "Space", "collections": "Collection"}
+    if segs and segs[0] in prefixes:
+        return prefixes[segs[0]]
+    return "Model" if len(segs) == 2 else "Hub"
+
+
 def badges(entry: dict) -> str:
     links = entry.get("links") or {}
     out = []
     if links.get("hf"):
-        label = "Dataset" if "/datasets/" in links["hf"] else "Model"
+        label = hf_label(links["hf"])
         out.append(f"[![HF](https://img.shields.io/badge/-{label}-FFD21E?logo=huggingface&logoColor=black)]({links['hf']})")
     if links.get("github"):
         out.append(f"[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)]({links['github']})")
@@ -123,5 +132,5 @@ def render_readme(merged: list[dict], template: str, generated_at: str, shipped_
     for t in COLUMNS:
         out = out.replace("{{TABLE:%s}}" % t, render_table(merged, t))
     out = out.replace("{{SHIPPED_SKILLS}}", render_shipped(shipped_skills))
-    out = out.replace("{{COUNT}}", str(len(merged))).replace("{{DATE}}", generated_at)
+    out = out.replace("{{COUNT}}", str(len(merged))).replace("{{DATE_BADGE}}", generated_at.replace("-", "--")).replace("{{DATE}}", generated_at)
     return out

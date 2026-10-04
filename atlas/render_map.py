@@ -8,15 +8,20 @@ from xml.sax.saxutils import escape
 from atlas.render_readme import FLAGS, fmt_downloads
 
 WIDTH = 1600
-PAD = 40
+PAD = 40  # horizontal outer padding
+PAD_Y = 24  # vertical outer padding (keeps the hero map under 1000px tall)
+ROW_PAD = 6
 GUTTER = 150
 CELL_PAD = 6
-NODE_H, GAP, RADIUS = 34, 6, 6
-MIN_W, MAX_W = 90, 220
-CHAR_W = 7.1  # lowercase advance at 12.5px semibold (renders bold in Arial); 6.6 overflowed
+NODE_H, GAP, RADIUS = 28, 5, 5
+MIN_W, MAX_W = 72, 220
+FONT_PX = 11.5
+# lowercase advance at semibold (renders bold in Arial): 7.1px measured at 12.5px, scaled
+CHAR_W = 7.1 * FONT_PX / 12.5
 _NARROW = set("iljtfrI.,:;!|'()[] -/")
 _WIDE = set("mwMW@%")
-MAX_NODES = 8
+MAX_NODES = 6
+REPO_URL = "https://github.com/h9-tec/arabic-ai-atlas"
 FONT = '-apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
 
 COLUMNS = [
@@ -55,8 +60,13 @@ LEGEND = [("llm", "LLM"), ("asr", "ASR"), ("tts", "TTS"), ("ocr", "OCR"),
           ("embedding", "Embedding"), ("tool", "Tool"), ("benchmark", "Benchmark"), ("dataset", "Dataset")]
 LINK_ORDER = ("hf", "github", "paper", "website")
 
-CELL_W = (WIDTH - 2 * PAD - GUTTER) / len(COLUMNS)
-INNER_W = CELL_W - 2 * CELL_PAD
+SLOTS = {code: 2 if code == "INTL" else 1 for code, _, _ in COLUMNS}  # INTL holds most entries
+SLOT_W = (WIDTH - 2 * PAD - GUTTER) / sum(SLOTS.values())
+COL_X = {}  # column -> (left x offset from grid start, width)
+_x = 0.0
+for _code, _, _ in COLUMNS:
+    COL_X[_code] = (_x, SLOT_W * SLOTS[_code])
+    _x += SLOT_W * SLOTS[_code]
 
 
 def _attr(value) -> str:
@@ -81,10 +91,10 @@ def _column(entry: dict) -> str:
     return c if c in {code for code, _, _ in COLUMNS} else "INTL"
 
 
-def node_width(downloads: int | None) -> float:
+def node_width(downloads: int | None, inner_w: float) -> float:
     score = math.log10((downloads or 0) + 1) + 1
     w = MIN_W + (min(score, 8) - 1) / 7 * (MAX_W - MIN_W)
-    return min(max(w, MIN_W), MAX_W, INNER_W)
+    return min(max(w, MIN_W), MAX_W, inner_w)
 
 
 def text_width(label: str) -> float:
@@ -121,13 +131,13 @@ def _sort_key(entry: dict):
     return (-(_downloads(entry) or 0), entry["name"].lower(), entry["id"])
 
 
-def _cell_nodes(entries: list[dict], types: tuple[str, ...]) -> list[dict]:
-    """Node specs for one cell: top 8, or top 7 plus a `+N more` node."""
+def _cell_nodes(entries: list[dict], types: tuple[str, ...], inner_w: float) -> list[dict]:
+    """Node specs for one cell: top MAX_NODES, or one fewer plus a `+N more` node."""
     ranked = sorted(entries, key=_sort_key)
     shown, hidden = (ranked, []) if len(ranked) <= MAX_NODES else (ranked[: MAX_NODES - 1], ranked[MAX_NODES - 1:])
     nodes = []
     for e in shown:
-        w = node_width(_downloads(e))
+        w = node_width(_downloads(e), inner_w)
         nodes.append({
             "cls": e["type"], "w": w, "label": truncate(e["name"], w), "href": _primary_link(e),
             "title": f"{e['name']} · {e.get('org') or '—'} · {fmt_downloads(_downloads(e))} downloads",
@@ -136,26 +146,26 @@ def _cell_nodes(entries: list[dict], types: tuple[str, ...]) -> list[dict]:
         counts = {t: sum(1 for e in hidden if e["type"] == t) for t in types}
         top = max(types, key=lambda t: (counts[t], -types.index(t)))
         nodes.append({
-            "cls": "more", "w": MIN_W, "label": f"+{len(hidden)} more", "href": f"README.md{ANCHORS[top]}",
+            "cls": "more", "w": MIN_W, "label": f"+{len(hidden)} more", "href": f"{REPO_URL}{ANCHORS[top]}",
             "title": f"{len(hidden)} more in the README",
         })
     return nodes
 
 
-def _flow(nodes: list[dict]) -> tuple[list[tuple[dict, float, float]], float]:
+def _flow(nodes: list[dict], inner_w: float) -> tuple[list[tuple[dict, float, float]], float]:
     """Flow-wrap nodes into centred lines; return (node, x, y) offsets and height."""
     lines: list[list[dict]] = []
     for node in nodes:
         if lines:
             used = sum(n["w"] for n in lines[-1]) + GAP * len(lines[-1])
-            if used + node["w"] <= INNER_W:
+            if used + node["w"] <= inner_w:
                 lines[-1].append(node)
                 continue
         lines.append([node])
     placed = []
     for i, line in enumerate(lines):
         line_w = sum(n["w"] for n in line) + GAP * (len(line) - 1)
-        x = (INNER_W - line_w) / 2
+        x = (inner_w - line_w) / 2
         for node in line:
             placed.append((node, x, i * (NODE_H + GAP)))
             x += node["w"] + GAP
@@ -166,7 +176,7 @@ def _flow(nodes: list[dict]) -> tuple[list[tuple[dict, float, float]], float]:
 def _node_svg(node: dict, x: float, y: float) -> str:
     rect = (f'<rect class="n {node["cls"]}" x="{_n(x)}" y="{_n(y)}" width="{_n(node["w"])}" '
             f'height="{NODE_H}" rx="{RADIUS}"/>')
-    text = (f'<text class="nl" x="{_n(x + node["w"] / 2)}" y="{_n(y + NODE_H / 2 + 4.5)}" '
+    text = (f'<text class="nl" x="{_n(x + node["w"] / 2)}" y="{_n(y + NODE_H / 2 + 4)}" '
             f'text-anchor="middle">{_attr(node["label"])}</text>')
     title = f"<title>{_attr(node['title'])}</title>"
     if node["href"]:
@@ -191,7 +201,7 @@ text {{ font-family: {FONT}; fill: var(--text); }}
 .bandsub {{ font-size: 12px; fill: var(--muted); }}
 .legend {{ font-size: 12px; fill: var(--muted); }}
 .footer {{ font-size: 12px; fill: var(--muted); }}
-.nl {{ font-size: 12.5px; font-weight: 600; fill: #FFFFFF; pointer-events: none; }}
+.nl {{ font-size: {FONT_PX}px; font-weight: 600; fill: #FFFFFF; pointer-events: none; }}
 a:hover .n {{ opacity: 0.85; }}
 """ + "".join(f".{k} {{ fill: {v}; }}\n" for k, v in COLORS.items())
 
@@ -220,60 +230,63 @@ def render_svg(merged: list[dict], generated_at: str) -> str:
     x0 = PAD + GUTTER
 
     # Title block and legend
-    body.append(f'<text class="title" x="{PAD}" y="{PAD + 26}">Arabic AI Atlas</text>')
-    body.append(f'<text class="sub" x="{PAD}" y="{PAD + 50}">'
+    body.append(f'<text class="title" x="{PAD}" y="{PAD_Y + 26}">Arabic AI Atlas</text>')
+    body.append(f'<text class="sub" x="{PAD}" y="{PAD_Y + 48}">'
                 f"{_attr(f'The Arabic AI ecosystem · {count} entries · {generated_at}')}</text>")
     lx = WIDTH - PAD
     legend = []
     for cls, label in reversed(LEGEND):
         tw = len(label) * 7 + 4
         lx -= tw
-        legend.append(f'<text class="legend" x="{lx}" y="{PAD + 50}">{label}</text>')
+        legend.append(f'<text class="legend" x="{lx}" y="{PAD_Y + 48}">{label}</text>')
         lx -= 16
-        legend.append(f'<rect class="{cls}" x="{lx}" y="{PAD + 40}" width="12" height="12" rx="3"/>')
+        legend.append(f'<rect class="{cls}" x="{lx}" y="{PAD_Y + 38}" width="12" height="12" rx="3"/>')
         lx -= 14
     body.extend(reversed(legend))
 
     # Column headers
-    head_y = PAD + 80
+    head_y = PAD_Y + 64
     col_counts = {code: sum(1 for e in drawn if _column(e) == code) for code, _, _ in COLUMNS}
     for i, (code, flag, name) in enumerate(COLUMNS):
-        cx = x0 + i * CELL_W + CELL_W / 2
-        body.append(f'<text class="colhead" x="{_n(cx)}" y="{head_y + 18}" text-anchor="middle">'
+        left, cw = COL_X[code]
+        cx = x0 + left + cw / 2
+        body.append(f'<text class="colhead" x="{_n(cx)}" y="{head_y + 17}" text-anchor="middle">'
                     f"{flag} {code}</text>")
         n = col_counts[code]
-        body.append(f'<text class="colsub" x="{_n(cx)}" y="{head_y + 37}" text-anchor="middle">'
+        body.append(f'<text class="colsub" x="{_n(cx)}" y="{head_y + 34}" text-anchor="middle">'
                     f"{_attr(name)} · {n}</text>")
-    grid_top = head_y + 52
+    grid_top = head_y + 44
 
     # Bands
     y = grid_top
     lines = [f'<line class="grid" x1="{PAD}" y1="{grid_top}" x2="{WIDTH - PAD}" y2="{grid_top}"/>']
     for b, (label, types) in enumerate(BANDS):
-        cells = {code: _flow(_cell_nodes(grid.get((label, code), []), types)) for code, _, _ in COLUMNS}
+        cells = {}
+        for code, _, _ in COLUMNS:
+            inner = COL_X[code][1] - 2 * CELL_PAD
+            cells[code] = _flow(_cell_nodes(grid.get((label, code), []), types, inner), inner)
         content_h = max([h for _, h in cells.values()] + [NODE_H])
-        row_h = content_h + 2 * 12
+        row_h = max(content_h + 2 * ROW_PAD, 24 + 18 * len(_wrap_label(label)) + 8)
         if b % 2 == 0:
             shading.append(f'<rect class="band" x="{PAD}" y="{_n(y)}" width="{WIDTH - 2 * PAD}" height="{_n(row_h)}"/>')
         band_n = sum(len(grid.get((label, code), [])) for code, _, _ in COLUMNS)
         label_lines = _wrap_label(label)
         for k, part in enumerate(label_lines):
-            body.append(f'<text class="bandlabel" x="{PAD + 14}" y="{_n(y + 30 + k * 20)}">{_attr(part)}</text>')
-        body.append(f'<text class="bandsub" x="{PAD + 14}" y="{_n(y + 30 + len(label_lines) * 20)}">'
+            body.append(f'<text class="bandlabel" x="{PAD + 14}" y="{_n(y + 22 + k * 18)}">{_attr(part)}</text>')
+        body.append(f'<text class="bandsub" x="{PAD + 14}" y="{_n(y + 20 + len(label_lines) * 18)}">'
                     f"{band_n} entries</text>")
         for i, (code, _, _) in enumerate(COLUMNS):
             placed, _h = cells[code]
-            cx = x0 + i * CELL_W + CELL_PAD
+            cx = x0 + COL_X[code][0] + CELL_PAD
             for node, nx, ny in placed:
-                body.append(_node_svg(node, cx + nx, y + 12 + ny))
+                body.append(_node_svg(node, cx + nx, y + ROW_PAD + ny))
         y += row_h
         lines.append(f'<line class="grid" x1="{PAD}" y1="{_n(y)}" x2="{WIDTH - PAD}" y2="{_n(y)}"/>')
-    for i in range(len(COLUMNS) + 1):
-        gx = x0 + i * CELL_W
+    for gx in [x0 + left for left, _ in COL_X.values()] + [WIDTH - PAD]:
         lines.append(f'<line class="grid" x1="{_n(gx)}" y1="{head_y}" x2="{_n(gx)}" y2="{_n(y)}"/>')
 
-    height = math.ceil(y + 36 + PAD)
-    footer = (f'<text class="footer" x="{WIDTH - PAD}" y="{height - PAD}" text-anchor="end">'
+    height = math.ceil(y + 22 + 16)
+    footer = (f'<text class="footer" x="{WIDTH - PAD}" y="{height - 16}" text-anchor="end">'
               f"{_attr(f'Generated {generated_at} from {count} entries · github.com/h9-tec/arabic-ai-atlas')}</text>")
 
     return "\n".join([

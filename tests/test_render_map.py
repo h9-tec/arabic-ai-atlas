@@ -41,7 +41,7 @@ def test_no_hf_entry_has_min_width(fixture_entries):
     svg = render_svg(_merged(fixture_entries), "2026-10-04")
     m = re.search(r"<title>Fish Speech \(Arabic\)[^<]*</title><rect ([^>]*)/>", svg)
     assert m, "fish-speech-ar node missing"
-    assert 'width="90"' in m.group(1)
+    assert 'width="72"' in m.group(1)
     assert 'href="https://github.com/fishaudio/fish-speech"' in svg
 
 
@@ -54,9 +54,9 @@ def test_cell_caps_at_8_with_more_node(fixture_entries):
         cache[f"synth/m{i:02d}"] = {"downloads": (i + 1) * 1000, "likes": 0, "lastModified": None, "fetched": "d"}
     svg = render_svg(merge_metrics(entries, cache), "2026-10-04")
     named = [t for t in _titles(svg) if t.startswith("Synth ")]
-    assert sorted(t.split(" · ")[0] for t in named) == [f"Synth {i:02d}" for i in range(5, 12)]
-    assert svg.count(">+5 more<") == 1
-    assert 'href="README.md#-large-language-models"' in svg
+    assert sorted(t.split(" · ")[0] for t in named) == [f"Synth {i:02d}" for i in range(7, 12)]
+    assert svg.count(">+7 more<") == 1
+    assert 'href="https://github.com/h9-tec/arabic-ai-atlas#-large-language-models"' in svg
 
 
 def test_orgs_not_drawn(fixture_entries):

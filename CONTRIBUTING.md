@@ -4,7 +4,7 @@
 
 1. Pick the file under `data/` that matches the resource type (`llms.yaml`, `asr.yaml`, `tts.yaml`, `ocr.yaml`, `embeddings.yaml`, `datasets.yaml`, `tools.yaml`, `benchmarks.yaml`, `orgs.yaml`, `agent-skills.yaml`).
 2. Copy the template entry below to the end of that file and fill in the fields.
-3. Run `uv run python scripts/build.py all` to validate and regenerate the README, map and dist files.
+3. Run `uv run python scripts/build.py build` to validate and regenerate the README, map and dist files. It reads the committed Hugging Face cache and needs no network; do not run `all`, which refetches metrics and touches every row (the nightly job does that).
 4. Open a pull request with the YAML change and the regenerated files.
 
 ## Entry template
@@ -35,7 +35,7 @@
 - One entry per real resource.
 - Link to the authoritative source (the official repo, model card, or paper), not a mirror or a blog post.
 - `notes` is at most 160 characters.
-- `license` is an SPDX id, or `unknown` when it is not stated.
+- `license` is a lowercase SPDX id (or the Hugging Face license id, such as `llama3.1` or `gemma`), or `unknown` when it is not stated. The build fills `unknown` from the Hugging Face model card when the card names a license.
 - `country` is the country of the maintaining organization (`INTL` for multinational efforts).
 - Set `on_device: true` only if it runs on a phone or laptop CPU.
 
@@ -43,8 +43,8 @@
 
 - Every entry passes the schema in `data/schema.json`.
 - Ids are unique.
-- The generated files are up to date with `data/` (`build --check`); a date change alone does not count as drift.
+- The generated files match `data/` byte for byte (`build --check`), rendered with the `generated_at` date in `dist/atlas.json`. A hand edit anywhere in `README.md`, `assets/` or `dist/` fails CI.
 
 ## Never edit by hand
 
-`README.md`, `assets/` and `dist/` are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py all`.
+`README.md`, `assets/` and `dist/` are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py build`.

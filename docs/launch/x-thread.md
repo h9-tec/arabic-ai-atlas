@@ -14,7 +14,7 @@ claude plugin install arabic-ai-atlas@arabic-ai-atlas
 
 **2/6**
 
-The idea: don't just read the list, install it into your agent. Ask "which open Arabic TTS runs on a phone?" and its MCP server answers from the atlas offline, with licenses and download counts.
+The idea: don't just read the list, install it into your agent. Ask "which open Arabic TTS runs on a phone?" and its MCP server answers from the atlas offline, with licenses and download counts where known.
 
 **3/6**
 
@@ -33,7 +33,7 @@ arabic-token-cost: compare tokenizer cost
 
 Numbers: 271 entries (68 LLMs, 53 datasets, 19 ASR, 12 TTS, 8 OCR), 7 countries plus international, 121 with live download counts.
 
-Gaps I need PRs for: Egypt and Morocco coverage, dialect tags, license fields. One YAML file per change.
+Gaps I need PRs for: country tags still incomplete, more dialect tags and licenses. One YAML file per change.
 
 **6/6**
 
@@ -57,4 +57,4 @@ claude plugin install arabic-ai-atlas@arabic-ai-atlas
 
 **2/6 (عربي)**
 
-الفكرة: القائمة ليست للقراءة فقط، بل يستخدمها وكيلك مباشرة. اسأله "أي نموذج TTS عربي مفتوح يعمل على الجوال؟" فيجيبك من الأطلس دون إنترنت، مع الرخصة وعدد التحميلات.
+الفكرة: القائمة ليست للقراءة فقط، بل يستخدمها وكيلك مباشرة. اسأله "أي نموذج TTS عربي مفتوح يعمل على الجوال؟" فيجيبك من الأطلس دون إنترنت، مع الرخصة وعدد التحميلات حيثما توفرت.

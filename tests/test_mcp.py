@@ -26,12 +26,14 @@ async def _run(atlas_json: Path):
             tools = await c.list_tools()
             got = await c.call_tool("get", {"id": "jais-30b"})
             rec = await c.call_tool("recommend", {"task": "chat", "dialect": "msa", "limit": 10})
+            srch = await c.call_tool("search", {"query": "jais"})
             missing = await c.call_tool("get", {"id": "nope"})
             return (
                 {t.name for t in tools.tools},
                 got.content[0].text,
                 "\n".join(c.text for c in rec.content),
                 missing.content[0].text,
+                srch.content,
             )
 
 
@@ -41,8 +43,9 @@ def test_mcp_server_roundtrip(tmp_path, fixture_entries):
     doc = build_atlas_json(merge_metrics(fixture_entries, cache), "2026-10-04")
     p = tmp_path / "atlas.json"
     p.write_text(json.dumps(doc))
-    names, got, rec, missing = asyncio.run(_run(p))
+    names, got, rec, missing, srch = asyncio.run(_run(p))
     assert names == {"search", "recommend", "get"}
     assert "jais-30b" in got
     assert "jais-30b" in rec
     assert "unknown id" in missing
+    assert len(srch) == 1 and "jais-30b" in srch[0].text

@@ -10,17 +10,17 @@ if str(ROOT) not in sys.path:
 
 from mcp.server.mcpserver import MCPServer  # noqa: E402
 
-from atlas import query  # noqa: E402
+from atlas import query as atlas_query  # noqa: E402
 
 ATLAS_PATH = Path(os.environ.get("ATLAS_JSON") or ROOT / "dist" / "atlas.json")
-ENTRIES = query.load_atlas(ATLAS_PATH)
+ENTRIES = atlas_query.load_atlas(ATLAS_PATH)
 
 server = MCPServer("arabic-ai-atlas")
 
 
 @server.tool()
 def search(
-    query_text: str,
+    query: str,
     type: str | None = None,
     country: str | None = None,
     modality: str | None = None,
@@ -37,9 +37,9 @@ def search(
       country: SA, AE, EG, LB, QA, JO, MA, INTL
       modality: text, speech, vision, multimodal, none
 
-    Example: search(query_text="speech", type="asr", limit=5)
+    Example: search(query="speech", type="asr", limit=5)
     """
-    return query.search(ENTRIES, query_text, type=type, country=country, modality=modality, limit=limit)
+    return atlas_query.search(ENTRIES, query, type=type, country=country, modality=modality, limit=limit)
 
 
 @server.tool()
@@ -63,7 +63,7 @@ def recommend(
 
     Example: recommend(task="chat", dialect="egy", on_device=true, license_filter="open")
     """
-    return query.recommend(
+    return atlas_query.recommend(
         ENTRIES, task, dialect=dialect, on_device=on_device, license_filter=license_filter, limit=limit
     )
 
@@ -76,7 +76,7 @@ def get(id: str) -> dict:
 
     Example: get(id="jais-30b")
     """
-    return query.get(ENTRIES, id) or {"error": "unknown id", "id": id}
+    return atlas_query.get(ENTRIES, id) or {"error": "unknown id", "id": id}
 
 
 if __name__ == "__main__":

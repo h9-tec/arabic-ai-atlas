@@ -34,3 +34,10 @@ def good_entry() -> dict:
         "notes": "Bilingual Arabic-English foundation model.",
         "_file": "llms.yaml",
     }
+
+
+@pytest.fixture
+def fixture_entries(fixture_dir: Path) -> list[dict]:
+    from atlas.load import load_entries
+
+    return load_entries(fixture_dir)

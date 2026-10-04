@@ -86,7 +86,8 @@
       country: asList(s.country),
       dialect: asList(s.dialect),
       license: asList(s.license),
-      on_device: s.on_device === true || s.on_device === "1" || s.on_device === "true"
+      on_device: s.on_device === true || s.on_device === "1" || s.on_device === "true",
+      view: s.view === "grid" ? "grid" : "map"
     };
   }
 
@@ -133,6 +134,7 @@
       if (st[k].length) parts.push(k + "=" + st[k].map(encodeURIComponent).join(","));
     });
     if (st.on_device) parts.push("on_device=1");
+    if (st.view === "grid") parts.push("view=grid");
     return parts.length ? "#" + parts.join("&") : "";
   }
 
@@ -150,6 +152,15 @@
     return "recommend(" + args.join(", ") + ")";
   }
 
+  // With a country selected the MCP `search` tool is the one that takes a country.
+  function searchCall(state) {
+    var st = normalizeState(state);
+    var args = ["query=" + pyStr(st.q)];
+    if (st.country.length === 1) args.push("country=" + pyStr(st.country[0]));
+    if (st.type.length === 1) args.push("type=" + pyStr(st.type[0]));
+    return "search(" + args.join(", ") + ")";
+  }
+
   function fmtDownloads(n) {
     if (!n) return "—";
     if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
@@ -163,9 +174,11 @@
   var api = {
     COLUMNS: COLUMNS, BANDS: BANDS, COLORS: COLORS, licenseClass: licenseClass, column: column, fold: fold,
     normalizeState: normalizeState, matches: matches, filterEntries: filterEntries, filter: filterEntries,
-    parseHash: parseHash, serializeHash: serializeHash, recommendCall: recommendCall, sizeScore: sizeScore
+    parseHash: parseHash, serializeHash: serializeHash, recommendCall: recommendCall, searchCall: searchCall,
+    sizeScore: sizeScore
   };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
+  if (typeof window !== "undefined") window.Atlas = api;
   if (typeof document === "undefined") return;
 
   /* ---------- DOM ---------- */
@@ -364,8 +377,32 @@
     $(sectionId).hidden = entries.length === 0;
   }
 
+  function hasFilters(st) {
+    var c = {}; for (var k in st) c[k] = st[k];
+    c.view = "map";
+    return serializeHash(c) !== "";
+  }
+
+  function mapOn() { return STATE.view === "map" && !!window.AtlasMap; }
+
+  function syncView() {
+    var map = mapOn();
+    $("plate").classList.toggle("is-map", map);
+    $("mapview").hidden = !map;
+    document.querySelectorAll("#view-toggle [data-view]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-view") === STATE.view ? "true" : "false");
+    });
+  }
+
   function render() {
     var visible = filterEntries(ENTRIES, STATE);
+    syncView();
+    if (mapOn()) {
+      // The map shows every country under the other filters, so picking another one stays possible.
+      var facet = {}; for (var k in STATE) facet[k] = STATE[k];
+      facet.country = [];
+      window.AtlasMap.update({ entries: filterEntries(ENTRIES, facet), visible: visible, state: normalizeState(STATE) });
+    }
     renderGrid(visible);
     renderRoster("orgs", "orgs-list", "orgs-count", visible.filter(function (e) { return e.type === "org"; }));
     renderRoster("skills", "skills-list", "skills-count", visible.filter(function (e) { return e.type === "agent-skill"; }));
@@ -373,8 +410,10 @@
     syncFoldSummary();
     var n = visible.length;
     $("result-count").textContent = n === ENTRIES.length ? "Showing all " + n + " entries" : n + " of " + ENTRIES.length + " entries match";
-    $("clear").hidden = serializeHash(STATE) === "";
+    $("clear").hidden = !hasFilters(STATE);
     $("cmd-recommend").textContent = recommendCall(STATE);
+    $("cmd-search").textContent = searchCall(STATE);
+    $("search-box").hidden = STATE.country.length !== 1;
     $("status").hidden = n !== 0;
     if (n === 0) $("status").textContent = "Nothing matches these filters. Remove a chip or shorten the search.";
   }
@@ -485,7 +524,10 @@
       qTimer = setTimeout(function () { STATE.q = v.trim(); commit(); }, 140);
     });
     $("on-device").addEventListener("change", function () { STATE.on_device = this.checked; commit(); });
-    $("clear").addEventListener("click", function () { STATE = normalizeState({}); commit(); $("q").focus(); });
+    $("clear").addEventListener("click", function () { STATE = normalizeState({ view: STATE.view }); commit(); $("q").focus(); });
+    document.querySelectorAll("#view-toggle [data-view]").forEach(function (b) {
+      b.addEventListener("click", function () { STATE.view = b.getAttribute("data-view"); commit(); });
+    });
     $("copy-link").addEventListener("click", function () { copyText(location.href, "Link copied"); });
     document.querySelectorAll("[data-copy]").forEach(function (b) {
       b.addEventListener("click", function () { copyText($(b.getAttribute("data-copy")).textContent, "Copied to clipboard"); });
@@ -505,6 +547,9 @@
     card.addEventListener("mouseleave", scheduleHide);
     card.addEventListener("focusout", scheduleHide);
     document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && card.hidden && mapOn() && !/INPUT|TEXTAREA/.test((document.activeElement || {}).tagName || "")) {
+        window.AtlasMap.reset();
+      }
       if (ev.key === "Escape" && !card.hidden) {
         var owner = cardOwner;
         hideCard(true);
@@ -551,6 +596,18 @@
       $("json-link").href = DATA_BASE + "atlas.json";
       setupChips();
       $("grid").hidden = false;
+      if (window.AtlasMap) {
+        window.AtlasMap.init({
+          stage: $("mapview"), base: "./", colors: COLORS, typeLabels: TYPE_LABELS, makeNode: node,
+          onSelect: function (code, type) {
+            if (STATE.country.length === 1 && STATE.country[0] === code && !type) STATE.country = [];
+            else STATE.country = [code];
+            if (type) STATE.type = [type];
+            commit();
+          },
+          onReset: function () { if (!STATE.country.length) return; STATE.country = []; commit(); }
+        });
+      }
       render();
     }).catch(function () {
       $("status").textContent = "The atlas data could not be loaded. Browsers block file:// requests, so serve the folder instead: python3 -m http.server, then open localhost:8000/site/ in the browser.";

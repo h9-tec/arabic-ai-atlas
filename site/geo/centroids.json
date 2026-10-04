@@ -1,0 +1,29 @@
+{
+  "note": "Label anchors for the map. lonlat is where the country sits; anchor (when present) is where its bubbles and label are drawn, joined to lonlat by a leader line. ids are ISO 3166-1 numeric as used by world-atlas (zero-padded strings). Bahrain (048) and Comoros (174) have no polygon at 110m, so they render as points.",
+  "countries": {
+    "SA": {"id": "682", "en": "Saudi Arabia", "ar": "السعودية", "lonlat": [44.2, 23.6]},
+    "AE": {"id": "784", "en": "UAE", "ar": "الإمارات", "lonlat": [54.3, 23.8], "anchor": [58.2, 28.6], "side": "below"},
+    "EG": {"id": "818", "en": "Egypt", "ar": "مصر", "lonlat": [29.6, 26.4]},
+    "QA": {"id": "634", "en": "Qatar", "ar": "قطر", "lonlat": [51.2, 25.3], "anchor": [56.0, 34.4], "side": "right"},
+    "MA": {"id": "504", "en": "Morocco", "ar": "المغرب", "lonlat": [-6.3, 31.9]},
+    "JO": {"id": "400", "en": "Jordan", "ar": "الأردن", "lonlat": [36.7, 30.9], "side": "below"},
+    "TN": {"id": "788", "en": "Tunisia", "ar": "تونس", "lonlat": [9.4, 33.9]},
+    "LB": {"id": "422", "en": "Lebanon", "ar": "لبنان", "lonlat": [35.9, 33.9], "anchor": [31.2, 35.1], "side": "left"},
+    "KW": {"id": "414", "en": "Kuwait", "ar": "الكويت", "lonlat": [47.6, 29.3], "anchor": [48.8, 35.4], "side": "right"},
+    "OM": {"id": "512", "en": "Oman", "ar": "عُمان", "lonlat": [56.6, 20.6]},
+    "BH": {"id": "048", "en": "Bahrain", "ar": "البحرين", "lonlat": [50.55, 26.05], "anchor": [49.8, 31.6], "side": "right", "point": true}
+  },
+  "arab_league_other": {
+    "DZ": {"id": "012", "en": "Algeria", "ar": "الجزائر", "lonlat": [2.6, 28.2]},
+    "LY": {"id": "434", "en": "Libya", "ar": "ليبيا", "lonlat": [17.6, 27.0]},
+    "SD": {"id": "729", "en": "Sudan", "ar": "السودان", "lonlat": [30.0, 15.8]},
+    "IQ": {"id": "368", "en": "Iraq", "ar": "العراق", "lonlat": [43.6, 33.0]},
+    "SY": {"id": "760", "en": "Syria", "ar": "سوريا", "lonlat": [38.6, 35.1]},
+    "YE": {"id": "887", "en": "Yemen", "ar": "اليمن", "lonlat": [47.6, 15.7]},
+    "PS": {"id": "275", "en": "Palestine", "ar": "فلسطين", "lonlat": [35.2, 31.9], "nolabel": true},
+    "MR": {"id": "478", "en": "Mauritania", "ar": "موريتانيا", "lonlat": [-10.4, 20.3], "nolabel": true},
+    "SO": {"id": "706", "en": "Somalia", "ar": "الصومال", "lonlat": [46.0, 6.0], "nolabel": true},
+    "DJ": {"id": "262", "en": "Djibouti", "ar": "جيبوتي", "lonlat": [42.6, 11.8], "nolabel": true},
+    "KM": {"id": "174", "en": "Comoros", "ar": "جزر القمر", "lonlat": [43.3, -11.7], "point": true, "nolabel": true}
+  }
+}

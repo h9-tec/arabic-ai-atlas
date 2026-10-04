@@ -14,13 +14,17 @@
 </script>
 </head>
 <body>
-<a class="skip" href="#plate">Skip to the map</a>
+<a class="skip" href="#plate">Skip to the atlas</a>
 <header class="masthead">
   <div class="title">
     <h1><span class="ar" lang="ar" dir="rtl">أطلس الذكاء الاصطناعي العربي</span><span class="en">Arabic AI Atlas</span></h1>
-    <p class="lede">Arabic models, speech, OCR, embeddings, tools and datasets, placed by where they were built. Hover a name for details, click it to open the project.</p>
+    <p class="lede">Arabic models, speech, OCR, embeddings, tools and datasets, placed by where they were built. Click a country to zoom in and list its work; hover a name for details.</p>
   </div>
   <div class="actions">
+    <div class="seg" id="view-toggle" role="group" aria-label="View">
+      <button type="button" data-view="map" aria-pressed="true">Map</button>
+      <button type="button" data-view="grid" aria-pressed="false">Grid</button>
+    </div>
     <button type="button" id="copy-link" class="btn">Copy link</button>
     <button type="button" id="theme-toggle" class="btn" aria-label="Switch colour theme">Dark</button>
   </div>
@@ -49,11 +53,32 @@
 claude plugin install arabic-ai-atlas@arabic-ai-atlas</code><button type="button" class="btn small" data-copy="cmd-install">Copy</button></div>
       <p>Then ask it, or call the MCP tool directly with your current filters:</p>
       <div class="cmd"><code id="cmd-recommend" dir="ltr"></code><button type="button" class="btn small" data-copy="cmd-recommend">Copy</button></div>
+      <div id="search-box" hidden>
+        <p>For one country, <code>search</code> takes a country filter:</p>
+        <div class="cmd"><code id="cmd-search" dir="ltr"></code><button type="button" class="btn small" data-copy="cmd-search">Copy</button></div>
+      </div>
     </section>
   </aside>
 
   <main id="plate" tabindex="-1">
     <div class="status" id="status" role="status">Loading the atlas…</div>
+    <section class="mapview" id="mapview" aria-label="Map of Arabic AI work by country" hidden>
+      <div class="map-frame">
+        <svg class="map" role="img" aria-label="Map of the Arab world. Countries are shaded by how many entries they have; bubbles show each type of work, sized by downloads."></svg>
+        <div class="legend"></div>
+        <button type="button" class="btn small map-reset" hidden>Reset view</button>
+        <p class="map-msg" role="status"></p>
+        <aside class="map-panel" aria-live="polite" hidden>
+          <div class="mp-head"></div>
+          <div class="mp-body"></div>
+        </aside>
+      </div>
+      <div class="dock" aria-label="International entries, not placed on the map">
+        <p class="dock-head"></p>
+        <div class="dock-list"></div>
+      </div>
+      <div class="map-tip" hidden></div>
+    </section>
     <div class="plate" id="grid" hidden></div>
     <section class="extra" id="orgs" aria-labelledby="orgs-h" hidden>
       <h2 id="orgs-h">Organisations <span class="count" id="orgs-count"></span></h2>
@@ -73,6 +98,9 @@ claude plugin install arabic-ai-atlas@arabic-ai-atlas</code><button type="button
   <p>Data generated <time id="gen-date"></time> · <span id="gen-count"></span> entries. Sizes follow Hugging Face downloads on a log scale.</p>
   <p><a href="https://github.com/h9-tec/arabic-ai-atlas">Source and contribution guide on GitHub</a> · <a href="dist/llms.txt" id="llms-link">llms.txt for agents</a> · <a href="dist/atlas.json" id="json-link">atlas.json</a></p>
 </footer>
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
 <script src="app.js"></script>
+<script src="map.js"></script>
 </body>
 </html>

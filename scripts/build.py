@@ -69,7 +69,11 @@ def cmd_build(entries: list[dict], data: Path, out: Path, date: str) -> int:
     except ImportError:
         render_svg = None
     if render_readme:
-        (out / "README.md").write_text(render_readme(merged, date), encoding="utf-8")
+        from atlas.render_readme import load_shipped_skills
+
+        template = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
+        skills = load_shipped_skills(ROOT / "skills")
+        (out / "README.md").write_text(render_readme(merged, template, date, skills), encoding="utf-8")
     if render_svg:
         (out / "assets").mkdir(parents=True, exist_ok=True)
         (out / "assets" / "map.svg").write_text(render_svg(merged, date), encoding="utf-8")

@@ -20,6 +20,7 @@
   // Radius ∝ sqrt(downloads + 1), from R_MIN up to R_MAX at `max` downloads; clamped.
   function bubbleRadius(downloads, max) {
     var d = Math.max(0, +downloads || 0), m = Math.max(1, +max || 0);
+    if (d >= m) return R_MAX;
     var r = R_MIN + (R_MAX - R_MIN) * (Math.sqrt(d + 1) - 1) / (Math.sqrt(m + 1) - 1 || 1);
     return Math.max(R_MIN, Math.min(R_MAX, r));
   }
@@ -54,6 +55,20 @@
     return items;
   }
 
+  // The map's bubble scale tops out at the largest (country, type) download total among the
+  // Arab countries; International entries are docked under the map with their own scale.
+  function cellMax(entries, intl) {
+    var cells = {}, best = { key: null, downloads: 0 };
+    (entries || []).forEach(function (e) {
+      var c = e.country || "INTL";
+      if ((c === "INTL") !== !!intl) return;
+      var k = c + "|" + e.type;
+      cells[k] = (cells[k] || 0) + ((e.metrics && e.metrics.downloads) || 0);
+      if (cells[k] > best.downloads) best = { key: k, downloads: cells[k] };
+    });
+    return best;
+  }
+
   // Extent of a ring layout (distance from centre to the outermost bubble edge).
   function ringExtent(items) {
     return items.reduce(function (m, it) { return Math.max(m, Math.hypot(it.x, it.y) + it.r); }, 0);
@@ -69,7 +84,7 @@
 
   var api = {
     choroplethStep: choroplethStep, bubbleRadius: bubbleRadius, bubbleLayout: bubbleLayout,
-    ringExtent: ringExtent, hashState: hashState, TYPE_ORDER: TYPE_ORDER
+    ringExtent: ringExtent, cellMax: cellMax, hashState: hashState, TYPE_ORDER: TYPE_ORDER
   };
   if (typeof module !== "undefined" && module.exports) { module.exports = api; return; }
   if (typeof document === "undefined") return;
@@ -307,12 +322,11 @@
     var agg = aggregate(d.entries);
     S.agg = agg;
     var codes = Object.keys(S.meta.countries);
-    var counts = {}, max = 0, dmax = 0;
+    var counts = {}, max = 0, dmax = cellMax(d.entries, false).downloads;
     codes.forEach(function (c) {
       var t = agg.by[c] || {};
       counts[c] = Object.keys(t).reduce(function (s, k) { return s + t[k].n; }, 0);
       max = Math.max(max, counts[c]);
-      Object.keys(t).forEach(function (k) { dmax = Math.max(dmax, t[k].downloads); });
     });
     S.max = max; S.dmax = dmax; S.counts = counts;
     var sel = d.state.country;
@@ -379,7 +393,7 @@
       }
     });
     placeMarks();
-    dock(agg.intl, dmax, animate);
+    dock(agg.intl, cellMax(d.entries, true).downloads, animate);
     legend(max, dmax);
   }
 
@@ -440,16 +454,16 @@
     head.textContent = "";
     head.appendChild(el("span", { className: "ar", lang: "ar", dir: "rtl", text: "دولي" }));
     head.appendChild(el("span", { className: "en", text: "International · " + n }));
-    head.title = "Built outside the region, or by global teams. Not placed on the map.";
+    head.title = "Built outside the region, or by global teams. Not placed on the map; bubbles use their own scale.";
+    head.appendChild(el("span", { className: "dock-note", text: "Own bubble scale, dashed" }));
     var list = box.querySelector(".dock-list");
     list.textContent = "";
     var k = scaleFactor();
     types.forEach(function (t, i) {
       var r = bubbleRadius(intl[t].downloads, dmax) * k;
-      var over = intl[t].downloads > dmax;
       var size = 2 * R_MAX * k + 4;
       var svg = d3.create("svg").attr("width", size).attr("height", size).attr("viewBox", [-size / 2, -size / 2, size, size].join(" ")).attr("aria-hidden", "true");
-      if (over) svg.append("circle").attr("class", "over").attr("r", r + 3);
+      svg.append("circle").attr("class", "over").attr("r", r + 3);
       var c = svg.append("circle").attr("class", "bubble").style("fill", S.opts.colors[t]).attr("r", animate && dur(300) ? 0 : r);
       if (animate && dur(300)) c.transition().duration(300).delay(i * 18).ease(d3.easeCubicOut).attr("r", r);
       var b = el("button", { type: "button", className: "dock-item", "aria-label": S.opts.typeLabels[t] + ", international, " + intl[t].n + " entries" }, [

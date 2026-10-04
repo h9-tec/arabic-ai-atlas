@@ -231,6 +231,7 @@ svg.map:active { cursor: grabbing; }
   margin-top: 10px; padding: 8px 4px 8px 0; border-bottom: 1px solid var(--rule);
 }
 .dock.is-dimmed .dock-list { opacity: .5; }
+.dock-note { font-size: 11px; color: var(--muted); }
 .dock.is-selected .dock-head .en { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 .dock-head { margin: 0; display: flex; flex-direction: column; line-height: 1.2; min-width: 120px; }
 .dock-head .ar { font-weight: 700; font-size: 17px; text-align: left; }

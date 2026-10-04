@@ -76,6 +76,9 @@ const out = {
   layout: map.bubbleLayout({tts: {n: 2, downloads: 50}, llm: {n: 5, downloads: 9000}, asr: {n: 1, downloads: 0}}),
   layout_again: map.bubbleLayout({asr: {n: 1, downloads: 0}, llm: {n: 5, downloads: 9000}, tts: {n: 2, downloads: 50}}),
   layout_one: map.bubbleLayout({dataset: {n: 3, downloads: 10}}),
+  arab_max: map.cellMax(E, false),
+  intl_max: map.cellMax(E, true),
+  arab_top_r: map.bubbleRadius(map.cellMax(E, false).downloads, map.cellMax(E, false).downloads),
   layout_skip: map.bubbleLayout({llm: {n: 0, downloads: 0}, ocr: {n: 1, downloads: 0}}).length,
 };
 console.log(JSON.stringify(out));
@@ -127,3 +130,6 @@ def test_filter_logic_in_node(tmp_path):
     assert layout[0]["x"] == 0 and layout[0]["y"] < 0  # first type sits at 12 o'clock
     assert len(out["layout_one"]) == 1 and out["layout_one"][0]["x"] == 0 and out["layout_one"][0]["y"] == 0
     assert out["layout_skip"] == 1
+    assert not out["arab_max"]["key"].startswith("INTL|")
+    assert out["intl_max"]["key"].startswith("INTL|")
+    assert out["arab_top_r"] == 26

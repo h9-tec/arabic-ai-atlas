@@ -1,0 +1,866 @@
+- id: jais
+  name: Jais
+  type: llm
+  country: AE
+  org: Inception AI, Cerebras
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/inceptionai/jais-30b-v3
+  size: 13B, 30B
+  notes: Arabic-centric, bilingual, instruction-tuned
+- id: silma-1-0
+  name: SILMA 1.0
+  type: llm
+  country: SA
+  org: SILMA AI
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0
+  size: 9B
+  notes: Top-ranked Arabic LLM built on Gemma
+- id: allam
+  name: ALLaM
+  type: llm
+  country: SA
+  org: SDAIA & IBM
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview
+  size: 7B
+  notes: Saudi's sovereign model, enterprise-focused
+- id: fanar-1-9b
+  name: Fanar-1-9B
+  type: llm
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/QCRI/Fanar-1-9B-Instruct
+  size: 9B
+  notes: Arabic-English LLM
+- id: acegpt
+  name: AceGPT
+  type: llm
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    github: https://github.com/FreedomIntelligence/AceGPT
+  size: 7B
+  notes: Top performance, culturally aligned
+- id: atlas-chat
+  name: Atlas-Chat
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/MBZUAI-Paris/atlas-chat
+  size: 2B-27B
+  notes: Moroccan Darija dialect
+- id: nilechat-3b
+  name: NileChat-3B
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/UBC-NLP/NileChat-3B
+  size: 3B
+  notes: Egyptian and Moroccan dialects
+  on_device: true
+- id: nile-chat
+  name: Nile-Chat
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/MBZUAI-Paris/nile-chat
+  size: 4B-12B
+  notes: Egyptian Arabic and Arabizi scripts
+- id: aragpt2
+  name: AraGPT2
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/aubmindlab/aragpt2-mega
+  size: 1.5B
+  notes: GPT-2 for Arabic text generation
+  on_device: true
+- id: command-r7b-arabic
+  name: Command R7B Arabic
+  type: llm
+  country: INTL
+  org: Cohere
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025
+  size: 7B
+  notes: Arabic-optimized Command R variant
+- id: sambalingo-arabic
+  name: SambaLingo-Arabic
+  type: llm
+  country: INTL
+  org: SambaNova
+  license: llama2
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/sambanovasystems/SambaLingo-Arabic-Chat
+  size: 7B, 70B
+  notes: Arabic-adapted Llama 2
+- id: arabiangpt
+  name: ArabianGPT
+  type: llm
+  country: SA
+  org: Prince Sultan University
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/riotu-lab/ArabianGPT-01B
+  size: 0.1B
+  notes: GPT-2 for Arabic, RIOTU Lab
+  on_device: true
+- id: nuha
+  name: Nuha
+  type: llm
+  country: SA
+  org: Elm (Saudi)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://elm.sa/en/about-us/why-elm/case-studies/Pages/Nuha-Bridging-Technology-and-Arabic-Culture.aspx
+  notes: Multi-modal Arabic-first LLM for gov services, dialect-aware
+- id: llama-3-3
+  name: Llama 3.3
+  type: llm
+  country: INTL
+  org: Meta
+  license: llama3.3
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+  size: 70B
+  notes: Strong Arabic performance
+- id: qwen-3
+  name: Qwen 3
+  type: llm
+  country: INTL
+  org: Alibaba
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f
+  size: 0.6B-235B
+  notes: Multilingual with Arabic support
+- id: gemma-3
+  name: Gemma 3
+  type: llm
+  country: INTL
+  org: Google
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d
+  size: 1B-27B
+  notes: Multimodal capabilities
+- id: cohere-command-a
+  name: Cohere Command-A
+  type: llm
+  country: INTL
+  org: Cohere
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/CohereForAI/c4ai-command-a-03-2025
+  size: 111B
+  notes: Optimized for RAG
+- id: mistral-saba
+  name: Mistral Saba
+  type: llm
+  country: INTL
+  org: Mistral
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://mistral.ai/news/mistral-saba
+  size: 24B
+  notes: Commercial API
+- id: falcon-arabic
+  name: Falcon Arabic
+  type: llm
+  country: AE
+  org: TII (UAE)
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/tiiuae/Falcon3-7B-Instruct
+  size: 7B
+  notes: First Arabic model in Falcon series, top of OALL
+- id: falcon-h1-arabic
+  name: Falcon-H1-Arabic
+  type: llm
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/tiiuae/falcon-h1-6819f2795bc4d0b25a2567e3
+  size: 3B-34B
+  notes: Hybrid Mamba-Transformer, 128K-256K context
+- id: allam-2
+  name: ALLaM-2
+  type: llm
+  country: SA
+  org: SDAIA & IBM
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/ALLaM-AI
+  size: 7B-70B
+  notes: 500B+ Arabic tokens, largest Arabic training set
+- id: mulhem
+  name: Mulhem
+  type: llm
+  country: SA
+  org: SDAIA
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://sdaia.gov.sa/
+  notes: Open-source Arabic-first LLM from Saudi Arabia
+- id: arcee-meraj
+  name: Arcee-Meraj
+  type: llm
+  country: INTL
+  org: Arcee AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/arcee-ai/Arcee-Meraj
+  size: 72B
+  notes: Enterprise Arabic LLM based on Qwen2-72B
+- id: arcee-meraj-mini
+  name: Arcee-Meraj-Mini
+  type: llm
+  country: INTL
+  org: Arcee AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/arcee-ai/Arcee-Meraj-Mini
+  size: 7B
+  notes: Top OALL among 7B models
+- id: aya-expanse
+  name: Aya-Expanse
+  type: llm
+  country: INTL
+  org: Cohere
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-66f573116fef65271be752e9
+  size: 8B-32B
+  notes: State-of-the-art multilingual with strong Arabic
+- id: silma-kashif
+  name: SILMA Kashif
+  type: llm
+  country: SA
+  org: SILMA AI
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/silma-ai/SILMA-Kashif-2B-Instruct-v1.0
+  size: 2B
+  notes: Lightweight RAG-optimized Arabic model
+  on_device: true
+- id: ar-stablelm-2-chat
+  name: Ar-stablelm-2-chat
+  type: llm
+  country: SA
+  org: Stability AI
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/stabilityai/stablelm-2-1_6b-chat
+  size: 1.6B
+  notes: Small Arabic chat model
+  on_device: true
+- id: yehia
+  name: Yehia
+  type: llm
+  country: INTL
+  org: Navid-AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Navid-AI/Yehia-7B
+  size: 7B
+  notes: Based on ALLaM, Arabic instruction-tuned
+- id: arallama
+  name: AraLLaMA
+  type: llm
+  country: INTL
+  org: Bashar Alhafni
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/bashar-talafha/AraLLaMA
+  size: 7B
+  notes: LLaMA2 pre-trained on Arabic data
+- id: shahin
+  name: Shahin
+  type: llm
+  country: INTL
+  org: malhajar
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/malhajar/Shahin-v0.1-14B
+  size: 14B
+  notes: Syrian Arabic dialect, Qwen2.5-based
+- id: labess-chat
+  name: Labess Chat
+  type: llm
+  country: INTL
+  org: Linagora
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Linagora/Labess-chat-7b
+  size: 7B
+  notes: Tunisian Arabic, based on Jais architecture
+- id: phi-4
+  name: Phi-4
+  type: llm
+  country: INTL
+  org: Microsoft
+  license: mit
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/microsoft/phi-4
+  size: 4B
+  notes: Multilingual with Arabic, compact & efficient
+- id: allam-34b
+  name: ALLaM 34B
+  type: llm
+  country: SA
+  org: HUMAIN (Saudi)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://www.humain.com/en/news/humain-chat-launch
+  size: 34B
+  notes: Most advanced Arabic LLM, 8PB training data, powers HUMAIN Chat
+- id: karnak
+  name: Karnak
+  type: llm
+  country: EG
+  org: ITIDA (Egypt)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://itida.gov.eg/English/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx
+  size: 30B-70B
+  notes: Egypt's national sovereign LLM, top Arabic in its class
+- id: noor
+  name: NOOR
+  type: llm
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://noor.tii.ae/
+  size: 10B
+  notes: World's largest Arabic NLP model at launch, GPT-3 architecture
+- id: noon
+  name: Noon
+  type: llm
+  country: INTL
+  org: Naseej
+  license: bigscience-bloom-rail-1.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Naseej/noon-7b
+  size: 7B
+  notes: BLOOM-based Arabic LLM, instruction-tuned
+- id: fanar-star
+  name: Fanar Star
+  type: llm
+  country: QA
+  org: QCRI (Qatar)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://www.fanar.qa/en
+  size: 7B
+  notes: Trained from scratch on 1T Arabic/English tokens
+- id: jasmine
+  name: JASMINE
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/UBC-NLP/Jasmine-350M
+  size: 0.3B-6.7B
+  notes: Arabic GPT for few-shot learning, 400GB training data
+- id: kawn
+  name: Kawn
+  type: llm
+  country: SA
+  org: Misraj AI (Saudi)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://misraj.ai/
+  notes: Arabic-first ecosystem with 15-dialect support
+- id: kuwain
+  name: Kuwain
+  type: llm
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    paper: https://arxiv.org/abs/2504.15120
+  size: 1.5B
+  notes: Arabic SLM via language injection, 70% cost reduction
+  on_device: true
+- id: mutarjim
+  name: Mutarjim
+  type: llm
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    paper: https://arxiv.org/abs/2505.17894
+  size: 1.5B
+  notes: Arabic-English translation, rivals GPT-4o mini
+  on_device: true
+- id: gemmar
+  name: GemmAr
+  type: llm
+  country: INTL
+  org: ClusterlabAi
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    paper: https://arxiv.org/abs/2407.02147
+  size: 7B
+  notes: Gemma Arabic instruction-tuned on InstAr-500k
+- id: llamar
+  name: LlamAr
+  type: llm
+  country: INTL
+  org: ClusterlabAi
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    paper: https://arxiv.org/abs/2407.02147
+  size: 8B
+  notes: LLaMA 3 Arabic instruction-tuned on InstAr-500k
+- id: calme-2-2
+  name: Calme 2.2
+  type: llm
+  country: INTL
+  org: MaziyarPanahi
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MaziyarPanahi/calme-2.2-qwen2-72b
+  size: 72B
+  notes: Qwen2-based, strong OALL performance
+- id: ain
+  name: AIN
+  type: llm
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - multimodal
+  links:
+    github: https://github.com/mbzuai-oryx/AIN
+  size: 8B
+  notes: Arabic-centric Large Multimodal Model
+- id: dallah
+  name: Dallah
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: multimodal
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/UBC-NLP/dallah
+  notes: Advanced multimodal LLM for Arabic
+- id: peacock
+  name: Peacock
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: other
+  modality: multimodal
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/UBC-NLP/Peacock
+  size: 7B
+  notes: Arabic multimodal (InstructBLIP + AraLLaMA)
+- id: qalam
+  name: Qalam
+  type: llm
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: multimodal
+  tasks:
+  - multimodal
+  links:
+    paper: https://arxiv.org/abs/2407.13559
+  notes: Arabic OCR/HWR multimodal LLM, 0.80% WER
+- id: arabert
+  name: AraBERT
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    github: https://github.com/aub-mind/arabert
+  notes: First BERT for Arabic, multiple versions
+- id: arabertv02
+  name: AraBERTv02
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/aubmindlab/bert-base-arabertv02
+  notes: Improved tokenization (135M params, 12M+ downloads)
+- id: camelbert
+  name: CAMeLBERT
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    github: https://github.com/CAMeL-Lab/CAMeLBERT
+  notes: MSA, Dialectal, and Classical Arabic
+- id: marbert
+  name: MARBERT
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    github: https://github.com/UBC-NLP/marbert
+  notes: Focused on Dialectal Arabic and MSA
+- id: marbertv2
+  name: MARBERTv2
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/UBC-NLP/MARBERTv2
+  notes: Updated with improved dialectal coverage
+- id: araelectra
+  name: AraELECTRA
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/aubmindlab/araelectra-base-discriminator
+  notes: ELECTRA for Arabic
+- id: arat5
+  name: AraT5
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/UBC-NLP/AraT5-base
+  notes: T5 for Arabic summarization, translation, paraphrasing
+- id: saudibert
+  name: SaudiBERT
+  type: llm
+  country: SA
+  org: King Saud University
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/faisalq/SaudiBERT
+  notes: Saudi dialect BERT, trained on 141M tweets (STMC) + forums
+- id: egybert
+  name: EgyBERT
+  type: llm
+  country: INTL
+  org: faisalq
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/faisalq/EgyBERT
+  notes: Egyptian dialect BERT, trained on 34M tweets + 44M forum sentences
+- id: sa-bert-v1
+  name: SA-BERT-V1
+  type: llm
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/SA-BERT-V1
+  notes: Saudi Arabic BERT, fine-tuned MARBERTv2
+- id: camelbert-msa-sentiment
+  name: CAMeLBERT-MSA-Sentiment
+  type: llm
+  country: AE
+  org: CAMeL-Lab
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-msa-sentiment
+  notes: Sentiment Analysis - Fine-tuned for MSA sentiment
+- id: t5-arabic-summarization
+  name: t5-arabic-summarization
+  type: llm
+  country: INTL
+  org: malmarjeh
+  license: unknown
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/malmarjeh/t5-arabic-text-summarization
+  notes: Summarization - T5 for Arabic news summarization
+- id: opus-mt-en-ar
+  name: opus-mt-en-ar
+  type: llm
+  country: INTL
+  org: Helsinki-NLP
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/Helsinki-NLP/opus-mt-en-ar
+  notes: Translation EN→AR - Helsinki-NLP (3.5M+ downloads)
+- id: opus-mt-ar-en
+  name: opus-mt-ar-en
+  type: llm
+  country: INTL
+  org: Helsinki-NLP
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/Helsinki-NLP/opus-mt-ar-en
+  notes: Translation AR→EN - Helsinki-NLP (12.4M+ downloads)
+- id: arabic-gec-v1
+  name: arabic-gec-v1
+  type: llm
+  country: INTL
+  org: alnnahwi
+  license: gemma
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/alnnahwi/gemma-3-1b-arabic-gec-v1
+  notes: Grammar Correction - Gemma-3-1b for Arabic GEC
+- id: arabic-text-correction
+  name: Arabic-Text-Correction
+  type: llm
+  country: INTL
+  org: SuperSl6
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/SuperSl6/Arabic-Text-Correction
+  notes: Text Correction - AraT5-based text correction
+- id: arat5-dialects-translation
+  name: arat5-dialects-translation
+  type: llm
+  country: INTL
+  org: PRAli22
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/PRAli22/arat5-arabic-dialects-translation
+  notes: Dialect→MSA - AraT5 dialect translation
+- id: masrawy-translator
+  name: Masrawy Translator
+  type: llm
+  country: SA
+  org: NAMAA-Space
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/NAMAA-Space/masrawy-english-to-egyptian-arabic-translator-v2.9
+  notes: EN→Egyptian Arabic - 150K+ rows, 10M+ tokens, Egyptian dialect
+- id: gliner-arabic
+  name: GLiNER Arabic
+  type: llm
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - task-specific
+  links:
+    hf: https://huggingface.co/NAMAA-Space/gliner_arabic-v2.1
+  notes: Named Entity Recognition - Plug-and-play Arabic NER (NAMAA-Space)
+- id: blip-arabic-flickr-8k
+  name: blip-Arabic-flickr-8k
+  type: llm
+  country: INTL
+  org: omarsabri8756
+  license: mit
+  modality: multimodal
+  tasks:
+  - image-captioning
+  links:
+    hf: https://huggingface.co/omarsabri8756/blip-Arabic-flickr-8k
+  notes: BLIP fine-tuned for Arabic image captioning

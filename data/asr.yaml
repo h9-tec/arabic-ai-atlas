@@ -1,0 +1,228 @@
+- id: openai-whisper-large-v3
+  name: openai/whisper-large-v3
+  type: asr
+  country: INTL
+  org: openai
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/openai/whisper-large-v3
+  notes: Supports Arabic among many languages
+- id: masriswitch-gemma3n
+  name: MasriSwitch-Gemma3n
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/MasriSwitch-Gemma3n-Transcriber-v1
+  notes: Egyptian Arabic code-switching transcription
+- id: wav2vec2-large-xlsr-53-arabic
+  name: wav2vec2-large-xlsr-53-arabic
+  type: asr
+  country: INTL
+  org: jonatasgrosman
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic
+  notes: Fine-tuned on Common Voice & Arabic Speech Corpus
+- id: artst-asr-v3
+  name: artst_asr_v3
+  type: asr
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MBZUAI/artst_asr_v3
+  notes: ArTST for ASR on MGB2 (best for MSA)
+- id: egyptalk-asr-v2
+  name: EgypTalk-ASR-v2
+  type: asr
+  country: SA
+  org: NAMAA-Space
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/NAMAA-Space/EgypTalk-ASR-v2
+  notes: High-performance ASR for Egyptian Arabic
+- id: whisper-large-v3-turbo
+  name: whisper-large-v3-turbo
+  type: asr
+  country: INTL
+  org: openai
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/openai/whisper-large-v3-turbo
+  notes: 4x faster Whisper, Arabic support, MIT license
+- id: nvidia-fastconformer-arabic
+  name: NVIDIA FastConformer Arabic
+  type: asr
+  country: INTL
+  org: nvidia
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0
+  notes: SOTA Arabic ASR, 115M params, 760h training, CC-BY-4.0
+- id: nvidia-fastconformer-arabic-diacritics
+  name: NVIDIA FastConformer Arabic (Diacritics)
+  type: asr
+  country: INTL
+  org: nvidia
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0
+  notes: Arabic ASR with diacritical marks, 1100h training
+- id: seamlessm4t-v2
+  name: SeamlessM4T v2
+  type: asr
+  country: INTL
+  org: facebook
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/facebook/seamless-m4t-v2-large
+  notes: Meta's all-in-one ASR + translation, ~100 languages inc. Arabic
+- id: mms-1b-all
+  name: MMS-1b-all
+  type: asr
+  country: INTL
+  org: facebook
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/facebook/mms-1b-all
+  notes: Meta's Massively Multilingual Speech, ASR for 1100+ languages
+- id: speechbrain-wav2vec2-arabic
+  name: SpeechBrain wav2vec2 Arabic
+  type: asr
+  country: INTL
+  org: speechbrain
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/speechbrain/asr-wav2vec2-commonvoice-14-ar
+  notes: Wav2Vec2 + CTC fine-tuned on CommonVoice 14 Arabic
+- id: hubert-large-arabic
+  name: HuBERT-Large Arabic
+  type: asr
+  country: INTL
+  org: asafaya
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/asafaya/hubert-large-arabic-transcribe
+  notes: HuBERT fine-tuned on 2000h Arabic, 17.68% WER
+- id: hubert-egyptian-arabic
+  name: HuBERT Egyptian Arabic
+  type: asr
+  country: INTL
+  org: omarxadel
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/omarxadel/hubert-large-arabic-egyptian
+  notes: HuBERT fine-tuned for Egyptian dialect on MGB-3
+- id: whisper-quran
+  name: Whisper Quran
+  type: asr
+  country: INTL
+  org: tarteel-ai
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/tarteel-ai/whisper-base-ar-quran
+  notes: Whisper fine-tuned for Quranic recitation recognition
+- id: whisper-egyptian-arabic
+  name: Whisper Egyptian Arabic
+  type: asr
+  country: INTL
+  org: MAdel121
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MAdel121/whisper-medium-egy
+  notes: Whisper-medium fine-tuned on 72h Egyptian speech
+- id: whisper-arabic-small
+  name: Whisper Arabic (small)
+  type: asr
+  country: INTL
+  org: ayoubkirouane
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/ayoubkirouane/whisper-small-ar
+  notes: Whisper-small fine-tuned for Arabic language
+- id: kalematech-arabic-stt
+  name: KalemaTech Arabic STT
+  type: asr
+  country: INTL
+  org: Salama1429
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small
+  notes: Whisper-small optimized for Arabic STT
+- id: voxtral-mini
+  name: Voxtral Mini
+  type: asr
+  country: INTL
+  org: mistralai
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mistralai/Voxtral-Mini-3B-2507
+  notes: Mistral's speech model, 3B, Arabic support, Apache 2.0
+- id: klaam
+  name: Klaam
+  type: asr
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/ARBML/klaam
+  notes: Arabic ASR/TTS/classification library (MSA + Egyptian)

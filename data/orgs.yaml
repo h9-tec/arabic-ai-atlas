@@ -1,0 +1,732 @@
+- id: aub-mind-lab
+  name: AUB MIND Lab
+  type: org
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/aub-mind
+  notes: Foundational Arabic NLP models - AraBERT, AraGPT2, AraELECTRA
+- id: camel-lab-nyuad
+  name: CAMeL Lab, NYUAD
+  type: org
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/CAMeL-Lab
+  notes: Arabic NLP tools and models - CAMeLBERT, camel_tools
+- id: ubc-nlp
+  name: UBC-NLP
+  type: org
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/UBC-NLP
+  notes: Dialectal Arabic, multimodal models - MARBERT, AraT5, NileChat, PEARL, Dallah
+- id: qcri
+  name: QCRI
+  type: org
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/QCRI
+  notes: Arabic LLMs, text processing - Fanar LLMs, AraDiCE, Farasa
+- id: silma-ai
+  name: SILMA AI
+  type: org
+  country: SA
+  org: SILMA AI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://silma.ai/
+  notes: State-of-the-art Arabic LLMs - SILMA LLMs, Arabic Broad Benchmark
+- id: mbzuai
+  name: MBZUAI
+  type: org
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/MBZUAI
+  notes: Multimodal and speech models - AIN, ArTST, ClArTTS
+- id: arbml
+  name: ARBML
+  type: org
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/ARBML
+  notes: Democratizing Arabic NLP - masader, klaam, tkseem
+- id: namaa-space
+  name: NAMAA-Space
+  type: org
+  country: SA
+  org: NAMAA-Space
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/NAMAA-Space
+  notes: Arabic NLP models & dialect hub - Qari-OCR, EgypTalk-ASR, Masrawy translator, GLiNER Arabic
+- id: itida-mcit-egypt
+  name: ITIDA / MCIT (Egypt)
+  type: org
+  country: EG
+  org: ITIDA / MCIT (Egypt)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://itida.gov.eg/
+  notes: Egypt's national AI, sovereign models - Karnak LLM, BelMasry, Torgoman, SIA, AcQua
+- id: omartificial-intelligence-space
+  name: Omartificial-Intelligence-Space
+  type: org
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space
+  notes: Arabic embedding models - GATE, Matryoshka embeddings
+- id: tii-technology-innovation-institute
+  name: TII (Technology Innovation Institute)
+  type: org
+  country: AE
+  org: TII (Technology Innovation Institute)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.tii.ae/
+  notes: Arabic LLM benchmarks, Falcon - Open Arabic LLM Leaderboard, Falcon LLM
+- id: sdaia-saudi-data-ai-authority
+  name: SDAIA (Saudi Data & AI Authority)
+  type: org
+  country: SA
+  org: SDAIA (Saudi Data & AI Authority)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://sdaia.gov.sa/
+  notes: Sovereign Arabic LLM, national AI strategy - ALLaM model, SADA dataset, BALSAM benchmark
+- id: humain-saudi-pif
+  name: HUMAIN (Saudi PIF)
+  type: org
+  country: SA
+  org: HUMAIN (Saudi PIF)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.humain.com/
+  notes: Full-stack AI company - ALLaM 34B, HUMAIN Chat, AI factories
+- id: kaust
+  name: KAUST
+  type: org
+  country: SA
+  org: KAUST
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://cemse.kaust.edu.sa/
+  notes: AI research, Arabic NLP - Center of Excellence in Generative AI
+- id: kfupm-jrcai
+  name: KFUPM-JRCAI
+  type: org
+  country: SA
+  org: KFUPM-JRCAI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/KFUPM-JRCAI
+  notes: Joint SDAIA-KFUPM AI research - Arabic AI text detection datasets
+- id: prince-sultan-university-riotu
+  name: Prince Sultan University (RIOTU)
+  type: org
+  country: SA
+  org: Prince Sultan University (RIOTU)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/riotu-lab
+  notes: Arabic language models - ArabianGPT, Arabic IoT AI
+- id: sinalab-birzeit-university
+  name: SinaLab, Birzeit University
+  type: org
+  country: INTL
+  org: SinaLab, Birzeit University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/SinaLab
+  notes: Arabic NLP tools and datasets - SinaTools, Wojood NER
+- id: g42-inception-ai
+  name: G42 / Inception AI
+  type: org
+  country: AE
+  org: G42 / Inception AI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.g42.ai/
+  notes: Arabic-centric LLMs - Jais LLM family
+- id: freedomintelligence
+  name: FreedomIntelligence
+  type: org
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/FreedomIntelligence
+  notes: Arabic LLMs and alignment - AceGPT, Arabic cultural datasets
+- id: helsinki-nlp
+  name: Helsinki-NLP
+  type: org
+  country: INTL
+  org: Helsinki-NLP
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/Helsinki-NLP
+  notes: Machine translation models - OPUS-MT Arabic translation models
+- id: lighton-ai
+  name: LightOn AI
+  type: org
+  country: INTL
+  org: LightOn AI
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/lightonai
+  notes: Arabic web data - ArabicWeb24 corpus (39B+ tokens)
+- id: kaust-cemse
+  name: KAUST (CEMSE)
+  type: org
+  country: SA
+  org: KAUST (CEMSE)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://cemse.kaust.edu.sa/
+  notes: Generative AI center, Arabic NLP research, sentiment analysis
+- id: sdaia-kfupm-joint-research-center-jrcai
+  name: SDAIA-KFUPM Joint Research Center (JRCAI)
+  type: org
+  country: SA
+  org: SDAIA-KFUPM Joint Research Center (JRCAI)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/KFUPM-JRCAI
+  notes: Arabic AI text detection, Arabic NLP datasets
+- id: prince-sultan-university-riotu-lab
+  name: Prince Sultan University (RIOTU Lab)
+  type: org
+  country: SA
+  org: Prince Sultan University (RIOTU Lab)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/riotu-lab
+  notes: ArabianGPT, Arabic IoT/robotics AI
+- id: king-saud-university
+  name: King Saud University
+  type: org
+  country: SA
+  org: King Saud University
+  license: cc-by-nc-4.0
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/faisalq/SaudiBERT
+  notes: SaudiBERT, Saudi dialect corpora (STMC, SFC)
+- id: nile-university
+  name: Nile University
+  type: org
+  country: EG
+  org: Nile University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://nu.edu.eg/
+  notes: AI research, M.Sc. in AI co-designed with MIT/IBM
+- id: ain-shams-university
+  name: Ain Shams University
+  type: org
+  country: EG
+  org: Ain Shams University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://cis.asu.edu.eg/
+  notes: Arabic NLP, sentiment analysis, NER research
+- id: camel-lab-nyu-abu-dhabi
+  name: CAMeL Lab (NYU Abu Dhabi)
+  type: org
+  country: AE
+  org: CAMeL Lab (NYU Abu Dhabi)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://camel-lab.com/
+  notes: CAMeLBERT, camel_tools, morphological analysis
+- id: sinalab
+  name: SinaLab
+  type: org
+  country: INTL
+  org: SinaLab
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/SinaLab
+  notes: SinaTools, Wojood NER corpus
+- id: g42
+  name: G42
+  type: org
+  country: AE
+  org: G42
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.g42.ai/
+  notes: AI holding company, Arabic LLMs - Jais LLM, enterprise AI solutions
+- id: inception-ai
+  name: Inception AI
+  type: org
+  country: AE
+  org: Inception AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.g42.ai/
+  notes: Arabic-centric foundation models - Jais model family (with Cerebras)
+- id: technology-innovation-institute-tii
+  name: Technology Innovation Institute (TII)
+  type: org
+  country: AE
+  org: Technology Innovation Institute (TII)
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.tii.ae/
+  notes: Open-source LLMs, research - Falcon LLM family
+- id: saal-ai
+  name: Saal.ai
+  type: org
+  country: AE
+  org: Saal.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://saal.ai/
+  notes: Cognitive AI solutions - Arabic NLP, speech, generative AI
+- id: arabot
+  name: Arabot
+  type: org
+  country: AE
+  org: Arabot
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://arabot.io/
+  notes: Conversational AI for Arabic - Arabic NLP chatbot engine
+- id: arabic-ai-tarjama
+  name: Arabic.AI (Tarjama)
+  type: org
+  country: AE
+  org: Arabic.AI (Tarjama)
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.tarjama.com/
+  notes: Arabic-first autonomous AI - Pronoia Arabic LLM, Agentic AI platform
+- id: sdaia
+  name: SDAIA
+  type: org
+  country: SA
+  org: SDAIA
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://sdaia.gov.sa/
+  notes: Sovereign AI, national data authority - ALLaM model, SADA dataset, NCAI, BALSAM benchmark
+- id: humain
+  name: HUMAIN
+  type: org
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.humain.com/
+  notes: PIF-backed full-stack AI company - ALLaM 34B, HUMAIN Chat, 8PB Arabic training data
+- id: elm
+  name: Elm
+  type: org
+  country: SA
+  org: Elm
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://elm.sa/en/
+  notes: Digital transformation, gov AI (PIF-backed) - Nuha Arabic LLM, legal AI assistant, gov platform
+- id: misraj-ai
+  name: Misraj AI
+  type: org
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://misraj.ai/
+  notes: Arabic-first AI ecosystem - Kawn LLM, Baseer OCR, Mutarjim, Workforces, SeamlessAPI
+- id: mozn
+  name: Mozn
+  type: org
+  country: SA
+  org: Mozn
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.mozn.ai/
+  notes: Enterprise AI, Arabic NLU - OSOS Arabic NLU platform, FOCAL compliance suite
+- id: unifonic
+  name: Unifonic
+  type: org
+  country: SA
+  org: Unifonic
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.unifonic.com/
+  notes: Conversational AI platform - Arabic-first CX Intelligence, AI chatbots
+- id: lucidya
+  name: Lucidya
+  type: org
+  country: SA
+  org: Lucidya
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.lucidya.com/
+  notes: AI customer experience analytics - Arabic social listening, sentiment analysis
+- id: hudhud-ai
+  name: Hudhud AI
+  type: org
+  country: SA
+  org: Hudhud AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://hudhud.ai/
+  notes: Arabic conversational AI (no-code SaaS) - Saudi-accent chatbots, Arabic-first customer engagement
+- id: hazen-ai
+  name: Hazen.ai
+  type: org
+  country: SA
+  org: Hazen.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.hazen.ai/
+  notes: AI traffic safety & computer vision - Deep learning road safety, seatbelt/phone detection
+- id: future-look-itc-flitc
+  name: Future Look ITC (FLITC)
+  type: org
+  country: SA
+  org: Future Look ITC (FLITC)
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://flitc.ai/
+  notes: Arabic-native AI solutions, venture studio - LABEAH, Smart Hire, Rayee Media, Nabadat
+- id: wittify-ai
+  name: Wittify.ai
+  type: org
+  country: SA
+  org: Wittify.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://wittify.ai/
+  notes: Conversational AI for Arabic - Interactive Arabic AI agents
+- id: itida-mcit
+  name: ITIDA / MCIT
+  type: org
+  country: EG
+  org: ITIDA / MCIT
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://itida.gov.eg/
+  notes: National AI authority, sovereign models - Karnak LLM, SIA AI tutor, AcQua NLP, BelMasry, Torgoman
+- id: intella
+  name: Intella
+  type: org
+  country: EG
+  org: Intella
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://intella.ai/
+  notes: Arabic speech AI intelligence - Arabic STT across 25+ dialects (95.7% accuracy), Ziila digital human
+- id: widebot-ai
+  name: WideBot AI
+  type: org
+  country: EG
+  org: WideBot AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://widebot.ai/
+  notes: Arabic-first conversational AI - AQL Arabic LLM, chatbots, voicebots, AI agents
+- id: dxwand
+  name: DXwand
+  type: org
+  country: EG
+  org: DXwand
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://dxwand.com/
+  notes: Generative AI for Arabic business - ORXTRA platform, Arabic dialect chatbots, 20+ LLM support
+- id: crowd-analyzer
+  name: Crowd Analyzer
+  type: org
+  country: EG
+  org: Crowd Analyzer
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://crowdanalyzer.com/
+  notes: Arabic social media monitoring - Arabic NLP analytics, sentiment analysis, media monitoring
+- id: synapse-analytics
+  name: Synapse Analytics
+  type: org
+  country: EG
+  org: Synapse Analytics
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://synapseanalytics.com/
+  notes: AI for financial inclusion - ML-powered credit scoring, Arabic data analytics
+- id: convertedin
+  name: Convertedin
+  type: org
+  country: EG
+  org: Convertedin
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.converted.in/
+  notes: AI marketing automation - Arabic/English e-commerce personalization, $3M funded
+- id: kngine
+  name: Kngine
+  type: org
+  country: EG
+  org: Kngine
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://kngine.com/
+  notes: Semantic search & NLP - Arabic semantic search, data mining, knowledge engine
+- id: monta-ai
+  name: Monta AI
+  type: org
+  country: EG
+  org: Monta AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://monta-ai.com/
+  notes: Enterprise AI solutions - LLM & RAG-based Arabic business automation
+- id: elves
+  name: Elves
+  type: org
+  country: EG
+  org: Elves
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.elves.com/
+  notes: Conversational commerce - Arabic AI-assisted concierge, human-in-the-loop ML
+- id: cohere
+  name: Cohere
+  type: org
+  country: INTL
+  org: Cohere
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://cohere.com/
+  notes: Multilingual LLMs - Command R Arabic, RAG optimization
+- id: mistral-ai
+  name: Mistral AI
+  type: org
+  country: INTL
+  org: Mistral AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://mistral.ai/
+  notes: Multilingual LLMs - Mistral Saba (Arabic-optimized)
+- id: sambanova-systems
+  name: SambaNova Systems
+  type: org
+  country: INTL
+  org: SambaNova Systems
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://sambanova.ai/
+  notes: Arabic language adaptation - SambaLingo Arabic models
+- id: mawdoo3
+  name: Mawdoo3
+  type: org
+  country: JO
+  org: Mawdoo3
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://mawdoo3.com/
+  notes: Arabic AI & content, NLP toolkit - Arabic LLMs, largest Arabic website, Saudi expansion
+- id: maqsam
+  name: Maqsam
+  type: org
+  country: JO
+  org: Maqsam
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://maqsam.com/
+  notes: Arabic speech AI, call center AI - Arabic dialect STT, AI voice bots, surpasses Google/Microsoft

@@ -1,0 +1,636 @@
+- id: arvoice
+  name: ArVoice
+  type: dataset
+  country: AE
+  org: MBZUAI
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ArVoice
+  notes: Multi-speaker MSA corpus, 83h, 11 voices, diacritized
+- id: clartts
+  name: ClArTTS
+  type: dataset
+  country: AE
+  org: MBZUAI
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ClArTTS
+  notes: Classical Arabic TTS corpus by MBZUAI
+- id: arabic-speech-corpus
+  name: Arabic Speech Corpus
+  type: dataset
+  country: INTL
+  org: halabi2016
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/halabi2016/arabic_speech_corpus
+  notes: Nawar Halabi's Levantine Arabic TTS corpus (CC-BY-4.0)
+- id: sawtarabi
+  name: SawtArabi
+  type: dataset
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    website: https://www.isca-archive.org/interspeech_2025/lodagala25_interspeech.pdf
+  notes: First Arabic dialectal + code-switching TTS benchmark
+- id: open-source-arabic-tts-benchmark
+  name: Open-Source Arabic TTS Benchmark
+  type: dataset
+  country: SA
+  org: silma-ai
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/spaces/silma-ai/opensource-arabic-tts-benchmark
+  notes: SILMA AI's auditory assessment benchmark
+- id: sard
+  name: SARD
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: cc-by-nc-nd-4.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/SARD
+  notes: Synthetic Arabic OCR dataset for recognition training
+- id: misraj-dococr-benchmark
+  name: Misraj-DocOCR Benchmark
+  type: dataset
+  country: SA
+  org: Misraj
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/Misraj/Misraj-DocOCR-Benchmark
+  notes: Arabic document OCR evaluation benchmark by Misraj AI
+- id: tashkeela
+  name: Tashkeela
+  type: dataset
+  country: INTL
+  org: Anwarvic
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/Anwarvic/Arabic-Tashkeela-Model
+  notes: Arabic diacritization corpus
+- id: arabic-text-diacritization
+  name: arabic-text-diacritization
+  type: dataset
+  country: INTL
+  org: AliOsm
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/AliOsm/arabic-text-diacritization
+  notes: Benchmark dataset with systems comparison
+- id: qadi
+  name: QADI
+  type: dataset
+  country: INTL
+  org: Abdelrahman-Rezk
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Dialect_Identification
+  notes: Twitter-based multi-class dialect classification
+- id: arabic-pos-dialect
+  name: Arabic POS Dialect
+  type: dataset
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/QCRI/arabic_pos_dialect
+  notes: POS tagging in Arabic dialects
+- id: arabic-dialects-to-msa
+  name: Arabic Dialects to MSA
+  type: dataset
+  country: INTL
+  org: PRAli22
+  license: afl-3.0
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/PRAli22/Arabic_dialects_to_MSA
+  notes: Parallel dialect-MSA corpus
+- id: casablanca
+  name: Casablanca
+  type: dataset
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    paper: https://arxiv.org/abs/2410.04527
+  notes: Multidialectal Arabic speech dataset (NADI 2025)
+- id: masader
+  name: masader
+  type: dataset
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/ARBML/masader
+  notes: Largest public catalogue of Arabic NLP datasets (600+)
+- id: 101-billion-arabic-words
+  name: 101 Billion Arabic Words
+  type: dataset
+  country: INTL
+  org: ClusterlabAi
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/ClusterlabAi/101_billion_arabic_words_dataset
+  notes: Massive Arabic web corpus
+- id: arabicweb24
+  name: ArabicWeb24
+  type: dataset
+  country: INTL
+  org: lightonai
+  license: odc-by
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/lightonai/ArabicWeb24
+  notes: 39B+ tokens of high-quality Arabic web content
+- id: arabictext-large
+  name: ArabicText-Large
+  type: dataset
+  country: INTL
+  org: Jr23xd23
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Jr23xd23/ArabicText-Large
+  notes: 743K articles for LLM training
+- id: arabic-billion-words
+  name: Arabic Billion Words
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/arabic-billion-words
+  notes: 'Abu El-Khair corpus: 5M+ articles, 1.5B+ words'
+- id: arabic-tweets
+  name: Arabic Tweets
+  type: dataset
+  country: INTL
+  org: pain
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/pain/Arabic-Tweets
+  notes: 41GB+ of Arabic tweets (~4B words)
+- id: wojood
+  name: Wojood
+  type: dataset
+  country: INTL
+  org: SinaLab
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/SinaLab/ArabicNER
+  notes: Nested NER corpus (550K tokens)
+- id: cidar
+  name: CIDAR
+  type: dataset
+  country: SA
+  org: arbml
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/arbml/CIDAR
+  notes: Culturally relevant instruction dataset (10K pairs)
+- id: arabic-function-calling
+  name: Arabic_Function_Calling
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/Arabic_Function_Calling
+  notes: First Arabic function calling dataset (50K+ samples)
+- id: arabicaqa
+  name: ArabicaQA
+  type: dataset
+  country: INTL
+  org: DataScienceUIBK
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/DataScienceUIBK/ArabicaQA
+  notes: Large-scale Arabic Question Answering
+- id: mixed-arabic-datasets-mad
+  name: Mixed Arabic Datasets (MAD)
+  type: dataset
+  country: INTL
+  org: M-A-D
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/M-A-D/Mixed-Arabic-Datasets-Repo
+  notes: Community-driven diverse Arabic texts
+- id: arabic-openhermes-2-5
+  name: Arabic-OpenHermes-2.5
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/2A2I/Arabic-OpenHermes-2.5
+  notes: Arabic OpenHermes instruction dataset
+- id: alpaca-arabic-instruct
+  name: Alpaca Arabic Instruct
+  type: dataset
+  country: INTL
+  org: Yasbok
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Yasbok/Alpaca_arabic_instruct
+  notes: Arabic Alpaca instruction dataset
+- id: rasaif
+  name: Rasaif
+  type: dataset
+  country: INTL
+  org: ImruQays
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts
+  notes: Classical Arabic-English parallel texts (24 books)
+- id: shifaa-medical
+  name: Shifaa Medical
+  type: dataset
+  country: INTL
+  org: Ahmed-Selem
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Medical_Consultations
+  notes: Arabic medical consultation dataset
+- id: shifaa-mental-health
+  name: Shifaa Mental Health
+  type: dataset
+  country: INTL
+  org: Ahmed-Selem
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Mental_Health_Consultations
+  notes: Arabic mental health consultations
+- id: arabic-reasoning-dataset
+  name: Arabic Reasoning Dataset
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic_Reasoning_Dataset
+  notes: 9.2K instruction-based reasoning QA pairs
+- id: gazelle
+  name: Gazelle
+  type: dataset
+  country: INTL
+  org: papers
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/papers/2410.18163
+  notes: Arabic writing assistance dataset
+- id: arabic-hate-speech-superset
+  name: arabic-hate-speech-superset
+  type: dataset
+  country: INTL
+  org: manueltonneau
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/manueltonneau/arabic-hate-speech-superset
+  notes: Comprehensive hate speech detection
+- id: arabiccorpus2b
+  name: ArabicCorpus2B
+  type: dataset
+  country: INTL
+  org: tarekeldeeb
+  license: other
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/tarekeldeeb/ArabicCorpus2B
+  notes: 1.9B word Arabic corpus
+- id: the-arabic-e-book-corpus
+  name: The Arabic E-Book Corpus
+  type: dataset
+  country: INTL
+  org: mohres
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/mohres/The_Arabic_E-Book_Corpus
+  notes: 1,745 books (81.5M words)
+- id: barec-corpus
+  name: BAREC Corpus
+  type: dataset
+  country: AE
+  org: CAMeL-Lab
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0
+  notes: Arabic Readability Assessment
+- id: palm
+  name: palm
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-nd-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/palm
+  notes: Human-created Arabic instruction dataset
+- id: dialogue-arabic-dialects
+  name: dialogue-arabic-dialects
+  type: dataset
+  country: INTL
+  org: tareknaous
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/tareknaous/dialogue-arabic-dialects
+  notes: Levantine, Egyptian, Gulf dialect dialogues
+- id: stmc
+  name: STMC
+  type: dataset
+  country: INTL
+  org: faisalq
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/faisalq/STMC
+  notes: Saudi Tweets Mega Corpus (141M+ Saudi dialect tweets)
+- id: kfupm-arabic-ai-text-detection
+  name: KFUPM Arabic AI Text Detection
+  type: dataset
+  country: SA
+  org: KFUPM-JRCAI
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts
+  notes: Machine-generated Arabic text across multiple LLMs
+- id: egyptian-dialogue
+  name: Egyptian Dialogue
+  type: dataset
+  country: INTL
+  org: fr3on
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/fr3on/egyptian-dialogue
+  notes: 4,322 Egyptian Arabic-English parallel pairs from TV subtitles
+- id: nilechat-lhv-egypt
+  name: NileChat LHV-Egypt
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-egy
+  notes: Egyptian dialect dataset for LLM pre-training
+- id: nilechat-arabizi-egypt
+  name: NileChat Arabizi-Egypt
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy
+  notes: Egyptian Arabizi dataset for LLM pre-training
+- id: arabic-english-code-switching
+  name: Arabic-English Code-Switching
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: gpl
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/arabic-english-code-switching
+  notes: Code-switching speech from YouTube
+- id: egyptian-arabic-asr-clean
+  name: Egyptian Arabic ASR Clean
+  type: dataset
+  country: INTL
+  org: MAdel121
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/MAdel121/arabic-egy-cleaned
+  notes: ~72 hours of Egyptian Arabic speech
+- id: madis5
+  name: MADIS5
+  type: dataset
+  country: INTL
+  org: badrex
+  license: cc
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects
+  notes: Spoken Arabic dialects
+- id: sada
+  name: SADA
+  type: dataset
+  country: INTL
+  org: m6011
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/m6011/sada2022
+  notes: 'Saudi Audio Dataset: 668h from 57 TV shows, multi-dialect (SDAIA)'
+- id: sada22-msa
+  name: SADA22 (MSA)
+  type: dataset
+  country: INTL
+  org: badrex
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/badrex/arabic-speech-SADA22-MSA
+  notes: MSA subset of SADA, Khaliji speech
+- id: pearl
+  name: PEARL
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-nd-4.0
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/PEARL
+  notes: Multimodal Culturally-Aware Arabic Instruction Dataset
+- id: arabic-image-captioning-100m
+  name: Arabic-Image-Captioning_100M
+  type: dataset
+  country: SA
+  org: Misraj
+  license: unknown
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/Misraj/Arabic-Image-Captioning_100M
+  notes: 100 million Arabic image captions
+- id: calliar
+  name: Calliar
+  type: dataset
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    github: https://github.com/ARBML/Calliar
+  notes: Online Arabic calligraphy (2500 samples)
+- id: arabic-img2md
+  name: arabic-img2md
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: gpl-3.0
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/arabic-img2md
+  notes: 15K PDF pages paired with Markdown
+- id: arabic-ocr-dataset
+  name: Arabic-OCR-Dataset
+  type: dataset
+  country: INTL
+  org: mssqpi
+  license: unknown
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/mssqpi/Arabic-OCR-Dataset
+  notes: 1M+ Arabic OCR samples
+- id: arabic-vlm-full-pearl
+  name: Arabic-VLM-Full-Pearl
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: vision
+  tasks:
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/Arabic-VLM-Full-Pearl
+  notes: 309K multimodal examples for VLM training

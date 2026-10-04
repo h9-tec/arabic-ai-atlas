@@ -1,0 +1,204 @@
+- id: mteb-arabic-leaderboard
+  name: MTEB Arabic Leaderboard
+  type: benchmark
+  country: INTL
+  org: mteb
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/spaces/mteb/leaderboard
+  notes: Massive Text Embedding Benchmark for Arabic
+- id: arabic-broad-leaderboard-abl
+  name: Arabic Broad Leaderboard (ABL)
+  type: benchmark
+  country: SA
+  org: silma-ai
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/spaces/silma-ai/Arabic-LLM-Broad-Leaderboard
+  notes: NextGen evaluation for Arabic LLMs by SILMA AI
+- id: open-arabic-llm-leaderboard
+  name: Open Arabic LLM Leaderboard
+  type: benchmark
+  country: INTL
+  org: OALL
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard
+  notes: Evaluation of Arabic LLMs across multiple benchmarks
+- id: alue
+  name: ALUE
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    website: https://www.alue.org/
+  notes: Arabic Language Understanding Evaluation benchmark
+- id: balsam
+  name: BALSAM
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    website: https://benchmarks.ksaa.gov.sa/
+  notes: Benchmark of Arabic Language AI Systems and Models
+- id: silma-ragqa-benchmark
+  name: SILMA RAGQA Benchmark
+  type: benchmark
+  country: SA
+  org: silma-ai
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/silma-ai/silma-rag-qa-benchmark-v1.0
+  notes: Evaluates Arabic/English LMs in Extractive QA tasks
+- id: arabic-broad-benchmark-abb
+  name: Arabic Broad Benchmark (ABB)
+  type: benchmark
+  country: SA
+  org: silma-ai
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/silma-ai/arabic-broad-benchmark
+  notes: Comprehensive evaluation tool for Arabic LLMs
+- id: arabicmmlu
+  name: ArabicMMLU
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ArabicMMLU
+  notes: Multi-task language understanding from school exams
+- id: gatmath-and-gatlc
+  name: GATmath and GATLc
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    website: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329129
+  notes: Benchmarks from Saudi GAT exams
+- id: arabicragb
+  name: ArabicRAGB
+  type: benchmark
+  country: INTL
+  org: HeshamHaroon
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB
+  notes: Arabic RAG Benchmark (multi-dialect)
+- id: acva
+  name: ACVA
+  type: benchmark
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/ACVA-Arabic-Cultural-Value-Alignment
+  notes: Arabic Cultural Value Alignment (8000+ questions, 58 areas)
+- id: aradice
+  name: AraDiCE
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2409.11404
+  notes: Benchmarks for dialectal and cultural capabilities of LLMs
+- id: open-universal-arabic-asr-leaderboard
+  name: Open Universal Arabic ASR Leaderboard
+  type: benchmark
+  country: INTL
+  org: elmresearchcenter
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard
+  notes: Multi-dialectal Arabic speech recognition benchmark
+- id: kitab-bench
+  name: KITAB-Bench
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/KITAB-Bench
+  notes: 'Arabic OCR benchmark: 8,809 samples, 9 domains, 36 sub-domains (MBZUAI)'
+- id: nadi-2025
+  name: NADI 2025
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    website: https://nadi.dlnlp.ai/2025/
+  notes: NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR)
+- id: nadi-2024
+  name: NADI 2024
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    paper: https://arxiv.org/abs/2407.04910
+  notes: NADI 2024 - Fifth Nuanced Arabic Dialect Identification
+- id: nadi-shared-tasks
+  name: NADI Shared Tasks
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    website: https://nadi.dlnlp.ai/
+  notes: NADI Shared Tasks - Ongoing series of Arabic DID shared tasks

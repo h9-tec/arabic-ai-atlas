@@ -1,0 +1,144 @@
+- id: facebook-mms-tts-ara
+  name: facebook/mms-tts-ara
+  type: tts
+  country: INTL
+  org: facebook
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/facebook/mms-tts-ara
+  notes: Facebook's Massively Multilingual Speech
+- id: speecht5-tts-clartts-ar
+  name: speecht5_tts_clartts_ar
+  type: tts
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar
+  notes: SpeechT5 for Classical Arabic TTS
+- id: f5-tts-arabic
+  name: F5-TTS-Arabic
+  type: tts
+  country: INTL
+  org: IbrahimSalah
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/IbrahimSalah/F5-TTS-Arabic
+  notes: F5-TTS with regional diversity
+- id: arabic-f5-tts-v2
+  name: Arabic-F5-TTS-v2
+  type: tts
+  country: INTL
+  org: IbrahimSalah
+  license: fair-noncommercial-research-license
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/IbrahimSalah/Arabic-F5-TTS-v2
+  notes: Improved F5-TTS Arabic fine-tune
+- id: arabic-tts-spark
+  name: Arabic-TTS-Spark
+  type: tts
+  country: INTL
+  org: IbrahimSalah
+  license: fair-noncommercial-research-license
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark
+  notes: Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics
+- id: llmvox
+  name: LLMVoX
+  type: tts
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/MBZUAI/LLMVoX
+  notes: 30M streaming TTS for any LLM, first Arabic autoregressive TTS
+- id: xtts-v2
+  name: XTTS-v2
+  type: tts
+  country: INTL
+  org: coqui
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/coqui/XTTS-v2
+  notes: Coqui's multilingual voice cloning, Arabic support, 6s cloning
+- id: arabic-mms-speech-synthesis
+  name: Arabic MMS Speech Synthesis
+  type: tts
+  country: INTL
+  org: SeyedAli
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/SeyedAli/Arabic-Speech-synthesis-MMS
+  notes: VITS-based Arabic TTS from MMS (36M params)
+- id: tts-arabic-pytorch
+  name: tts-arabic-pytorch
+  type: tts
+  country: INTL
+  org: nipponjo
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/nipponjo/tts-arabic-pytorch
+  notes: Tacotron2 + FastPitch + HiFi-GAN for Arabic
+- id: tts-arabic-onnx
+  name: tts_arabic (ONNX)
+  type: tts
+  country: INTL
+  org: nipponjo
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/nipponjo/tts_arabic
+  notes: FastPitch + Mixer-TTS in ONNX for offline Arabic TTS
+- id: arabic-tacotron-tts
+  name: Arabic Tacotron TTS
+  type: tts
+  country: INTL
+  org: yoosif0
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/yoosif0/arabic-tacotron-tts
+  notes: End-to-end Arabic TTS based on Tacotron
+- id: piper-tts
+  name: Piper TTS
+  type: tts
+  country: INTL
+  org: rhasspy
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/rhasspy/piper
+  notes: Fast local neural TTS, Arabic voices available

@@ -1,0 +1,72 @@
+- id: gate-arabert-v1
+  name: GATE-AraBert-v1
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v1
+  notes: SOTA on MTEB Arabic STS
+- id: arabic-triplet-matryoshka-v2
+  name: Arabic-Triplet-Matryoshka-V2
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2
+  notes: Matryoshka representation
+- id: swan
+  name: Swan
+  type: embedding
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2411.01192
+  notes: Dialect-aware, cross-lingual
+- id: asafaya-bert-base-arabic
+  name: asafaya/bert-base-arabic
+  type: embedding
+  country: INTL
+  org: asafaya
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/asafaya/bert-base-arabic
+  notes: BERT-based Arabic embeddings
+- id: modernbert-arabic
+  name: ModernBERT-Arabic
+  type: embedding
+  country: INTL
+  org: BounharAbdelaziz
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/BounharAbdelaziz/ModernBERT-Arabic-Embeddings
+  notes: ModernBERT-based sentence embeddings
+- id: dimi-embedding
+  name: DIMI-embedding
+  type: embedding
+  country: INTL
+  org: AhmedZaky1
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/AhmedZaky1/DIMI-embedding-matryoshka-arabic
+  notes: Matryoshka + AraBERT for NLI

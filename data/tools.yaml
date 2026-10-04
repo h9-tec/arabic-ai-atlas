@@ -1,0 +1,252 @@
+- id: paddleocr
+  name: PaddleOCR
+  type: tool
+  country: INTL
+  org: PaddlePaddle
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/PaddlePaddle/PaddleOCR
+  notes: High-performance multilingual OCR with Arabic support
+- id: easyocr
+  name: EasyOCR
+  type: tool
+  country: INTL
+  org: JaidedAI
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/JaidedAI/EasyOCR
+  notes: Ready-to-use OCR with Arabic support (80+ languages)
+- id: tesseract-ocr
+  name: Tesseract OCR
+  type: tool
+  country: INTL
+  org: tesseract-ocr
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/tesseract-ocr/tesseract
+  notes: Open-source OCR engine with Arabic language packs
+- id: catt
+  name: CATT
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    paper: https://arxiv.org/abs/2407.03236
+  notes: Character-based Tashkeel Transformer, SOTA results
+- id: fine-tashkeel
+  name: Fine-Tashkeel
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    website: https://www.researchgate.net/publication/372616004
+  notes: Fine-tuned ByT5, 40% WER reduction
+- id: sadeed
+  name: Sadeed
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    paper: https://arxiv.org/abs/2504.21635
+  notes: Small language model for diacritization
+- id: shakkala
+  name: Shakkala
+  type: tool
+  country: INTL
+  org: AliOsm
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/AliOsm/shakkelha
+  notes: Neural vocalization using bidirectional LSTM
+- id: mishkal
+  name: Mishkal
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/linuxscout/mishkal
+  notes: Rule-based diacritizer with dictionary lookups
+- id: camel-tools
+  name: camel_tools
+  type: tool
+  country: AE
+  org: CAMeL-Lab
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/CAMeL-Lab/camel_tools
+  notes: Suite of Arabic NLP tools (morphology, POS, NER, etc.)
+- id: farasa
+  name: Farasa
+  type: tool
+  country: QA
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    website: https://farasa.qcri.org/
+  notes: Fast and accurate Arabic text processing toolkit
+- id: sinatools
+  name: SinaTools
+  type: tool
+  country: INTL
+  org: SinaLab
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/SinaLab/sinatools
+  notes: Open source toolkit by SinaLab (Python APIs, CLI)
+- id: qalsadi
+  name: Qalsadi
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/linuxscout/qalsadi
+  notes: Arabic morphological analyzer and lemmatizer
+- id: pyarabic
+  name: PyArabic
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/linuxscout/pyarabic
+  notes: Python package for Arabic text manipulation
+- id: tnkeeh
+  name: tnkeeh
+  type: tool
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/ARBML/tnkeeh
+  notes: Arabic text cleaning, normalization, preprocessing
+- id: maha
+  name: Maha
+  type: tool
+  country: INTL
+  org: TRoboto
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/TRoboto/Maha
+  notes: Text processing library for Arabic text
+- id: arabicprocess
+  name: arabicprocess
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    website: https://pypi.org/project/arabicprocess/
+  notes: Python library for Arabic preprocessing
+- id: madamira
+  name: MADAMIRA
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    website: https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/research/morphological-analysis-of-arabic.html
+  notes: Morphological analysis, diacritization, POS tagging
+- id: tkseem
+  name: tkseem
+  type: tool
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/ARBML/tkseem
+  notes: Arabic Tokenization
+- id: arabic-stop-words
+  name: arabic-stop-words
+  type: tool
+  country: INTL
+  org: mohataher
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/mohataher/arabic-stop-words
+  notes: Largest list of Arabic stop words
+- id: qawafi
+  name: qawafi
+  type: tool
+  country: INTL
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/ARBML/qawafi
+  notes: Arabic poetry analysis
+- id: arabic-vocalizer
+  name: arabic_vocalizer
+  type: tool
+  country: INTL
+  org: nipponjo
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/nipponjo/arabic_vocalizer
+  notes: Deep-learning diacritization (ONNX format)

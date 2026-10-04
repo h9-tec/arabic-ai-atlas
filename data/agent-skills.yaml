@@ -1,0 +1,78 @@
+- id: turath-mcp
+  name: turath-mcp
+  type: agent-skill
+  country: INTL
+  org: opin22
+  license: mit
+  modality: none
+  tasks:
+  - mcp
+  - retrieval
+  links:
+    github: https://github.com/opin22/turath-mcp
+  notes: 'MCP server for turath.io: classical Arabic and Islamic books'
+- id: quran-mcp
+  name: quran-mcp
+  type: agent-skill
+  country: INTL
+  org: quran
+  license: unknown
+  modality: none
+  tasks:
+  - mcp
+  - retrieval
+  links:
+    github: https://github.com/quran/quran-mcp
+  notes: MCP server giving AI assistants grounded access to Quran text
+- id: arabic-bidi-engineering
+  name: arabic-bidi-engineering
+  type: agent-skill
+  country: INTL
+  org: MosaabGalmod
+  license: mit
+  modality: none
+  tasks:
+  - skill
+  - rtl
+  links:
+    github: https://github.com/MosaabGalmod/arabic-bidi-engineering
+  notes: Agent skill for correct Arabic RTL/BiDi in chat, terminal and documents
+- id: rtl-skill
+  name: rtl-skill
+  type: agent-skill
+  country: INTL
+  org: mhamedmohammed92-arch
+  license: mit
+  modality: none
+  tasks:
+  - skill
+  - rtl
+  links:
+    github: https://github.com/mhamedmohammed92-arch/rtl-skill
+  notes: Teaches coding agents to build correct RTL UIs with a checker
+- id: awesome-arabic-claude-skills
+  name: awesome-arabic-claude-skills
+  type: agent-skill
+  country: INTL
+  org: EngDawood
+  license: mit
+  modality: none
+  tasks:
+  - skill
+  - curated-list
+  links:
+    github: https://github.com/EngDawood/awesome-arabic-claude-skills
+  notes: Curated library of open-source Arabic skills for Claude Code and agents
+- id: karem-arabic-presentation
+  name: karem-arabic-presentation
+  type: agent-skill
+  country: INTL
+  org: karem505
+  license: mit
+  modality: none
+  tasks:
+  - skill
+  - presentation
+  links:
+    github: https://github.com/karem505/karem-arabic-presentation
+  notes: Claude Code skill for Arabic/English bilingual RTL HTML presentations

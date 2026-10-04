@@ -41,3 +41,30 @@ def test_slugify_and_dedupe(capsys):
     kept = dedupe([{"id": "a", "n": 1}, {"id": "a", "n": 2}, {"id": "b", "n": 3}])
     assert [e["n"] for e in kept] == [1, 3]
     assert "a" in capsys.readouterr().err
+
+
+SCRIPT = Path(__file__).resolve().parent.parent / "scripts" / "seed_from_awesome.py"
+SAMPLE = Path(__file__).parent / "fixtures" / "awesome_sample.md"
+
+
+def _run(out: Path, *extra: str):
+    import subprocess
+    import sys
+    return subprocess.run([sys.executable, str(SCRIPT), "--src", str(SAMPLE), "--out", str(out), *extra],
+                          capture_output=True, text=True)
+
+
+def test_script_refuses_to_overwrite_curated_data(tmp_path):
+    target = tmp_path / "llms.yaml"
+    target.write_text("- id: keep-me\n", encoding="utf-8")
+    r = _run(tmp_path)
+    assert r.returncode == 2 and "--force" in r.stderr
+    assert target.read_text(encoding="utf-8") == "- id: keep-me\n"
+
+
+def test_script_force_overwrites(tmp_path):
+    target = tmp_path / "llms.yaml"
+    target.write_text("- id: keep-me\n", encoding="utf-8")
+    r = _run(tmp_path, "--force")
+    assert r.returncode == 0
+    assert "id: jais" in target.read_text(encoding="utf-8")

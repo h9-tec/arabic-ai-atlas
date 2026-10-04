@@ -777,6 +777,7 @@
   modality: text
   tasks:
   - task-specific
+  - translation
   links:
     hf: https://huggingface.co/Helsinki-NLP/opus-mt-en-ar
   notes: Translation EN→AR - Helsinki-NLP (3.5M+ downloads)
@@ -789,6 +790,7 @@
   modality: text
   tasks:
   - task-specific
+  - translation
   links:
     hf: https://huggingface.co/Helsinki-NLP/opus-mt-ar-en
   notes: Translation AR→EN - Helsinki-NLP (12.4M+ downloads)

@@ -30,7 +30,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", type=Path, default=Path("~/Awesome_Arabic_NLP/README.md"))
     ap.add_argument("--out", type=Path, default=Path("data"))
+    ap.add_argument("--force", action="store_true", help="overwrite non-empty data files")
     args = ap.parse_args()
+    if not args.force:
+        for fname in FILES.values():
+            path = args.out / fname
+            if path.exists() and yaml.safe_load(path.read_text(encoding="utf-8")):
+                print(f"refusing to overwrite curated {path}; pass --force to override", file=sys.stderr)
+                sys.exit(2)
     entries = dedupe(parse_tables(args.src.expanduser().read_text(encoding="utf-8")))
     args.out.mkdir(parents=True, exist_ok=True)
     for typ, fname in FILES.items():

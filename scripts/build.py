@@ -75,6 +75,8 @@ def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]
         outputs["README.md"] = render_readme(merged, template, date, skills)
     if render_svg:
         outputs["assets/map.svg"] = render_svg(merged, date)
+    from atlas.render_geo import render_geo_svg
+    outputs["assets/geo.svg"] = render_geo_svg(merged, date)
     return outputs
 
 

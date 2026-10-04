@@ -1,6 +1,7 @@
 """Build CLI: validate, enrich, build, all."""
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -50,18 +51,18 @@ def cmd_enrich(entries: list[dict], data: Path, date: str) -> int:
     return 0
 
 
-def cmd_build(entries: list[dict], data: Path, out: Path, date: str) -> int:
+def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]:
+    """Render every generated file in memory, keyed by path relative to --out."""
     merged = merge_metrics(entries, _load_cache(data))
-    dist = out / "dist"
-    dist.mkdir(parents=True, exist_ok=True)
     doc = build_atlas_json(merged, date)
-    (dist / "atlas.json").write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    (dist / "llms.txt").write_text(build_llms_txt(merged, date), encoding="utf-8")
-
+    outputs = {
+        "dist/atlas.json": json.dumps(doc, indent=2, ensure_ascii=False) + "\n",
+        "dist/llms.txt": build_llms_txt(merged, date),
+    }
     # README and map renderers arrive in later tasks; wire them in only when the
     # modules exist so those tasks need not touch this file.
     try:
-        from atlas.render_readme import render_readme
+        from atlas.render_readme import load_shipped_skills, render_readme
     except ImportError:
         render_readme = None
     try:
@@ -69,16 +70,47 @@ def cmd_build(entries: list[dict], data: Path, out: Path, date: str) -> int:
     except ImportError:
         render_svg = None
     if render_readme:
-        from atlas.render_readme import load_shipped_skills
-
         template = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
         skills = load_shipped_skills(ROOT / "skills")
-        (out / "README.md").write_text(render_readme(merged, template, date, skills), encoding="utf-8")
+        outputs["README.md"] = render_readme(merged, template, date, skills)
     if render_svg:
-        (out / "assets").mkdir(parents=True, exist_ok=True)
-        (out / "assets" / "map.svg").write_text(render_svg(merged, date), encoding="utf-8")
-    print(f"built {doc['count']} entries into {dist}")
+        outputs["assets/map.svg"] = render_svg(merged, date)
+    return outputs
+
+
+def cmd_build(entries: list[dict], data: Path, out: Path, date: str) -> int:
+    outputs = render_outputs(entries, data, date)
+    for rel, text in outputs.items():
+        path = out / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+    print(f"built {len(outputs)} files into {out}")
     return 0
+
+
+_DATE = re.compile(r"\d{4}-{1,2}\d{2}-{1,2}\d{2}")  # 2026-10-04 and badge form 2026--10--04
+
+
+def _comparable(rel: str, text: str) -> object:
+    """Normalize a file so only date-independent content is compared."""
+    if rel.endswith(".json"):
+        doc = json.loads(text)
+        doc.pop("generated_at", None)
+        return doc
+    return [line for line in text.splitlines() if not _DATE.search(line)]
+
+
+def cmd_check(entries: list[dict], data: Path, out: Path, date: str) -> int:
+    drifted = []
+    for rel, text in render_outputs(entries, data, date).items():
+        path = out / rel
+        if not path.exists() or _comparable(rel, path.read_text(encoding="utf-8")) != _comparable(rel, text):
+            drifted.append(rel)
+    for rel in drifted:
+        print(f"drift: {rel}", file=sys.stderr)
+    if not drifted:
+        print("generated files are up to date")
+    return 1 if drifted else 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -87,6 +119,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--data", default="data")
     p.add_argument("--out", default=".")
     p.add_argument("--date", default=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    p.add_argument("--check", action="store_true", help="build: compare generated files with disk, write nothing, exit 1 on drift")
     p.add_argument("--skip-enrich", action="store_true", help="build/all: use the cached HF metrics as is")
     args = p.parse_args(argv)
     data, out = Path(args.data), Path(args.out)
@@ -97,6 +130,10 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "validate":
         print(f"{len(entries)} entries valid")
         return 0
+    if args.check:
+        if args.command != "build":
+            p.error("--check only works with the build command")
+        return cmd_check(entries, data, out, args.date)
     if args.command == "enrich" or (args.command == "all" and not args.skip_enrich):
         cmd_enrich(entries, data, args.date)
     if args.command in ("build", "all"):

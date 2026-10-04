@@ -32,3 +32,18 @@ def test_cli_build_writes_dist(tmp_path):
     assert doc["count"] == 6
     assert doc["generated_at"] == "2026-10-04"
     assert (tmp_path / "dist" / "llms.txt").exists()
+
+
+def test_cli_check_detects_drift(tmp_path):
+    build = run("build", "--skip-enrich", "--date", "2026-10-04", "--data", FIX, "--out", str(tmp_path))
+    assert build.returncode == 0, build.stderr
+    ok = run("build", "--check", "--skip-enrich", "--date", "2026-10-04", "--data", FIX, "--out", str(tmp_path))
+    assert ok.returncode == 0, ok.stderr
+    # a different date alone is not drift
+    redated = run("build", "--check", "--skip-enrich", "--date", "1999-01-01", "--data", FIX, "--out", str(tmp_path))
+    assert redated.returncode == 0, redated.stderr
+    readme = tmp_path / "README.md"
+    readme.write_text(readme.read_text(encoding="utf-8") + "x", encoding="utf-8")
+    bad = run("build", "--check", "--skip-enrich", "--date", "2026-10-04", "--data", FIX, "--out", str(tmp_path))
+    assert bad.returncode == 1
+    assert "README.md" in bad.stderr

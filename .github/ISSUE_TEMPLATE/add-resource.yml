@@ -1,0 +1,42 @@
+name: Add a resource
+description: Suggest an Arabic AI model, dataset, tool, or other resource for the atlas
+title: "Add: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [llm, asr, tts, ocr, embedding, dataset, tool, benchmark, org, agent-skill]
+    validations:
+      required: true
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country of the maintaining organization
+      options: [SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, INTL]
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The authoritative page (Hugging Face, GitHub, paper, or website).
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs in the atlas
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX id, or leave empty if unknown.

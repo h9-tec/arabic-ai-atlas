@@ -21,6 +21,8 @@ claude plugin marketplace add h9-tec/arabic-ai-atlas
 claude plugin install arabic-ai-atlas@arabic-ai-atlas
 ```
 
+Requires [uv](https://docs.astral.sh/uv/) on PATH.
+
 Then ask Claude: *which open Arabic TTS runs on a phone?* It answers from this atlas via the `recommend` MCP tool.
 
 <details>
@@ -29,7 +31,7 @@ Then ask Claude: *which open Arabic TTS runs on a phone?* It answers from this a
 Add this to your `.mcp.json`:
 
 ```json
-{"mcpServers": {"arabic-ai-atlas": {"command": "uv", "args": ["run", "--directory", "/path/to/arabic-ai-atlas", "python", "mcp/server.py"]}}}
+{"mcpServers": {"arabic-ai-atlas": {"command": "uv", "args": ["run", "--frozen", "--no-dev", "--directory", "/path/to/arabic-ai-atlas", "python", "mcp/server.py"]}}}
 ```
 
 </details>
@@ -104,7 +106,7 @@ Other Arabic agent skills in the wild:
 ## 🤝 Contributing
 
 1. Edit the YAML in `data/`.
-2. Run `uv run python scripts/build.py all`.
+2. Run `uv run python scripts/build.py build` (it uses the committed Hugging Face cache; the nightly job refreshes metrics).
 3. Open a PR.
 
 CI rejects hand edits to `README.md`, `assets/` and `dist/`.

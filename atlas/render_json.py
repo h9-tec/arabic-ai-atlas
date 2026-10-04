@@ -1,6 +1,8 @@
 """Machine-readable outputs: dist/atlas.json and dist/llms.txt."""
 
 LINK_ORDER = ("hf", "github", "paper", "website")
+REPO_URL = "https://github.com/h9-tec/arabic-ai-atlas"
+ATLAS_JSON_URL = "https://raw.githubusercontent.com/h9-tec/arabic-ai-atlas/main/dist/atlas.json"
 MAX_PER_SECTION = 25
 SECTIONS = (
     ("Models", ("llm", "asr", "tts", "ocr", "embedding")),
@@ -49,5 +51,11 @@ def build_llms_txt(merged: list[dict], generated_at: str) -> str:
             head = f"[{e['name']}]({link})" if link else e["name"]
             notes = (e.get("notes") or "").strip()
             lines.append(f"- {head}: {notes}" if notes else f"- {head}")
-    lines += ["", "## Optional", "", "- [Full dataset (JSON)](dist/atlas.json): every entry with metadata and metrics"]
+    lines += [
+        "",
+        "## Optional",
+        "",
+        f"- [Full dataset (JSON)]({ATLAS_JSON_URL}): every entry with metadata and metrics",
+        f"- [README]({REPO_URL}#readme): the human-readable atlas with every table",
+    ]
     return "\n".join(lines) + "\n"

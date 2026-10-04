@@ -30,8 +30,8 @@ COLUMNS = [
     ("EG", FLAGS["EG"], "Egypt"),
     ("QA", FLAGS["QA"], "Qatar"),
     ("MA", FLAGS["MA"], "Morocco"),
-    ("OTHER", "🌍", "Other"),
-    ("INTL", "🌐", "International"),
+    ("OTHER", "🌐", "Other"),
+    ("INTL", FLAGS["INTL"], "International"),
 ]
 OTHER = {"JO", "TN", "LB", "KW", "OM", "BH"}
 BANDS = [
@@ -54,7 +54,7 @@ ANCHORS = {
 COLORS = {
     "llm": "#4F46E5", "asr": "#0891B2", "tts": "#0E7490", "ocr": "#B45309",
     "embedding": "#7C3AED", "tool": "#475569", "benchmark": "#B91C1C",
-    "dataset": "#047857", "more": "#9CA3AF",
+    "dataset": "#047857", "more": "#6B7280",
 }
 LEGEND = [("llm", "LLM"), ("asr", "ASR"), ("tts", "TTS"), ("ocr", "OCR"),
           ("embedding", "Embedding"), ("tool", "Tool"), ("benchmark", "Benchmark"), ("dataset", "Dataset")]

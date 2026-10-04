@@ -51,3 +51,12 @@ def test_skills_frontmatter():
 def test_mcp_json_names_server():
     cfg = _load(".mcp.json")
     assert "arabic-ai-atlas" in cfg["mcpServers"]
+    srv = cfg["mcpServers"]["arabic-ai-atlas"]
+    assert srv["command"] == "uv"
+    assert srv["args"] == ["run", "--frozen", "--no-dev", "--directory", "${CLAUDE_PLUGIN_ROOT}", "python", "mcp/server.py"]
+
+
+def test_readme_template_states_uv_requirement_and_snippet():
+    tmpl = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
+    assert "Requires [uv](https://docs.astral.sh/uv/) on PATH." in tmpl
+    assert '"run", "--frozen", "--no-dev", "--directory", "/path/to/arabic-ai-atlas"' in tmpl

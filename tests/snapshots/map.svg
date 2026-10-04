@@ -27,7 +27,7 @@ a:hover .n { opacity: 0.85; }
 .tool { fill: #475569; }
 .benchmark { fill: #B91C1C; }
 .dataset { fill: #047857; }
-.more { fill: #9CA3AF; }
+.more { fill: #6B7280; }
 </style>
 <rect class="bg" x="0" y="0" width="1600" height="438"/>
 <rect class="band" x="40" y="132" width="1520" height="50"/>
@@ -75,9 +75,9 @@ a:hover .n { opacity: 0.85; }
 <text class="colsub" x="789.4" y="122" text-anchor="middle">Qatar · 0</text>
 <text class="colhead" x="960.6" y="105" text-anchor="middle">🇲🇦 MA</text>
 <text class="colsub" x="960.6" y="122" text-anchor="middle">Morocco · 0</text>
-<text class="colhead" x="1131.9" y="105" text-anchor="middle">🌍 OTHER</text>
+<text class="colhead" x="1131.9" y="105" text-anchor="middle">🌐 OTHER</text>
 <text class="colsub" x="1131.9" y="122" text-anchor="middle">Other · 0</text>
-<text class="colhead" x="1388.8" y="105" text-anchor="middle">🌐 INTL</text>
+<text class="colhead" x="1388.8" y="105" text-anchor="middle">🌍 INTL</text>
 <text class="colsub" x="1388.8" y="122" text-anchor="middle">International · 3</text>
 <text class="bandlabel" x="54" y="154">LLMs</text>
 <text class="bandsub" x="54" y="170">3 entries</text>

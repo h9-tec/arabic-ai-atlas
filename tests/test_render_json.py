@@ -27,7 +27,10 @@ def test_llms_txt_has_sections_and_links(fixture_entries):
     assert "## Models" in txt
     assert "## Datasets" in txt
     assert "https://huggingface.co/inceptionai/jais-30b-v3" in txt
-    assert "## Optional" in txt and "dist/atlas.json" in txt
+    assert "## Optional" in txt
+    assert "(https://raw.githubusercontent.com/h9-tec/arabic-ai-atlas/main/dist/atlas.json)" in txt
+    assert "(https://github.com/h9-tec/arabic-ai-atlas#readme)" in txt
+    assert "](dist/" not in txt  # relative links 404 when llms.txt is fetched raw
     assert "## Organizations" not in txt
 
 

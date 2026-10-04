@@ -72,3 +72,10 @@ def test_svg_has_dark_mode_media_query(fixture_entries):
     assert "@media (prefers-color-scheme: dark)" in svg
     assert "#0D1117" in svg and "#FFFFFF" in svg
     assert 'class="bg"' in svg
+
+
+def test_more_node_contrast_and_intl_symbol(fixture_entries):
+    svg = render_svg(_merged(fixture_entries), "2026-10-04")
+    assert ".more { fill: #6B7280; }" in svg  # white label needs >= 4.5:1
+    assert "🌍 INTL</text>" in svg  # same globe as the README country column
+    assert "🌐 OTHER</text>" in svg

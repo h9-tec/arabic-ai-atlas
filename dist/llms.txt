@@ -4,71 +4,72 @@
 
 ## Models
 
-- [AceGPT](https://github.com/FreedomIntelligence/AceGPT): Top performance, culturally aligned
-- [AIN](https://github.com/mbzuai-oryx/AIN): Arabic-centric Large Multimodal Model
-- [ALLaM](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview): Saudi's sovereign model, enterprise-focused
-- [ALLaM 34B](https://www.humain.com/en/news/humain-chat-launch): Most advanced Arabic LLM, 8PB training data, powers HUMAIN Chat
-- [ALLaM-2](https://huggingface.co/ALLaM-AI): 500B+ Arabic tokens, largest Arabic training set
-- [Ar-stablelm-2-chat](https://huggingface.co/stabilityai/stablelm-2-1_6b-chat): Small Arabic chat model
-- [AraBERT](https://github.com/aub-mind/arabert): First BERT for Arabic, multiple versions
+- [XTTS-v2](https://huggingface.co/coqui/XTTS-v2): Coqui's multilingual voice cloning, Arabic support, 6s cloning
+- [whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo): 4x faster Whisper, Arabic support, MIT license
+- [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3): Supports Arabic among many languages
+- [wav2vec2-large-xlsr-53-arabic](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic): Fine-tuned on Common Voice & Arabic Speech Corpus
 - [AraBERTv02](https://huggingface.co/aubmindlab/bert-base-arabertv02): Improved tokenization (135M params, 12M+ downloads)
-- [ArabianGPT](https://huggingface.co/riotu-lab/ArabianGPT-01B): GPT-2 for Arabic, RIOTU Lab
-- [Arabic MMS Speech Synthesis](https://huggingface.co/SeyedAli/Arabic-Speech-synthesis-MMS): VITS-based Arabic TTS from MMS (36M params)
-- [Arabic Tacotron TTS](https://github.com/yoosif0/arabic-tacotron-tts): End-to-end Arabic TTS based on Tacotron
-- [Arabic-English-handwritten-OCR-v3](https://huggingface.co/sherif1313/Arabic-English-handwritten-OCR-v3): Qwen2.5-VL-3B, trained on 47K handwriting samples
-- [Arabic-F5-TTS-v2](https://huggingface.co/IbrahimSalah/Arabic-F5-TTS-v2): Improved F5-TTS Arabic fine-tune
-- [arabic-gec-v1](https://huggingface.co/alnnahwi/gemma-3-1b-arabic-gec-v1): Grammar Correction - Gemma-3-1b for Arabic GEC
-- [arabic-large-nougat](https://huggingface.co/MohamedRashad/arabic-large-nougat): End-to-end structured OCR for Arabic documents
-- [arabic-small-nougat](https://huggingface.co/MohamedRashad/arabic-small-nougat): Smaller Nougat variant for Arabic document OCR
-- [Arabic-Text-Correction](https://huggingface.co/SuperSl6/Arabic-Text-Correction): Text Correction - AraT5-based text correction
+- [Phi-4](https://huggingface.co/microsoft/phi-4): Multilingual with Arabic, compact & efficient
+- [Llama 3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct): Strong Arabic performance
+- [MMS-1b-all](https://huggingface.co/facebook/mms-1b-all): Meta's Massively Multilingual Speech, ASR for 1100+ languages
+- [SeamlessM4T v2](https://huggingface.co/facebook/seamless-m4t-v2-large): Meta's all-in-one ASR + translation, ~100 languages inc. Arabic
+- [Voxtral Mini](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507): Mistral's speech model, 3B, Arabic support, Apache 2.0
+- [opus-mt-ar-en](https://huggingface.co/Helsinki-NLP/opus-mt-ar-en): Translation AR→EN - Helsinki-NLP (12.4M+ downloads)
+- [MARBERTv2](https://huggingface.co/UBC-NLP/MARBERTv2): Updated with improved dialectal coverage
+- [opus-mt-en-ar](https://huggingface.co/Helsinki-NLP/opus-mt-en-ar): Translation EN→AR - Helsinki-NLP (3.5M+ downloads)
+- [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
+- [GATE-AraBert-v1](https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v1): SOTA on MTEB Arabic STS
+- [asafaya/bert-base-arabic](https://huggingface.co/asafaya/bert-base-arabic): BERT-based Arabic embeddings
+- [Fanar-1-9B](https://huggingface.co/QCRI/Fanar-1-9B-Instruct): Arabic-English LLM
+- [Falcon Arabic](https://huggingface.co/tiiuae/Falcon3-7B-Instruct): First Arabic model in Falcon series, top of OALL
+- [ALLaM](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview): Saudi's sovereign model, enterprise-focused
 - [Arabic-Triplet-Matryoshka-V2](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2): Matryoshka representation
-- [Arabic-TTS-Spark](https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark): Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics
-- [AraELECTRA](https://huggingface.co/aubmindlab/araelectra-base-discriminator): ELECTRA for Arabic
-- [AraGPT2](https://huggingface.co/aubmindlab/aragpt2-mega): GPT-2 for Arabic text generation
-- [AraLLaMA](https://huggingface.co/bashar-talafha/AraLLaMA): LLaMA2 pre-trained on Arabic data
+- [facebook/mms-tts-ara](https://huggingface.co/facebook/mms-tts-ara): Facebook's Massively Multilingual Speech
 - [AraT5](https://huggingface.co/UBC-NLP/AraT5-base): T5 for Arabic summarization, translation, paraphrasing
-- [arat5-dialects-translation](https://huggingface.co/PRAli22/arat5-arabic-dialects-translation): Dialect→MSA - AraT5 dialect translation
-- [Arcee-Meraj](https://huggingface.co/arcee-ai/Arcee-Meraj): Enterprise Arabic LLM based on Qwen2-72B
+- [Ar-stablelm-2-chat](https://huggingface.co/stabilityai/stablelm-2-1_6b-chat): Small Arabic chat model
+- [AraELECTRA](https://huggingface.co/aubmindlab/araelectra-base-discriminator): ELECTRA for Arabic
+- [Cohere Command-A](https://huggingface.co/CohereForAI/c4ai-command-a-03-2025): Optimized for RAG
 
 ## Datasets
 
+- [SARD](https://huggingface.co/datasets/riotu-lab/SARD): Synthetic Arabic OCR dataset for recognition training
+- [Mixed Arabic Datasets (MAD)](https://huggingface.co/datasets/M-A-D/Mixed-Arabic-Datasets-Repo): Community-driven diverse Arabic texts
 - [101 Billion Arabic Words](https://huggingface.co/datasets/ClusterlabAi/101_billion_arabic_words_dataset): Massive Arabic web corpus
-- [Alpaca Arabic Instruct](https://huggingface.co/datasets/Yasbok/Alpaca_arabic_instruct): Arabic Alpaca instruction dataset
-- [Arabic Billion Words](https://huggingface.co/datasets/MohamedRashad/arabic-billion-words): Abu El-Khair corpus: 5M+ articles, 1.5B+ words
-- [Arabic Dialects to MSA](https://huggingface.co/datasets/PRAli22/Arabic_dialects_to_MSA): Parallel dialect-MSA corpus
-- [Arabic POS Dialect](https://huggingface.co/datasets/QCRI/arabic_pos_dialect): POS tagging in Arabic dialects
-- [Arabic Reasoning Dataset](https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic_Reasoning_Dataset): 9.2K instruction-based reasoning QA pairs
+- [arabic-img2md](https://huggingface.co/datasets/MohamedRashad/arabic-img2md): 15K PDF pages paired with Markdown
+- [ArVoice](https://huggingface.co/datasets/MBZUAI/ArVoice): Multi-speaker MSA corpus, 83h, 11 voices, diacritized
+- [ArabicText-Large](https://huggingface.co/datasets/Jr23xd23/ArabicText-Large): 743K articles for LLM training
+- [ClArTTS](https://huggingface.co/datasets/MBZUAI/ClArTTS): Classical Arabic TTS corpus by MBZUAI
+- [Egyptian Arabic ASR Clean](https://huggingface.co/datasets/MAdel121/arabic-egy-cleaned): ~72 hours of Egyptian Arabic speech
+- [Arabic-OpenHermes-2.5](https://huggingface.co/datasets/2A2I/Arabic-OpenHermes-2.5): Arabic OpenHermes instruction dataset
+- [CIDAR](https://huggingface.co/datasets/arbml/CIDAR): Culturally relevant instruction dataset (10K pairs)
+- [Arabic-VLM-Full-Pearl](https://huggingface.co/datasets/MohamedRashad/Arabic-VLM-Full-Pearl): 309K multimodal examples for VLM training
 - [Arabic Speech Corpus](https://huggingface.co/datasets/halabi2016/arabic_speech_corpus): Nawar Halabi's Levantine Arabic TTS corpus (CC-BY-4.0)
+- [Shifaa Medical](https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Medical_Consultations): Arabic medical consultation dataset
+- [ArabicWeb24](https://huggingface.co/datasets/lightonai/ArabicWeb24): 39B+ tokens of high-quality Arabic web content
+- [KFUPM Arabic AI Text Detection](https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts): Machine-generated Arabic text across multiple LLMs
 - [Arabic Tweets](https://huggingface.co/datasets/pain/Arabic-Tweets): 41GB+ of Arabic tweets (~4B words)
 - [Arabic-English Code-Switching](https://huggingface.co/datasets/MohamedRashad/arabic-english-code-switching): Code-switching speech from YouTube
-- [arabic-hate-speech-superset](https://huggingface.co/datasets/manueltonneau/arabic-hate-speech-superset): Comprehensive hate speech detection
-- [Arabic-Image-Captioning_100M](https://huggingface.co/datasets/Misraj/Arabic-Image-Captioning_100M): 100 million Arabic image captions
-- [arabic-img2md](https://huggingface.co/datasets/MohamedRashad/arabic-img2md): 15K PDF pages paired with Markdown
-- [Arabic-OCR-Dataset](https://huggingface.co/datasets/mssqpi/Arabic-OCR-Dataset): 1M+ Arabic OCR samples
-- [Arabic-OpenHermes-2.5](https://huggingface.co/datasets/2A2I/Arabic-OpenHermes-2.5): Arabic OpenHermes instruction dataset
-- [arabic-text-diacritization](https://github.com/AliOsm/arabic-text-diacritization): Benchmark dataset with systems comparison
-- [Arabic-VLM-Full-Pearl](https://huggingface.co/datasets/MohamedRashad/Arabic-VLM-Full-Pearl): 309K multimodal examples for VLM training
+- [SADA](https://huggingface.co/datasets/m6011/sada2022): Saudi Audio Dataset: 668h from 57 TV shows, multi-dialect (SDAIA)
+- [Arabic POS Dialect](https://huggingface.co/datasets/QCRI/arabic_pos_dialect): POS tagging in Arabic dialects
+- [Arabic Billion Words](https://huggingface.co/datasets/MohamedRashad/arabic-billion-words): Abu El-Khair corpus: 5M+ articles, 1.5B+ words
 - [Arabic_Function_Calling](https://huggingface.co/datasets/HeshamHaroon/Arabic_Function_Calling): First Arabic function calling dataset (50K+ samples)
-- [ArabicaQA](https://github.com/DataScienceUIBK/ArabicaQA): Large-scale Arabic Question Answering
-- [ArabicCorpus2B](https://huggingface.co/datasets/tarekeldeeb/ArabicCorpus2B): 1.9B word Arabic corpus
-- [ArabicText-Large](https://huggingface.co/datasets/Jr23xd23/ArabicText-Large): 743K articles for LLM training
-- [ArabicWeb24](https://huggingface.co/datasets/lightonai/ArabicWeb24): 39B+ tokens of high-quality Arabic web content
-- [ArVoice](https://huggingface.co/datasets/MBZUAI/ArVoice): Multi-speaker MSA corpus, 83h, 11 voices, diacritized
 - [BAREC Corpus](https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0): Arabic Readability Assessment
-- [Calliar](https://github.com/ARBML/Calliar): Online Arabic calligraphy (2500 samples)
-- [Casablanca](https://arxiv.org/abs/2410.04527): Multidialectal Arabic speech dataset (NADI 2025)
+- [Rasaif](https://huggingface.co/datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts): Classical Arabic-English parallel texts (24 books)
+- [QADI](https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Dialect_Identification): Twitter-based multi-class dialect classification
+- [Shifaa Mental Health](https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Mental_Health_Consultations): Arabic mental health consultations
 
 ## Tools & Benchmarks
 
+- [ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU): Multi-task language understanding from school exams
+- [ArabicRAGB](https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB): Arabic RAG Benchmark (multi-dialect)
+- [SILMA RAGQA Benchmark](https://huggingface.co/datasets/silma-ai/silma-rag-qa-benchmark-v1.0): Evaluates Arabic/English LMs in Extractive QA tasks
 - [ACVA](https://huggingface.co/datasets/FreedomIntelligence/ACVA-Arabic-Cultural-Value-Alignment): Arabic Cultural Value Alignment (8000+ questions, 58 areas)
-- [ALUE](https://www.alue.org/): Arabic Language Understanding Evaluation benchmark
 - [Arabic Broad Benchmark (ABB)](https://huggingface.co/datasets/silma-ai/arabic-broad-benchmark): Comprehensive evaluation tool for Arabic LLMs
+- [ALUE](https://www.alue.org/): Arabic Language Understanding Evaluation benchmark
 - [Arabic Broad Leaderboard (ABL)](https://huggingface.co/spaces/silma-ai/Arabic-LLM-Broad-Leaderboard): NextGen evaluation for Arabic LLMs by SILMA AI
 - [arabic-stop-words](https://github.com/mohataher/arabic-stop-words): Largest list of Arabic stop words
 - [arabic_vocalizer](https://github.com/nipponjo/arabic_vocalizer): Deep-learning diacritization (ONNX format)
-- [ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU): Multi-task language understanding from school exams
 - [arabicprocess](https://pypi.org/project/arabicprocess/): Python library for Arabic preprocessing
-- [ArabicRAGB](https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB): Arabic RAG Benchmark (multi-dialect)
 - [AraDiCE](https://arxiv.org/abs/2409.11404): Benchmarks for dialectal and cultural capabilities of LLMs
 - [BALSAM](https://benchmarks.ksaa.gov.sa/): Benchmark of Arabic Language AI Systems and Models
 - [camel_tools](https://github.com/CAMeL-Lab/camel_tools): Suite of Arabic NLP tools (morphology, POS, NER, etc.)
@@ -84,10 +85,10 @@
 - [MTEB Arabic Leaderboard](https://huggingface.co/spaces/mteb/leaderboard): Massive Text Embedding Benchmark for Arabic
 - [NADI 2024](https://arxiv.org/abs/2407.04910): NADI 2024 - Fifth Nuanced Arabic Dialect Identification
 - [NADI 2025](https://nadi.dlnlp.ai/2025/): NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR)
-- [NADI Shared Tasks](https://nadi.dlnlp.ai/): NADI Shared Tasks - Ongoing series of Arabic DID shared tasks
 
 ## Organizations
 
+- [King Saud University](https://huggingface.co/faisalq/SaudiBERT): SaudiBERT, Saudi dialect corpora (STMC, SFC)
 - [Ain Shams University](https://cis.asu.edu.eg/): Arabic NLP, sentiment analysis, NER research
 - [Arabic.AI (Tarjama)](https://www.tarjama.com/): Arabic-first autonomous AI - Pronoia Arabic LLM, Agentic AI platform
 - [Arabot](https://arabot.io/): Conversational AI for Arabic - Arabic NLP chatbot engine
@@ -112,7 +113,6 @@
 - [HUMAIN (Saudi PIF)](https://www.humain.com/): Full-stack AI company - ALLaM 34B, HUMAIN Chat, AI factories
 - [Inception AI](https://www.g42.ai/): Arabic-centric foundation models - Jais model family (with Cerebras)
 - [Intella](https://intella.ai/): Arabic speech AI intelligence - Arabic STT across 25+ dialects (95.7% accuracy), Ziila digital human
-- [ITIDA / MCIT](https://itida.gov.eg/): National AI authority, sovereign models - Karnak LLM, SIA AI tutor, AcQua NLP, BelMasry, Torgoman
 
 ## Agent Skills
 

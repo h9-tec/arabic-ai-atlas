@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://h9-tec.github.io/arabic-ai-atlas/"><img src="assets/map.svg" alt="Arabic AI landscape map" width="100%"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/"><img src="assets/geo.svg" alt="Map of the Arabic AI ecosystem: entries per Arab country, with one bubble per entry type sized by downloads" width="100%"/></a>
 
 **[Open the interactive map →](https://h9-tec.github.io/arabic-ai-atlas/)** · search, filter by dialect or license, share a filtered link.
 
@@ -44,6 +44,12 @@ Add this to your `.mcp.json`:
 - CI validates every PR against `data/schema.json`.
 - A nightly job pulls Hugging Face downloads and regenerates the map, README, `dist/atlas.json` and `dist/llms.txt`.
 - The repo is itself a Claude Code plugin: 5 skills + an MCP server that reads the atlas offline.
+
+### Grid view
+
+The same atlas as a country-by-type grid, with the most downloaded entries named in each cell.
+
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#view=grid"><img src="assets/map.svg" alt="Arabic AI landscape grid: entries by country and type" width="100%"/></a>
 
 ## Contents
 

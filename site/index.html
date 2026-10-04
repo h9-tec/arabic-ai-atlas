@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arabic AI Atlas</title>
+<meta name="description" content="Every Arabic language model, speech system, OCR engine, embedding, dataset, tool and benchmark we could find, mapped by country and searchable.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+  try { var t = localStorage.getItem("atlas-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#plate">Skip to the map</a>
+<header class="masthead">
+  <div class="title">
+    <h1><span class="ar" lang="ar" dir="rtl">أطلس الذكاء الاصطناعي العربي</span><span class="en">Arabic AI Atlas</span></h1>
+    <p class="lede">Arabic models, speech, OCR, embeddings, tools and datasets, placed by where they were built. Hover a name for details, click it to open the project.</p>
+  </div>
+  <div class="actions">
+    <button type="button" id="copy-link" class="btn">Copy link</button>
+    <button type="button" id="theme-toggle" class="btn" aria-label="Switch colour theme">Dark</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="rail" aria-label="Filters">
+    <form id="filters" role="search" onsubmit="return false">
+      <label class="field-label" for="q">Search</label>
+      <input id="q" name="q" type="search" dir="auto" autocomplete="off" placeholder="whisper, لهجة, diacritization…">
+      <details class="fold" id="more-filters" open>
+      <summary>Filters <span id="fold-n"></span></summary>
+      <fieldset><legend>Type</legend><div class="chips" id="chips-type"></div></fieldset>
+      <fieldset><legend>Country</legend><div class="chips" id="chips-country"></div></fieldset>
+      <fieldset><legend>Dialect</legend><div class="chips" id="chips-dialect"></div></fieldset>
+      <fieldset><legend>License</legend><div class="chips" id="chips-license"></div></fieldset>
+      <label class="toggle"><input type="checkbox" id="on-device"> <span>Runs on device</span></label>
+      </details>
+      <div class="result-line"><output id="result-count" aria-live="polite"></output><button type="button" id="clear" class="linkish">Clear filters</button></div>
+    </form>
+
+    <section class="agent" aria-labelledby="agent-h">
+      <h2 id="agent-h">Use it in your agent</h2>
+      <p>Install the atlas as a Claude Code plugin:</p>
+      <div class="cmd"><code id="cmd-install">claude plugin marketplace add h9-tec/arabic-ai-atlas
+claude plugin install arabic-ai-atlas@arabic-ai-atlas</code><button type="button" class="btn small" data-copy="cmd-install">Copy</button></div>
+      <p>Then ask it, or call the MCP tool directly with your current filters:</p>
+      <div class="cmd"><code id="cmd-recommend" dir="ltr"></code><button type="button" class="btn small" data-copy="cmd-recommend">Copy</button></div>
+    </section>
+  </aside>
+
+  <main id="plate" tabindex="-1">
+    <div class="status" id="status" role="status">Loading the atlas…</div>
+    <div class="plate" id="grid" hidden></div>
+    <section class="extra" id="orgs" aria-labelledby="orgs-h" hidden>
+      <h2 id="orgs-h">Organisations <span class="count" id="orgs-count"></span></h2>
+      <ul class="roster" id="orgs-list"></ul>
+    </section>
+    <section class="extra" id="skills" aria-labelledby="skills-h" hidden>
+      <h2 id="skills-h">Agent skills and MCP servers <span class="count" id="skills-count"></span></h2>
+      <ul class="roster" id="skills-list"></ul>
+    </section>
+  </main>
+</div>
+
+<div class="card" id="card" role="dialog" aria-modal="false" aria-labelledby="card-name" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<footer class="foot">
+  <p>Data generated <time id="gen-date"></time> · <span id="gen-count"></span> entries. Sizes follow Hugging Face downloads on a log scale.</p>
+  <p><a href="https://github.com/h9-tec/arabic-ai-atlas">Source and contribution guide on GitHub</a> · <a href="dist/llms.txt" id="llms-link">llms.txt for agents</a> · <a href="dist/atlas.json" id="json-link">atlas.json</a></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

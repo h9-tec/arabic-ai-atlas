@@ -1,0 +1,4671 @@
+{
+  "generated_at": "2026-10-04",
+  "count": 271,
+  "entries": [
+    {
+      "id": "101-billion-arabic-words",
+      "name": "101 Billion Arabic Words",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "ClusterlabAi",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/ClusterlabAi/101_billion_arabic_words_dataset"
+      },
+      "notes": "Massive Arabic web corpus",
+      "metrics": null
+    },
+    {
+      "id": "acegpt",
+      "name": "AceGPT",
+      "type": "llm",
+      "country": "INTL",
+      "org": "FreedomIntelligence",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "github": "https://github.com/FreedomIntelligence/AceGPT"
+      },
+      "size": "7B",
+      "notes": "Top performance, culturally aligned",
+      "metrics": null
+    },
+    {
+      "id": "acva",
+      "name": "ACVA",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "FreedomIntelligence",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/FreedomIntelligence/ACVA-Arabic-Cultural-Value-Alignment"
+      },
+      "notes": "Arabic Cultural Value Alignment (8000+ questions, 58 areas)",
+      "metrics": null
+    },
+    {
+      "id": "ain",
+      "name": "AIN",
+      "type": "llm",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "unknown",
+      "modality": "multimodal",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "github": "https://github.com/mbzuai-oryx/AIN"
+      },
+      "size": "8B",
+      "notes": "Arabic-centric Large Multimodal Model",
+      "metrics": null
+    },
+    {
+      "id": "ain-shams-university",
+      "name": "Ain Shams University",
+      "type": "org",
+      "country": "EG",
+      "org": "Ain Shams University",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://cis.asu.edu.eg/"
+      },
+      "notes": "Arabic NLP, sentiment analysis, NER research",
+      "metrics": null
+    },
+    {
+      "id": "allam",
+      "name": "ALLaM",
+      "type": "llm",
+      "country": "SA",
+      "org": "SDAIA & IBM",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview"
+      },
+      "size": "7B",
+      "notes": "Saudi's sovereign model, enterprise-focused",
+      "metrics": null
+    },
+    {
+      "id": "allam-34b",
+      "name": "ALLaM 34B",
+      "type": "llm",
+      "country": "SA",
+      "org": "HUMAIN (Saudi)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://www.humain.com/en/news/humain-chat-launch"
+      },
+      "size": "34B",
+      "notes": "Most advanced Arabic LLM, 8PB training data, powers HUMAIN Chat",
+      "metrics": null
+    },
+    {
+      "id": "allam-2",
+      "name": "ALLaM-2",
+      "type": "llm",
+      "country": "SA",
+      "org": "SDAIA & IBM",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ALLaM-AI"
+      },
+      "size": "7B-70B",
+      "notes": "500B+ Arabic tokens, largest Arabic training set",
+      "metrics": null
+    },
+    {
+      "id": "alpaca-arabic-instruct",
+      "name": "Alpaca Arabic Instruct",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Yasbok",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Yasbok/Alpaca_arabic_instruct"
+      },
+      "notes": "Arabic Alpaca instruction dataset",
+      "metrics": null
+    },
+    {
+      "id": "alue",
+      "name": "ALUE",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "website": "https://www.alue.org/"
+      },
+      "notes": "Arabic Language Understanding Evaluation benchmark",
+      "metrics": null
+    },
+    {
+      "id": "ar-stablelm-2-chat",
+      "name": "Ar-stablelm-2-chat",
+      "type": "llm",
+      "country": "SA",
+      "org": "Stability AI",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/stabilityai/stablelm-2-1_6b-chat"
+      },
+      "size": "1.6B",
+      "notes": "Small Arabic chat model",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "arabert",
+      "name": "AraBERT",
+      "type": "llm",
+      "country": "LB",
+      "org": "AUB MIND Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "github": "https://github.com/aub-mind/arabert"
+      },
+      "notes": "First BERT for Arabic, multiple versions",
+      "metrics": null
+    },
+    {
+      "id": "arabertv02",
+      "name": "AraBERTv02",
+      "type": "llm",
+      "country": "LB",
+      "org": "AUB MIND Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/aubmindlab/bert-base-arabertv02"
+      },
+      "notes": "Improved tokenization (135M params, 12M+ downloads)",
+      "metrics": null
+    },
+    {
+      "id": "arabiangpt",
+      "name": "ArabianGPT",
+      "type": "llm",
+      "country": "SA",
+      "org": "Prince Sultan University",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/riotu-lab/ArabianGPT-01B"
+      },
+      "size": "0.1B",
+      "notes": "GPT-2 for Arabic, RIOTU Lab",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "arabic-billion-words",
+      "name": "Arabic Billion Words",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MohamedRashad/arabic-billion-words"
+      },
+      "notes": "Abu El-Khair corpus: 5M+ articles, 1.5B+ words",
+      "metrics": null
+    },
+    {
+      "id": "arabic-broad-benchmark-abb",
+      "name": "Arabic Broad Benchmark (ABB)",
+      "type": "benchmark",
+      "country": "SA",
+      "org": "silma-ai",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/silma-ai/arabic-broad-benchmark"
+      },
+      "notes": "Comprehensive evaluation tool for Arabic LLMs",
+      "metrics": null
+    },
+    {
+      "id": "arabic-broad-leaderboard-abl",
+      "name": "Arabic Broad Leaderboard (ABL)",
+      "type": "benchmark",
+      "country": "SA",
+      "org": "silma-ai",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/spaces/silma-ai/Arabic-LLM-Broad-Leaderboard"
+      },
+      "notes": "NextGen evaluation for Arabic LLMs by SILMA AI",
+      "metrics": null
+    },
+    {
+      "id": "arabic-dialects-to-msa",
+      "name": "Arabic Dialects to MSA",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "PRAli22",
+      "license": "afl-3.0",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/PRAli22/Arabic_dialects_to_MSA"
+      },
+      "notes": "Parallel dialect-MSA corpus",
+      "metrics": null
+    },
+    {
+      "id": "arabic-mms-speech-synthesis",
+      "name": "Arabic MMS Speech Synthesis",
+      "type": "tts",
+      "country": "INTL",
+      "org": "SeyedAli",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/SeyedAli/Arabic-Speech-synthesis-MMS"
+      },
+      "notes": "VITS-based Arabic TTS from MMS (36M params)",
+      "metrics": null
+    },
+    {
+      "id": "arabic-pos-dialect",
+      "name": "Arabic POS Dialect",
+      "type": "dataset",
+      "country": "QA",
+      "org": "QCRI",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/QCRI/arabic_pos_dialect"
+      },
+      "notes": "POS tagging in Arabic dialects",
+      "metrics": null
+    },
+    {
+      "id": "arabic-reasoning-dataset",
+      "name": "Arabic Reasoning Dataset",
+      "type": "dataset",
+      "country": "SA",
+      "org": "Omartificial-Intelligence-Space",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic_Reasoning_Dataset"
+      },
+      "notes": "9.2K instruction-based reasoning QA pairs",
+      "metrics": null
+    },
+    {
+      "id": "arabic-speech-corpus",
+      "name": "Arabic Speech Corpus",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "halabi2016",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/halabi2016/arabic_speech_corpus"
+      },
+      "notes": "Nawar Halabi's Levantine Arabic TTS corpus (CC-BY-4.0)",
+      "metrics": null
+    },
+    {
+      "id": "arabic-tacotron-tts",
+      "name": "Arabic Tacotron TTS",
+      "type": "tts",
+      "country": "INTL",
+      "org": "yoosif0",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "github": "https://github.com/yoosif0/arabic-tacotron-tts"
+      },
+      "notes": "End-to-end Arabic TTS based on Tacotron",
+      "metrics": null
+    },
+    {
+      "id": "arabic-tweets",
+      "name": "Arabic Tweets",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "pain",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/pain/Arabic-Tweets"
+      },
+      "notes": "41GB+ of Arabic tweets (~4B words)",
+      "metrics": null
+    },
+    {
+      "id": "arabic-bidi-engineering",
+      "name": "arabic-bidi-engineering",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "MosaabGalmod",
+      "license": "mit",
+      "modality": "none",
+      "tasks": [
+        "skill",
+        "rtl"
+      ],
+      "links": {
+        "github": "https://github.com/MosaabGalmod/arabic-bidi-engineering"
+      },
+      "notes": "Agent skill for correct Arabic RTL/BiDi in chat, terminal and documents",
+      "metrics": null
+    },
+    {
+      "id": "arabic-english-code-switching",
+      "name": "Arabic-English Code-Switching",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "gpl",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MohamedRashad/arabic-english-code-switching"
+      },
+      "notes": "Code-switching speech from YouTube",
+      "metrics": null
+    },
+    {
+      "id": "arabic-english-handwritten-ocr-v3",
+      "name": "Arabic-English-handwritten-OCR-v3",
+      "type": "ocr",
+      "country": "INTL",
+      "org": "sherif1313",
+      "license": "apache-2.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/sherif1313/Arabic-English-handwritten-OCR-v3"
+      },
+      "notes": "Qwen2.5-VL-3B, trained on 47K handwriting samples",
+      "metrics": null
+    },
+    {
+      "id": "arabic-f5-tts-v2",
+      "name": "Arabic-F5-TTS-v2",
+      "type": "tts",
+      "country": "INTL",
+      "org": "IbrahimSalah",
+      "license": "fair-noncommercial-research-license",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IbrahimSalah/Arabic-F5-TTS-v2"
+      },
+      "notes": "Improved F5-TTS Arabic fine-tune",
+      "metrics": null
+    },
+    {
+      "id": "arabic-gec-v1",
+      "name": "arabic-gec-v1",
+      "type": "llm",
+      "country": "INTL",
+      "org": "alnnahwi",
+      "license": "gemma",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/alnnahwi/gemma-3-1b-arabic-gec-v1"
+      },
+      "notes": "Grammar Correction - Gemma-3-1b for Arabic GEC",
+      "metrics": null
+    },
+    {
+      "id": "arabic-hate-speech-superset",
+      "name": "arabic-hate-speech-superset",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "manueltonneau",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/manueltonneau/arabic-hate-speech-superset"
+      },
+      "notes": "Comprehensive hate speech detection",
+      "metrics": null
+    },
+    {
+      "id": "arabic-image-captioning-100m",
+      "name": "Arabic-Image-Captioning_100M",
+      "type": "dataset",
+      "country": "SA",
+      "org": "Misraj",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Misraj/Arabic-Image-Captioning_100M"
+      },
+      "notes": "100 million Arabic image captions",
+      "metrics": null
+    },
+    {
+      "id": "arabic-img2md",
+      "name": "arabic-img2md",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "gpl-3.0",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MohamedRashad/arabic-img2md"
+      },
+      "notes": "15K PDF pages paired with Markdown",
+      "metrics": null
+    },
+    {
+      "id": "arabic-large-nougat",
+      "name": "arabic-large-nougat",
+      "type": "ocr",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "gpl-3.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MohamedRashad/arabic-large-nougat"
+      },
+      "notes": "End-to-end structured OCR for Arabic documents",
+      "metrics": null
+    },
+    {
+      "id": "arabic-ocr-dataset",
+      "name": "Arabic-OCR-Dataset",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "mssqpi",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/mssqpi/Arabic-OCR-Dataset"
+      },
+      "notes": "1M+ Arabic OCR samples",
+      "metrics": null
+    },
+    {
+      "id": "arabic-openhermes-2-5",
+      "name": "Arabic-OpenHermes-2.5",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "2A2I",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/2A2I/Arabic-OpenHermes-2.5"
+      },
+      "notes": "Arabic OpenHermes instruction dataset",
+      "metrics": null
+    },
+    {
+      "id": "arabic-small-nougat",
+      "name": "arabic-small-nougat",
+      "type": "ocr",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "gpl-3.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MohamedRashad/arabic-small-nougat"
+      },
+      "notes": "Smaller Nougat variant for Arabic document OCR",
+      "metrics": null
+    },
+    {
+      "id": "arabic-stop-words",
+      "name": "arabic-stop-words",
+      "type": "tool",
+      "country": "INTL",
+      "org": "mohataher",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/mohataher/arabic-stop-words"
+      },
+      "notes": "Largest list of Arabic stop words",
+      "metrics": null
+    },
+    {
+      "id": "arabic-text-correction",
+      "name": "Arabic-Text-Correction",
+      "type": "llm",
+      "country": "INTL",
+      "org": "SuperSl6",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/SuperSl6/Arabic-Text-Correction"
+      },
+      "notes": "Text Correction - AraT5-based text correction",
+      "metrics": null
+    },
+    {
+      "id": "arabic-text-diacritization",
+      "name": "arabic-text-diacritization",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "AliOsm",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "github": "https://github.com/AliOsm/arabic-text-diacritization"
+      },
+      "notes": "Benchmark dataset with systems comparison",
+      "metrics": null
+    },
+    {
+      "id": "arabic-triplet-matryoshka-v2",
+      "name": "Arabic-Triplet-Matryoshka-V2",
+      "type": "embedding",
+      "country": "SA",
+      "org": "Omartificial-Intelligence-Space",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2"
+      },
+      "notes": "Matryoshka representation",
+      "metrics": null
+    },
+    {
+      "id": "arabic-tts-spark",
+      "name": "Arabic-TTS-Spark",
+      "type": "tts",
+      "country": "INTL",
+      "org": "IbrahimSalah",
+      "license": "fair-noncommercial-research-license",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark"
+      },
+      "notes": "Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics",
+      "metrics": null
+    },
+    {
+      "id": "arabic-vlm-full-pearl",
+      "name": "Arabic-VLM-Full-Pearl",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MohamedRashad/Arabic-VLM-Full-Pearl"
+      },
+      "notes": "309K multimodal examples for VLM training",
+      "metrics": null
+    },
+    {
+      "id": "arabic-ai-tarjama",
+      "name": "Arabic.AI (Tarjama)",
+      "type": "org",
+      "country": "AE",
+      "org": "Arabic.AI (Tarjama)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.tarjama.com/"
+      },
+      "notes": "Arabic-first autonomous AI - Pronoia Arabic LLM, Agentic AI platform",
+      "metrics": null
+    },
+    {
+      "id": "arabic-function-calling",
+      "name": "Arabic_Function_Calling",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "HeshamHaroon",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/Arabic_Function_Calling"
+      },
+      "notes": "First Arabic function calling dataset (50K+ samples)",
+      "metrics": null
+    },
+    {
+      "id": "arabic-vocalizer",
+      "name": "arabic_vocalizer",
+      "type": "tool",
+      "country": "INTL",
+      "org": "nipponjo",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/nipponjo/arabic_vocalizer"
+      },
+      "notes": "Deep-learning diacritization (ONNX format)",
+      "metrics": null
+    },
+    {
+      "id": "arabicaqa",
+      "name": "ArabicaQA",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "DataScienceUIBK",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "github": "https://github.com/DataScienceUIBK/ArabicaQA"
+      },
+      "notes": "Large-scale Arabic Question Answering",
+      "metrics": null
+    },
+    {
+      "id": "arabiccorpus2b",
+      "name": "ArabicCorpus2B",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "tarekeldeeb",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/tarekeldeeb/ArabicCorpus2B"
+      },
+      "notes": "1.9B word Arabic corpus",
+      "metrics": null
+    },
+    {
+      "id": "arabicmmlu",
+      "name": "ArabicMMLU",
+      "type": "benchmark",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MBZUAI/ArabicMMLU"
+      },
+      "notes": "Multi-task language understanding from school exams",
+      "metrics": null
+    },
+    {
+      "id": "arabicprocess",
+      "name": "arabicprocess",
+      "type": "tool",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "website": "https://pypi.org/project/arabicprocess/"
+      },
+      "notes": "Python library for Arabic preprocessing",
+      "metrics": null
+    },
+    {
+      "id": "arabicragb",
+      "name": "ArabicRAGB",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "HeshamHaroon",
+      "license": "cc-by-sa-4.0",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB"
+      },
+      "notes": "Arabic RAG Benchmark (multi-dialect)",
+      "metrics": null
+    },
+    {
+      "id": "arabictext-large",
+      "name": "ArabicText-Large",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Jr23xd23",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Jr23xd23/ArabicText-Large"
+      },
+      "notes": "743K articles for LLM training",
+      "metrics": null
+    },
+    {
+      "id": "arabicweb24",
+      "name": "ArabicWeb24",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "lightonai",
+      "license": "odc-by",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/lightonai/ArabicWeb24"
+      },
+      "notes": "39B+ tokens of high-quality Arabic web content",
+      "metrics": null
+    },
+    {
+      "id": "arabot",
+      "name": "Arabot",
+      "type": "org",
+      "country": "AE",
+      "org": "Arabot",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://arabot.io/"
+      },
+      "notes": "Conversational AI for Arabic - Arabic NLP chatbot engine",
+      "metrics": null
+    },
+    {
+      "id": "aradice",
+      "name": "AraDiCE",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2409.11404"
+      },
+      "notes": "Benchmarks for dialectal and cultural capabilities of LLMs",
+      "metrics": null
+    },
+    {
+      "id": "araelectra",
+      "name": "AraELECTRA",
+      "type": "llm",
+      "country": "LB",
+      "org": "AUB MIND Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/aubmindlab/araelectra-base-discriminator"
+      },
+      "notes": "ELECTRA for Arabic",
+      "metrics": null
+    },
+    {
+      "id": "aragpt2",
+      "name": "AraGPT2",
+      "type": "llm",
+      "country": "LB",
+      "org": "AUB MIND Lab",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/aubmindlab/aragpt2-mega"
+      },
+      "size": "1.5B",
+      "notes": "GPT-2 for Arabic text generation",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "arallama",
+      "name": "AraLLaMA",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Bashar Alhafni",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/bashar-talafha/AraLLaMA"
+      },
+      "size": "7B",
+      "notes": "LLaMA2 pre-trained on Arabic data",
+      "metrics": null
+    },
+    {
+      "id": "arat5",
+      "name": "AraT5",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/AraT5-base"
+      },
+      "notes": "T5 for Arabic summarization, translation, paraphrasing",
+      "metrics": null
+    },
+    {
+      "id": "arat5-dialects-translation",
+      "name": "arat5-dialects-translation",
+      "type": "llm",
+      "country": "INTL",
+      "org": "PRAli22",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/PRAli22/arat5-arabic-dialects-translation"
+      },
+      "notes": "Dialect→MSA - AraT5 dialect translation",
+      "metrics": null
+    },
+    {
+      "id": "arbml",
+      "name": "ARBML",
+      "type": "org",
+      "country": "SA",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML"
+      },
+      "notes": "Democratizing Arabic NLP - masader, klaam, tkseem",
+      "metrics": null
+    },
+    {
+      "id": "arcee-meraj",
+      "name": "Arcee-Meraj",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Arcee AI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/arcee-ai/Arcee-Meraj"
+      },
+      "size": "72B",
+      "notes": "Enterprise Arabic LLM based on Qwen2-72B",
+      "metrics": null
+    },
+    {
+      "id": "arcee-meraj-mini",
+      "name": "Arcee-Meraj-Mini",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Arcee AI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/arcee-ai/Arcee-Meraj-Mini"
+      },
+      "size": "7B",
+      "notes": "Top OALL among 7B models",
+      "metrics": null
+    },
+    {
+      "id": "artst-asr-v3",
+      "name": "artst_asr_v3",
+      "type": "asr",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI/artst_asr_v3"
+      },
+      "notes": "ArTST for ASR on MGB2 (best for MSA)",
+      "metrics": null
+    },
+    {
+      "id": "arvoice",
+      "name": "ArVoice",
+      "type": "dataset",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MBZUAI/ArVoice"
+      },
+      "notes": "Multi-speaker MSA corpus, 83h, 11 voices, diacritized",
+      "metrics": null
+    },
+    {
+      "id": "asafaya-bert-base-arabic",
+      "name": "asafaya/bert-base-arabic",
+      "type": "embedding",
+      "country": "INTL",
+      "org": "asafaya",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/asafaya/bert-base-arabic"
+      },
+      "notes": "BERT-based Arabic embeddings",
+      "metrics": null
+    },
+    {
+      "id": "atlas-chat",
+      "name": "Atlas-Chat",
+      "type": "llm",
+      "country": "AE",
+      "org": "MBZUAI-Paris Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/MBZUAI-Paris/atlas-chat"
+      },
+      "size": "2B-27B",
+      "notes": "Moroccan Darija dialect",
+      "metrics": null
+    },
+    {
+      "id": "atlasocr",
+      "name": "AtlasOCR",
+      "type": "ocr",
+      "country": "MA",
+      "org": "atlasia",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/atlasia/AtlasOCR"
+      },
+      "notes": "First Darija/Moroccan Arabic OCR, Qwen2.5-VL-3B based",
+      "metrics": null
+    },
+    {
+      "id": "aub-mind-lab",
+      "name": "AUB MIND Lab",
+      "type": "org",
+      "country": "LB",
+      "org": "AUB MIND Lab",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/aub-mind"
+      },
+      "notes": "Foundational Arabic NLP models - AraBERT, AraGPT2, AraELECTRA",
+      "metrics": null
+    },
+    {
+      "id": "awesome-arabic-claude-skills",
+      "name": "awesome-arabic-claude-skills",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "EngDawood",
+      "license": "mit",
+      "modality": "none",
+      "tasks": [
+        "skill",
+        "curated-list"
+      ],
+      "links": {
+        "github": "https://github.com/EngDawood/awesome-arabic-claude-skills"
+      },
+      "notes": "Curated library of open-source Arabic skills for Claude Code and agents",
+      "metrics": null
+    },
+    {
+      "id": "aya-expanse",
+      "name": "Aya-Expanse",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Cohere",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-66f573116fef65271be752e9"
+      },
+      "size": "8B-32B",
+      "notes": "State-of-the-art multilingual with strong Arabic",
+      "metrics": null
+    },
+    {
+      "id": "balsam",
+      "name": "BALSAM",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "website": "https://benchmarks.ksaa.gov.sa/"
+      },
+      "notes": "Benchmark of Arabic Language AI Systems and Models",
+      "metrics": null
+    },
+    {
+      "id": "barec-corpus",
+      "name": "BAREC Corpus",
+      "type": "dataset",
+      "country": "AE",
+      "org": "CAMeL-Lab",
+      "license": "cc-by-sa-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0"
+      },
+      "notes": "Arabic Readability Assessment",
+      "metrics": null
+    },
+    {
+      "id": "baseer",
+      "name": "Baseer",
+      "type": "ocr",
+      "country": "SA",
+      "org": "Misraj",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Misraj/Baseer-Qwen2.5-VL-3B-Instruct"
+      },
+      "notes": "Arabic document-to-markdown, Qwen2.5-VL-3B based (Misraj AI), WER 0.25",
+      "metrics": null
+    },
+    {
+      "id": "blip-arabic-flickr-8k",
+      "name": "blip-Arabic-flickr-8k",
+      "type": "llm",
+      "country": "INTL",
+      "org": "omarsabri8756",
+      "license": "mit",
+      "modality": "multimodal",
+      "tasks": [
+        "image-captioning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/omarsabri8756/blip-Arabic-flickr-8k"
+      },
+      "notes": "BLIP fine-tuned for Arabic image captioning",
+      "metrics": null
+    },
+    {
+      "id": "calliar",
+      "name": "Calliar",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/Calliar"
+      },
+      "notes": "Online Arabic calligraphy (2500 samples)",
+      "metrics": null
+    },
+    {
+      "id": "calme-2-2",
+      "name": "Calme 2.2",
+      "type": "llm",
+      "country": "INTL",
+      "org": "MaziyarPanahi",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MaziyarPanahi/calme-2.2-qwen2-72b"
+      },
+      "size": "72B",
+      "notes": "Qwen2-based, strong OALL performance",
+      "metrics": null
+    },
+    {
+      "id": "camel-lab-nyu-abu-dhabi",
+      "name": "CAMeL Lab (NYU Abu Dhabi)",
+      "type": "org",
+      "country": "AE",
+      "org": "CAMeL Lab (NYU Abu Dhabi)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://camel-lab.com/"
+      },
+      "notes": "CAMeLBERT, camel_tools, morphological analysis",
+      "metrics": null
+    },
+    {
+      "id": "camel-lab-nyuad",
+      "name": "CAMeL Lab, NYUAD",
+      "type": "org",
+      "country": "AE",
+      "org": "CAMeL Lab, NYUAD",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/CAMeL-Lab"
+      },
+      "notes": "Arabic NLP tools and models - CAMeLBERT, camel_tools",
+      "metrics": null
+    },
+    {
+      "id": "camel-tools",
+      "name": "camel_tools",
+      "type": "tool",
+      "country": "AE",
+      "org": "CAMeL-Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/CAMeL-Lab/camel_tools"
+      },
+      "notes": "Suite of Arabic NLP tools (morphology, POS, NER, etc.)",
+      "metrics": null
+    },
+    {
+      "id": "camelbert",
+      "name": "CAMeLBERT",
+      "type": "llm",
+      "country": "AE",
+      "org": "CAMeL Lab, NYUAD",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "github": "https://github.com/CAMeL-Lab/CAMeLBERT"
+      },
+      "notes": "MSA, Dialectal, and Classical Arabic",
+      "metrics": null
+    },
+    {
+      "id": "camelbert-msa-sentiment",
+      "name": "CAMeLBERT-MSA-Sentiment",
+      "type": "llm",
+      "country": "AE",
+      "org": "CAMeL-Lab",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-msa-sentiment"
+      },
+      "notes": "Sentiment Analysis - Fine-tuned for MSA sentiment",
+      "metrics": null
+    },
+    {
+      "id": "casablanca",
+      "name": "Casablanca",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2410.04527"
+      },
+      "notes": "Multidialectal Arabic speech dataset (NADI 2025)",
+      "metrics": null
+    },
+    {
+      "id": "catt",
+      "name": "CATT",
+      "type": "tool",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.03236"
+      },
+      "notes": "Character-based Tashkeel Transformer, SOTA results",
+      "metrics": null
+    },
+    {
+      "id": "cidar",
+      "name": "CIDAR",
+      "type": "dataset",
+      "country": "SA",
+      "org": "arbml",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/arbml/CIDAR"
+      },
+      "notes": "Culturally relevant instruction dataset (10K pairs)",
+      "metrics": null
+    },
+    {
+      "id": "clartts",
+      "name": "ClArTTS",
+      "type": "dataset",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MBZUAI/ClArTTS"
+      },
+      "notes": "Classical Arabic TTS corpus by MBZUAI",
+      "metrics": null
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "type": "org",
+      "country": "INTL",
+      "org": "Cohere",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://cohere.com/"
+      },
+      "notes": "Multilingual LLMs - Command R Arabic, RAG optimization",
+      "metrics": null
+    },
+    {
+      "id": "cohere-command-a",
+      "name": "Cohere Command-A",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Cohere",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025"
+      },
+      "size": "111B",
+      "notes": "Optimized for RAG",
+      "metrics": null
+    },
+    {
+      "id": "command-r7b-arabic",
+      "name": "Command R7B Arabic",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Cohere",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025"
+      },
+      "size": "7B",
+      "notes": "Arabic-optimized Command R variant",
+      "metrics": null
+    },
+    {
+      "id": "convertedin",
+      "name": "Convertedin",
+      "type": "org",
+      "country": "EG",
+      "org": "Convertedin",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.converted.in/"
+      },
+      "notes": "AI marketing automation - Arabic/English e-commerce personalization, $3M funded",
+      "metrics": null
+    },
+    {
+      "id": "crowd-analyzer",
+      "name": "Crowd Analyzer",
+      "type": "org",
+      "country": "EG",
+      "org": "Crowd Analyzer",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://crowdanalyzer.com/"
+      },
+      "notes": "Arabic social media monitoring - Arabic NLP analytics, sentiment analysis, media monitoring",
+      "metrics": null
+    },
+    {
+      "id": "dallah",
+      "name": "Dallah",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "multimodal",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/dallah"
+      },
+      "notes": "Advanced multimodal LLM for Arabic",
+      "metrics": null
+    },
+    {
+      "id": "dialogue-arabic-dialects",
+      "name": "dialogue-arabic-dialects",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "tareknaous",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "github": "https://github.com/tareknaous/dialogue-arabic-dialects"
+      },
+      "notes": "Levantine, Egyptian, Gulf dialect dialogues",
+      "metrics": null
+    },
+    {
+      "id": "dimi-arabic-ocr",
+      "name": "DIMI-Arabic-OCR",
+      "type": "ocr",
+      "country": "INTL",
+      "org": "AhmedZaky1",
+      "license": "apache-2.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/AhmedZaky1/DIMI-Arabic-OCR"
+      },
+      "notes": "Printed Arabic with diacritics OCR (Qwen2-VL based)",
+      "metrics": null
+    },
+    {
+      "id": "dimi-embedding",
+      "name": "DIMI-embedding",
+      "type": "embedding",
+      "country": "INTL",
+      "org": "AhmedZaky1",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/AhmedZaky1/DIMI-embedding-matryoshka-arabic"
+      },
+      "notes": "Matryoshka + AraBERT for NLI",
+      "metrics": null
+    },
+    {
+      "id": "dxwand",
+      "name": "DXwand",
+      "type": "org",
+      "country": "EG",
+      "org": "DXwand",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://dxwand.com/"
+      },
+      "notes": "Generative AI for Arabic business - ORXTRA platform, Arabic dialect chatbots, 20+ LLM support",
+      "metrics": null
+    },
+    {
+      "id": "easyocr",
+      "name": "EasyOCR",
+      "type": "tool",
+      "country": "INTL",
+      "org": "JaidedAI",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "github": "https://github.com/JaidedAI/EasyOCR"
+      },
+      "notes": "Ready-to-use OCR with Arabic support (80+ languages)",
+      "metrics": null
+    },
+    {
+      "id": "egybert",
+      "name": "EgyBERT",
+      "type": "llm",
+      "country": "INTL",
+      "org": "faisalq",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/faisalq/EgyBERT"
+      },
+      "notes": "Egyptian dialect BERT, trained on 34M tweets + 44M forum sentences",
+      "metrics": null
+    },
+    {
+      "id": "egyptalk-asr-v2",
+      "name": "EgypTalk-ASR-v2",
+      "type": "asr",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/EgypTalk-ASR-v2"
+      },
+      "notes": "High-performance ASR for Egyptian Arabic",
+      "metrics": null
+    },
+    {
+      "id": "egyptian-arabic-asr-clean",
+      "name": "Egyptian Arabic ASR Clean",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "MAdel121",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MAdel121/arabic-egy-cleaned"
+      },
+      "notes": "~72 hours of Egyptian Arabic speech",
+      "metrics": null
+    },
+    {
+      "id": "egyptian-dialogue",
+      "name": "Egyptian Dialogue",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "fr3on",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/fr3on/egyptian-dialogue"
+      },
+      "notes": "4,322 Egyptian Arabic-English parallel pairs from TV subtitles",
+      "metrics": null
+    },
+    {
+      "id": "elm",
+      "name": "Elm",
+      "type": "org",
+      "country": "SA",
+      "org": "Elm",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://elm.sa/en/"
+      },
+      "notes": "Digital transformation, gov AI (PIF-backed) - Nuha Arabic LLM, legal AI assistant, gov platform",
+      "metrics": null
+    },
+    {
+      "id": "elves",
+      "name": "Elves",
+      "type": "org",
+      "country": "EG",
+      "org": "Elves",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.elves.com/"
+      },
+      "notes": "Conversational commerce - Arabic AI-assisted concierge, human-in-the-loop ML",
+      "metrics": null
+    },
+    {
+      "id": "f5-tts-arabic",
+      "name": "F5-TTS-Arabic",
+      "type": "tts",
+      "country": "INTL",
+      "org": "IbrahimSalah",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IbrahimSalah/F5-TTS-Arabic"
+      },
+      "notes": "F5-TTS with regional diversity",
+      "metrics": null
+    },
+    {
+      "id": "facebook-mms-tts-ara",
+      "name": "facebook/mms-tts-ara",
+      "type": "tts",
+      "country": "INTL",
+      "org": "facebook",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/facebook/mms-tts-ara"
+      },
+      "notes": "Facebook's Massively Multilingual Speech",
+      "metrics": null
+    },
+    {
+      "id": "falcon-arabic",
+      "name": "Falcon Arabic",
+      "type": "llm",
+      "country": "AE",
+      "org": "TII (UAE)",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/tiiuae/Falcon3-7B-Instruct"
+      },
+      "size": "7B",
+      "notes": "First Arabic model in Falcon series, top of OALL",
+      "metrics": null
+    },
+    {
+      "id": "falcon-h1-arabic",
+      "name": "Falcon-H1-Arabic",
+      "type": "llm",
+      "country": "AE",
+      "org": "TII (UAE)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/tiiuae/falcon-h1-6819f2795bc4d0b25a2567e3"
+      },
+      "size": "3B-34B",
+      "notes": "Hybrid Mamba-Transformer, 128K-256K context",
+      "metrics": null
+    },
+    {
+      "id": "fanar-star",
+      "name": "Fanar Star",
+      "type": "llm",
+      "country": "QA",
+      "org": "QCRI (Qatar)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://www.fanar.qa/en"
+      },
+      "size": "7B",
+      "notes": "Trained from scratch on 1T Arabic/English tokens",
+      "metrics": null
+    },
+    {
+      "id": "fanar-1-9b",
+      "name": "Fanar-1-9B",
+      "type": "llm",
+      "country": "QA",
+      "org": "QCRI",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
+      },
+      "size": "9B",
+      "notes": "Arabic-English LLM",
+      "metrics": null
+    },
+    {
+      "id": "farasa",
+      "name": "Farasa",
+      "type": "tool",
+      "country": "QA",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "website": "https://farasa.qcri.org/"
+      },
+      "notes": "Fast and accurate Arabic text processing toolkit",
+      "metrics": null
+    },
+    {
+      "id": "fine-tashkeel",
+      "name": "Fine-Tashkeel",
+      "type": "tool",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "website": "https://www.researchgate.net/publication/372616004"
+      },
+      "notes": "Fine-tuned ByT5, 40% WER reduction",
+      "metrics": null
+    },
+    {
+      "id": "freedomintelligence",
+      "name": "FreedomIntelligence",
+      "type": "org",
+      "country": "INTL",
+      "org": "FreedomIntelligence",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/FreedomIntelligence"
+      },
+      "notes": "Arabic LLMs and alignment - AceGPT, Arabic cultural datasets",
+      "metrics": null
+    },
+    {
+      "id": "future-look-itc-flitc",
+      "name": "Future Look ITC (FLITC)",
+      "type": "org",
+      "country": "SA",
+      "org": "Future Look ITC (FLITC)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://flitc.ai/"
+      },
+      "notes": "Arabic-native AI solutions, venture studio - LABEAH, Smart Hire, Rayee Media, Nabadat",
+      "metrics": null
+    },
+    {
+      "id": "g42",
+      "name": "G42",
+      "type": "org",
+      "country": "AE",
+      "org": "G42",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.g42.ai/"
+      },
+      "notes": "AI holding company, Arabic LLMs - Jais LLM, enterprise AI solutions",
+      "metrics": null
+    },
+    {
+      "id": "g42-inception-ai",
+      "name": "G42 / Inception AI",
+      "type": "org",
+      "country": "AE",
+      "org": "G42 / Inception AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://www.g42.ai/"
+      },
+      "notes": "Arabic-centric LLMs - Jais LLM family",
+      "metrics": null
+    },
+    {
+      "id": "gate-arabert-v1",
+      "name": "GATE-AraBert-v1",
+      "type": "embedding",
+      "country": "SA",
+      "org": "Omartificial-Intelligence-Space",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v1"
+      },
+      "notes": "SOTA on MTEB Arabic STS",
+      "metrics": null
+    },
+    {
+      "id": "gatmath-and-gatlc",
+      "name": "GATmath and GATLc",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "website": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329129"
+      },
+      "notes": "Benchmarks from Saudi GAT exams",
+      "metrics": null
+    },
+    {
+      "id": "gazelle",
+      "name": "Gazelle",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "papers",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2410.18163"
+      },
+      "notes": "Arabic writing assistance dataset",
+      "metrics": null
+    },
+    {
+      "id": "gemma-3",
+      "name": "Gemma 3",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Google",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d"
+      },
+      "size": "1B-27B",
+      "notes": "Multimodal capabilities",
+      "metrics": null
+    },
+    {
+      "id": "gemmar",
+      "name": "GemmAr",
+      "type": "llm",
+      "country": "INTL",
+      "org": "ClusterlabAi",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.02147"
+      },
+      "size": "7B",
+      "notes": "Gemma Arabic instruction-tuned on InstAr-500k",
+      "metrics": null
+    },
+    {
+      "id": "gliner-arabic",
+      "name": "GLiNER Arabic",
+      "type": "llm",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/gliner_arabic-v2.1"
+      },
+      "notes": "Named Entity Recognition - Plug-and-play Arabic NER (NAMAA-Space)",
+      "metrics": null
+    },
+    {
+      "id": "hazen-ai",
+      "name": "Hazen.ai",
+      "type": "org",
+      "country": "SA",
+      "org": "Hazen.ai",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.hazen.ai/"
+      },
+      "notes": "AI traffic safety & computer vision - Deep learning road safety, seatbelt/phone detection",
+      "metrics": null
+    },
+    {
+      "id": "helsinki-nlp",
+      "name": "Helsinki-NLP",
+      "type": "org",
+      "country": "INTL",
+      "org": "Helsinki-NLP",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Helsinki-NLP"
+      },
+      "notes": "Machine translation models - OPUS-MT Arabic translation models",
+      "metrics": null
+    },
+    {
+      "id": "hubert-egyptian-arabic",
+      "name": "HuBERT Egyptian Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "omarxadel",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/omarxadel/hubert-large-arabic-egyptian"
+      },
+      "notes": "HuBERT fine-tuned for Egyptian dialect on MGB-3",
+      "metrics": null
+    },
+    {
+      "id": "hubert-large-arabic",
+      "name": "HuBERT-Large Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "asafaya",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/asafaya/hubert-large-arabic-transcribe"
+      },
+      "notes": "HuBERT fine-tuned on 2000h Arabic, 17.68% WER",
+      "metrics": null
+    },
+    {
+      "id": "hudhud-ai",
+      "name": "Hudhud AI",
+      "type": "org",
+      "country": "SA",
+      "org": "Hudhud AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://hudhud.ai/"
+      },
+      "notes": "Arabic conversational AI (no-code SaaS) - Saudi-accent chatbots, Arabic-first customer engagement",
+      "metrics": null
+    },
+    {
+      "id": "humain",
+      "name": "HUMAIN",
+      "type": "org",
+      "country": "SA",
+      "org": "HUMAIN",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.humain.com/"
+      },
+      "notes": "PIF-backed full-stack AI company - ALLaM 34B, HUMAIN Chat, 8PB Arabic training data",
+      "metrics": null
+    },
+    {
+      "id": "humain-saudi-pif",
+      "name": "HUMAIN (Saudi PIF)",
+      "type": "org",
+      "country": "SA",
+      "org": "HUMAIN (Saudi PIF)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://www.humain.com/"
+      },
+      "notes": "Full-stack AI company - ALLaM 34B, HUMAIN Chat, AI factories",
+      "metrics": null
+    },
+    {
+      "id": "inception-ai",
+      "name": "Inception AI",
+      "type": "org",
+      "country": "AE",
+      "org": "Inception AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.g42.ai/"
+      },
+      "notes": "Arabic-centric foundation models - Jais model family (with Cerebras)",
+      "metrics": null
+    },
+    {
+      "id": "intella",
+      "name": "Intella",
+      "type": "org",
+      "country": "EG",
+      "org": "Intella",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://intella.ai/"
+      },
+      "notes": "Arabic speech AI intelligence - Arabic STT across 25+ dialects (95.7% accuracy), Ziila digital human",
+      "metrics": null
+    },
+    {
+      "id": "itida-mcit",
+      "name": "ITIDA / MCIT",
+      "type": "org",
+      "country": "EG",
+      "org": "ITIDA / MCIT",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://itida.gov.eg/"
+      },
+      "notes": "National AI authority, sovereign models - Karnak LLM, SIA AI tutor, AcQua NLP, BelMasry, Torgoman",
+      "metrics": null
+    },
+    {
+      "id": "itida-mcit-egypt",
+      "name": "ITIDA / MCIT (Egypt)",
+      "type": "org",
+      "country": "EG",
+      "org": "ITIDA / MCIT (Egypt)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://itida.gov.eg/"
+      },
+      "notes": "Egypt's national AI, sovereign models - Karnak LLM, BelMasry, Torgoman, SIA, AcQua",
+      "metrics": null
+    },
+    {
+      "id": "jais",
+      "name": "Jais",
+      "type": "llm",
+      "country": "AE",
+      "org": "Inception AI, Cerebras",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/inceptionai/jais-30b-v3"
+      },
+      "size": "13B, 30B",
+      "notes": "Arabic-centric, bilingual, instruction-tuned",
+      "metrics": null
+    },
+    {
+      "id": "jasmine",
+      "name": "JASMINE",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/Jasmine-350M"
+      },
+      "size": "0.3B-6.7B",
+      "notes": "Arabic GPT for few-shot learning, 400GB training data",
+      "metrics": null
+    },
+    {
+      "id": "kalematech-arabic-stt",
+      "name": "KalemaTech Arabic STT",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Salama1429",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small"
+      },
+      "notes": "Whisper-small optimized for Arabic STT",
+      "metrics": null
+    },
+    {
+      "id": "karem-arabic-presentation",
+      "name": "karem-arabic-presentation",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "karem505",
+      "license": "mit",
+      "modality": "none",
+      "tasks": [
+        "skill",
+        "presentation"
+      ],
+      "links": {
+        "github": "https://github.com/karem505/karem-arabic-presentation"
+      },
+      "notes": "Claude Code skill for Arabic/English bilingual RTL HTML presentations",
+      "metrics": null
+    },
+    {
+      "id": "karnak",
+      "name": "Karnak",
+      "type": "llm",
+      "country": "EG",
+      "org": "ITIDA (Egypt)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://itida.gov.eg/English/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx"
+      },
+      "size": "30B-70B",
+      "notes": "Egypt's national sovereign LLM, top Arabic in its class",
+      "metrics": null
+    },
+    {
+      "id": "kaust",
+      "name": "KAUST",
+      "type": "org",
+      "country": "SA",
+      "org": "KAUST",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://cemse.kaust.edu.sa/"
+      },
+      "notes": "AI research, Arabic NLP - Center of Excellence in Generative AI",
+      "metrics": null
+    },
+    {
+      "id": "kaust-cemse",
+      "name": "KAUST (CEMSE)",
+      "type": "org",
+      "country": "SA",
+      "org": "KAUST (CEMSE)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://cemse.kaust.edu.sa/"
+      },
+      "notes": "Generative AI center, Arabic NLP research, sentiment analysis",
+      "metrics": null
+    },
+    {
+      "id": "kawn",
+      "name": "Kawn",
+      "type": "llm",
+      "country": "SA",
+      "org": "Misraj AI (Saudi)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://misraj.ai/"
+      },
+      "notes": "Arabic-first ecosystem with 15-dialect support",
+      "metrics": null
+    },
+    {
+      "id": "kfupm-arabic-ai-text-detection",
+      "name": "KFUPM Arabic AI Text Detection",
+      "type": "dataset",
+      "country": "SA",
+      "org": "KFUPM-JRCAI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts"
+      },
+      "notes": "Machine-generated Arabic text across multiple LLMs",
+      "metrics": null
+    },
+    {
+      "id": "kfupm-jrcai",
+      "name": "KFUPM-JRCAI",
+      "type": "org",
+      "country": "SA",
+      "org": "KFUPM-JRCAI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/KFUPM-JRCAI"
+      },
+      "notes": "Joint SDAIA-KFUPM AI research - Arabic AI text detection datasets",
+      "metrics": null
+    },
+    {
+      "id": "king-saud-university",
+      "name": "King Saud University",
+      "type": "org",
+      "country": "SA",
+      "org": "King Saud University",
+      "license": "cc-by-nc-4.0",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/faisalq/SaudiBERT"
+      },
+      "notes": "SaudiBERT, Saudi dialect corpora (STMC, SFC)",
+      "metrics": null
+    },
+    {
+      "id": "kitab-bench",
+      "name": "KITAB-Bench",
+      "type": "benchmark",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/MBZUAI/KITAB-Bench"
+      },
+      "notes": "Arabic OCR benchmark: 8,809 samples, 9 domains, 36 sub-domains (MBZUAI)",
+      "metrics": null
+    },
+    {
+      "id": "klaam",
+      "name": "Klaam",
+      "type": "asr",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/klaam"
+      },
+      "notes": "Arabic ASR/TTS/classification library (MSA + Egyptian)",
+      "metrics": null
+    },
+    {
+      "id": "kngine",
+      "name": "Kngine",
+      "type": "org",
+      "country": "EG",
+      "org": "Kngine",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://kngine.com/"
+      },
+      "notes": "Semantic search & NLP - Arabic semantic search, data mining, knowledge engine",
+      "metrics": null
+    },
+    {
+      "id": "kuwain",
+      "name": "Kuwain",
+      "type": "llm",
+      "country": "SA",
+      "org": "Misraj AI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2504.15120"
+      },
+      "size": "1.5B",
+      "notes": "Arabic SLM via language injection, 70% cost reduction",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "labess-chat",
+      "name": "Labess Chat",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Linagora",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Linagora/Labess-chat-7b"
+      },
+      "size": "7B",
+      "notes": "Tunisian Arabic, based on Jais architecture",
+      "metrics": null
+    },
+    {
+      "id": "lighton-ai",
+      "name": "LightOn AI",
+      "type": "org",
+      "country": "INTL",
+      "org": "LightOn AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/lightonai"
+      },
+      "notes": "Arabic web data - ArabicWeb24 corpus (39B+ tokens)",
+      "metrics": null
+    },
+    {
+      "id": "llama-3-3",
+      "name": "Llama 3.3",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Meta",
+      "license": "llama3.3",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+      },
+      "size": "70B",
+      "notes": "Strong Arabic performance",
+      "metrics": null
+    },
+    {
+      "id": "llamar",
+      "name": "LlamAr",
+      "type": "llm",
+      "country": "INTL",
+      "org": "ClusterlabAi",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.02147"
+      },
+      "size": "8B",
+      "notes": "LLaMA 3 Arabic instruction-tuned on InstAr-500k",
+      "metrics": null
+    },
+    {
+      "id": "llmvox",
+      "name": "LLMVoX",
+      "type": "tts",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-sa-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI/LLMVoX"
+      },
+      "notes": "30M streaming TTS for any LLM, first Arabic autoregressive TTS",
+      "metrics": null
+    },
+    {
+      "id": "lucidya",
+      "name": "Lucidya",
+      "type": "org",
+      "country": "SA",
+      "org": "Lucidya",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.lucidya.com/"
+      },
+      "notes": "AI customer experience analytics - Arabic social listening, sentiment analysis",
+      "metrics": null
+    },
+    {
+      "id": "madamira",
+      "name": "MADAMIRA",
+      "type": "tool",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "website": "https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/research/morphological-analysis-of-arabic.html"
+      },
+      "notes": "Morphological analysis, diacritization, POS tagging",
+      "metrics": null
+    },
+    {
+      "id": "madis5",
+      "name": "MADIS5",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "badrex",
+      "license": "cc",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects"
+      },
+      "notes": "Spoken Arabic dialects",
+      "metrics": null
+    },
+    {
+      "id": "maha",
+      "name": "Maha",
+      "type": "tool",
+      "country": "INTL",
+      "org": "TRoboto",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/TRoboto/Maha"
+      },
+      "notes": "Text processing library for Arabic text",
+      "metrics": null
+    },
+    {
+      "id": "maqsam",
+      "name": "Maqsam",
+      "type": "org",
+      "country": "JO",
+      "org": "Maqsam",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://maqsam.com/"
+      },
+      "notes": "Arabic speech AI, call center AI - Arabic dialect STT, AI voice bots, surpasses Google/Microsoft",
+      "metrics": null
+    },
+    {
+      "id": "marbert",
+      "name": "MARBERT",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "github": "https://github.com/UBC-NLP/marbert"
+      },
+      "notes": "Focused on Dialectal Arabic and MSA",
+      "metrics": null
+    },
+    {
+      "id": "marbertv2",
+      "name": "MARBERTv2",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/MARBERTv2"
+      },
+      "notes": "Updated with improved dialectal coverage",
+      "metrics": null
+    },
+    {
+      "id": "masader",
+      "name": "masader",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/masader"
+      },
+      "notes": "Largest public catalogue of Arabic NLP datasets (600+)",
+      "metrics": null
+    },
+    {
+      "id": "masrawy-translator",
+      "name": "Masrawy Translator",
+      "type": "llm",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/masrawy-english-to-egyptian-arabic-translator-v2.9"
+      },
+      "notes": "EN→Egyptian Arabic - 150K+ rows, 10M+ tokens, Egyptian dialect",
+      "metrics": null
+    },
+    {
+      "id": "masriswitch-gemma3n",
+      "name": "MasriSwitch-Gemma3n",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/MasriSwitch-Gemma3n-Transcriber-v1"
+      },
+      "notes": "Egyptian Arabic code-switching transcription",
+      "metrics": null
+    },
+    {
+      "id": "mawdoo3",
+      "name": "Mawdoo3",
+      "type": "org",
+      "country": "JO",
+      "org": "Mawdoo3",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://mawdoo3.com/"
+      },
+      "notes": "Arabic AI & content, NLP toolkit - Arabic LLMs, largest Arabic website, Saudi expansion",
+      "metrics": null
+    },
+    {
+      "id": "mbzuai",
+      "name": "MBZUAI",
+      "type": "org",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI"
+      },
+      "notes": "Multimodal and speech models - AIN, ArTST, ClArTTS",
+      "metrics": null
+    },
+    {
+      "id": "mishkal",
+      "name": "Mishkal",
+      "type": "tool",
+      "country": "INTL",
+      "org": "linuxscout",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "github": "https://github.com/linuxscout/mishkal"
+      },
+      "notes": "Rule-based diacritizer with dictionary lookups",
+      "metrics": null
+    },
+    {
+      "id": "misraj-ai",
+      "name": "Misraj AI",
+      "type": "org",
+      "country": "SA",
+      "org": "Misraj AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://misraj.ai/"
+      },
+      "notes": "Arabic-first AI ecosystem - Kawn LLM, Baseer OCR, Mutarjim, Workforces, SeamlessAPI",
+      "metrics": null
+    },
+    {
+      "id": "misraj-dococr-benchmark",
+      "name": "Misraj-DocOCR Benchmark",
+      "type": "dataset",
+      "country": "SA",
+      "org": "Misraj",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Misraj/Misraj-DocOCR-Benchmark"
+      },
+      "notes": "Arabic document OCR evaluation benchmark by Misraj AI",
+      "metrics": null
+    },
+    {
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "type": "org",
+      "country": "INTL",
+      "org": "Mistral AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://mistral.ai/"
+      },
+      "notes": "Multilingual LLMs - Mistral Saba (Arabic-optimized)",
+      "metrics": null
+    },
+    {
+      "id": "mistral-saba",
+      "name": "Mistral Saba",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Mistral",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://mistral.ai/news/mistral-saba"
+      },
+      "size": "24B",
+      "notes": "Commercial API",
+      "metrics": null
+    },
+    {
+      "id": "mixed-arabic-datasets-mad",
+      "name": "Mixed Arabic Datasets (MAD)",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "M-A-D",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/M-A-D/Mixed-Arabic-Datasets-Repo"
+      },
+      "notes": "Community-driven diverse Arabic texts",
+      "metrics": null
+    },
+    {
+      "id": "mms-1b-all",
+      "name": "MMS-1b-all",
+      "type": "asr",
+      "country": "INTL",
+      "org": "facebook",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/facebook/mms-1b-all"
+      },
+      "notes": "Meta's Massively Multilingual Speech, ASR for 1100+ languages",
+      "metrics": null
+    },
+    {
+      "id": "modernbert-arabic",
+      "name": "ModernBERT-Arabic",
+      "type": "embedding",
+      "country": "INTL",
+      "org": "BounharAbdelaziz",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/BounharAbdelaziz/ModernBERT-Arabic-Embeddings"
+      },
+      "notes": "ModernBERT-based sentence embeddings",
+      "metrics": null
+    },
+    {
+      "id": "monta-ai",
+      "name": "Monta AI",
+      "type": "org",
+      "country": "EG",
+      "org": "Monta AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://monta-ai.com/"
+      },
+      "notes": "Enterprise AI solutions - LLM & RAG-based Arabic business automation",
+      "metrics": null
+    },
+    {
+      "id": "mozn",
+      "name": "Mozn",
+      "type": "org",
+      "country": "SA",
+      "org": "Mozn",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.mozn.ai/"
+      },
+      "notes": "Enterprise AI, Arabic NLU - OSOS Arabic NLU platform, FOCAL compliance suite",
+      "metrics": null
+    },
+    {
+      "id": "mteb-arabic-leaderboard",
+      "name": "MTEB Arabic Leaderboard",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "mteb",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/spaces/mteb/leaderboard"
+      },
+      "notes": "Massive Text Embedding Benchmark for Arabic",
+      "metrics": null
+    },
+    {
+      "id": "mulhem",
+      "name": "Mulhem",
+      "type": "llm",
+      "country": "SA",
+      "org": "SDAIA",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://sdaia.gov.sa/"
+      },
+      "notes": "Open-source Arabic-first LLM from Saudi Arabia",
+      "metrics": null
+    },
+    {
+      "id": "mutarjim",
+      "name": "Mutarjim",
+      "type": "llm",
+      "country": "SA",
+      "org": "Misraj AI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.17894"
+      },
+      "size": "1.5B",
+      "notes": "Arabic-English translation, rivals GPT-4o mini",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "nadi-2024",
+      "name": "NADI 2024",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.04910"
+      },
+      "notes": "NADI 2024 - Fifth Nuanced Arabic Dialect Identification",
+      "metrics": null
+    },
+    {
+      "id": "nadi-2025",
+      "name": "NADI 2025",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "website": "https://nadi.dlnlp.ai/2025/"
+      },
+      "notes": "NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR)",
+      "metrics": null
+    },
+    {
+      "id": "nadi-shared-tasks",
+      "name": "NADI Shared Tasks",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "website": "https://nadi.dlnlp.ai/"
+      },
+      "notes": "NADI Shared Tasks - Ongoing series of Arabic DID shared tasks",
+      "metrics": null
+    },
+    {
+      "id": "namaa-space",
+      "name": "NAMAA-Space",
+      "type": "org",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space"
+      },
+      "notes": "Arabic NLP models & dialect hub - Qari-OCR, EgypTalk-ASR, Masrawy translator, GLiNER Arabic",
+      "metrics": null
+    },
+    {
+      "id": "nile-university",
+      "name": "Nile University",
+      "type": "org",
+      "country": "EG",
+      "org": "Nile University",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://nu.edu.eg/"
+      },
+      "notes": "AI research, M.Sc. in AI co-designed with MIT/IBM",
+      "metrics": null
+    },
+    {
+      "id": "nile-chat",
+      "name": "Nile-Chat",
+      "type": "llm",
+      "country": "AE",
+      "org": "MBZUAI-Paris Lab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/MBZUAI-Paris/nile-chat"
+      },
+      "size": "4B-12B",
+      "notes": "Egyptian Arabic and Arabizi scripts",
+      "metrics": null
+    },
+    {
+      "id": "nilechat-arabizi-egypt",
+      "name": "NileChat Arabizi-Egypt",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy"
+      },
+      "notes": "Egyptian Arabizi dataset for LLM pre-training",
+      "metrics": null
+    },
+    {
+      "id": "nilechat-lhv-egypt",
+      "name": "NileChat LHV-Egypt",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-egy"
+      },
+      "notes": "Egyptian dialect dataset for LLM pre-training",
+      "metrics": null
+    },
+    {
+      "id": "nilechat-3b",
+      "name": "NileChat-3B",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/NileChat-3B"
+      },
+      "size": "3B",
+      "notes": "Egyptian and Moroccan dialects",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "noon",
+      "name": "Noon",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Naseej",
+      "license": "bigscience-bloom-rail-1.0",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Naseej/noon-7b"
+      },
+      "size": "7B",
+      "notes": "BLOOM-based Arabic LLM, instruction-tuned",
+      "metrics": null
+    },
+    {
+      "id": "noor",
+      "name": "NOOR",
+      "type": "llm",
+      "country": "AE",
+      "org": "TII (UAE)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://noor.tii.ae/"
+      },
+      "size": "10B",
+      "notes": "World's largest Arabic NLP model at launch, GPT-3 architecture",
+      "metrics": null
+    },
+    {
+      "id": "nuha",
+      "name": "Nuha",
+      "type": "llm",
+      "country": "SA",
+      "org": "Elm (Saudi)",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "website": "https://elm.sa/en/about-us/why-elm/case-studies/Pages/Nuha-Bridging-Technology-and-Arabic-Culture.aspx"
+      },
+      "notes": "Multi-modal Arabic-first LLM for gov services, dialect-aware",
+      "metrics": null
+    },
+    {
+      "id": "nvidia-fastconformer-arabic",
+      "name": "NVIDIA FastConformer Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "nvidia",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0"
+      },
+      "notes": "SOTA Arabic ASR, 115M params, 760h training, CC-BY-4.0",
+      "metrics": null
+    },
+    {
+      "id": "nvidia-fastconformer-arabic-diacritics",
+      "name": "NVIDIA FastConformer Arabic (Diacritics)",
+      "type": "asr",
+      "country": "INTL",
+      "org": "nvidia",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      },
+      "notes": "Arabic ASR with diacritical marks, 1100h training",
+      "metrics": null
+    },
+    {
+      "id": "omartificial-intelligence-space",
+      "name": "Omartificial-Intelligence-Space",
+      "type": "org",
+      "country": "SA",
+      "org": "Omartificial-Intelligence-Space",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Omartificial-Intelligence-Space"
+      },
+      "notes": "Arabic embedding models - GATE, Matryoshka embeddings",
+      "metrics": null
+    },
+    {
+      "id": "open-arabic-llm-leaderboard",
+      "name": "Open Arabic LLM Leaderboard",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "OALL",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard"
+      },
+      "notes": "Evaluation of Arabic LLMs across multiple benchmarks",
+      "metrics": null
+    },
+    {
+      "id": "open-universal-arabic-asr-leaderboard",
+      "name": "Open Universal Arabic ASR Leaderboard",
+      "type": "benchmark",
+      "country": "INTL",
+      "org": "elmresearchcenter",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard"
+      },
+      "notes": "Multi-dialectal Arabic speech recognition benchmark",
+      "metrics": null
+    },
+    {
+      "id": "open-source-arabic-tts-benchmark",
+      "name": "Open-Source Arabic TTS Benchmark",
+      "type": "dataset",
+      "country": "SA",
+      "org": "silma-ai",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/spaces/silma-ai/opensource-arabic-tts-benchmark"
+      },
+      "notes": "SILMA AI's auditory assessment benchmark",
+      "metrics": null
+    },
+    {
+      "id": "openai-whisper-large-v3",
+      "name": "openai/whisper-large-v3",
+      "type": "asr",
+      "country": "INTL",
+      "org": "openai",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/openai/whisper-large-v3"
+      },
+      "notes": "Supports Arabic among many languages",
+      "metrics": null
+    },
+    {
+      "id": "opus-mt-ar-en",
+      "name": "opus-mt-ar-en",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Helsinki-NLP",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific",
+        "translation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Helsinki-NLP/opus-mt-ar-en"
+      },
+      "notes": "Translation AR→EN - Helsinki-NLP (12.4M+ downloads)",
+      "metrics": null
+    },
+    {
+      "id": "opus-mt-en-ar",
+      "name": "opus-mt-en-ar",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Helsinki-NLP",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "task-specific",
+        "translation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ar"
+      },
+      "notes": "Translation EN→AR - Helsinki-NLP (3.5M+ downloads)",
+      "metrics": null
+    },
+    {
+      "id": "paddleocr",
+      "name": "PaddleOCR",
+      "type": "tool",
+      "country": "INTL",
+      "org": "PaddlePaddle",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "github": "https://github.com/PaddlePaddle/PaddleOCR"
+      },
+      "notes": "High-performance multilingual OCR with Arabic support",
+      "metrics": null
+    },
+    {
+      "id": "palm",
+      "name": "palm",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "cc-by-nc-nd-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/UBC-NLP/palm"
+      },
+      "notes": "Human-created Arabic instruction dataset",
+      "metrics": null
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "type": "llm",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "other",
+      "modality": "multimodal",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP/Peacock"
+      },
+      "size": "7B",
+      "notes": "Arabic multimodal (InstructBLIP + AraLLaMA)",
+      "metrics": null
+    },
+    {
+      "id": "pearl",
+      "name": "PEARL",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "cc-by-nc-nd-4.0",
+      "modality": "vision",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/UBC-NLP/PEARL"
+      },
+      "notes": "Multimodal Culturally-Aware Arabic Instruction Dataset",
+      "metrics": null
+    },
+    {
+      "id": "phi-4",
+      "name": "Phi-4",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Microsoft",
+      "license": "mit",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/microsoft/phi-4"
+      },
+      "size": "4B",
+      "notes": "Multilingual with Arabic, compact & efficient",
+      "metrics": null
+    },
+    {
+      "id": "piper-tts",
+      "name": "Piper TTS",
+      "type": "tts",
+      "country": "INTL",
+      "org": "rhasspy",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "github": "https://github.com/rhasspy/piper"
+      },
+      "notes": "Fast local neural TTS, Arabic voices available",
+      "metrics": null
+    },
+    {
+      "id": "prince-sultan-university-riotu-lab",
+      "name": "Prince Sultan University (RIOTU Lab)",
+      "type": "org",
+      "country": "SA",
+      "org": "Prince Sultan University (RIOTU Lab)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/riotu-lab"
+      },
+      "notes": "ArabianGPT, Arabic IoT/robotics AI",
+      "metrics": null
+    },
+    {
+      "id": "prince-sultan-university-riotu",
+      "name": "Prince Sultan University (RIOTU)",
+      "type": "org",
+      "country": "SA",
+      "org": "Prince Sultan University (RIOTU)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/riotu-lab"
+      },
+      "notes": "Arabic language models - ArabianGPT, Arabic IoT AI",
+      "metrics": null
+    },
+    {
+      "id": "pyarabic",
+      "name": "PyArabic",
+      "type": "tool",
+      "country": "INTL",
+      "org": "linuxscout",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/linuxscout/pyarabic"
+      },
+      "notes": "Python package for Arabic text manipulation",
+      "metrics": null
+    },
+    {
+      "id": "qadi",
+      "name": "QADI",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Abdelrahman-Rezk",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "dialect-id"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Dialect_Identification"
+      },
+      "notes": "Twitter-based multi-class dialect classification",
+      "metrics": null
+    },
+    {
+      "id": "qalam",
+      "name": "Qalam",
+      "type": "llm",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "multimodal",
+      "tasks": [
+        "multimodal"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.13559"
+      },
+      "notes": "Arabic OCR/HWR multimodal LLM, 0.80% WER",
+      "metrics": null
+    },
+    {
+      "id": "qalsadi",
+      "name": "Qalsadi",
+      "type": "tool",
+      "country": "INTL",
+      "org": "linuxscout",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/linuxscout/qalsadi"
+      },
+      "notes": "Arabic morphological analyzer and lemmatizer",
+      "metrics": null
+    },
+    {
+      "id": "qari-ocr-v0-2",
+      "name": "QARI-OCR v0.2",
+      "type": "ocr",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/Qari-OCR-0.2-VL-2B-Instruct"
+      },
+      "notes": "Updated Qwen2-VL 2B for Arabic OCR; WER 0.160, CER 0.061",
+      "metrics": null
+    },
+    {
+      "id": "qari-ocr-0-1-vl-2b-instruct",
+      "name": "Qari-OCR-0.1-VL-2B-Instruct",
+      "type": "ocr",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "apache-2.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/Qari-OCR-0.1-VL-2B-Instruct"
+      },
+      "notes": "Qwen2 VL 2B fine-tuned for Arabic OCR",
+      "metrics": null
+    },
+    {
+      "id": "qawafi",
+      "name": "qawafi",
+      "type": "tool",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/qawafi"
+      },
+      "notes": "Arabic poetry analysis",
+      "metrics": null
+    },
+    {
+      "id": "qcri",
+      "name": "QCRI",
+      "type": "org",
+      "country": "QA",
+      "org": "QCRI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/QCRI"
+      },
+      "notes": "Arabic LLMs, text processing - Fanar LLMs, AraDiCE, Farasa",
+      "metrics": null
+    },
+    {
+      "id": "quran-mcp",
+      "name": "quran-mcp",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "quran",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "mcp",
+        "retrieval"
+      ],
+      "links": {
+        "github": "https://github.com/quran/quran-mcp"
+      },
+      "notes": "MCP server giving AI assistants grounded access to Quran text",
+      "metrics": null
+    },
+    {
+      "id": "qwen-3",
+      "name": "Qwen 3",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Alibaba",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f"
+      },
+      "size": "0.6B-235B",
+      "notes": "Multilingual with Arabic support",
+      "metrics": null
+    },
+    {
+      "id": "rasaif",
+      "name": "Rasaif",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "ImruQays",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts"
+      },
+      "notes": "Classical Arabic-English parallel texts (24 books)",
+      "metrics": null
+    },
+    {
+      "id": "rtl-skill",
+      "name": "rtl-skill",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "mhamedmohammed92-arch",
+      "license": "mit",
+      "modality": "none",
+      "tasks": [
+        "skill",
+        "rtl"
+      ],
+      "links": {
+        "github": "https://github.com/mhamedmohammed92-arch/rtl-skill"
+      },
+      "notes": "Teaches coding agents to build correct RTL UIs with a checker",
+      "metrics": null
+    },
+    {
+      "id": "sa-bert-v1",
+      "name": "SA-BERT-V1",
+      "type": "llm",
+      "country": "SA",
+      "org": "Omartificial-Intelligence-Space",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Omartificial-Intelligence-Space/SA-BERT-V1"
+      },
+      "notes": "Saudi Arabic BERT, fine-tuned MARBERTv2",
+      "metrics": null
+    },
+    {
+      "id": "saal-ai",
+      "name": "Saal.ai",
+      "type": "org",
+      "country": "AE",
+      "org": "Saal.ai",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://saal.ai/"
+      },
+      "notes": "Cognitive AI solutions - Arabic NLP, speech, generative AI",
+      "metrics": null
+    },
+    {
+      "id": "sada",
+      "name": "SADA",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "m6011",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/m6011/sada2022"
+      },
+      "notes": "Saudi Audio Dataset: 668h from 57 TV shows, multi-dialect (SDAIA)",
+      "metrics": null
+    },
+    {
+      "id": "sada22-msa",
+      "name": "SADA22 (MSA)",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "badrex",
+      "license": "cc-by-nc-sa-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/badrex/arabic-speech-SADA22-MSA"
+      },
+      "notes": "MSA subset of SADA, Khaliji speech",
+      "metrics": null
+    },
+    {
+      "id": "sadeed",
+      "name": "Sadeed",
+      "type": "tool",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2504.21635"
+      },
+      "notes": "Small language model for diacritization",
+      "metrics": null
+    },
+    {
+      "id": "sambalingo-arabic",
+      "name": "SambaLingo-Arabic",
+      "type": "llm",
+      "country": "INTL",
+      "org": "SambaNova",
+      "license": "llama2",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/sambanovasystems/SambaLingo-Arabic-Chat"
+      },
+      "size": "7B, 70B",
+      "notes": "Arabic-adapted Llama 2",
+      "metrics": null
+    },
+    {
+      "id": "sambanova-systems",
+      "name": "SambaNova Systems",
+      "type": "org",
+      "country": "INTL",
+      "org": "SambaNova Systems",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://sambanova.ai/"
+      },
+      "notes": "Arabic language adaptation - SambaLingo Arabic models",
+      "metrics": null
+    },
+    {
+      "id": "sard",
+      "name": "SARD",
+      "type": "dataset",
+      "country": "SA",
+      "org": "riotu-lab",
+      "license": "cc-by-nc-nd-4.0",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/riotu-lab/SARD"
+      },
+      "notes": "Synthetic Arabic OCR dataset for recognition training",
+      "metrics": null
+    },
+    {
+      "id": "saudibert",
+      "name": "SaudiBERT",
+      "type": "llm",
+      "country": "SA",
+      "org": "King Saud University",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "encoder"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/faisalq/SaudiBERT"
+      },
+      "notes": "Saudi dialect BERT, trained on 141M tweets (STMC) + forums",
+      "metrics": null
+    },
+    {
+      "id": "sawtarabi",
+      "name": "SawtArabi",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "unknown",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "website": "https://www.isca-archive.org/interspeech_2025/lodagala25_interspeech.pdf"
+      },
+      "notes": "First Arabic dialectal + code-switching TTS benchmark",
+      "metrics": null
+    },
+    {
+      "id": "sdaia",
+      "name": "SDAIA",
+      "type": "org",
+      "country": "SA",
+      "org": "SDAIA",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://sdaia.gov.sa/"
+      },
+      "notes": "Sovereign AI, national data authority - ALLaM model, SADA dataset, NCAI, BALSAM benchmark",
+      "metrics": null
+    },
+    {
+      "id": "sdaia-saudi-data-ai-authority",
+      "name": "SDAIA (Saudi Data & AI Authority)",
+      "type": "org",
+      "country": "SA",
+      "org": "SDAIA (Saudi Data & AI Authority)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://sdaia.gov.sa/"
+      },
+      "notes": "Sovereign Arabic LLM, national AI strategy - ALLaM model, SADA dataset, BALSAM benchmark",
+      "metrics": null
+    },
+    {
+      "id": "sdaia-kfupm-joint-research-center-jrcai",
+      "name": "SDAIA-KFUPM Joint Research Center (JRCAI)",
+      "type": "org",
+      "country": "SA",
+      "org": "SDAIA-KFUPM Joint Research Center (JRCAI)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/KFUPM-JRCAI"
+      },
+      "notes": "Arabic AI text detection, Arabic NLP datasets",
+      "metrics": null
+    },
+    {
+      "id": "seamlessm4t-v2",
+      "name": "SeamlessM4T v2",
+      "type": "asr",
+      "country": "INTL",
+      "org": "facebook",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/facebook/seamless-m4t-v2-large"
+      },
+      "notes": "Meta's all-in-one ASR + translation, ~100 languages inc. Arabic",
+      "metrics": null
+    },
+    {
+      "id": "shahin",
+      "name": "Shahin",
+      "type": "llm",
+      "country": "INTL",
+      "org": "malhajar",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/malhajar/Shahin-v0.1-14B"
+      },
+      "size": "14B",
+      "notes": "Syrian Arabic dialect, Qwen2.5-based",
+      "metrics": null
+    },
+    {
+      "id": "shakkala",
+      "name": "Shakkala",
+      "type": "tool",
+      "country": "INTL",
+      "org": "AliOsm",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "github": "https://github.com/AliOsm/shakkelha"
+      },
+      "notes": "Neural vocalization using bidirectional LSTM",
+      "metrics": null
+    },
+    {
+      "id": "shifaa-medical",
+      "name": "Shifaa Medical",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Ahmed-Selem",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Medical_Consultations"
+      },
+      "notes": "Arabic medical consultation dataset",
+      "metrics": null
+    },
+    {
+      "id": "shifaa-mental-health",
+      "name": "Shifaa Mental Health",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Ahmed-Selem",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/Ahmed-Selem/Shifaa_Arabic_Mental_Health_Consultations"
+      },
+      "notes": "Arabic mental health consultations",
+      "metrics": null
+    },
+    {
+      "id": "silma-1-0",
+      "name": "SILMA 1.0",
+      "type": "llm",
+      "country": "SA",
+      "org": "SILMA AI",
+      "license": "gemma",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0"
+      },
+      "size": "9B",
+      "notes": "Top-ranked Arabic LLM built on Gemma",
+      "metrics": null
+    },
+    {
+      "id": "silma-ai",
+      "name": "SILMA AI",
+      "type": "org",
+      "country": "SA",
+      "org": "SILMA AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://silma.ai/"
+      },
+      "notes": "State-of-the-art Arabic LLMs - SILMA LLMs, Arabic Broad Benchmark",
+      "metrics": null
+    },
+    {
+      "id": "silma-kashif",
+      "name": "SILMA Kashif",
+      "type": "llm",
+      "country": "SA",
+      "org": "SILMA AI",
+      "license": "gemma",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/silma-ai/SILMA-Kashif-2B-Instruct-v1.0"
+      },
+      "size": "2B",
+      "notes": "Lightweight RAG-optimized Arabic model",
+      "on_device": true,
+      "metrics": null
+    },
+    {
+      "id": "silma-ragqa-benchmark",
+      "name": "SILMA RAGQA Benchmark",
+      "type": "benchmark",
+      "country": "SA",
+      "org": "silma-ai",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/silma-ai/silma-rag-qa-benchmark-v1.0"
+      },
+      "notes": "Evaluates Arabic/English LMs in Extractive QA tasks",
+      "metrics": null
+    },
+    {
+      "id": "sinalab",
+      "name": "SinaLab",
+      "type": "org",
+      "country": "INTL",
+      "org": "SinaLab",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/SinaLab"
+      },
+      "notes": "SinaTools, Wojood NER corpus",
+      "metrics": null
+    },
+    {
+      "id": "sinalab-birzeit-university",
+      "name": "SinaLab, Birzeit University",
+      "type": "org",
+      "country": "INTL",
+      "org": "SinaLab, Birzeit University",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "github": "https://github.com/SinaLab"
+      },
+      "notes": "Arabic NLP tools and datasets - SinaTools, Wojood NER",
+      "metrics": null
+    },
+    {
+      "id": "sinatools",
+      "name": "SinaTools",
+      "type": "tool",
+      "country": "INTL",
+      "org": "SinaLab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/SinaLab/sinatools"
+      },
+      "notes": "Open source toolkit by SinaLab (Python APIs, CLI)",
+      "metrics": null
+    },
+    {
+      "id": "speechbrain-wav2vec2-arabic",
+      "name": "SpeechBrain wav2vec2 Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "speechbrain",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/speechbrain/asr-wav2vec2-commonvoice-14-ar"
+      },
+      "notes": "Wav2Vec2 + CTC fine-tuned on CommonVoice 14 Arabic",
+      "metrics": null
+    },
+    {
+      "id": "speecht5-tts-clartts-ar",
+      "name": "speecht5_tts_clartts_ar",
+      "type": "tts",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar"
+      },
+      "notes": "SpeechT5 for Classical Arabic TTS",
+      "metrics": null
+    },
+    {
+      "id": "stmc",
+      "name": "STMC",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "faisalq",
+      "license": "cc-by-nc-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/faisalq/STMC"
+      },
+      "notes": "Saudi Tweets Mega Corpus (141M+ Saudi dialect tweets)",
+      "metrics": null
+    },
+    {
+      "id": "swan",
+      "name": "Swan",
+      "type": "embedding",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "embedding"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2411.01192"
+      },
+      "notes": "Dialect-aware, cross-lingual",
+      "metrics": null
+    },
+    {
+      "id": "synapse-analytics",
+      "name": "Synapse Analytics",
+      "type": "org",
+      "country": "EG",
+      "org": "Synapse Analytics",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://synapseanalytics.com/"
+      },
+      "notes": "AI for financial inclusion - ML-powered credit scoring, Arabic data analytics",
+      "metrics": null
+    },
+    {
+      "id": "t5-arabic-summarization",
+      "name": "t5-arabic-summarization",
+      "type": "llm",
+      "country": "INTL",
+      "org": "malmarjeh",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "task-specific"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/malmarjeh/t5-arabic-text-summarization"
+      },
+      "notes": "Summarization - T5 for Arabic news summarization",
+      "metrics": null
+    },
+    {
+      "id": "tashkeela",
+      "name": "Tashkeela",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Anwarvic",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "github": "https://github.com/Anwarvic/Arabic-Tashkeela-Model"
+      },
+      "notes": "Arabic diacritization corpus",
+      "metrics": null
+    },
+    {
+      "id": "technology-innovation-institute-tii",
+      "name": "Technology Innovation Institute (TII)",
+      "type": "org",
+      "country": "AE",
+      "org": "Technology Innovation Institute (TII)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.tii.ae/"
+      },
+      "notes": "Open-source LLMs, research - Falcon LLM family",
+      "metrics": null
+    },
+    {
+      "id": "tesseract-ocr",
+      "name": "Tesseract OCR",
+      "type": "tool",
+      "country": "INTL",
+      "org": "tesseract-ocr",
+      "license": "unknown",
+      "modality": "vision",
+      "tasks": [
+        "ocr"
+      ],
+      "links": {
+        "github": "https://github.com/tesseract-ocr/tesseract"
+      },
+      "notes": "Open-source OCR engine with Arabic language packs",
+      "metrics": null
+    },
+    {
+      "id": "the-arabic-e-book-corpus",
+      "name": "The Arabic E-Book Corpus",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "mohres",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/mohres/The_Arabic_E-Book_Corpus"
+      },
+      "notes": "1,745 books (81.5M words)",
+      "metrics": null
+    },
+    {
+      "id": "tii-technology-innovation-institute",
+      "name": "TII (Technology Innovation Institute)",
+      "type": "org",
+      "country": "AE",
+      "org": "TII (Technology Innovation Institute)",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "website": "https://www.tii.ae/"
+      },
+      "notes": "Arabic LLM benchmarks, Falcon - Open Arabic LLM Leaderboard, Falcon LLM",
+      "metrics": null
+    },
+    {
+      "id": "tkseem",
+      "name": "tkseem",
+      "type": "tool",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/tkseem"
+      },
+      "notes": "Arabic Tokenization",
+      "metrics": null
+    },
+    {
+      "id": "tnkeeh",
+      "name": "tnkeeh",
+      "type": "tool",
+      "country": "INTL",
+      "org": "ARBML",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp-toolkit"
+      ],
+      "links": {
+        "github": "https://github.com/ARBML/tnkeeh"
+      },
+      "notes": "Arabic text cleaning, normalization, preprocessing",
+      "metrics": null
+    },
+    {
+      "id": "tts-arabic-pytorch",
+      "name": "tts-arabic-pytorch",
+      "type": "tts",
+      "country": "INTL",
+      "org": "nipponjo",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "github": "https://github.com/nipponjo/tts-arabic-pytorch"
+      },
+      "notes": "Tacotron2 + FastPitch + HiFi-GAN for Arabic",
+      "metrics": null
+    },
+    {
+      "id": "tts-arabic-onnx",
+      "name": "tts_arabic (ONNX)",
+      "type": "tts",
+      "country": "INTL",
+      "org": "nipponjo",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "github": "https://github.com/nipponjo/tts_arabic"
+      },
+      "notes": "FastPitch + Mixer-TTS in ONNX for offline Arabic TTS",
+      "metrics": null
+    },
+    {
+      "id": "turath-mcp",
+      "name": "turath-mcp",
+      "type": "agent-skill",
+      "country": "INTL",
+      "org": "opin22",
+      "license": "mit",
+      "modality": "none",
+      "tasks": [
+        "mcp",
+        "retrieval"
+      ],
+      "links": {
+        "github": "https://github.com/opin22/turath-mcp"
+      },
+      "notes": "MCP server for turath.io: classical Arabic and Islamic books",
+      "metrics": null
+    },
+    {
+      "id": "ubc-nlp",
+      "name": "UBC-NLP",
+      "type": "org",
+      "country": "INTL",
+      "org": "UBC-NLP",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "research"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/UBC-NLP"
+      },
+      "notes": "Dialectal Arabic, multimodal models - MARBERT, AraT5, NileChat, PEARL, Dallah",
+      "metrics": null
+    },
+    {
+      "id": "unifonic",
+      "name": "Unifonic",
+      "type": "org",
+      "country": "SA",
+      "org": "Unifonic",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://www.unifonic.com/"
+      },
+      "notes": "Conversational AI platform - Arabic-first CX Intelligence, AI chatbots",
+      "metrics": null
+    },
+    {
+      "id": "voxtral-mini",
+      "name": "Voxtral Mini",
+      "type": "asr",
+      "country": "INTL",
+      "org": "mistralai",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507"
+      },
+      "notes": "Mistral's speech model, 3B, Arabic support, Apache 2.0",
+      "metrics": null
+    },
+    {
+      "id": "wav2vec2-large-xlsr-53-arabic",
+      "name": "wav2vec2-large-xlsr-53-arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "jonatasgrosman",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic"
+      },
+      "notes": "Fine-tuned on Common Voice & Arabic Speech Corpus",
+      "metrics": null
+    },
+    {
+      "id": "whisper-arabic-small",
+      "name": "Whisper Arabic (small)",
+      "type": "asr",
+      "country": "INTL",
+      "org": "ayoubkirouane",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ayoubkirouane/whisper-small-ar"
+      },
+      "notes": "Whisper-small fine-tuned for Arabic language",
+      "metrics": null
+    },
+    {
+      "id": "whisper-egyptian-arabic",
+      "name": "Whisper Egyptian Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "MAdel121",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MAdel121/whisper-medium-egy"
+      },
+      "notes": "Whisper-medium fine-tuned on 72h Egyptian speech",
+      "metrics": null
+    },
+    {
+      "id": "whisper-quran",
+      "name": "Whisper Quran",
+      "type": "asr",
+      "country": "INTL",
+      "org": "tarteel-ai",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
+      },
+      "notes": "Whisper fine-tuned for Quranic recitation recognition",
+      "metrics": null
+    },
+    {
+      "id": "whisper-large-v3-turbo",
+      "name": "whisper-large-v3-turbo",
+      "type": "asr",
+      "country": "INTL",
+      "org": "openai",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/openai/whisper-large-v3-turbo"
+      },
+      "notes": "4x faster Whisper, Arabic support, MIT license",
+      "metrics": null
+    },
+    {
+      "id": "widebot-ai",
+      "name": "WideBot AI",
+      "type": "org",
+      "country": "EG",
+      "org": "WideBot AI",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://widebot.ai/"
+      },
+      "notes": "Arabic-first conversational AI - AQL Arabic LLM, chatbots, voicebots, AI agents",
+      "metrics": null
+    },
+    {
+      "id": "wittify-ai",
+      "name": "Wittify.ai",
+      "type": "org",
+      "country": "SA",
+      "org": "Wittify.ai",
+      "license": "unknown",
+      "modality": "none",
+      "tasks": [
+        "industry"
+      ],
+      "links": {
+        "website": "https://wittify.ai/"
+      },
+      "notes": "Conversational AI for Arabic - Interactive Arabic AI agents",
+      "metrics": null
+    },
+    {
+      "id": "wojood",
+      "name": "Wojood",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "SinaLab",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "nlp"
+      ],
+      "links": {
+        "github": "https://github.com/SinaLab/ArabicNER"
+      },
+      "notes": "Nested NER corpus (550K tokens)",
+      "metrics": null
+    },
+    {
+      "id": "xtts-v2",
+      "name": "XTTS-v2",
+      "type": "tts",
+      "country": "INTL",
+      "org": "coqui",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/coqui/XTTS-v2"
+      },
+      "notes": "Coqui's multilingual voice cloning, Arabic support, 6s cloning",
+      "metrics": null
+    },
+    {
+      "id": "yehia",
+      "name": "Yehia",
+      "type": "llm",
+      "country": "INTL",
+      "org": "Navid-AI",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Navid-AI/Yehia-7B"
+      },
+      "size": "7B",
+      "notes": "Based on ALLaM, Arabic instruction-tuned",
+      "metrics": null
+    }
+  ]
+}

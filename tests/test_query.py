@@ -4,7 +4,7 @@ from atlas.query import get, recommend, search
 
 def _merged(fixture_entries):
     ids = build_hf_ids(fixture_entries)
-    cache = {i: {"downloads": n * 10, "likes": 1, "lastModified": None, "fetched": "d"} for n, i in enumerate(ids, 1)}
+    cache = {i: {"downloads": n * 10, "likes": 1, "lastModified": None} for n, i in enumerate(ids, 1)}
     return merge_metrics(fixture_entries, cache)
 
 

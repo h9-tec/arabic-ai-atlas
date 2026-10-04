@@ -78,3 +78,21 @@ def test_cli_check_catches_edited_footer_date(tmp_path):
     bad = run("build", "--check", "--skip-enrich", "--data", FIX, "--out", str(tmp_path))
     assert bad.returncode == 1
     assert "drift: assets/map.svg" in bad.stderr
+
+
+def test_cli_build_fills_unknown_license_from_cache(tmp_path):
+    data = tmp_path / "data"
+    shutil.copytree(ROOT / FIX, data)
+    llms = data / "llms.yaml"
+    llms.write_text(llms.read_text(encoding="utf-8").replace("license: apache-2.0", "license: unknown"), encoding="utf-8")
+    (data / ".cache").mkdir()
+    cache = {"humain-ai/ALLaM-7B-Instruct-preview": {"downloads": 5, "likes": 1, "lastModified": None, "license": "mit"},
+             "fetched_at": "2026-10-04"}
+    (data / ".cache" / "hf.json").write_text(json.dumps(cache), encoding="utf-8")
+    out = tmp_path / "out"
+    res = run("build", "--skip-enrich", "--date", "2026-10-04", "--data", str(data), "--out", str(out))
+    assert res.returncode == 0, res.stderr
+    by_id = {e["id"]: e for e in json.loads((out / "dist" / "atlas.json").read_text(encoding="utf-8"))["entries"]}
+    assert by_id["allam-7b"]["license"] == "mit"
+    assert by_id["jais-30b"]["license"] == "unknown"  # no cache row: stays unknown
+    assert by_id["allam-7b"]["metrics"] == {"downloads": 5, "likes": 1, "lastModified": None}

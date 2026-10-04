@@ -43,7 +43,7 @@ async def _run(atlas_json: Path):
 
 def test_mcp_server_roundtrip(tmp_path, fixture_entries):
     ids = build_hf_ids(fixture_entries)
-    cache = {i: {"downloads": 10, "likes": 1, "lastModified": None, "fetched": "d"} for i in ids}
+    cache = {i: {"downloads": 10, "likes": 1, "lastModified": None} for i in ids}
     doc = build_atlas_json(merge_metrics(fixture_entries, cache), "2026-10-04")
     p = tmp_path / "atlas.json"
     p.write_text(json.dumps(doc))

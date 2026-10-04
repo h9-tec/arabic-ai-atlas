@@ -1,6 +1,6 @@
 import pytest
 
-from atlas.enrich import build_hf_ids, fetch_hf_metrics, hf_id_from_url, merge_metrics
+from atlas.enrich import apply_cached_licenses, build_hf_ids, card_license, fetch_hf_metrics, hf_id_from_url, merge_metrics
 
 
 def test_hf_id_from_url_model_and_dataset():
@@ -31,16 +31,18 @@ def test_hf_id_from_url_shapes(url, expected):
 
 
 def test_fetch_updates_cache_and_keeps_old_on_error():
-    cache = {"a/b": {"downloads": 5, "likes": 1, "lastModified": "2026-01-01", "fetched": "2026-01-01"}}
+    cache = {"a/b": {"downloads": 5, "likes": 1, "lastModified": "2026-01-01", "fetched": "2026-01-01"}, "fetched_at": "2026-01-01"}
 
     def fake(hf_id):
         if hf_id == "a/b":
             raise TimeoutError("boom")
-        return {"downloads": 42, "likes": 3, "lastModified": "2026-09-30T10:00:00.000Z"}
+        return {"downloads": 42, "likes": 3, "lastModified": "2026-09-30T10:00:00.000Z", "cardData": {"license": "Apache-2.0"}}
 
     new, warns = fetch_hf_metrics(["a/b", "c/d"], cache, fetch=fake, now="2026-10-04")
-    assert new["a/b"]["downloads"] == 5
-    assert new["c/d"] == {"downloads": 42, "likes": 3, "lastModified": "2026-09-30", "fetched": "2026-10-04"}
+    assert new["a/b"] == {"downloads": 5, "likes": 1, "lastModified": "2026-01-01"}  # legacy stamp dropped
+    assert new["c/d"] == {"downloads": 42, "likes": 3, "lastModified": "2026-09-30", "license": "apache-2.0"}
+    assert new["fetched_at"] == "2026-10-04"
+    assert not any("fetched" in v for v in new.values() if isinstance(v, dict))
     assert len(warns) == 1 and "a/b" in warns[0]
     assert "TimeoutError: boom" in warns[0]
     assert "c/d" not in cache
@@ -54,7 +56,7 @@ def test_fetch_error_without_old_entry_stays_absent_and_defaults():
 
     new, warns = fetch_hf_metrics(["x/y", "m/n"], {}, fetch=fake, now="2026-10-04")
     assert "x/y" not in new
-    assert new["m/n"] == {"downloads": 0, "likes": 0, "lastModified": None, "fetched": "2026-10-04"}
+    assert new["m/n"] == {"downloads": 0, "likes": 0, "lastModified": None}
     assert len(warns) == 1
 
 
@@ -66,11 +68,12 @@ def test_merge_metrics_none_without_hf(fixture_entries):
 
 def test_merge_metrics_attaches_cache(fixture_entries):
     ids = build_hf_ids(fixture_entries)
-    cache = {i: {"downloads": 1, "likes": 2, "lastModified": None, "fetched": "d"} for i in ids}
+    cache = {i: {"downloads": 1, "likes": 2, "lastModified": None, "license": "mit"} for i in ids}
+    cache["fetched_at"] = "2026-10-04"
     merged = merge_metrics(fixture_entries, cache)
     for e in merged:
         if "hf" in e["links"]:
-            assert e["metrics"] == cache[hf_id_from_url(e["links"]["hf"])]
+            assert e["metrics"] == {"downloads": 1, "likes": 2, "lastModified": None}  # license is not a metric
 
 
 def test_build_hf_ids_unique_first_seen_order():
@@ -81,3 +84,31 @@ def test_build_hf_ids_unique_first_seen_order():
         {"links": {"hf": "https://huggingface.co/b/b/"}},
     ]
     assert build_hf_ids(entries) == ["b/b", "a/a"]
+
+
+@pytest.mark.parametrize(
+    "card,expected",
+    [
+        ({"license": "MIT"}, "mit"),
+        ({"license": ["cc-by-4.0", "mit"]}, "cc-by-4.0"),
+        ({"license": "other", "license_name": "Llama3.1"}, "llama3.1"),
+        ({"license": "other"}, None),
+        ({}, None),
+        (None, None),
+    ],
+)
+def test_card_license(card, expected):
+    assert card_license({"cardData": card}) == expected
+
+
+def test_apply_cached_licenses_fills_only_unknown():
+    url = {"hf": "https://huggingface.co/o/m"}
+    entries = [
+        {"id": "u", "license": "unknown", "links": url},
+        {"id": "k", "license": "gemma", "links": url},
+        {"id": "g", "license": "unknown", "links": {"github": "https://github.com/o/m"}},
+    ]
+    cache = {"o/m": {"downloads": 1, "likes": 0, "lastModified": None, "license": "apache-2.0"}, "fetched_at": "d"}
+    out = apply_cached_licenses(entries, cache)
+    assert [e["license"] for e in out] == ["apache-2.0", "gemma", "unknown"]
+    assert entries[0]["license"] == "unknown"  # inputs are not mutated

@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))  # works even when the package is not installed
 
-from atlas.enrich import build_hf_ids, fetch_hf_metrics, merge_metrics
+from atlas.enrich import FETCHED_AT, apply_cached_licenses, build_hf_ids, fetch_hf_metrics, merge_metrics
 from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
 from atlas.validate import load_schema, validate_entries
@@ -46,13 +46,14 @@ def cmd_enrich(entries: list[dict], data: Path, date: str) -> int:
     path.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     for w in warnings:
         print(f"warning: {w}", file=sys.stderr)
-    print(f"enriched {len(cache)} HF ids ({len(warnings)} warnings)")
+    print(f"enriched {sum(1 for k in cache if k != FETCHED_AT)} HF ids ({len(warnings)} warnings)")
     return 0
 
 
 def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]:
     """Render every generated file in memory, keyed by path relative to --out."""
-    merged = merge_metrics(entries, _load_cache(data))
+    cache = _load_cache(data)
+    merged = merge_metrics(apply_cached_licenses(entries, cache), cache)
     doc = build_atlas_json(merged, date)
     outputs = {
         "dist/atlas.json": json.dumps(doc, indent=2, ensure_ascii=False) + "\n",

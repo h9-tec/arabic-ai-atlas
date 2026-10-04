@@ -12,7 +12,7 @@ NS = "{http://www.w3.org/2000/svg}"
 
 def _merged(entries):
     ids = build_hf_ids(entries)
-    cache = {i: {"downloads": 10 ** n, "likes": 1, "lastModified": None, "fetched": "d"} for n, i in enumerate(ids, 1)}
+    cache = {i: {"downloads": 10 ** n, "likes": 1, "lastModified": None} for n, i in enumerate(ids, 1)}
     return merge_metrics(entries, cache)
 
 
@@ -51,7 +51,7 @@ def test_cell_caps_at_8_with_more_node(fixture_entries):
     for i in range(12):
         hf = f"https://huggingface.co/synth/m{i:02d}"
         entries.append(dict(base, id=f"synth-{i:02d}", name=f"Synth {i:02d}", links={"hf": hf}))
-        cache[f"synth/m{i:02d}"] = {"downloads": (i + 1) * 1000, "likes": 0, "lastModified": None, "fetched": "d"}
+        cache[f"synth/m{i:02d}"] = {"downloads": (i + 1) * 1000, "likes": 0, "lastModified": None}
     svg = render_svg(merge_metrics(entries, cache), "2026-10-04")
     named = [t for t in _titles(svg) if t.startswith("Synth ")]
     assert sorted(t.split(" · ")[0] for t in named) == [f"Synth {i:02d}" for i in range(7, 12)]

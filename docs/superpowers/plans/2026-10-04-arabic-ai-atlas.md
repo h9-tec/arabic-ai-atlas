@@ -337,7 +337,9 @@ def test_merge_metrics_none_without_hf(fixture_entries):
 **Files:**
 - Create: `.github/workflows/validate.yml`, `.github/workflows/nightly.yml`, `CONTRIBUTING.md`, `.github/PULL_REQUEST_TEMPLATE.md`, `.github/ISSUE_TEMPLATE/add-resource.yml`
 
-- [ ] **Step 1: Write `validate.yml`**: on `pull_request` and `push` to `main`; `astral-sh/setup-uv@v5`, `uv sync`, `uv run pytest -q`, `uv run python scripts/build.py validate`, `uv run python scripts/build.py build --date "$(date -u +%F)" --skip-enrich`, then `git diff --exit-code -- README.md assets dist ':!dist/llms.txt'` is too strict because of the date: instead run build with `--date 1970-01-01` into a temp dir via `--out /tmp/check` and diff everything except the date lines (`diff <(grep -v 1970-01-01 /tmp/check/README.md) <(grep -vE 'updated-[0-9]{4}' README.md)`). Simpler rule adopted: `build.py` accepts `--check`, which renders to memory and exits 1 if any output differs from disk ignoring lines containing the `generated_at` date. Add that flag to `scripts/build.py` in this task with a test `test_cli_check_detects_drift`.
+- [ ] **Step 1: Add `--check` to `scripts/build.py`** with a failing test `test_cli_check_detects_drift` (fixture build to a temp dir, edit one char in README.md, `build.py build --check --out tmp` → returncode 1 and stderr names `README.md`; unmodified → 0). `--check` renders in memory and compares with disk, ignoring lines that contain the `generated_at` date. Implement, run, PASS.
+
+- [ ] **Step 1b: Write `validate.yml`**: on `pull_request` and `push` to `main`; `astral-sh/setup-uv@v5`, `uv sync`, `uv run pytest -q`, `uv run python scripts/build.py validate`, `uv run python scripts/build.py build --check --skip-enrich`.
 
 - [ ] **Step 2: Write `nightly.yml`**: `schedule: cron "0 3 * * *"` + `workflow_dispatch`; `permissions: contents: write`; `uv run python scripts/build.py all --date "$(date -u +%F)"`; `git diff --quiet || (git config user.name github-actions[bot]; git config user.email 41898282+github-actions[bot]@users.noreply.github.com; git add -A; git commit -m "chore: nightly refresh $(date -u +%F)"; git push)`.
 

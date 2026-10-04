@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/map.svg" alt="Arabic AI landscape map" width="100%"/>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/"><img src="assets/map.svg" alt="Arabic AI landscape map" width="100%"/></a>
+
+**[Open the interactive map →](https://h9-tec.github.io/arabic-ai-atlas/)** · search, filter by dialect or license, share a filtered link.
 
 # Arabic AI Atlas
 

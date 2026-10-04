@@ -1,0 +1,12 @@
+- id: fish-speech-ar
+  name: Fish Speech (Arabic)
+  type: tts
+  country: INTL
+  org: Fish Audio
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  dialects: [msa]
+  tasks: [tts]
+  links:
+    github: https://github.com/fishaudio/fish-speech
+  notes: Multilingual TTS with Arabic support.

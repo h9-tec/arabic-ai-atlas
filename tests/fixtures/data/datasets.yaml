@@ -1,0 +1,23 @@
+- id: cidar
+  name: CIDAR
+  type: dataset
+  country: SA
+  org: ARBML
+  license: cc-by-4.0
+  modality: text
+  dialects: [msa]
+  tasks: [instruction-tuning]
+  links:
+    hf: https://huggingface.co/datasets/arbml/CIDAR
+  notes: Culturally relevant Arabic instruction dataset.
+- id: masader
+  name: Masader
+  type: dataset
+  country: INTL
+  org: ARBML
+  license: mit
+  modality: text
+  tasks: [catalogue]
+  links:
+    github: https://github.com/ARBML/masader
+  notes: Catalogue of Arabic NLP datasets.

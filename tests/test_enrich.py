@@ -24,6 +24,10 @@ def test_hf_id_from_url_model_and_dataset():
         ("https://huggingface.co/datasets/a", None),
         ("https://huggingface.co/", None),
         ("https://nothuggingface.co/a/b", None),
+        ("https://huggingface.co/spaces/OALL", None),
+        ("https://huggingface.co/spaces/o/app", None),
+        ("https://huggingface.co/collections/google", None),
+        ("https://huggingface.co/papers/2410.18163", None),
     ],
 )
 def test_hf_id_from_url_shapes(url, expected):
@@ -93,6 +97,8 @@ def test_build_hf_ids_unique_first_seen_order():
         ({"license": ["cc-by-4.0", "mit"]}, "cc-by-4.0"),
         ({"license": "other", "license_name": "Llama3.1"}, "llama3.1"),
         ({"license": "other"}, None),
+        ({"license": "custom"}, None),
+        ({"license": "cc"}, None),
         ({}, None),
         (None, None),
     ],

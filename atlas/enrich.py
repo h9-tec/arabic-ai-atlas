@@ -9,6 +9,8 @@ _HF_HOSTS = {"huggingface.co", "www.huggingface.co"}
 _EXPAND = "?expand[]=downloads&expand[]=likes&expand[]=lastModified&expand[]=cardData"
 FETCHED_AT = "fetched_at"  # single top-level cache key; per-entry dates churned every nightly diff
 METRIC_KEYS = ("downloads", "likes", "lastModified")
+_VAGUE_LICENSES = {"other", "unknown", "custom", "cc", "gpl"}  # no usable terms or version: stay unknown
+_NOT_REPOS = {"spaces", "collections", "papers", "docs", "blog", "organizations"}  # no models API
 
 
 def hf_id_from_url(url: str) -> str | None:
@@ -17,6 +19,8 @@ def hf_id_from_url(url: str) -> str | None:
     if parts.scheme not in ("http", "https") or parts.hostname not in _HF_HOSTS:
         return None
     segs = [s for s in parts.path.split("/") if s]
+    if segs and segs[0] in _NOT_REPOS:
+        return None
     prefix = []
     if segs and segs[0] == "datasets":
         prefix = ["datasets"]
@@ -39,7 +43,8 @@ def _default_fetch(hf_id: str) -> dict:
 def card_license(data: dict) -> str | None:
     """Lowercased license from a HF API response's cardData, or None.
 
-    `other` defers to `license_name` when the card gives one; lists keep the first item.
+    `other` defers to `license_name` when the card gives one; lists keep the first item;
+    vague values (custom, cc, gpl without a version) count as no license.
     """
     card = data.get("cardData") or {}
     lic = card.get("license")
@@ -47,7 +52,7 @@ def card_license(data: dict) -> str | None:
         lic = lic[0] if lic else None
     if isinstance(lic, str) and lic.strip().lower() == "other":
         lic = card.get("license_name")
-    if not isinstance(lic, str) or not lic.strip():
+    if not isinstance(lic, str) or lic.strip().lower() in _VAGUE_LICENSES | {""}:
         return None
     return lic.strip().lower()
 

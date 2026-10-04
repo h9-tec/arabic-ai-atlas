@@ -26,8 +26,8 @@ jobs:
       - name: Commit and push if changed
         run: |
           git add -A
-          if git diff --cached --quiet; then
-            echo "no changes"
+          # skip empty or date-only refreshes so open data PRs do not conflict daily
+          if ! bash scripts/nightly_should_commit.sh; then
             exit 0
           fi
           git config user.name "github-actions[bot]"

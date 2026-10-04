@@ -7,8 +7,8 @@
       "name": "XTTS-v2",
       "type": "tts",
       "country": "INTL",
-      "org": "coqui",
-      "license": "other",
+      "org": "Coqui",
+      "license": "coqui-public-model-license",
       "modality": "speech",
       "tasks": [
         "tts"
@@ -20,8 +20,7 @@
       "metrics": {
         "downloads": 6665636,
         "likes": 3846,
-        "lastModified": "2023-12-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-12-11"
       }
     },
     {
@@ -29,7 +28,7 @@
       "name": "whisper-large-v3-turbo",
       "type": "asr",
       "country": "INTL",
-      "org": "openai",
+      "org": "OpenAI",
       "license": "mit",
       "modality": "speech",
       "tasks": [
@@ -42,8 +41,7 @@
       "metrics": {
         "downloads": 6304256,
         "likes": 3412,
-        "lastModified": "2024-10-04",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-10-04"
       }
     },
     {
@@ -51,7 +49,7 @@
       "name": "openai/whisper-large-v3",
       "type": "asr",
       "country": "INTL",
-      "org": "openai",
+      "org": "OpenAI",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
@@ -64,8 +62,7 @@
       "metrics": {
         "downloads": 4128042,
         "likes": 6557,
-        "lastModified": "2024-08-12",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-08-12"
       }
     },
     {
@@ -86,8 +83,7 @@
       "metrics": {
         "downloads": 1517773,
         "likes": 55,
-        "lastModified": "2022-12-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-12-14"
       }
     },
     {
@@ -108,8 +104,7 @@
       "metrics": {
         "downloads": 555511,
         "likes": 51,
-        "lastModified": "2024-03-26",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-03-26"
       }
     },
     {
@@ -131,8 +126,7 @@
       "metrics": {
         "downloads": 449588,
         "likes": 2316,
-        "lastModified": "2026-07-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-07-14"
       }
     },
     {
@@ -154,8 +148,7 @@
       "metrics": {
         "downloads": 399695,
         "likes": 3096,
-        "lastModified": "2024-12-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-12-21"
       }
     },
     {
@@ -163,7 +156,7 @@
       "name": "MMS-1b-all",
       "type": "asr",
       "country": "INTL",
-      "org": "facebook",
+      "org": "Meta",
       "license": "cc-by-nc-4.0",
       "modality": "speech",
       "tasks": [
@@ -176,8 +169,7 @@
       "metrics": {
         "downloads": 304525,
         "likes": 207,
-        "lastModified": "2023-06-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-06-15"
       }
     },
     {
@@ -185,7 +177,7 @@
       "name": "SeamlessM4T v2",
       "type": "asr",
       "country": "INTL",
-      "org": "facebook",
+      "org": "Meta",
       "license": "cc-by-nc-4.0",
       "modality": "speech",
       "tasks": [
@@ -198,8 +190,7 @@
       "metrics": {
         "downloads": 284268,
         "likes": 1023,
-        "lastModified": "2024-01-04",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-01-04"
       }
     },
     {
@@ -207,7 +198,7 @@
       "name": "Voxtral Mini",
       "type": "asr",
       "country": "INTL",
-      "org": "mistralai",
+      "org": "Mistral AI",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
@@ -220,8 +211,7 @@
       "metrics": {
         "downloads": 179324,
         "likes": 675,
-        "lastModified": "2025-07-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-07-28"
       }
     },
     {
@@ -243,8 +233,7 @@
       "metrics": {
         "downloads": 133985,
         "likes": 50,
-        "lastModified": "2023-08-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-08-16"
       }
     },
     {
@@ -261,12 +250,14 @@
       "links": {
         "hf": "https://huggingface.co/UBC-NLP/MARBERTv2"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Updated with improved dialectal coverage",
       "metrics": {
         "downloads": 104177,
         "likes": 14,
-        "lastModified": "2022-03-30",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-03-30"
       }
     },
     {
@@ -287,8 +278,7 @@
       "metrics": {
         "downloads": 56805,
         "likes": 14,
-        "lastModified": "2026-05-20",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-05-20"
       }
     },
     {
@@ -310,8 +300,7 @@
       "metrics": {
         "downloads": 27635,
         "likes": 48,
-        "lastModified": "2023-08-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-08-16"
       }
     },
     {
@@ -319,7 +308,7 @@
       "name": "Whisper Quran",
       "type": "asr",
       "country": "INTL",
-      "org": "tarteel-ai",
+      "org": "Tarteel AI",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
@@ -328,12 +317,14 @@
       "links": {
         "hf": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
       },
+      "dialects": [
+        "classical"
+      ],
       "notes": "Whisper fine-tuned for Quranic recitation recognition",
       "metrics": {
         "downloads": 24575,
         "likes": 185,
-        "lastModified": "2022-12-13",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-12-13"
       }
     },
     {
@@ -354,8 +345,7 @@
       "metrics": {
         "downloads": 14758,
         "likes": 20,
-        "lastModified": "2025-09-07",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-07"
       }
     },
     {
@@ -376,8 +366,7 @@
       "metrics": {
         "downloads": 12223,
         "likes": 40,
-        "lastModified": "2023-03-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-03-17"
       }
     },
     {
@@ -395,12 +384,14 @@
         "hf": "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
       },
       "size": "9B",
+      "dialects": [
+        "msa"
+      ],
       "notes": "Arabic-English LLM",
       "metrics": {
         "downloads": 11929,
         "likes": 36,
-        "lastModified": "2025-07-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-07-15"
       }
     },
     {
@@ -409,7 +400,7 @@
       "type": "llm",
       "country": "AE",
       "org": "TII (UAE)",
-      "license": "other",
+      "license": "falcon-llm-license",
       "modality": "text",
       "tasks": [
         "chat"
@@ -422,8 +413,7 @@
       "metrics": {
         "downloads": 11713,
         "likes": 80,
-        "lastModified": "2025-05-31",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-31"
       }
     },
     {
@@ -432,7 +422,7 @@
       "type": "llm",
       "country": "SA",
       "org": "SDAIA & IBM",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "text",
       "tasks": [
         "chat"
@@ -441,12 +431,14 @@
         "hf": "https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview"
       },
       "size": "7B",
+      "dialects": [
+        "msa"
+      ],
       "notes": "Saudi's sovereign model, enterprise-focused",
       "metrics": {
         "downloads": 11639,
         "likes": 195,
-        "lastModified": "2025-07-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-07-14"
       }
     },
     {
@@ -467,8 +459,7 @@
       "metrics": {
         "downloads": 6958,
         "likes": 27,
-        "lastModified": "2025-09-07",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-07"
       }
     },
     {
@@ -476,7 +467,7 @@
       "name": "facebook/mms-tts-ara",
       "type": "tts",
       "country": "INTL",
-      "org": "facebook",
+      "org": "Meta",
       "license": "cc-by-nc-4.0",
       "modality": "speech",
       "tasks": [
@@ -485,12 +476,12 @@
       "links": {
         "hf": "https://huggingface.co/facebook/mms-tts-ara"
       },
+      "on_device": true,
       "notes": "Facebook's Massively Multilingual Speech",
       "metrics": {
         "downloads": 6815,
         "likes": 21,
-        "lastModified": "2023-09-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-09-01"
       }
     },
     {
@@ -511,8 +502,7 @@
       "metrics": {
         "downloads": 3923,
         "likes": 22,
-        "lastModified": "2024-05-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-05-16"
       }
     },
     {
@@ -533,8 +523,7 @@
       "metrics": {
         "downloads": 3623,
         "likes": 39,
-        "lastModified": "2024-09-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-09-17"
       }
     },
     {
@@ -555,8 +544,7 @@
       "metrics": {
         "downloads": 2664,
         "likes": 38,
-        "lastModified": "2023-10-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-10-16"
       }
     },
     {
@@ -579,8 +567,7 @@
       "metrics": {
         "downloads": 2469,
         "likes": 34,
-        "lastModified": "2024-06-03",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-06-03"
       }
     },
     {
@@ -601,8 +588,7 @@
       "metrics": {
         "downloads": 2416,
         "likes": 73,
-        "lastModified": "2024-06-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-06-16"
       }
     },
     {
@@ -623,8 +609,7 @@
       "metrics": {
         "downloads": 2400,
         "likes": 5,
-        "lastModified": "2024-10-29",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-10-29"
       }
     },
     {
@@ -633,7 +618,7 @@
       "type": "llm",
       "country": "INTL",
       "org": "Cohere",
-      "license": "unknown",
+      "license": "cc-by-nc-4.0",
       "modality": "text",
       "tasks": [
         "chat"
@@ -646,8 +631,7 @@
       "metrics": {
         "downloads": 2124,
         "likes": 395,
-        "lastModified": "2025-10-30",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-30"
       }
     },
     {
@@ -668,8 +652,7 @@
       "metrics": {
         "downloads": 1972,
         "likes": 14,
-        "lastModified": "2025-12-29",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-12-29"
       }
     },
     {
@@ -687,12 +670,14 @@
         "hf": "https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0"
       },
       "size": "9B",
+      "dialects": [
+        "msa"
+      ],
       "notes": "Top-ranked Arabic LLM built on Gemma",
       "metrics": {
         "downloads": 1912,
         "likes": 89,
-        "lastModified": "2025-06-25",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-25"
       }
     },
     {
@@ -714,8 +699,7 @@
       "metrics": {
         "downloads": 1673,
         "likes": 132,
-        "lastModified": "2025-10-30",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-30"
       }
     },
     {
@@ -723,7 +707,7 @@
       "name": "NVIDIA FastConformer Arabic (Diacritics)",
       "type": "asr",
       "country": "INTL",
-      "org": "nvidia",
+      "org": "NVIDIA",
       "license": "cc-by-4.0",
       "modality": "speech",
       "tasks": [
@@ -736,8 +720,7 @@
       "metrics": {
         "downloads": 1394,
         "likes": 42,
-        "lastModified": "2025-10-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-21"
       }
     },
     {
@@ -755,13 +738,15 @@
         "hf": "https://huggingface.co/silma-ai/SILMA-Kashif-2B-Instruct-v1.0"
       },
       "size": "2B",
-      "notes": "Lightweight RAG-optimized Arabic model",
       "on_device": true,
+      "dialects": [
+        "msa"
+      ],
+      "notes": "Lightweight RAG-optimized Arabic model",
       "metrics": {
         "downloads": 1315,
         "likes": 24,
-        "lastModified": "2025-06-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-11"
       }
     },
     {
@@ -778,12 +763,14 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar"
       },
+      "dialects": [
+        "classical"
+      ],
       "notes": "SpeechT5 for Classical Arabic TTS",
       "metrics": {
         "downloads": 1198,
         "likes": 32,
-        "lastModified": "2025-09-10",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-10"
       }
     },
     {
@@ -791,7 +778,7 @@
       "name": "NVIDIA FastConformer Arabic",
       "type": "asr",
       "country": "INTL",
-      "org": "nvidia",
+      "org": "NVIDIA",
       "license": "cc-by-4.0",
       "modality": "speech",
       "tasks": [
@@ -804,8 +791,7 @@
       "metrics": {
         "downloads": 892,
         "likes": 19,
-        "lastModified": "2025-10-23",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-23"
       }
     },
     {
@@ -826,8 +812,7 @@
       "metrics": {
         "downloads": 840,
         "likes": 14,
-        "lastModified": "2024-11-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-28"
       }
     },
     {
@@ -844,12 +829,14 @@
       "links": {
         "hf": "https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark"
       },
+      "dialects": [
+        "msa"
+      ],
       "notes": "Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics",
       "metrics": {
         "downloads": 830,
         "likes": 30,
-        "lastModified": "2025-11-27",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-27"
       }
     },
     {
@@ -866,12 +853,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/MBZUAI/ArVoice"
       },
+      "dialects": [
+        "msa"
+      ],
       "notes": "Multi-speaker MSA corpus, 83h, 11 voices, diacritized",
       "metrics": {
         "downloads": 781,
         "likes": 33,
-        "lastModified": "2025-10-31",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-31"
       }
     },
     {
@@ -892,8 +881,7 @@
       "metrics": {
         "downloads": 773,
         "likes": 69,
-        "lastModified": "2025-10-27",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-27"
       }
     },
     {
@@ -910,12 +898,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/MBZUAI/ClArTTS"
       },
+      "dialects": [
+        "classical"
+      ],
       "notes": "Classical Arabic TTS corpus by MBZUAI",
       "metrics": {
         "downloads": 769,
         "likes": 27,
-        "lastModified": "2025-10-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-01"
       }
     },
     {
@@ -923,7 +913,7 @@
       "name": "CAMeLBERT-MSA-Sentiment",
       "type": "llm",
       "country": "AE",
-      "org": "CAMeL-Lab",
+      "org": "CAMeL Lab, NYUAD",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -932,12 +922,14 @@
       "links": {
         "hf": "https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-msa-sentiment"
       },
+      "dialects": [
+        "msa"
+      ],
       "notes": "Sentiment Analysis - Fine-tuned for MSA sentiment",
       "metrics": {
         "downloads": 696,
         "likes": 8,
-        "lastModified": "2021-10-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2021-10-17"
       }
     },
     {
@@ -954,12 +946,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/MAdel121/arabic-egy-cleaned"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "~72 hours of Egyptian Arabic speech",
       "metrics": {
         "downloads": 668,
         "likes": 18,
-        "lastModified": "2025-05-04",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-04"
       }
     },
     {
@@ -980,8 +974,7 @@
       "metrics": {
         "downloads": 641,
         "likes": 21,
-        "lastModified": "2024-03-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-03-15"
       }
     },
     {
@@ -1002,8 +995,7 @@
       "metrics": {
         "downloads": 518,
         "likes": 21,
-        "lastModified": "2024-05-23",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-05-23"
       }
     },
     {
@@ -1020,12 +1012,14 @@
       "links": {
         "hf": "https://huggingface.co/faisalq/SaudiBERT"
       },
+      "dialects": [
+        "gulf"
+      ],
       "notes": "Saudi dialect BERT, trained on 141M tweets (STMC) + forums",
       "metrics": {
         "downloads": 518,
         "likes": 21,
-        "lastModified": "2024-05-23",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-05-23"
       }
     },
     {
@@ -1033,7 +1027,7 @@
       "name": "CIDAR",
       "type": "dataset",
       "country": "SA",
-      "org": "arbml",
+      "org": "ARBML",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -1046,8 +1040,7 @@
       "metrics": {
         "downloads": 460,
         "likes": 57,
-        "lastModified": "2025-07-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-07-01"
       }
     },
     {
@@ -1068,8 +1061,7 @@
       "metrics": {
         "downloads": 443,
         "likes": 10,
-        "lastModified": "2025-12-08",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-12-08"
       }
     },
     {
@@ -1090,8 +1082,7 @@
       "metrics": {
         "downloads": 417,
         "likes": 38,
-        "lastModified": "2024-08-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-08-14"
       }
     },
     {
@@ -1112,16 +1103,15 @@
       "metrics": {
         "downloads": 397,
         "likes": 4,
-        "lastModified": "2023-09-19",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-09-19"
       }
     },
     {
       "id": "shifaa-medical",
       "name": "Shifaa Medical",
       "type": "dataset",
-      "country": "INTL",
-      "org": "Ahmed-Selem",
+      "country": "EG",
+      "org": "Ahmed Selem",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -1134,8 +1124,7 @@
       "metrics": {
         "downloads": 394,
         "likes": 13,
-        "lastModified": "2025-02-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-02-28"
       }
     },
     {
@@ -1156,8 +1145,7 @@
       "metrics": {
         "downloads": 392,
         "likes": 24,
-        "lastModified": "2024-09-23",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-09-23"
       }
     },
     {
@@ -1178,8 +1166,7 @@
       "metrics": {
         "downloads": 383,
         "likes": 4,
-        "lastModified": "2026-05-22",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-05-22"
       }
     },
     {
@@ -1188,7 +1175,7 @@
       "type": "llm",
       "country": "INTL",
       "org": "UBC-NLP",
-      "license": "other",
+      "license": "qwen-research",
       "modality": "text",
       "tasks": [
         "chat"
@@ -1197,13 +1184,16 @@
         "hf": "https://huggingface.co/UBC-NLP/NileChat-3B"
       },
       "size": "3B",
-      "notes": "Egyptian and Moroccan dialects",
       "on_device": true,
+      "dialects": [
+        "egy",
+        "magh"
+      ],
+      "notes": "Egyptian and Moroccan dialects",
       "metrics": {
         "downloads": 361,
         "likes": 23,
-        "lastModified": "2026-05-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-05-11"
       }
     },
     {
@@ -1224,8 +1214,7 @@
       "metrics": {
         "downloads": 342,
         "likes": 14,
-        "lastModified": "2023-07-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-07-01"
       }
     },
     {
@@ -1248,8 +1237,7 @@
       "metrics": {
         "downloads": 334,
         "likes": 13,
-        "lastModified": "2024-02-27",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-02-27"
       }
     },
     {
@@ -1257,7 +1245,7 @@
       "name": "Arabic Tweets",
       "type": "dataset",
       "country": "INTL",
-      "org": "pain",
+      "org": "Mohammad Albarham",
       "license": "cc-by-4.0",
       "modality": "text",
       "tasks": [
@@ -1270,8 +1258,7 @@
       "metrics": {
         "downloads": 304,
         "likes": 23,
-        "lastModified": "2023-04-08",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-04-08"
       }
     },
     {
@@ -1280,7 +1267,7 @@
       "type": "llm",
       "country": "INTL",
       "org": "Navid-AI",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "text",
       "tasks": [
         "chat"
@@ -1293,8 +1280,7 @@
       "metrics": {
         "downloads": 297,
         "likes": 25,
-        "lastModified": "2026-01-06",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-01-06"
       }
     },
     {
@@ -1315,8 +1301,7 @@
       "metrics": {
         "downloads": 272,
         "likes": 35,
-        "lastModified": "2024-07-04",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-07-04"
       }
     },
     {
@@ -1338,8 +1323,7 @@
       "metrics": {
         "downloads": 266,
         "likes": 5,
-        "lastModified": "2024-05-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-05-01"
       }
     },
     {
@@ -1360,16 +1344,15 @@
       "metrics": {
         "downloads": 257,
         "likes": 22,
-        "lastModified": "2025-04-13",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-04-13"
       }
     },
     {
       "id": "sada",
       "name": "SADA",
       "type": "dataset",
-      "country": "INTL",
-      "org": "m6011",
+      "country": "SA",
+      "org": "SDAIA",
       "license": "cc-by-4.0",
       "modality": "speech",
       "tasks": [
@@ -1378,12 +1361,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/m6011/sada2022"
       },
+      "dialects": [
+        "gulf"
+      ],
       "notes": "Saudi Audio Dataset: 668h from 57 TV shows, multi-dialect (SDAIA)",
       "metrics": {
         "downloads": 254,
         "likes": 3,
-        "lastModified": "2024-09-12",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-09-12"
       }
     },
     {
@@ -1400,12 +1385,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/QCRI/arabic_pos_dialect"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "POS tagging in Arabic dialects",
       "metrics": {
         "downloads": 235,
         "likes": 12,
-        "lastModified": "2024-01-09",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-01-09"
       }
     },
     {
@@ -1428,8 +1415,7 @@
       "metrics": {
         "downloads": 227,
         "likes": 12,
-        "lastModified": "2024-10-24",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-10-24"
       }
     },
     {
@@ -1446,12 +1432,14 @@
       "links": {
         "hf": "https://huggingface.co/NAMAA-Space/EgypTalk-ASR-v2"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "High-performance ASR for Egyptian Arabic",
       "metrics": {
         "downloads": 220,
         "likes": 17,
-        "lastModified": "2025-08-09",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-08-09"
       }
     },
     {
@@ -1472,8 +1460,7 @@
       "metrics": {
         "downloads": 211,
         "likes": 12,
-        "lastModified": "2023-12-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-12-16"
       }
     },
     {
@@ -1494,16 +1481,15 @@
       "metrics": {
         "downloads": 199,
         "likes": 60,
-        "lastModified": "2025-12-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-12-14"
       }
     },
     {
       "id": "hubert-egyptian-arabic",
       "name": "HuBERT Egyptian Arabic",
       "type": "asr",
-      "country": "INTL",
-      "org": "omarxadel",
+      "country": "EG",
+      "org": "Omar Adel, Alexandria University",
       "license": "cc-by-nc-4.0",
       "modality": "speech",
       "tasks": [
@@ -1512,12 +1498,14 @@
       "links": {
         "hf": "https://huggingface.co/omarxadel/hubert-large-arabic-egyptian"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "HuBERT fine-tuned for Egyptian dialect on MGB-3",
       "metrics": {
         "downloads": 190,
         "likes": 22,
-        "lastModified": "2023-03-19",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-03-19"
       }
     },
     {
@@ -1538,8 +1526,7 @@
       "metrics": {
         "downloads": 189,
         "likes": 44,
-        "lastModified": "2025-06-10",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-10"
       }
     },
     {
@@ -1556,12 +1543,14 @@
       "links": {
         "hf": "https://huggingface.co/NAMAA-Space/masrawy-english-to-egyptian-arabic-translator-v2.9"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "EN→Egyptian Arabic - 150K+ rows, 10M+ tokens, Egyptian dialect",
       "metrics": {
         "downloads": 185,
         "likes": 20,
-        "lastModified": "2025-01-27",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-01-27"
       }
     },
     {
@@ -1569,7 +1558,7 @@
       "name": "BAREC Corpus",
       "type": "dataset",
       "country": "AE",
-      "org": "CAMeL-Lab",
+      "org": "CAMeL Lab, NYUAD",
       "license": "cc-by-sa-4.0",
       "modality": "text",
       "tasks": [
@@ -1582,8 +1571,7 @@
       "metrics": {
         "downloads": 177,
         "likes": 2,
-        "lastModified": "2025-09-02",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-02"
       }
     },
     {
@@ -1600,12 +1588,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts"
       },
+      "dialects": [
+        "classical"
+      ],
       "notes": "Classical Arabic-English parallel texts (24 books)",
       "metrics": {
         "downloads": 166,
         "likes": 8,
-        "lastModified": "2024-03-22",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-03-22"
       }
     },
     {
@@ -1622,12 +1612,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Arabic RAG Benchmark (multi-dialect)",
       "metrics": {
         "downloads": 145,
         "likes": 13,
-        "lastModified": "2025-12-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-12-15"
       }
     },
     {
@@ -1644,12 +1636,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Dialect_Identification"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Twitter-based multi-class dialect classification",
       "metrics": {
         "downloads": 139,
         "likes": 12,
-        "lastModified": "2022-05-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-05-17"
       }
     },
     {
@@ -1670,16 +1664,15 @@
       "metrics": {
         "downloads": 137,
         "likes": 8,
-        "lastModified": "2025-06-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-15"
       }
     },
     {
       "id": "shifaa-mental-health",
       "name": "Shifaa Mental Health",
       "type": "dataset",
-      "country": "INTL",
-      "org": "Ahmed-Selem",
+      "country": "EG",
+      "org": "Ahmed Selem",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -1692,8 +1685,7 @@
       "metrics": {
         "downloads": 137,
         "likes": 14,
-        "lastModified": "2025-03-08",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-03-08"
       }
     },
     {
@@ -1710,20 +1702,20 @@
       "links": {
         "hf": "https://huggingface.co/SeyedAli/Arabic-Speech-synthesis-MMS"
       },
+      "on_device": true,
       "notes": "VITS-based Arabic TTS from MMS (36M params)",
       "metrics": {
         "downloads": 136,
-        "likes": 21,
-        "lastModified": "2023-09-20",
-        "fetched": "2026-10-04"
+        "likes": 22,
+        "lastModified": "2023-09-20"
       }
     },
     {
       "id": "egybert",
       "name": "EgyBERT",
       "type": "llm",
-      "country": "INTL",
-      "org": "faisalq",
+      "country": "SA",
+      "org": "Faisal Qarah",
       "license": "cc-by-nc-4.0",
       "modality": "text",
       "tasks": [
@@ -1732,19 +1724,21 @@
       "links": {
         "hf": "https://huggingface.co/faisalq/EgyBERT"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "Egyptian dialect BERT, trained on 34M tweets + 44M forum sentences",
       "metrics": {
         "downloads": 130,
         "likes": 6,
-        "lastModified": "2024-08-19",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-08-19"
       }
     },
     {
       "id": "noon",
       "name": "Noon",
       "type": "llm",
-      "country": "INTL",
+      "country": "SA",
       "org": "Naseej",
       "license": "bigscience-bloom-rail-1.0",
       "modality": "text",
@@ -1759,8 +1753,7 @@
       "metrics": {
         "downloads": 129,
         "likes": 49,
-        "lastModified": "2023-06-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-06-21"
       }
     },
     {
@@ -1768,7 +1761,7 @@
       "name": "SILMA RAGQA Benchmark",
       "type": "benchmark",
       "country": "SA",
-      "org": "silma-ai",
+      "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -1781,8 +1774,7 @@
       "metrics": {
         "downloads": 125,
         "likes": 7,
-        "lastModified": "2025-06-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-11"
       }
     },
     {
@@ -1799,12 +1791,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Spoken Arabic dialects",
       "metrics": {
         "downloads": 122,
         "likes": 0,
-        "lastModified": "2025-06-02",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-06-02"
       }
     },
     {
@@ -1825,8 +1819,7 @@
       "metrics": {
         "downloads": 121,
         "likes": 26,
-        "lastModified": "2024-11-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-28"
       }
     },
     {
@@ -1848,8 +1841,7 @@
       "metrics": {
         "downloads": 108,
         "likes": 2,
-        "lastModified": "2024-11-25",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-25"
       }
     },
     {
@@ -1870,8 +1862,7 @@
       "metrics": {
         "downloads": 103,
         "likes": 21,
-        "lastModified": "2025-10-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-28"
       }
     },
     {
@@ -1892,8 +1883,7 @@
       "metrics": {
         "downloads": 102,
         "likes": 8,
-        "lastModified": "2023-09-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2023-09-21"
       }
     },
     {
@@ -1914,8 +1904,7 @@
       "metrics": {
         "downloads": 101,
         "likes": 18,
-        "lastModified": "2024-11-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-28"
       }
     },
     {
@@ -1936,8 +1925,7 @@
       "metrics": {
         "downloads": 101,
         "likes": 2,
-        "lastModified": "2025-05-12",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-12"
       }
     },
     {
@@ -1958,8 +1946,7 @@
       "metrics": {
         "downloads": 99,
         "likes": 27,
-        "lastModified": "2025-11-13",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-13"
       }
     },
     {
@@ -1980,8 +1967,7 @@
       "metrics": {
         "downloads": 98,
         "likes": 3,
-        "lastModified": "2024-06-09",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-06-09"
       }
     },
     {
@@ -2003,8 +1989,7 @@
       "metrics": {
         "downloads": 88,
         "likes": 64,
-        "lastModified": "2024-04-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-04-16"
       }
     },
     {
@@ -2025,8 +2010,7 @@
       "metrics": {
         "downloads": 86,
         "likes": 4,
-        "lastModified": "2025-05-30",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-30"
       }
     },
     {
@@ -2043,12 +2027,14 @@
       "links": {
         "hf": "https://huggingface.co/oddadmix/MasriSwitch-Gemma3n-Transcriber-v1"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "Egyptian Arabic code-switching transcription",
       "metrics": {
         "downloads": 83,
         "likes": 16,
-        "lastModified": "2026-04-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-04-17"
       }
     },
     {
@@ -2065,12 +2051,14 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI/artst_asr_v3"
       },
+      "dialects": [
+        "msa"
+      ],
       "notes": "ArTST for ASR on MGB2 (best for MSA)",
       "metrics": {
         "downloads": 78,
         "likes": 0,
-        "lastModified": "2025-09-10",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-10"
       }
     },
     {
@@ -2091,8 +2079,7 @@
       "metrics": {
         "downloads": 73,
         "likes": 4,
-        "lastModified": "2022-12-26",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-12-26"
       }
     },
     {
@@ -2113,8 +2100,7 @@
       "metrics": {
         "downloads": 72,
         "likes": 8,
-        "lastModified": "2024-11-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-28"
       }
     },
     {
@@ -2135,8 +2121,7 @@
       "metrics": {
         "downloads": 59,
         "likes": 27,
-        "lastModified": "2024-04-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-04-21"
       }
     },
     {
@@ -2157,8 +2142,7 @@
       "metrics": {
         "downloads": 52,
         "likes": 10,
-        "lastModified": "2024-12-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-12-01"
       }
     },
     {
@@ -2166,7 +2150,7 @@
       "name": "SpeechBrain wav2vec2 Arabic",
       "type": "asr",
       "country": "INTL",
-      "org": "speechbrain",
+      "org": "SpeechBrain",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
@@ -2179,8 +2163,7 @@
       "metrics": {
         "downloads": 50,
         "likes": 0,
-        "lastModified": "2024-02-26",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-02-26"
       }
     },
     {
@@ -2197,12 +2180,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "Egyptian Arabizi dataset for LLM pre-training",
       "metrics": {
         "downloads": 49,
         "likes": 3,
-        "lastModified": "2025-11-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-11"
       }
     },
     {
@@ -2219,12 +2204,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/fr3on/egyptian-dialogue"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "4,322 Egyptian Arabic-English parallel pairs from TV subtitles",
       "metrics": {
         "downloads": 45,
         "likes": 9,
-        "lastModified": "2025-12-22",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-12-22"
       }
     },
     {
@@ -2232,7 +2219,7 @@
       "name": "Arabic Broad Benchmark (ABB)",
       "type": "benchmark",
       "country": "SA",
-      "org": "silma-ai",
+      "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
       "tasks": [
@@ -2245,8 +2232,7 @@
       "metrics": {
         "downloads": 44,
         "likes": 14,
-        "lastModified": "2025-07-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-07-21"
       }
     },
     {
@@ -2255,7 +2241,7 @@
       "type": "llm",
       "country": "INTL",
       "org": "MaziyarPanahi",
-      "license": "other",
+      "license": "tongyi-qianwen",
       "modality": "text",
       "tasks": [
         "chat"
@@ -2268,8 +2254,7 @@
       "metrics": {
         "downloads": 43,
         "likes": 5,
-        "lastModified": "2024-09-15",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-09-15"
       }
     },
     {
@@ -2290,8 +2275,7 @@
       "metrics": {
         "downloads": 42,
         "likes": 5,
-        "lastModified": "2025-10-27",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-27"
       }
     },
     {
@@ -2308,12 +2292,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-egy"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "Egyptian dialect dataset for LLM pre-training",
       "metrics": {
         "downloads": 40,
         "likes": 3,
-        "lastModified": "2025-11-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-11"
       }
     },
     {
@@ -2330,12 +2316,14 @@
       "links": {
         "hf": "https://huggingface.co/Omartificial-Intelligence-Space/SA-BERT-V1"
       },
+      "dialects": [
+        "gulf"
+      ],
       "notes": "Saudi Arabic BERT, fine-tuned MARBERTv2",
       "metrics": {
         "downloads": 39,
         "likes": 5,
-        "lastModified": "2025-11-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-28"
       }
     },
     {
@@ -2356,16 +2344,15 @@
       "metrics": {
         "downloads": 38,
         "likes": 6,
-        "lastModified": "2022-12-28",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-12-28"
       }
     },
     {
       "id": "stmc",
       "name": "STMC",
       "type": "dataset",
-      "country": "INTL",
-      "org": "faisalq",
+      "country": "SA",
+      "org": "Faisal Qarah",
       "license": "cc-by-nc-4.0",
       "modality": "text",
       "tasks": [
@@ -2374,12 +2361,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/faisalq/STMC"
       },
+      "dialects": [
+        "gulf"
+      ],
       "notes": "Saudi Tweets Mega Corpus (141M+ Saudi dialect tweets)",
       "metrics": {
         "downloads": 37,
         "likes": 0,
-        "lastModified": "2024-05-08",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-05-08"
       }
     },
     {
@@ -2396,12 +2385,14 @@
       "links": {
         "hf": "https://huggingface.co/datasets/PRAli22/Arabic_dialects_to_MSA"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Parallel dialect-MSA corpus",
       "metrics": {
         "downloads": 35,
         "likes": 10,
-        "lastModified": "2024-03-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-03-01"
       }
     },
     {
@@ -2422,8 +2413,7 @@
       "metrics": {
         "downloads": 28,
         "likes": 59,
-        "lastModified": "2025-03-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-03-16"
       }
     },
     {
@@ -2444,8 +2434,7 @@
       "metrics": {
         "downloads": 27,
         "likes": 7,
-        "lastModified": "2025-02-03",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-02-03"
       }
     },
     {
@@ -2466,8 +2455,7 @@
       "metrics": {
         "downloads": 24,
         "likes": 3,
-        "lastModified": "2024-11-25",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-11-25"
       }
     },
     {
@@ -2488,8 +2476,7 @@
       "metrics": {
         "downloads": 20,
         "likes": 4,
-        "lastModified": "2026-09-17",
-        "fetched": "2026-10-04"
+        "lastModified": "2026-09-17"
       }
     },
     {
@@ -2498,7 +2485,7 @@
       "type": "llm",
       "country": "AE",
       "org": "Inception AI, Cerebras",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "text",
       "tasks": [
         "chat"
@@ -2507,12 +2494,14 @@
         "hf": "https://huggingface.co/inceptionai/jais-30b-v3"
       },
       "size": "13B, 30B",
+      "dialects": [
+        "msa"
+      ],
       "notes": "Arabic-centric, bilingual, instruction-tuned",
       "metrics": {
         "downloads": 20,
         "likes": 13,
-        "lastModified": "2024-09-11",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-09-11"
       }
     },
     {
@@ -2529,12 +2518,14 @@
       "links": {
         "hf": "https://huggingface.co/PRAli22/arat5-arabic-dialects-translation"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Dialect→MSA - AraT5 dialect translation",
       "metrics": {
         "downloads": 18,
         "likes": 3,
-        "lastModified": "2024-03-01",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-03-01"
       }
     },
     {
@@ -2555,8 +2546,7 @@
       "metrics": {
         "downloads": 11,
         "likes": 1,
-        "lastModified": "2025-05-10",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-10"
       }
     },
     {
@@ -2577,8 +2567,7 @@
       "metrics": {
         "downloads": 7,
         "likes": 2,
-        "lastModified": "2022-12-14",
-        "fetched": "2026-10-04"
+        "lastModified": "2022-12-14"
       }
     },
     {
@@ -2599,8 +2588,7 @@
       "metrics": {
         "downloads": 3,
         "likes": 4,
-        "lastModified": "2024-12-29",
-        "fetched": "2026-10-04"
+        "lastModified": "2024-12-29"
       }
     },
     {
@@ -2609,7 +2597,7 @@
       "type": "llm",
       "country": "INTL",
       "org": "FreedomIntelligence",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "text",
       "tasks": [
         "chat"
@@ -2627,7 +2615,7 @@
       "type": "llm",
       "country": "AE",
       "org": "MBZUAI",
-      "license": "unknown",
+      "license": "mit",
       "modality": "multimodal",
       "tasks": [
         "multimodal"
@@ -2696,8 +2684,8 @@
       "id": "alue",
       "name": "ALUE",
       "type": "benchmark",
-      "country": "INTL",
-      "org": "unknown",
+      "country": "JO",
+      "org": "Mawdoo3",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -2731,7 +2719,7 @@
       "name": "Arabic Broad Leaderboard (ABL)",
       "type": "benchmark",
       "country": "SA",
-      "org": "silma-ai",
+      "org": "SILMA AI",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -2749,7 +2737,7 @@
       "type": "tts",
       "country": "INTL",
       "org": "yoosif0",
-      "license": "unknown",
+      "license": "mit",
       "modality": "speech",
       "tasks": [
         "tts"
@@ -2796,8 +2784,7 @@
       "metrics": {
         "downloads": 0,
         "likes": 38,
-        "lastModified": "2025-11-13",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-11-13"
       }
     },
     {
@@ -2823,7 +2810,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "mohataher",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -2840,7 +2827,7 @@
       "type": "dataset",
       "country": "INTL",
       "org": "AliOsm",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "diacritization"
@@ -2874,7 +2861,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "nipponjo",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -2891,7 +2878,7 @@
       "type": "dataset",
       "country": "INTL",
       "org": "DataScienceUIBK",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp"
@@ -2940,8 +2927,8 @@
       "id": "aradice",
       "name": "AraDiCE",
       "type": "benchmark",
-      "country": "INTL",
-      "org": "unknown",
+      "country": "QA",
+      "org": "QCRI",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -2950,6 +2937,9 @@
       "links": {
         "paper": "https://arxiv.org/abs/2409.11404"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Benchmarks for dialectal and cultural capabilities of LLMs",
       "metrics": null
     },
@@ -2958,7 +2948,7 @@
       "name": "AraLLaMA",
       "type": "llm",
       "country": "INTL",
-      "org": "Bashar Alhafni",
+      "org": "Bashar Talafha",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3039,6 +3029,9 @@
         "hf": "https://huggingface.co/collections/MBZUAI-Paris/atlas-chat"
       },
       "size": "2B-27B",
+      "dialects": [
+        "magh"
+      ],
       "notes": "Moroccan Darija dialect",
       "metrics": null
     },
@@ -3056,12 +3049,14 @@
       "links": {
         "hf": "https://huggingface.co/atlasia/AtlasOCR"
       },
+      "dialects": [
+        "magh"
+      ],
       "notes": "First Darija/Moroccan Arabic OCR, Qwen2.5-VL-3B based",
       "metrics": {
         "downloads": 0,
         "likes": 8,
-        "lastModified": "2025-09-16",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-09-16"
       }
     },
     {
@@ -3121,8 +3116,8 @@
       "id": "balsam",
       "name": "BALSAM",
       "type": "benchmark",
-      "country": "INTL",
-      "org": "unknown",
+      "country": "SA",
+      "org": "King Salman Global Academy for Arabic Language",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3155,9 +3150,9 @@
       "id": "calliar",
       "name": "Calliar",
       "type": "dataset",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "mit",
       "modality": "vision",
       "tasks": [
         "multimodal"
@@ -3207,8 +3202,8 @@
       "name": "camel_tools",
       "type": "tool",
       "country": "AE",
-      "org": "CAMeL-Lab",
-      "license": "unknown",
+      "org": "CAMeL Lab, NYUAD",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -3225,7 +3220,7 @@
       "type": "llm",
       "country": "AE",
       "org": "CAMeL Lab, NYUAD",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "encoder"
@@ -3233,6 +3228,9 @@
       "links": {
         "github": "https://github.com/CAMeL-Lab/CAMeLBERT"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "MSA, Dialectal, and Classical Arabic",
       "metrics": null
     },
@@ -3241,7 +3239,7 @@
       "name": "Casablanca",
       "type": "dataset",
       "country": "INTL",
-      "org": "unknown",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3250,6 +3248,9 @@
       "links": {
         "paper": "https://arxiv.org/abs/2410.04527"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Multidialectal Arabic speech dataset (NADI 2025)",
       "metrics": null
     },
@@ -3258,7 +3259,7 @@
       "name": "CATT",
       "type": "tool",
       "country": "INTL",
-      "org": "unknown",
+      "org": "Abjad AI",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3327,7 +3328,7 @@
       "type": "dataset",
       "country": "INTL",
       "org": "tareknaous",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp"
@@ -3335,6 +3336,9 @@
       "links": {
         "github": "https://github.com/tareknaous/dialogue-arabic-dialects"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Levantine, Egyptian, Gulf dialect dialogues",
       "metrics": null
     },
@@ -3356,8 +3360,7 @@
       "metrics": {
         "downloads": 0,
         "likes": 4,
-        "lastModified": "2025-10-08",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-10-08"
       }
     },
     {
@@ -3383,7 +3386,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "JaidedAI",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "vision",
       "tasks": [
         "ocr"
@@ -3469,7 +3472,7 @@
       "name": "Farasa",
       "type": "tool",
       "country": "QA",
-      "org": "unknown",
+      "org": "QCRI",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3588,7 +3591,7 @@
       "name": "Gazelle",
       "type": "dataset",
       "country": "INTL",
-      "org": "papers",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -3873,6 +3876,9 @@
       "links": {
         "website": "https://misraj.ai/"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Arabic-first ecosystem with 15-dialect support",
       "metrics": null
     },
@@ -3914,9 +3920,9 @@
       "id": "klaam",
       "name": "Klaam",
       "type": "asr",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "mit",
       "modality": "speech",
       "tasks": [
         "asr"
@@ -3924,6 +3930,10 @@
       "links": {
         "github": "https://github.com/ARBML/klaam"
       },
+      "dialects": [
+        "msa",
+        "egy"
+      ],
       "notes": "Arabic ASR/TTS/classification library (MSA + Egyptian)",
       "metrics": null
     },
@@ -3978,6 +3988,9 @@
         "hf": "https://huggingface.co/Linagora/Labess-chat-7b"
       },
       "size": "7B",
+      "dialects": [
+        "magh"
+      ],
       "notes": "Tunisian Arabic, based on Jais architecture",
       "metrics": null
     },
@@ -4037,8 +4050,8 @@
       "id": "madamira",
       "name": "MADAMIRA",
       "type": "tool",
-      "country": "INTL",
-      "org": "unknown",
+      "country": "AE",
+      "org": "CAMeL Lab, NYUAD",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4056,7 +4069,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "TRoboto",
-      "license": "unknown",
+      "license": "bsd-3-clause",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -4098,6 +4111,9 @@
       "links": {
         "github": "https://github.com/UBC-NLP/marbert"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Focused on Dialectal Arabic and MSA",
       "metrics": null
     },
@@ -4105,9 +4121,9 @@
       "id": "masader",
       "name": "masader",
       "type": "dataset",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "gpl-3.0",
       "modality": "text",
       "tasks": [
         "nlp"
@@ -4158,7 +4174,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "linuxscout",
-      "license": "unknown",
+      "license": "gpl-3.0",
       "modality": "text",
       "tasks": [
         "diacritization"
@@ -4277,7 +4293,7 @@
       "name": "MTEB Arabic Leaderboard",
       "type": "benchmark",
       "country": "INTL",
-      "org": "mteb",
+      "org": "MTEB",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4330,7 +4346,7 @@
       "name": "NADI 2024",
       "type": "benchmark",
       "country": "INTL",
-      "org": "unknown",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4339,6 +4355,9 @@
       "links": {
         "paper": "https://arxiv.org/abs/2407.04910"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "NADI 2024 - Fifth Nuanced Arabic Dialect Identification",
       "metrics": null
     },
@@ -4347,7 +4366,7 @@
       "name": "NADI 2025",
       "type": "benchmark",
       "country": "INTL",
-      "org": "unknown",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4356,6 +4375,9 @@
       "links": {
         "website": "https://nadi.dlnlp.ai/2025/"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR)",
       "metrics": null
     },
@@ -4364,7 +4386,7 @@
       "name": "NADI Shared Tasks",
       "type": "benchmark",
       "country": "INTL",
-      "org": "unknown",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4373,6 +4395,9 @@
       "links": {
         "website": "https://nadi.dlnlp.ai/"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "NADI Shared Tasks - Ongoing series of Arabic DID shared tasks",
       "metrics": null
     },
@@ -4425,6 +4450,9 @@
         "hf": "https://huggingface.co/collections/MBZUAI-Paris/nile-chat"
       },
       "size": "4B-12B",
+      "dialects": [
+        "egy"
+      ],
       "notes": "Egyptian Arabic and Arabizi scripts",
       "metrics": null
     },
@@ -4501,8 +4529,8 @@
       "id": "open-universal-arabic-asr-leaderboard",
       "name": "Open Universal Arabic ASR Leaderboard",
       "type": "benchmark",
-      "country": "INTL",
-      "org": "elmresearchcenter",
+      "country": "SA",
+      "org": "Elm Research Center",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4511,6 +4539,9 @@
       "links": {
         "hf": "https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard"
       },
+      "dialects": [
+        "mixed"
+      ],
       "notes": "Multi-dialectal Arabic speech recognition benchmark",
       "metrics": null
     },
@@ -4519,7 +4550,7 @@
       "name": "Open-Source Arabic TTS Benchmark",
       "type": "dataset",
       "country": "SA",
-      "org": "silma-ai",
+      "org": "SILMA AI",
       "license": "unknown",
       "modality": "speech",
       "tasks": [
@@ -4537,7 +4568,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "PaddlePaddle",
-      "license": "unknown",
+      "license": "apache-2.0",
       "modality": "vision",
       "tasks": [
         "ocr"
@@ -4553,8 +4584,8 @@
       "name": "Piper TTS",
       "type": "tts",
       "country": "INTL",
-      "org": "rhasspy",
-      "license": "unknown",
+      "org": "Rhasspy",
+      "license": "mit",
       "modality": "speech",
       "tasks": [
         "tts"
@@ -4562,6 +4593,7 @@
       "links": {
         "github": "https://github.com/rhasspy/piper"
       },
+      "on_device": true,
       "notes": "Fast local neural TTS, Arabic voices available",
       "metrics": null
     },
@@ -4605,7 +4637,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "linuxscout",
-      "license": "unknown",
+      "license": "gpl-3.0",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -4621,7 +4653,7 @@
       "name": "Qalam",
       "type": "llm",
       "country": "INTL",
-      "org": "unknown",
+      "org": "UBC-NLP",
       "license": "unknown",
       "modality": "multimodal",
       "tasks": [
@@ -4671,9 +4703,9 @@
       "id": "qawafi",
       "name": "qawafi",
       "type": "tool",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -4706,7 +4738,7 @@
       "name": "quran-mcp",
       "type": "agent-skill",
       "country": "INTL",
-      "org": "quran",
+      "org": "Quran.com",
       "license": "unknown",
       "modality": "none",
       "tasks": [
@@ -4776,8 +4808,8 @@
       "id": "sadeed",
       "name": "Sadeed",
       "type": "tool",
-      "country": "INTL",
-      "org": "unknown",
+      "country": "SA",
+      "org": "Misraj AI",
       "license": "unknown",
       "modality": "text",
       "tasks": [
@@ -4889,6 +4921,9 @@
         "hf": "https://huggingface.co/malhajar/Shahin-v0.1-14B"
       },
       "size": "14B",
+      "dialects": [
+        "lev"
+      ],
       "notes": "Syrian Arabic dialect, Qwen2.5-based",
       "metrics": null
     },
@@ -4898,7 +4933,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "AliOsm",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "diacritization"
@@ -4966,7 +5001,7 @@
       "type": "tool",
       "country": "INTL",
       "org": "SinaLab",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -5050,8 +5085,8 @@
       "name": "Tesseract OCR",
       "type": "tool",
       "country": "INTL",
-      "org": "tesseract-ocr",
-      "license": "unknown",
+      "org": "Tesseract OCR",
+      "license": "apache-2.0",
       "modality": "vision",
       "tasks": [
         "ocr"
@@ -5083,9 +5118,9 @@
       "id": "tkseem",
       "name": "tkseem",
       "type": "tool",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -5100,9 +5135,9 @@
       "id": "tnkeeh",
       "name": "tnkeeh",
       "type": "tool",
-      "country": "INTL",
+      "country": "SA",
       "org": "ARBML",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp-toolkit"
@@ -5127,6 +5162,7 @@
       "links": {
         "github": "https://github.com/nipponjo/tts-arabic-pytorch"
       },
+      "on_device": true,
       "notes": "Tacotron2 + FastPitch + HiFi-GAN for Arabic",
       "metrics": null
     },
@@ -5144,6 +5180,7 @@
       "links": {
         "github": "https://github.com/nipponjo/tts_arabic"
       },
+      "on_device": true,
       "notes": "FastPitch + Mixer-TTS in ONNX for offline Arabic TTS",
       "metrics": null
     },
@@ -5213,12 +5250,14 @@
       "links": {
         "hf": "https://huggingface.co/MAdel121/whisper-medium-egy"
       },
+      "dialects": [
+        "egy"
+      ],
       "notes": "Whisper-medium fine-tuned on 72h Egyptian speech",
       "metrics": {
         "downloads": 0,
         "likes": 6,
-        "lastModified": "2025-05-21",
-        "fetched": "2026-10-04"
+        "lastModified": "2025-05-21"
       }
     },
     {
@@ -5261,7 +5300,7 @@
       "type": "dataset",
       "country": "INTL",
       "org": "SinaLab",
-      "license": "unknown",
+      "license": "mit",
       "modality": "text",
       "tasks": [
         "nlp"

@@ -125,4 +125,5 @@
 
 ## Optional
 
-- [Full dataset (JSON)](dist/atlas.json): every entry with metadata and metrics
+- [Full dataset (JSON)](https://raw.githubusercontent.com/h9-tec/arabic-ai-atlas/main/dist/atlas.json): every entry with metadata and metrics
+- [README](https://github.com/h9-tec/arabic-ai-atlas#readme): the human-readable atlas with every table

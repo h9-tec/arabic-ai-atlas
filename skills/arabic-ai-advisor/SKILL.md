@@ -15,7 +15,7 @@ Recommends Arabic AI models, datasets and tools from the Arabic AI Atlas, a cura
 
 ## Procedure
 
-1. Call the MCP tool `recommend` with the `task`, plus `dialect`, `on_device` and `license_filter` when the user gave them.
+1. Call the MCP tool `recommend` with the `task` and the `type` the user wants (`llm`, `asr`, `tts`, `ocr`, `embedding` for a model; `dataset`, `benchmark` or `tool` otherwise), plus `dialect`, `on_device` and `license_filter` when the user gave them. Example: `recommend(task="tts", type="tts", on_device=true, license_filter="open")`.
 2. If the MCP tools are unavailable, read `${CLAUDE_PLUGIN_ROOT}/dist/atlas.json` and filter entries by `tasks`.
 3. For breadth, or when `recommend` returns too little, call `search` (and `get` for one entry by id).
 4. Format the answer as described below.

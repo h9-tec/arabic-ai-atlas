@@ -17,7 +17,7 @@ Reference for prompting LLMs in a specific Arabic dialect. The table in `${CLAUD
 
 ## Picking a model
 
-If the user also needs a model with good coverage of that dialect, call `recommend(task="chat", dialect="<code>")`, or `search(query="<dialect> dialect", type="llm")`. Report only what the atlas returns.
+If the user also needs a model with good coverage of that dialect, call `recommend(task="chat", type="llm", dialect="<code>")`, or `search(query="<dialect> dialect", type="llm")`. Report only what the atlas returns.
 
 ## Rules
 

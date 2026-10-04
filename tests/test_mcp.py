@@ -28,6 +28,10 @@ async def _run(atlas_json: Path):
             rec = await c.call_tool("recommend", {"task": "chat", "dialect": "msa", "limit": 10})
             srch = await c.call_tool("search", {"query": "jais"})
             missing = await c.call_tool("get", {"id": "nope"})
+            typed = await c.call_tool("recommend", {"task": "chat", "type": "dataset"})
+            schema = next(t.input_schema for t in tools.tools if t.name == "recommend")
+            assert "type" in schema["properties"]
+            assert not [x for x in typed.content if "jais-30b" in x.text]
             return (
                 {t.name for t in tools.tools},
                 got.content[0].text,

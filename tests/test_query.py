@@ -58,9 +58,48 @@ def test_recommend_license_open_excludes_unknown():
     assert [r["id"] for r in recommend(es, "chat", license_filter="unknown")] == ["b"]
 
 
-def test_recommend_on_device_filter(fixture_entries):
+def _device_entries():
+    return [
+        {"id": "phone", "name": "Phone", "type": "tts", "tasks": ["tts"], "on_device": True},
+        {"id": "server", "name": "Server", "type": "tts", "tasks": ["tts"], "on_device": False},
+        {"id": "unset", "name": "Unset", "type": "tts", "tasks": ["tts"]},
+    ]
+
+
+def test_recommend_on_device_true_keeps_only_marked():
+    assert [r["id"] for r in recommend(_device_entries(), "tts", on_device=True, limit=10)] == ["phone"]
+
+
+def test_recommend_on_device_false_excludes_only_marked():
+    assert {r["id"] for r in recommend(_device_entries(), "tts", on_device=False, limit=10)} == {"server", "unset"}
+
+
+def test_recommend_on_device_none_is_no_filter():
+    assert len(recommend(_device_entries(), "tts", on_device=None, limit=10)) == 3
+
+
+def test_recommend_on_device_false_keeps_unset_fixture_entries(fixture_entries):
     res = recommend(_merged(fixture_entries), "chat", on_device=False, limit=10)
-    assert [r["id"] for r in res] == ["silma-9b"]
+    assert {r["id"] for r in res} == {"jais-30b", "allam-7b", "silma-9b"}
+
+
+def _typed_entries():
+    return [
+        {"id": "corpus", "name": "Corpus", "type": "dataset", "tasks": ["tts"], "metrics": {"downloads": 9000}},
+        {"id": "voice", "name": "Voice", "type": "tts", "tasks": ["tts"], "metrics": {"downloads": 10}},
+        {"id": "bench", "name": "Bench", "type": "benchmark", "tasks": ["tts"], "metrics": {"downloads": 50}},
+    ]
+
+
+def test_recommend_type_filter_is_exact():
+    res = recommend(_typed_entries(), "tts", type="tts", limit=10)
+    assert [r["id"] for r in res] == ["voice"]
+    assert [r["id"] for r in recommend(_typed_entries(), "tts", type="dataset", limit=10)] == ["corpus"]
+
+
+def test_recommend_ranks_models_above_datasets_at_equal_score():
+    res = recommend(_typed_entries(), "tts", limit=10)
+    assert [r["id"] for r in res] == ["voice", "corpus", "bench"]
 
 
 def test_get_missing_returns_none(fixture_entries):

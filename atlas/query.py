@@ -47,6 +47,9 @@ def _fmt_downloads(n: int) -> str:
     return f"{n} downloads"
 
 
+MODEL_TYPES = ("llm", "asr", "tts", "ocr", "embedding")
+
+
 def recommend(
     entries: list[dict],
     task: str,
@@ -54,13 +57,26 @@ def recommend(
     on_device: bool | None = None,
     license_filter: str | None = None,
     limit: int = 3,
+    type: str | None = None,
 ) -> list[dict]:
+    """Rank entries for a task; each result carries `score` and `why`.
+
+    on_device: True keeps only entries marked `on_device: true`; False drops those
+    and keeps everything else (most entries leave the field unset); None: no filter.
+    type: exact filter on entry type. When None, model types (llm, asr, tts, ocr,
+    embedding) rank above datasets, benchmarks, tools and orgs at equal score.
+    """
     t = task.lower()
     d = dialect.lower() if dialect else None
     lic = license_filter.lower() if license_filter else None
     scored = []
     for e in entries:
-        if on_device is not None and e.get("on_device") != on_device:
+        if type is not None and e.get("type") != type:
+            continue
+        marked = e.get("on_device") is True
+        if on_device is True and not marked:
+            continue
+        if on_device is False and marked:
             continue
         elic = str(e.get("license", "")).lower()
         if lic == "open":
@@ -83,7 +99,7 @@ def recommend(
         if _downloads(e):
             why.append(_fmt_downloads(_downloads(e)))
         scored.append({**e, "score": score, "why": "; ".join(why)})
-    scored.sort(key=lambda r: (-r["score"], *_order(r)))
+    scored.sort(key=lambda r: (-r["score"], r.get("type") not in MODEL_TYPES, *_order(r)))
     return scored[:limit]
 
 

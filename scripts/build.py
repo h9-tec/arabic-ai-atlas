@@ -1,7 +1,6 @@
 """Build CLI: validate, enrich, build, all."""
 import argparse
 import json
-import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -88,27 +87,27 @@ def cmd_build(entries: list[dict], data: Path, out: Path, date: str) -> int:
     return 0
 
 
-_DATE = re.compile(r"\d{4}-{1,2}\d{2}-{1,2}\d{2}")  # 2026-10-04 and badge form 2026--10--04
-
-
-def _comparable(rel: str, text: str) -> object:
-    """Normalize a file so only date-independent content is compared."""
-    if rel.endswith(".json"):
-        doc = json.loads(text)
-        doc.pop("generated_at", None)
-        return doc
-    return [line for line in text.splitlines() if not _DATE.search(line)]
+def _on_disk_date(out: Path) -> str | None:
+    """The `generated_at` of the committed dist/atlas.json, if readable."""
+    try:
+        return json.loads((out / "dist" / "atlas.json").read_text(encoding="utf-8"))["generated_at"]
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
 
 
 def cmd_check(entries: list[dict], data: Path, out: Path, date: str) -> int:
+    """Re-render with the on-disk generation date and compare byte for byte."""
+    date = _on_disk_date(out) or date
     drifted = []
     for rel, text in render_outputs(entries, data, date).items():
         path = out / rel
-        if not path.exists() or _comparable(rel, path.read_text(encoding="utf-8")) != _comparable(rel, text):
+        if not path.exists() or path.read_text(encoding="utf-8") != text:
             drifted.append(rel)
     for rel in drifted:
         print(f"drift: {rel}", file=sys.stderr)
-    if not drifted:
+    if drifted:
+        print("generated files are stale or hand-edited: run `uv run python scripts/build.py build`", file=sys.stderr)
+    else:
         print("generated files are up to date")
     return 1 if drifted else 0
 
@@ -119,7 +118,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--data", default="data")
     p.add_argument("--out", default=".")
     p.add_argument("--date", default=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
-    p.add_argument("--check", action="store_true", help="build: compare generated files with disk, write nothing, exit 1 on drift")
+    p.add_argument("--check", action="store_true", help="build: re-render with the date in dist/atlas.json, compare byte-exact with disk, write nothing, exit 1 on drift")
     p.add_argument("--skip-enrich", action="store_true", help="build/all: use the cached HF metrics as is")
     args = p.parse_args(argv)
     data, out = Path(args.data), Path(args.out)

@@ -43,7 +43,38 @@ def test_cli_check_detects_drift(tmp_path):
     redated = run("build", "--check", "--skip-enrich", "--date", "1999-01-01", "--data", FIX, "--out", str(tmp_path))
     assert redated.returncode == 0, redated.stderr
     readme = tmp_path / "README.md"
-    readme.write_text(readme.read_text(encoding="utf-8") + "x", encoding="utf-8")
+    readme.write_text(readme.read_text(encoding="utf-8") + "\nx", encoding="utf-8")
     bad = run("build", "--check", "--skip-enrich", "--date", "2026-10-04", "--data", FIX, "--out", str(tmp_path))
     assert bad.returncode == 1
     assert "README.md" in bad.stderr
+    assert "uv run python scripts/build.py build" in bad.stderr
+
+
+def test_cli_check_catches_edit_on_dated_line(tmp_path):
+    data = tmp_path / "data"
+    shutil.copytree(ROOT / FIX, data)
+    (data / ".cache").mkdir()
+    cache = {"humain-ai/ALLaM-7B-Instruct-preview": {"downloads": 5, "likes": 1, "lastModified": "2026-09-01"}}
+    (data / ".cache" / "hf.json").write_text(json.dumps(cache), encoding="utf-8")
+    out = tmp_path / "out"
+    build = run("build", "--skip-enrich", "--date", "2026-10-04", "--data", str(data), "--out", str(out))
+    assert build.returncode == 0, build.stderr
+    readme = out / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    row = next(line for line in text.splitlines() if line.startswith("| ALLaM 7B |"))
+    assert "2026-09-01" in row  # a dated row: the old check dropped it from the comparison
+    readme.write_text(text.replace("| ALLaM 7B |", "| ALLaM HACKED |", 1), encoding="utf-8")
+    bad = run("build", "--check", "--skip-enrich", "--data", str(data), "--out", str(out))
+    assert bad.returncode == 1
+    assert "drift: README.md" in bad.stderr
+
+
+def test_cli_check_catches_edited_footer_date(tmp_path):
+    build = run("build", "--skip-enrich", "--date", "2026-10-04", "--data", FIX, "--out", str(tmp_path))
+    assert build.returncode == 0, build.stderr
+    svg = tmp_path / "assets" / "map.svg"
+    # the footer is a dated line; the old line-dropping check ignored edits here
+    svg.write_text(svg.read_text(encoding="utf-8").replace("from 6 entries", "from 600 entries"), encoding="utf-8")
+    bad = run("build", "--check", "--skip-enrich", "--data", FIX, "--out", str(tmp_path))
+    assert bad.returncode == 1
+    assert "drift: assets/map.svg" in bad.stderr

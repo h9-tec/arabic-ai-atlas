@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Arabic AI Atlas entry",
   "type": "object",
-  "required": ["id", "name", "type", "country", "org", "license", "tasks", "links"],
+  "required": ["id", "name", "type", "country", "org", "license", "modality", "tasks", "links"],
   "additionalProperties": false,
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},

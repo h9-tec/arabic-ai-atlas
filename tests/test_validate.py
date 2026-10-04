@@ -41,3 +41,10 @@ def test_missing_id_falls_back(schema, good_entry):
     bad = {k: v for k, v in good_entry.items() if k != "id"}
     errs = validate_entries([bad], schema)
     assert errs and all(e.startswith("llms.yaml:<no id>:") for e in errs)
+
+
+@pytest.mark.parametrize("field", ["modality", "name"])
+def test_missing_required_field_fails(field, schema, good_entry):
+    bad = {k: v for k, v in good_entry.items() if k != field}
+    errs = validate_entries([bad], schema)
+    assert len(errs) == 1 and errs[0].startswith("llms.yaml:")

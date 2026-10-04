@@ -70,3 +70,239 @@
   links:
     hf: https://huggingface.co/AhmedZaky1/DIMI-embedding-matryoshka-arabic
   notes: Matryoshka + AraBERT for NLI
+- id: gate-reranker-v1
+  name: GATE-Reranker-V1
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - reranking
+  links:
+    hf: https://huggingface.co/NAMAA-Space/GATE-Reranker-V1
+  size: 135M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic reranker from NAMAA built on GATE-AraBERT.
+- id: ara-reranker-v1
+  name: ARA-Reranker-V1
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - reranking
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/ARA-Reranker-V1
+  size: 568M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic cross-encoder reranker.
+- id: arabic-labse-matryoshka
+  name: Arabic-labse-Matryoshka
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-labse-Matryoshka
+  size: 471M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic Matryoshka sentence embeddings based on LaBSE.
+- id: arabic-all-nli-triplet-matryoshka
+  name: Arabic-all-nli-triplet-Matryoshka
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-all-nli-triplet-Matryoshka
+  size: 278M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic Matryoshka embeddings trained on translated all-nli triplets.
+- id: arabic-minilm-l12-v2-all-nli-triplet
+  name: Arabic-MiniLM-L12-v2-all-nli-triplet
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-MiniLM-L12-v2-all-nli-triplet
+  size: 118M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Small Arabic MiniLM sentence embedding model trained on NLI triplets.
+- id: semantic-ar-qwen-embed-0-6b
+  name: Semantic-Ar-Qwen-Embed-0.6B
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Semantic-Ar-Qwen-Embed-0.6B
+  size: 596M
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic semantic embedding model built on Qwen3-Embedding 0.6B.
+- id: aragemma-embedding-300m
+  name: AraGemma-Embedding-300m
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/AraGemma-Embedding-300m
+  size: 303M
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic embedding model built on EmbeddingGemma 300M.
+- id: araeurobert-210m
+  name: AraEuroBert-210M
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/AraEuroBert-210M
+  size: 212M
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic embedding model fine-tuned from EuroBERT 210M.
+- id: silma-embedding-matryoshka-v0-1
+  name: silma-embedding-matryoshka-v0.1
+  type: embedding
+  country: SA
+  org: SILMA AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - retrieval
+  links:
+    hf: https://huggingface.co/silma-ai/silma-embedding-matryoshka-v0.1
+  size: 135M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: SILMA Arabic and English Matryoshka embedding model.
+- id: silma-embedding-sts-v0-1
+  name: silma-embedding-sts-v0.1
+  type: embedding
+  country: SA
+  org: SILMA AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/silma-ai/silma-embedding-sts-v0.1
+  size: 135M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: SILMA embedding model tuned for Arabic semantic textual similarity.
+- id: arabic-retrieval-v1-0
+  name: Arabic-Retrieval-v1.0
+  type: embedding
+  country: EG
+  org: Omar Elshehy
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - retrieval
+  links:
+    hf: https://huggingface.co/omarelshehy/Arabic-Retrieval-v1.0
+  size: 135M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic retrieval embedding model.
+- id: arabic-sts-matryoshka-v2
+  name: Arabic-STS-Matryoshka-V2
+  type: embedding
+  country: EG
+  org: Omar Elshehy
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/omarelshehy/Arabic-STS-Matryoshka-V2
+  size: 135M
+  year: 2024
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic STS Matryoshka embedding model.
+- id: qwen3-vl-embedding-arabic-vdr
+  name: Qwen3-VL-Embedding-2B Arabic VDR
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - embedding
+  - visual-document-retrieval
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Qwen3-VL-Embedding-2B-Arabic-VDR
+  size: 2B
+  year: 2026
+  notes: Arabic visual-document retrieval embedding model with Matryoshka loss.
+- id: qwen3-embedding-0-6b-arabic-ecom
+  name: Qwen3-Embedding-0.6B Arabic E-commerce
+  type: embedding
+  country: INTL
+  org: Presto AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/prestoai/qwen3-embedding-0.6b-arabic-ecom
+  size: 0.6B
+  year: 2026
+  on_device: true
+  notes: LoRA-tuned Arabic e-commerce search embedding with a companion benchmark.

@@ -214,3 +214,836 @@
   dialects:
   - mixed
   notes: NADI Shared Tasks - Ongoing series of Arabic DID shared tasks
+- id: alghafa-native
+  name: AlGhafa Arabic LLM Benchmark (Native)
+  type: benchmark
+  country: INTL
+  org: Open Arabic LLM Leaderboard (OALL)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native
+  year: 2024
+  dialects:
+  - msa
+  notes: Native-Arabic multiple-choice evaluation tasks used as OALL leaderboard tasks.
+- id: alghafa-translated
+  name: AlGhafa Arabic LLM Benchmark (Translated)
+  type: benchmark
+  country: INTL
+  org: Open Arabic LLM Leaderboard (OALL)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Translated
+  year: 2024
+  dialects:
+  - msa
+  notes: Machine-translated companion tasks to AlGhafa native, used in OALL v1.
+- id: oall-arabic-mmlu
+  name: OALL Arabic MMLU
+  type: benchmark
+  country: INTL
+  org: Open Arabic LLM Leaderboard (OALL)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/OALL/Arabic_MMLU
+  year: 2024
+  dialects:
+  - msa
+  notes: GPT-translated Arabic MMLU copy from FreedomIntelligence, used as an OALL v1 task.
+- id: oall-arabic-exams
+  name: Arabic EXAMS (OALL)
+  type: benchmark
+  country: INTL
+  org: Open Arabic LLM Leaderboard (OALL)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/OALL/Arabic_EXAMS
+  year: 2024
+  dialects:
+  - msa
+  notes: Arabic subset of the EXAMS multilingual school-exam benchmark, an OALL task.
+- id: alrage
+  name: ALRAGE
+  type: benchmark
+  country: INTL
+  org: Open Arabic LLM Leaderboard (OALL)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - rag
+  links:
+    hf: https://huggingface.co/datasets/OALL/ALRAGE
+  year: 2025
+  dialects:
+  - msa
+  notes: Arabic retrieval-augmented generation evaluation set used in OALL v2.
+- id: arabic-exams-redux
+  name: Arabic EXAMS-Redux
+  type: benchmark
+  country: AE
+  org: Inception Labs
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/inceptlabs/Arabic_EXAMS-Redux
+  year: 2026
+  dialects:
+  - msa
+  notes: Corrected and text-repaired version of OALL/Arabic_EXAMS.
+- id: human-translated-arabic-mmlu
+  name: Human-Translated Arabic MMLU
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/human_translated_arabic_mmlu
+  year: 2024
+  dialects:
+  - msa
+  notes: Human-translated MMLU into Arabic from MBZUAI, companion to ArabicMMLU.
+- id: arabculture
+  name: ArabCulture
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - commonsense
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ArabCulture
+    paper: https://arxiv.org/abs/2502.12788
+  size: 3.5k questions
+  year: 2025
+  dialects:
+  - mixed
+  notes: Culturally grounded commonsense reasoning benchmark across 13 Arab countries written natively.
+- id: madinahqa
+  name: MadinahQA
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/MadinahQA
+  year: 2024
+  dialects:
+  - msa
+  notes: Arabic language and grammar multiple-choice QA split released with ArabicMMLU.
+- id: dialectal-arabic-mmlu
+  name: Dialectal Arabic MMLU
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU
+  size: 10K-100K rows
+  year: 2025
+  dialects:
+  - mixed
+  notes: Human-translated MMLU extended to five Arabic dialects plus MSA.
+- id: camel-bench
+  name: CAMEL-Bench
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - vqa
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/CAMEL-Bench
+    github: https://github.com/mbzuai-oryx/CAMEL-Bench
+  year: 2024
+  dialects:
+  - msa
+  notes: 'Arabic large multimodal model benchmark across eight domains: OCR, charts, medical, remote sensing, video.'
+- id: duwatbench
+  name: DuwatBench
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - evaluation
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/DuwatBench
+  year: 2026
+  dialects:
+  - msa
+  - classical
+  notes: Benchmark on Arabic calligraphy images bridging language and visual heritage for multimodal models.
+- id: arb-multimodal-reasoning
+  name: ARB
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - reasoning
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ARB
+  year: 2025
+  dialects:
+  - msa
+  notes: Comprehensive Arabic multimodal reasoning benchmark with step-by-step reasoning annotations.
+- id: fiqhqa
+  name: FiqhQA
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/FiqhQA
+  size: under 1k rows
+  year: 2025
+  dialects:
+  - msa
+  notes: Islamic jurisprudence questions across madhabs testing LLM reliability and abstention.
+- id: darija-mmlu
+  name: DarijaMMLU
+  type: benchmark
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/DarijaMMLU
+    paper: https://arxiv.org/abs/2409.17912
+  size: 10K-100K rows
+  year: 2024
+  dialects:
+  - magh
+  notes: MMLU translated into Moroccan Darija, 22k+ multiple-choice questions.
+- id: darija-hellaswag
+  name: DarijaHellaSwag
+  type: benchmark
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  - commonsense
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/DarijaHellaSwag
+  size: 1K-10K rows
+  year: 2024
+  dialects:
+  - magh
+  notes: HellaSwag translated into Moroccan Darija for commonsense evaluation.
+- id: darijabench
+  name: DarijaBench
+  type: benchmark
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: odc-by
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/DarijaBench
+  year: 2024
+  dialects:
+  - magh
+  notes: Darija evaluation sets for summarization, translation and sentiment analysis, released with Atlas-Chat.
+- id: egyptianmmlu
+  name: EgyptianMMLU
+  type: benchmark
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/EgyptianMMLU
+  year: 2025
+  dialects:
+  - egy
+  notes: MMLU translated into Egyptian Arabic, released with Nile-Chat.
+- id: tunisianmmlu
+  name: TunisianMMLU
+  type: benchmark
+  country: INTL
+  org: LINAGORA
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/linagora/TunisianMMLU
+  size: 10K-100K rows
+  year: 2025
+  dialects:
+  - magh
+  notes: MMLU translated into Tunisian Derja, LINAGORA (France); evaluated with lighteval.
+- id: egymmlu
+  name: EgyMMLU
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/EgyMMLU
+  year: 2025
+  dialects:
+  - egy
+  notes: MMLU translated into Egyptian Arabic from UBC (Canada), released with NileChat.
+- id: egyhellaswag
+  name: EgyHellaSwag
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - commonsense
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/EgyHellaSwag
+  year: 2025
+  dialects:
+  - egy
+  notes: HellaSwag translated into Egyptian Arabic from UBC (Canada).
+- id: orca-benchmark
+  name: ORCA
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/orca
+    website: https://orca.dlnlp.ai/
+    github: https://github.com/UBC-NLP/orca
+  size: 60 datasets
+  year: 2022
+  dialects:
+  - mixed
+  notes: Unified Arabic NLU leaderboard of 60 datasets across seven task clusters; the ARLUE successor.
+- id: jawaher-benchmark
+  name: Jawaher
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/Jawaher-benchmark
+  year: 2025
+  dialects:
+  - mixed
+  notes: Benchmark for LLM understanding and explanation of Arabic proverbs across dialects.
+- id: alyah-emirati-benchmark
+  name: Alyah Emirati Benchmark
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/tiiuae/alyah-emirati-benchmark
+  year: 2026
+  dialects:
+  - gulf
+  notes: Emirati dialect benchmark for Arabic LLMs released alongside Falcon-Arabic work.
+- id: arabiccultural-qa
+  name: ArabicCulturalQA
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/ArabicCulturalQA
+  size: 10K-100K rows
+  year: 2026
+  dialects:
+  - mixed
+  notes: Cross-dialectal cultural QA benchmark with parallel MCQ and open-ended formats across MSA and dialects.
+- id: islamicfaithqa
+  name: IslamicFaithQA
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/IslamicFaithQA
+  size: 1K-10K rows
+  year: 2026
+  dialects:
+  - msa
+  notes: Bilingual Arabic/English generative Islamic QA benchmark for faithfulness evaluation.
+- id: fanar-sadiq-bench
+  name: Fanar-Sadiq Classifier Datasets
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - classification
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/Fanar-Sadiq-Bench
+  size: 1K-10K rows
+  year: 2026
+  dialects:
+  - msa
+  notes: Bilingual query-classification datasets released with the Fanar-Sadiq Islamic multi-agent system.
+- id: tarjama-25
+  name: Tarjama-25
+  type: benchmark
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Misraj/Tarjama-25
+  year: 2025
+  dialects:
+  - msa
+  notes: Bidirectional Arabic-English machine translation benchmark built to stress-test MT models.
+- id: sadeeddiac-25
+  name: SadeedDiac-25
+  type: benchmark
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Misraj/SadeedDiac-25
+    paper: https://arxiv.org/abs/2504.21635
+  size: 1K-10K rows
+  year: 2025
+  dialects:
+  - msa
+  - classical
+  notes: Benchmark for Arabic diacritization covering MSA and classical text.
+- id: misraj-kitab-reviewed
+  name: KITAB PDF-to-Markdown (reviewed)
+  type: benchmark
+  country: SA
+  org: Misraj AI
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Misraj/KITAB_pdf_to_markdown_reviewed
+  year: 2025
+  dialects:
+  - msa
+  notes: Corrected version of the KITAB-Bench PDF-to-Markdown subset for Arabic document OCR.
+- id: terjamabench
+  name: TerjamaBench
+  type: benchmark
+  country: MA
+  org: atlasia
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/TerjamaBench
+  size: under 1K pairs
+  year: 2025
+  dialects:
+  - magh
+  notes: Small human-curated English-Darija translation benchmark with cultural nuance.
+- id: atlasocrbench
+  name: AtlasOCRBench
+  type: benchmark
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/AtlasOCRBench
+  year: 2025
+  dialects:
+  - magh
+  notes: Evaluation benchmark for Moroccan Darija OCR.
+- id: arabic-gsm8k
+  name: Arabic GSM8K
+  type: benchmark
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  - reasoning
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-gsm8k
+  year: 2025
+  dialects:
+  - msa
+  notes: Arabic translation of the GSM8K grade-school math word problems.
+- id: arabench
+  name: AraBench
+  type: benchmark
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/arbml/AraBench_test
+  year: 2020
+  dialects:
+  - mixed
+  notes: Test sets of the AraBench dialectal Arabic to English machine translation benchmark.
+- id: quranmb-v2
+  name: QuranMB.v2
+  type: benchmark
+  country: INTL
+  org: IqraEval
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/IqraEval/QuranMB.v2
+  year: 2025
+  dialects:
+  - classical
+  notes: IqraEval benchmark for Quranic mispronunciation detection.
+- id: quranic-asr-benchmark
+  name: Quranic ASR Benchmark
+  type: benchmark
+  country: INTL
+  org: Quran Lab
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Quran-Lab/quranic-asr-benchmark
+  size: under 1K clips
+  year: 2026
+  dialects:
+  - classical
+  notes: Small benchmark set for evaluating ASR models on Quran recitation.
+- id: mmlu-arabic-fi
+  name: MMLU Arabic (FreedomIntelligence)
+  type: benchmark
+  country: INTL
+  org: FreedomIntelligence
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/MMLU_Arabic
+  year: 2023
+  dialects:
+  - msa
+  notes: MMLU translated into Arabic by gpt-3.5-turbo.
+- id: aratrust
+  name: AraTrust
+  type: benchmark
+  country: INTL
+  org: Asas AI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - safety
+  links:
+    hf: https://huggingface.co/datasets/asas-ai/AraTrust
+  size: 522 questions
+  year: 2024
+  dialects:
+  - msa
+  notes: Arabic LLM trustworthiness benchmark across truthfulness, ethics, safety and privacy.
+- id: arcd
+  name: ARCD
+  type: benchmark
+  country: INTL
+  org: Mozannar et al.
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/hsseinmz/arcd
+  size: 1.4k questions
+  year: 2019
+  dialects:
+  - msa
+  notes: Arabic Reading Comprehension Dataset of 1,395 Wikipedia-based questions from the SOQAL paper.
+- id: aradice-arabicmmlu-egy
+  name: AraDICE ArabicMMLU Egyptian
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/AraDICE-ArabicMMLU-egy
+  year: 2024
+  dialects:
+  - egy
+  notes: Egyptian-dialect translation of ArabicMMLU from the QCRI AraDiCE benchmark suite.
+- id: masriswitch-bench
+  name: MasriSwitch-Bench
+  type: benchmark
+  country: EG
+  org: Tarek737
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - evaluation
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/Tarek737/MasriSwitch-Bench
+  dialects:
+  - egy
+  - mixed
+  notes: Benchmark for Egyptian Arabic / English code-switched speech recognition.
+- id: dzirieval
+  name: DziriEval
+  type: benchmark
+  country: INTL
+  org: Algerian NLP
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/algerian-nlp/DziriEval
+  dialects:
+  - magh
+  notes: Evaluation set for Algerian Darja language models (Algeria).
+- id: aragen
+  name: AraGen
+  type: benchmark
+  country: AE
+  org: Inception AI (G42)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/inception42/AraGen
+  year: 2024
+  notes: Generative Arabic LLM benchmark with 3C3H scoring and dynamic periodic refresh, with MBZUAI.
+- id: arabic-ifeval-inception
+  name: Arabic IFEval (Inception)
+  type: benchmark
+  country: AE
+  org: Inception AI (G42)
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/inception42/Arabic-IFEval
+  year: 2025
+  notes: Arabic instruction-following evaluation set released by Inception.
+- id: alm-bench
+  name: ALM-Bench
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: multimodal
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/ALM-Bench
+  year: 2024
+  notes: All Languages Matter multimodal cultural benchmark covering 100 languages including Arabic.
+- id: araifeval
+  name: AraIFEval
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/AraIFEval
+  year: 2025
+  notes: Arabic instruction-following benchmark, 535 instances with verifiable instructions, from the ALLaM team.
+- id: aratruthfulqa
+  name: AraTruthfulQA
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/AraTruthfulQA
+  year: 2025
+  notes: 287 culturally adapted TruthfulQA questions testing truthfulness on misconceptions common in the Arab world.
+- id: lc-eval
+  name: LC-Eval
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/LC-Eval
+  year: 2025
+  notes: Bilingual Arabic-English long-context benchmark with contexts from 4K to over 128K tokens.
+- id: etec-benchmark
+  name: ETEC
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/Etec
+  year: 2025
+  notes: 1,887 Arabic multiple-choice questions from Saudi Education and Training Evaluation Commission exams.
+- id: ien-mcq
+  name: IEN-MCQ
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/IEN_MCQ
+  year: 2025
+  notes: About 10K Arabic school multiple-choice questions across subjects and grades from Saudi Ien platform.
+- id: aramath
+  name: AraMath
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/AraMath
+  year: 2025
+  notes: 605 Arabic math word problems in multiple-choice form adapted from ArMath.
+- id: arapro
+  name: AraPro
+  type: benchmark
+  country: SA
+  org: HUMAIN
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/humain-ai/AraPro
+  year: 2025
+  notes: 5,001 Arabic multiple-choice questions on professional domains from the ALLaM evaluation suite.
+- id: evalplus-arabic
+  name: 3LM Code Arabic (EvalPlus)
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - code
+  links:
+    hf: https://huggingface.co/datasets/tiiuae/evalplus-arabic
+  year: 2025
+  notes: Arabic translations of HumanEval+ and MBPP+ from the 3LM benchmark suite.
+- id: mizan-iraqi-benchmark
+  name: Mizan Iraqi Arabic Benchmark
+  type: benchmark
+  country: INTL
+  org: Nawar Alseelawi
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/nawaralseelawi/mizan-iraqi-arabic-benchmark
+  year: 2026
+  dialects:
+  - iraqi
+  notes: Originally authored Iraqi Arabic LLM benchmark, pilot public dev set; Iraq.

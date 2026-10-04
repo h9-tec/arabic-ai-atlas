@@ -585,6 +585,9 @@
   - industry
   links:
     website: https://widebot.ai/
+  dialects:
+  - egy
+  - mixed
   notes: Arabic-first conversational AI - AQL Arabic LLM, chatbots, voicebots, AI agents
 - id: dxwand
   name: DXwand
@@ -730,3 +733,212 @@
   links:
     website: https://maqsam.com/
   notes: Arabic speech AI, call center AI - Arabic dialect STT, AI voice bots, surpasses Google/Microsoft
+- id: applied-innovation-center
+  name: Applied Innovation Center (AIC)
+  type: org
+  country: EG
+  org: Applied Innovation Center (MCIT Egypt)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://aic.gov.eg
+  notes: Egyptian MCIT AI center; builds the Karnak LLM family and publishes models on Hugging Face (Applied-Innovation-Center).
+- id: si2m-lab
+  name: SI2M Lab
+  type: org
+  country: MA
+  org: SI2M Lab (INSEA)
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/SI2M-Lab
+  dialects:
+  - magh
+  notes: Moroccan NLP lab behind DarijaBERT and its Arabizi variants.
+- id: toumai
+  name: ToumAI
+  type: org
+  country: MA
+  org: ToumAI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://toum.ai
+  dialects:
+  - magh
+  - mixed
+  notes: Moroccan multilingual voice-agent company focused on dialect-aware voice AI.
+- id: icompass
+  name: iCompass
+  type: org
+  country: TN
+  org: iCompass
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.instadeep.com/2021/03/instadeep-and-icompass-announce-tunbert-the-first-ai-based-tunisian-dialect-system/
+  dialects:
+  - magh
+  notes: Tunisian AI company; co-built TunBERT and a Tunisian dialect speech stack with InstaDeep.
+- id: instadeep
+  name: InstaDeep
+  type: org
+  country: TN
+  org: InstaDeep
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.instadeep.com
+  dialects:
+  - magh
+  notes: Tunis-founded AI company; co-released TunBERT, the first Tunisian dialect language model.
+- id: core42
+  name: Core42
+  type: org
+  country: AE
+  org: Core42
+  license: unknown
+  modality: none
+  tasks: &id001
+  - industry
+  links:
+    website: https://www.core42.ai
+  notes: G42 sovereign cloud and AI company; Compass AI platform and Jais deployment.
+- id: presight-ai
+  name: Presight AI
+  type: org
+  country: AE
+  org: Presight AI
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    website: https://www.presight.ai
+  notes: G42 big-data analytics firm; government AI products including Arabic NLP.
+- id: khalifa-university
+  name: Khalifa University
+  type: org
+  country: AE
+  org: Khalifa University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.ku.ac.ae
+  notes: Abu Dhabi university with NLP, speech and AI research.
+- id: uae-university
+  name: United Arab Emirates University
+  type: org
+  country: AE
+  org: United Arab Emirates University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.uaeu.ac.ae
+  notes: Al Ain university with Arabic NLP and AI research.
+- id: astra-tech-botim
+  name: Astra Tech (Botim)
+  type: org
+  country: AE
+  org: Astra Tech (Botim)
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    website: https://astratech.ae
+  notes: Abu Dhabi tech group behind Botim, building AI assistant products.
+- id: aramco-digital
+  name: Aramco Digital
+  type: org
+  country: SA
+  org: Aramco Digital
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    website: https://www.aramcodigital.com
+  notes: Aramco digital arm, behind Metabrain generative AI assistant and AI partnerships.
+- id: imam-university
+  name: Imam Mohammad ibn Saud Islamic University
+  type: org
+  country: SA
+  org: Imam Mohammad ibn Saud Islamic University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://imamu.edu.sa
+  notes: Riyadh university with Arabic NLP and computational linguistics research.
+- id: stc-group
+  name: stc Group
+  type: org
+  country: SA
+  org: stc Group
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    website: https://www.stc.com.sa
+  notes: Saudi telecom group with AI subsidiaries and Arabic chatbot products.
+- id: sultan-qaboos-university
+  name: Sultan Qaboos University
+  type: org
+  country: OM
+  org: Sultan Qaboos University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.squ.edu.om
+  notes: Omani university with Arabic NLP and AI research.
+- id: qatar-university
+  name: Qatar University
+  type: org
+  country: QA
+  org: Qatar University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.qu.edu.qa
+  notes: Qatar University NLP group; bigIR lab released ArCOV-19 and Arabic QA resources.
+- id: hbku
+  name: Hamad Bin Khalifa University
+  type: org
+  country: QA
+  org: Hamad Bin Khalifa University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.hbku.edu.qa
+  notes: Qatar university hosting QCRI; Arabic NLP, speech and Fanar research.
+- id: university-of-bahrain
+  name: University of Bahrain
+  type: org
+  country: BH
+  org: University of Bahrain
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.uob.edu.bh
+  notes: Bahrain national university with Arabic NLP and AI research.

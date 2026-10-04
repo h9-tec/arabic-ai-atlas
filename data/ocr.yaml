@@ -96,3 +96,219 @@
   links:
     hf: https://huggingface.co/MohamedRashad/arabic-small-nougat
   notes: Smaller Nougat variant for Arabic document OCR
+- id: qari-ocr-v0-3-vl-2b-instruct
+  name: Qari-OCR-v0.3-VL-2B-Instruct
+  type: ocr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Qari-OCR-v0.3-VL-2B-Instruct
+  size: 2.2B
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Qari OCR v0.3, 2B Qwen2-VL based Arabic OCR with diacritics support.
+- id: qari-ocr-0-4-0-vl-4b-instruct
+  name: Qari-OCR-0.4.0-VL-4B-Instruct
+  type: ocr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Qari-OCR-0.4.0-VL-4B-Instruct
+  size: 4B
+  year: 2025
+  dialects:
+  - msa
+  notes: Qari OCR 0.4.0, 4B vision-language Arabic OCR model.
+- id: arabic-handwritten-ocr-4bit-qwen2-5-vl-3b-v2
+  name: Arabic-handwritten-OCR-4bit-Qwen2.5-VL-3B-v2
+  type: ocr
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/sherif1313/Arabic-handwritten-OCR-4bit-Qwen2.5-VL-3B-v2
+  size: 3.9B
+  year: 2025
+  dialects:
+  - msa
+  notes: 4-bit Qwen2.5-VL 3B for Arabic handwritten OCR.
+- id: arabic-qwen3-5-ocr-v4
+  name: Arabic-Qwen3.5-OCR-v4
+  type: ocr
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/sherif1313/Arabic-Qwen3.5-OCR-v4
+  size: 853M
+  year: 2026
+  on_device: true
+  dialects:
+  - msa
+  notes: Qwen3.5-based Arabic OCR model.
+- id: arabic-glm-ocr-v2
+  name: Arabic-GLM-OCR-v2
+  type: ocr
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/sherif1313/Arabic-GLM-OCR-v2
+  size: 1.1B
+  year: 2026
+  on_device: true
+  dialects:
+  - msa
+  notes: GLM-OCR fine-tuned for Arabic documents.
+- id: arabic-legal-documents-ocr-1-0
+  name: arabic-legal-documents-ocr-1.0
+  type: ocr
+  country: EG
+  org: Bakrianoo
+  license: gemma
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/bakrianoo/arabic-legal-documents-ocr-1.0
+  size: 4.3B
+  year: 2026
+  dialects:
+  - msa
+  notes: Gemma-based OCR for Arabic legal documents.
+- id: arabic-pp-ocrv5-mobile-rec
+  name: arabic_PP-OCRv5_mobile_rec
+  type: ocr
+  country: INTL
+  org: PaddlePaddle
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/PaddlePaddle/arabic_PP-OCRv5_mobile_rec
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: PP-OCRv5 mobile recognition model for Arabic script.
+- id: katib-qwen3-5-0-8b-0-1
+  name: Katib-Qwen3.5-0.8B-0.1
+  type: ocr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/oddadmix/Katib-Qwen3.5-0.8B-0.1
+  size: 0.8B
+  year: 2026
+  on_device: true
+  dialects:
+  - msa
+  notes: Small Qwen3.5 0.8B Arabic OCR model.
+- id: qwen3-vl-2b-persian-arabic-ocr-v1-0
+  name: Qwen3-VL-2B-Persian-Arabic-Ocr-v1.0
+  type: ocr
+  country: INTL
+  org: Mohajesmaeili
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/mohajesmaeili/Qwen3-VL-2B-Persian-Arabic-Ocr-v1.0
+  size: 2.1B
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Qwen3-VL 2B OCR for Persian and Arabic scripts.
+- id: hussein-arabic-ocr
+  name: Arabic-OCR (HusseinYoussef)
+  type: ocr
+  country: EG
+  org: Hussein Youssef
+  license: mit
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/HusseinYoussef/Arabic-OCR
+  year: 2019
+  notes: OCR pipeline converting images of typed Arabic text into machine-encoded text.
+- id: manazir-ocr
+  name: Manazir OCR
+  type: ocr
+  country: EG
+  org: h9-tec
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/h9-tec/Manazir-OCR
+  year: 2025
+  notes: Arabic-first multi-model OCR pipeline for high-quality text extraction.
+- id: arabic-deep-learning-ocr
+  name: Arabic Deep Learning OCR
+  type: ocr
+  country: JO
+  org: Mohammed Fasha
+  license: mit
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/msfasha/Arabic-Deep-Learning-OCR
+  year: 2020
+  notes: Deep-learning OCR experiments for Arabic text.
+- id: ahr-ocr-handwriting
+  name: Arabic Handwriting Recognition E2E
+  type: ocr
+  country: INTL
+  org: AHR-OCR2024
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - handwriting
+  links:
+    github: https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition
+  year: 2024
+  notes: End-to-end Arabic handwritten text OCR with an extraction application.
+- id: baseer-nakba
+  name: Baseer Nakba
+  type: ocr
+  country: SA
+  org: Misraj AI
+  license: cc-by-nc-sa-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/Misraj/Baseer__Nakba
+    paper: https://arxiv.org/abs/2509.18174
+  year: 2026
+  notes: Merged Baseer Arabic document OCR VLM variant on Qwen2.5-VL.

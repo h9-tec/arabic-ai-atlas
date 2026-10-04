@@ -42,6 +42,7 @@
   size: 7B
   dialects:
   - msa
+  year: 2025
   notes: Saudi's sovereign model, enterprise-focused
 - id: fanar-1-9b
   name: Fanar-1-9B
@@ -907,3 +908,1023 @@
   links:
     hf: https://huggingface.co/omarsabri8756/blip-Arabic-flickr-8k
   notes: BLIP fine-tuned for Arabic image captioning
+- id: atlas-chat-9b
+  name: Atlas-Chat-9B
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-9B
+  size: 9.2B
+  year: 2024
+  dialects:
+  - magh
+  notes: Atlas-Chat 9B, Gemma-2 based instruction model for Moroccan Darija.
+- id: atlas-chat-2b
+  name: Atlas-Chat-2B
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-2B
+  size: 2.6B
+  year: 2024
+  on_device: true
+  dialects:
+  - magh
+  notes: Atlas-Chat 2B, small Moroccan Darija instruction model.
+- id: atlas-chat-27b
+  name: Atlas-Chat-27B
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-27B
+  size: 27.2B
+  year: 2024
+  dialects:
+  - magh
+  notes: Atlas-Chat 27B, largest Moroccan Darija instruction model of the family.
+- id: nile-chat-4b
+  name: Nile-Chat-4B
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris/Nile-Chat-4B
+  size: 3.9B
+  year: 2025
+  dialects:
+  - egy
+  notes: Nile-Chat 4B, Egyptian dialect model handling both Arabic and Arabizi script.
+- id: nile-chat-12b
+  name: Nile-Chat-12B
+  type: llm
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: gemma
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris/Nile-Chat-12B
+  size: 11.8B
+  year: 2025
+  dialects:
+  - egy
+  notes: Nile-Chat 12B, Egyptian dialect model handling both Arabic and Arabizi script.
+- id: nilechat-3b-base
+  name: NileChat-3B-Base
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: other
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/UBC-NLP/NileChat-3B-Base
+  size: 3.4B
+  year: 2026
+  dialects:
+  - egy
+  notes: Base model behind NileChat-3B, Egyptian-Arabic-focused; UBC is in Canada.
+- id: al-atlas-0-5b
+  name: Al-Atlas-0.5B
+  type: llm
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/atlasia/Al-Atlas-0.5B
+  size: 494M
+  year: 2025
+  on_device: true
+  dialects:
+  - magh
+  notes: Al-Atlas 0.5B, small Moroccan Darija language model.
+- id: voho-saudi-chat-4b
+  name: voho-saudi-chat-4b
+  type: llm
+  country: SA
+  org: Voho AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/VohoAI/voho-saudi-chat-4b
+  size: 4B
+  year: 2026
+  dialects:
+  - gulf
+  notes: Voho Saudi chat 4B, Saudi-dialect conversational model.
+- id: aragpt2-base
+  name: aragpt2-base
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/aragpt2-base
+  size: 148M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraGPT2 base, GPT-2 style Arabic generator from AUB.
+- id: aragpt2-medium
+  name: aragpt2-medium
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/aragpt2-medium
+  size: 394M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraGPT2 medium, 370M Arabic GPT-2 from AUB.
+- id: aragpt2-large
+  name: aragpt2-large
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: other
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/aragpt2-large
+  size: 829M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraGPT2 large, 792M Arabic GPT-2 from AUB.
+- id: bert-base-arabertv2
+  name: bert-base-arabertv2
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/bert-base-arabertv2
+  size: 136M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraBERT v2 base with Farasa-segmented input.
+- id: bert-large-arabertv02
+  name: bert-large-arabertv02
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/bert-large-arabertv02
+  size: 371M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraBERT v02 large encoder.
+- id: bert-base-arabertv02-twitter
+  name: bert-base-arabertv02-twitter
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/bert-base-arabertv02-twitter
+  size: 135M
+  year: 2022
+  on_device: true
+  dialects:
+  - mixed
+  notes: AraBERT v02 base further pretrained on tweets including dialects.
+- id: bert-large-arabertv2
+  name: bert-large-arabertv2
+  type: llm
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/aubmindlab/bert-large-arabertv2
+  size: 371M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraBERT v2 large with Farasa-segmented input.
+- id: araelectra-base-artydiqa
+  name: araelectra-base-artydiqa
+  type: llm
+  country: LB
+  org: Wissam Antoun (AUB)
+  license: unknown
+  modality: text
+  tasks:
+  - question-answering
+  links:
+    hf: https://huggingface.co/wissamantoun/araelectra-base-artydiqa
+  size: 135M
+  year: 2022
+  on_device: true
+  dialects:
+  - msa
+  notes: AraELECTRA base fine-tuned on Arabic TyDiQA.
+- id: arbertv2
+  name: ARBERTv2
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/UBC-NLP/ARBERTv2
+  size: 164M
+  year: 2023
+  on_device: true
+  dialects:
+  - msa
+  notes: ARBERT v2, MSA BERT from UBC.
+- id: arbert
+  name: ARBERT
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/UBC-NLP/ARBERT
+  year: 2022
+  dialects:
+  - msa
+  notes: ARBERT, 61GB MSA BERT from UBC.
+- id: arat5v2-base-1024
+  name: AraT5v2-base-1024
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    hf: https://huggingface.co/UBC-NLP/AraT5v2-base-1024
+  year: 2023
+  dialects:
+  - msa
+  notes: AraT5 v2 base, Arabic text-to-text transformer with 1024 context.
+- id: arabart
+  name: AraBART
+  type: llm
+  country: INTL
+  org: Moussa Kamal Eddine
+  license: apache-2.0
+  modality: text
+  tasks:
+  - summarization
+  - pretraining
+  links:
+    hf: https://huggingface.co/moussaKam/AraBART
+  year: 2022
+  dialects:
+  - msa
+  notes: AraBART, first Arabic seq2seq model with pretrained encoder and decoder.
+- id: bert-base-arabic-camelbert-mix
+  name: bert-base-arabic-camelbert-mix
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-Mix pretrained on MSA, dialectal and Classical Arabic.
+- id: bert-base-arabic-camelbert-da
+  name: bert-base-arabic-camelbert-da
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-da
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-DA pretrained on dialectal Arabic.
+- id: bert-base-arabic-camelbert-ca
+  name: bert-base-arabic-camelbert-ca
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-ca
+  year: 2022
+  dialects:
+  - classical
+  notes: CAMeLBERT-CA pretrained on Classical Arabic.
+- id: bert-base-arabic-camelbert-mix-sentiment
+  name: bert-base-arabic-camelbert-mix-sentiment
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-Mix fine-tuned for Arabic sentiment analysis.
+- id: bert-base-arabic-camelbert-da-sentiment
+  name: bert-base-arabic-camelbert-da-sentiment
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-DA fine-tuned for Arabic sentiment analysis.
+- id: bert-base-arabic-camelbert-msa-ner
+  name: bert-base-arabic-camelbert-msa-ner
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-msa-ner
+  year: 2022
+  dialects:
+  - msa
+  notes: CAMeLBERT-MSA fine-tuned for Arabic named entity recognition.
+- id: bert-base-arabic-camelbert-mix-ner
+  name: bert-base-arabic-camelbert-mix-ner
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-ner
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-Mix fine-tuned for Arabic named entity recognition.
+- id: bert-base-arabic-camelbert-mix-did-madar-corpus26
+  name: bert-base-arabic-camelbert-mix-did-madar-corpus26
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-did-madar-corpus26
+  year: 2022
+  dialects:
+  - mixed
+  notes: CAMeLBERT-Mix fine-tuned for 26-city dialect ID on MADAR.
+- id: arabart-qalb14-gec-ged-13
+  name: arabart-qalb14-gec-ged-13
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: mit
+  modality: text
+  tasks:
+  - grammar-correction
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/arabart-qalb14-gec-ged-13
+  year: 2023
+  dialects:
+  - msa
+  notes: AraBART fine-tuned for Arabic grammatical error correction on QALB-2014.
+- id: darijabert
+  name: DarijaBERT
+  type: llm
+  country: MA
+  org: SI2M Lab (INSEA)
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/SI2M-Lab/DarijaBERT
+  size: 209M
+  year: 2022
+  on_device: true
+  dialects:
+  - magh
+  notes: DarijaBERT, first BERT model for Moroccan Darija.
+- id: arabicner-wojood
+  name: ArabicNER-Wojood
+  type: llm
+  country: INTL
+  org: SinaLab
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  links:
+    hf: https://huggingface.co/SinaLab/ArabicNER-Wojood
+  year: 2023
+  dialects:
+  - msa
+  notes: Arabic nested NER model trained on Wojood; Palestine.
+- id: aramodernbert-base-v1-0
+  name: AraModernBert-Base-V1.0
+  type: llm
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/NAMAA-Space/AraModernBert-Base-V1.0
+  size: 150M
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: ModernBERT-style Arabic encoder with long context from NAMAA.
+- id: ara-prompt-guard-v0
+  name: Ara-Prompt-Guard_V0
+  type: llm
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - classification
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Ara-Prompt-Guard_V0
+  size: 279M
+  year: 2025
+  on_device: true
+  dialects:
+  - msa
+  notes: Arabic prompt-injection and jailbreak classifier from NAMAA.
+- id: karnak-6b
+  name: Karnak-6B-v1.0
+  type: llm
+  country: EG
+  org: Applied Innovation Center (MCIT Egypt)
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Applied-Innovation-Center/Karnak-6B-v1.0
+  size: 5.9B
+  year: 2026
+  dialects:
+  - msa
+  - egy
+  notes: 6B small sibling of the Karnak national Egyptian LLM from the Applied Innovation Center, MCIT.
+- id: masribert-v4
+  name: MASRIBERT v4
+  type: llm
+  country: EG
+  org: T0KII
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/T0KII/MASRIBERTV4
+  size: 240M
+  dialects:
+  - egy
+  notes: BERT-style encoder for Egyptian Arabic (Masri) text; community model.
+- id: nawah-50m-rag-chat
+  name: Nawah-50M RAG Chat
+  type: llm
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/oddadmix/Nawah-50M-RAG-Chat-8K-GRPO
+  size: 52M
+  dialects:
+  - msa
+  notes: Tiny 50M Arabic RAG chat model with 8K context, tuned with GRPO.
+- id: arabic-orpo-llama3-8b
+  name: Arabic-Orpo-Llama-3-8B-Instruct
+  type: llm
+  country: INTL
+  org: MohamedRashad
+  license: llama3
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/MohamedRashad/Arabic-Orpo-Llama-3-8B-Instruct
+  size: 8.0B
+  year: 2024
+  dialects:
+  - msa
+  notes: Llama-3-8B aligned for Arabic with ORPO.
+- id: terjman-large
+  name: Terjman-Large
+  type: llm
+  country: MA
+  org: atlasia
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/atlasia/Terjman-Large-v2.0
+  size: 239M
+  dialects:
+  - magh
+  notes: English to Moroccan Darija translation model from atlasia.
+- id: darijabert-arabizi
+  name: DarijaBERT-arabizi
+  type: llm
+  country: MA
+  org: SI2M Lab (INSEA)
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/SI2M-Lab/DarijaBERT-arabizi
+  size: 255M
+  dialects:
+  - magh
+  notes: DarijaBERT variant for Darija written in Latin script (Arabizi).
+- id: tunbert
+  name: TunBERT
+  type: llm
+  country: TN
+  org: InstaDeep / iCompass
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/tunis-ai/TunBERT
+  size: 110M
+  year: 2021
+  dialects:
+  - magh
+  notes: First BERT for Tunisian dialect (Derja), from InstaDeep and iCompass.
+- id: esprit-derja-qwen3-8b
+  name: ESPRIT-Derja-Qwen3-8B
+  type: llm
+  country: TN
+  org: ESPRIT Group
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/ESPRIT-Group/ESPRIT-Derja-Qwen3-8B-v2
+  size: 8.2B
+  year: 2025
+  dialects:
+  - magh
+  notes: Qwen3-8B fine-tuned for Tunisian Derja by ESPRIT.
+- id: dziribert
+  name: DziriBERT
+  type: llm
+  country: INTL
+  org: alger-ia
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/alger-ia/dziribert
+  size: 124M
+  year: 2021
+  dialects:
+  - magh
+  notes: BERT for Algerian dialect incl. Arabizi (Algeria); first Algerian language model.
+- id: dziribert-sentiment
+  name: DziriBERT Sentiment
+  type: llm
+  country: INTL
+  org: alger-ia
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/alger-ia/dziribert_sentiment
+  size: 124M
+  dialects:
+  - magh
+  notes: DziriBERT fine-tuned for Algerian sentiment analysis (Algeria).
+- id: dzair
+  name: DZAIR
+  type: llm
+  country: INTL
+  org: Algerian NLP
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/algerian-nlp/DZAIR
+  size: 105M
+  dialects:
+  - magh
+  notes: Algerian Darja language model from the algerian-nlp community (Algeria).
+- id: shami-mt
+  name: Shami-MT
+  type: llm
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Shami-MT
+  size: 368M
+  year: 2025
+  dialects:
+  - lev
+  notes: Syrian dialect to MSA bidirectional translation model.
+- id: qwen2-5-7b-jordanian
+  name: Qwen2.5-7B Jordanian
+  type: llm
+  country: JO
+  org: Kareem Bb
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/KareemBb/Qwen2.5-7B-Instruct-Jordanian
+  dialects:
+  - lev
+  notes: Qwen2.5-7B-Instruct fine-tuned for Jordanian dialect chat.
+- id: lebanese-llama-3-1-8b
+  name: Lebanese Llama 3.1 8B
+  type: llm
+  country: LB
+  org: Assix Research
+  license: mit
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/assix-research/lebanese-llama-3.1-8b
+  size: 8.0B
+  dialects:
+  - lev
+  notes: Llama-3.1-8B fine-tuned for Lebanese dialect.
+- id: shako-iraqi-4b
+  name: Shako Iraqi 4B
+  type: llm
+  country: INTL
+  org: Anas Pro
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/anaspro/Shako-iraqi-4B-it
+  size: 8.4B
+  dialects:
+  - iraqi
+  notes: Instruction-tuned 4B model for Iraqi dialect (Iraq).
+- id: yemeni-arabic-assistant
+  name: Gemma-4 E2B Yemeni Arabic Assistant
+  type: llm
+  country: INTL
+  org: Yemeni AI Lab
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/yemeni-ai-lab/gemma-4-e2b-yemeni-arabic-assistant-GGUF
+  dialects:
+  - yemeni
+  notes: Small Gemma-based chat assistant for Yemeni dialect, GGUF (Yemen).
+- id: jais-family-chat
+  name: Jais family chat models
+  type: llm
+  country: AE
+  org: Inception AI (G42)
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/inception42/jais-family-13b-chat
+  size: 590M-30B
+  year: 2024
+  notes: Jais family of bilingual Arabic-English chat models from 590M to 30B trained from scratch.
+- id: jais-family-590m
+  name: Jais-family-590M
+  type: llm
+  country: AE
+  org: Inception AI (G42)
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  - chat
+  links:
+    hf: https://huggingface.co/inception42/jais-family-590m
+  size: 590M
+  year: 2024
+  on_device: true
+  notes: Smallest Jais-family Arabic-English model, suitable for edge and on-device use.
+- id: jais-adapted
+  name: Jais-adapted (Llama-2 based)
+  type: llm
+  country: AE
+  org: Inception AI (G42)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/inception42/jais-adapted-13b-chat
+  size: 7B-70B
+  year: 2024
+  notes: Jais-adapted series (7B, 13B, 70B) continued-pretrained from Llama-2 with Arabic vocabulary extension.
+- id: camel-readability-arabertv02
+  name: CAMeL Readability (AraBERTv02)
+  type: llm
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: mit
+  modality: text
+  tasks:
+  - readability
+  links:
+    hf: https://huggingface.co/CAMeL-Lab/readability-arabertv02-word-CE
+  year: 2024
+  notes: Word-level Arabic readability model from the BAREC readability work at NYUAD.
+- id: emirati-14b-v3
+  name: Emirati-14B-v3
+  type: llm
+  country: INTL
+  org: Airev AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/airev-ai/emirati-14b-v3
+  size: 14B
+  dialects:
+  - gulf
+  notes: 14B chat model fine-tuned for Emirati dialect and UAE context.
+- id: fanar-2-diwan
+  name: Fanar-2-Diwan
+  type: llm
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/QCRI/Fanar-2-Diwan
+  notes: Fanar-2 family model released by QCRI on Hugging Face.
+- id: llamalens
+  name: LlamaLens
+  type: llm
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - classification
+  links:
+    hf: https://huggingface.co/QCRI/LlamaLens
+  year: 2025
+  notes: Multilingual news and social-media analysis LLM covering Arabic, from QCRI.
+- id: fasee7-najdi-small
+  name: Fasee7-Najdi-Small
+  type: llm
+  country: SA
+  org: Wittify.ai
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Wittify/Fasee7-Najdi-Small
+  dialects:
+  - gulf
+  notes: Small Najdi-dialect Arabic chat model from Wittify.
+- id: arapoembert
+  name: AraPoemBERT
+  type: llm
+  country: SA
+  org: King Saud University
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - classification
+  links:
+    hf: https://huggingface.co/faisalq/bert-base-arapoembert
+  year: 2024
+  notes: BERT model pretrained on Arabic poetry for meter, rhyme, sentiment classification.
+- id: bahraini-dialect-llm
+  name: Bahraini Dialect LLM
+  type: llm
+  country: BH
+  org: Community (Bahrain)
+  license: other
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM
+  dialects:
+  - gulf
+  notes: Chat model fine-tuned for the Bahraini dialect.
+- id: kuwaiti-qwen3-v3
+  name: Kuwaiti-Qwen3-v3
+  type: llm
+  country: KW
+  org: Community (Kuwait)
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/balfaris/kuwaiti-qwen3-v3-GGUF
+  dialects:
+  - gulf
+  notes: GGUF Qwen3 model fine-tuned for Kuwaiti dialect.
+- id: jais-2-70b-chat
+  name: Jais 2 70B Chat
+  type: llm
+  country: AE
+  org: Inception AI (G42)
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/inception42/Jais-2-70B-Chat
+    paper: https://arxiv.org/abs/2608.13580
+  size: 70B
+  year: 2025
+  notes: Second-generation Jais Arabic-English chat model released Dec 2025.
+- id: jais-2-8b-chat
+  name: Jais 2 8B Chat
+  type: llm
+  country: AE
+  org: Inception AI (G42)
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/inception42/Jais-2-8B-Chat
+    paper: https://arxiv.org/abs/2608.13580
+  size: 8B
+  year: 2025
+  notes: Smaller Jais 2 Arabic-English chat model with GGUF builds.
+- id: fanar-2-27b-instruct
+  name: Fanar-2-27B-Instruct
+  type: llm
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/QCRI/Fanar-2-27B-Instruct
+    paper: https://arxiv.org/abs/2603.16397
+  size: 27B
+  year: 2026
+  notes: Fanar 2 Arabic-English instruct model built on Gemma 3 27B, released March 2026.
+- id: fanar-2-oryx-ivu
+  name: Fanar-2-Oryx-IVU
+  type: llm
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - image-understanding
+  - chat
+  links:
+    hf: https://huggingface.co/QCRI/Fanar-2-Oryx-IVU
+    paper: https://arxiv.org/abs/2603.16397
+  size: 7B
+  year: 2026
+  notes: Arabic-English vision-language model on Qwen2.5-VL-7B with cultural understanding focus.
+- id: fanar-2-oryx-ig
+  name: Fanar-2-Oryx-IG
+  type: llm
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - text-to-image
+  links:
+    hf: https://huggingface.co/QCRI/Fanar-2-Oryx-IG
+    paper: https://arxiv.org/abs/2603.16397
+  year: 2026
+  notes: Culturally aligned Arabic-English image generation model fine-tuned from FLUX.1-schnell.
+- id: egyptian-arabic-eot
+  name: Egyptian Arabic End-of-Turn Detector
+  type: llm
+  country: EG
+  org: Waqf AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - turn-detection
+  links:
+    hf: https://huggingface.co/Waqf-AI/egyptian-arabic-eot-qwen35-0.8b
+  size: 0.8B
+  year: 2026
+  on_device: true
+  dialects:
+  - egy
+  notes: 0.8B Qwen3.5 classifier for end-of-turn detection in Egyptian Arabic voice agents.

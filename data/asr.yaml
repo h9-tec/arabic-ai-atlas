@@ -241,3 +241,681 @@
   - msa
   - egy
   notes: Arabic ASR/TTS/classification library (MSA + Egyptian)
+- id: wav2vec2-large-xlsr-53-levantine-arabic
+  name: wav2vec2-large-xlsr-53-levantine-arabic
+  type: asr
+  country: INTL
+  org: Ali Elgeish
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/elgeish/wav2vec2-large-xlsr-53-levantine-arabic
+  year: 2022
+  dialects:
+  - lev
+  notes: wav2vec2 XLSR-53 fine-tuned on Levantine Arabic.
+- id: wav2vec2-large-xlsr-53-arabic-egyptian
+  name: wav2vec2-large-xlsr-53-arabic-egyptian
+  type: asr
+  country: SA
+  org: ARBML
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/arbml/wav2vec2-large-xlsr-53-arabic-egyptian
+  year: 2022
+  dialects:
+  - egy
+  notes: wav2vec2 XLSR-53 fine-tuned on Egyptian Arabic.
+- id: cohere-transcribe-arabic-07-2026
+  name: cohere-transcribe-arabic-07-2026
+  type: asr
+  country: INTL
+  org: Cohere Labs
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026
+  size: 2.1B
+  year: 2026
+  dialects:
+  - msa
+  notes: Cohere Transcribe specialised for Arabic speech recognition.
+- id: cohere-transcribe-arabic-07-2026-dialectal-v2
+  name: cohere-transcribe-arabic-07-2026-dialectal-v2
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal-v2
+  size: 2.1B
+  year: 2026
+  dialects:
+  - mixed
+  notes: Cohere Transcribe Arabic fine-tuned for dialectal speech.
+- id: cohere-speech-tashkeel-2b
+  name: Cohere-Speech-Tashkeel-2B
+  type: asr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Cohere-Speech-Tashkeel-2B
+  size: 2.1B
+  year: 2026
+  dialects:
+  - msa
+  notes: Speech model that transcribes Arabic with tashkeel (diacritics).
+- id: qwen3-asr-arabic-uae
+  name: qwen3-asr-arabic-uae
+  type: asr
+  country: AE
+  org: Vadim Belsky
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae
+  size: 2B
+  year: 2026
+  dialects:
+  - gulf
+  notes: Qwen3-ASR fine-tuned for Emirati Arabic.
+- id: qwen3-asr-arabic-ksa
+  name: qwen3-asr-arabic-ksa
+  type: asr
+  country: SA
+  org: Vadim Belsky
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/vadimbelsky/qwen3-asr-arabic-ksa
+  size: 2B
+  year: 2026
+  dialects:
+  - gulf
+  notes: Qwen3-ASR fine-tuned for Saudi Arabic.
+- id: whisper-large-v3-arabic-dialectal-v2
+  name: whisper-large-v3-arabic-dialectal-v2
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/whisper-large-v3-arabic-dialectal-v2
+  size: 1.5B
+  year: 2026
+  dialects:
+  - mixed
+  notes: Whisper large-v3 fine-tuned on Arabic dialects.
+- id: whisper-large-v3-turbo-arabic-dialectal-v2
+  name: whisper-large-v3-turbo-arabic-dialectal-v2
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2
+  size: 809M
+  year: 2026
+  dialects:
+  - mixed
+  notes: Whisper large-v3-turbo fine-tuned on Arabic dialects.
+- id: arabic-whisper-codeswitching-edition
+  name: Arabic-Whisper-CodeSwitching-Edition
+  type: asr
+  country: INTL
+  org: MohamedRashad
+  license: gpl-3.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MohamedRashad/Arabic-Whisper-CodeSwitching-Edition
+  size: 1.5B
+  year: 2024
+  dialects:
+  - mixed
+  notes: Whisper fine-tuned for Arabic with English code-switching.
+- id: wav2vec2-large-xlsr-moroccan-darija
+  name: wav2vec2-large-xlsr-moroccan-darija
+  type: asr
+  country: MA
+  org: Boumehdi
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/boumehdi/wav2vec2-large-xlsr-moroccan-darija
+  year: 2023
+  dialects:
+  - magh
+  notes: wav2vec2 XLSR fine-tuned on Moroccan Darija.
+- id: whisper-large-v3-turbo-darija
+  name: whisper-large-v3-turbo-darija
+  type: asr
+  country: MA
+  org: Anas Zil
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/anaszil/whisper-large-v3-turbo-darija
+  year: 2025
+  dialects:
+  - magh
+  notes: Whisper large-v3-turbo fine-tuned on Moroccan Darija.
+- id: moulsot-v0-3
+  name: moulsot.v0.3
+  type: asr
+  country: MA
+  org: atlasia
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/atlasia/moulsot.v0.3
+  size: 2B
+  year: 2026
+  dialects:
+  - magh
+  notes: Moulsot ASR for Moroccan Darija from Atlasia.
+- id: whisper-medium-darija
+  name: whisper-medium-darija
+  type: asr
+  country: MA
+  org: Youssef Chafiqui
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/ychafiqui/whisper-medium-darija
+  size: 764M
+  year: 2024
+  on_device: true
+  dialects:
+  - magh
+  notes: Whisper medium fine-tuned on Moroccan Darija.
+- id: asr-wav2vec2-dvoice-darija
+  name: asr-wav2vec2-dvoice-darija
+  type: asr
+  country: INTL
+  org: SpeechBrain
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/speechbrain/asr-wav2vec2-dvoice-darija
+  year: 2022
+  dialects:
+  - magh
+  notes: SpeechBrain wav2vec2 recipe trained on the DVoice Darija dataset.
+- id: egyptian-arabic-wav2vec2-xlsr-53
+  name: egyptian-arabic-wav2vec2-xlsr-53
+  type: asr
+  country: EG
+  org: Ibrahim Amin
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53
+  size: 315M
+  year: 2025
+  on_device: true
+  dialects:
+  - egy
+  notes: wav2vec2 XLSR-53 fine-tuned on Egyptian Arabic.
+- id: whisper-large-v3-egyptian-arabic
+  name: whisper-large-v3-egyptian-arabic
+  type: asr
+  country: EG
+  org: Abdelrahman Hassan
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/AbdelrahmanHassan/whisper-large-v3-egyptian-arabic
+  year: 2025
+  dialects:
+  - egy
+  notes: Whisper large-v3 fine-tuned on Egyptian Arabic.
+- id: whisper-tiny-ar-quran
+  name: whisper-tiny-ar-quran
+  type: asr
+  country: INTL
+  org: Tarteel AI
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/tarteel-ai/whisper-tiny-ar-quran
+  year: 2022
+  on_device: true
+  dialects:
+  - classical
+  notes: Whisper tiny fine-tuned for Quran recitation transcription.
+- id: fastconformer-quran
+  name: fastconformer-quran
+  type: asr
+  country: INTL
+  org: Muno459
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Muno459/fastconformer-quran
+  year: 2026
+  dialects:
+  - classical
+  notes: FastConformer CTC model for Quran recitation.
+- id: zipformer-p-arabic-v3
+  name: zipformer_p-arabic-v3
+  type: asr
+  country: INTL
+  org: Quran Lab
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Quran-Lab/zipformer_p-arabic-v3
+  year: 2026
+  dialects:
+  - classical
+  notes: Zipformer ASR for Quranic Arabic.
+- id: whisper-large-v3-turbo-ar-quran
+  name: whisper-large-v3-turbo-ar-quran
+  type: asr
+  country: INTL
+  org: Naazim
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran
+  size: 809M
+  year: 2025
+  dialects:
+  - classical
+  notes: Whisper large-v3-turbo fine-tuned on Quran recitation.
+- id: hadra-asr-whisper-medium
+  name: Hadra-ASR-whisper-medium
+  type: asr
+  country: INTL
+  org: Algerian NLP
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/algerian-nlp/Hadra-ASR-whisper-medium
+  year: 2026
+  dialects:
+  - magh
+  notes: Whisper medium for Algerian Darija; Algeria noted.
+- id: whisper-tunisian-dialect
+  name: whisper-tunisian-dialect
+  type: asr
+  country: TN
+  org: TuniSpeech-AI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/TuniSpeech-AI/whisper-tunisian-dialect
+  size: 1.5B
+  year: 2026
+  dialects:
+  - magh
+  notes: Whisper fine-tuned on Tunisian dialect.
+- id: whisper-sudanese-dialect-small
+  name: Whisper-Sudanese-Dialect-small
+  type: asr
+  country: INTL
+  org: Ayman Mansour
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/AymanMansour/Whisper-Sudanese-Dialect-small
+  year: 2022
+  on_device: true
+  dialects:
+  - sudanese
+  notes: Whisper small fine-tuned on Sudanese dialect; Sudan noted.
+- id: whisper-small-libyan
+  name: whisper-small-libyan
+  type: asr
+  country: INTL
+  org: Tass02
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Tass02/whisper-small-libyan
+  size: 242M
+  year: 2026
+  on_device: true
+  dialects:
+  - magh
+  notes: Whisper small fine-tuned on Libyan Arabic; Libya noted.
+- id: nemotron-3-5-asr-streaming-0-6b-jordanian
+  name: nemotron-3.5-asr-streaming-0.6b-jordanian
+  type: asr
+  country: JO
+  org: Rama Bashar
+  license: openmdw-1.1
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/RamaBashar22/nemotron-3.5-asr-streaming-0.6b-jordanian
+  size: 638M
+  year: 2026
+  on_device: true
+  dialects:
+  - lev
+  notes: Streaming Nemotron ASR 0.6B tuned for Jordanian Arabic.
+- id: wav2vec2-arabic-phoneme-asr
+  name: wav2vec2-arabic-phoneme-asr
+  type: asr
+  country: INTL
+  org: Mostafa Maroof
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MostafaMaroof/wav2vec2-arabic-phoneme-asr
+  size: 316M
+  year: 2026
+  on_device: true
+  dialects:
+  - msa
+  notes: wav2vec2 phoneme recognizer for Arabic.
+- id: whisper-small-egyptian-arabic
+  name: Whisper Small Egyptian Arabic
+  type: asr
+  country: INTL
+  org: MAdel121
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MAdel121/whisper-small-egyptian-arabic
+  size: 242M
+  dialects:
+  - egy
+  notes: Whisper-small fine-tuned on Egyptian Arabic speech; lighter sibling of the medium model.
+- id: whisper-small-egyptian-codeswitch
+  name: Whisper Small Egyptian Code-Switch
+  type: asr
+  country: EG
+  org: Ibrahim Amin
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/IbrahimAmin/code-switched-egyptian-arabic-whisper-small
+  size: 242M
+  dialects:
+  - egy
+  - mixed
+  notes: Whisper-small tuned for Egyptian Arabic with English code-switching.
+- id: whisper-turbo-egyptian-codeswitch
+  name: Whisper Turbo Egyptian Code-Switch
+  type: asr
+  country: EG
+  org: Mohammed Aly
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mohammedaly22/whisper-large-v3-turbo-egyptian-code-switching
+  size: 809M
+  dialects:
+  - egy
+  - mixed
+  notes: Whisper large-v3-turbo fine-tuned for Egyptian Arabic and English code-switched speech.
+- id: whisper-yemeni
+  name: Whisper Yemeni
+  type: asr
+  country: INTL
+  org: Mansoor Saleh
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mansoorSaleh/whisper-yemeni
+  size: 242M
+  dialects:
+  - yemeni
+  notes: Whisper fine-tuned for Yemeni dialect (Yemen).
+- id: bahraini-arabic-whisper
+  name: Whisper-base Bahraini
+  type: asr
+  country: BH
+  org: Community (Bahrain)
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Fatimaa75/whisper-base-bahraini
+  dialects:
+  - gulf
+  notes: Whisper base fine-tuned on Bahraini-dialect speech.
+- id: audar-asr-v1
+  name: Audar-ASR-V1
+  type: asr
+  country: INTL
+  org: Audar AI
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/AudarAI/Audar-ASR-V1
+  year: 2026
+  notes: Arabic-first generative speech recognition in Flash and Turbo variants.
+- id: cohere-transcribe-arabic
+  name: Cohere Transcribe batch inference
+  type: asr
+  country: INTL
+  org: AliOsm
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/AliOsm/cohere-transcribe
+  year: 2026
+  notes: Production batch inference wrapper for Cohere's Arabic and English ASR model.
+- id: tilawa
+  name: Tilawa
+  type: asr
+  country: INTL
+  org: Yazin Sai
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran-recitation
+  links:
+    github: https://github.com/yazinsai/tilawa
+  year: 2026
+  notes: Offline Quran verse recognition that identifies surah and ayah from audio.
+- id: iqra-ai
+  name: IqraAI
+  type: asr
+  country: INTL
+  org: Abdirahman Nomad
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran-recitation
+  links:
+    github: https://github.com/AbdirahmanNomad/IqraAI
+  year: 2026
+  notes: Quran speech recognition with verse matching and a recitation practice mode.
+- id: kaldi-arabic
+  name: kaldi-arabic
+  type: asr
+  country: SA
+  org: Asrajeh
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/asrajeh/kaldi-arabic
+  year: 2021
+  notes: HMM-based Arabic ASR recipe built on Kaldi.
+- id: egyptian-asr-diarization
+  name: Egyptian Arabic ASR and Diarization
+  type: asr
+  country: EG
+  org: Speech Squad
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - diarization
+  links:
+    github: https://github.com/yousefkotp/Egyptian-Arabic-ASR-and-Diarization
+  year: 2024
+  notes: MTC-AIC 2 competition submission for Egyptian Arabic ASR and speaker diarization.
+- id: whisper-arabic-dialects
+  name: Whisper Arabic dialects
+  type: asr
+  country: INTL
+  org: Ahmed Hany
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/dev-ahmedhany/whisper-arabic-dialects
+  year: 2026
+  notes: Whisper fine-tuning code for Arabic dialects.
+- id: lemura-arabic-asr-lite
+  name: Lemura Arabic ASR Lite
+  type: asr
+  country: INTL
+  org: Lemura Labs
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/lemuralabs/lemura-arabic-asr-lite
+  year: 2026
+  dialects:
+  - msa
+  - gulf
+  - egy
+  - lev
+  - magh
+  notes: NeMo multi-dialect Arabic ASR covering MSA, Gulf, Egyptian, Levantine and Maghrebi.
+- id: lemura-arabic-asr-qwen3
+  name: Lemura Arabic ASR Qwen3
+  type: asr
+  country: INTL
+  org: Lemura Labs
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/lemuralabs/lemura-arabic-asr-qwen3
+  year: 2026
+  dialects:
+  - msa
+  - gulf
+  - egy
+  notes: Qwen3-ASR based multi-dialect Arabic speech recognizer from Lemura Labs.
+- id: cohere-transcribe-arabic-cpu
+  name: Cohere Transcribe Arabic CPU-Friendly
+  type: asr
+  country: INTL
+  org: sayedM
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/sayedM/cohere-transcribe-arabic-cpu-friendly
+  year: 2026
+  notes: Int8 CPU-oriented build of Cohere Transcribe Arabic with speculative decoding.
+- id: nemotron-asr-arabic-dialectal-v2
+  name: Nemotron 3.5 ASR Arabic Dialectal v2
+  type: asr
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/nemotron-3.5-asr-arabic-dialectal-v2
+  year: 2026
+  dialects:
+  - mixed
+  notes: Streaming dialectal Arabic ASR fine-tuned from NVIDIA Nemotron 3.5 ASR on Lahgtna.
+- id: namaa-saudi-asr-v1
+  name: NAMAA Saudi ASR V1
+  type: asr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/NAMAA-Space/NAMAA-Saudi-ASR-V1
+  year: 2026
+  dialects:
+  - gulf
+  notes: LoRA adapter specializing Cohere Transcribe Arabic for Saudi dialect speech.

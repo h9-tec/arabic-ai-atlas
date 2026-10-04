@@ -76,3 +76,370 @@
   links:
     github: https://github.com/karem505/karem-arabic-presentation
   notes: Claude Code skill for Arabic/English bilingual RTL HTML presentations
+- id: wasl-mcp
+  name: Wasl
+  type: agent-skill
+  country: INTL
+  org: Moshe-ship
+  license: unknown
+  modality: none
+  tasks: &id001
+  - mcp-server
+  links:
+    github: https://github.com/Moshe-ship/wasl
+  year: 2026
+  notes: Arabic MCP server bundling prayer times, Quran, Hadith, translation and dialect tools.
+- id: hurmoz
+  name: Hurmoz
+  type: agent-skill
+  country: INTL
+  org: Moshe-ship
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/Moshe-ship/hurmoz
+  year: 2026
+  notes: Collection of 63 Arabic skills for the Hermes Agent framework.
+- id: tafsir-mcp
+  name: Tafsir MCP
+  type: agent-skill
+  country: INTL
+  org: Tafsir Center
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/tafsircenter/tafsir-mcp
+  year: 2026
+  notes: MCP server for the Quran with 5 classical tafsirs and word-level linguistic data.
+- id: quran-mcp-server-djalal
+  name: Quran MCP Server (djalal)
+  type: agent-skill
+  country: INTL
+  org: djalal
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/djalal/quran-mcp-server
+  year: 2026
+  notes: MCP server wrapping the Quran.com API for verse search, translation and tafsir.
+- id: quran-search-engine-mcp
+  name: Quran Search Engine MCP
+  type: agent-skill
+  country: INTL
+  org: adelpro
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/adelpro/quran-search-engine-mcp
+  year: 2026
+  notes: MCP server giving AI clients fast, citation-grounded Quran search to reduce hallucinated verses.
+- id: mcp-quran-ai-skills
+  name: mcp.quran.ai Skills and Docs
+  type: agent-skill
+  country: INTL
+  org: Quran Foundation
+  license: unknown
+  modality: none
+  tasks:
+  - mcp-server
+  - agent-skill
+  links:
+    github: https://github.com/quran/mcp.quran.ai
+  year: 2026
+  notes: Public skills, documentation and static assets for the hosted mcp.quran.ai Quran server.
+- id: azan-mcp
+  name: Azan MCP
+  type: agent-skill
+  country: INTL
+  org: Ahmed Eltaher
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/ahmedeltaher/azan-mcp
+  year: 2026
+  notes: Lightweight MCP library for Islamic prayer times and Qibla for AI agents; not Arabic-language specific.
+- id: dorar-hadith-mcp
+  name: Dorar Hadith MCP
+  type: agent-skill
+  country: INTL
+  org: ibnsaleem29
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/ibnsaleem29/dorar-hadith-mcp
+  year: 2026
+  notes: Claude extension and MCP server for Hadith research including isnad and takhrij via Dorar.
+- id: hadith-mcp-ovehbe
+  name: Hadith MCP (ovehbe)
+  type: agent-skill
+  country: INTL
+  org: ovehbe
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/ovehbe/hadith-mcp
+  year: 2026
+  notes: MCP server for searchable, citation-safe hadith text.
+- id: arabic-scholar-mcp-server
+  name: Arabic Scholar MCP Server
+  type: agent-skill
+  country: INTL
+  org: EngDawood
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/EngDawood/arabic-scholar-mcp-server
+  year: 2026
+  notes: MCP server for searching Arabic academic research, articles and dissertations across sources.
+- id: arabic-dict-mcp
+  name: Arabic Dict MCP
+  type: agent-skill
+  country: INTL
+  org: arnizamani
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/arnizamani/arabic-dict-mcp
+  year: 2026
+  notes: MCP server for grounded Arabic dictionary lookup wrapping arramooz (MSA verbs and nouns).
+- id: arabimaak-mcp
+  name: ArabiMaak MCP
+  type: agent-skill
+  country: INTL
+  org: deepdiver4ai
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/deepdiver4ai/arabimaak-mcp
+  year: 2026
+  notes: Gulf Arabic language MCP server for word, phrase and cultural-context lookup.
+- id: fanar-mcp-server
+  name: Fanar MCP Server
+  type: agent-skill
+  country: INTL
+  org: danijeun
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/danijeun/fanar-mcp-server
+  year: 2026
+  notes: MCP server exposing Fanar API tools such as Islamic RAG and image generation.
+- id: arabagentskills
+  name: ArabAgentSkills
+  type: agent-skill
+  country: INTL
+  org: ArabAgentSkills
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/ArabAgentSkills/Skills
+  year: 2026
+  notes: Public source-backed Arab-world agent skills covering APIs, marketing, sales, support and localization.
+- id: arabic-word-production
+  name: Arabic Word Production Skill
+  type: agent-skill
+  country: INTL
+  org: Bannovich
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/Bannovich/arabic-word-production
+  year: 2026
+  notes: Deterministic agent skill and plugin for Arabic-first and bilingual Word DOCX production.
+- id: claude-arabic-writing
+  name: Claude Arabic Writing
+  type: agent-skill
+  country: INTL
+  org: Ahmed Dabak
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/ahmeddabak/claude-arabic-writing
+  year: 2026
+  notes: Claude Agent Skill for natural, grammatically correct Arabic writing and translation.
+- id: islamic-knowledge-skill
+  name: Islamic Knowledge Skill
+  type: agent-skill
+  country: INTL
+  org: shadysalman
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/shadysalman/islamic-knowledge-skill
+  year: 2026
+  notes: RAG-powered Claude skill over the Quran (6,236 ayat) and Sahih Bukhari.
+- id: arabic-content-studio
+  name: Arabic Content Studio
+  type: agent-skill
+  country: INTL
+  org: smeseik-ai
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/smeseik-ai/arabic-content-studio
+  year: 2026
+  notes: Claude Skills for Arabic content teams covering production, culture, SEO and brand voice.
+- id: claude-adhkar
+  name: Claude Adhkar
+  type: agent-skill
+  country: INTL
+  org: nosseralaa7-rgb
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/nosseralaa7-rgb/claude-adhkar
+  year: 2026
+  notes: Shows Arabic-script adhkar in the Claude Code spinner with a terminal font that renders Arabic.
+- id: arabic-pii-py
+  name: arabic-pii-py
+  type: agent-skill
+  country: INTL
+  org: Aajil Labs
+  license: unknown
+  modality: none
+  tasks:
+  - pii
+  links:
+    github: https://github.com/Aajil-Labs/arabic-pii-py
+  year: 2026
+  notes: Local-first reversible PII tokenization for Arabic and Gulf data before it reaches an LLM.
+- id: arabguard
+  name: ArabGuard
+  type: agent-skill
+  country: INTL
+  org: d12o6aa
+  license: unknown
+  modality: none
+  tasks:
+  - safety
+  links:
+    github: https://github.com/d12o6aa/arabguard
+  year: 2026
+  notes: Python SDK protecting LLMs and chatbots from prompt injection in Arabic text.
+- id: rtlify
+  name: RTLify
+  type: agent-skill
+  country: INTL
+  org: idanlevi1
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/idanlevi1/rtlify
+  year: 2026
+  notes: RTL rules for Claude Code, Cursor, Copilot and other coding agents; covers Arabic and Hebrew.
+- id: masrkit
+  name: MasrKit
+  type: agent-skill
+  country: EG
+  org: asasemahmed
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/asasemahmed/MasrKit
+  year: 2026
+  notes: Open skills for coding agents to build products that feel Egyptian.
+- id: kazma
+  name: Kazma
+  type: agent-skill
+  country: INTL
+  org: Mubder
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/Mubder/kazma
+  year: 2026
+  notes: Self-hosted agent platform, bilingual English and Arabic by design.
+- id: claude-code-rtl-extension
+  name: Claude Code RTL Extension
+  type: agent-skill
+  country: INTL
+  org: yechielby
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/yechielby/claude-code-rtl-extension
+  year: 2026
+  notes: VS Code and Cursor extension adding RTL support for Hebrew and Arabic in Claude Code.
+- id: kivun-terminal-wsl
+  name: Kivun Terminal WSL
+  type: agent-skill
+  country: INTL
+  org: noambrand
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/noambrand/kivun-terminal-wsl
+  year: 2026
+  notes: Claude Code in WSL with Hebrew, Arabic and Persian rendered correctly.
+- id: claude-desktop-rtl-patch-mac
+  name: Claude Desktop RTL Patch (macOS)
+  type: agent-skill
+  country: INTL
+  org: toboly
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/toboly/claude-desktop-rtl-patch-mac
+  year: 2026
+  notes: Adds auto-detected Hebrew and Arabic RTL support to Claude Desktop on macOS.
+- id: arabic-video-subtitles-skill
+  name: Arabic Video Subtitles Skill
+  type: agent-skill
+  country: INTL
+  org: EngDawood
+  license: unknown
+  modality: none
+  tasks:
+  - agent-skill
+  links:
+    github: https://github.com/EngDawood/arabic-video-subtitles-skill
+  year: 2026
+  notes: Skill with Netflix-style Arabic subtitling guidelines and an SRT/VTT checker.
+- id: video-caption-mcp
+  name: Video Caption MCP
+  type: agent-skill
+  country: INTL
+  org: EngDawood
+  license: unknown
+  modality: none
+  tasks: *id001
+  links:
+    github: https://github.com/EngDawood/video-caption
+  year: 2026
+  notes: MCP server and skill that burns Arabic or translated captions into videos.

@@ -151,3 +151,379 @@
     github: https://github.com/rhasspy/piper
   on_device: true
   notes: Fast local neural TTS, Arabic voices available
+- id: nabra-82m-v0-1
+  name: Nabra-82M-v0.1
+  type: tts
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/oddadmix/Nabra-82M-v0.1
+  size: 82M
+  year: 2026
+  on_device: true
+  dialects:
+  - msa
+  notes: Nabra 82M compact Arabic text-to-speech.
+- id: chatterbox-egyptian-v0
+  name: chatterbox-egyptian-v0
+  type: tts
+  country: EG
+  org: oddadmix
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/oddadmix/chatterbox-egyptian-v0
+  size: 536M
+  year: 2026
+  on_device: true
+  dialects:
+  - egy
+  notes: Chatterbox TTS fine-tuned for Egyptian Arabic.
+- id: namaa-saudi-tts
+  name: NAMAA-Saudi-TTS
+  type: tts
+  country: SA
+  org: NAMAA-Space
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/NAMAA-Space/NAMAA-Saudi-TTS
+  size: 536M
+  year: 2026
+  on_device: true
+  dialects:
+  - gulf
+  notes: Saudi-dialect TTS from NAMAA.
+- id: namaa-saudi-tts-v2
+  name: NAMAA-Saudi-TTS-V2
+  type: tts
+  country: SA
+  org: NAMAA-Space
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/NAMAA-Space/NAMAA-Saudi-TTS-V2
+  year: 2026
+  dialects:
+  - gulf
+  notes: Second-generation Saudi-dialect TTS from NAMAA.
+- id: namaa-egyptian-tts
+  name: NAMAA-Egyptian-TTS
+  type: tts
+  country: SA
+  org: NAMAA-Space
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/NAMAA-Space/NAMAA-Egyptian-TTS
+  size: 536M
+  year: 2026
+  on_device: true
+  dialects:
+  - egy
+  notes: Egyptian-dialect TTS from NAMAA.
+- id: arabic-emirati-female-piper
+  name: arabic-emirati-female-piper
+  type: tts
+  country: AE
+  org: Vadim Belsky
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/vadimbelsky/arabic-emirati-female-piper
+  year: 2025
+  dialects:
+  - gulf
+  notes: Piper TTS voice for Emirati Arabic, female speaker.
+- id: darijatts-v0-1-500m
+  name: DarijaTTS-v0.1-500M
+  type: tts
+  country: MA
+  org: Kandir Research
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/KandirResearch/DarijaTTS-v0.1-500M
+  size: 499M
+  year: 2025
+  on_device: true
+  dialects:
+  - magh
+  notes: DarijaTTS 500M Moroccan Darija text-to-speech.
+- id: voho-saudi-speak-0-6b
+  name: voho-saudi-speak-0.6b
+  type: tts
+  country: SA
+  org: Voho AI
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/VohoAI/voho-saudi-speak-0.6b
+  size: 596M
+  year: 2026
+  on_device: true
+  dialects:
+  - gulf
+  notes: Voho 0.6B Saudi-dialect TTS.
+- id: magpie-tts-saudi-arabic
+  name: Magpie-TTS-Saudi-Arabic
+  type: tts
+  country: SA
+  org: Ahmed Eladl
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/AhmedEladl/Magpie-TTS-Saudi-Arabic
+  year: 2026
+  dialects:
+  - gulf
+  notes: Magpie TTS fine-tuned for Saudi Arabic.
+- id: f5tts-algerian-darja
+  name: f5tts-algerian-darja
+  type: tts
+  country: INTL
+  org: Touati Kamel
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/touati-kamel/f5tts-algerian-darja
+  year: 2026
+  dialects:
+  - magh
+  notes: F5-TTS fine-tuned on Algerian Darja; Algeria noted.
+- id: hadra-tts-f5
+  name: Hadra-TTS-f5
+  type: tts
+  country: INTL
+  org: Algerian NLP
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/algerian-nlp/Hadra-TTS-f5
+  year: 2026
+  dialects:
+  - magh
+  notes: F5-based TTS for Algerian Darija; Algeria noted.
+- id: habibi-tts-doda-darija
+  name: habibi-tts-doda-darija
+  type: tts
+  country: MA
+  org: Jip7e
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/Jip7e/habibi-tts-doda-darija
+  year: 2026
+  dialects:
+  - magh
+  notes: Habibi TTS voice for Moroccan Darija.
+- id: f5-tts-egyptian-arabic
+  name: f5-tts-egyptian-arabic
+  type: tts
+  country: INTL
+  org: MAdel121
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/MAdel121/f5-tts-egyptian-arabic
+  year: 2026
+  dialects:
+  - egy
+  notes: F5-TTS fine-tuned for Egyptian Arabic.
+- id: tunisian-tts
+  name: Tunisian-TTS
+  type: tts
+  country: TN
+  org: Oussema Nouira
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/Nouira-Oussema/Tunisian-TTS
+  year: 2026
+  dialects:
+  - magh
+  notes: Tunisian dialect text-to-speech model.
+- id: lahgtna-omnivoice-v2
+  name: Lahgtna OmniVoice v2
+  type: tts
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/oddadmix/lahgtna-omnivoice-v2
+  size: 613M
+  year: 2026
+  dialects:
+  - mixed
+  notes: Multi-dialect Arabic TTS from the Lahgtna project, trained on dialectal speech.
+- id: audar-tts-v1
+  name: Audar-TTS-V1
+  type: tts
+  country: INTL
+  org: Audar AI
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  - voice-cloning
+  links:
+    github: https://github.com/AudarAI/Audar-TTS-V1
+  year: 2026
+  notes: Arabic-first expressive zero-shot speech synthesis, Flash and Turbo variants.
+- id: habibi-tts
+  name: Habibi-TTS
+  type: tts
+  country: INTL
+  org: SWivid
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - dialect-tts
+  links:
+    github: https://github.com/SWivid/Habibi-TTS
+  year: 2026
+  notes: Open-source unified-dialectal Arabic speech synthesis code built on F5-TTS.
+- id: silma-tts
+  name: SILMA TTS v1
+  type: tts
+  country: SA
+  org: SILMA AI
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/SILMA-AI/silma-tts
+    hf: https://huggingface.co/silma-ai/silma-tts
+  year: 2026
+  notes: Lightweight open bilingual Arabic and English TTS from SILMA.
+- id: voicetut-tts
+  name: VoiceTut-TTS
+  type: tts
+  country: EG
+  org: Mohammed Aly
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/MohammedAly22/VoiceTuT-TTS
+  year: 2026
+  notes: Egyptian-Arabic text-to-speech fine-tuned from OmniVoice.
+- id: asrajeh-arabic-tts
+  name: Arabic TTS (Al-Natiq)
+  type: tts
+  country: SA
+  org: Asrajeh
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/asrajeh/arabic-tts
+  year: 2019
+  notes: Arabic text-to-speech system (Al-Natiq) in Java.
+- id: festival-tts-arabic-voices
+  name: Festival Arabic voices
+  type: tts
+  country: INTL
+  org: linuxscout
+  license: gpl-3.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/linuxscout/festival-tts-arabic-voices
+  year: 2020
+  notes: Arabic voices for the Festival TTS engine; maintainer is Algerian.
+- id: festival-arabic-voices-docker
+  name: Festival Arabic TTS Docker
+  type: tts
+  country: INTL
+  org: Nawar Halabi
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/nawarhalabi/festival-tts-arabic-voices-docker
+  year: 2020
+  notes: Docker image packaging a light full Arabic speech synthesis system on Festival; Syria.
+- id: tts-arabic-flutter
+  name: tts-arabic Flutter app
+  type: tts
+  country: INTL
+  org: nipponjo
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/nipponjo/tts-arabic-flutter
+  year: 2024
+  notes: Flutter demo app for offline ONNX-based Arabic speech synthesis.
+- id: nabra-7m-distill
+  name: Nabra 7M Distill
+  type: tts
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/oddadmix/Nabra-7M-Distill
+  size: 7M
+  year: 2026
+  on_device: true
+  notes: Distilled 7M-parameter Arabic Kokoro-style TTS for phones.
+- id: lahgtna-chatterbox-v1
+  name: Lahgtna Chatterbox v1
+  type: tts
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - voice-cloning
+  links:
+    hf: https://huggingface.co/oddadmix/lahgtna-chatterbox-v1
+  year: 2026
+  dialects:
+  - mixed
+  notes: Multi-dialect Arabic TTS on Chatterbox covering Egyptian, Saudi, Gulf, Iraqi and Moroccan.

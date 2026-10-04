@@ -250,3 +250,831 @@
   links:
     github: https://github.com/nipponjo/arabic_vocalizer
   notes: Deep-learning diacritization (ONNX format)
+- id: camel-parser
+  name: CamelParser2.0
+  type: tool
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: unknown
+  modality: text
+  tasks:
+  - parsing
+  links:
+    github: https://github.com/CAMeL-Lab/camel_parser
+  dialects:
+  - msa
+  notes: Arabic dependency parser built on CAMeL Tools morphology for MSA and dialects.
+- id: arabic-tts-arena
+  name: Arabic TTS Arena
+  type: tool
+  country: INTL
+  org: Navid Gen AI
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - tts
+  links:
+    github: https://github.com/Navid-Gen-AI/arabic-tts-arena
+  year: 2026
+  notes: Modal backend for a blind-comparison arena ranking Arabic TTS systems.
+- id: tarteel-ml
+  name: tarteel-ml
+  type: tool
+  country: INTL
+  org: Tarteel AI
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran-recitation
+  links:
+    github: https://github.com/TarteelAI/tarteel-ml
+  year: 2018
+  notes: Pre-processing and training scripts for the Tarteel Quran recitation dataset.
+- id: arabic-asr-challenge-2016
+  name: MGB-2 Arabic ASR Challenge 2016
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    github: https://github.com/qcri/ArabicASRChallenge2016
+  year: 2015
+  notes: Resources and recipes for the 2016 multi-genre broadcast Arabic ASR challenge.
+- id: swshon-arabic-dialect-id
+  name: Arabic dialect ID (17 countries)
+  type: tool
+  country: INTL
+  org: swshon
+  license: mit
+  modality: speech
+  tasks:
+  - dialect-id
+  links:
+    github: https://github.com/swshon/arabic-dialect-identification
+  year: 2019
+  notes: Country-level spoken Arabic dialect identification across 17 Arab countries.
+- id: qalam-pdf
+  name: Qalam
+  type: tool
+  country: SA
+  org: Misraj AI
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - ocr
+  - pdf-extraction
+  links:
+    github: https://github.com/misraj-ai/qalam
+  year: 2026
+  notes: Arabic PDF text extraction that preserves logical word order and avoids corrupting corpora.
+- id: josa-arabic-ocr-studygroup
+  name: Arabic OCR Study Group
+  type: tool
+  country: JO
+  org: Jordan Open Source Association
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - handwriting
+  links:
+    github: https://github.com/jordanopensource/arabic-ocr-studygroup
+  year: 2017
+  notes: Arabic handwriting dataset and starter code for a deep learning study group.
+- id: python-arabic-reshaper
+  name: python-arabic-reshaper
+  type: tool
+  country: INTL
+  org: Abdullah Diab
+  license: mit
+  modality: text
+  tasks:
+  - rtl-rendering
+  links:
+    github: https://github.com/mpcabd/python-arabic-reshaper
+  year: 2012
+  notes: Reshapes Arabic text so it renders correctly in apps without Arabic shaping support.
+- id: python-bidi
+  name: python-bidi
+  type: tool
+  country: INTL
+  org: Meir Kriheli
+  license: lgpl-3.0
+  modality: text
+  tasks:
+  - rtl-rendering
+  links:
+    github: https://github.com/MeirKriheli/python-bidi
+  year: 2010
+  notes: Pure-Python Unicode bidirectional algorithm, commonly paired with arabic-reshaper.
+- id: rtltmpro
+  name: RTLTMPro
+  type: tool
+  country: INTL
+  org: Pnarimani
+  license: mit
+  modality: text
+  tasks:
+  - rtl-rendering
+  links:
+    github: https://github.com/pnarimani/RTLTMPro
+  year: 2018
+  notes: Right-to-left Text Mesh Pro plugin for Unity supporting Arabic and Persian.
+- id: w3c-alreq
+  name: W3C Arabic Layout Requirements
+  type: tool
+  country: INTL
+  org: W3C
+  license: unknown
+  modality: text
+  tasks:
+  - rtl-rendering
+  - documentation
+  links:
+    github: https://github.com/w3c/alreq
+  year: 2015
+  notes: Documents gaps and requirements for Arabic-script layout on the web and in digital publishing.
+- id: amiri-font
+  name: Amiri
+  type: tool
+  country: INTL
+  org: Aliftype
+  license: ofl-1.1
+  modality: text
+  tasks:
+  - typography
+  links:
+    github: https://github.com/aliftype/amiri
+  year: 2015
+  notes: Classical Naskh body-text typeface for Arabic, open under OFL.
+- id: saudi-riyal-font
+  name: Saudi Riyal Font
+  type: tool
+  country: SA
+  org: Emran Alhaddad
+  license: unknown
+  modality: text
+  tasks:
+  - typography
+  links:
+    github: https://github.com/emran-alhaddad/Saudi-Riyal-Font
+  year: 2025
+  notes: Open-source font for the Saudi Riyal currency symbol.
+- id: arramooz
+  name: Arramooz
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: gpl-2.0
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/linuxscout/arramooz
+  year: 2016
+  notes: Arabic dictionary for morphological analysis; maintainer is Algerian.
+- id: tashaphyne
+  name: Tashaphyne
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - stemming
+  links:
+    github: https://github.com/linuxscout/tashaphyne
+  year: 2017
+  notes: Arabic light stemmer and segmentor; maintainer is Algerian.
+- id: alyahmor
+  name: Alyahmor
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/linuxscout/alyahmor
+  year: 2019
+  notes: Arabic flexional morphology generator; maintainer is Algerian.
+- id: qutrub
+  name: Qutrub
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/linuxscout/qutrub
+  year: 2015
+  notes: Arabic verb conjugator; maintainer is Algerian.
+- id: yaraspell
+  name: YaraSpell
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - spell-checking
+  links:
+    github: https://github.com/linuxscout/yaraspell
+  year: 2015
+  notes: Simplified Arabic spell checker; maintainer is Algerian.
+- id: ayaspell
+  name: AyaSpell
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - spell-checking
+  links:
+    github: https://github.com/linuxscout/ayaspell
+  year: 2016
+  notes: Arabic dictionary for the Hunspell spell checker; maintainer is Algerian.
+- id: arabicstopwords
+  name: ArabicStopWords (linuxscout)
+  type: tool
+  country: INTL
+  org: linuxscout
+  license: unknown
+  modality: text
+  tasks:
+  - preprocessing
+  links:
+    github: https://github.com/linuxscout/arabicstopwords
+  year: 2016
+  notes: Classified Arabic stop word list; maintainer is Algerian.
+- id: assem-arabic-stemmer
+  name: Assem Arabic Light Stemmer
+  type: tool
+  country: INTL
+  org: Assem Chelli
+  license: unknown
+  modality: text
+  tasks:
+  - stemming
+  links:
+    github: https://github.com/assem-ch/arabicstemmer
+  year: 2016
+  notes: Snowball-based Arabic light stemming algorithm with multiple language ports; Algeria.
+- id: farasapy
+  name: farasapy
+  type: tool
+  country: SA
+  org: Maged Saeed
+  license: mit
+  modality: text
+  tasks:
+  - segmentation
+  - pos
+  - ner
+  links:
+    github: https://github.com/MagedSaeed/farasapy
+  year: 2020
+  notes: Python wrapper around the Farasa Arabic NLP toolkit.
+- id: aranizer
+  name: AraNizer
+  type: tool
+  country: SA
+  org: riotu-lab
+  license: unknown
+  modality: text
+  tasks:
+  - tokenization
+  links:
+    github: https://github.com/riotu-lab/aranizer
+  year: 2023
+  notes: Custom SentencePiece and BPE tokenizers tailored for Arabic.
+- id: camel-morph
+  name: CamelMorph
+  type: tool
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: mit
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/CAMeL-Lab/camel_morph
+  year: 2022
+  notes: Builds large open-source morphological models for Arabic and its dialects.
+- id: camel-arabic-gec
+  name: Arabic GEC (CAMeL Lab)
+  type: tool
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: mit
+  modality: text
+  tasks:
+  - grammatical-error-correction
+  links:
+    github: https://github.com/CAMeL-Lab/arabic-gec
+  year: 2022
+  notes: Code, models and data for Arabic grammatical error detection and correction.
+- id: turjuman
+  name: TURJUMAN
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    github: https://github.com/UBC-NLP/turjuman
+  year: 2022
+  notes: Neural toolkit translating from 20 languages into Modern Standard Arabic.
+- id: nmatheg
+  name: nmatheg
+  type: tool
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - training
+  links:
+    github: https://github.com/ARBML/nmatheg
+  year: 2021
+  notes: Simple strategy for training and fine-tuning NLP models for Arabic.
+- id: bayanat
+  name: Bayanat
+  type: tool
+  country: SA
+  org: ARBML
+  license: mit
+  modality: text
+  tasks:
+  - dataset-exploration
+  links:
+    github: https://github.com/ARBML/bayanat
+  year: 2020
+  notes: Explore the contents of Arabic text datasets.
+- id: ashaar
+  name: Ashaar
+  type: tool
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - poetry
+  - generation
+  links:
+    github: https://github.com/ARBML/Ashaar
+  year: 2020
+  notes: Arabic poetry analysis and generation toolkit.
+- id: arbml-collection
+  name: ARBML
+  type: tool
+  country: SA
+  org: ARBML
+  license: mit
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/ARBML/ARBML
+  year: 2019
+  notes: Collection of Arabic NLP and computer vision projects with demo notebooks.
+- id: libtashkeel
+  name: libtashkeel
+  type: tool
+  country: INTL
+  org: Musharraf Omer
+  license: mit
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/mush42/libtashkeel
+  year: 2023
+  notes: Arabic diacritization in Rust with Python, C++ and WASM bindings.
+- id: arabic-vocalization
+  name: arabic-vocalization
+  type: tool
+  country: INTL
+  org: nipponjo
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/nipponjo/arabic-vocalization
+  year: 2023
+  notes: Shakkala and Shakkelha diacritization models ported to PyTorch and ONNX.
+- id: catt-official
+  name: CATT (official)
+  type: tool
+  country: INTL
+  org: Abjad AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/abjadai/catt
+  year: 2024
+  notes: Official implementation of the CATT Arabic diacritization models.
+- id: deep-diacritization
+  name: Deep Diacritization
+  type: tool
+  country: INTL
+  org: BKHMSI
+  license: agpl-3.0
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/BKHMSI/deep-diacritization
+  year: 2020
+  notes: Official repository of the Deep Diacritization paper.
+- id: arabic-diacritization-pytorch
+  name: Arabic_Diacritization
+  type: tool
+  country: INTL
+  org: almodhfer
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/almodhfer/Arabic_Diacritization
+  year: 2021
+  notes: Several deep learning models for restoring Arabic diacritics in PyTorch.
+- id: pipeline-diacritizer
+  name: Pipeline Diacritizer
+  type: tool
+  country: INTL
+  org: Hamza5
+  license: mit
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/Hamza5/Pipeline-diacritizer
+  year: 2020
+  notes: Multi-level Arabic diacritics restoration tool; Algeria.
+- id: multilevel-diacritizer
+  name: Multilevel Diacritizer
+  type: tool
+  country: INTL
+  org: Hamza5
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/Hamza5/multilevel-diacritizer
+  year: 2019
+  notes: Extensible deep-learning Arabic diacritizer restoring several diacritic levels; Algeria.
+- id: ara-pronunciation-tool
+  name: Arabic pronunciation tool
+  type: tool
+  country: INTL
+  org: Motaz Saad
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - g2p
+  links:
+    github: https://github.com/motazsaad/ara-pronunciation-tool
+  year: 2017
+  notes: Converts diacritised Arabic text to phoneme sequences; Palestine.
+- id: process-arabic-text
+  name: process-arabic-text
+  type: tool
+  country: INTL
+  org: Motaz Saad
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - preprocessing
+  links:
+    github: https://github.com/motazsaad/process-arabic-text
+  year: 2017
+  notes: Pre-processes Arabic text by removing diacritics, punctuation and repeated characters; Palestine.
+- id: tanqeeh
+  name: Tanqeeh
+  type: tool
+  country: INTL
+  org: Noor Bayan
+  license: mit
+  modality: text
+  tasks:
+  - preprocessing
+  links:
+    github: https://github.com/NoorBayan/Tanqeeh
+  year: 2025
+  notes: Python library for preprocessing and cleaning Arabic text.
+- id: ruqia-library
+  name: Ruqia
+  type: tool
+  country: SA
+  org: Ruqyai
+  license: mit
+  modality: text
+  tasks:
+  - preprocessing
+  links:
+    github: https://github.com/Ruqyai/Ruqia-Library
+  year: 2022
+  notes: Python library to process, prepare and clean Arabic text.
+- id: mtg-arabic-transliterator
+  name: ArabicTransliterator
+  type: tool
+  country: INTL
+  org: Music Technology Group
+  license: unknown
+  modality: text
+  tasks:
+  - transliteration
+  links:
+    github: https://github.com/MTG/ArabicTransliterator
+  year: 2014
+  notes: Romanizes Arabic text following the ALA-LC scheme.
+- id: franco-arabic-transliterator
+  name: Franco-Arabic Transliterator
+  type: tool
+  country: EG
+  org: Amr Keleg
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - transliteration
+  links:
+    github: https://github.com/AMR-KELEG/Franco-Arabic-Transliterator
+  year: 2019
+  notes: Rule-based converter from romanized (Franco) Arabic to Arabic script.
+- id: buckwalter-python
+  name: Buckwalter transliteration script
+  type: tool
+  country: INTL
+  org: Kenton Murray
+  license: unknown
+  modality: text
+  tasks:
+  - transliteration
+  links:
+    github: https://github.com/KentonMurray/Buckwalter
+  year: 2014
+  notes: Small Python script for Buckwalter transliteration of Arabic.
+- id: arabicner-lucas
+  name: ArabicNER
+  type: tool
+  country: INTL
+  org: Liyuan Liu
+  license: apache-2.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    github: https://github.com/LiyuanLucasLiu/ArabicNER
+  year: 2019
+  notes: Arabic named entity recognition system with strong reported performance.
+- id: hatmimoha-arabic-ner
+  name: arabic-ner (hatmimoha)
+  type: tool
+  country: MA
+  org: Mohamed Hatmi
+  license: apache-2.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    github: https://github.com/hatmimoha/arabic-ner
+  year: 2020
+  notes: Named entity recognition system for Arabic.
+- id: soqal
+  name: SOQAL
+  type: tool
+  country: LB
+  org: Hussein Mozannar
+  license: mit
+  modality: text
+  tasks:
+  - question-answering
+  links:
+    github: https://github.com/husseinmozannar/SOQAL
+  year: 2019
+  notes: Arabic open-domain question answering with neural reading comprehension.
+- id: alfanous
+  name: Alfanous
+  type: tool
+  country: INTL
+  org: Alfanous team
+  license: lgpl-3.0
+  modality: text
+  tasks:
+  - search
+  - quran
+  links:
+    github: https://github.com/Alfanous-team/alfanous
+  year: 2012
+  notes: Arabic search engine API for the Quran with simple and advanced queries.
+- id: quranic-universal-library
+  name: Quranic Universal Library
+  type: tool
+  country: INTL
+  org: Tarteel AI
+  license: mit
+  modality: multimodal
+  tasks:
+  - quran
+  - resources
+  links:
+    github: https://github.com/TarteelAI/quranic-universal-library
+  year: 2024
+  notes: Tarteel collection of Quran text, audio, translation and tafsir resources.
+- id: open-hadith-data
+  name: Open Hadith Data
+  type: tool
+  country: INTL
+  org: mhashim6
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  - resources
+  links:
+    github: https://github.com/mhashim6/Open-Hadith-Data
+  year: 2017
+  notes: Open hadith databases covering nine books including the six canonical collections.
+- id: hadith-api-fawaz
+  name: Hadith API (fawazahmed0)
+  type: tool
+  country: INTL
+  org: fawazahmed0
+  license: unlicense
+  modality: text
+  tasks:
+  - hadith
+  - api
+  links:
+    github: https://github.com/fawazahmed0/hadith-api
+  year: 2022
+  notes: Free hadith API with multiple languages and grading.
+- id: dorar-hadith-api
+  name: Dorar Hadith API
+  type: tool
+  country: EG
+  org: Ahmed El Tabarani
+  license: mit
+  modality: text
+  tasks:
+  - hadith
+  - api
+  links:
+    github: https://github.com/AhmedElTabarani/dorar-hadith-api
+  year: 2022
+  notes: Intermediary API over dorar.net hadith search and grading.
+- id: islamandai-quran-nlp
+  name: QURAN-NLP (islamAndAi)
+  type: tool
+  country: INTL
+  org: islamAndAi
+  license: apache-2.0
+  modality: text
+  tasks:
+  - quran
+  - hadith
+  - nlp-resources
+  links:
+    github: https://github.com/islamAndAi/QURAN-NLP
+  year: 2022
+  notes: Quran, hadith, tafsir and corpus linguistics resources prepared for NLP.
+- id: quran-hadith-search
+  name: Quran and Hadith Search
+  type: tool
+  country: INTL
+  org: fawazahmed0
+  license: unknown
+  modality: text
+  tasks:
+  - search
+  - quran
+  - hadith
+  links:
+    github: https://github.com/fawazahmed0/quran-hadith-search
+  year: 2022
+  notes: Search engine over Quran and hadith texts.
+- id: qutuf
+  name: Qutuf
+  type: tool
+  country: INTL
+  org: Qutuf
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  - pos
+  links:
+    github: https://github.com/Qutuf/Qutuf
+  year: 2017
+  notes: Arabic morphological analyzer and part-of-speech tagger.
+- id: elixir-fm
+  name: ElixirFM
+  type: tool
+  country: INTL
+  org: Otakar Smrz
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/otakar-smrz/elixir-fm
+  year: 2016
+  notes: Functional Arabic morphology system in Haskell.
+- id: sarf
+  name: Sarf
+  type: tool
+  country: INTL
+  org: Alsaydi
+  license: mit
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/alsaydi/sarf
+  year: 2018
+  notes: Arabic morphology system.
+- id: aqmar-arabic-tagger
+  name: AQMAR Arabic Tagger
+  type: tool
+  country: INTL
+  org: CMU AQMAR
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - pos
+  - ner
+  links:
+    github: https://github.com/nschneid/arabic-tagger
+  year: 2012
+  notes: Sequence tagger with cost-augmented structured perceptron for Arabic.
+- id: lucene-arabic-analyzer
+  name: Lucene Arabic Analyzer
+  type: tool
+  country: INTL
+  org: Msarhan
+  license: mit
+  modality: text
+  tasks:
+  - search
+  - stemming
+  links:
+    github: https://github.com/msarhan/lucene-arabic-analyzer
+  year: 2016
+  notes: Apache Lucene analyzer for Arabic with a root-based stemmer.
+- id: khoja-stemmer-cli
+  name: Khoja Stemmer CLI
+  type: tool
+  country: INTL
+  org: Motaz Saad
+  license: apache-2.0
+  modality: text
+  tasks:
+  - stemming
+  links:
+    github: https://github.com/motazsaad/khoja-stemmer-command-line
+  year: 2015
+  notes: Command line version of the Khoja Arabic rooting stemmer; Palestine.
+- id: araspell
+  name: AraSpell
+  type: tool
+  country: INTL
+  org: Msalhab96
+  license: mit
+  modality: text
+  tasks:
+  - spell-checking
+  links:
+    github: https://github.com/msalhab96/AraSpell
+  year: 2022
+  notes: Framework for Arabic spelling correction with several seq2seq architectures.
+- id: jslingua
+  name: JsLingua
+  type: tool
+  country: INTL
+  org: Abdelkrime Aries
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/kariminf/jslingua
+  year: 2016
+  notes: JavaScript libraries to process Arabic and other languages; Algeria.

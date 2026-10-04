@@ -2,7 +2,7 @@
   name: MTEB Arabic Leaderboard
   type: benchmark
   country: INTL
-  org: mteb
+  org: MTEB
   license: unknown
   modality: text
   tasks:
@@ -14,7 +14,7 @@
   name: Arabic Broad Leaderboard (ABL)
   type: benchmark
   country: SA
-  org: silma-ai
+  org: SILMA AI
   license: unknown
   modality: text
   tasks:
@@ -37,8 +37,8 @@
 - id: alue
   name: ALUE
   type: benchmark
-  country: INTL
-  org: unknown
+  country: JO
+  org: Mawdoo3
   license: unknown
   modality: text
   tasks:
@@ -49,8 +49,8 @@
 - id: balsam
   name: BALSAM
   type: benchmark
-  country: INTL
-  org: unknown
+  country: SA
+  org: King Salman Global Academy for Arabic Language
   license: unknown
   modality: text
   tasks:
@@ -62,7 +62,7 @@
   name: SILMA RAGQA Benchmark
   type: benchmark
   country: SA
-  org: silma-ai
+  org: SILMA AI
   license: apache-2.0
   modality: text
   tasks:
@@ -74,7 +74,7 @@
   name: Arabic Broad Benchmark (ABB)
   type: benchmark
   country: SA
-  org: silma-ai
+  org: SILMA AI
   license: apache-2.0
   modality: text
   tasks:
@@ -117,6 +117,8 @@
   - evaluation
   links:
     hf: https://huggingface.co/datasets/HeshamHaroon/ArabicRAGB
+  dialects:
+  - mixed
   notes: Arabic RAG Benchmark (multi-dialect)
 - id: acva
   name: ACVA
@@ -133,26 +135,30 @@
 - id: aradice
   name: AraDiCE
   type: benchmark
-  country: INTL
-  org: unknown
+  country: QA
+  org: QCRI
   license: unknown
   modality: text
   tasks:
   - evaluation
   links:
     paper: https://arxiv.org/abs/2409.11404
+  dialects:
+  - mixed
   notes: Benchmarks for dialectal and cultural capabilities of LLMs
 - id: open-universal-arabic-asr-leaderboard
   name: Open Universal Arabic ASR Leaderboard
   type: benchmark
-  country: INTL
-  org: elmresearchcenter
+  country: SA
+  org: Elm Research Center
   license: unknown
   modality: text
   tasks:
   - evaluation
   links:
     hf: https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard
+  dialects:
+  - mixed
   notes: Multi-dialectal Arabic speech recognition benchmark
 - id: kitab-bench
   name: KITAB-Bench
@@ -170,35 +176,41 @@
   name: NADI 2025
   type: benchmark
   country: INTL
-  org: unknown
+  org: UBC-NLP
   license: unknown
   modality: text
   tasks:
   - dialect-id
   links:
     website: https://nadi.dlnlp.ai/2025/
+  dialects:
+  - mixed
   notes: NADI 2025 - Multidialectal Arabic Speech Processing (8-way dialect + ASR)
 - id: nadi-2024
   name: NADI 2024
   type: benchmark
   country: INTL
-  org: unknown
+  org: UBC-NLP
   license: unknown
   modality: text
   tasks:
   - dialect-id
   links:
     paper: https://arxiv.org/abs/2407.04910
+  dialects:
+  - mixed
   notes: NADI 2024 - Fifth Nuanced Arabic Dialect Identification
 - id: nadi-shared-tasks
   name: NADI Shared Tasks
   type: benchmark
   country: INTL
-  org: unknown
+  org: UBC-NLP
   license: unknown
   modality: text
   tasks:
   - dialect-id
   links:
     website: https://nadi.dlnlp.ai/
+  dialects:
+  - mixed
   notes: NADI Shared Tasks - Ongoing series of Arabic DID shared tasks

@@ -57,6 +57,8 @@
   - ocr
   links:
     hf: https://huggingface.co/atlasia/AtlasOCR
+  dialects:
+  - magh
   notes: First Darija/Moroccan Arabic OCR, Qwen2.5-VL-3B based
 - id: dimi-arabic-ocr
   name: DIMI-Arabic-OCR

@@ -3,7 +3,7 @@
   type: tool
   country: INTL
   org: PaddlePaddle
-  license: unknown
+  license: apache-2.0
   modality: vision
   tasks:
   - ocr
@@ -15,7 +15,7 @@
   type: tool
   country: INTL
   org: JaidedAI
-  license: unknown
+  license: apache-2.0
   modality: vision
   tasks:
   - ocr
@@ -26,8 +26,8 @@
   name: Tesseract OCR
   type: tool
   country: INTL
-  org: tesseract-ocr
-  license: unknown
+  org: Tesseract OCR
+  license: apache-2.0
   modality: vision
   tasks:
   - ocr
@@ -38,7 +38,7 @@
   name: CATT
   type: tool
   country: INTL
-  org: unknown
+  org: Abjad AI
   license: unknown
   modality: text
   tasks:
@@ -61,8 +61,8 @@
 - id: sadeed
   name: Sadeed
   type: tool
-  country: INTL
-  org: unknown
+  country: SA
+  org: Misraj AI
   license: unknown
   modality: text
   tasks:
@@ -75,7 +75,7 @@
   type: tool
   country: INTL
   org: AliOsm
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - diacritization
@@ -87,7 +87,7 @@
   type: tool
   country: INTL
   org: linuxscout
-  license: unknown
+  license: gpl-3.0
   modality: text
   tasks:
   - diacritization
@@ -98,8 +98,8 @@
   name: camel_tools
   type: tool
   country: AE
-  org: CAMeL-Lab
-  license: unknown
+  org: CAMeL Lab, NYUAD
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -110,7 +110,7 @@
   name: Farasa
   type: tool
   country: QA
-  org: unknown
+  org: QCRI
   license: unknown
   modality: text
   tasks:
@@ -123,7 +123,7 @@
   type: tool
   country: INTL
   org: SinaLab
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -147,7 +147,7 @@
   type: tool
   country: INTL
   org: linuxscout
-  license: unknown
+  license: gpl-3.0
   modality: text
   tasks:
   - nlp-toolkit
@@ -157,9 +157,9 @@
 - id: tnkeeh
   name: tnkeeh
   type: tool
-  country: INTL
+  country: SA
   org: ARBML
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -171,7 +171,7 @@
   type: tool
   country: INTL
   org: TRoboto
-  license: unknown
+  license: bsd-3-clause
   modality: text
   tasks:
   - nlp-toolkit
@@ -193,8 +193,8 @@
 - id: madamira
   name: MADAMIRA
   type: tool
-  country: INTL
-  org: unknown
+  country: AE
+  org: CAMeL Lab, NYUAD
   license: unknown
   modality: text
   tasks:
@@ -205,9 +205,9 @@
 - id: tkseem
   name: tkseem
   type: tool
-  country: INTL
+  country: SA
   org: ARBML
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -219,7 +219,7 @@
   type: tool
   country: INTL
   org: mohataher
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -229,9 +229,9 @@
 - id: qawafi
   name: qawafi
   type: tool
-  country: INTL
+  country: SA
   org: ARBML
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit
@@ -243,7 +243,7 @@
   type: tool
   country: INTL
   org: nipponjo
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp-toolkit

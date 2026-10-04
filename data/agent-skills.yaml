@@ -15,7 +15,7 @@
   name: quran-mcp
   type: agent-skill
   country: INTL
-  org: quran
+  org: Quran.com
   license: unknown
   modality: none
   tasks:

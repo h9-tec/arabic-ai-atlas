@@ -2,13 +2,14 @@
   name: facebook/mms-tts-ara
   type: tts
   country: INTL
-  org: facebook
+  org: Meta
   license: cc-by-nc-4.0
   modality: speech
   tasks:
   - tts
   links:
     hf: https://huggingface.co/facebook/mms-tts-ara
+  on_device: true
   notes: Facebook's Massively Multilingual Speech
 - id: speecht5-tts-clartts-ar
   name: speecht5_tts_clartts_ar
@@ -21,6 +22,8 @@
   - tts
   links:
     hf: https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar
+  dialects:
+  - classical
   notes: SpeechT5 for Classical Arabic TTS
 - id: f5-tts-arabic
   name: F5-TTS-Arabic
@@ -57,6 +60,8 @@
   - tts
   links:
     hf: https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark
+  dialects:
+  - msa
   notes: Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics
 - id: llmvox
   name: LLMVoX
@@ -74,8 +79,8 @@
   name: XTTS-v2
   type: tts
   country: INTL
-  org: coqui
-  license: other
+  org: Coqui
+  license: coqui-public-model-license
   modality: speech
   tasks:
   - tts
@@ -93,6 +98,7 @@
   - tts
   links:
     hf: https://huggingface.co/SeyedAli/Arabic-Speech-synthesis-MMS
+  on_device: true
   notes: VITS-based Arabic TTS from MMS (36M params)
 - id: tts-arabic-pytorch
   name: tts-arabic-pytorch
@@ -105,6 +111,7 @@
   - tts
   links:
     github: https://github.com/nipponjo/tts-arabic-pytorch
+  on_device: true
   notes: Tacotron2 + FastPitch + HiFi-GAN for Arabic
 - id: tts-arabic-onnx
   name: tts_arabic (ONNX)
@@ -117,13 +124,14 @@
   - tts
   links:
     github: https://github.com/nipponjo/tts_arabic
+  on_device: true
   notes: FastPitch + Mixer-TTS in ONNX for offline Arabic TTS
 - id: arabic-tacotron-tts
   name: Arabic Tacotron TTS
   type: tts
   country: INTL
   org: yoosif0
-  license: unknown
+  license: mit
   modality: speech
   tasks:
   - tts
@@ -134,11 +142,12 @@
   name: Piper TTS
   type: tts
   country: INTL
-  org: rhasspy
-  license: unknown
+  org: Rhasspy
+  license: mit
   modality: speech
   tasks:
   - tts
   links:
     github: https://github.com/rhasspy/piper
+  on_device: true
   notes: Fast local neural TTS, Arabic voices available

@@ -3,13 +3,15 @@
   type: llm
   country: AE
   org: Inception AI, Cerebras
-  license: unknown
+  license: apache-2.0
   modality: text
   tasks:
   - chat
   links:
     hf: https://huggingface.co/inceptionai/jais-30b-v3
   size: 13B, 30B
+  dialects:
+  - msa
   notes: Arabic-centric, bilingual, instruction-tuned
 - id: silma-1-0
   name: SILMA 1.0
@@ -23,19 +25,23 @@
   links:
     hf: https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0
   size: 9B
+  dialects:
+  - msa
   notes: Top-ranked Arabic LLM built on Gemma
 - id: allam
   name: ALLaM
   type: llm
   country: SA
   org: SDAIA & IBM
-  license: unknown
+  license: apache-2.0
   modality: text
   tasks:
   - chat
   links:
     hf: https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview
   size: 7B
+  dialects:
+  - msa
   notes: Saudi's sovereign model, enterprise-focused
 - id: fanar-1-9b
   name: Fanar-1-9B
@@ -49,13 +55,15 @@
   links:
     hf: https://huggingface.co/QCRI/Fanar-1-9B-Instruct
   size: 9B
+  dialects:
+  - msa
   notes: Arabic-English LLM
 - id: acegpt
   name: AceGPT
   type: llm
   country: INTL
   org: FreedomIntelligence
-  license: unknown
+  license: apache-2.0
   modality: text
   tasks:
   - chat
@@ -75,21 +83,26 @@
   links:
     hf: https://huggingface.co/collections/MBZUAI-Paris/atlas-chat
   size: 2B-27B
+  dialects:
+  - magh
   notes: Moroccan Darija dialect
 - id: nilechat-3b
   name: NileChat-3B
   type: llm
   country: INTL
   org: UBC-NLP
-  license: other
+  license: qwen-research
   modality: text
   tasks:
   - chat
   links:
     hf: https://huggingface.co/UBC-NLP/NileChat-3B
   size: 3B
-  notes: Egyptian and Moroccan dialects
   on_device: true
+  dialects:
+  - egy
+  - magh
+  notes: Egyptian and Moroccan dialects
 - id: nile-chat
   name: Nile-Chat
   type: llm
@@ -102,6 +115,8 @@
   links:
     hf: https://huggingface.co/collections/MBZUAI-Paris/nile-chat
   size: 4B-12B
+  dialects:
+  - egy
   notes: Egyptian Arabic and Arabizi scripts
 - id: aragpt2
   name: AraGPT2
@@ -213,7 +228,7 @@
   type: llm
   country: INTL
   org: Cohere
-  license: unknown
+  license: cc-by-nc-4.0
   modality: text
   tasks:
   - chat
@@ -239,7 +254,7 @@
   type: llm
   country: AE
   org: TII (UAE)
-  license: other
+  license: falcon-llm-license
   modality: text
   tasks:
   - chat
@@ -336,8 +351,10 @@
   links:
     hf: https://huggingface.co/silma-ai/SILMA-Kashif-2B-Instruct-v1.0
   size: 2B
-  notes: Lightweight RAG-optimized Arabic model
   on_device: true
+  dialects:
+  - msa
+  notes: Lightweight RAG-optimized Arabic model
 - id: ar-stablelm-2-chat
   name: Ar-stablelm-2-chat
   type: llm
@@ -357,7 +374,7 @@
   type: llm
   country: INTL
   org: Navid-AI
-  license: unknown
+  license: apache-2.0
   modality: text
   tasks:
   - chat
@@ -369,7 +386,7 @@
   name: AraLLaMA
   type: llm
   country: INTL
-  org: Bashar Alhafni
+  org: Bashar Talafha
   license: unknown
   modality: text
   tasks:
@@ -390,6 +407,8 @@
   links:
     hf: https://huggingface.co/malhajar/Shahin-v0.1-14B
   size: 14B
+  dialects:
+  - lev
   notes: Syrian Arabic dialect, Qwen2.5-based
 - id: labess-chat
   name: Labess Chat
@@ -403,6 +422,8 @@
   links:
     hf: https://huggingface.co/Linagora/Labess-chat-7b
   size: 7B
+  dialects:
+  - magh
   notes: Tunisian Arabic, based on Jais architecture
 - id: phi-4
   name: Phi-4
@@ -459,7 +480,7 @@
 - id: noon
   name: Noon
   type: llm
-  country: INTL
+  country: SA
   org: Naseej
   license: bigscience-bloom-rail-1.0
   modality: text
@@ -506,6 +527,8 @@
   - chat
   links:
     website: https://misraj.ai/
+  dialects:
+  - mixed
   notes: Arabic-first ecosystem with 15-dialect support
 - id: kuwain
   name: Kuwain
@@ -566,7 +589,7 @@
   type: llm
   country: INTL
   org: MaziyarPanahi
-  license: other
+  license: tongyi-qianwen
   modality: text
   tasks:
   - chat
@@ -579,7 +602,7 @@
   type: llm
   country: AE
   org: MBZUAI
-  license: unknown
+  license: mit
   modality: multimodal
   tasks:
   - multimodal
@@ -616,7 +639,7 @@
   name: Qalam
   type: llm
   country: INTL
-  org: unknown
+  org: UBC-NLP
   license: unknown
   modality: multimodal
   tasks:
@@ -653,12 +676,14 @@
   type: llm
   country: AE
   org: CAMeL Lab, NYUAD
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - encoder
   links:
     github: https://github.com/CAMeL-Lab/CAMeLBERT
+  dialects:
+  - mixed
   notes: MSA, Dialectal, and Classical Arabic
 - id: marbert
   name: MARBERT
@@ -671,6 +696,8 @@
   - encoder
   links:
     github: https://github.com/UBC-NLP/marbert
+  dialects:
+  - mixed
   notes: Focused on Dialectal Arabic and MSA
 - id: marbertv2
   name: MARBERTv2
@@ -683,6 +710,8 @@
   - encoder
   links:
     hf: https://huggingface.co/UBC-NLP/MARBERTv2
+  dialects:
+  - mixed
   notes: Updated with improved dialectal coverage
 - id: araelectra
   name: AraELECTRA
@@ -719,18 +748,22 @@
   - encoder
   links:
     hf: https://huggingface.co/faisalq/SaudiBERT
+  dialects:
+  - gulf
   notes: Saudi dialect BERT, trained on 141M tweets (STMC) + forums
 - id: egybert
   name: EgyBERT
   type: llm
-  country: INTL
-  org: faisalq
+  country: SA
+  org: Faisal Qarah
   license: cc-by-nc-4.0
   modality: text
   tasks:
   - encoder
   links:
     hf: https://huggingface.co/faisalq/EgyBERT
+  dialects:
+  - egy
   notes: Egyptian dialect BERT, trained on 34M tweets + 44M forum sentences
 - id: sa-bert-v1
   name: SA-BERT-V1
@@ -743,18 +776,22 @@
   - encoder
   links:
     hf: https://huggingface.co/Omartificial-Intelligence-Space/SA-BERT-V1
+  dialects:
+  - gulf
   notes: Saudi Arabic BERT, fine-tuned MARBERTv2
 - id: camelbert-msa-sentiment
   name: CAMeLBERT-MSA-Sentiment
   type: llm
   country: AE
-  org: CAMeL-Lab
+  org: CAMeL Lab, NYUAD
   license: apache-2.0
   modality: text
   tasks:
   - task-specific
   links:
     hf: https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-msa-sentiment
+  dialects:
+  - msa
   notes: Sentiment Analysis - Fine-tuned for MSA sentiment
 - id: t5-arabic-summarization
   name: t5-arabic-summarization
@@ -829,6 +866,8 @@
   - task-specific
   links:
     hf: https://huggingface.co/PRAli22/arat5-arabic-dialects-translation
+  dialects:
+  - mixed
   notes: Dialect→MSA - AraT5 dialect translation
 - id: masrawy-translator
   name: Masrawy Translator
@@ -841,6 +880,8 @@
   - task-specific
   links:
     hf: https://huggingface.co/NAMAA-Space/masrawy-english-to-egyptian-arabic-translator-v2.9
+  dialects:
+  - egy
   notes: EN→Egyptian Arabic - 150K+ rows, 10M+ tokens, Egyptian dialect
 - id: gliner-arabic
   name: GLiNER Arabic

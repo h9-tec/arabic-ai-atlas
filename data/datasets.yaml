@@ -9,6 +9,8 @@
   - tts
   links:
     hf: https://huggingface.co/datasets/MBZUAI/ArVoice
+  dialects:
+  - msa
   notes: Multi-speaker MSA corpus, 83h, 11 voices, diacritized
 - id: clartts
   name: ClArTTS
@@ -21,6 +23,8 @@
   - tts
   links:
     hf: https://huggingface.co/datasets/MBZUAI/ClArTTS
+  dialects:
+  - classical
   notes: Classical Arabic TTS corpus by MBZUAI
 - id: arabic-speech-corpus
   name: Arabic Speech Corpus
@@ -50,7 +54,7 @@
   name: Open-Source Arabic TTS Benchmark
   type: dataset
   country: SA
-  org: silma-ai
+  org: SILMA AI
   license: unknown
   modality: speech
   tasks:
@@ -99,7 +103,7 @@
   type: dataset
   country: INTL
   org: AliOsm
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - diacritization
@@ -117,6 +121,8 @@
   - dialect-id
   links:
     hf: https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Dialect_Identification
+  dialects:
+  - mixed
   notes: Twitter-based multi-class dialect classification
 - id: arabic-pos-dialect
   name: Arabic POS Dialect
@@ -129,6 +135,8 @@
   - dialect-id
   links:
     hf: https://huggingface.co/datasets/QCRI/arabic_pos_dialect
+  dialects:
+  - mixed
   notes: POS tagging in Arabic dialects
 - id: arabic-dialects-to-msa
   name: Arabic Dialects to MSA
@@ -141,25 +149,29 @@
   - dialect-id
   links:
     hf: https://huggingface.co/datasets/PRAli22/Arabic_dialects_to_MSA
+  dialects:
+  - mixed
   notes: Parallel dialect-MSA corpus
 - id: casablanca
   name: Casablanca
   type: dataset
   country: INTL
-  org: unknown
+  org: UBC-NLP
   license: unknown
   modality: text
   tasks:
   - dialect-id
   links:
     paper: https://arxiv.org/abs/2410.04527
+  dialects:
+  - mixed
   notes: Multidialectal Arabic speech dataset (NADI 2025)
 - id: masader
   name: masader
   type: dataset
-  country: INTL
+  country: SA
   org: ARBML
-  license: unknown
+  license: gpl-3.0
   modality: text
   tasks:
   - nlp
@@ -218,7 +230,7 @@
   name: Arabic Tweets
   type: dataset
   country: INTL
-  org: pain
+  org: Mohammad Albarham
   license: cc-by-4.0
   modality: text
   tasks:
@@ -231,7 +243,7 @@
   type: dataset
   country: INTL
   org: SinaLab
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp
@@ -242,7 +254,7 @@
   name: CIDAR
   type: dataset
   country: SA
-  org: arbml
+  org: ARBML
   license: apache-2.0
   modality: text
   tasks:
@@ -267,7 +279,7 @@
   type: dataset
   country: INTL
   org: DataScienceUIBK
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp
@@ -321,12 +333,14 @@
   - nlp
   links:
     hf: https://huggingface.co/datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts
+  dialects:
+  - classical
   notes: Classical Arabic-English parallel texts (24 books)
 - id: shifaa-medical
   name: Shifaa Medical
   type: dataset
-  country: INTL
-  org: Ahmed-Selem
+  country: EG
+  org: Ahmed Selem
   license: apache-2.0
   modality: text
   tasks:
@@ -337,8 +351,8 @@
 - id: shifaa-mental-health
   name: Shifaa Mental Health
   type: dataset
-  country: INTL
-  org: Ahmed-Selem
+  country: EG
+  org: Ahmed Selem
   license: apache-2.0
   modality: text
   tasks:
@@ -362,7 +376,7 @@
   name: Gazelle
   type: dataset
   country: INTL
-  org: papers
+  org: UBC-NLP
   license: unknown
   modality: text
   tasks:
@@ -410,7 +424,7 @@
   name: BAREC Corpus
   type: dataset
   country: AE
-  org: CAMeL-Lab
+  org: CAMeL Lab, NYUAD
   license: cc-by-sa-4.0
   modality: text
   tasks:
@@ -435,24 +449,28 @@
   type: dataset
   country: INTL
   org: tareknaous
-  license: unknown
+  license: mit
   modality: text
   tasks:
   - nlp
   links:
     github: https://github.com/tareknaous/dialogue-arabic-dialects
+  dialects:
+  - mixed
   notes: Levantine, Egyptian, Gulf dialect dialogues
 - id: stmc
   name: STMC
   type: dataset
-  country: INTL
-  org: faisalq
+  country: SA
+  org: Faisal Qarah
   license: cc-by-nc-4.0
   modality: text
   tasks:
   - nlp
   links:
     hf: https://huggingface.co/datasets/faisalq/STMC
+  dialects:
+  - gulf
   notes: Saudi Tweets Mega Corpus (141M+ Saudi dialect tweets)
 - id: kfupm-arabic-ai-text-detection
   name: KFUPM Arabic AI Text Detection
@@ -477,6 +495,8 @@
   - nlp
   links:
     hf: https://huggingface.co/datasets/fr3on/egyptian-dialogue
+  dialects:
+  - egy
   notes: 4,322 Egyptian Arabic-English parallel pairs from TV subtitles
 - id: nilechat-lhv-egypt
   name: NileChat LHV-Egypt
@@ -489,6 +509,8 @@
   - nlp
   links:
     hf: https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-egy
+  dialects:
+  - egy
   notes: Egyptian dialect dataset for LLM pre-training
 - id: nilechat-arabizi-egypt
   name: NileChat Arabizi-Egypt
@@ -501,6 +523,8 @@
   - nlp
   links:
     hf: https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy
+  dialects:
+  - egy
   notes: Egyptian Arabizi dataset for LLM pre-training
 - id: arabic-english-code-switching
   name: Arabic-English Code-Switching
@@ -525,6 +549,8 @@
   - asr
   links:
     hf: https://huggingface.co/datasets/MAdel121/arabic-egy-cleaned
+  dialects:
+  - egy
   notes: ~72 hours of Egyptian Arabic speech
 - id: madis5
   name: MADIS5
@@ -537,18 +563,22 @@
   - asr
   links:
     hf: https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects
+  dialects:
+  - mixed
   notes: Spoken Arabic dialects
 - id: sada
   name: SADA
   type: dataset
-  country: INTL
-  org: m6011
+  country: SA
+  org: SDAIA
   license: cc-by-4.0
   modality: speech
   tasks:
   - asr
   links:
     hf: https://huggingface.co/datasets/m6011/sada2022
+  dialects:
+  - gulf
   notes: 'Saudi Audio Dataset: 668h from 57 TV shows, multi-dialect (SDAIA)'
 - id: sada22-msa
   name: SADA22 (MSA)
@@ -589,9 +619,9 @@
 - id: calliar
   name: Calliar
   type: dataset
-  country: INTL
+  country: SA
   org: ARBML
-  license: unknown
+  license: mit
   modality: vision
   tasks:
   - multimodal

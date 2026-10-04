@@ -1,0 +1,83 @@
+"""MCP server exposing the Arabic AI Atlas (search / recommend / get)."""
+
+import os
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))  # append: the SDK `mcp` package must win over this repo's mcp/ dir
+
+from mcp.server.mcpserver import MCPServer  # noqa: E402
+
+from atlas import query  # noqa: E402
+
+ATLAS_PATH = Path(os.environ.get("ATLAS_JSON") or ROOT / "dist" / "atlas.json")
+ENTRIES = query.load_atlas(ATLAS_PATH)
+
+server = MCPServer("arabic-ai-atlas")
+
+
+@server.tool()
+def search(
+    query_text: str,
+    type: str | None = None,
+    country: str | None = None,
+    modality: str | None = None,
+    limit: int = 10,
+) -> list[dict]:
+    """Search the Arabic AI Atlas, a curated catalogue of Arabic models, datasets, benchmarks,
+    tools and organizations with Hugging Face download metrics.
+
+    Case-insensitive substring match over name, org, notes, tasks and tags; the optional
+    type/country/modality filters are exact. Results are ordered by downloads, most first.
+
+    Valid values:
+      type: llm, asr, tts, ocr, embedding, dataset, benchmark, tool, agent-skill, org
+      country: SA, AE, EG, LB, QA, JO, MA, INTL
+      modality: text, speech, vision, multimodal, none
+
+    Example: search(query_text="speech", type="asr", limit=5)
+    """
+    return query.search(ENTRIES, query_text, type=type, country=country, modality=modality, limit=limit)
+
+
+@server.tool()
+def recommend(
+    task: str,
+    dialect: str | None = None,
+    on_device: bool | None = None,
+    license_filter: str | None = None,
+    limit: int = 3,
+) -> list[dict]:
+    """Recommend entries from the Arabic AI Atlas for a task, ranked with an explanation.
+
+    Score = 3 if the task is in the entry's tasks, +2 if the dialect matches, +1 if the task
+    word appears in its notes; zero-score entries are dropped. Each result carries `score`
+    and `why`. Ties are broken by downloads.
+
+    task: e.g. chat, tts, asr, ocr, embedding, translation.
+    dialect: msa, egy, gulf, lev, magh, iraqi, sudanese, yemeni, classical, mixed (optional; entries lacking dialect data still match on task).
+    on_device: true/false to require/exclude on-device-capable models (optional).
+    license_filter: "open" excludes proprietary/unknown licenses; any other string must equal the license exactly (optional).
+
+    Example: recommend(task="chat", dialect="egy", on_device=true, license_filter="open")
+    """
+    return query.recommend(
+        ENTRIES, task, dialect=dialect, on_device=on_device, license_filter=license_filter, limit=limit
+    )
+
+
+@server.tool()
+def get(id: str) -> dict:
+    """Fetch one full Arabic AI Atlas entry by its id (e.g. "jais-30b"), including links and metrics.
+
+    Returns {"error": "unknown id", "id": ...} when no entry has that id. Use `search` to find ids.
+
+    Example: get(id="jais-30b")
+    """
+    return query.get(ENTRIES, id) or {"error": "unknown id", "id": id}
+
+
+if __name__ == "__main__":
+    server.run("stdio")

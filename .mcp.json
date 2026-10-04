@@ -1,0 +1,1 @@
+{"mcpServers": {"arabic-ai-atlas": {"command": "uv", "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "python", "mcp/server.py"]}}}

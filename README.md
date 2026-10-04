@@ -369,7 +369,9 @@ Add this to your `.mcp.json`:
 
 Skills shipped in this repo:
 
-_No skills shipped yet._
+| Skill | What it does | Install |
+| --- | --- | --- |
+| arabic-ai-advisor | Use when choosing an Arabic LLM, ASR, TTS, OCR, embedding model, dataset or tool — recommends ranked options from the Arabic AI Atlas with licenses, dialect coverage and on-device fit. | `skills/arabic-ai-advisor` |
 
 Other Arabic agent skills in the wild:
 

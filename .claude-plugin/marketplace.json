@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "arabic-ai-atlas",
+  "description": "The Arabic AI ecosystem as a map, a list, and a skill your agent can install.",
+  "owner": {"name": "Hesham Haroon"},
+  "plugins": [
+    {
+      "name": "arabic-ai-atlas",
+      "description": "Search and get ranked recommendations from a curated atlas of Arabic LLMs, ASR, TTS, OCR, embeddings, datasets and tools.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

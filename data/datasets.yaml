@@ -18781,3 +18781,67 @@
   - msa
   year: 2025
   notes: Arabic job-advertisement dataset supporting classification, summarisation, QA and token-classification tasks.
+- id: oasst1-ar-threads
+  name: oasst1-ar-threads
+  type: dataset
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/oasst1-ar-threads
+  dialects:
+  - msa
+  year: 2023
+  notes: Arabic conversation threads from OpenAssistant oasst1 with train and validation splits; used to tune llama-2-7b-chat-ar.
+- id: egy-instruct
+  name: Egy_instruct
+  type: dataset
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/Egy_instruct
+  dialects:
+  - egy
+  year: 2024
+  notes: Egyptian Arabic instruction dataset (10K-100K rows) in a single parquet file; the card gives no further details.
+- id: arabic-dialect-dpo
+  name: arabic-dialect-dpo
+  type: dataset
+  country: EG
+  org: Hesham Haroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - preference
+  - alignment
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/arabic-dialect-dpo
+  dialects:
+  - egy
+  - gulf
+  year: 2026
+  notes: Arabic dialect preference pairs for DPO, ORPO and GRPO, with Egyptian and Saudi subsets.
+- id: asfar-grpo
+  name: asfar-grpo
+  type: dataset
+  country: EG
+  org: Hesham Haroon
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - reasoning
+  - question-answering
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/asfar-grpo
+  dialects:
+  - classical
+  year: 2026
+  notes: "Classical Arabic heritage (turath) tasks for GRPO/RLVR: QA, fill-mask and multiple choice, derived from the asfar corpus."

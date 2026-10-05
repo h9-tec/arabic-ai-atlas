@@ -7235,6 +7235,7 @@
   year: 2018
   venue: International Conference on Computational Linguistics
   citations: 139
+  notes: This paper presents the first results on a fine-grained dialect classification task covering 25 specific cities from across the Arab World, in addition to
 - id: deeparslr-a-novel-signer-independent-deep-learning-framework
   name: 'DeepArSLR: A Novel Signer-Independent Deep Learning Framework for Isolated Arabic Sign Language Gestures Recognition'
   type: paper
@@ -7961,6 +7962,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 80
+  notes: In this paper, we evaluate the performance of 24 of these models on Arabic sentiment and sarcasm detection
 - id: a-lexical-distance-study-of-arabic-dialects
   name: A Lexical Distance Study of Arabic Dialects
   type: paper
@@ -8357,6 +8359,7 @@
   year: 2018
   venue: VarDial@COLING 2018
   citations: 69
+  notes: We treat these two limitations:We (1) benchmark the data, and (2) empirically test6different deep learning methods on thetask, comparing peformance to several
 - id: unsupervised-neural-networks-for-automatic-arabic-text-summa
   name: Unsupervised neural networks for automatic Arabic text summarization using document clustering and topic modeling
   type: paper
@@ -8970,6 +8973,7 @@
   year: 2020
   venue: International Conference on Language Resources and Evaluation
   citations: 52
+  notes: This paper introduces Habibi the first Arabic Song Lyrics corpus
 - id: sarcasm-and-sentiment-detection-in-arabic-tweets-using-bert
   name: Sarcasm and Sentiment Detection In Arabic Tweets Using BERT-based Models and Data Augmentation
   type: paper
@@ -8986,6 +8990,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 52
+  notes: In this paper, we describe our efforts on the shared task of sarcasm and sentiment detection in Arabic (Abu Farha et al., 2021)
 - id: highly-effective-arabic-diacritization-using-sequence-to-seq
   name: Highly Effective Arabic Diacritization using Sequence to Sequence Modeling
   type: paper
@@ -9064,6 +9069,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 48
+  notes: We strongly believe thatmany NLU problems in Arabic are especiallypoised to reap the benefits of such models
 - id: daict-a-dialectal-arabic-irony-corpus-extracted-from-twitter
   name: 'DAICT: A Dialectal Arabic Irony Corpus Extracted from Twitter'
   type: paper
@@ -9079,6 +9085,7 @@
   year: 2020
   venue: International Conference on Language Resources and Evaluation
   citations: 47
+  notes: We query Twitter using irony-related hashtags to collect ironic messages, which are then manually annotated by two linguists according to our working
 - id: improving-neural-machine-translation-for-low-resource-langua
   name: 'Improving neural machine translation for low resource languages through non-parallel corpora: a case study of Egyptian dialect to modern standard Arabic translation'
   type: paper
@@ -9266,6 +9273,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 38
+  notes: To address these challenges, we create an Arabic conversational dataset that comprises empathetic responses
 - id: collection-and-analysis-of-code-switch-egyptian-arabic-engli
   name: Collection and Analysis of Code-switch Egyptian Arabic-English Speech Corpus
   type: paper
@@ -9387,6 +9395,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 35
+  notes: In this paper, we present the first effort on a unified model for Arabizi detection and transliteration into a code-mixed output with consistent Arabic
 - id: arhnet-leveraging-community-interaction-for-detection-of-rel
   name: ARHNet - Leveraging Community Interaction for Detection of Religious Hate Speech in Arabic
   type: paper
@@ -9665,6 +9674,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 29
+  notes: This paper, therefore, aims to investigate several neural network models based on Convolutional Neural Network (CNN) and Recurrent Neural Networks (RNN) to
 - id: multi-task-learning-using-a-combination-of-contextualised-an
   name: Multi-task Learning Using a Combination of Contextualised and Static Word Embeddings for Arabic Sarcasm Detection and Sentiment Analysis
   type: paper
@@ -9681,6 +9691,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 29
+  notes: In this study, we exploited this relationship to enhance both tasks by proposing a multi-task learning approach using a combination of static and
 - id: the-performance-of-openai-chatgpt-4-and-google-gemini-in-vir
   name: 'The performance of OpenAI ChatGPT-4 and Google Gemini in virology multiple-choice questions: a comparative analysis of English and Arabic responses'
   type: paper
@@ -9810,6 +9821,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 28
+  notes: We propose two systems that harness knowledge from multiple tasks to improve the performance of the classifier
 - id: detection-of-arabic-offensive-language-in-social-media-using
   name: Detection of Arabic offensive language in social media using machine learning models
   type: paper
@@ -10148,6 +10160,7 @@
   year: 2020
   venue: International Conference on Language Resources and Evaluation
   citations: 24
+  notes: In this paper we present the first full morphological analysis and disambiguation system for Gulf Arabic
 - id: unibuckernel-reloaded-first-place-in-arabic-dialect-identifi
   name: 'UnibucKernel Reloaded: First Place in Arabic Dialect Identification for the Second Year in a Row'
   type: paper
@@ -10194,6 +10207,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 24
+  notes: 'In this paper, we investigate the Arabic dialect identification task, from two perspectives: country-level dialect identification from 21 Arab countries, and'
 - id: arabbert-lstm-improving-arabic-sentiment-analysis-based-on-t
   name: 'ArabBert-LSTM: improving Arabic sentiment analysis based on transformer model and Long Short-Term Memory'
   type: paper
@@ -10225,6 +10239,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 24
+  notes: In this paper, we propose a new approach for improving Arabic sarcasm detection
 - id: is-it-great-or-terrible-preserving-sentiment-in-neural-machi
   name: Is it Great or Terrible? Preserving Sentiment in Neural Machine Translation of Arabic Reviews
   type: paper
@@ -10271,6 +10286,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 23
+  notes: In this work, we propose two embedding strategies that modify the tokenization phase of traditional word embedding models (Word2Vec) and contextual word
 - id: aradepsu-detecting-depression-and-suicidal-ideation-in-arabi
   name: 'AraDepSu: Detecting Depression and Suicidal Ideation in Arabic Tweets Using Transformers'
   type: paper
@@ -10301,6 +10317,7 @@
   year: 2020
   venue: International Conference on Language Resources and Evaluation
   citations: 23
+  notes: In this paper, we present the MADAR CODA Corpus, a collection of 10,000 sentences from five Arabic city dialects (Beirut, Cairo, Doha, Rabat, and Tunis)
 - id: error-analysis-of-pretrained-language-models-plms-in-english
   name: Error Analysis of Pretrained Language Models (PLMs) in English-to-Arabic Machine Translation
   type: paper
@@ -10521,6 +10538,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 21
+  notes: This paper proposes a semi-supervised learning approach to train a BERT-based NER model using labeled and semi-labeled datasets
 - id: bert-based-multi-task-model-for-country-and-province-level-m
   name: BERT-based Multi-Task Model for Country and Province Level MSA and Dialectal Arabic Identification
   type: paper
@@ -10810,6 +10828,7 @@
   year: 2019
   venue: WANLP@ACL 2019
   citations: 19
+  notes: Word Embeddings (WE) are getting increasingly popular and widely applied in many Natural Language Processing (NLP) applications due to their effectiveness in
 - id: a-comprehensive-review-on-arabic-offensive-language-and-hate
   name: 'A comprehensive review on Arabic offensive language and hate speech detection on social media: methods, challenges and solutions'
   type: paper
@@ -11011,6 +11030,7 @@
   year: 2020
   venue: International Conference on Language Resources and Evaluation
   citations: 18
+  notes: We present in this paper our work on Algerian language, an under-resourced North African colloquial Arabic variety, for which we built a comparably large
 - id: an-arabic-visual-speech-recognition-framework-with-cnn-and-v
   name: An arabic visual speech recognition framework with CNN and vision transformers for lipreading
   type: paper
@@ -11071,6 +11091,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 18
+  notes: In this paper we present designated solutions for sentiment classification and sarcasm detection tasks that were introduced as part of a shared task by Abu
 - id: exploring-challenges-in-audiovisual-translation-a-comparativ
   name: 'Exploring challenges in audiovisual translation: A comparative analysis of human- and AI-generated Arabic subtitles in Birdman'
   type: paper
@@ -11162,6 +11183,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 17
+  notes: This paper describes our systems submitted to the Second Nuanced Arabic Dialect Identification Shared Task (NADI 2021)
 - id: arabic-dialect-identification-for-travel-and-twitter-text
   name: Arabic Dialect Identification for Travel and Twitter Text
   type: paper
@@ -11285,6 +11307,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 17
+  notes: In this work, we present our submission of the sub-task1 of the shared task on sarcasm and sentiment detection in Arabic organized by the 6th Workshop for
 - id: integrated-multi-layer-perceptron-neural-network-and-novel-f
   name: Integrated multi-layer perceptron neural network and novel feature extraction for handwritten Arabic recognition
   type: paper
@@ -11409,6 +11432,7 @@
   year: 2020
   venue: Workshop on Arabic Natural Language Processing
   citations: 16
+  notes: In this paper, several techniques with multiple algorithms are applied for Arabic dialects identification starting from removing noise till classification task
 - id: st-madar-2019-shared-task-arabic-fine-grained-dialect-identi
   name: 'ST MADAR 2019 Shared Task: Arabic Fine-Grained Dialect Identification'
   type: paper
@@ -11730,6 +11754,7 @@
   year: 2021
   venue: Workshop on Arabic Natural Language Processing
   citations: 15
+  notes: This paper presents results and main findings in WANLP 2021 shared tasks one and two
 - id: enhancing-arabic-cyberbullying-detection-with-end-to-end-tra
   name: Enhancing Arabic Cyberbullying Detection with End-to-End Transformer Model
   type: paper

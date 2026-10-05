@@ -2634,3 +2634,17 @@
   - magh
   year: 2025
   notes: Whisper-large fine-tuned on multi-dialect Arabic speech.
+- id: whisper-small-fleurs-ar-heshamharoon
+  name: whisper-small-with-google-fleurs-ar
+  type: asr
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/HeshamHaroon/whisper-small-with-google-fleurs-ar
+  size: small
+  year: 2024
+  notes: Whisper small fine-tuned on the Google FLEURS Arabic split; the card gives no further details.

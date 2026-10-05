@@ -5766,3 +5766,91 @@
   - lev
   year: 2026
   notes: Llama-3.1 LoRA adapter for Syrian Arabic dialect generation (AMIYA 2026).
+- id: arabic-mistral-7b
+  name: Arabic_mistral_7b
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/HeshamHaroon/Arabic_mistral_7b
+  size: 7B
+  on_device: false
+  year: 2024
+  notes: Arabic Mistral 7B adapter trained with Unsloth; tagged ar, text-generation. The card lists no base model or dataset.
+- id: arabic-qwen-chat-llamafile
+  name: arabic_Qwen_chat_llamafile
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/HeshamHaroon/arabic_Qwen_chat_llamafile
+  year: 2024
+  notes: Arabic chat model fine-tuned with Unsloth, published as Llama-architecture safetensors despite the llamafile name; no base or dataset listed.
+- id: llama-2-7b-chat-ar
+  name: llama-2-7b-chat-ar
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/HeshamHaroon/llama-2-7b-chat-ar
+  size: 7B
+  on_device: false
+  year: 2023
+  notes: PEFT adapter on NousResearch/Llama-2-7b-chat-hf trained on HeshamHaroon/oasst1-ar-threads, Arabic OpenAssistant threads.
+- id: llama-3-instruct-slerp-arabic
+  name: llama-3-instruct-slerp-arabic
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: llama3
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/HeshamHaroon/llama-3-instruct-slerp-arabic
+  size: 8B
+  on_device: false
+  year: 2024
+  notes: Mergekit SLERP merge of Meta-Llama-3-8B-Instruct and HeshamHaroon/Egy_llama3 for Arabic chat.
+- id: acegpt-7b-chat-gguf-heshamharoon
+  name: AceGPT-7B-chat-GGUF
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/HeshamHaroon/AceGPT-7B-chat-GGUF
+  size: 7B
+  on_device: true
+  year: 2024
+  notes: GGUF quantizations (Q4_K_M, Q5_K_M) of AceGPT-7B-chat for local CPU inference; the card gives no other details.
+- id: llama2-qlora-finetuned-arabic
+  name: llama2-qlora-finetunined-Arabic
+  type: llm
+  country: EG
+  org: Hesham Haroon
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/HeshamHaroon/llama2-qlora-finetunined-Arabic
+  year: 2023
+  notes: QLoRA PEFT adapter for Llama 2 fine-tuned on Arabic; the card lists no base model or dataset.

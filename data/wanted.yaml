@@ -14,7 +14,7 @@
 - id: mauritania-anything
   title: Anything from Mauritania
   why: Mauritania has no listed model, dataset, or tool of any kind.
-  query: {country: MR}
+  query: {type: [llm, asr, tts, ocr, embedding, dataset, tool, benchmark], country: MR}
 - id: yemeni-dataset
   title: Open Yemeni speech dataset
   why: No openly licensed Yemeni dataset for speech recognition or synthesis is listed.

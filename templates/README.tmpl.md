@@ -58,7 +58,6 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🌳 Family tree](#-family-tree)
 - [🧠 Large Language Models](#-large-language-models)
 - [🎙️ Speech Recognition](#️-speech-recognition)
 - [🔊 Text-to-Speech](#-text-to-speech)
@@ -71,6 +70,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🎯 Most Wanted](#-most-wanted)
+- [🌳 Family tree](#-family-tree)
 - [🤝 Contributing](#-contributing)
 
 ## 🧠 Large Language Models
@@ -137,7 +137,7 @@ Other Arabic agent skills in the wild:
 2. Run `uv run python scripts/build.py build` (it uses the committed Hugging Face cache; the nightly job refreshes metrics).
 3. Open a PR.
 
-CI rejects hand edits to `README.md`, `docs/tables/`, `assets/` and `dist/`.
+Never hand-edit `README.md`, `docs/tables/`, `assets/`, `dist/` or `data/.cache/`: the build and the nightly job write them, and CI rejects drift.
 
 ## 📜 License
 

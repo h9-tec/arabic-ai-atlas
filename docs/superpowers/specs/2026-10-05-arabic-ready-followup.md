@@ -5,7 +5,7 @@ Status: stub. Written after the v0.2 skeleton; not yet designed.
 ## Context
 
 - Design: [atlas v0.2 design, section C](2026-10-05-atlas-v0-2-design.md#c-arabic-ready-badge-two-days)
-- Skeleton: `/home/hesham/arabic-ready` (local repo, not pushed; GitHub repo `h9-tec/arabic-ready` not created). It has `action.yml` (composite, inputs `paths` and `strictness`), `arabic_ready/report.py` (`badge_endpoint`, `badge_markdown`) and tests.
+- Skeleton: a sibling repo `arabic-ready`, to be published at github.com/h9-tec/arabic-ready (not pushed yet). It has `action.yml` (composite, inputs `paths` and `strictness`), `arabic_ready/report.py` (`badge_endpoint`, `badge_markdown`) and tests.
 
 ## Deferred to this spec
 

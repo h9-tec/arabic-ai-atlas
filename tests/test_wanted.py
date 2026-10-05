@@ -124,3 +124,11 @@ def test_newly_filled():
     base = {"a": {"filled_on": "2026-10-01", "by": ["x"]}}
     new = {"a": {"filled_on": "2026-10-01", "by": ["x"]}, "c": {"by": []}, "b": {"by": []}}
     assert newly_filled(base, new) == ["b", "c"]
+
+
+def test_mauritania_rule_needs_a_resource_not_an_org():
+    rule = next(r for r in load_rules(ROOT / "data" / "wanted.yaml") if r["id"] == "mauritania-anything")
+    assert not matches(rule, [{"id": "mr-org", "type": "org", "country": "MR"},
+                              {"id": "mr-paper", "type": "paper", "country": "MR"}])
+    assert matches(rule, [{"id": "mr-ds", "type": "dataset", "country": "MR", "license": "cc-by-4.0"}]) == ["mr-ds"]
+    assert matches(rule, load_entries(ROOT / "data")) == []  # seed: still open

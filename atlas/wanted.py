@@ -1,6 +1,8 @@
 """Wanted-list gap rules: declarative queries for resources the atlas lacks."""
 import re
+from datetime import date as _date
 from pathlib import Path
+from urllib.parse import quote
 
 import yaml
 
@@ -120,8 +122,6 @@ _HASH_KEYS = (("type", "type"), ("country", "country"), ("dialects", "dialect"))
 
 def wanted_hash(query: dict) -> str:
     """Site hash for a rule, in the same key order as site/app.js serializeHash."""
-    from urllib.parse import quote
-
     enc = lambda v: quote(str(v), safe="-_.!~*'()")  # encodeURIComponent
     parts = []
     tasks = _as_list(query.get("tasks"))
@@ -148,13 +148,12 @@ def rule_text(query: dict) -> str:
             v = "true" if v else "false"
         else:
             v = ",".join(str(x) for x in _as_list(v))
-        parts.append(f"{"license" if key == "license_class" else key}={v}")
+        label = "license" if key == "license_class" else key
+        parts.append(f"{label}={v}")
     return " · ".join(parts)
 
 
 def evaluate(rules: list[dict], entries: list[dict], cache: dict, date: str) -> tuple[list[dict], dict]:
-    from datetime import date as _date
-
     today = _date.fromisoformat(date)
     statuses, new_cache = [], {}
     for rule in rules:

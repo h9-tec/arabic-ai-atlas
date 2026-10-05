@@ -1,6 +1,6 @@
 [project]
 name = "arabic-ai-atlas"
-version = "0.1.0"
+version = "0.2.0"
 requires-python = ">=3.11"
 dependencies = ["pyyaml>=6", "jsonschema>=4.20", "mcp>=2,<3"]
 [dependency-groups]

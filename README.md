@@ -43,6 +43,7 @@ Add this to your `.mcp.json`:
 - YAML in `data/` is the only hand-edited source.
 - CI validates every PR against `data/schema.json`.
 - A nightly job pulls Hugging Face downloads and regenerates the map, README, `dist/atlas.json` and `dist/llms.txt`.
+- Wanted gaps (`data/wanted.yaml`) are re-evaluated on every build, and `base_model` links build the family tree and the MCP `lineage` tool.
 - The repo is itself a Claude Code plugin: 5 skills + an MCP server that reads the atlas offline.
 
 ### Entries by country

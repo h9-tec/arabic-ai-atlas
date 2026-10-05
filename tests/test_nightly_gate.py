@@ -59,3 +59,27 @@ def test_added_line_commits(repo):
 def test_other_file_commits(repo):
     (repo / "notes.txt").write_text("2026-10-04\n")
     assert _gate(repo).returncode == 0
+
+
+def test_tree_svg_date_only_skips(repo):
+    (repo / "assets").mkdir()
+    (repo / "assets" / "tree.svg").write_text("<svg>\n<text>2026-10-03</text>\n</svg>\n")
+    _git(repo, "add", "-A")
+    _git(repo, "commit", "-qm", "tree")
+    (repo / "assets" / "tree.svg").write_text("<svg>\n<text>2026-10-04</text>\n</svg>\n")
+    assert _gate(repo).returncode == 1
+
+
+def test_wanted_cache_change_commits(repo):
+    (repo / "data" / ".cache").mkdir(parents=True)
+    (repo / "data" / ".cache" / "wanted.json").write_text("{}\n")
+    _git(repo, "add", "-A")
+    _git(repo, "commit", "-qm", "wanted")
+    (repo / "data" / ".cache" / "wanted.json").write_text('{\n  "x": {"filled_on": "2026-10-04"}\n}\n')
+    assert _gate(repo).returncode == 0
+
+
+def test_contributing_documents_v02():
+    text = (ROOT / "CONTRIBUTING.md").read_text(encoding="utf-8")
+    for needle in ("base_model", "data/wanted.yaml", "probes/"):
+        assert needle in text

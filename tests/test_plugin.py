@@ -2,6 +2,7 @@
 
 import json
 import re
+import tomllib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -14,7 +15,7 @@ def _load(rel: str) -> dict:
 def test_plugin_manifest():
     m = _load(".claude-plugin/plugin.json")
     assert m["name"] == "arabic-ai-atlas"
-    assert m["version"] == "0.1.0"
+    assert m["version"] == "0.2.0"
     assert m["description"]
     assert m["author"]["name"] == "Hesham Haroon"
 
@@ -60,3 +61,8 @@ def test_readme_template_states_uv_requirement_and_snippet():
     tmpl = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
     assert "Requires [uv](https://docs.astral.sh/uv/) on PATH." in tmpl
     assert '"run", "--frozen", "--no-dev", "--directory", "/path/to/arabic-ai-atlas"' in tmpl
+
+
+def test_pyproject_version_matches_plugin():
+    py = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
+    assert py["project"]["version"] == _load(".claude-plugin/plugin.json")["version"]

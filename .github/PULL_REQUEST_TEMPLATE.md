@@ -8,3 +8,4 @@
 - [ ] I ran `uv run python scripts/build.py build` and committed the regenerated files
 - [ ] The link opens and is the authoritative source for the resource
 - [ ] I checked the license (SPDX id, or `unknown` if it is not stated)
+- [ ] If I set `base_model`, it comes from the model card or paper

@@ -12,7 +12,7 @@
 #   - a changed line contains no date (YYYY-MM-DD, or the badge form YYYY--MM--DD).
 set -euo pipefail
 
-generated=" README.md docs/tables/README.md assets/map.svg assets/geo.svg dist/llms.txt dist/atlas.json data/.cache/hf.json "
+generated=" README.md docs/tables/README.md assets/map.svg assets/geo.svg dist/llms.txt dist/atlas.json data/.cache/hf.json assets/tree.svg data/.cache/wanted.json "
 
 if git diff --cached --quiet; then
   echo "skip: nothing staged"

@@ -51,4 +51,28 @@ For `type: paper`, `year` and `links.paper` (an arXiv or ACL Anthology URL) are 
 
 ## Never edit by hand
 
-`README.md`, `docs/tables/`, `assets/` and `dist/` are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py build`.
+`README.md`, `docs/tables/`, `assets/`, `dist/` and `data/.cache/` (including `assets/tree.svg`, `docs/tables/wanted.md` and `data/.cache/wanted.json`) are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py build`.
+
+## Record a base model
+
+Set `base_model` on a model entry (`llm`, `asr`, `tts`, `ocr` or `embedding` only) to say what it was trained from. It is a list of Hugging Face ids (`org/name`), atlas ids, or the literal `from-scratch`. Take it from the model card or the paper; when the YAML and the card disagree, the YAML wins. The build turns these links into the family tree and the MCP `lineage` tool.
+
+```yaml
+  base_model:
+    - meta-llama/Llama-3.1-8B
+```
+
+## Propose or fill a wanted gap
+
+`data/wanted.yaml` lists gaps the atlas does not yet fill. Each rule has:
+
+- `id`: unique, lowercase, hyphen-separated.
+- `title`: the short headline.
+- `why`: at most 160 characters on why the gap matters.
+- `query`: what a filling entry looks like. Fields: `type`, `country`, `dialects`, `license_class` (`open` or `any`), `on_device`, `tasks`. A list matches any of its values.
+
+A rule is filled when any atlas entry matches its query, so you fill a gap by adding a matching entry under `data/`. CI prints `closes wanted:<id>` for each rule your PR fills. To propose a gap, add a rule. Never edit `data/.cache/wanted.json` by hand; the build writes it.
+
+## Submit a model passport
+
+Model passports are not accepted yet. The format and the probe suite are described in `probes/README.md` and in the [design spec](docs/superpowers/specs/2026-10-05-atlas-v0-2-design.md#d-model-passport-three-days--inference). Please do not open submission PRs until that page says otherwise.

@@ -17,7 +17,7 @@ Recommends Arabic AI models, datasets and tools from the Arabic AI Atlas, a cura
 
 1. Call the MCP tool `recommend` with the `task` and the `type` the user wants (`llm`, `asr`, `tts`, `ocr`, `embedding` for a model; `dataset`, `benchmark` or `tool` otherwise), plus `dialect`, `on_device` and `license_filter` when the user gave them. Example: `recommend(task="tts", type="tts", on_device=true, license_filter="open")`.
 2. If the MCP tools are unavailable, read `${CLAUDE_PLUGIN_ROOT}/dist/atlas.json` and filter entries by `tasks`.
-3. For breadth, or when `recommend` returns too little, call `search` (and `get` for one entry by id).
+3. For breadth, or when `recommend` returns too little, call `search` (and `get` for one entry by id). To trace what a model was built from or what was built on it, call `lineage(id=...)`; entries carry an optional `base_model` list (HF ids, atlas ids or `from-scratch`).
 4. Format the answer as described below.
 
 ## Answer format
@@ -41,4 +41,5 @@ If nothing fits, say: "Not in the atlas: I found no entry matching this request.
 | country | SA, AE, EG, LB, QA, JO, MA, TN, KW, OM, BH, DZ, LY, SD, IQ, SY, YE, PS, MR, SO, DJ, KM, INTL |
 | modality | text, speech, vision, multimodal, none |
 | dialect | msa, egy, gulf, lev, magh, iraqi, sudanese, yemeni, classical, mixed |
+| base_model | list of HF ids, atlas ids, or `from-scratch` (model types only) |
 | task (examples) | chat, tts, asr, ocr, embedding, translation |

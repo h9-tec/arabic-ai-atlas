@@ -26,9 +26,9 @@
 - [cohere-transcribe-arabic-07-2026](https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026): Cohere Transcribe specialised for Arabic speech recognition.
 - [opus mt tc big ar en](https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-ar-en): Neural machine translation model for translating from Arabic (ar) to English (en).
 - [opus-mt-en-ar](https://huggingface.co/Helsinki-NLP/opus-mt-en-ar): Translation EN→AR - Helsinki-NLP (3.5M+ downloads)
-- [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
-- [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae): Qwen3-ASR fine-tuned for Emirati Arabic.
 - [whisper-large-v3-turbo-ar-quran](https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran): Whisper large-v3-turbo fine-tuned on Quran recitation.
+- [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae): Qwen3-ASR fine-tuned for Emirati Arabic.
+- [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
 
 ## Datasets
 

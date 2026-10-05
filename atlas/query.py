@@ -7,8 +7,13 @@ from pathlib import Path
 _NC_RE = re.compile(r"(^|[-_.\s])nc([-_.\s]|$)")
 
 
+def load_doc(path: Path) -> dict:
+    """The whole dist/atlas.json document (entries, lineage, wanted, ...)."""
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
 def load_atlas(path: Path) -> list[dict]:
-    return json.loads(Path(path).read_text(encoding="utf-8"))["entries"]
+    return load_doc(path)["entries"]
 
 
 def license_class(license: str | None) -> str:
@@ -124,3 +129,38 @@ def recommend(
 
 def get(entries: list[dict], id: str) -> dict | None:
     return next((e for e in entries if e.get("id") == id), None)
+
+
+def _walk(start: str, step: dict[str, list[str]]) -> list[str]:
+    """Breadth-first from start, each level sorted, never revisiting a node or start."""
+    seen, out, frontier = {start}, [], [start]
+    while frontier:
+        level = sorted({n for f in frontier for n in step.get(f, []) if n not in seen})
+        seen.update(level)
+        out += level
+        frontier = level
+    return out
+
+
+def lineage(doc: dict, id: str) -> dict:
+    """Ancestors (nearest first) and descendants (breadth-first) of an atlas or external id."""
+    from atlas.lineage import root_family
+
+    lin = doc.get("lineage") or {}
+    edges = lin.get("edges") or []
+    root_of = lin.get("root_of") or {}
+    entry_ids = {e.get("id") for e in doc.get("entries") or []}
+    if id not in entry_ids and id not in root_of and not any(id in edge for edge in edges):
+        return {"error": "unknown id", "id": id}
+    up: dict[str, list[str]] = {}
+    down: dict[str, list[str]] = {}
+    for parent, child in edges:
+        up.setdefault(child, []).append(parent)
+        down.setdefault(parent, []).append(child)
+    if id in root_of:
+        root = root_of[id]
+    elif id in entry_ids or id not in down:
+        root = None  # atlas entry without a recorded base
+    else:
+        root = root_family(id)  # external base id
+    return {"id": id, "root": root, "ancestors": _walk(id, up), "descendants": _walk(id, down)}

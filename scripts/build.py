@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))  # works even when the package is not installed
 
 from atlas.enrich import FETCHED_AT, build_hf_ids, fetch_hf_metrics, merged_entries
+from atlas.lineage import build_lineage
 from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
 from atlas.render_wanted import render_wanted_block, render_wanted_table
@@ -62,7 +63,7 @@ def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]
     wdisk = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else {}
     statuses, wcache = evaluate(load_rules(data / "wanted.yaml"), merged, wdisk, date)
     wanted = [{k: v for k, v in s.items() if k != "query"} for s in statuses]
-    doc = build_atlas_json(merged, date, extras={"wanted": wanted})
+    doc = build_atlas_json(merged, date, extras={"wanted": wanted, "lineage": build_lineage(merged)})
     outputs = {
         "dist/atlas.json": json.dumps(doc, indent=2, ensure_ascii=False) + "\n",
         "dist/llms.txt": build_llms_txt(merged, date),

@@ -8,6 +8,7 @@ from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
 from atlas.enrich import build_hf_ids, merge_metrics
+from atlas.lineage import build_lineage
 from atlas.render_json import build_atlas_json
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -29,6 +30,7 @@ async def _run(atlas_json: Path):
             srch = await c.call_tool("search", {"query": "jais"})
             missing = await c.call_tool("get", {"id": "nope"})
             typed = await c.call_tool("recommend", {"task": "chat", "type": "dataset"})
+            lin = await c.call_tool("lineage", {"id": "jais-30b"})
             schema = next(t.input_schema for t in tools.tools if t.name == "recommend")
             assert "type" in schema["properties"]
             assert not [x for x in typed.content if "jais-30b" in x.text]
@@ -38,17 +40,21 @@ async def _run(atlas_json: Path):
                 "\n".join(c.text for c in rec.content),
                 missing.content[0].text,
                 srch.content,
+                lin.content[0].text,
             )
 
 
 def test_mcp_server_roundtrip(tmp_path, fixture_entries):
     ids = build_hf_ids(fixture_entries)
     cache = {i: {"downloads": 10, "likes": 1, "lastModified": None} for i in ids}
-    doc = build_atlas_json(merge_metrics(fixture_entries, cache), "2026-10-04")
+    entries = [{**e, "base_model": ["from-scratch"]} if e["id"] == "jais-30b" else e for e in fixture_entries]
+    merged = merge_metrics(entries, cache)
+    doc = build_atlas_json(merged, "2026-10-04", extras={"lineage": build_lineage(merged)})
     p = tmp_path / "atlas.json"
     p.write_text(json.dumps(doc))
-    names, got, rec, missing, srch = asyncio.run(_run(p))
-    assert names == {"search", "recommend", "get"}
+    names, got, rec, missing, srch, lin = asyncio.run(_run(p))
+    assert names == {"search", "recommend", "get", "lineage"}
+    assert json.loads(lin) == {"id": "jais-30b", "root": "from-scratch", "ancestors": ["from-scratch"], "descendants": []}
     assert "jais-30b" in got
     assert "jais-30b" in rec
     assert "unknown id" in missing

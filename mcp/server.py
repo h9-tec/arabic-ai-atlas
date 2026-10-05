@@ -1,4 +1,4 @@
-"""MCP server exposing the Arabic AI Atlas (search / recommend / get)."""
+"""MCP server exposing the Arabic AI Atlas (search / recommend / get / lineage)."""
 
 import os
 import sys
@@ -13,7 +13,8 @@ from mcp.server.mcpserver import MCPServer  # noqa: E402
 from atlas import query as atlas_query  # noqa: E402
 
 ATLAS_PATH = Path(os.environ.get("ATLAS_JSON") or ROOT / "dist" / "atlas.json")
-ENTRIES = atlas_query.load_atlas(ATLAS_PATH)
+DOC = atlas_query.load_doc(ATLAS_PATH)
+ENTRIES = DOC["entries"]
 
 server = MCPServer("arabic-ai-atlas")
 
@@ -80,6 +81,26 @@ def get(id: str) -> dict:
     Example: get(id="jais-30b")
     """
     return atlas_query.get(ENTRIES, id) or {"error": "unknown id", "id": id}
+
+
+@server.tool()
+def lineage(id: str) -> dict:
+    """Family tree of one model in the Arabic AI Atlas: what it was built on and what was built on it.
+
+    Returns {"id", "root", "ancestors", "descendants"}:
+      root: the base family the chain ends in, or null for an atlas entry with no recorded base.
+      ancestors: parent first, then grandparents, up to the first id outside the atlas.
+      descendants: atlas models fine-tuned from it, breadth-first (children, then grandchildren).
+    Ids are atlas ids (e.g. "jais-30b") or, for bases outside the atlas, lowercase Hugging Face
+    ids (e.g. "qwen/qwen2.5-7b"); both are accepted as `id`. Returns {"error": "unknown id", "id": ...}
+    when the id is neither an entry nor part of any lineage.
+
+    Roots: whisper, mms, xlsr, wav2vec, electra, bert, t5, llama, qwen, gemma, mistral, falcon,
+    bloom, phi, deepseek, from-scratch, other.
+
+    Example: lineage(id="silma-1-0")
+    """
+    return atlas_query.lineage(DOC, id)
 
 
 if __name__ == "__main__":

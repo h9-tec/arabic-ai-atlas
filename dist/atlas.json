@@ -76975,5 +76975,1950 @@
       "recent": false,
       "hash": "#type=benchmark&license=open"
     }
-  ]
+  ],
+  "lineage": {
+    "roots": [
+      {
+        "id": "other",
+        "label": "Other",
+        "label_ar": "أخرى",
+        "count": 138
+      },
+      {
+        "id": "qwen",
+        "label": "Qwen",
+        "label_ar": "كوين",
+        "count": 65
+      },
+      {
+        "id": "bert",
+        "label": "BERT",
+        "label_ar": "بيرت",
+        "count": 57
+      },
+      {
+        "id": "whisper",
+        "label": "Whisper",
+        "label_ar": "ويسبر",
+        "count": 56
+      },
+      {
+        "id": "gemma",
+        "label": "Gemma",
+        "label_ar": "جيما",
+        "count": 22
+      },
+      {
+        "id": "from-scratch",
+        "label": "From scratch",
+        "label_ar": "من الصفر",
+        "count": 19
+      },
+      {
+        "id": "llama",
+        "label": "Llama",
+        "label_ar": "لاما",
+        "count": 15
+      },
+      {
+        "id": "xlsr",
+        "label": "XLS-R",
+        "label_ar": "إكس إل إس-آر",
+        "count": 4
+      },
+      {
+        "id": "t5",
+        "label": "T5",
+        "label_ar": "تي 5",
+        "count": 3
+      },
+      {
+        "id": "wav2vec",
+        "label": "wav2vec",
+        "label_ar": "واف تو فيك",
+        "count": 2
+      },
+      {
+        "id": "bloom",
+        "label": "BLOOM",
+        "label_ar": "بلوم",
+        "count": 1
+      },
+      {
+        "id": "falcon",
+        "label": "Falcon",
+        "label_ar": "فالكون",
+        "count": 1
+      },
+      {
+        "id": "mistral",
+        "label": "Mistral",
+        "label_ar": "ميسترال",
+        "count": 1
+      },
+      {
+        "id": "mms",
+        "label": "MMS",
+        "label_ar": "إم إم إس",
+        "count": 1
+      }
+    ],
+    "edges": [
+      [
+        "3arab-tts-500m-v2",
+        "3arab-tts-500m-v2-voicedesign"
+      ],
+      [
+        "50m-2048-emhotob",
+        "50m-darija-english-v1"
+      ],
+      [
+        "50m-2048-emhotob",
+        "nawah-50m-rag-support-2k"
+      ],
+      [
+        "50m-2048-emhotob",
+        "nawah-math-reasoning"
+      ],
+      [
+        "ahmedzaky1/dimi-embedding-v2",
+        "dimi-embedding-v4"
+      ],
+      [
+        "alibaba-nlp/gte-multilingual-reranker-base",
+        "mizan-rerank-v2"
+      ],
+      [
+        "allam-7b-instruct-preview",
+        "bahraini-dialect-llm"
+      ],
+      [
+        "allam-7b-instruct-preview",
+        "mawrooth-allam-7b-lora"
+      ],
+      [
+        "allam-7b-instruct-preview",
+        "yehia"
+      ],
+      [
+        "allam-7b-instruct-preview",
+        "yehia-7b-preview"
+      ],
+      [
+        "answerdotai/modernbert-base",
+        "aramodernbert-topic-classifier"
+      ],
+      [
+        "answerdotai/modernbert-base",
+        "modernarabert"
+      ],
+      [
+        "answerdotai/modernbert-base",
+        "modernbert-arabic"
+      ],
+      [
+        "aoi-ot/vibevoice-large",
+        "vibevoice-arabic-z"
+      ],
+      [
+        "aoi-ot/vibevoice-large",
+        "vibevoice-egy"
+      ],
+      [
+        "arabart",
+        "adabtranslate-darija"
+      ],
+      [
+        "arabert-all-nli-triplet-matryoshka",
+        "gate-arabert-v0"
+      ],
+      [
+        "arabertv02",
+        "arabert-all-nli-triplet-matryoshka"
+      ],
+      [
+        "arabertv02",
+        "arabic-colbert-100k"
+      ],
+      [
+        "arabertv02",
+        "arabic-retrieval-v1-0"
+      ],
+      [
+        "arabertv02",
+        "arabic-sbert-100k"
+      ],
+      [
+        "arabertv02",
+        "arabic-sts-matryoshka-v2"
+      ],
+      [
+        "arabertv02",
+        "arabic-triplet-matryoshka-v2"
+      ],
+      [
+        "arabertv02",
+        "ararest-arabic-restaurant-reviews-sentiment-analysis"
+      ],
+      [
+        "arabertv02",
+        "camel-readability-arabertv02"
+      ],
+      [
+        "arabertv02",
+        "dimi-embedding"
+      ],
+      [
+        "arabertv02",
+        "silma-embedding-matryoshka-v0-1"
+      ],
+      [
+        "arabiangpt",
+        "qa-finetuned-arabiangpt-01b"
+      ],
+      [
+        "arabic-english-bge-m3",
+        "muffakir-embedding-v2"
+      ],
+      [
+        "arabic-english-handwritten-ocr-v3",
+        "ketaba-ocr-lora"
+      ],
+      [
+        "arabic-f5-tts-v2",
+        "f5tts-algerian-darja"
+      ],
+      [
+        "arabic-f5-tts-v2",
+        "hadra-tts-f5"
+      ],
+      [
+        "arabic-triplet-matryoshka-v2",
+        "arabic-reranker"
+      ],
+      [
+        "arabic-triplet-matryoshka-v2",
+        "gate-arabert-v1"
+      ],
+      [
+        "arabic-triplet-matryoshka-v2",
+        "namaa-reranker"
+      ],
+      [
+        "aragpt2",
+        "fanar-2-diwan"
+      ],
+      [
+        "aramodernbert-base-v1-0",
+        "aramodernbert-base-sts"
+      ],
+      [
+        "arat5",
+        "arabic-text-correction"
+      ],
+      [
+        "arat5v2-base-1024",
+        "arastyletransfer-21"
+      ],
+      [
+        "arat5v2-base-1024",
+        "masrawy-bilingual-v1"
+      ],
+      [
+        "arat5v2-base-1024",
+        "saudispell-arat5"
+      ],
+      [
+        "arat5v2-base-1024",
+        "shami-mt"
+      ],
+      [
+        "atlasia/terjman-large-v1.2",
+        "terjman-large"
+      ],
+      [
+        "baai/bge-m3",
+        "arabic-english-bge-m3"
+      ],
+      [
+        "baai/bge-m3",
+        "bge-m3-law"
+      ],
+      [
+        "baai/bge-reranker-base",
+        "arabic-semantic-highlighter"
+      ],
+      [
+        "baidu/unlimited-ocr",
+        "unlimited-ocr-quran-uthmani"
+      ],
+      [
+        "bert-base-arabertv02-twitter",
+        "shamibert"
+      ],
+      [
+        "bert-base-arabertv2",
+        "arabic-sentiment-model"
+      ],
+      [
+        "bert-base-arabic-camelbert-da-sentiment",
+        "bert-base-arabic-hate-speech"
+      ],
+      [
+        "bert-mini-arabic",
+        "dialect-router-v0-1"
+      ],
+      [
+        "bigscience/bloom-560m",
+        "darija-text-generation"
+      ],
+      [
+        "black-forest-labs/flux.1-schnell",
+        "fanar-2-oryx-ig"
+      ],
+      [
+        "bounharabdelaziz/modernbert-morocco",
+        "modernbert-morocco-sentence-embeddings-v0-2-bs-32-lr-2e-05-ep-2-wp-0-0"
+      ],
+      [
+        "bounharabdelaziz/xlm-roberta-morocco",
+        "morocco-darija-sentence-embedding-v0-2"
+      ],
+      [
+        "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+        "sentimentareng"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-jordanian-dialect"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-speech-tashkeel-2b"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-transcribe-arabic-07-2026-dialectal"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-transcribe-arabic-07-2026-dialectal-v2"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-transcribe-arabic-07-2026-int4"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "cohere-transcribe-arabic-cpu"
+      ],
+      [
+        "cohere-transcribe-arabic-07-2026",
+        "namaa-saudi-asr-v1"
+      ],
+      [
+        "coherelabs/c4ai-command-r7b-12-2024",
+        "command-r7b-arabic"
+      ],
+      [
+        "coherelabs/cohere-transcribe-03-2026",
+        "cohere-transcribe-arabic-07-2026"
+      ],
+      [
+        "convaiinnovations/laya",
+        "jev-ar"
+      ],
+      [
+        "convaiinnovations/laya-multilingual",
+        "laya-ara-rag"
+      ],
+      [
+        "deepseek-ai/deepseek-r1-distill-qwen-1.5b",
+        "octopus"
+      ],
+      [
+        "deepseek-ai/deepseek-r1-distill-qwen-1.5b",
+        "tinyoctopus"
+      ],
+      [
+        "distilbert/distilbert-base-multilingual-cased",
+        "inference-free-splade-distilbert-base-arabic-cased-nq"
+      ],
+      [
+        "dziribert",
+        "dz-emobert"
+      ],
+      [
+        "eurobert/eurobert-210m",
+        "araeurobert-210m"
+      ],
+      [
+        "eurobert/eurobert-610m",
+        "araeurobert-610m"
+      ],
+      [
+        "facebook/hubert-base-ls960",
+        "hubert-arabic-spoken-dialect-classifier"
+      ],
+      [
+        "facebook/mms-300m",
+        "mms-300m-arabic-dialect-identifier"
+      ],
+      [
+        "facebook/nllb-200-3.3b",
+        "terjman-supreme-v1"
+      ],
+      [
+        "facebook/nllb-200-distilled-600m",
+        "darija-to-english-2"
+      ],
+      [
+        "facebook/nllb-200-distilled-600m",
+        "jordanian-to-fusha-model"
+      ],
+      [
+        "facebook/nougat-base",
+        "arabic-base-nougat"
+      ],
+      [
+        "facebook/nougat-small",
+        "arabic-small-nougat"
+      ],
+      [
+        "facebook/w2v-bert-2.0",
+        "muaalem-model-v3-2"
+      ],
+      [
+        "facebook/w2v-bert-2.0",
+        "recitation-segmenter-v2"
+      ],
+      [
+        "facebook/wav2vec2-base",
+        "wav2vec2-base-word-by-word-quran-asr"
+      ],
+      [
+        "facebook/wav2vec2-base",
+        "wav2vec2-quran-phonetics"
+      ],
+      [
+        "facebook/wav2vec2-large-xlsr-53",
+        "wav2vec2-arabic-phoneme-asr"
+      ],
+      [
+        "facebook/wav2vec2-large-xlsr-53",
+        "wav2vec2-large-xlsr-arabic"
+      ],
+      [
+        "facebook/wav2vec2-large-xlsr-53",
+        "wav2vec2-large-xlsr-moroccan-darija"
+      ],
+      [
+        "facebookai/xlm-roberta-base",
+        "span-marker-xlm-roberta-base-ar"
+      ],
+      [
+        "facebookai/xlm-roberta-large",
+        "arabic-english-sts-matryoshka-v2-0"
+      ],
+      [
+        "facebookai/xlm-roberta-large",
+        "arabic-sts-matryoshka"
+      ],
+      [
+        "facebookai/xlm-roberta-large",
+        "xlm-roberta-morocco"
+      ],
+      [
+        "fanar-1-9b",
+        "fanar-math-r1-grpo"
+      ],
+      [
+        "fibonacciai/fibonacci-1-en-8b-chat.p1_5",
+        "fibonacci-2-14b"
+      ],
+      [
+        "from-scratch",
+        "allam"
+      ],
+      [
+        "from-scratch",
+        "allam-7b-instruct-preview"
+      ],
+      [
+        "from-scratch",
+        "aragpt2"
+      ],
+      [
+        "from-scratch",
+        "aragpt2-base"
+      ],
+      [
+        "from-scratch",
+        "aragpt2-large"
+      ],
+      [
+        "from-scratch",
+        "aragpt2-medium"
+      ],
+      [
+        "from-scratch",
+        "jais"
+      ],
+      [
+        "from-scratch",
+        "jais-13b"
+      ],
+      [
+        "from-scratch",
+        "jais-2-70b-chat"
+      ],
+      [
+        "from-scratch",
+        "jais-2-8b-chat"
+      ],
+      [
+        "from-scratch",
+        "jais-family-30b-8k"
+      ],
+      [
+        "from-scratch",
+        "jais-family-590m"
+      ],
+      [
+        "gate-arabert-v1",
+        "gate-reranker-v1"
+      ],
+      [
+        "google-bert/bert-base-multilingual-cased",
+        "arabic-base-all-nli-stsb-quora"
+      ],
+      [
+        "google-t5/t5-small",
+        "algerian-dialect-translation"
+      ],
+      [
+        "google/embeddinggemma-300m",
+        "aragemma-embedding-300m"
+      ],
+      [
+        "google/gemma-2-27b-it",
+        "atlas-chat"
+      ],
+      [
+        "google/gemma-2-27b-it",
+        "atlas-chat-27b"
+      ],
+      [
+        "google/gemma-2-2b-it",
+        "atlas-chat"
+      ],
+      [
+        "google/gemma-2-2b-it",
+        "atlas-chat-2b"
+      ],
+      [
+        "google/gemma-2-9b-it",
+        "atlas-chat"
+      ],
+      [
+        "google/gemma-2-9b-it",
+        "atlas-chat-9b"
+      ],
+      [
+        "google/gemma-2-9b-it",
+        "barka"
+      ],
+      [
+        "google/gemma-2b-it",
+        "fine-tuning-gemma-2b-it-for-arabic"
+      ],
+      [
+        "google/gemma-3-12b-pt",
+        "nile-chat"
+      ],
+      [
+        "google/gemma-3-12b-pt",
+        "nile-chat-12b"
+      ],
+      [
+        "google/gemma-3-1b-pt",
+        "arabic-gec-v1"
+      ],
+      [
+        "google/gemma-3-270m",
+        "aisa-ar-functioncall-think"
+      ],
+      [
+        "google/gemma-3-27b-it",
+        "gemmaroc-27b-it"
+      ],
+      [
+        "google/gemma-3-27b-pt",
+        "fanar-2-27b-instruct"
+      ],
+      [
+        "google/gemma-3-4b-it",
+        "arabic-legal-documents-ocr-1-0"
+      ],
+      [
+        "google/gemma-3-4b-pt",
+        "nile-chat"
+      ],
+      [
+        "google/gemma-3-4b-pt",
+        "nile-chat-4b"
+      ],
+      [
+        "google/gemma-4-12b-it",
+        "gemma-iraqi-finetune-v2"
+      ],
+      [
+        "google/gemma-4-e2b-it",
+        "gemma-4-e2b-arabic-english-vision"
+      ],
+      [
+        "google/gemma-4-e2b-it",
+        "yemeni-arabic-assistant"
+      ],
+      [
+        "google/gemma-4-e4b-it",
+        "gemma4-e4b-claims-comparison"
+      ],
+      [
+        "google/medgemma-4b-it",
+        "dr-ai-v2"
+      ],
+      [
+        "heshamharoon/egy_llama3",
+        "llama-3-instruct-slerp-arabic"
+      ],
+      [
+        "hexgrad/kokoro-82m",
+        "nabra-82m-v0-1"
+      ],
+      [
+        "inception42/jais-adapted-13b",
+        "jais-adapted"
+      ],
+      [
+        "inception42/jais-family-13b",
+        "jais-family-chat"
+      ],
+      [
+        "intfloat/multilingual-e5-base",
+        "algerianme5"
+      ],
+      [
+        "jais-13b",
+        "jais-13b-chat"
+      ],
+      [
+        "jais-family-590m",
+        "jais-family-590m-chat"
+      ],
+      [
+        "jhu-clsp/mmbert-base",
+        "mmbert-base-arabic-nli"
+      ],
+      [
+        "jinaai/jina-embeddings-v3",
+        "zarra"
+      ],
+      [
+        "k2-fsa/omnivoice",
+        "darija-omnivoice-kore-v1"
+      ],
+      [
+        "k2-fsa/omnivoice",
+        "lahgtna-omnivoice-v2"
+      ],
+      [
+        "liquidai/lfm2-350m",
+        "arabic-summarization"
+      ],
+      [
+        "liquidai/lfm2-350m",
+        "english-moroccan-darija-v1"
+      ],
+      [
+        "liquidai/lfm2-350m",
+        "hala-350m"
+      ],
+      [
+        "liquidai/lfm2-700m",
+        "tashkeel-700m"
+      ],
+      [
+        "liquidai/lfm2.5-1.2b-instruct",
+        "lfm2-5-1-2b-instruct-saudi-dialect"
+      ],
+      [
+        "liquidai/lfm2.5-350m",
+        "jameamt-ar-en-350m"
+      ],
+      [
+        "livekit/turn-detector",
+        "livekit-turn-detector-arabic"
+      ],
+      [
+        "marbertv2",
+        "marbert-all-nli-triplet-matryoshka"
+      ],
+      [
+        "marbertv2",
+        "marbertv2-arabic-written-dialect-classifier"
+      ],
+      [
+        "marbertv2",
+        "marbertv2-finetuned-egyptian-hate-speech-detection"
+      ],
+      [
+        "marbertv2",
+        "masribert-v4"
+      ],
+      [
+        "marbertv2",
+        "sa-bert-v1"
+      ],
+      [
+        "marbertv2",
+        "viobert-v3"
+      ],
+      [
+        "meta-llama/llama-2-13b-hf",
+        "acegpt-13b"
+      ],
+      [
+        "meta-llama/llama-2-7b-hf",
+        "acegpt"
+      ],
+      [
+        "meta-llama/llama-3.1-70b",
+        "llama-3-3"
+      ],
+      [
+        "meta-llama/llama-3.1-8b-instruct",
+        "llamalens"
+      ],
+      [
+        "meta-llama/llama-3.2-1b",
+        "octopus"
+      ],
+      [
+        "meta-llama/llama-3.2-3b-instruct",
+        "math-arabic-llama-3-2-3b-instruct"
+      ],
+      [
+        "meta-llama/llama-prompt-guard-2-86m",
+        "ara-prompt-guard-v0"
+      ],
+      [
+        "meta-llama/llama-prompt-guard-2-86m",
+        "ara-prompt-guard-v1"
+      ],
+      [
+        "meta-llama/meta-llama-3-8b",
+        "egyptian-arabic-translator-llama-3-8b"
+      ],
+      [
+        "meta-llama/meta-llama-3-8b-instruct",
+        "arabic-orpo-llama3-8b"
+      ],
+      [
+        "meta-llama/meta-llama-3-8b-instruct",
+        "llama-3-instruct-slerp-arabic"
+      ],
+      [
+        "microsoft/harrier-oss-v1-0.6b",
+        "harrier-arabic-matryoshka-0-6b"
+      ],
+      [
+        "microsoft/speecht5_tts",
+        "speecht5-tts-arabic"
+      ],
+      [
+        "microsoft/trocr-base-handwritten",
+        "trocr-tunisian-arabic"
+      ],
+      [
+        "mistralai/mistral-7b-v0.1",
+        "mistral-7b-v0-1-arabic"
+      ],
+      [
+        "mohamed2811/muffakir_embedding",
+        "badr-embedding-v0"
+      ],
+      [
+        "muaalem-model-v3-2",
+        "hifzguide-muaalem-mini"
+      ],
+      [
+        "multilingual-chatterbox",
+        "chatterbox-egyptian-v0"
+      ],
+      [
+        "multilingual-chatterbox",
+        "chatterbox-multilingual-finetuned-arabic"
+      ],
+      [
+        "multilingual-chatterbox",
+        "lahgtna-chatterbox-v1"
+      ],
+      [
+        "multilingual-chatterbox",
+        "namaa-egyptian-tts"
+      ],
+      [
+        "multilingual-chatterbox",
+        "namaa-saudi-tts"
+      ],
+      [
+        "muno459/zipformer_p-arabic",
+        "zipformer-p-quran"
+      ],
+      [
+        "nabra-82m-v0-1",
+        "kemetone"
+      ],
+      [
+        "nilechat-3b-base",
+        "lahjamt"
+      ],
+      [
+        "nineninesix/kani-tts-400m-0.3-pt",
+        "kani-tts-400m-ar"
+      ],
+      [
+        "nousresearch/llama-2-7b-chat-hf",
+        "llama-2-7b-chat-ar"
+      ],
+      [
+        "nvidia-fastconformer-arabic-diacritics",
+        "egyptalk-asr-v2"
+      ],
+      [
+        "nvidia-fastconformer-arabic-diacritics",
+        "fastconformer-quran"
+      ],
+      [
+        "nvidia-fastconformer-arabic-diacritics",
+        "stt-ar-fastconformer-hybrid-large-streaming-pcd-v1-1-mirror"
+      ],
+      [
+        "nvidia/magpie_tts_multilingual_357m",
+        "magpie-saqr-najdi"
+      ],
+      [
+        "nvidia/magpie_tts_multilingual_357m",
+        "magpie-tts-saudi-arabic"
+      ],
+      [
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "basira-omni-30b-v0-1"
+      ],
+      [
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-bf16",
+        "basira-omni-30b-v0-1"
+      ],
+      [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "nemotron-3-5-asr-streaming-0-6b-jordanian"
+      ],
+      [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "nemotron-asr-arabic-dialectal-v2"
+      ],
+      [
+        "oddadmix/emhotob-25m",
+        "emhotob-25m-english-msa-v1"
+      ],
+      [
+        "oddadmix/nawah-50m-rag-chat-8k",
+        "nawah-50m-rag-chat"
+      ],
+      [
+        "oddadmix/nawah-bert-6m-v2",
+        "nawah-dialect-bert-6m"
+      ],
+      [
+        "oddadmix/nawah-bert-6m-v2",
+        "nawah-router-bert-6m-bilingual"
+      ],
+      [
+        "oddadmix/whisper-large-v3-tunisian-codeswitch-asr-v2",
+        "whisperv3-tunisian-codeswitch"
+      ],
+      [
+        "omartificial-intelligence-space/sa-sts-embeddings-0.2b",
+        "sa-retrieval-embeddings-0-2b"
+      ],
+      [
+        "omarxadel/wav2vec2-large-xlsr-53-arabic-egyptian",
+        "egyptian-arabic-wav2vec2-xlsr-53"
+      ],
+      [
+        "openai-community/gpt2",
+        "hassaniya-gpt2-talk"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "arabic-morocco-speech-to-text"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-arabic-dialects-v5"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-libyan"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-ar"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-arabic-byne"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-arabic-dialectal-v2"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-egyptian-arabic"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-tarteel"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-large-v3-turbo"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisper-largev3-medical"
+      ],
+      [
+        "openai-whisper-large-v3",
+        "whisperlevantine"
+      ],
+      [
+        "openai/whisper-base",
+        "bahraini-arabic-asr"
+      ],
+      [
+        "openai/whisper-base",
+        "bahraini-arabic-whisper"
+      ],
+      [
+        "openai/whisper-base",
+        "faster-whisper-base-ar-quran"
+      ],
+      [
+        "openai/whisper-base",
+        "whisper-base-arabic"
+      ],
+      [
+        "openai/whisper-large",
+        "whisper-large-arabic-cv-11"
+      ],
+      [
+        "openai/whisper-large-v2",
+        "whisper-yemeni"
+      ],
+      [
+        "openai/whisper-medium",
+        "hadra-asr-whisper-medium"
+      ],
+      [
+        "openai/whisper-medium",
+        "tarbiyah-ai-whisper-medium-merged"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-algerian-darja-medium"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-egyptian-arabic"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-m-quran-lora-dataset-mix"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-medium-arabic"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-medium-darija"
+      ],
+      [
+        "openai/whisper-medium",
+        "whisper-medium-finetuned-sada-asr"
+      ],
+      [
+        "openai/whisper-small",
+        "arazn-whisper-small"
+      ],
+      [
+        "openai/whisper-small",
+        "quran-whisper-tiny-v1"
+      ],
+      [
+        "openai/whisper-small",
+        "stt-arabic-whisper-finetuned-diactires"
+      ],
+      [
+        "openai/whisper-small",
+        "tadabur-whisper-small"
+      ],
+      [
+        "openai/whisper-small",
+        "voho-saudi-stt-small"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-arabic-small"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-arabic-dialectal-v2"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-codeswitching-arabicenglish"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-darija"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-egyptian-codeswitch"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-for-quran"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-full-finetune"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-libyan"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-quran-lora-dataset-mix"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-quran-lora-everyayah"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-tunisian-arabic"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-small-yemeni"
+      ],
+      [
+        "openai/whisper-small",
+        "whisper-with-augmentation-small-arabic-with-diacritics"
+      ],
+      [
+        "openbmb/voxcpm2",
+        "fasee7-najdi-small"
+      ],
+      [
+        "opus-mt-ar-en",
+        "darija-to-english"
+      ],
+      [
+        "opus-mt-en-ar",
+        "masrawy-english-arabic-translator"
+      ],
+      [
+        "opus-mt-en-ar",
+        "terjman-nano-v1"
+      ],
+      [
+        "opus-mt-tc-big-en-ar",
+        "english-egyptian-arabic-translator"
+      ],
+      [
+        "opus-mt-tc-big-en-ar",
+        "english-to-darija-2"
+      ],
+      [
+        "opus-mt-tc-big-en-ar",
+        "masrawy-translator"
+      ],
+      [
+        "outeai/outetts-0.2-500m",
+        "darijatts-v0-1-500m"
+      ],
+      [
+        "qcri/fanar-1-9b",
+        "fanar-1-9b"
+      ],
+      [
+        "qwen/qwen-vl",
+        "mubsir-qwen-2b-vl"
+      ],
+      [
+        "qwen/qwen1.5-32b",
+        "acegpt-v2-32b-chat"
+      ],
+      [
+        "qwen/qwen2-72b",
+        "calme-2-2"
+      ],
+      [
+        "qwen/qwen2.5-0.5b",
+        "al-atlas-0-5b"
+      ],
+      [
+        "qwen/qwen2.5-0.5b",
+        "al-atlas-llm-0-5b"
+      ],
+      [
+        "qwen/qwen2.5-0.5b",
+        "rightnow-arabic-0-5b-turbo"
+      ],
+      [
+        "qwen/qwen2.5-1.5b-instruct",
+        "masrygpt-chat-1-5b"
+      ],
+      [
+        "qwen/qwen2.5-1.5b-instruct",
+        "python-assistant"
+      ],
+      [
+        "qwen/qwen2.5-1.5b-instruct",
+        "qwen2-5-1-5b-amiya-palestinian"
+      ],
+      [
+        "qwen/qwen2.5-3b",
+        "nilechat-3b"
+      ],
+      [
+        "qwen/qwen2.5-3b",
+        "nilechat-3b-base"
+      ],
+      [
+        "qwen/qwen2.5-7b-instruct",
+        "fikr-7b-reasoning"
+      ],
+      [
+        "qwen/qwen2.5-7b-instruct",
+        "meraj-mini"
+      ],
+      [
+        "qwen/qwen2.5-7b-instruct",
+        "probel-mtl"
+      ],
+      [
+        "qwen/qwen2.5-7b-instruct",
+        "qwen2-5-7b-jordanian"
+      ],
+      [
+        "qwen/qwen2.5-coder-1.5b",
+        "ayncoding-qwen2-5-coder-1-5b"
+      ],
+      [
+        "qwen/qwen2.5-vl-3b-instruct",
+        "arabic-english-handwritten-ocr-v3"
+      ],
+      [
+        "qwen/qwen2.5-vl-3b-instruct",
+        "arabic-handwritten-ocr-4bit-qwen2-5-vl-3b-v2"
+      ],
+      [
+        "qwen/qwen2.5-vl-7b-instruct",
+        "fanar-2-oryx-ivu"
+      ],
+      [
+        "qwen/qwen3-0.6b",
+        "voho-saudi-speak-0-6b"
+      ],
+      [
+        "qwen/qwen3-14b",
+        "tam-omani-adapter-tam-omani-v3"
+      ],
+      [
+        "qwen/qwen3-235b-a22b-instruct-2507",
+        "vivo-c-v1"
+      ],
+      [
+        "qwen/qwen3-30b-a3b-instruct-2507",
+        "karnak-40b-v1-0"
+      ],
+      [
+        "qwen/qwen3-30b-a3b-instruct-2507",
+        "karnak-llm"
+      ],
+      [
+        "qwen/qwen3-4b",
+        "arabic-sahm"
+      ],
+      [
+        "qwen/qwen3-4b",
+        "kallamni-4b-v1"
+      ],
+      [
+        "qwen/qwen3-4b",
+        "qwen3-4b-oman-qlora"
+      ],
+      [
+        "qwen/qwen3-4b-base",
+        "qwen3-4b-algerian-darja"
+      ],
+      [
+        "qwen/qwen3-4b-instruct-2507",
+        "karnak-6b"
+      ],
+      [
+        "qwen/qwen3-4b-instruct-2507",
+        "voho-saudi-chat-4b"
+      ],
+      [
+        "qwen/qwen3-8b",
+        "ayncoding-qwen3-8b-slim"
+      ],
+      [
+        "qwen/qwen3-8b",
+        "esprit-derja-qwen3-8b"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "lemura-arabic-asr-qwen3"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "moulsot-v0-3"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "qwen3-asr-1-7b-jordanian-dialect-arabic"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "qwen3-asr-arabic-ksa"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "qwen3-asr-arabic-uae"
+      ],
+      [
+        "qwen/qwen3-asr-1.7b",
+        "qwencleo-asr"
+      ],
+      [
+        "qwen/qwen3-embedding-0.6b",
+        "qwen3-embedding-0-6b-arabic-ecom"
+      ],
+      [
+        "qwen/qwen3-embedding-0.6b",
+        "semantic-ar-qwen-embed-0-6b"
+      ],
+      [
+        "qwen/qwen3-tts-12hz-1.7b-base",
+        "egy-arabic-qwen3-tts-12hz-1-7b-base"
+      ],
+      [
+        "qwen/qwen3-tts-12hz-1.7b-base",
+        "qwen3-5-tts-emirati"
+      ],
+      [
+        "qwen/qwen3-tts-12hz-1.7b-base",
+        "qwen3-tts-ksa"
+      ],
+      [
+        "qwen/qwen3-vl-2b-instruct",
+        "qwen3-vl-2b-persian-arabic-ocr-v1-0"
+      ],
+      [
+        "qwen/qwen3-vl-4b-instruct",
+        "qari-ocr-0-4-0-vl-4b-instruct"
+      ],
+      [
+        "qwen/qwen3-vl-8b-instruct",
+        "mtrini-svl-1-1-merged"
+      ],
+      [
+        "qwen/qwen3.5-0.8b",
+        "arabic-qwen3-5-ocr-v4"
+      ],
+      [
+        "qwen/qwen3.5-0.8b",
+        "egyptian-arabic-eot"
+      ],
+      [
+        "qwen/qwq-32b-preview",
+        "arabic-qwq-32b-preview"
+      ],
+      [
+        "qwen2.5vl",
+        "baseer-nakba"
+      ],
+      [
+        "qwen3.5",
+        "asl-4b-v1"
+      ],
+      [
+        "seamlessm4t-v2",
+        "seamless-darija-english"
+      ],
+      [
+        "sentence-transformers/labse",
+        "arabic-labse-matryoshka"
+      ],
+      [
+        "sentence-transformers/paraphrase-multilingual-minilm-l12-v2",
+        "arabic-minilm-l12-v2-all-nli-triplet"
+      ],
+      [
+        "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+        "arabic-all-nli-triplet-matryoshka"
+      ],
+      [
+        "sesame/csm-1b",
+        "seasmed-fine-tuned-on-common-voice-17-arabic-samehelalfi"
+      ],
+      [
+        "sherif1313/3arab-tts-500m-v1",
+        "3arab-tts-500m-v2"
+      ],
+      [
+        "sherif1313/3arablm-4b-fiqh-v1",
+        "3arablm-4b-islamic-v2"
+      ],
+      [
+        "silma-ai/silma-embeddding-matryoshka-0.1",
+        "silma-embedding-sts-v0-1"
+      ],
+      [
+        "silma-embedding-matryoshka-v0-1",
+        "silma-embedding-sts-v0-1"
+      ],
+      [
+        "silma-tts",
+        "saudi-tts-v4"
+      ],
+      [
+        "sparkaudio/spark-tts-0.5b",
+        "arabic-tts-spark"
+      ],
+      [
+        "sparkaudio/spark-tts-0.5b",
+        "spark-tts-arabic"
+      ],
+      [
+        "sparkaudio/spark-tts-0.5b",
+        "spark-tts-arabic-complete"
+      ],
+      [
+        "swivid/f5-tts",
+        "arabic-f5-tts-v2"
+      ],
+      [
+        "swivid/f5-tts",
+        "f5-tts-arabic"
+      ],
+      [
+        "swivid/habibi-tts",
+        "f5-tts-egyptian-arabic"
+      ],
+      [
+        "swivid/habibi-tts",
+        "habibi-tts-doda-darija"
+      ],
+      [
+        "swivid/habibi-tts",
+        "namaa-saudi-tts-v2"
+      ],
+      [
+        "tiiuae/falcon3-7b-base",
+        "falcon-arabic"
+      ],
+      [
+        "tomaarsen/mpnet-base-all-nli-triplet",
+        "arabic-mpnet-base-all-nli-triplet"
+      ],
+      [
+        "u4rasd/neoarabert_msa",
+        "neoarabert-msa-synonym-matryoshka-v1"
+      ],
+      [
+        "unsloth/deepseek-r1-distill-llama-8b-unsloth-bnb-4bit",
+        "arabic-deepseek-r1-distill-8b"
+      ],
+      [
+        "unsloth/gemma-3n-e4b-it",
+        "masriswitch-gemma3n"
+      ],
+      [
+        "unsloth/gemma-3n-e4b-it",
+        "shako-iraqi-4b"
+      ],
+      [
+        "unsloth/gemma-4-e2b-it",
+        "yemeni-arabic-assistant"
+      ],
+      [
+        "unsloth/gpt-oss-20b-unsloth-bnb-4bit",
+        "gpt-oss-math-ar"
+      ],
+      [
+        "unsloth/granite-4.0-h-small-base",
+        "arabic-llm-guard"
+      ],
+      [
+        "unsloth/llama-3-8b-bnb-4bit",
+        "arabic-llama3"
+      ],
+      [
+        "unsloth/llama-3.2-1b-instruct",
+        "vynis-0-1-2b-instant"
+      ],
+      [
+        "unsloth/meta-llama-3.1-8b-instruct-bnb-4bit",
+        "lebanese-llama-3-1-8b"
+      ],
+      [
+        "unsloth/muse-glimmer-30b-unsloth-bnb-4bit",
+        "khattvision-muse-glimmer-30b-lora"
+      ],
+      [
+        "unsloth/qwen2-vl-2b-instruct-unsloth-bnb-4bit",
+        "qari-ocr-0-1-vl-2b-instruct"
+      ],
+      [
+        "unsloth/qwen2-vl-2b-instruct-unsloth-bnb-4bit",
+        "qari-ocr-0-2-2-1-vl-2b-instruct"
+      ],
+      [
+        "unsloth/qwen2.5-3b-instruct-unsloth-bnb-4bit",
+        "diraya-3b-instruct-ar"
+      ],
+      [
+        "unsloth/qwen2.5-7b-instruct",
+        "qwen2-5-7b-instruct-arabic-yt-merged"
+      ],
+      [
+        "unsloth/qwen2.5-7b-instruct-bnb-4bit",
+        "qween7-5-arabic-story-teller-2"
+      ],
+      [
+        "unsloth/qwen2.5-vl-7b-instruct-bnb-4bit",
+        "arabic-ocr-qwen2-5-vl-7b-vision"
+      ],
+      [
+        "unsloth/qwen2.5-vl-7b-instruct-bnb-4bit",
+        "dimi-arabic-ocr"
+      ],
+      [
+        "unsloth/qwen3-14b",
+        "bee1reason-arabic-qwen-14b"
+      ],
+      [
+        "unsloth/qwen3.5-0.8b",
+        "katib-qwen3-5-0-8b-0-1"
+      ],
+      [
+        "unsloth/qwen3.5-9b",
+        "qwen3-5-9b-saudi-dialect"
+      ],
+      [
+        "urchade/gliner_multi-v2.1",
+        "gliner-arabic"
+      ],
+      [
+        "wasmdashai/vits-ar-sa-a",
+        "lahja-sa-ahmad-v1"
+      ],
+      [
+        "wasmdashai/vits-ar-sa-huba-v2",
+        "lahja-sa-huba-v1"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-l-v3-turbo-quran-lora-dataset-mix"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-large-v3-turbo-ar-quran"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-large-v3-turbo-arabic"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-large-v3-turbo-arabic-dialectal"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-large-v3-turbo-arabic-dialectal-v2"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-large-v3-turbo-darija"
+      ],
+      [
+        "whisper-large-v3-turbo",
+        "whisper-turbo-egyptian-codeswitch"
+      ],
+      [
+        "whisper-medium-darija",
+        "asr-hassaniya-whisper-medium-v1"
+      ],
+      [
+        "whisper-quran",
+        "faster-whisper-base-ar-quran"
+      ],
+      [
+        "whisper-quran",
+        "whisper-base-ar-quran-ft-hijaiyah-2"
+      ],
+      [
+        "whisper-quran",
+        "whisper-base-quran"
+      ],
+      [
+        "xlm-roberta-base",
+        "span-marker-xlm-roberta-base-ar"
+      ],
+      [
+        "xtts-v2",
+        "arabic-tts-xtts-v2"
+      ],
+      [
+        "xtts-v2",
+        "egtts-v0-1"
+      ],
+      [
+        "xtts-v2",
+        "fasih-tts-v1"
+      ],
+      [
+        "xtts-v2",
+        "leva-tts"
+      ],
+      [
+        "xtts-v2",
+        "niletts-xtts"
+      ],
+      [
+        "xtts-v2",
+        "tunisian-tts"
+      ],
+      [
+        "yatharths/miratts",
+        "sofelia-tts"
+      ],
+      [
+        "zai-org/glm-ocr",
+        "arabic-glm-ocr-v1"
+      ],
+      [
+        "zai-org/glm-ocr",
+        "arabic-glm-ocr-v2"
+      ]
+    ],
+    "root_of": {
+      "3arab-tts-500m-v2": "other",
+      "3arab-tts-500m-v2-voicedesign": "other",
+      "3arablm-4b-islamic-v2": "other",
+      "50m-2048-emhotob": "other",
+      "50m-darija-english-v1": "other",
+      "acegpt": "llama",
+      "acegpt-13b": "llama",
+      "acegpt-v2-32b-chat": "qwen",
+      "adabtranslate-darija": "other",
+      "aisa-ar-functioncall-think": "gemma",
+      "al-atlas-0-5b": "qwen",
+      "al-atlas-llm-0-5b": "qwen",
+      "algerian-dialect-translation": "t5",
+      "algerianme5": "other",
+      "allam": "from-scratch",
+      "allam-7b-instruct-preview": "from-scratch",
+      "ara-prompt-guard-v0": "llama",
+      "ara-prompt-guard-v1": "llama",
+      "arabart": "other",
+      "arabert-all-nli-triplet-matryoshka": "bert",
+      "arabertv02": "bert",
+      "arabiangpt": "other",
+      "arabic-all-nli-triplet-matryoshka": "other",
+      "arabic-base-all-nli-stsb-quora": "bert",
+      "arabic-base-nougat": "other",
+      "arabic-colbert-100k": "bert",
+      "arabic-deepseek-r1-distill-8b": "llama",
+      "arabic-english-bge-m3": "other",
+      "arabic-english-handwritten-ocr-v3": "qwen",
+      "arabic-english-sts-matryoshka-v2-0": "bert",
+      "arabic-f5-tts-v2": "other",
+      "arabic-gec-v1": "gemma",
+      "arabic-glm-ocr-v1": "other",
+      "arabic-glm-ocr-v2": "other",
+      "arabic-handwritten-ocr-4bit-qwen2-5-vl-3b-v2": "qwen",
+      "arabic-labse-matryoshka": "other",
+      "arabic-legal-documents-ocr-1-0": "gemma",
+      "arabic-llama3": "llama",
+      "arabic-llm-guard": "other",
+      "arabic-minilm-l12-v2-all-nli-triplet": "other",
+      "arabic-morocco-speech-to-text": "whisper",
+      "arabic-mpnet-base-all-nli-triplet": "other",
+      "arabic-ocr-qwen2-5-vl-7b-vision": "qwen",
+      "arabic-orpo-llama3-8b": "llama",
+      "arabic-qwen3-5-ocr-v4": "qwen",
+      "arabic-qwq-32b-preview": "qwen",
+      "arabic-reranker": "bert",
+      "arabic-retrieval-v1-0": "bert",
+      "arabic-sahm": "qwen",
+      "arabic-sbert-100k": "bert",
+      "arabic-semantic-highlighter": "other",
+      "arabic-sentiment-model": "bert",
+      "arabic-small-nougat": "other",
+      "arabic-sts-matryoshka": "bert",
+      "arabic-sts-matryoshka-v2": "bert",
+      "arabic-summarization": "other",
+      "arabic-text-correction": "t5",
+      "arabic-triplet-matryoshka-v2": "bert",
+      "arabic-tts-spark": "other",
+      "arabic-tts-xtts-v2": "other",
+      "araeurobert-210m": "bert",
+      "araeurobert-610m": "bert",
+      "aragemma-embedding-300m": "gemma",
+      "aragpt2": "from-scratch",
+      "aragpt2-base": "from-scratch",
+      "aragpt2-large": "from-scratch",
+      "aragpt2-medium": "from-scratch",
+      "aramodernbert-base-sts": "bert",
+      "aramodernbert-base-v1-0": "bert",
+      "aramodernbert-topic-classifier": "bert",
+      "ararest-arabic-restaurant-reviews-sentiment-analysis": "bert",
+      "arastyletransfer-21": "other",
+      "arat5": "t5",
+      "arat5v2-base-1024": "other",
+      "arazn-whisper-small": "whisper",
+      "asl-4b-v1": "qwen",
+      "asr-hassaniya-whisper-medium-v1": "whisper",
+      "atlas-chat": "gemma",
+      "atlas-chat-27b": "gemma",
+      "atlas-chat-2b": "gemma",
+      "atlas-chat-9b": "gemma",
+      "ayncoding-qwen2-5-coder-1-5b": "qwen",
+      "ayncoding-qwen3-8b-slim": "qwen",
+      "badr-embedding-v0": "other",
+      "bahraini-arabic-asr": "whisper",
+      "bahraini-arabic-whisper": "whisper",
+      "bahraini-dialect-llm": "from-scratch",
+      "barka": "gemma",
+      "baseer-nakba": "qwen",
+      "basira-omni-30b-v0-1": "other",
+      "bee1reason-arabic-qwen-14b": "qwen",
+      "bert-base-arabertv02-twitter": "bert",
+      "bert-base-arabertv2": "bert",
+      "bert-base-arabic-camelbert-da-sentiment": "bert",
+      "bert-base-arabic-hate-speech": "bert",
+      "bert-mini-arabic": "bert",
+      "bge-m3-law": "other",
+      "byt5-darija-emphatic": "other",
+      "calme-2-2": "qwen",
+      "camel-readability-arabertv02": "bert",
+      "chatterbox-egyptian-v0": "other",
+      "chatterbox-multilingual-finetuned-arabic": "other",
+      "cohere-jordanian-dialect": "other",
+      "cohere-speech-tashkeel-2b": "other",
+      "cohere-transcribe-arabic-07-2026": "other",
+      "cohere-transcribe-arabic-07-2026-dialectal": "other",
+      "cohere-transcribe-arabic-07-2026-dialectal-v2": "other",
+      "cohere-transcribe-arabic-07-2026-int4": "other",
+      "cohere-transcribe-arabic-cpu": "other",
+      "command-r7b-arabic": "other",
+      "darija-omnivoice-kore-v1": "other",
+      "darija-text-generation": "bloom",
+      "darija-to-english": "other",
+      "darija-to-english-2": "other",
+      "darijatts-v0-1-500m": "other",
+      "dialect-router-v0-1": "bert",
+      "dimi-arabic-ocr": "qwen",
+      "dimi-embedding": "bert",
+      "dimi-embedding-v4": "other",
+      "diraya-3b-instruct-ar": "qwen",
+      "dr-ai-v2": "gemma",
+      "dz-emobert": "bert",
+      "dziribert": "bert",
+      "egtts-v0-1": "other",
+      "egy-arabic-qwen3-tts-12hz-1-7b-base": "qwen",
+      "egyptalk-asr-v2": "other",
+      "egyptian-arabic-eot": "qwen",
+      "egyptian-arabic-translator-llama-3-8b": "llama",
+      "egyptian-arabic-wav2vec2-xlsr-53": "xlsr",
+      "emhotob-25m-english-msa-v1": "other",
+      "emirati-fastpitch-bilingual-v1-0": "other",
+      "english-egyptian-arabic-translator": "other",
+      "english-moroccan-darija-v1": "other",
+      "english-to-darija-2": "other",
+      "esprit-derja-qwen3-8b": "qwen",
+      "f5-tts-arabic": "other",
+      "f5-tts-egyptian-arabic": "other",
+      "f5tts-algerian-darja": "other",
+      "falcon-arabic": "falcon",
+      "fanar-1-9b": "other",
+      "fanar-2-27b-instruct": "gemma",
+      "fanar-2-diwan": "from-scratch",
+      "fanar-2-oryx-ig": "other",
+      "fanar-2-oryx-ivu": "qwen",
+      "fanar-math-r1-grpo": "other",
+      "fasee7-najdi-small": "other",
+      "fasih-tts-v1": "other",
+      "fastconformer-quran": "other",
+      "faster-whisper-base-ar-quran": "whisper",
+      "fibonacci-2-14b": "other",
+      "fikr-7b-reasoning": "qwen",
+      "fine-tuning-gemma-2b-it-for-arabic": "gemma",
+      "gate-arabert-v0": "bert",
+      "gate-arabert-v1": "bert",
+      "gate-reranker-v1": "bert",
+      "gemma-4-e2b-arabic-english-vision": "gemma",
+      "gemma-iraqi-finetune-v2": "gemma",
+      "gemma4-e4b-claims-comparison": "gemma",
+      "gemmaroc-27b-it": "gemma",
+      "gliner-arabic": "other",
+      "gpt-oss-math-ar": "other",
+      "habibi-tts-doda-darija": "other",
+      "hadra-asr-whisper-medium": "whisper",
+      "hadra-tts-f5": "other",
+      "hala-350m": "other",
+      "harrier-arabic-matryoshka-0-6b": "other",
+      "hassaniya-gpt2-talk": "other",
+      "hifzguide-muaalem-mini": "bert",
+      "hubert-arabic-spoken-dialect-classifier": "bert",
+      "inference-free-splade-distilbert-base-arabic-cased-nq": "bert",
+      "jais": "from-scratch",
+      "jais-13b": "from-scratch",
+      "jais-13b-chat": "from-scratch",
+      "jais-2-70b-chat": "from-scratch",
+      "jais-2-8b-chat": "from-scratch",
+      "jais-adapted": "other",
+      "jais-family-30b-8k": "from-scratch",
+      "jais-family-590m": "from-scratch",
+      "jais-family-590m-chat": "from-scratch",
+      "jais-family-chat": "other",
+      "jameamt-ar-en-350m": "other",
+      "jev-ar": "other",
+      "jordanian-to-fusha-model": "other",
+      "kallamni-4b-v1": "qwen",
+      "kani-tts-400m-ar": "other",
+      "karnak-40b-v1-0": "qwen",
+      "karnak-6b": "qwen",
+      "karnak-llm": "qwen",
+      "katib-qwen3-5-0-8b-0-1": "qwen",
+      "kemetone": "other",
+      "ketaba-ocr-lora": "qwen",
+      "khattvision-muse-glimmer-30b-lora": "other",
+      "lahgtna-chatterbox-v1": "other",
+      "lahgtna-omnivoice-v2": "other",
+      "lahja-sa-ahmad-v1": "other",
+      "lahja-sa-huba-v1": "other",
+      "lahjamt": "qwen",
+      "laya-ara-rag": "other",
+      "lebanese-llama-3-1-8b": "llama",
+      "lemura-arabic-asr-qwen3": "qwen",
+      "leva-tts": "other",
+      "lfm2-5-1-2b-instruct-saudi-dialect": "other",
+      "livekit-turn-detector-arabic": "other",
+      "llama-2-7b-chat-ar": "llama",
+      "llama-3-3": "llama",
+      "llama-3-instruct-slerp-arabic": "llama",
+      "llamalens": "llama",
+      "magpie-saqr-najdi": "other",
+      "magpie-tts-saudi-arabic": "other",
+      "marbert-all-nli-triplet-matryoshka": "bert",
+      "marbertv2": "bert",
+      "marbertv2-arabic-written-dialect-classifier": "bert",
+      "marbertv2-finetuned-egyptian-hate-speech-detection": "bert",
+      "masrawy-bilingual-v1": "other",
+      "masrawy-english-arabic-translator": "other",
+      "masrawy-translator": "other",
+      "masribert-v4": "bert",
+      "masriswitch-gemma3n": "gemma",
+      "masrygpt-chat-1-5b": "qwen",
+      "math-arabic-llama-3-2-3b-instruct": "llama",
+      "mawrooth-allam-7b-lora": "from-scratch",
+      "meraj-mini": "qwen",
+      "mistral-7b-v0-1-arabic": "mistral",
+      "mizan-rerank-v2": "other",
+      "mmbert-base-arabic-nli": "bert",
+      "mms-300m-arabic-dialect-identifier": "mms",
+      "modernarabert": "bert",
+      "modernbert-arabic": "bert",
+      "modernbert-morocco-sentence-embeddings-v0-2-bs-32-lr-2e-05-ep-2-wp-0-0": "bert",
+      "morocco-darija-sentence-embedding-v0-2": "bert",
+      "moulsot-v0-3": "qwen",
+      "mtrini-svl-1-1-merged": "qwen",
+      "muaalem-model-v3-2": "bert",
+      "mubsir-qwen-2b-vl": "qwen",
+      "muffakir-embedding-v2": "other",
+      "multilingual-chatterbox": "other",
+      "nabra-82m-v0-1": "other",
+      "namaa-egyptian-tts": "other",
+      "namaa-reranker": "bert",
+      "namaa-saudi-asr-v1": "other",
+      "namaa-saudi-tts": "other",
+      "namaa-saudi-tts-v2": "other",
+      "nawah-50m-rag-chat": "other",
+      "nawah-50m-rag-support-2k": "other",
+      "nawah-dialect-bert-6m": "bert",
+      "nawah-math-reasoning": "other",
+      "nawah-router-bert-6m-bilingual": "bert",
+      "nemotron-3-5-asr-streaming-0-6b-jordanian": "other",
+      "nemotron-asr-arabic-dialectal-v2": "other",
+      "neoarabert": "other",
+      "neoarabert-msa-synonym-matryoshka-v1": "bert",
+      "nile-chat": "gemma",
+      "nile-chat-12b": "gemma",
+      "nile-chat-4b": "gemma",
+      "nilechat-3b": "qwen",
+      "nilechat-3b-base": "qwen",
+      "niletts-xtts": "other",
+      "noormontai": "other",
+      "nvidia-fastconformer-arabic-diacritics": "other",
+      "octopus": "qwen",
+      "openai-whisper-large-v3": "whisper",
+      "opus-mt-ar-en": "other",
+      "opus-mt-en-ar": "other",
+      "opus-mt-tc-big-en-ar": "other",
+      "probel-mtl": "qwen",
+      "python-assistant": "qwen",
+      "qa-finetuned-arabiangpt-01b": "other",
+      "qari-ocr-0-1-vl-2b-instruct": "qwen",
+      "qari-ocr-0-2-2-1-vl-2b-instruct": "qwen",
+      "qari-ocr-0-4-0-vl-4b-instruct": "qwen",
+      "quran-whisper-tiny-v1": "whisper",
+      "qween7-5-arabic-story-teller-2": "qwen",
+      "qwen2-5-1-5b-amiya-palestinian": "qwen",
+      "qwen2-5-7b-instruct-arabic-yt-merged": "qwen",
+      "qwen2-5-7b-jordanian": "qwen",
+      "qwen3-4b-algerian-darja": "qwen",
+      "qwen3-4b-oman-qlora": "qwen",
+      "qwen3-5-9b-saudi-dialect": "qwen",
+      "qwen3-5-tts-emirati": "qwen",
+      "qwen3-asr-1-7b-jordanian-dialect-arabic": "qwen",
+      "qwen3-asr-arabic-ksa": "qwen",
+      "qwen3-asr-arabic-uae": "qwen",
+      "qwen3-embedding-0-6b-arabic-ecom": "qwen",
+      "qwen3-tts-ksa": "qwen",
+      "qwen3-vl-2b-persian-arabic-ocr-v1-0": "qwen",
+      "qwencleo-asr": "qwen",
+      "recitation-segmenter-v2": "bert",
+      "rightnow-arabic-0-5b-turbo": "qwen",
+      "sa-bert-v1": "bert",
+      "sa-retrieval-embeddings-0-2b": "other",
+      "saudi-tts-v4": "other",
+      "saudispell-arat5": "other",
+      "seamless-darija-english": "other",
+      "seamlessm4t-v2": "other",
+      "seasmed-fine-tuned-on-common-voice-17-arabic-samehelalfi": "other",
+      "semantic-ar-qwen-embed-0-6b": "qwen",
+      "sentimentareng": "bert",
+      "shako-iraqi-4b": "gemma",
+      "shami-mt": "other",
+      "shamibert": "bert",
+      "silma-embedding-matryoshka-v0-1": "bert",
+      "silma-embedding-sts-v0-1": "other",
+      "silma-tts": "other",
+      "sofelia-tts": "other",
+      "span-marker-xlm-roberta-base-ar": "bert",
+      "spark-tts-arabic": "other",
+      "spark-tts-arabic-complete": "other",
+      "spark-tts-normazlied-masri-mega": "other",
+      "speecht5-tts-arabic": "other",
+      "stt-ar-fastconformer-hybrid-large-streaming-pcd-v1-1-mirror": "other",
+      "stt-arabic-whisper-finetuned-diactires": "whisper",
+      "tadabur-whisper-small": "whisper",
+      "tam-omani-adapter-tam-omani-v3": "qwen",
+      "tarbiyah-ai-whisper-medium-merged": "whisper",
+      "tashkeel-700m": "other",
+      "terjman-large": "other",
+      "terjman-nano-v1": "other",
+      "terjman-supreme-v1": "other",
+      "tinyoctopus": "qwen",
+      "trocr-tunisian-arabic": "other",
+      "tunisian-tts": "other",
+      "unlimited-ocr-quran-uthmani": "other",
+      "vibevoice-arabic-z": "other",
+      "vibevoice-egy": "other",
+      "viobert-v3": "bert",
+      "vivo-c-v1": "qwen",
+      "voho-saudi-chat-4b": "qwen",
+      "voho-saudi-speak-0-6b": "qwen",
+      "voho-saudi-stt-small": "whisper",
+      "vynis-0-1-2b-instant": "llama",
+      "wav2vec2-arabic-phoneme-asr": "xlsr",
+      "wav2vec2-base-word-by-word-quran-asr": "wav2vec",
+      "wav2vec2-large-xlsr-arabic": "xlsr",
+      "wav2vec2-large-xlsr-moroccan-darija": "xlsr",
+      "wav2vec2-quran-phonetics": "wav2vec",
+      "whisper-algerian-darja-medium": "whisper",
+      "whisper-arabic-small": "whisper",
+      "whisper-base-ar-quran-ft-hijaiyah-2": "whisper",
+      "whisper-base-arabic": "whisper",
+      "whisper-base-quran": "whisper",
+      "whisper-egyptian-arabic": "whisper",
+      "whisper-l-v3-turbo-quran-lora-dataset-mix": "whisper",
+      "whisper-large-arabic-cv-11": "whisper",
+      "whisper-large-arabic-dialects-v5": "whisper",
+      "whisper-large-libyan": "whisper",
+      "whisper-large-v3-ar": "whisper",
+      "whisper-large-v3-arabic-byne": "whisper",
+      "whisper-large-v3-arabic-dialectal-v2": "whisper",
+      "whisper-large-v3-egyptian-arabic": "whisper",
+      "whisper-large-v3-tarteel": "whisper",
+      "whisper-large-v3-turbo": "whisper",
+      "whisper-large-v3-turbo-ar-quran": "whisper",
+      "whisper-large-v3-turbo-arabic": "whisper",
+      "whisper-large-v3-turbo-arabic-dialectal": "whisper",
+      "whisper-large-v3-turbo-arabic-dialectal-v2": "whisper",
+      "whisper-large-v3-turbo-darija": "whisper",
+      "whisper-largev3-medical": "whisper",
+      "whisper-m-quran-lora-dataset-mix": "whisper",
+      "whisper-medium-arabic": "whisper",
+      "whisper-medium-darija": "whisper",
+      "whisper-medium-finetuned-sada-asr": "whisper",
+      "whisper-quran": "whisper",
+      "whisper-small-arabic-dialectal-v2": "whisper",
+      "whisper-small-codeswitching-arabicenglish": "whisper",
+      "whisper-small-darija": "whisper",
+      "whisper-small-egyptian-codeswitch": "whisper",
+      "whisper-small-for-quran": "whisper",
+      "whisper-small-full-finetune": "whisper",
+      "whisper-small-libyan": "whisper",
+      "whisper-small-quran-lora-dataset-mix": "whisper",
+      "whisper-small-quran-lora-everyayah": "whisper",
+      "whisper-small-tunisian-arabic": "whisper",
+      "whisper-small-yemeni": "whisper",
+      "whisper-turbo-egyptian-codeswitch": "whisper",
+      "whisper-with-augmentation-small-arabic-with-diacritics": "whisper",
+      "whisper-yemeni": "whisper",
+      "whisperlevantine": "whisper",
+      "whisperv3-tunisian-codeswitch": "whisper",
+      "xlm-roberta-morocco": "bert",
+      "xtts-v2": "other",
+      "yehia": "from-scratch",
+      "yehia-7b-preview": "from-scratch",
+      "yemeni-arabic-assistant": "gemma",
+      "zarra": "other",
+      "zipformer-p-quran": "other"
+    }
+  }
 }

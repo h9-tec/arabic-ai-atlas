@@ -1,5 +1,7 @@
 from atlas.enrich import build_hf_ids, merge_metrics
-from atlas.query import get, recommend, search
+import json
+
+from atlas.query import get, load_atlas, load_doc, recommend, search
 
 
 def _merged(fixture_entries):
@@ -117,3 +119,10 @@ def test_recommend_ranks_papers_below_datasets_unless_requested():
     ]
     assert [r["id"] for r in recommend(entries, "asr", limit=5)] == ["m", "d", "p"]
     assert [r["id"] for r in recommend(entries, "asr", type="paper")] == ["p"]
+
+
+def test_load_doc_returns_whole_json(tmp_path):
+    p = tmp_path / "atlas.json"
+    p.write_text(json.dumps({"entries": [{"id": "x"}], "lineage": {"roots": []}}), encoding="utf-8")
+    assert load_doc(p) == {"entries": [{"id": "x"}], "lineage": {"roots": []}}
+    assert load_atlas(p) == [{"id": "x"}]

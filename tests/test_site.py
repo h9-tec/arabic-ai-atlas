@@ -21,12 +21,14 @@ def _node() -> str | None:
 
 
 def test_site_files_exist_and_are_wired():
-    for name in ("index.html", "app.js", "map.js", "styles.css", "vendor/d3.min.js", "vendor/topojson-client.min.js",
+    for name in ("index.html", "app.js", "map.js", "tree.js", "styles.css", "vendor/d3.min.js", "vendor/topojson-client.min.js",
                  "vendor/README.md", "geo/countries-110m.json", "geo/centroids.json"):
         assert (SITE / name).is_file(), name
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert re.search(r'<script[^>]+src="app\.js"', html)
     assert re.search(r'<script[^>]+src="map\.js"', html)
+    assert re.search(r'<script[^>]+src="tree\.js"', html)
+    assert 'data-view="tree"' in html and 'id="treeview"' in html
     centroids = json.loads((SITE / "geo" / "centroids.json").read_text(encoding="utf-8"))
     assert set(centroids["countries"]) == {"SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH",
                                          "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"}
@@ -39,11 +41,11 @@ def test_no_remote_scripts_or_cdns():
     srcs = re.findall(r'<script[^>]+src="([^"]+)"', html)
     assert srcs, "no scripts found"
     for src in srcs:
-        assert src in ("app.js", "map.js") or (src.startswith("vendor/") and ".." not in src), src
+        assert src in ("app.js", "map.js", "tree.js") or (src.startswith("vendor/") and ".." not in src), src
         assert (SITE / src).is_file(), src
     for href in re.findall(r'<link[^>]+href="(https?://[^"]+)"', html):
         assert href.startswith(("https://fonts.googleapis.com", "https://fonts.gstatic.com")), href
-    for name in ("app.js", "map.js"):
+    for name in ("app.js", "map.js", "tree.js"):
         js = (SITE / name).read_text(encoding="utf-8")
         assert "http://" not in js, name
         assert not re.search(r"(import|importScripts|src\s*=)\s*\(?[\"']https://", js), name
@@ -55,6 +57,7 @@ NODE_SMOKE = r"""
 const atlas = require(process.argv[2]);
 const data = require(process.argv[3]);
 const map = require(process.argv[4]);
+const tree = require(process.argv[5]);
 const E = data.entries;
 const out = {
   tts_on_device: atlas.filter(E, {type: "tts", on_device: true}).length,
@@ -94,6 +97,14 @@ const out = {
     {id: "c", title: "C", why: "w", status: "filled", recent: false, by: ["q"], hash: ""},
     {id: "d", title: "D", why: "w", status: "open", recent: false}]),
   wanted_canon: (data.wanted || []).every(w => !w.hash || atlas.serializeHash(atlas.parseHash(w.hash)) === w.hash),
+  view_tree: atlas.serializeHash(atlas.parseHash("#view=tree&type=llm")),
+  tree_roots: tree.buildHierarchy(data.lineage, E).children.map(c => c.id),
+  tree_cycle: tree.buildHierarchy({roots: [{id: "other", label: "Other", label_ar: "\u0623\u062e\u0631\u0649", count: 2}], edges: [["a", "b"], ["b", "a"]], root_of: {a: "other", b: "other"}}, []).children.length,
+  tree_cycle_ids: (function walk(n) { return [n.id].concat((n.children || []).flatMap(walk)); })(tree.buildHierarchy({roots: [{id: "other", label: "Other", label_ar: "x", count: 2}], edges: [["a", "b"], ["b", "a"]], root_of: {a: "other", b: "other"}}, [])),
+  tree_ext: (function strip(n) { return {id: n.id, external: !!n.external, children: (n.children || []).map(strip)}; })(tree.buildHierarchy({
+    roots: [{id: "qwen", label: "Qwen", label_ar: "q", count: 3}],
+    edges: [["qwen/qwen2.5-7b", "x"], ["x", "y"], ["qwen/qwen2.5-7b", "z"]], root_of: {x: "qwen", y: "qwen", z: "qwen"}},
+    [{id: "x", name: "X", metrics: {downloads: 5}}, {id: "y", name: "Y"}, {id: "z", name: "Z", metrics: {downloads: 50}}]).children[0]),
   layout_skip: map.bubbleLayout({llm: {n: 0, downloads: 0}, ocr: {n: 1, downloads: 0}}).length,
 };
 console.log(JSON.stringify(out));
@@ -107,7 +118,8 @@ def test_filter_logic_in_node(tmp_path):
     script = tmp_path / "smoke.js"
     script.write_text(NODE_SMOKE, encoding="utf-8")
     res = subprocess.run(
-        [node, str(script), str(SITE / "app.js"), str(ROOT / "dist" / "atlas.json"), str(SITE / "map.js")],
+        [node, str(script), str(SITE / "app.js"), str(ROOT / "dist" / "atlas.json"), str(SITE / "map.js"),
+         str(SITE / "tree.js")],
         capture_output=True, text=True, timeout=60, env={**os.environ, "NODE_NO_WARNINGS": "1"},
     )
     assert res.returncode == 0, res.stderr
@@ -152,6 +164,17 @@ def test_filter_logic_in_node(tmp_path):
     assert not out["arab_max"]["key"].startswith("INTL|")
     assert out["intl_max"]["key"].startswith("INTL|")
     assert out["arab_top_r"] == 26
+
+    # tree view
+    atlas = json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))
+    assert out["view_tree"] == "#type=llm&view=tree"
+    assert out["tree_roots"] == [r["id"] for r in atlas["lineage"]["roots"]]
+    assert out["tree_cycle"] == 1
+    assert sorted(out["tree_cycle_ids"]) == ["a", "b", "other", "root"]
+    assert out["tree_ext"] == {"id": "qwen", "external": False, "children": [
+        {"id": "qwen/qwen2.5-7b", "external": True, "children": [
+            {"id": "z", "external": False, "children": []},
+            {"id": "x", "external": False, "children": [{"id": "y", "external": False, "children": []}]}]}]}
 
     # most-wanted panel
     wanted = json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))["wanted"]

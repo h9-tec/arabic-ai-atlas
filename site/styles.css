@@ -285,6 +285,40 @@ svg.map:active { cursor: grabbing; }
 .tt-top li .n { float: right; margin-left: 8px; }
 .tt-hint, .tt-note { margin-top: 8px !important; font-size: 12px; color: var(--muted); }
 
+/* tree view: a lineage plate, same neat line as the map */
+.treeview { margin-top: 22px; }
+main.is-tree .plate { display: none; }
+.tree-note { margin: 0 0 10px; max-width: 80ch; font-size: 13px; color: var(--muted); }
+.tn-phone { display: none; }
+.tree-frame {
+  position: relative; width: 100%; height: min(78vh, 880px); min-height: 480px; overflow: hidden; background: var(--sheet);
+  border: 1px solid var(--rule-strong); outline: 1px solid var(--rule-strong); outline-offset: 3px;
+}
+svg.tree { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+svg.tree:active { cursor: grabbing; }
+.tree-reset { position: absolute; right: 12px; top: 12px; z-index: 3; }
+.bands line { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.links path { fill: none; stroke: var(--rule-strong); stroke-width: 1; vector-effect: non-scaling-stroke; transition: opacity .2s; }
+.links path.is-dimmed { opacity: .25; }
+.tn { cursor: default; outline: none; transition: opacity .2s; }
+.tn.has-kids { cursor: pointer; }
+.tn.is-dimmed { opacity: .25; }
+.tn-hit { fill: transparent; stroke: none; }
+.tn:hover .tn-hit { fill: var(--chip); }
+.tn:focus-visible .tn-hit { stroke: var(--ink); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.tn-entry .tn-mark { stroke: var(--sheet); stroke-width: 1; }
+.tn-ext .tn-mark { fill: var(--sheet); stroke: var(--muted); stroke-width: 1.4; }
+.tn-family .tn-mark { fill: var(--sheet); stroke: var(--ink); stroke-width: 1.6; stroke-linejoin: round; }
+.tn-family .tn-dot { fill: var(--ink); }
+.tn.is-folded .tn-mark { stroke: var(--ink); stroke-width: 1.6; }
+.tn-label { font-size: 12px; font-weight: 500; fill: var(--ink); unicode-bidi: plaintext; }
+.tn-ext .tn-label { font-weight: 400; fill: var(--muted); }
+.tn-family .tn-label { font-size: 14px; font-weight: 600; }
+.tn-family .l-sep, .tn-family .l-n { fill: var(--muted); font-weight: 400; }
+.tn-family .l-ar { font-weight: 600; }
+.tn-label .l-badge { font-size: 11px; font-weight: 600; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.tn:hover .l-name, .tn:hover .l-en, .tn:focus-visible .l-name, .tn:focus-visible .l-en { text-decoration: underline; text-underline-offset: 3px; }
+
 /* the plate */
 .status { padding: 40px 0; color: var(--muted); max-width: 60ch; }
 .plate { margin-top: 0; }
@@ -414,8 +448,17 @@ svg.map:active { cursor: grabbing; }
   .dock-list { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 2px; }
   .dock-item { min-width: 0; flex-shrink: 0; }
   .dock-all { display: none; }
+  .actions { flex-wrap: wrap; }
+  .seg { flex: 1 1 100%; }
+  .treeview { margin: 14px -16px 4px; }
+  .tree-note { padding: 0 16px; }
+  .tn-desk { display: none; }
+  .tn-phone { display: inline; }
+  .tree-frame { height: auto; min-height: 0; overflow: hidden; outline: 0; border-left: 0; border-right: 0; }
+  svg.tree { height: auto; touch-action: auto; cursor: default; }
+  .tree-reset { display: none !important; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .toast, .ctry, .mark .bubble { transition: none; }
+  .toast, .ctry, .mark .bubble, .tn, .links path { transition: none; }
 }

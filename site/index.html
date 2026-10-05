@@ -24,6 +24,7 @@
     <div class="seg" id="view-toggle" role="group" aria-label="View">
       <button type="button" data-view="map" aria-pressed="true">Map</button>
       <button type="button" data-view="grid" aria-pressed="false">Grid</button>
+      <button type="button" data-view="tree" aria-pressed="false">Tree</button>
     </div>
     <button type="button" id="copy-link" class="btn">Copy link</button>
     <button type="button" id="theme-toggle" class="btn" aria-label="Switch colour theme">Dark</button>
@@ -91,6 +92,13 @@ claude plugin install arabic-ai-atlas@arabic-ai-atlas</code><button type="button
       </div>
       <div class="map-tip" hidden></div>
     </section>
+    <section class="treeview" id="treeview" aria-label="Family tree of Arabic models" hidden>
+      <p class="tree-note">Each family starts from the base model its members were trained from. Hollow circles are base models outside the atlas. <span class="tn-desk">Click a node to fold or unfold it, double-click to open its page. Scroll to move around; hold Ctrl and scroll to zoom.</span><span class="tn-phone">Tap a node to fold or unfold it and see its details.</span></p>
+      <div class="tree-frame">
+        <svg class="tree"></svg>
+        <button type="button" class="btn small tree-reset" hidden>Reset view</button>
+      </div>
+    </section>
     <div class="plate" id="grid" hidden></div>
     <section class="extra" id="orgs" aria-labelledby="orgs-h" hidden>
       <h2 id="orgs-h">Organisations <span class="count" id="orgs-count"></span></h2>
@@ -118,5 +126,6 @@ claude plugin install arabic-ai-atlas@arabic-ai-atlas</code><button type="button
 <script src="vendor/topojson-client.min.js"></script>
 <script src="app.js"></script>
 <script src="map.js"></script>
+<script src="tree.js" defer></script>
 </body>
 </html>

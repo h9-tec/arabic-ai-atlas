@@ -90,7 +90,7 @@
       dialect: asList(s.dialect),
       license: asList(s.license),
       on_device: s.on_device === true || s.on_device === "1" || s.on_device === "true",
-      view: s.view === "grid" ? "grid" : "map"
+      view: s.view === "grid" || s.view === "tree" ? s.view : "map"
     };
   }
 
@@ -137,7 +137,7 @@
       if (st[k].length) parts.push(k + "=" + st[k].map(encodeURIComponent).join(","));
     });
     if (st.on_device) parts.push("on_device=1");
-    if (st.view === "grid") parts.push("view=grid");
+    if (st.view !== "map") parts.push("view=" + st.view);
     return parts.length ? "#" + parts.join("&") : "";
   }
 
@@ -419,11 +419,14 @@
   }
 
   function mapOn() { return STATE.view === "map" && !!window.AtlasMap; }
+  function treeOn() { return STATE.view === "tree" && !!window.AtlasTree; }
 
   function syncView() {
-    var map = mapOn();
+    var map = mapOn(), tree = treeOn();
     $("plate").classList.toggle("is-map", map);
+    $("plate").classList.toggle("is-tree", tree);
     $("mapview").hidden = !map;
+    $("treeview").hidden = !tree;
     document.querySelectorAll("#view-toggle [data-view]").forEach(function (b) {
       b.setAttribute("aria-pressed", b.getAttribute("data-view") === STATE.view ? "true" : "false");
     });
@@ -439,6 +442,7 @@
       var located = function (e) { return e.type !== "paper"; };
       window.AtlasMap.update({ entries: filterEntries(ENTRIES, facet).filter(located), visible: visible.filter(located), state: normalizeState(STATE) });
     }
+    if (treeOn()) window.AtlasTree.render(visible.map(function (e) { return e.id; }));
     renderGrid(visible);
     renderRoster("orgs", "orgs-list", "orgs-count", visible.filter(function (e) { return e.type === "org"; }));
     renderRoster("skills", "skills-list", "skills-count", visible.filter(function (e) { return e.type === "agent-skill"; }));
@@ -672,6 +676,12 @@
             commit();
           },
           onReset: function () { if (!STATE.country.length) return; STATE.country = []; commit(); }
+        });
+      }
+      if (window.AtlasTree) {
+        window.AtlasTree.init({
+          stage: $("treeview"), lineage: data.lineage || {}, entries: ENTRIES, colors: COLORS,
+          showCard: showCard, scheduleHide: scheduleHide, primaryLink: primaryLink
         });
       }
       render();

@@ -1,0 +1,45 @@
+# Arabic Agent Skills (35)
+
+[← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=agent-skill)
+
+| Name | Org | Notes | Links |
+| --- | --- | --- | --- |
+| ArabAgentSkills | ArabAgentSkills | Public source-backed Arab-world agent skills covering APIs, marketing, sales, support and localization. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ArabAgentSkills/Skills) |
+| ArabGuard | d12o6aa | Python SDK protecting LLMs and chatbots from prompt injection in Arabic text. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/d12o6aa/arabguard) |
+| Arabic Content Studio | smeseik-ai | Claude Skills for Arabic content teams covering production, culture, SEO and brand voice. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/smeseik-ai/arabic-content-studio) |
+| Arabic Dict MCP | arnizamani | MCP server for grounded Arabic dictionary lookup wrapping arramooz (MSA verbs and nouns). | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/arnizamani/arabic-dict-mcp) |
+| Arabic Scholar MCP Server | EngDawood | MCP server for searching Arabic academic research, articles and dissertations across sources. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/EngDawood/arabic-scholar-mcp-server) |
+| Arabic Video Subtitles Skill | EngDawood | Skill with Netflix-style Arabic subtitling guidelines and an SRT/VTT checker. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/EngDawood/arabic-video-subtitles-skill) |
+| Arabic Word Production Skill | Bannovich | Deterministic agent skill and plugin for Arabic-first and bilingual Word DOCX production. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Bannovich/arabic-word-production) |
+| arabic-bidi-engineering | MosaabGalmod | Agent skill for correct Arabic RTL/BiDi in chat, terminal and documents | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/MosaabGalmod/arabic-bidi-engineering) |
+| arabic-pii-py | Aajil Labs | Local-first reversible PII tokenization for Arabic and Gulf data before it reaches an LLM. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Aajil-Labs/arabic-pii-py) |
+| ArabiMaak MCP | deepdiver4ai | Gulf Arabic language MCP server for word, phrase and cultural-context lookup. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/deepdiver4ai/arabimaak-mcp) |
+| awesome-arabic-claude-skills | EngDawood | Curated library of open-source Arabic skills for Claude Code and agents | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/EngDawood/awesome-arabic-claude-skills) |
+| Azan MCP | Ahmed Eltaher | Lightweight MCP library for Islamic prayer times and Qibla for AI agents; not Arabic-language specific. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ahmedeltaher/azan-mcp) |
+| Claude Adhkar | nosseralaa7-rgb | Shows Arabic-script adhkar in the Claude Code spinner with a terminal font that renders Arabic. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/nosseralaa7-rgb/claude-adhkar) |
+| Claude Arabic Writing | Ahmed Dabak | Claude Agent Skill for natural, grammatically correct Arabic writing and translation. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ahmeddabak/claude-arabic-writing) |
+| Claude Code RTL Extension | yechielby | VS Code and Cursor extension adding RTL support for Hebrew and Arabic in Claude Code. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/yechielby/claude-code-rtl-extension) |
+| Claude Desktop RTL Patch (macOS) | toboly | Adds auto-detected Hebrew and Arabic RTL support to Claude Desktop on macOS. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/toboly/claude-desktop-rtl-patch-mac) |
+| Dorar Hadith MCP | ibnsaleem29 | Claude extension and MCP server for Hadith research including isnad and takhrij via Dorar. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ibnsaleem29/dorar-hadith-mcp) |
+| Fanar MCP Server | danijeun | MCP server exposing Fanar API tools such as Islamic RAG and image generation. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/danijeun/fanar-mcp-server) |
+| Hadith MCP (ovehbe) | ovehbe | MCP server for searchable, citation-safe hadith text. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ovehbe/hadith-mcp) |
+| Hurmoz | Moshe-ship | Collection of 63 Arabic skills for the Hermes Agent framework. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Moshe-ship/hurmoz) |
+| Islamic Knowledge Skill | shadysalman | RAG-powered Claude skill over the Quran (6,236 ayat) and Sahih Bukhari. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/shadysalman/islamic-knowledge-skill) |
+| karem-arabic-presentation | karem505 | Claude Code skill for Arabic/English bilingual RTL HTML presentations | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/karem505/karem-arabic-presentation) |
+| Kazma | Mubder | Self-hosted agent platform, bilingual English and Arabic by design. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Mubder/kazma) |
+| Kivun Terminal WSL | noambrand | Claude Code in WSL with Hebrew, Arabic and Persian rendered correctly. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/noambrand/kivun-terminal-wsl) |
+| MasrKit | asasemahmed | Open skills for coding agents to build products that feel Egyptian. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/asasemahmed/MasrKit) |
+| mcp.quran.ai Skills and Docs | Quran Foundation | Public skills, documentation and static assets for the hosted mcp.quran.ai Quran server. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/quran/mcp.quran.ai) |
+| Quran MCP Server (djalal) | djalal | MCP server wrapping the Quran.com API for verse search, translation and tafsir. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/djalal/quran-mcp-server) |
+| Quran Search Engine MCP | adelpro | MCP server giving AI clients fast, citation-grounded Quran search to reduce hallucinated verses. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/adelpro/quran-search-engine-mcp) |
+| quran-mcp | Quran.com | MCP server giving AI assistants grounded access to Quran text | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/quran/quran-mcp) |
+| rtl-skill | mhamedmohammed92-arch | Teaches coding agents to build correct RTL UIs with a checker | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/mhamedmohammed92-arch/rtl-skill) |
+| RTLify | idanlevi1 | RTL rules for Claude Code, Cursor, Copilot and other coding agents; covers Arabic and Hebrew. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/idanlevi1/rtlify) |
+| Tafsir MCP | Tafsir Center | MCP server for the Quran with 5 classical tafsirs and word-level linguistic data. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/tafsircenter/tafsir-mcp) |
+| turath-mcp | opin22 | MCP server for turath.io: classical Arabic and Islamic books | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/opin22/turath-mcp) |
+| Video Caption MCP | EngDawood | MCP server and skill that burns Arabic or translated captions into videos. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/EngDawood/video-caption) |
+| Wasl | Moshe-ship | Arabic MCP server bundling prayer times, Quran, Hadith, translation and dialect tools. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Moshe-ship/wasl) |
+
+---
+
+_Generated 2026-10-05. Do not edit by hand._

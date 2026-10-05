@@ -1,8 +1,8 @@
 # Wanted list: gap rules. A rule is "filled" when any atlas entry matches its query.
-- id: open-gulf-tts
-  title: Open-licensed TTS for Qatar, Kuwait, Bahrain or Oman
-  why: Open Gulf TTS exists for the UAE and Saudi Arabia, but none is listed from Qatar, Kuwait, Bahrain, or Oman.
-  query: {type: tts, dialects: gulf, country: [QA, KW, BH, OM], license_class: open}
+- id: open-kuwaiti-qatari-tts
+  title: Open Arabic TTS with a Kuwaiti or Qatari voice
+  why: No openly licensed text-to-speech model with a Kuwaiti or Qatari voice is listed.
+  query: {type: tts, country: [KW, QA], license_class: open}
 - id: moroccan-ocr-dataset
   title: Open Moroccan Arabic OCR dataset
   why: The only Moroccan OCR dataset listed has no clear license, so no openly licensed one is available.
@@ -19,10 +19,10 @@
   title: Open Yemeni speech dataset
   why: No openly licensed Yemeni dataset for speech recognition or synthesis is listed.
   query: {type: dataset, country: YE, tasks: [asr, speech, tts], license_class: open}
-- id: on-device-embedding
-  title: On-device dialectal Arabic embedding model
-  why: On-device embeddings exist for MSA, but none is marked as targeting a dialect.
-  query: {type: embedding, on_device: true, dialects: [egy, gulf, lev, magh, iraqi, sudanese, yemeni]}
+- id: sudanese-yemeni-iraqi-embedding
+  title: Embedding model for Sudanese, Yemeni or Iraqi dialects
+  why: No Arabic embedding model targets the Sudanese, Yemeni, or Iraqi dialects.
+  query: {type: embedding, dialects: [sudanese, yemeni, iraqi]}
 - id: iraqi-tts
   title: Open-licensed Iraqi Arabic TTS
   why: The only TTS covering Iraqi has no clear license, so no openly licensed one is available.
@@ -31,10 +31,10 @@
   title: Libyan Arabic corpus
   why: No dataset from or about Libya is listed.
   query: {type: dataset, country: LY}
-- id: syrian-llm-finetune
-  title: On-device open Syrian Arabic LLM
-  why: No openly licensed Syrian language model is marked as able to run on-device.
-  query: {type: llm, country: SY, on_device: true, license_class: open}
+- id: open-syrian-dialect-dataset
+  title: Open Syrian-dialect dataset
+  why: No openly licensed dataset of Syrian Levantine Arabic is listed.
+  query: {type: dataset, dialects: [lev], country: SY, license_class: open}
 - id: palestinian-asr
   title: Palestinian Arabic speech recognition
   why: No speech recognition model from Palestine is listed.

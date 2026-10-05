@@ -18,7 +18,11 @@ def load_rules(path: Path) -> list[dict]:
     if not path.exists():
         return []
     doc = yaml.safe_load(path.read_text(encoding="utf-8"))
-    return doc or []
+    if doc is None:
+        return []
+    if not isinstance(doc, list):
+        raise ValueError(f"{path.name}: expected a YAML list of rules, got {type(doc).__name__}")
+    return doc
 
 
 def _as_list(value) -> list:

@@ -3,7 +3,7 @@ from pathlib import Path
 from atlas.load import load_entries
 from atlas.query import license_class
 from atlas.validate import load_schema
-from atlas.wanted import load_rules, match_rule, validate_rules
+from atlas.wanted import load_rules, match_rule, matches, validate_rules
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -45,3 +45,19 @@ def test_validate_rules_enums_length_and_duplicates(schema):
 def test_seed_rules_valid():
     rules = load_rules(ROOT / "data" / "wanted.yaml")
     assert len(rules) == 15 and validate_rules(rules, load_schema(ROOT / "data" / "schema.json")) == []
+
+
+def test_load_rules_rejects_non_list(tmp_path):
+    import pytest
+
+    (tmp_path / "wanted.yaml").write_text("id: a\n")
+    with pytest.raises(ValueError):
+        load_rules(tmp_path / "wanted.yaml")
+
+
+def test_every_seed_rule_matches_nothing_today():
+    # Invariant: a wanted rule is a gap. This WILL fail when a contribution fills one;
+    # the fix is to move that rule to the filled cache (Task 2), not to delete this test.
+    entries = load_entries(ROOT / "data")
+    filled = {r["id"]: matches(r, entries) for r in load_rules(ROOT / "data" / "wanted.yaml")}
+    assert {k: v for k, v in filled.items() if v} == {}

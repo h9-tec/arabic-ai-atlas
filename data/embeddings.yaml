@@ -306,3 +306,598 @@
   year: 2026
   on_device: true
   notes: LoRA-tuned Arabic e-commerce search embedding with a companion benchmark.
+- id: bojji
+  name: bojji
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: mit
+  modality: text
+  tasks:
+  - static-embedding
+  links:
+    hf: https://huggingface.co/NAMAA-Space/bojji
+  year: 2025
+  notes: Lightweight, fast Arabic static embedding model built with Model2Vec.
+  on_device: true
+- id: badr-embedding-v0
+  name: Badr embedding v0
+  type: embedding
+  country: INTL
+  org: somayaeltanbouly
+  license: unknown
+  modality: text
+  tasks:
+  - retrieval
+  - fiqh
+  links:
+    hf: https://huggingface.co/somayaeltanbouly/Badr_embedding_v0
+  year: 2026
+  notes: Arabic dense-retrieval embedding model for fiqh (Islamic jurisprudence), fine-tuned from Muffakir_Embedding.
+- id: mmbert-base-arabic-nli
+  name: mmbert base arabic nli
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - nli
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/mmbert-base-arabic-nli
+  year: 2025
+  notes: Arabic sentence embedding model fine-tuned from mmBERT-base on 900K NLI triplets with GISTEmbedLoss (768-dim).
+- id: dimi-embedding-v4
+  name: DIMI embedding v4
+  type: embedding
+  country: INTL
+  org: AhmedZaky1
+  license: unknown
+  modality: text
+  tasks:
+  - sts
+  - embedding
+  links:
+    hf: https://huggingface.co/AhmedZaky1/DIMI-embedding-v4
+  year: 2025
+  notes: Sentence embedding model fine-tuned for Arabic-English semantic textual similarity with Matryoshka and CoSENT losses.
+- id: algerianme5
+  name: algerianME5
+  type: embedding
+  country: INTL
+  org: 81melody
+  license: mit
+  modality: text
+  tasks:
+  - retrieval
+  links:
+    hf: https://huggingface.co/81melody/algerianME5
+  dialects:
+  - magh
+  year: 2026
+  notes: Sentence-Transformer (768-dim) tuned on multilingual-e5 for Algerian car and real-estate search mixing Arabic, French and darja.
+- id: arabic-colbertv2-711k-norm
+  name: arabic colbertv2 711k norm
+  type: embedding
+  country: INTL
+  org: akhooli
+  license: mit
+  modality: text
+  tasks:
+  - retrieval
+  links:
+    hf: https://huggingface.co/akhooli/arabic-colbertv2-711k-norm
+  year: 2024
+  notes: ColBERT v2 Arabic retrieval model trained on 711K queries with Latin-word queries removed; only partly trained (22K steps).
+- id: arabic-clip-vit-base-patch32
+  name: Arabic clip vit base patch32
+  type: embedding
+  country: INTL
+  org: LinaAlhuri
+  license: unknown
+  modality: multimodal
+  tasks:
+  - clip
+  - image-text
+  links:
+    hf: https://huggingface.co/LinaAlhuri/Arabic-clip-vit-base-patch32
+  year: 2023
+  notes: Arabic adaptation of OpenAI CLIP (ViT-B/32) relating Arabic text and images.
+- id: morocco-darija-word-embedding
+  name: Morocco Darija Word Embedding
+  type: embedding
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/atlasia/Morocco-Darija-Word-Embedding
+  dialects:
+  - magh
+  year: 2025
+  notes: Moroccan Darija word embeddings trained on the AL-Atlas Darija pretraining dataset; access gated.
+- id: neoarabert-msa-synonym-matryoshka-v1
+  name: NeoAraBERT-MSA-Synonym-Matryoshka-V1
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - embedding
+  - synonyms
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/NeoAraBERT-MSA-Synonym-Matryoshka-V1
+  dialects:
+  - msa
+  - classical
+  year: 2026
+  notes: Diacritics-aware Arabic sentence embeddings fine-tuned from NeoAraBERT-MSA to keep synonym sensitivity in MSA and Classical Arabic.
+- id: morocco-darija-sentence-embedding-v0-2
+  name: Morocco Darija Sentence Embedding v0.2
+  type: embedding
+  country: INTL
+  org: BounharAbdelaziz
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - sts
+  links:
+    hf: https://huggingface.co/BounharAbdelaziz/Morocco-Darija-Sentence-Embedding-v0.2
+  dialects:
+  - magh
+  year: 2025
+  notes: Moroccan Darija sentence embedding model fine-tuned from XLM-RoBERTa-Morocco on 637K pairs with Matryoshka and CoSENT losses.
+- id: aravec
+  name: aravec
+  type: embedding
+  country: EG
+  org: Bakrianoo
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - pretraining
+  links:
+    github: https://github.com/bakrianoo/aravec
+  year: 2021
+  notes: AraVec is a pre-trained distributed word representation (word embedding) open source project which aims to provide the Arabic NLP research community.
+- id: arabic-sbert-100k
+  name: Arabic SBERT 100K
+  type: embedding
+  country: INTL
+  org: akhooli
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/akhooli/Arabic-SBERT-100K
+  year: 2024
+  notes: This is a sentence-transformers model finetuned from aubmindlab/bert-base-arabertv02.
+- id: qurangpt
+  name: QuranGPT
+  type: embedding
+  country: INTL
+  org: hazemabdelkawy
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - vision
+  - quran
+  links:
+    github: https://github.com/hazemabdelkawy/QuranGPT
+    website: https://hazemabdelkawy.github.io/QuranGPT/
+  dialects:
+  - classical
+  year: 2023
+  notes: Quran GPT is a project that leverages the power of the GPT-4 language model to generate meaningful embeddings for Quran verses.
+- id: ar-embeddings
+  name: ar-embeddings
+  type: embedding
+  country: INTL
+  org: iamaziz
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - sentiment
+  links:
+    github: https://github.com/iamaziz/ar-embeddings
+    website: https://huggingface.co/azizalto/arabic-news-embeddings
+  year: 2024
+  notes: Sentiment Analysis for Arabic Text (tweets, reviews, and standard Arabic) using word2vec
+- id: sunnahgpt
+  name: SunnahGPT
+  type: embedding
+  country: INTL
+  org: hazemabdelkawy
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  - hadith
+  links:
+    github: https://github.com/hazemabdelkawy/SunnahGPT
+    website: https://hazemabdelkawy.github.io/SunnahGPT/
+  dialects:
+  - classical
+  year: 2023
+  notes: SunnahGPT is a natural language processing (NLP) project aimed at scraping hadith data from the popular website sunnah.com.
+- id: quranic-search-v2
+  name: quranic-search-v2
+  type: embedding
+  country: INTL
+  org: ahr9n
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  links:
+    github: https://github.com/ahr9n/quranic-search-v2
+  dialects:
+  - classical
+  year: 2025
+  notes: Quranic Lexical/Semantic Search
+- id: mizan-rerank-v2
+  name: Mizan Rerank V2
+  type: embedding
+  country: INTL
+  org: ALJIACHI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/ALJIACHI/Mizan-Rerank-V2
+  year: 2026
+  tags:
+  - variants:2
+  notes: 'A cross-encoder model for reranking Arabic long texts, fine-tuned from Alibaba-NLP/gte-multilingual-reranker-base. (also: 2 variants)'
+- id: arabic-english-bge-m3
+  name: arabic english bge m3
+  type: embedding
+  country: INTL
+  org: sayed0am
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/sayed0am/arabic-english-bge-m3
+  year: 2025
+  notes: This model is a 36.2% smaller version of BAAI/bge-m3 for the Arabic language.
+- id: muffakir-embedding-v2
+  name: Muffakir Embedding V2
+  type: embedding
+  country: INTL
+  org: mohamed2811
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/mohamed2811/Muffakir_Embedding_V2
+  year: 2025
+  tags:
+  - variants:1
+  notes: 'Muffakir This is the second version of the MuffakirEmbedding model. (also: 1 variants)'
+- id: arabert-all-nli-triplet-matryoshka
+  name: Arabert all nli triplet Matryoshka
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabert-all-nli-triplet-Matryoshka
+  year: 2025
+  notes: This is a sentence-transformers model finetuned from aubmindlab/bert-base-arabertv02 on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.
+- id: marbert-all-nli-triplet-matryoshka
+  name: Marbert all nli triplet Matryoshka
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Marbert-all-nli-triplet-Matryoshka
+  year: 2025
+  notes: This is a sentence-transformers model finetuned from UBC-NLP/MARBERTv2 on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.
+- id: arabic-mpnet-base-all-nli-triplet
+  name: Arabic mpnet base all nli triplet
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-mpnet-base-all-nli-triplet
+  year: 2025
+  notes: This is a sentence-transformers model finetuned from tomaarsen/mpnet-base-all-nli-triplet on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.
+- id: aramodernbert-base-sts
+  name: AraModernBert-Base-STS
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  links:
+    hf: https://huggingface.co/NAMAA-Space/AraModernBert-Base-STS
+  year: 2025
+  notes: This SentenceTransformer is fine-tuned from NAMAA-Space/AraModernBert-Base-V1.0, bringing strong arabic embeddings useful for a multiple.
+- id: bge-m3-law
+  name: bge m3 law
+  type: embedding
+  country: INTL
+  org: mhaseeb1604
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/mhaseeb1604/bge-m3-law
+  year: 2024
+  notes: This model is a fine-tuned version of the BAAI/bge-m3 model, which is specialized for sentence similarity tasks in Arabic legal texts in both Arabic.
+- id: multilingual-nlp-for-islamic-theology
+  name: Multilingual-NLP-for-Islamic-Theology
+  type: embedding
+  country: INTL
+  org: mobassir94
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  - hadith
+  links:
+    github: https://github.com/mobassir94/Multilingual-NLP-for-Islamic-Theology
+  dialects:
+  - classical
+  year: 2023
+  notes: Cross Lingual Language models for making search engines for Holy Quran and Sahih Hadiths
+- id: arabic-reranker
+  name: arabic reranker
+  type: embedding
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/oddadmix/arabic-reranker
+  year: 2026
+  tags:
+  - variants:1
+  notes: 'This is an Arabic reranker model, fine-tuned from the Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2, which itself is based on… (also: 1 variants)'
+- id: minidense-arabic-v1
+  name: miniDense_arabic_v1
+  type: embedding
+  country: INTL
+  org: prithivida
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/prithivida/miniDense_arabic_v1
+  year: 2025
+  notes: 'Table 1: Arabic retrieval performance on the MIRACL dev set (measured by nDCG@10) Table Of Contents'
+- id: sa-retrieval-embeddings-0-2b
+  name: SA Retrieval Embeddings 0.2B
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/SA-Retrieval-Embeddings-0.2B
+  size: 0.2B
+  on_device: true
+  year: 2025
+  notes: This model is a retrieval-optimized SentenceTransformer, fine-tuned from Omartificial-Intelligence-Space/SA-STS-Embeddings-0.2B.
+- id: namaa-ara-reranker-v1
+  name: Namaa ARA Reranker V1
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Namaa-ARA-Reranker-V1
+  dialects:
+  - lev
+  year: 2025
+  notes: ✨ This model is designed specifically for Arabic language reranking tasks, optimized to handle queries and passages.
+- id: arabic-text-embedding-for-sts
+  name: Arabic text embedding for sts
+  type: embedding
+  country: INTL
+  org: AbderrahmanSkiredj1
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  links:
+    hf: https://huggingface.co/AbderrahmanSkiredj1/Arabic_text_embedding_for_sts
+  dialects:
+  - classical
+  year: 2024
+  notes: This is a sentence-transformers model trained on the AbderrahmanSkiredj1/arabicquoraduplicatesstsbalueholyquranaranli900kanchorpositivenegative dataset.
+- id: arabic-kw-mdel
+  name: Arabic KW Mdel
+  type: embedding
+  country: INTL
+  org: medmediani
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/medmediani/Arabic-KW-Mdel
+  year: 2023
+  notes: 'This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used.'
+- id: harrier-arabic-matryoshka-0-6b
+  name: Harrier Arabic Matryoshka 0.6B
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Harrier-Arabic-Matryoshka-0.6B
+  size: 0.6B
+  on_device: true
+  year: 2026
+  tags:
+  - variants:1
+  notes: A 0.6B-parameter Arabic sentence embedding model based on microsoft/harrier-oss-v1-0.6b.
+- id: e5-base-mlqa-finetuned-arabic-for-rag
+  name: e5 base mlqa finetuned arabic for rag
+  type: embedding
+  country: INTL
+  org: OmarAlsaabi
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/OmarAlsaabi/e5-base-mlqa-finetuned-arabic-for-rag
+  year: 2024
+  notes: 'This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used.'
+- id: arabic-colbert-100k
+  name: Arabic-ColBERT-100K
+  type: embedding
+  country: INTL
+  org: akhooli
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  links:
+    hf: https://huggingface.co/akhooli/Arabic-ColBERT-100K
+  year: 2024
+  notes: First version of Arabic ColBERT (better models are available now - see the 250k and 711k ones).
+- id: arabic-english-sts-matryoshka-v2-0
+  name: arabic english sts matryoshka v2.0
+  type: embedding
+  country: EG
+  org: Omar Elshehy
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/omarelshehy/arabic-english-sts-matryoshka-v2.0
+  year: 2024
+  tags:
+  - variants:1
+  notes: Bilingual Arabic-English sentence embedding model with Matryoshka dimensions; v2.0 of omarelshehy/arabic-english-sts-matryoshka.
+- id: arabic-sts-matryoshka
+  name: Arabic STS Matryoshka
+  type: embedding
+  country: EG
+  org: Omar Elshehy
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/omarelshehy/Arabic-STS-Matryoshka
+  year: 2024
+  notes: This is an Arabic only sentence-transformers model finetuned from FacebookAI/xlm-roberta-large.
+- id: gate-arabert-v0
+  name: GATE-AraBert-v0
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v0
+  year: 2025
+  notes: This is a General Arabic Text Embedding trained using SentenceTransformers in a multi-task setup.
+- id: jisr-align-29m
+  name: Jisr Align 29M
+  type: embedding
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/oddadmix/Jisr-Align-29M
+  size: 29M
+  on_device: true
+  year: 2026
+  notes: The encoder half of the Jisr Arabic-English MT model, contrastively finetuned for sentence alignment. 29M parameters, 448-dim, 6 layers.
+- id: arabic-base-all-nli-stsb-quora
+  name: Arabic base all nli stsb quora
+  type: embedding
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/Omartificial-Intelligence-Space/Arabic-base-all-nli-stsb-quora
+  year: 2024
+  notes: This is a sentence-transformers model finetuned from google-bert/bert-base-multilingual-cased on the all-nli-pair, all-nli-pair-class, all-nli-pair-score.
+- id: zarra
+  name: zarra
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/NAMAA-Space/zarra
+  year: 2025
+  notes: It is a distilled version of a Sentence Transformer, specifically optimized for the Arabic language.
+- id: modernbert-morocco-sentence-embeddings-v0-2-bs-32-lr-2e-05-ep-2-wp-0-0
+  name: ModernBERT-Morocco-Sentence-Embeddings-v0.2-bs-32-lr-2e-05-ep-2-wp-0.05-gacc-1-gnm-1.0-v0.3
+  type: embedding
+  country: INTL
+  org: BounharAbdelaziz
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/BounharAbdelaziz/ModernBERT-Morocco-Sentence-Embeddings-v0.2-bs-32-lr-2e-05-ep-2-wp-0.05-gacc-1-gnm-1.0-v0.3
+  year: 2025
+  notes: This is a sentence-transformers model finetuned from BounharAbdelaziz/ModernBERT-Morocco on the triplet, negationtriplet, pairscore and [englishnonenglish]

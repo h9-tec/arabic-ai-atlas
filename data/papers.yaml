@@ -292,3 +292,5583 @@
   links:
     paper: https://arxiv.org/abs/2408.03524
   notes: BERT pretrained on Egyptian dialect corpora.
+- id: shams-an-audio-grounded-pronunciation-benchmark-for-levantine-arabic
+  name: 'SHAMS: An Audio-Grounded Pronunciation Benchmark for Levantine Arabic'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - pronunciation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2610.01427
+    website: https://shams-nlp.github.io
+  dialects:
+  - lev
+  year: 2026
+  venue: arXiv 2026
+  notes: 'SHAMS: 1,300-utterance benchmark for Levantine Arabic speech, evaluating pronunciation under opaque, non-standardized orthography.'
+- id: cardamom-a-micro-dialectal-arabic-speech-dataset-for-asr
+  name: 'CARDAMOM: A Micro-Dialectal Arabic Speech Dataset for ASR'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialects
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.34481
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: 'Cardamom: about 40 hours of transcribed YouTube speech across 21 micro-dialects for fine-grained Arabic ASR evaluation.'
+- id: tutlait-v1-a-crowdsourced-moroccan-tamazight-speech-dataset-with-arabi
+  name: 'TutlAit v1: a crowdsourced Moroccan Tamazight speech dataset with Arabic transcriptions and regional accent labels'
+  type: paper
+  country: MA
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - tamazight
+  links:
+    paper: https://arxiv.org/abs/2609.38219
+  year: 2026
+  venue: arXiv 2026
+  notes: 'TutlAit v1: crowdsourced Moroccan Tamazight speech paired with Arabic text and regional variety labels (Atlas, Souss, Rif).'
+- id: mizan-a-national-benchmark-for-evaluating-large-language-models-on-ira
+  name: 'Mizan: A National Benchmark for Evaluating Large Language Models on Iraqi Arabic and the Iraqi Civic Context'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialects
+  - evaluation
+  - safety
+  links:
+    paper: https://arxiv.org/abs/2609.13980
+  dialects:
+  - iraqi
+  - msa
+  year: 2026
+  venue: arXiv 2026
+  notes: 'Mizan: national benchmark of 340 items evaluating LLMs on Iraqi Arabic and Iraqi civic context across six axes plus an MSA baseline track.'
+- id: arabicdialectsafety-a-dialect-aware-benchmark-for-arabic-content-safet
+  name: 'ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - safety
+  - dialects
+  - classification
+  links:
+    paper: https://arxiv.org/abs/2608.01291
+  dialects:
+  - msa
+  - egy
+  - lev
+  - magh
+  year: 2026
+  venue: arXiv 2026
+  notes: 'ArabicDialectSafety: 25,071 human-curated safety prompts across MSA and four dialect groups, with seven harm categories and a dual-task evaluation.'
+- id: cohesion-6k-an-arabic-dataset-for-analyzing-social-cohesion-and-confli
+  name: 'Cohesion-6K: An Arabic Dataset for Analyzing Social Cohesion and Conflict in Online Discourse'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - discourse
+  - social-media
+  - classification
+  links:
+    paper: https://arxiv.org/abs/2605.22447
+  year: 2026
+  venue: arXiv 2026
+  notes: 'Cohesion-6K: 6,000 Arabic Facebook posts on the Israeli occupation of Palestine, labelled on a conflict-to-cohesion discourse scale.'
+- id: ymir-a-new-benchmark-dataset-and-model-for-arabic-yemeni-music-genre-c
+  name: 'YMIR: A new Benchmark Dataset and Model for Arabic Yemeni Music Genre Classification Using Convolutional Neural Networks'
+  type: paper
+  country: YE
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - music
+  - genre-classification
+  links:
+    paper: https://arxiv.org/abs/2604.05011
+  dialects:
+  - yemeni
+  year: 2026
+  venue: arXiv 2026
+  notes: 'YMIR: 1,475 audio clips of five Yemeni music genres labelled by experts, plus the YMCM CNN classifier.'
+- id: grounding-arabic-llms-in-the-doha-historical-dictionary-retrieval-augm
+  name: 'Grounding Arabic LLMs in the Doha Historical Dictionary: Retrieval-Augmented Understanding of Quran and Hadith'
+  type: paper
+  country: QA
+  org: somayaeltanbouly
+  license: unknown
+  modality: text
+  tasks:
+  - rag
+  - quran
+  - lexicography
+  links:
+    paper: https://arxiv.org/abs/2603.23972
+    github: https://github.com/somayaeltanbouly/Doha-Dictionary-RAG
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: RAG framework grounded in the Doha Historical Dictionary of Arabic that lifts Fanar and ALLaM above 85% on Quran and Hadith questions.
+- id: tedxtn-a-three-way-speech-translation-corpus-for-code-switched-tunisia
+  name: 'TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English'
+  type: paper
+  country: TN
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - speech-translation
+  - asr
+  links:
+    paper: https://arxiv.org/abs/2511.10780
+  dialects:
+  - magh
+  year: 2025
+  venue: arXiv 2025
+  notes: 'TEDxTN: first public Tunisian Arabic to English speech translation corpus, 108 code-switched TEDx talks with about 25 hours of speech.'
+- id: alarb-an-arabic-legal-argument-reasoning-benchmark
+  name: 'ALARB: An Arabic Legal Argument Reasoning Benchmark'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - legal
+  - reasoning
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2510.00694
+  year: 2025
+  venue: arXiv 2025
+  notes: 'ALARB: 13K Saudi commercial court cases for benchmarking Arabic LLM legal reasoning, with verdict prediction and regulation retrieval tasks.'
+- id: arfake-a-robust-framework-for-multi-dialect-arabic-speech-spoofing-det
+  name: 'ArFake: A Robust Framework for Multi-Dialect Arabic Speech Spoofing Detection Benchmark'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - spoof-detection
+  - speech
+  - tts
+  links:
+    paper: https://arxiv.org/abs/2509.22808
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: 'ArFake: first multi-dialect Arabic spoofed-speech dataset built from several TTS models, with a spoof-detection evaluation pipeline.'
+- id: arabjobs-a-multinational-corpus-of-arabic-job-ads
+  name: 'ArabJobs: A Multinational Corpus of Arabic Job Ads'
+  type: paper
+  country: INTL
+  org: drelhaj
+  license: unknown
+  modality: text
+  tasks:
+  - jobs
+  - bias
+  - classification
+  links:
+    paper: https://arxiv.org/abs/2509.22589
+    github: https://github.com/drelhaj/ArabJobs
+  year: 2025
+  venue: arXiv 2025
+  notes: 'ArabJobs: 8,500 Arabic job ads from Egypt, Jordan, Saudi Arabia and the UAE for gender-bias, profession and salary analysis.'
+- id: an-open-research-dataset-of-the-1932-cairo-congress-of-arab-music
+  name: An Open Research Dataset of the 1932 Cairo Congress of Arab Music
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - music
+  - audio
+  - dataset
+  links:
+    paper: https://arxiv.org/abs/2506.14503
+  year: 2025
+  venue: arXiv 2025
+  notes: 'ORD-CC32: open dataset from the 1932 Cairo Congress of Arab Music recordings with maqam and iqa tags, tonic labels and acoustic features.'
+- id: palm-a-culturally-inclusive-and-linguistically-diverse-dataset-for-ara
+  name: 'Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - culture
+  - instructions
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2503.00151
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: 'PALM: community-built instruction dataset covering all 22 Arab countries in MSA and dialects to evaluate LLM cultural inclusivity.'
+- id: the-qiyas-benchmark-measuring-chatgpt-mathematical-and-language-unders
+  name: 'The Qiyas Benchmark: Measuring ChatGPT Mathematical and Language Understanding in Arabic'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - reasoning
+  - math
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.00146
+  year: 2024
+  venue: arXiv 2024
+  notes: 'Qiyas benchmarks: Arabic mathematical reasoning and language understanding questions from Saudi''s GAT exam, tested on ChatGPT.'
+- id: arbanking77-intent-detection-neural-model-and-a-new-dataset-in-modern
+  name: 'ArBanking77: Intent Detection Neural Model and a New Dataset in Modern and Dialectical Arabic'
+  type: paper
+  country: PS
+  org: SinaLab, Birzeit University
+  license: unknown
+  modality: text
+  tasks:
+  - intent-detection
+  - banking
+  links:
+    paper: https://arxiv.org/abs/2310.19034
+    website: https://sina.birzeit.edu/arbanking77
+  dialects:
+  - msa
+  - lev
+  year: 2023
+  venue: arXiv 2023
+  notes: 'ArBanking77: 31,404 banking intent queries in MSA and Palestinian dialect, arabized from Banking77, plus a neural intent-detection model.'
+- id: n-shot-benchmarking-of-whisper-on-diverse-arabic-speech-recognition
+  name: N-Shot Benchmarking of Whisper on Diverse Arabic Speech Recognition
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - whisper
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2306.02902
+  dialects:
+  - mixed
+  year: 2023
+  venue: arXiv 2023
+  notes: Evaluates Whisper on diverse Arabic speech recognition benchmarks across dialects and conditions, with n-shot prompting experiments.
+- id: overview-of-the-arabic-sentiment-analysis-2021-competition-at-kaust
+  name: Overview of the Arabic Sentiment Analysis 2021 Competition at KAUST
+  type: paper
+  country: SA
+  org: KAUST
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - shared-task
+  links:
+    paper: https://arxiv.org/abs/2109.14456
+    website: https://www.kaggle.com/c/arabic-sentiment-analysis-2021-kaust
+  year: 2021
+  venue: arXiv 2021
+  notes: Overview of the KAUST Arabic Sentiment Analysis Challenge on tweets, built on 55K ASAD tweets with three sentiment classes.
+- id: asad-a-twitter-based-benchmark-arabic-sentiment-analysis-dataset
+  name: 'ASAD: A Twitter-based Benchmark Arabic Sentiment Analysis Dataset'
+  type: paper
+  country: SA
+  org: KAUST
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - benchmark
+  links:
+    paper: https://arxiv.org/abs/2011.00578
+  year: 2020
+  venue: arXiv 2020
+  notes: 'ASAD: large annotated Twitter benchmark for Arabic sentiment analysis, launched as the KAUST-sponsored competition dataset.'
+- id: mole-metadata-extraction-and-validation-in-scientific-papers-using-llm
+  name: 'MOLE: Metadata Extraction and Validation in Scientific Papers Using LLMs'
+  type: paper
+  country: SA
+  org: IVUL-KAUST
+  license: unknown
+  modality: text
+  tasks:
+  - metadata-extraction
+  - llm
+  links:
+    paper: https://arxiv.org/abs/2505.19800
+    github: https://github.com/IVUL-KAUST/MOLE
+    hf: https://huggingface.co/datasets/IVUL-KAUST/MOLE
+  year: 2025
+  venue: arXiv 2025
+  notes: 'MOLE: LLM framework that extracts and validates metadata attributes from papers on non-Arabic language datasets, with a new benchmark.'
+- id: cafe-a-novel-code-switching-dataset-for-algerian-dialect-french-and-en
+  name: CAFE A Novel Code switching Dataset for Algerian Dialect French and English
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - code-switching
+  - asr
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2411.13424
+  dialects:
+  - magh
+  year: 2024
+  venue: arXiv 2024
+  notes: 'CAFE: first code-switching speech dataset mixing Algerian dialect, French and English, from spontaneous human-human conversations.'
+- id: llamalens-specialized-multilingual-llm-for-analyzing-news-and-social-m
+  name: 'LlamaLens: Specialized Multilingual LLM for Analyzing News and Social Media Content'
+  type: paper
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - news
+  - social-media
+  - multilingual
+  links:
+    paper: https://arxiv.org/abs/2410.15308
+    hf: https://huggingface.co/collections/QCRI/llamalens-672f7e0604a0498c6a2f0fe9
+  year: 2024
+  venue: arXiv 2024
+  notes: 'LlamaLens: specialised multilingual LLM for news and social media analysis, tested on 18 tasks and 52 Arabic, English and Hindi datasets.'
+- id: the-saudi-privacy-policy-dataset
+  name: The Saudi Privacy Policy Dataset
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - privacy
+  - legal
+  - classification
+  links:
+    paper: https://arxiv.org/abs/2304.02757
+  year: 2023
+  venue: arXiv 2023
+  notes: 'Saudi Privacy Policy Dataset: 1,000 Saudi websites'' Arabic privacy policies annotated against the ten PDPL principles.'
+- id: ttlab-at-daleel-2026-star-ar-sequence-tagging-for-argument-recognition
+  name: 'TTLab at Daleel 2026: STAR-Ar, Sequence Tagging for Argument Recognition in Arabic'
+  type: paper
+  country: INTL
+  org: entailab
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2609.39385
+    github: https://github.com/ENTAILab/daleel_2026_Arabic-Argumentative-Discourse-Mining
+  year: 2026
+  venue: arXiv 2026
+  notes: Argument Mining (AM) is a critical NLP task that remains significantly under-resourced in Arabic.
+- id: almieyar-a-culturally-grounded-benchmark-for-multi-dialect-arabic-spee
+  name: 'Almieyar: A Culturally Grounded Benchmark for Multi-Dialect Arabic Speech Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2609.35564
+  dialects:
+  - lev
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce ALMIEYAR, a culturally grounded ASR benchmark covering 17 Arabic dialects across six families.
+- id: e-conan-entailment-contradition-and-neutral-diagnostics-dataset-invest
+  name: E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.33530
+  year: 2026
+  venue: arXiv 2026
+  notes: To overcome this gap, we propose an initial hierarchy for Cross-Lingual NLU error analysis.
+- id: ttlab-at-alexandriax-2026-a-fine-tuned-surface-tagger-for-arabic-machi
+  name: 'TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classification'
+  type: paper
+  country: INTL
+  org: entailab
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.29633
+    github: https://github.com/ENTAILab/arabic-dialectal-mt-error-span-detection
+  year: 2026
+  venue: arXiv 2026
+  notes: We present TTLab's submission to the AlexandriaX-2026 Subtask3 on Arabic MT error span detection and classification.
+- id: aragenre-2026-a-hierarchical-definition-guided-arabic-genre-classifica
+  name: 'AraGenre 2026: A Hierarchical Definition-Guided Arabic Genre Classification Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.27387
+  dialects:
+  - classical
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: AraGenre is a shared task on hierarchical, definition-guided Arabic genre classification, motivated by the limited availability of annotated data in Arabic.
+- id: nadi-2026-the-second-multidialectal-arabic-speech-processing-shared-ta
+  name: 'NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - asr
+  - tts
+  - translation
+  - dialect-id
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2609.27086
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: NADI 2026 is the seventh edition of the Nuanced Arabic Dialect Identification.
+- id: arafa-an-llm-generated-arabic-fact-checking-dataset
+  name: 'ARAFA: An LLM-Generated Arabic Fact-Checking Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.25833
+  dialects:
+  - msa
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce Arafa, a new large-scale dataset for fact-checking in Modern Standard Arabic, constructed through an automated framework.
+- id: alexandriax-2026-the-first-shared-task-on-dialectal-arabic-machine-tra
+  name: 'AlexandriaX 2026: The First Shared Task on Dialectal Arabic Machine Translation'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.22796
+    website: https://alexandriax.dlnlp.ai
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We present the AlexandriaX 2026 Shared Task on Dialectal Arabic MT, which addresses these challenges through three complementary subtasks.
+- id: e-conan-entailment-contradition-and-neutral-benchmarks-arabic-textual
+  name: 'E-CONAN (Entailment, CONtradition And Neutral) Benchmarks: Arabic Textual Entailment and Natural Inference Datasets'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.11334
+  year: 2026
+  venue: arXiv 2026
+  notes: 'This paper introduces E-CONAN benchmarks that are composed of sentences pairs from various sources: (1) automatically-translated pairs.'
+- id: yallamorph-a-benchmark-for-evaluating-arabic-morphological-generation
+  name: 'YallaMorph: A Benchmark for Evaluating Arabic Morphological Generation in Large Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.10153
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce YallaMorph, a large-scale benchmark for Arabic morphological generation covering verbs, nouns, adjectives, their cliticized forms.
+- id: edrac-benchmarking-arabic-dialect-reading-comprehension
+  name: 'EDRAC: Benchmarking Arabic Dialect Reading Comprehension'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - qa
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2609.01113
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce EDRAC, the first large-scale benchmark for dialectal Arabic machine reading comprehension (MRC) and generative QA, covering five major dialects.
+- id: arams-28k-the-largest-publicly-released-line-level-dataset-of-historic
+  name: 'AraMS-28k: The Largest Publicly Released Line-Level Dataset of Historical Arabic Manuscripts with Margin and Insertion-Anchor Annotations'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - asr
+  - ocr
+  - diacritization
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2608.26921
+  dialects:
+  - magh
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce AraMS-28k, the largest publicly released line-level dataset of genuine historical Arabic manuscripts, comprising 14 books, 3,043 pages.
+- id: benchmarking-arabic-russian-machine-translation-a-comparison-of-fine-t
+  name: 'Benchmarking Arabic--Russian Machine Translation: A Comparison of Fine-tuned NMT and Few-shot LLMs under Rich Morphology and Low Lexical Overlap'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.29559
+  year: 2026
+  venue: arXiv 2026
+  notes: Arabic-Russian machine translation (MT) remains under-explored due to the rich morphology of Arabic and low lexical overlap between the two languages.
+- id: aradetox-a-multi-dialect-arabic-detoxification-dataset
+  name: 'AraDetox: A Multi-Dialect Arabic Detoxification Dataset'
+  type: paper
+  country: INTL
+  org: arabicnlp-uk
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.22894
+    github: https://github.com/ArabicNLP-UK/AraDetox
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce AraDetox, a multi-dialect Arabic detoxification dataset comprising 10,500 harmful social-media posts and 84,000 detoxified rewrites.
+- id: when-do-vlms-help-arabic-manuscript-ocr-a-cross-dataset-study
+  name: When Do VLMs Help Arabic Manuscript OCR? A Cross-Dataset Study
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - diacritization
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2608.22366
+  year: 2026
+  venue: arXiv 2026
+  notes: Vision-language models (VLMs) are increasingly being used for document understanding, yet their role in Arabic and Islamic manuscript recognition remains.
+- id: bulbul-a-dataset-for-dialectal-arabic-speech-recognition
+  name: 'Bulbul: A Dataset for Dialectal Arabic Speech Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2608.21950
+  dialects:
+  - classical
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We present BULBUL, a multi-dialect Arabic ASR dataset collected from 275 speakers in 11 Arab countries.
+- id: mawqif-xt-an-arabic-benchmark-dataset-for-cross-target-stance-detectio
+  name: 'Mawqif-XT: An Arabic Benchmark Dataset for Cross-Target Stance Detection'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.09539
+  year: 2026
+  venue: arXiv 2026
+  notes: 'This paper presents the Mawqif-XT, consisting of 996 manually annotated Arabic tweets collected from three public targets: Women Driving, E-Cars.'
+- id: hallutruthqa-4k-a-fine-grained-corpus-and-annotation-process-for-arabi
+  name: 'HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.03966
+  year: 2026
+  venue: arXiv 2026
+  notes: We present HalluTruthQA-4K, an expanded version of the HalluTruthQA resource containing 4,000 expert-curated Arabic question-answering instances.
+- id: efficient-multilingual-neural-machine-translation-via-corpus-driven-vo
+  name: 'Efficient Multilingual Neural Machine Translation via Corpus-Driven Vocabulary Pruning: An English-Arabic Case Study'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.03480
+  year: 2026
+  venue: arXiv 2026
+  notes: We propose in this paper a general optimization framework that combines a vocabulary pruning method with a targeted fine-tuning protocol for MNMT models.
+- id: aha-memes-a-fine-grained-multimodal-benchmark-for-understanding-hate-i
+  name: 'AHA-Memes: A Fine-Grained Multimodal Benchmark for Understanding Hate in Arabic Memes'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2607.27393
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce AHA-Memes (Arabic HAteful Memes), which is, to our knowledge, the first large-scale Arabic hateful meme benchmark with fine-grained.
+- id: hallutruthqa-a-fine-grained-benchmark-for-hallucination-detection-loca
+  name: 'HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2607.20219
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce HalluTruthQA, a fine-grained benchmark for hallucination evaluation in Arabic question answering.
+- id: mudawansn-a-gold-standard-wolof-arabic-parallel-corpus-for-machine-tra
+  name: 'MudawanSn: A Gold-Standard Wolof-Arabic Parallel Corpus for Machine Translation'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2609.17539
+  dialects:
+  - msa
+  year: 2026
+  venue: arXiv 2026
+  notes: We present MudawanSn, a gold-standard resource of 1,271 sentence-aligned pairs manually translated from Wolof into Modern Standard Arabic (MSA).
+- id: benchmarking-frontier-llms-on-arabic-cultural-and-sociolinguistic-know
+  name: 'Benchmarking Frontier LLMs on Arabic Cultural and Sociolinguistic Knowledge: A Cross-Evaluation Framework with Human SME Ground Truth'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2607.00139
+  dialects:
+  - egy
+  - iraqi
+  year: 2026
+  venue: arXiv 2026
+  notes: The cost of human expert evaluation is a principal bottleneck to deploying language models in specialized, high-stakes domains.
+- id: bridging-scientific-heritage-an-arabic-russian-parallel-corpus-and-llm
+  name: 'Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.30943
+  year: 2026
+  venue: arXiv 2026
+  notes: We present a benchmark for Arabic--Russian scientific translation.
+- id: candle-ctc-based-arabic-noisy-character-deduplication-using-a-lightwei
+  name: 'CANDLE: CTC-based Arabic Noisy-character Deduplication using a Lightweight Encoder'
+  type: paper
+  country: INTL
+  org: Abjad AI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.24758
+    github: https://github.com/abjadai/candle
+  year: 2026
+  venue: arXiv 2026
+  notes: We present CANDLE, a lightweight system for character-level Arabic noise deduplication that addresses this challenge without relying on handcrafted rules.
+- id: arahopecorpus-annotation-guidelines-and-dataset-for-hope-speech-in-ara
+  name: 'AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - sentiment
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2605.23325
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper introduces AraHopeCorpus, the first annotated dataset of Arabic hope speech collected from ten thousand YouTube comments related to the war.
+- id: audience-engagement-with-arabic-women-s-social-empowerment-and-wellbei
+  name: 'Audience Engagement with Arabic Women''s Social Empowerment and Wellbeing: A Decadal Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2605.22204
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper presents the Arabic Women and Society Corpus, a ten year collection of 252,487 public Arabic Facebook posts related to women's empowerment.
+- id: arabdiscrim-a-decade-long-arabic-facebook-corpus-on-racism-and-discrim
+  name: 'ArabDiscrim: A Decade-Long Arabic Facebook Corpus on Racism and Discrimination'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2605.22081
+  year: 2026
+  venue: arXiv 2026
+  notes: We present ArabDiscrim, a decade-long lexical resource and corpus of 293K public Arabic Facebook posts (2014--2024) discussing racism and discrimination.
+- id: arpomeme-an-annotated-arabic-multimodal-dataset-for-political-ideology
+  name: 'ArPoMeme: An Annotated Arabic Multimodal Dataset for Political Ideology and Polarization'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2605.20967
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper presents ArPoMeme, a large-scale dataset of approximately 7,300 Arabic political memes categorized by ideological orientation.
+- id: jobarabi-an-arabic-corpus-and-analysis-of-job-announcements-from-socia
+  name: 'JobArabi: An Arabic Corpus and Analysis of Job Announcements from Social Media'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2605.20960
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper introduces JobArabi, a large-scale corpus of Arabic job announcements collected from social media between January 2024 and October 2025.
+- id: benchmarking-commercial-asr-systems-on-code-switching-speech-arabic-pe
+  name: 'Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German'
+  type: paper
+  country: INTL
+  org: perle-ai
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - embedding
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2605.19069
+    hf: https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch
+  dialects:
+  - egy
+  - gulf
+  year: 2026
+  venue: arXiv 2026
+  notes: 'We present a benchmark evaluating five commercial ASR providers across four language pairs: Egyptian Arabic--English, Saudi Arabic.'
+- id: cross-lingual-learning-within-arabic-script-for-low-resource-htr
+  name: Cross-Lingual Learning within Arabic Script for Low-Resource HTR
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2605.02089
+  year: 2026
+  venue: arXiv 2026
+  notes: Handwritten Text Recognition (HTR) with limited labeled data remains a challenging problem, particularly for Arabic-script languages.
+- id: cultural-benchmarking-of-llms-in-standard-and-dialectal-arabic-dialogu
+  name: Cultural Benchmarking of LLMs in Standard and Dialectal Arabic Dialogues
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2605.00119
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce ArabCulture-Dialogue, a culturally grounded conversational dataset covering 13 Arabic-speaking countries.
+- id: instruction-guided-poetry-generation-in-arabic-and-its-dialects
+  name: Instruction-Guided Poetry Generation in Arabic and Its Dialects
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - poetry
+  links:
+    paper: https://arxiv.org/abs/2604.27766
+    github: https://github.com/mbzuai-nlp/instructpoet-ar
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: Specifically, we present a large-scale, carefully curated instruction-based dataset in Modern Standard Arabic (MSA) and various Arabic dialects.
+- id: sahm-a-benchmark-for-arabic-financial-and-shari-ah-compliant-reasoning
+  name: 'SAHM: A Benchmark for Arabic Financial and Shari''ah-Compliant Reasoning'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - qa
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2604.19098
+  dialects:
+  - gulf
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce Sahm, the first Arabic financial benchmark spanning seven tasks.
+- id: rightnow-arabic-0-5b-turbo-an-open-sub-1b-arabic-language-model-via-vo
+  name: 'RightNow-Arabic-0.5B-Turbo: An Open Sub-1B Arabic Language Model via Vocabulary Injection and Edge-First Deployment'
+  type: paper
+  country: INTL
+  org: rightnowai
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2605.28827
+    hf: https://huggingface.co/RightNowAI/RightNow-Arabic-0.5B-Turbo
+  year: 2026
+  venue: arXiv 2026
+  notes: We present RightNow-Arabic-0.5B-Turbo, a 518M-parameter Arabic-specialized decoder LLM built on Qwen2.5-0.5B.
+- id: are-arabic-benchmarks-reliable-qimma-s-quality-first-approach-to-llm-e
+  name: Are Arabic Benchmarks Reliable? QIMMA's Quality-First Approach to LLM Evaluation
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2604.03395
+  year: 2026
+  venue: arXiv 2026
+  notes: We present QIMMA, a quality-assured Arabic LLM leaderboard that places systematic benchmark validation at its core.
+- id: cv-18-ner-augmented-common-voice-for-named-entity-recognition-from-ara
+  name: 'CV-18 NER: Augmented Common Voice for Named Entity Recognition from Arabic Speech'
+  type: paper
+  country: INTL
+  org: elyadata
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - ner
+  - pretraining
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2604.02209
+    hf: https://huggingface.co/datasets/Elyadata/CV18-NER
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce CV-18 NER, the first publicly available dataset for NER from Arabic speech, created by augmenting the Arabic Common Voice 18 corpus.
+- id: syrisign-a-parallel-corpus-for-arabic-text-to-syrian-arabic-sign-langu
+  name: 'SyriSign: A Parallel Corpus for Arabic Text to Syrian Arabic Sign Language Translation'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - embedding
+  - translation
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2603.29219
+  dialects:
+  - lev
+  year: 2026
+  venue: arXiv 2026
+  notes: To overcome this gap, we introduce SyriSign, a dataset comprising 1500 video samples across 150 unique lexical signs.
+- id: tarab-a-multi-dialect-corpus-of-arabic-lyrics-and-poetry
+  name: 'Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry'
+  type: paper
+  country: INTL
+  org: drelhaj
+  license: unknown
+  modality: text
+  tasks:
+  - poetry
+  links:
+    paper: https://arxiv.org/abs/2603.16601
+    hf: https://huggingface.co/datasets/drelhaj/Tarab
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - iraqi
+  - sudanese
+  - classical
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics.
+- id: abjad-kids-an-arabic-speech-classification-dataset-for-primary-educati
+  name: 'Abjad-Kids: An Arabic Speech Classification Dataset for Primary Education'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2603.20255
+  year: 2026
+  venue: arXiv 2026
+  notes: However, children speech research remains limited due to the lack of publicly available datasets.
+- id: ramsa-a-large-sociolinguistically-rich-emirati-arabic-speech-corpus-fo
+  name: 'Ramsa: A Large Sociolinguistically Rich Emirati Arabic Speech Corpus for ASR and TTS'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2603.08125
+  dialects:
+  - gulf
+  year: 2026
+  venue: arXiv 2026
+  notes: Ramsa is a developing 41-hour speech corpus of Emirati Arabic designed to support sociolinguistic research and low-resource language technologies.
+- id: adab-arabic-dataset-for-automated-politeness-benchmarking-a-large-scal
+  name: 'ADAB: Arabic Dataset for Automated Politeness Benchmarking -- A Large-Scale Resource for Computational Sociopragmatics'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.13870
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce ADAB (Arabic Politeness Dataset), a new annotated Arabic dataset collected from four online platforms, including social media, e-commerce.
+- id: curriculum-learning-and-pseudo-labeling-improve-the-generalization-of
+  name: Curriculum Learning and Pseudo-Labeling Improve the Generalization of Multi-Label Arabic Dialect Identification Models
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.12937
+    website: https://mohamedalaa9.github.io/lahjatbert
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We construct a multi-label dataset by generating automatic multi-label annotations using GPT-4o and binary dialect acceptability classifiers.
+- id: medarabench-large-scale-arabic-medical-question-answering-dataset-and
+  name: 'MedAraBench: Large-Scale Arabic Medical Question Answering Dataset and Benchmark'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.01714
+  year: 2026
+  venue: arXiv 2026
+  notes: In this paper, we introduce MedAraBench, a large-scale dataset consisting of Arabic multiple-choice question-answer pairs across various medical specialties.
+- id: arabicdialecthub-a-cross-dialectal-arabic-learning-resource-and-platfo
+  name: 'ArabicDialectHub: A Cross-Dialectal Arabic Learning Resource and Platform'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2601.22987
+    website: https://arabic-dialect-hub.netlify.app
+  dialects:
+  - gulf
+  - lev
+  - magh
+  - msa
+  year: 2026
+  venue: arXiv 2026
+  notes: We present ArabicDialectHub, a cross-dialectal Arabic learning resource comprising 552 phrases across six varieties.
+- id: murad-a-large-scale-multi-domain-unified-reverse-arabic-dictionary-dat
+  name: 'MURAD: A Large-Scale Multi-Domain Unified Reverse Arabic Dictionary Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2601.21512
+  year: 2026
+  venue: arXiv 2026
+  notes: We present MURAD (Multi-domain Unified Reverse Arabic Dictionary), an open lexical dataset with 96,243 word-definition pairs.
+- id: a-human-in-the-loop-label-error-detection-framework-applied-to-arabic
+  name: A Human-in-the-Loop Label Error Detection Framework Applied to Arabic-Script HTR Datasets
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - asr
+  - ocr
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2601.16713
+  year: 2026
+  venue: arXiv 2026
+  notes: To help closing this gap, we propose a two-stage framework (CER-HV) for detecting label errors.
+- id: obscuring-data-contamination-through-translation-evidence-from-arabic
+  name: 'Obscuring Data Contamination Through Translation: Evidence from Arabic Corpora'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2601.14994
+  year: 2026
+  venue: arXiv 2026
+  notes: We propose Translation-Aware Contamination Detection, which identifies contamination by comparing signals.
+- id: habibi-laying-the-open-source-foundation-of-unified-dialectal-arabic-s
+  name: 'Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - diacritization
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2601.13802
+    website: https://SWivid.github.io/Habibi
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three.
+- id: alexandria-a-multi-domain-dialectal-arabic-machine-translation-dataset
+  name: 'Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs'
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2601.13099
+    github: https://github.com/UBC-NLP/Alexandria
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce Alexandria, a large-scale, community-driven, human-translated dataset designed to bridge this gap.
+- id: multi-task-instruction-tuning-via-data-scheduling-for-low-resource-ara
+  name: Multi-Task Instruction Tuning via Data Scheduling for Low-Resource Arabic SpeechLLMs
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  - sentiment
+  - summarization
+  - instruction-tuning
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2601.12494
+  year: 2026
+  venue: arXiv 2026
+  notes: We present a controlled study of multi-task instruction tuning for an Arabic-centric audio LLM across generative tasks.
+- id: arabic-prompts-with-english-tools-a-benchmark
+  name: 'Arabic Prompts with English Tools: A Benchmark'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2601.05101
+  year: 2026
+  venue: arXiv 2026
+  notes: Large Language Models (LLMs) are now integral to numerous industries, increasingly serving as the core reasoning engine for autonomous agents.
+- id: arcade-a-city-scale-corpus-for-fine-grained-arabic-dialect-tagging
+  name: 'ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging'
+  type: paper
+  country: SA
+  org: riotu-lab
+  license: unknown
+  modality: speech
+  tasks:
+  - dialect-id
+  - sentiment
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2601.02209
+    hf: https://huggingface.co/datasets/riotu-lab/ARCADE-full
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We present ARCADE (Arabic Radio Corpus for Audio Dialect Evaluation), the first Arabic speech dataset designed explicitly with city-level dialect granularity.
+- id: laila-a-large-trait-based-dataset-for-arabic-automated-essay-scoring
+  name: 'LAILA: A Large Trait-Based Dataset for Arabic Automated Essay Scoring'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2512.24235
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce LAILA, the largest publicly available Arabic AES dataset to date.
+- id: alignar-generative-sentence-alignment-for-arabic-english-parallel-corp
+  name: 'AlignAR: Generative Sentence Alignment for Arabic-English Parallel Corpora of Legal and Literary Texts'
+  type: paper
+  country: INTL
+  org: xxx
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2512.21842
+    github: https://github.com/XXX
+  year: 2025
+  venue: arXiv 2025
+  notes: We present AlignAR, a generative sentence alignment method, and a new Arabic-English dataset comprising simple legal and complex literary parallel texts.
+- id: ara-hope-human-centric-post-editing-evaluation-for-dialectal-arabic-to
+  name: 'Ara-HOPE: Human-Centric Post-Editing Evaluation for Dialectal Arabic to Modern Standard Arabic Translation'
+  type: paper
+  country: INTL
+  org: abdullahalabdullah
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2512.21787
+    github: https://github.com/abdullahalabdullah/Ara-HOPE
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper introduces Ara-HOPE, a human-centric post-editing evaluation framework designed to systematically address these challenges.
+- id: maproc-at-ahasis-shared-task-few-shot-and-sentence-transformer-for-sen
+  name: 'MAPROC at AHaSIS Shared Task: Few-Shot and Sentence Transformer for Sentiment Analysis of Arabic Hotel Reviews'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2511.15291
+  dialects:
+  - gulf
+  - magh
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper describes our approach to the AHaSIS shared task, which focuses on sentiment analysis on Arabic dialects in the hospitality domain.
+- id: aralingbench-a-human-annotated-benchmark-for-evaluating-arabic-linguis
+  name: AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2511.14295
+  year: 2025
+  venue: arXiv 2025
+  notes: 'We present AraLingBench: a fully human annotated benchmark for evaluating the Arabic linguistic competence of large language models (LLMs).'
+- id: ahasis-shared-task-on-sentiment-analysis-for-arabic-dialects
+  name: 'AHaSIS: Shared Task on Sentiment Analysis for Arabic Dialects'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2511.13335
+  dialects:
+  - gulf
+  - magh
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: The hospitality industry in the Arab world increasingly relies on customer feedback to shape services.
+- id: adi-20-arabic-dialect-identification-dataset-and-models
+  name: 'ADI-20: Arabic Dialect Identification dataset and models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - asr
+  - dialect-id
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2511.10070
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We present ADI-20, an extension of the previously published ADI-17 Arabic Dialect Identification (ADI) dataset.
+- id: wasm-a-pipeline-for-constructing-structured-arabic-interleaved-multimo
+  name: 'Wasm: A Pipeline for Constructing Structured Arabic Interleaved Multimodal Corpora'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - pretraining
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2511.07080
+  year: 2025
+  venue: arXiv 2025
+  notes: We present our pipeline Wasm for processing the Common Crawl dataset to create a new Arabic multimodal dataset that uniquely provides markdown output.
+- id: carma-comprehensive-automatically-annotated-reddit-mental-health-datas
+  name: 'CARMA: Comprehensive Automatically-annotated Reddit Mental Health Dataset for Arabic'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2511.03102
+  year: 2025
+  venue: arXiv 2025
+  notes: We present CARMA, the first automatically annotated large-scale dataset of Arabic Reddit posts.
+- id: arafinnews-arabic-financial-summarisation-with-domain-adapted-llms
+  name: 'AraFinNews: Arabic Financial Summarisation with Domain-Adapted LLMs'
+  type: paper
+  country: INTL
+  org: arabicnlp-uk
+  license: unknown
+  modality: text
+  tasks:
+  - summarization
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2511.01265
+    github: https://github.com/ArabicNLP-uk/AraFinNews
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce AraFinNews, the largest publicly available Arabic financial news dataset to date.
+- id: cross-lingual-synthdocs-a-large-scale-synthetic-corpus-for-any-to-arab
+  name: 'Cross-Lingual SynthDocs: A Large-Scale Synthetic Corpus for Any to Arabic OCR and Document Understanding'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  - diacritization
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2511.04699
+  year: 2025
+  venue: arXiv 2025
+  notes: Cross-Lingual SynthDocs is a large-scale synthetic corpus designed to address the scarcity of Arabic resources for Optical Character Recognition.
+- id: dialectalarabicmmlu-benchmarking-dialectal-capabilities-in-arabic-and
+  name: 'DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2510.27543
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We present DialectalArabicMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects.
+- id: beyond-mcq-an-open-ended-arabic-cultural-qa-benchmark-with-dialect-var
+  name: 'Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2510.24328
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions.
+- id: arabic-little-stt-arabic-children-speech-recognition-dataset
+  name: 'Arabic Little STT: Arabic Children Speech Recognition Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2510.23319
+  dialects:
+  - lev
+  year: 2025
+  venue: arXiv 2025
+  notes: We present our created dataset, Arabic Little STT, a dataset of Levantine Arabic child speech recorded in classrooms.
+- id: busted-at-arageneval-shared-task-a-comparative-study-of-transformer-ba
+  name: 'BUSTED at AraGenEval Shared Task: A Comparative Study of Transformer-Based Models for Arabic AI-Generated Text Detection'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2510.20610
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper details our submission to the AraGenEval Shared Task on Arabic AI-generated text detection, where our team, BUSTED, secured 5th place.
+- id: alhd-a-large-scale-and-multigenre-benchmark-dataset-for-arabic-llm-gen
+  name: 'ALHD: A Large-Scale and Multigenre Benchmark Dataset for Arabic LLM-Generated Text Detection'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2510.03502
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce ALHD, the first large-scale comprehensive Arabic dataset explicitly designed to distinguish between human- and LLM-generated texts.
+- id: msa-at-arahealthqa-2025-shared-task-enhancing-llm-performance-for-arab
+  name: '!MSA at AraHealthQA 2025 Shared Task: Enhancing LLM Performance for Arabic Clinical Question Answering through Prompt Engineering and Ensemble Learning'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  links:
+    paper: https://arxiv.org/abs/2509.11365
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We present our systems for Track 2 (General Arabic Health QA, MedArabiQ) of the AraHealthQA-2025 shared task.
+- id: msa-at-barec-shared-task-2025-ensembling-arabic-transformers-for-reada
+  name: '!MSA at BAREC Shared Task 2025: Ensembling Arabic Transformers for Readability Assessment'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2509.10040
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We present MSAs winning system for the BAREC 2025 Shared Task on fine-grained Arabic readability assessment, achieving first place in six of six tracks.
+- id: arahallueval-a-fine-grained-hallucination-evaluation-framework-for-ara
+  name: 'AraHalluEval: A Fine-grained Hallucination Evaluation Framework for Arabic LLMs'
+  type: paper
+  country: INTL
+  org: aishaalansari57
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - summarization
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2509.04656
+    github: https://github.com/aishaalansari57/AraHalluEval
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper presents the first comprehensive hallucination evaluation of Arabic and multilingual LLMs.
+- id: palmx-2025-the-first-shared-task-on-benchmarking-llms-on-arabic-and-is
+  name: 'PalmX 2025: The First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2509.02550
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce PalmX 2025, the first shared task designed to benchmark the cultural competence of LLMs in these specific domains.
+- id: arahealthqa-2025-the-first-shared-task-on-arabic-health-question-answe
+  name: 'AraHealthQA 2025: The First Shared Task on Arabic Health Question Answering'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.20047
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce AraHealthQA 2025, the Comprehensive Arabic Health Question Answering Shared Task, held in conjunction with ArabicNLP 2025.
+- id: mudric-multi-dialect-reasoning-for-arabic-commonsense-validation
+  name: 'MuDRiC: Multi-Dialect Reasoning for Arabic Commonsense Validation'
+  type: paper
+  country: INTL
+  org: kareemelozeiri
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2508.13130
+    github: https://github.com/KareemElozeiri/MuDRiC
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce MuDRiC, an extended Arabic commonsense dataset incorporating multiple dialects.
+- id: arabic-asr-on-the-sada-large-scale-arabic-speech-corpus-with-transform
+  name: Arabic ASR on the SADA Large-Scale Arabic Speech Corpus with Transformer-Based Models
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2508.12968
+  dialects:
+  - gulf
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We explore the performance of several state-of-the-art automatic speech recognition (ASR) models on a large-scale Arabic speech dataset, the SADA.
+- id: arabic-multimodal-machine-learning-datasets-applications-approaches-an
+  name: 'Arabic Multimodal Machine Learning: Datasets, Applications, Approaches, and Challenges'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - embedding
+  - sentiment
+  - survey
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2508.12227
+  year: 2025
+  venue: arXiv 2025
+  notes: Multimodal Machine Learning (MML) aims to integrate and analyze information from diverse modalities, such as text, audio, and visuals.
+- id: benchmarking-the-medical-understanding-and-reasoning-of-large-language
+  name: Benchmarking the Medical Understanding and Reasoning of Large Language Models in Arabic Healthcare Tasks
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.15797
+  year: 2025
+  venue: arXiv 2025
+  notes: Recent progress in large language models (LLMs) has showcased impressive proficiency in numerous Arabic natural language processing (NLP) applications.
+- id: benchmarking-the-legal-reasoning-of-llms-in-arabic-islamic-inheritance
+  name: Benchmarking the Legal Reasoning of LLMs in Arabic Islamic Inheritance Cases
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.15796
+  year: 2025
+  venue: arXiv 2025
+  notes: Islamic inheritance domain holds significant importance for Muslims to ensure fair distribution of shares between heirs.
+- id: munsit-at-nadi-2025-shared-task-2-pushing-the-boundaries-of-multidiale
+  name: 'Munsit at NADI 2025 Shared Task 2: Pushing the Boundaries of Multidialectal Arabic ASR with Weakly Supervised Pretraining and Continual Supervised Fine-tuning'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  - pretraining
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2508.08912
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: In this work, we present a scalable training pipeline that combines weakly supervised learning with supervised fine-tuning to develop a robust Arabic ASR model.
+- id: peach-a-sentence-aligned-parallel-english-arabic-corpus-for-healthcare
+  name: 'PEACH: A sentence-aligned Parallel English-Arabic Corpus for Healthcare'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.05722
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper introduces PEACH, a sentence-aligned parallel English-Arabic corpus of healthcare texts encompassing patient information leaflets.
+- id: arzen-multigenre-an-aligned-parallel-dataset-of-egyptian-arabic-song-l
+  name: 'ArzEn-MultiGenre: An aligned parallel dataset of Egyptian Arabic song lyrics, novels, and subtitles, with English translations'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.01411
+  dialects:
+  - egy
+  year: 2025
+  venue: arXiv 2025
+  notes: ArzEn-MultiGenre is a parallel dataset of Egyptian Arabic song lyrics, novels.
+- id: enhanced-arabic-text-retrieval-with-attentive-relevance-scoring
+  name: Enhanced Arabic Text Retrieval with Attentive Relevance Scoring
+  type: paper
+  country: INTL
+  org: bekhouche
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - diacritization
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2507.23404
+    github: https://github.com/Bekhouche/APR
+  dialects:
+  - msa
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: In this paper, we present an enhanced Dense Passage Retrieval (DPR) framework developed specifically for Arabic.
+- id: balsam-a-platform-for-benchmarking-arabic-large-language-models
+  name: 'BALSAM: A Platform for Benchmarking Arabic Large Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2507.22603
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: In particular, we introduce BALSAM, a comprehensive, community-driven benchmark aimed at advancing Arabic LLM development and evaluation.
+- id: aratable-benchmarking-llms-reasoning-and-understanding-of-arabic-tabul
+  name: 'AraTable: Benchmarking LLMs'' Reasoning and Understanding of Arabic Tabular Data'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2507.18442
+  year: 2025
+  venue: arXiv 2025
+  notes: We present AraTable, a novel and comprehensive benchmark designed to evaluate the reasoning and understanding capabilities of LLMs when applied.
+- id: 3lm-bridging-arabic-stem-and-code-through-benchmarking
+  name: '3LM: Bridging Arabic, STEM, and Code through Benchmarking'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - translation
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2507.15850
+  dialects:
+  - lev
+  year: 2025
+  venue: arXiv 2025
+  notes: To help bridge this gap, we present 3LM, a suite of three benchmarks designed specifically for Arabic.
+- id: mind-the-gap-a-review-of-arabic-post-training-datasets-and-their-limit
+  name: 'Mind the Gap: A Review of Arabic Post-Training Datasets and Their Limitations'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - summarization
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2507.14688
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper presents a review of publicly available Arabic post-training datasets on the Hugging Face Hub, organized along four key dimensions.
+- id: the-cross-lingual-cost-retrieval-biases-in-rag-over-arabic-english-cor
+  name: 'The Cross-Lingual Cost: Retrieval Biases in RAG over Arabic-English Corpora'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2507.07543
+  year: 2025
+  venue: arXiv 2025
+  notes: Finally, we propose two simple retrieval strategies that address this source of failure by enforcing equal retrieval from both languages.
+- id: sage-spliced-audio-generated-data-for-enhancing-foundational-models-in
+  name: 'SAGE: Spliced-Audio Generated Data for Enhancing Foundational Models in Low-Resource Arabic-English Code-Switched Speech Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2506.22143
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper investigates the performance of various speech SSL models on dialectal Arabic (DA) and Arabic-English code-switched (CS) speech.
+- id: hybrid-deep-learning-and-signal-processing-for-arabic-dialect-recognit
+  name: Hybrid Deep Learning and Signal Processing for Arabic Dialect Recognition in Low-Resource Settings
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2506.21386
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: Arabic dialect recognition presents a significant challenge in speech technology due to the linguistic diversity of Arabic and the scarcity.
+- id: arareasoner-evaluating-reasoning-based-llms-for-arabic-nlp
+  name: 'AraReasoner: Evaluating Reasoning-Based LLMs for Arabic NLP'
+  type: paper
+  country: INTL
+  org: gufransabri
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2506.08768
+    github: https://github.com/gufranSabri/deepseek-evals
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper presents a comprehensive benchmarking study of multiple reasoning-focused LLMs.
+- id: towards-a-unified-benchmark-for-arabic-pronunciation-assessment-qurani
+  name: 'Towards a Unified Benchmark for Arabic Pronunciation Assessment: Quranic Recitation as Case Study'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2506.07722
+  dialects:
+  - classical
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We present a unified benchmark for mispronunciation detection in Modern Standard Arabic (MSA) using Qur'anic recitation as a case study.
+- id: sard-a-large-scale-synthetic-arabic-ocr-dataset-for-book-style-text-re
+  name: 'SARD: A Large-Scale Synthetic Arabic OCR Dataset for Book-Style Text Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2505.24600
+  year: 2025
+  venue: arXiv 2025
+  notes: To address this significant gap, we introduce SARD (Large-Scale Synthetic Arabic OCR Dataset).
+- id: pearl-a-multimodal-culturally-aware-arabic-instruction-dataset
+  name: 'Pearl: A Multimodal Culturally-Aware Arabic Instruction Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - instruction-tuning
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2505.21979
+  year: 2025
+  venue: arXiv 2025
+  notes: To address this gap, we introduce PEARL, a large-scale Arabic multimodal dataset and benchmark explicitly designed for cultural understanding.
+- id: arvoice-a-multi-speaker-dataset-for-arabic-speech-synthesis
+  name: 'ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - diacritization
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2505.20506
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce ArVoice, a multi-speaker Modern Standard Arabic.
+- id: fann-or-flop-a-multigenre-multiera-benchmark-for-arabic-poetry-underst
+  name: 'Fann or Flop: A Multigenre, Multiera Benchmark for Arabic Poetry Understanding in LLMs'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - poetry
+  links:
+    paper: https://arxiv.org/abs/2505.18152
+    github: https://github.com/mbzuai-oryx/FannOrFlop
+  dialects:
+  - classical
+  year: 2025
+  venue: arXiv 2025
+  notes: Arabic poetry is one of the richest and most culturally rooted forms of expression in the Arabic language, known for its layered meanings.
+- id: arb-a-comprehensive-arabic-multimodal-reasoning-benchmark
+  name: 'ARB: A Comprehensive Arabic Multimodal Reasoning Benchmark'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2505.17021
+    github: https://github.com/mbzuai-oryx/ARB
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce the Comprehensive Arabic Multimodal Reasoning Benchmark.
+- id: an-annotated-corpus-of-arabic-tweets-for-hate-speech-analysis
+  name: An Annotated Corpus of Arabic Tweets for Hate Speech Analysis
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2505.11969
+  year: 2025
+  venue: arXiv 2025
+  notes: Identifying hate speech content in the Arabic language is challenging due to the rich quality of dialectal variations.
+- id: emohopespeech-an-annotated-dataset-of-emotions-and-hope-speech-in-engl
+  name: 'EmoHopeSpeech: An Annotated Dataset of Emotions and Hope Speech in English and Arabic'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2505.11959
+  year: 2025
+  venue: arXiv 2025
+  notes: This research introduces a bilingual dataset comprising 23,456 entries for Arabic and 10,036 entries for English.
+- id: medarabiq-benchmarking-large-language-models-on-arabic-medical-tasks
+  name: 'MedArabiQ: Benchmarking Large Language Models on Arabic Medical Tasks'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2505.03427
+  year: 2025
+  venue: arXiv 2025
+  notes: Large Language Models (LLMs) have demonstrated significant promise for various applications in healthcare.
+- id: proper-noun-diacritization-for-arabic-wikipedia-a-benchmark-dataset
+  name: 'Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - ner
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2505.02656
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce a new manually diacritized dataset of Arabic proper nouns of various origins with their English Wikipedia equivalent glosses.
+- id: advancing-arabic-reverse-dictionary-systems-a-transformer-based-approa
+  name: 'Advancing Arabic Reverse Dictionary Systems: A Transformer-Based Approach with Dataset Construction Guidelines'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2504.21475
+  year: 2025
+  venue: arXiv 2025
+  notes: We present a novel transformer-based approach with a semi-encoder neural network architecture featuring geometrically decreasing layers.
+- id: poem-meter-classification-of-recited-arabic-poetry-integrating-high-re
+  name: 'Poem Meter Classification of Recited Arabic Poetry: Integrating High-Resource Systems for a Low-Resource Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - poetry
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2504.12172
+  year: 2025
+  venue: arXiv 2025
+  notes: We propose a state-of-the-art framework to identify the poem meters of recited Arabic poetry.
+- id: linto-audio-and-textual-datasets-to-train-and-evaluate-automatic-speec
+  name: LinTO Audio and Textual Datasets to Train and Evaluate Automatic Speech Recognition in Tunisian Arabic Dialect
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2504.02604
+  dialects:
+  - magh
+  year: 2025
+  venue: arXiv 2025
+  notes: We propose the LinTO audio and textual datasets -- comprehensive resources that capture phonological and lexical features of Tunisian Arabic Dialect.
+- id: masrad-arabic-terminology-management-corpora-with-semi-automatic-const
+  name: 'MASRAD: Arabic Terminology Management Corpora with Semi-Automatic Construction'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2503.19211
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper presents MASRAD, a terminology dataset for Arabic terminology management, and a method with supporting tools for its semi-automatic construction.
+- id: jawaher-a-multidialectal-dataset-of-arabic-proverbs-for-llm-benchmarki
+  name: 'Jawaher: A Multidialectal Dataset of Arabic Proverbs for LLM Benchmarking'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2503.00231
+  dialects:
+  - lev
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: To address this, we introduce Jawaher, a benchmark designed to assess LLMs' capacity to comprehend and interpret Arabic proverbs.
+- id: kitab-bench-a-comprehensive-multi-domain-benchmark-for-arabic-ocr-and
+  name: 'KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - embedding
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2502.14949
+  year: 2025
+  venue: arXiv 2025
+  notes: We present KITAB-Bench, a comprehensive Arabic OCR benchmark that fills the gaps in current evaluation systems.
+- id: a-large-and-balanced-corpus-for-fine-grained-arabic-readability-assess
+  name: A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2502.13520
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper introduces the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale, fine-grained dataset for Arabic readability assessment.
+- id: multiprose-a-multi-label-arabic-dataset-for-propaganda-sentiment-and-e
+  name: 'MultiProSE: A Multi-label Arabic Dataset for Propaganda, Sentiment, and Emotion Detection'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2502.08319
+  year: 2025
+  venue: arXiv 2025
+  notes: Propaganda is a form of persuasion that has been used throughout history with the intention goal of influencing people's opinions through rhetorical.
+- id: comparative-approaches-to-sentiment-analysis-using-datasets-in-major-e
+  name: Comparative Approaches to Sentiment Analysis Using Datasets in Major European and Arabic Languages
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2501.12540
+  year: 2025
+  venue: arXiv 2025
+  notes: This study explores transformer-based models such as BERT, mBERT, and XLM-R for multi-lingual sentiment analysis across diverse linguistic structures.
+- id: dialect2sql-a-novel-text-to-sql-dataset-for-arabic-dialects-with-a-foc
+  name: 'Dialect2SQL: A Novel Text-to-SQL Dataset for Arabic Dialects with a Focus on Moroccan Darija'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2501.11498
+  dialects:
+  - magh
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: In this work, we introduce Dialect2SQL, the first large-scale, cross-domain text-to-SQL dataset in an Arabic dialect.
+- id: arastem-a-native-arabic-multiple-choice-question-benchmark-for-evaluat
+  name: 'AraSTEM: A Native Arabic Multiple Choice Question Benchmark for Evaluating LLMs Knowledge In STEM Subjects'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2501.00559
+  year: 2024
+  venue: arXiv 2024
+  notes: To address this issue, we introduce AraSTEM, a new Arabic multiple-choice question dataset aimed at evaluating LLMs knowledge in STEM subjects.
+- id: resource-aware-arabic-llm-creation-model-adaptation-integration-and-mu
+  name: 'Resource-Aware Arabic LLM Creation: Model Adaptation, Integration, and Multi-Domain Testing'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - dialect-id
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2412.17548
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper presents a novel approach to fine-tuning the Qwen2-1.5B model for Arabic language processing using Quantized Low-Rank Adaptation.
+- id: glare-google-apps-arabic-reviews-dataset
+  name: 'GLARE: Google Apps Arabic Reviews Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2412.15259
+  dialects:
+  - gulf
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper introduces GLARE an Arabic Apps Reviews dataset collected from Saudi Google PlayStore.
+- id: areeg-words-dataset-for-envisioned-speech-recognition-using-eeg-for-ar
+  name: 'ArEEG_Words: Dataset for Envisioned Speech Recognition using EEG for Arabic Words'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2411.18888
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce in this paper ArEEGWords dataset, a novel EEG dataset recorded from 22 participants with mean age of 22 years.
+- id: arabic-nougat-fine-tuning-vision-transformers-for-arabic-ocr-and-markd
+  name: 'Arabic-Nougat: Fine-Tuning Vision Transformers for Arabic OCR and Markdown Extraction'
+  type: paper
+  country: INTL
+  org: mohamedalirashad
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2411.17835
+    github: https://github.com/MohamedAliRashad/arabic-nougat
+  year: 2024
+  venue: arXiv 2024
+  notes: We present Arabic-Nougat, a suite of OCR models for converting Arabic book pages into structured Markdown text.
+- id: fineweb-edu-ar-machine-translated-corpus-to-support-arabic-small-langu
+  name: 'Fineweb-Edu-Ar: Machine-translated Corpus to Support Arabic Small Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2411.06402
+  year: 2024
+  venue: arXiv 2024
+  notes: This is especially true for multilingual LLMs, where the scarcity of high-quality and readily available data online has led to a multitude.
+- id: tibyan-corpus-balanced-and-comprehensive-error-coverage-corpus-using-c
+  name: 'Tibyan Corpus: Balanced and Comprehensive Error Coverage Corpus Using ChatGPT for Arabic Grammatical Error Correction'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    paper: https://arxiv.org/abs/2411.04588
+  year: 2024
+  venue: arXiv 2024
+  notes: Natural language processing (NLP) utilizes text data augmentation to overcome sample size constraints.
+- id: the-translation-of-circumlocution-in-arabic-short-stories-into-english
+  name: The Translation of Circumlocution in Arabic Short Stories into English
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2411.02887
+    website: https://ntu.edu.iq
+  year: 2024
+  venue: arXiv 2024
+  notes: This study investigates the translation of circumlocution from Arabic to English in a corpus of short stories by renowned Arabic authors.
+- id: sinatools-open-source-toolkit-for-arabic-natural-language-processing
+  name: 'SinaTools: Open Source Toolkit for Arabic Natural Language Processing'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - ner
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2411.01523
+    website: https://sina.birzeit.edu/sinatools
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce SinaTools, an open-source Python package for Arabic natural language processing and understanding.
+- id: camel-bench-a-comprehensive-arabic-lmm-benchmark
+  name: 'CAMEL-Bench: A Comprehensive Arabic LMM Benchmark'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2410.18976
+  year: 2024
+  venue: arXiv 2024
+  notes: Recent years have witnessed a significant interest in developing large multimodal models.
+- id: gazelle-an-instruction-dataset-for-arabic-writing-assistance
+  name: 'Gazelle: An Instruction Dataset for Arabic Writing Assistance'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2410.18163
+  year: 2024
+  venue: arXiv 2024
+  notes: To address these issues, we present Gazelle, a comprehensive dataset for Arabic writing assistance.
+- id: arabic-dataset-for-llm-safeguard-evaluation
+  name: Arabic Dataset for LLM Safeguard Evaluation
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2410.17040
+  year: 2024
+  venue: arXiv 2024
+  notes: In particular, we present an Arab-region-specific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks.
+- id: cameleval-advancing-culturally-aligned-arabic-language-models-and-benc
+  name: 'CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks'
+  type: paper
+  country: INTL
+  org: elmrc
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2409.12623
+    hf: https://huggingface.co/elmrc
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper introduces Juhaina, a Arabic-English bilingual LLM specifically designed to align with the values and preferences of Arabic speakers.
+- id: propaganda-to-hate-a-multimodal-analysis-of-arabic-memes-with-multi-ag
+  name: 'Propaganda to Hate: A Multimodal Analysis of Arabic Memes with Multi-Agent LLMs'
+  type: paper
+  country: INTL
+  org: firojalam
+  license: unknown
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2409.07246
+    github: https://github.com/firojalam/propaganda-and-hateful-memes
+  year: 2024
+  venue: arXiv 2024
+  notes: In the past decade, social media platforms have been used for information dissemination and consumption.
+- id: arablegaleval-a-multitask-benchmark-for-assessing-arabic-legal-knowled
+  name: 'ArabLegalEval: A Multitask Benchmark for Assessing Arabic Legal Knowledge in Large Language Models'
+  type: paper
+  country: INTL
+  org: thiqah
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2408.07983
+    github: https://github.com/Thiqah/ArabLegalEval
+  dialects:
+  - gulf
+  year: 2024
+  venue: arXiv 2024
+  notes: To address this gap, we introduce ArabLegalEval, a multitask benchmark dataset for assessing the Arabic legal knowledge of LLMs.
+- id: mememind-at-araieval-shared-task-spotting-persuasive-spans-in-arabic-t
+  name: 'MemeMind at ArAIEval Shared Task: Spotting Persuasive Spans in Arabic Text with Persuasion Techniques Identification'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2408.04540
+  year: 2024
+  venue: arXiv 2024
+  notes: Using attention masks, we created uniform lengths for each span and assigned BIO tags to each token based on the provided labels.
+- id: event-arguments-extraction-corpus-and-modeling-using-bert-for-arabic
+  name: Event-Arguments Extraction Corpus and Modeling using BERT for Arabic
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.21153
+    website: https://sina.birzeit.edu/wojood
+  year: 2024
+  venue: arXiv 2024
+  notes: To fill this gap, we introduce the \hadath corpus ($550$k tokens) as an extension of Wojood, enriched with event-argument annotations.
+- id: arabicnlu-2024-the-first-arabic-natural-language-understanding-shared
+  name: 'ArabicNLU 2024: The First Arabic Natural Language Understanding Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.20663
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper presents an overview of the Arabic Natural Language Understanding (ArabicNLU 2024) shared task, focusing on two subtasks.
+- id: athar-a-high-quality-and-diverse-dataset-for-classical-arabic-to-engli
+  name: 'ATHAR: A High-Quality and Diverse Dataset for Classical Arabic to English Translation'
+  type: paper
+  country: INTL
+  org: mohamed-khalil
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2407.19835
+    hf: https://huggingface.co/datasets/mohamed-khalil/ATHAR
+  dialects:
+  - classical
+  year: 2024
+  venue: arXiv 2024
+  notes: We present the ATHAR dataset, which comprises 66,000 high-quality classical Arabic to English translation samples that cover a wide array of topics.
+- id: alclam-arabic-dialectal-language-model
+  name: 'AlcLaM: Arabic Dialectal Language Model'
+  type: paper
+  country: INTL
+  org: amurtadha
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2407.13097
+    github: https://github.com/amurtadha/Alclam
+    hf: https://huggingface.co/rahbi
+  dialects:
+  - msa
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: To tackle this, we construct an Arabic dialectal corpus comprising 3.4M sentences gathered from social media platforms.
+- id: automated-essay-scoring-in-arabic-a-dataset-and-analysis-of-a-bert-bas
+  name: 'Automated essay scoring in Arabic: a dataset and analysis of a BERT-based system'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.11212
+  year: 2024
+  venue: arXiv 2024
+  notes: Automated Essay Scoring (AES) holds significant promise in the field of education, helping educators to mark larger volumes of essays.
+- id: wojoodner-2024-the-second-arabic-named-entity-recognition-shared-task
+  name: 'WojoodNER 2024: The Second Arabic Named Entity Recognition Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  links:
+    paper: https://arxiv.org/abs/2407.09936
+  year: 2024
+  venue: arXiv 2024
+  notes: We present WojoodNER-2024, the second Arabic Named Entity Recognition (NER) Shared Task.
+- id: arafinnlp-2024-the-first-arabic-financial-nlp-shared-task
+  name: 'AraFinNLP 2024: The First Arabic Financial NLP Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2407.09818
+  dialects:
+  - msa
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: The expanding financial markets of the Arab world require sophisticated Arabic NLP tools.
+- id: araieval-shared-task-propagandistic-techniques-detection-in-unimodal-a
+  name: 'ArAIEval Shared Task: Propagandistic Techniques Detection in Unimodal and Multimodal Arabic Content'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.04247
+    website: https://araieval.gitlab.io
+  year: 2024
+  venue: arXiv 2024
+  notes: We present an overview of the second edition of the ArAIEval shared task, organized as part of the ArabicNLP 2024 conference co-located with ACL 2024.
+- id: nullpointer-at-araieval-shared-task-arabic-propagandist-technique-dete
+  name: 'Nullpointer at ArAIEval Shared Task: Arabic Propagandist Technique Detection with Token-to-Word Mapping in Sequence Tagging'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.01360
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper investigates the optimization of propaganda technique detection in Arabic text, including tweets \& news paragraphs, from ArAIEval shared task 1.
+- id: arzen-llm-code-switched-egyptian-arabic-english-translation-and-speech
+  name: 'ArzEn-LLM: Code-Switched Egyptian Arabic-English Translation and Speech Recognition Using LLMs'
+  type: paper
+  country: INTL
+  org: ahmedheakl
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2406.18120
+    github: http://github.com/ahmedheakl/arazn-llm
+    hf: http://huggingface.co/collections/ahmedheakl/arazn-llm-662ceaf12777656607b9524e
+  dialects:
+  - egy
+  year: 2024
+  venue: arXiv 2024
+  notes: Motivated by the widespread increase in the phenomenon of code-switching between Egyptian Arabic and English in recent times.
+- id: towards-zero-shot-text-to-speech-for-arabic-dialects
+  name: Towards Zero-Shot Text-To-Speech for Arabic Dialects
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - dialect-id
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2406.16751
+    website: https://docs.coqui.ai/en/latest/models/xtts.html
+  dialects:
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: Zero-shot multi-speaker text-to-speech (ZS-TTS) systems have advanced for English, however, it still lags behind due to insufficient resources.
+- id: muharaf-manuscripts-of-handwritten-arabic-dataset-for-cursive-text-rec
+  name: 'Muharaf: Manuscripts of Handwritten Arabic Dataset for Cursive Text Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: vision
+  tasks:
+  - asr
+  - ocr
+  - vision
+  - poetry
+  links:
+    paper: https://arxiv.org/abs/2406.09630
+  year: 2024
+  venue: arXiv 2024
+  notes: We present the Manuscripts of Handwritten Arabic(Muharaf) dataset.
+- id: qabas-an-open-source-arabic-lexicographic-database
+  name: 'Qabas: An Open-Source Arabic Lexicographic Database'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2406.06598
+    website: https://sina.birzeit.edu/qabas
+  year: 2024
+  venue: arXiv 2024
+  notes: We present Qabas, a novel open-source Arabic lexicon designed for NLP applications.
+- id: darijabanking-a-new-resource-for-overcoming-language-barriers-in-banki
+  name: 'DarijaBanking: A New Resource for Overcoming Language Barriers in Banking Intent Detection for Moroccan Arabic Speakers'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2405.16482
+  dialects:
+  - magh
+  - msa
+  year: 2024
+  venue: arXiv 2024
+  notes: Navigating the complexities of language diversity is a central challenge in developing robust natural language processing systems.
+- id: mentalqa-an-annotated-arabic-corpus-for-questions-and-answers-of-menta
+  name: 'MentalQA: An Annotated Arabic Corpus for Questions and Answers of Mental Healthcare'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - sentiment
+  - qa
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2405.12619
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce MentalQA, a novel Arabic dataset featuring conversational-style question-and-answer (QA) interactions.
+- id: estimating-the-level-of-dialectness-predicts-interannotator-agreement
+  name: Estimating the Level of Dialectness Predicts Interannotator Agreement in Multi-dialect Arabic Datasets
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    paper: https://arxiv.org/abs/2405.11282
+  dialects:
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: On annotating multi-dialect Arabic datasets, it is common to randomly assign the samples across a pool of native Arabic speakers.
+- id: quranic-audio-dataset-crowdsourced-and-labeled-recitation-from-non-ara
+  name: 'Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2405.02675
+  dialects:
+  - classical
+  year: 2024
+  venue: arXiv 2024
+  notes: This paper addresses the challenge of learning to recite the Quran for non-Arabic speakers.
+- id: 101-billion-arabic-words-dataset
+  name: 101 Billion Arabic Words Dataset
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2405.01590
+  year: 2024
+  venue: arXiv 2024
+  notes: In recent years, Large Language Models have revolutionized the field of natural language processing.
+- id: the-samer-arabic-text-simplification-corpus
+  name: The SAMER Arabic Text Simplification Corpus
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2404.18615
+  year: 2024
+  venue: arXiv 2024
+  notes: We present the SAMER Corpus, the first manually annotated Arabic parallel corpus for text simplification targeting school-aged learners.
+- id: leveraging-corpus-metadata-to-detect-template-based-translation-an-exp
+  name: 'Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2404.00565
+  dialects:
+  - egy
+  - magh
+  year: 2024
+  venue: arXiv 2024
+  notes: Wikipedia articles (content pages) are commonly used corpora in Natural Language Processing.
+- id: zaebuc-spoken-a-multilingual-multidialectal-arabic-english-speech-corp
+  name: 'ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - asr
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2403.18182
+  dialects:
+  - egy
+  - gulf
+  - msa
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: We present ZAEBUC-Spoken, a multilingual multidialectal Arabic-English speech corpus.
+- id: arapoembert-a-pretrained-language-model-for-arabic-poetry-analysis
+  name: 'AraPoemBERT: A Pretrained Language Model for Arabic Poetry Analysis'
+  type: paper
+  country: SA
+  org: King Saud University
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - pretraining
+  - poetry
+  links:
+    paper: https://arxiv.org/abs/2403.12392
+    hf: https://huggingface.co/faisalq
+  year: 2024
+  venue: arXiv 2024
+  notes: In this paper, we introduce AraPoemBERT, an Arabic language model pretrained exclusively on Arabic poetry text.
+- id: a-new-benchmark-for-evaluating-automatic-speech-recognition-in-the-ara
+  name: A New Benchmark for Evaluating Automatic Speech Recognition in the Arabic Call Domain
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2403.04280
+  dialects:
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: This work is an attempt to introduce a comprehensive benchmark for Arabic speech recognition.
+- id: arabic-text-sentiment-analysis-reinforcing-human-performed-surveys-wit
+  name: 'Arabic Text Sentiment Analysis: Reinforcing Human-Performed Surveys with Wider Topic Analysis'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2403.01921
+  dialects:
+  - msa
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: Sentiment analysis (SA) has been, and is still, a thriving research area.
+- id: peacock-a-family-of-arabic-multimodal-large-language-models-and-benchm
+  name: 'Peacock: A Family of Arabic Multimodal Large Language Models and Benchmarks'
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2403.01031
+    github: https://github.com/UBC-NLP/peacock
+  year: 2024
+  venue: arXiv 2024
+  notes: Multimodal large language models (MLLMs) have proven effective in a wide range of tasks requiring complex reasoning and linguistic comprehension.
+- id: areeg-chars-dataset-for-envisioned-speech-recognition-using-eeg-for-ar
+  name: 'ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2402.15733
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce ArEEGChars, a novel EEG dataset for Arabic 31 characters collected from 30 participants.
+- id: cross-attention-fusion-of-visual-and-geometric-features-for-large-voca
+  name: Cross-Attention Fusion of Visual and Geometric Features for Large Vocabulary Arabic Lipreading
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2402.11520
+    website: https://crns-smartvision.github.io/lrwar
+  year: 2024
+  venue: arXiv 2024
+  notes: To address this challenge, firstly, we propose a cross-attention fusion-based approach for large lexicon Arabic vocabulary to predict spoken words in videos.
+- id: cidar-culturally-relevant-instruction-dataset-for-arabic
+  name: 'CIDAR: Culturally Relevant Instruction Dataset For Arabic'
+  type: paper
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    paper: https://arxiv.org/abs/2402.03177
+    github: https://github.com/ARBML/CIDAR
+  dialects:
+  - lev
+  year: 2024
+  venue: arXiv 2024
+  notes: Instruction tuning has emerged as a prominent methodology for teaching Large Language Models (LLMs) to follow instructions.
+- id: on-the-importance-of-data-scale-in-pretraining-arabic-language-models
+  name: On the importance of Data Scale in Pretraining Arabic Language Models
+  type: paper
+  country: INTL
+  org: huawei-noah
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2401.07760
+    github: https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/JABER-PyTorch
+  year: 2024
+  venue: arXiv 2024
+  notes: Pretraining monolingual language models have been proven to be vital for performance in Arabic Natural Language Processing (NLP) tasks.
+- id: arabic-mini-climategpt-a-climate-change-and-sustainability-tailored-ar
+  name: 'Arabic Mini-ClimateGPT : A Climate Change and Sustainability Tailored Arabic LLM'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  - instruction-tuning
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2312.09366
+    github: https://github.com/mbzuai-oryx/ClimateGPT
+  year: 2023
+  venue: arXiv 2023
+  notes: We propose a light-weight Arabic Mini-ClimateGPT that is built on an open-source LLM and is specifically fine-tuned.
+- id: toxic-language-detection-a-systematic-review-of-arabic-datasets
+  name: 'Toxic language detection: a systematic review of Arabic datasets'
+  type: paper
+  country: INTL
+  org: imene1
+  license: unknown
+  modality: text
+  tasks:
+  - survey
+  links:
+    paper: https://arxiv.org/abs/2312.07228
+    github: https://github.com/Imene1/Arabic-toxic-language
+  year: 2023
+  venue: arXiv 2023
+  notes: The detection of toxic language in the Arabic language has emerged as an active area of research in recent years.
+- id: arabic-handwritten-text-line-dataset
+  name: Arabic Handwritten Text Line Dataset
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  links:
+    paper: https://arxiv.org/abs/2312.07573
+  year: 2023
+  venue: arXiv 2023
+  notes: In this paper, we present a new dataset specifically designed for historical Arabic script in which we annotate position in word level.
+- id: araieval-shared-task-persuasion-techniques-and-disinformation-detectio
+  name: 'ArAIEval Shared Task: Persuasion Techniques and Disinformation Detection in Arabic Text'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2311.03179
+    website: https://araieval.gitlab.io
+  year: 2023
+  venue: arXiv 2023
+  notes: We present an overview of the ArAIEval shared task, organized as part of the first ArabicNLP 2023 conference co-located with EMNLP 2023.
+- id: salma-arabic-sense-annotated-corpus-and-wsd-benchmarks
+  name: 'SALMA: Arabic Sense-Annotated Corpus and WSD Benchmarks'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2310.19029
+    website: https://sina.birzeit.edu/salma
+  year: 2023
+  venue: arXiv 2023
+  notes: SALMA, the first Arabic sense-annotated corpus, consists of 34K tokens, which are all sense-annotated.
+- id: arabic-fine-grained-entity-recognition
+  name: Arabic Fine-Grained Entity Recognition
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2310.17333
+    website: https://sina.birzeit.edu/wojood
+  year: 2023
+  venue: arXiv 2023
+  notes: Traditional NER systems are typically trained to recognize coarse-grained entities.
+- id: wojoodner-2023-the-first-arabic-named-entity-recognition-shared-task
+  name: 'WojoodNER 2023: The First Arabic Named Entity Recognition Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  links:
+    paper: https://arxiv.org/abs/2310.16153
+  year: 2023
+  venue: arXiv 2023
+  notes: We present WojoodNER-2023, the first Arabic Named Entity Recognition (NER) Shared Task.
+- id: nadi-2023-the-fourth-nuanced-arabic-dialect-identification-shared-task
+  name: 'NADI 2023: The Fourth Nuanced Arabic Dialect Identification Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - dialect-id
+  links:
+    paper: https://arxiv.org/abs/2310.16117
+  dialects:
+  - msa
+  - mixed
+  year: 2023
+  venue: arXiv 2023
+  notes: We describe the findings of the fourth Nuanced Arabic Dialect Identification Shared Task (NADI 2023).
+- id: arcoq-arabic-closest-opposite-questions-dataset
+  name: 'ARCOQ: Arabic Closest Opposite Questions Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2310.14384
+  year: 2023
+  venue: arXiv 2023
+  notes: This paper presents a dataset for closest opposite questions in Arabic language.
+- id: gari-graph-attention-for-relative-isomorphism-of-arabic-word-embedding
+  name: 'GARI: Graph Attention for Relative Isomorphism of Arabic Word Embeddings'
+  type: paper
+  country: INTL
+  org: asif6827
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2310.13068
+    github: https://github.com/asif6827/GARI
+  year: 2023
+  venue: arXiv 2023
+  notes: To address this, we propose GARI that combines the distributional training objectives with multiple isomorphism losses guided by the graph attention network.
+- id: domain-adaptation-for-arabic-machine-translation-the-case-of-financial
+  name: 'Domain Adaptation for Arabic Machine Translation: The Case of Financial Texts'
+  type: paper
+  country: INTL
+  org: Asas AI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2309.12863
+    hf: https://huggingface.co/asas-ai
+  year: 2023
+  venue: arXiv 2023
+  notes: Neural machine translation (NMT) has shown impressive performance when trained on large-scale corpora.
+- id: osn-mdad-machine-translation-dataset-for-arabic-multi-dialectal-conver
+  name: 'OSN-MDAD: Machine Translation Dataset for Arabic Multi-Dialectal Conversations on Online Social Media'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2309.12137
+  dialects:
+  - gulf
+  - lev
+  - iraqi
+  - yemeni
+  - msa
+  - mixed
+  year: 2023
+  venue: arXiv 2023
+  notes: While resources for English language are fairly sufficient to understand content on social media, similar resources in Arabic are still immature.
+- id: amurd-annotated-arabic-english-receipt-dataset-for-key-information-ext
+  name: 'AMuRD: Annotated Arabic-English Receipt Dataset for Key Information Extraction and Classification'
+  type: paper
+  country: INTL
+  org: update-for-integrated-business-ai
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2309.09800
+    github: https://github.com/Update-For-Integrated-Business-AI/AMuRD
+  year: 2023
+  venue: arXiv 2023
+  notes: In this paper, we present AMuRD, a novel multilingual human-annotated dataset specifically designed for information extraction from receipts.
+- id: aner-arabic-and-arabizi-named-entity-recognition-using-transformer-bas
+  name: 'ANER: Arabic and Arabizi Named Entity Recognition using Transformer-Based Approach'
+  type: paper
+  country: INTL
+  org: boda
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  links:
+    paper: https://arxiv.org/abs/2308.14669
+    hf: https://huggingface.co/boda/ANER
+  year: 2023
+  venue: arXiv 2023
+  notes: We present ANER, a web-based named entity recognizer for the Arabic, and Arabizi languages.
+- id: myvoice-arabic-speech-resource-collaboration-platform
+  name: 'MyVoice: Arabic Speech Resource Collaboration Platform'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2308.02503
+  year: 2023
+  venue: arXiv 2023
+  notes: We introduce MyVoice, a crowdsourcing platform designed to collect Arabic speech to enhance dialectal speech technologies.
+- id: taqyim-evaluating-arabic-nlp-tasks-using-chatgpt-models
+  name: 'Taqyim: Evaluating Arabic NLP Tasks Using ChatGPT Models'
+  type: paper
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - diacritization
+  - sentiment
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2306.16322
+    github: https://github.com/ARBML/Taqyim
+  year: 2023
+  venue: arXiv 2023
+  notes: Additionally, we introduce a new Python interface https://github.com/ARBML/Taqyim that facilitates the evaluation of these tasks effortlessly.
+- id: noor-ghateh-a-benchmark-dataset-for-evaluating-arabic-word-segmenters
+  name: 'Noor-Ghateh: A Benchmark Dataset for Evaluating Arabic Word Segmenters in Hadith Domain'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - hadith
+  links:
+    paper: https://arxiv.org/abs/2307.09630
+  dialects:
+  - classical
+  year: 2023
+  venue: arXiv 2023
+  notes: We present a standard dataset for analyzing the Arabic segmentation tools.
+- id: towards-arabic-multimodal-dataset-for-sentiment-analysis
+  name: Towards Arabic Multimodal Dataset for Sentiment Analysis
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2306.06322
+  dialects:
+  - msa
+  year: 2023
+  venue: arXiv 2023
+  notes: Multimodal Sentiment Analysis (MSA) has recently become a centric research direction for many real-world applications.
+- id: arpanemo-an-open-source-dataset-for-fine-grained-emotion-recognition-i
+  name: 'ArPanEmo: An Open-Source Dataset for Fine-Grained Emotion Recognition in Arabic Online Content during COVID-19 Pandemic'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2305.17580
+  year: 2023
+  venue: arXiv 2023
+  notes: This paper presents the ArPanEmo dataset, a novel dataset for fine-grained emotion recognition of online posts in Arabic.
+- id: dolphin-a-challenging-and-diverse-benchmark-for-arabic-nlg
+  name: 'Dolphin: A Challenging and Diverse Benchmark for Arabic NLG'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2305.14989
+  year: 2023
+  venue: arXiv 2023
+  notes: We present Dolphin, a novel benchmark that addresses the need for a natural language generation.
+- id: larabench-benchmarking-arabic-ai-with-large-language-models
+  name: 'LAraBench: Benchmarking Arabic AI with Large Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - asr
+  - tts
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2305.14982
+  year: 2023
+  venue: arXiv 2023
+  notes: Recent advancements in Large Language Models (LLMs) have significantly influenced the landscape of language and speech research.
+- id: using-lstm-and-gru-with-a-new-dataset-for-named-entity-recognition-in
+  name: Using LSTM and GRU With a New Dataset for Named Entity Recognition in the Arabic Language
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  links:
+    paper: https://arxiv.org/abs/2304.03399
+  year: 2023
+  venue: arXiv 2023
+  notes: In addition, this work proposes long short term memory (LSTM) units and Gated Recurrent Units.
+- id: pali-a-language-identification-benchmark-for-perso-arabic-scripts
+  name: 'PALI: A Language Identification Benchmark for Perso-Arabic Scripts'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2304.01322
+  year: 2023
+  venue: arXiv 2023
+  notes: The Perso-Arabic scripts are a family of scripts that are widely adopted and used by various linguistic communities around the globe.
+- id: sentiment-analysis-dataset-in-moroccan-dialect-bridging-the-gap-betwee
+  name: 'Sentiment Analysis Dataset in Moroccan Dialect: Bridging the Gap Between Arabic and Latin Scripted dialect'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2303.15987
+  dialects:
+  - magh
+  - mixed
+  year: 2023
+  venue: arXiv 2023
+  notes: Sentiment analysis, the automated process of determining emotions or opinions expressed in text.
+- id: clartts-an-open-source-classical-arabic-text-to-speech-corpus
+  name: 'ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2303.00069
+  dialects:
+  - classical
+  year: 2023
+  venue: arXiv 2023
+  notes: In a move towards filling this gap in resources, we present a speech corpus for Classical Arabic Text-to-Speech.
+- id: a-benchmark-and-scoring-algorithm-for-enriching-arabic-synonyms
+  name: A Benchmark and Scoring Algorithm for Enriching Arabic Synonyms
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2302.02232
+    website: https://portal.sina.birzeit.edu/synonyms
+  year: 2023
+  venue: arXiv 2023
+  notes: 'We present twofold contributions: an algorithm and a benchmark dataset.'
+- id: rgb-arabic-alphabets-sign-language-dataset
+  name: RGB Arabic Alphabets Sign Language Dataset
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: vision
+  tasks:
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2301.11932
+  year: 2023
+  venue: arXiv 2023
+  notes: This paper introduces the RGB Arabic Alphabet Sign Language (AASL) dataset.
+- id: orca-a-challenging-benchmark-for-arabic-language-understanding
+  name: 'ORCA: A Challenging Benchmark for Arabic Language Understanding'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2212.10758
+  year: 2022
+  venue: arXiv 2022
+  notes: In this work, we introduce ORCA, a publicly available benchmark for Arabic language understanding evaluation.
+- id: new-results-for-the-text-recognition-of-arabic-maghrib-manuscripts-man
+  name: New Results for the Text Recognition of Arabic Maghrib{ī} Manuscripts -- Managing an Under-resourced Script
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - asr
+  - ocr
+  links:
+    paper: https://arxiv.org/abs/2211.16147
+  year: 2022
+  venue: arXiv 2022
+  notes: HTR models development has become a conventional step for digital humanities projects.
+- id: arzen-st-a-three-way-speech-translation-corpus-for-code-switched-egypt
+  name: 'ArzEn-ST: A Three-way Speech Translation Corpus for Code-Switched Egyptian Arabic - English'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - translation
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2211.12000
+  dialects:
+  - egy
+  year: 2022
+  venue: arXiv 2022
+  notes: We present our work on collecting ArzEn-ST, a code-switched Egyptian Arabic - English Speech Translation Corpus.
+- id: lans-large-scale-arabic-news-summarization-corpus
+  name: 'LANS: Large-scale Arabic News Summarization Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2210.13600
+  year: 2022
+  venue: arXiv 2022
+  notes: We build, LANS, a large-scale and diverse dataset for Arabic Text Summarization task.
+- id: a-benchmark-study-of-contrastive-learning-for-arabic-social-meaning
+  name: A Benchmark Study of Contrastive Learning for Arabic Social Meaning
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2210.12314
+  year: 2022
+  venue: arXiv 2022
+  notes: In this work, we present a comprehensive benchmark study of state-of-the-art supervised CL methods on a wide array of Arabic social meaning tasks.
+- id: nadi-2022-the-third-nuanced-arabic-dialect-identification-shared-task
+  name: 'NADI 2022: The Third Nuanced Arabic Dialect Identification Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2210.09582
+  dialects:
+  - mixed
+  year: 2022
+  venue: arXiv 2022
+  notes: We describe findings of the third Nuanced Arabic Dialect Identification Shared Task (NADI 2022).
+- id: arabsign-a-multi-modality-dataset-and-benchmark-for-continuous-arabic
+  name: 'ArabSign: A Multi-modality Dataset and Benchmark for Continuous Arabic Sign Language Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2210.03951
+  year: 2022
+  venue: arXiv 2022
+  notes: To benchmark this dataset, we propose an encoder-decoder model for Continuous ArSL recognition.
+- id: an-end-to-end-ocr-framework-for-robust-arabic-handwriting-recognition
+  name: An End-to-End OCR Framework for Robust Arabic-Handwriting Recognition using a Novel Transformers-based Model and an Innovative 270 Million-Words Multi-Font Corpus of Classical Arabic with Diacritics
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - diacritization
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2208.11484
+  dialects:
+  - classical
+  year: 2022
+  venue: arXiv 2022
+  notes: Notably, we propose an end-to-end text recognition approach using Vision Transformers as an encoder, namely BEIT.
+- id: masader-plus-a-new-interface-for-exploring-500-arabic-nlp-datasets
+  name: 'Masader Plus: A New Interface for Exploring +500 Arabic NLP Datasets'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2208.00932
+    website: https://arbml.github.io/masader
+  year: 2022
+  venue: arXiv 2022
+  notes: In this paper, we introduce Masader Plus, a web interface for users to browse Masader.
+- id: cs-um6p-at-semeval-2022-task-6-transformer-based-models-for-intended-s
+  name: 'CS-UM6P at SemEval-2022 Task 6: Transformer-based Models for Intended Sarcasm Detection in English and Arabic'
+  type: paper
+  country: INTL
+  org: abdelkadermh
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2206.08415
+    github: https://github.com/AbdelkaderMH/iSarcasmEval
+  year: 2022
+  venue: arXiv 2022
+  notes: In this paper, we present our participating system to the intended sarcasm detection task in English and Arabic languages.
+- id: the-arabic-ontology-an-arabic-wordnet-with-ontologically-clean-content
+  name: The Arabic Ontology -- An Arabic Wordnet with Ontologically Clean Content
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2205.09664
+    website: https://ontology.birzeit.edu
+  year: 2022
+  venue: arXiv 2022
+  notes: We present a formal Arabic wordnet built on the basis of a carefully designed ontology hereby referred to as the Arabic Ontology.
+- id: harnessing-multilingual-resources-to-question-answering-in-arabic
+  name: Harnessing Multilingual Resources to Question Answering in Arabic
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2205.08024
+  dialects:
+  - classical
+  year: 2022
+  venue: arXiv 2022
+  notes: The goal of the paper is to predict answers to questions given a passage of Qur'an.
+- id: exaasc-a-general-target-based-stance-detection-corpus-in-arabic-langua
+  name: 'ExaASC: A General Target-Based Stance Detection Corpus in Arabic Language'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2204.13979
+  year: 2022
+  venue: arXiv 2022
+  notes: This work proposes a new method toward Target-based Stance detection by using the stance of replies toward a most important and arguing target in source tweet.
+- id: towards-arabic-sentence-simplification-via-classification-and-generati
+  name: Towards Arabic Sentence Simplification via Classification and Generative Approaches
+  type: paper
+  country: INTL
+  org: nouran-khallaf
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2204.09292
+  dialects:
+  - msa
+  year: 2022
+  venue: arXiv 2022
+  notes: This paper presents an attempt to build a Modern Standard Arabic (MSA) sentence-level simplification system.
+- id: offensive-language-detection-in-under-resourced-algerian-dialectal-ara
+  name: Offensive Language Detection in Under-resourced Algerian Dialectal Arabic Language
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2203.10024
+  dialects:
+  - magh
+  - mixed
+  year: 2022
+  venue: arXiv 2022
+  notes: This paper addresses the problem of detecting the offensive and abusive content in Facebook comments.
+- id: arabgend-gender-analysis-and-inference-on-arabic-twitter
+  name: 'ArabGend: Gender Analysis and Inference on Arabic Twitter'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2203.00271
+    website: http://anonymous.com
+  year: 2022
+  venue: arXiv 2022
+  notes: Gender analysis of Twitter can reveal important socio-cultural differences between male and female users.
+- id: a-deep-cnn-architecture-with-novel-pooling-layer-applied-to-two-sudane
+  name: A Deep CNN Architecture with Novel Pooling Layer Applied to Two Sudanese Arabic Sentiment Datasets
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2201.12664
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - sudanese
+  - msa
+  - mixed
+  year: 2022
+  venue: arXiv 2022
+  notes: Arabic sentiment analysis has become an important research field in recent years.
+- id: a-large-and-diverse-arabic-corpus-for-language-modeling
+  name: A Large and Diverse Arabic Corpus for Language Modeling
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2201.09227
+  dialects:
+  - lev
+  year: 2022
+  venue: arXiv 2022
+  notes: Language models (LMs) have introduced a major paradigm shift in Natural Language Processing.
+- id: asmdd-arabic-speech-mispronunciation-detection-dataset
+  name: 'ASMDD: Arabic Speech Mispronunciation Detection Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2111.01136
+  dialects:
+  - egy
+  year: 2021
+  venue: arXiv 2021
+  notes: The largest dataset of Arabic speech mispronunciation detections in Egyptian dialogues is introduced.
+- id: the-arabic-parallel-gender-corpus-2-0-extensions-and-analyses
+  name: 'The Arabic Parallel Gender Corpus 2.0: Extensions and Analyses'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    paper: https://arxiv.org/abs/2110.09216
+  year: 2021
+  venue: arXiv 2021
+  notes: We introduce a new corpus for gender identification and rewriting in contexts involving one or two target users (I and/or You).
+- id: masader-metadata-sourcing-for-arabic-text-and-speech-data-resources
+  name: 'Masader: Metadata Sourcing for Arabic Text and Speech Data Resources'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2110.06744
+  year: 2021
+  venue: arXiv 2021
+  notes: The NLP pipeline has evolved dramatically in the last few years.
+- id: arabic-speech-emotion-recognition-employing-wav2vec2-0-and-hubert-base
+  name: Arabic Speech Emotion Recognition Employing Wav2vec2.0 and HuBERT Based on BAVED Dataset
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - sentiment
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2110.04425
+  year: 2021
+  venue: arXiv 2021
+  notes: This paper introduces a deep learning constructed emotional recognition model for Arabic speech dialogues.
+- id: aracovid19-ssd-arabic-covid-19-sentiment-and-sarcasm-detection-dataset
+  name: 'AraCOVID19-SSD: Arabic COVID-19 Sentiment and Sarcasm Detection Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2110.01948
+  year: 2021
+  venue: arXiv 2021
+  notes: Motivated by the emerging need for annotated datasets that tackle these kinds of problems in the context of COVID-19.
+- id: arat5-text-to-text-transformers-for-arabic-language-generation
+  name: 'AraT5: Text-to-Text Transformers for Arabic Language Generation'
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2109.12068
+    github: https://github.com/UBC-NLP/araT5
+  dialects:
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: For evaluation, we introduce a novel benchmark for ARabic language GENeration (ARGEN), covering seven important tasks.
+- id: investigations-on-speech-recognition-systems-for-low-resource-dialecta
+  name: Investigations on Speech Recognition Systems for Low-Resource Dialectal Arabic-English Code-Switching Speech
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - asr
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2108.12881
+  dialects:
+  - egy
+  year: 2021
+  venue: arXiv 2021
+  notes: In this paper, we present our work on code-switched Egyptian Arabic-English automatic speech recognition (ASR).
+- id: new-arabic-medical-dataset-for-diseases-classification
+  name: New Arabic Medical Dataset for Diseases Classification
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2106.15236
+  year: 2021
+  venue: arXiv 2021
+  notes: We introduce a new Arab medical dataset, which includes two thousand medical documents collected from several Arabic medical websites.
+- id: qasr-qcri-aljazeera-speech-resource-a-large-scale-annotated-arabic-spe
+  name: 'QASR: QCRI Aljazeera Speech Resource -- A Large Scale Annotated Arabic Speech Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  - ner
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2106.13000
+  dialects:
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: We introduce the largest transcribed Arabic speech corpus, QASR, collected from the broadcast domain.
+- id: calliar-an-online-handwritten-dataset-for-arabic-calligraphy
+  name: 'Calliar: An Online Handwritten Dataset for Arabic Calligraphy'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  links:
+    paper: https://arxiv.org/abs/2106.10745
+  year: 2021
+  venue: arXiv 2021
+  notes: Calligraphy is an essential part of the Arabic heritage and culture.
+- id: aracovid19-mfh-arabic-covid-19-multi-label-fake-news-and-hate-speech-d
+  name: 'AraCOVID19-MFH: Arabic COVID-19 Multi-label Fake News and Hate Speech Detection Dataset'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2105.03143
+  dialects:
+  - lev
+  year: 2021
+  venue: arXiv 2021
+  notes: This paper releases "AraCOVID19-MFH" a manually annotated multi-label Arabic COVID-19 fake news and hate speech detection dataset.
+- id: arastance-a-multi-country-and-multi-domain-dataset-of-arabic-stance-de
+  name: 'AraStance: A Multi-Country and Multi-Domain Dataset of Arabic Stance Detection for Fact Checking'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2104.13559
+  dialects:
+  - lev
+  year: 2021
+  venue: arXiv 2021
+  notes: We present our new Arabic Stance Detection dataset (AraStance) of 4,063 claim--article pairs from a diverse set of sources.
+- id: zero-resource-multi-dialectal-arabic-natural-language-understanding
+  name: Zero-Resource Multi-Dialectal Arabic Natural Language Understanding
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - sentiment
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2104.06591
+  dialects:
+  - msa
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: To remedy such performance drop, we propose self-training with unlabeled DA data and apply it in the context of named entity recognition.
+- id: sexism-detection-the-first-corpus-in-algerian-dialect-with-a-code-swit
+  name: 'Sexism detection: The first corpus in Algerian dialect with a code-switching in Arabic/ French and English'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2104.01443
+  dialects:
+  - magh
+  year: 2021
+  venue: arXiv 2021
+  notes: In this paper, an approach for hate speech detection against women in Arabic community on social media (e.g.
+- id: let-mi-an-arabic-levantine-twitter-dataset-for-misogynistic-language
+  name: 'Let-Mi: An Arabic Levantine Twitter Dataset for Misogynistic Language'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2103.10195
+  dialects:
+  - lev
+  year: 2021
+  venue: arXiv 2021
+  notes: In this paper, we introduce an Arabic Levantine Twitter dataset for Misogynistic language (LeT-Mi) to be the first benchmark dataset for Arabic misogyny.
+- id: nadi-2021-the-second-nuanced-arabic-dialect-identification-shared-task
+  name: 'NADI 2021: The Second Nuanced Arabic Dialect Identification Shared Task'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    paper: https://arxiv.org/abs/2103.08466
+  dialects:
+  - msa
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: We present the findings and results of the Second Nuanced Arabic Dialect Identification Shared Task (NADI 2021).
+- id: an-enhanced-corpus-for-arabic-newspapers-comments
+  name: An Enhanced Corpus for Arabic Newspapers Comments
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2102.09965
+  dialects:
+  - magh
+  year: 2021
+  venue: arXiv 2021
+  notes: In this paper, we propose our enhanced approach to create a dedicated corpus for Algerian Arabic newspapers comments.
+- id: an-open-access-nlp-dataset-for-arabic-dialects-data-collection-labelin
+  name: 'An open access NLP dataset for Arabic dialects : Data collection, labeling, and model construction'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2102.11000
+  dialects:
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: In this work, we present an open data set of social data content in several Arabic dialects.
+- id: exploratory-arabic-offensive-language-dataset-analysis
+  name: Exploratory Arabic Offensive Language Dataset Analysis
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2101.11434
+  year: 2021
+  venue: arXiv 2021
+  notes: This paper adding more insights towards resources and datasets used in Arabic offensive language research.
+- id: self-training-pre-trained-language-models-for-zero-and-few-shot-multi
+  name: Self-Training Pre-Trained Language Models for Zero- and Few-Shot Multi-Dialectal Arabic Sequence Labeling
+  type: paper
+  country: INTL
+  org: mohammadkhalifa
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2101.04758
+    github: https://github.com/mohammadKhalifa/zero-shot-arabic-dialects
+  dialects:
+  - msa
+  - mixed
+  year: 2021
+  venue: arXiv 2021
+  notes: We propose to self-train pre-trained language models in zero- and few-shot scenarios to improve performance on data-scarce varieties using only resources.
+- id: a-benchmark-arabic-dataset-for-commonsense-explanation
+  name: A Benchmark Arabic Dataset for Commonsense Explanation
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2012.10251
+  year: 2020
+  venue: arXiv 2020
+  notes: In this paper, we present a benchmark Arabic dataset for commonsense explanation.
+- id: dialex-a-benchmark-for-evaluating-multidialectal-arabic-word-embedding
+  name: 'DiaLex: A Benchmark for Evaluating Multidialectal Arabic Word Embeddings'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2011.10970
+  dialects:
+  - egy
+  - lev
+  - magh
+  - mixed
+  year: 2020
+  venue: arXiv 2020
+  notes: We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embedding.
+- id: arcov19-rumors-arabic-covid-19-twitter-dataset-for-misinformation-dete
+  name: 'ArCOV19-Rumors: Arabic COVID-19 Twitter Dataset for Misinformation Detection'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2010.08768
+  dialects:
+  - lev
+  year: 2020
+  venue: arXiv 2020
+  notes: In this paper we introduce ArCOV19-Rumors, an Arabic COVID-19 Twitter dataset for misinformation detection composed of tweets containing claims.
+- id: automatic-arabic-dialect-identification-systems-for-written-texts-a-su
+  name: 'Automatic Arabic Dialect Identification Systems for Written Texts: A Survey'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - translation
+  - dialect-id
+  - evaluation
+  - survey
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2009.12622
+  dialects:
+  - mixed
+  year: 2020
+  venue: arXiv 2020
+  notes: In this paper, we present a comprehensive survey of Arabic dialect identification research in written texts.
+- id: woli-at-semeval-2020-task-12-arabic-offensive-language-identification
+  name: 'WOLI at SemEval-2020 Task 12: Arabic Offensive Language Identification on Different Twitter Datasets'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2009.05456
+  year: 2020
+  venue: arXiv 2020
+  notes: This paper presents the results and the main findings of SemEval-2020, Task 12 OffensEval Sub-task A Zampieri et al.
+- id: is-this-sentence-valid-an-arabic-dataset-for-commonsense-validation
+  name: Is this sentence valid? An Arabic Dataset for Commonsense Validation
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2008.10873
+  year: 2020
+  venue: arXiv 2020
+  notes: We present a benchmark Arabic dataset for commonsense understanding and validation as well as a baseline research and models trained using the same dataset.
+- id: an-empirical-study-of-pre-trained-transformers-for-arabic-information
+  name: An Empirical Study of Pre-trained Transformers for Arabic Information Extraction
+  type: paper
+  country: INTL
+  org: lanwuwei
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2004.14519
+    github: https://github.com/lanwuwei/GigaBERT
+  year: 2020
+  venue: arXiv 2020
+  notes: Multilingual pre-trained Transformers, such as mBERT (Devlin et al., 2019) and XLM-RoBERTa.
+- id: arcov-19-the-first-arabic-covid-19-twitter-dataset-with-propagation-ne
+  name: 'ArCOV-19: The First Arabic COVID-19 Twitter Dataset with Propagation Networks'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2004.05861
+  year: 2020
+  venue: arXiv 2020
+  notes: We present ArCOV-19, an Arabic COVID-19 Twitter dataset that spans one year, covering the period from 27th of January 2020 till 31st of January 2021.
+- id: large-arabic-twitter-dataset-on-covid-19
+  name: Large Arabic Twitter Dataset on COVID-19
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2004.04315
+  year: 2020
+  venue: arXiv 2020
+  notes: In this work, we describe the first Arabic tweets dataset on COVID-19 that we have been collecting since January 1st, 2020.
+- id: araacom-arabic-algerian-corpus-for-opinion-mining
+  name: 'ARAACOM: ARAbic Algerian Corpus for Opinion Mining'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2001.08010
+  dialects:
+  - magh
+  year: 2020
+  venue: arXiv 2020
+  notes: In this paper, we propose our approach, for opinion mining in Arabic Algerian news paper.
+- id: quranicmmlu-a-cognitively-aware-benchmark-for-evaluating-generative-ai
+  name: 'QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - qa
+  - evaluation
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2609.22038
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity.
+- id: a-corpus-aligned-uthmani-to-standard-quranic-word-mapping-and-a-determ
+  name: A Corpus-Aligned Uthmani-to-Standard Quranic Word Mapping and a Deterministic Recitation Validator
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2609.14967
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: On top of the normalized text, we build a deterministic, LLM-free Quranic recitation validator using a four-layer verse-matching search.
+- id: beyond-fluency-a-rubric-based-benchmark-for-evaluating-saudi-dialect-a
+  name: 'Beyond Fluency: A Rubric-Based Benchmark for Evaluating Saudi Dialect and Cultural Competence in Large Language Models'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.29990
+  dialects:
+  - gulf
+  - msa
+  year: 2026
+  venue: arXiv 2026
+  notes: We present a rubric-based benchmark for the Saudi dialect, comprising 31 expert-authored prompts spanning idiomatic, pragmatic, lexical.
+- id: terminal-bench-lilt-multilingual-agentic-coding-benchmark-grounded-in
+  name: 'Terminal-Bench-LILT: Multilingual Agentic Coding Benchmark Grounded in Language, Region, and Culture'
+  type: paper
+  country: INTL
+  org: lilt
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2608.28641
+    github: https://github.com/lilt/terminal-bench-lilt
+  year: 2026
+  venue: arXiv 2026
+  notes: We present Terminal-Bench-LILT, a suite of 300 authentic coding tasks in ten languages.
+- id: do-llms-fabricate-legal-citations-a-bilingual-benchmark-on-saudi-data
+  name: Do LLMs Fabricate Legal Citations? A Bilingual Benchmark on Saudi Data Protection Law and the GDPR
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2607.11127
+  dialects:
+  - gulf
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce a bilingual benchmark of 120 questions probing whether freely accessible LLMs fabricate article citations for two data-protection instruments.
+- id: crosshallu-do-hallucination-signals-generalize-across-languages-and-do
+  name: 'CrossHallu: Do Hallucination Signals Generalize Across Languages and Domains in Large Language Model''s Internals?'
+  type: paper
+  country: INTL
+  org: aishaalansari57
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2607.04029
+    github: https://github.com/aishaalansari57/CrossHal
+  year: 2026
+  venue: arXiv 2026
+  notes: We present CrossHallu, the first study to evaluate the cross-lingual and cross-domain generalization of hallucination detection.
+- id: toxirex-a-dataset-on-toxic-reasoning-in-context
+  name: 'ToxiREX: A Dataset on Toxic REasoning in ConteXt'
+  type: paper
+  country: INTL
+  org: cltl
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.27981
+    github: https://github.com/cltl/toxirex
+  year: 2026
+  venue: arXiv 2026
+  notes: 'We introduce a new, contextual, multilingual dataset called ToxiREX: Toxic REasoning in ConteXt.'
+- id: babeljudge-measuring-llm-as-a-judge-reliability-across-languages-and-a
+  name: 'BabelJudge: Measuring LLM-as-a-Judge Reliability Across Languages and Agent Trajectories'
+  type: paper
+  country: INTL
+  org: shreyaskc
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.22329
+    github: https://github.com/Shreyaskc/BabelJudge
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce BabelJudge, an open-source benchmark and reliability audit framework that measures all four failure modes.
+- id: a-comparative-study-of-pretrained-transformer-models-for-quranic-asr-s
+  name: 'A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - pretraining
+  - speech
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2606.19747
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper presents a systematic empirical study of domain-specific fine-tuning of pretrained Transformer-based models for Quranic ASR.
+- id: qias-2026-overview-of-the-shared-task-on-islamic-inheritance-reasoning
+  name: 'QIAS 2026: Overview of the Shared Task on Islamic Inheritance Reasoning'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - qa
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.13756
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper presents a comprehensive overview of the QIAS 2026 shared task, organized as part of the OSACT7 Workshop and co-located with LREC 2026.
+- id: an-end-to-end-hybrid-framework-for-rumour-detection-in-low-resources-a
+  name: An End-to-End Hybrid Framework for Rumour Detection in Low-Resources Algerian Dialect
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2606.13411
+  dialects:
+  - magh
+  year: 2026
+  venue: arXiv 2026
+  notes: This paper presents an end-to-end rumour detection hybrid framework for Algerian dialect social media content.
+- id: the-generator-eraser-paradox-community-guidelines-for-responsible-llm
+  name: 'The Generator-Eraser Paradox: Community Guidelines for Responsible LLM-Assisted Dialect Resource Creation'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    paper: https://arxiv.org/abs/2606.06004
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: Dialect resources occupy a unique position at the intersection of scientific description, cultural preservation, and computational infrastructure.
+- id: almieyar-oryx-bloombench-a-bilingual-multimodal-benchmark-for-cognitiv
+  name: 'Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models'
+  type: paper
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2606.05531
+    github: https://github.com/qcri/Almieyar-Oryx-BloomBench
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce BloomBench, part of the Almieyar benchmarking series, the first cognitively human-grounded, bilingual.
+- id: linear-semantic-segmentation-for-low-resource-spoken-dialects
+  name: Linear Semantic Segmentation for Low-Resource Spoken Dialects
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2605.06276
+  dialects:
+  - msa
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce a new multi-genre benchmark (more than 1000 samples) for semantic segmentation in conversational Arabic, focusing on dialectal discourse.
+- id: lqm-linguistically-motivated-multidimensional-quality-metrics-for-mach
+  name: 'LQM: Linguistically Motivated Multidimensional Quality Metrics for Machine Translation'
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2604.18490
+    github: https://github.com/UBC-NLP/LQM_MT
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - yemeni
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: However, they often fail to capture dialect- and culture-specific errors in diglossic languages (e.g., Arabic).
+- id: multilingual-multi-label-emotion-classification-at-scale-with-syntheti
+  name: Multilingual Multi-Label Emotion Classification at Scale with Synthetic Data
+  type: paper
+  country: INTL
+  org: tabularisai
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2604.12633
+    hf: https://huggingface.co/tabularisai/multilingual-emotion-classification
+  year: 2026
+  venue: arXiv 2026
+  notes: Emotion classification in multilingual settings remains constrained by the scarcity of annotated data.
+- id: islamicmmlu-a-benchmark-for-evaluating-llms-on-islamic-knowledge
+  name: 'IslamicMMLU: A Benchmark for Evaluating LLMs on Islamic Knowledge'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  - quran
+  - hadith
+  links:
+    paper: https://arxiv.org/abs/2603.23750
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: 'We introduce IslamicMMLU, a benchmark of 10,013 multiple-choice questions spanning three tracks: Quran (2,013 questions), Hadith (4,000 questions), and Fiqh.'
+- id: what-really-controls-temporal-reasoning-in-large-language-models-token
+  name: 'What Really Controls Temporal Reasoning in Large Language Models: Tokenisation or Representation of Time?'
+  type: paper
+  country: INTL
+  org: gagan3012
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2603.19017
+    github: https://github.com/gagan3012/mtb
+  year: 2026
+  venue: arXiv 2026
+  notes: We present MultiTempBench, a multilingual temporal reasoning benchmark spanning three tasks, date arithmetic, time zone conversion.
+- id: fanar-sadiq-a-multi-agent-architecture-for-grounded-islamic-qa
+  name: 'Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - qa
+  - evaluation
+  - quran
+  - hadith
+  links:
+    paper: https://arxiv.org/abs/2603.08501
+    website: https://api.fanar.qa/docs
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: To address these challenges, we present Fanar-Sadiq, a bilingual Arabic-English Islamic QA system built on a multi-agent, tool-augmented architecture.
+- id: mawarith-a-dataset-and-benchmark-for-legal-inheritance-reasoning-with
+  name: 'MAWARITH: A Dataset and Benchmark for Legal Inheritance Reasoning with LLMs'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2603.07539
+    website: https://gitlab.com/nlpresearcher/mawarith
+  year: 2026
+  venue: arXiv 2026
+  notes: 'MAWARITH: 12,500 annotated Arabic Islamic inheritance cases for training and evaluating step-by-step inheritance reasoning.'
+- id: bolbosh-script-aware-flow-matching-for-kashmiri-text-to-speech
+  name: 'Bolbosh: Script-Aware Flow Matching for Kashmiri Text-to-Speech'
+  type: paper
+  country: INTL
+  org: gaash-lab
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - diacritization
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2603.07513
+    github: https://github.com/gaash-lab/Bolbosh
+  year: 2026
+  venue: arXiv 2026
+  notes: In this work, we present the first dedicated open-source neural TTS system designed for Kashmiri.
+- id: macaron-controlled-human-written-benchmark-for-multilingual-and-multic
+  name: 'Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling'
+  type: paper
+  country: INTL
+  org: alaaahmed2444
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.10732
+    hf: https://huggingface.co/datasets/AlaaAhmed2444/Macaron
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We propose Macaron, a template-first benchmark that factorizes reasoning type and cultural aspect across question languages.
+- id: halluverse-m-3-a-multitask-multilingual-benchmark-for-hallucination-in
+  name: 'Halluverse-M^3: A multitask multilingual benchmark for hallucination in LLMs'
+  type: paper
+  country: INTL
+  org: sabdalja
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - summarization
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.06920
+    hf: https://huggingface.co/datasets/sabdalja/HalluVerse-M3
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce Halluverse-M^3, a dataset designed to enable systematic analysis of hallucinations across multiple languages, multiple generation tasks.
+- id: mederrbench-a-fine-grained-multilingual-benchmark-for-medical-error-de
+  name: 'MedErrBench: A Fine-Grained Multilingual Benchmark for Medical Error Detection and Correction with Clinical Expert Annotations'
+  type: paper
+  country: INTL
+  org: congboma
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2602.05692
+    github: https://github.com/congboma/MedErrBench
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce MedErrBench, the first multilingual benchmark for error detection, localization.
+- id: once-correct-still-wrong-counterfactual-hallucination-in-multilingual
+  name: 'Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models'
+  type: paper
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2602.05437
+    hf: https://huggingface.co/datasets/QCRI/M2CQA
+  dialects:
+  - mixed
+  year: 2026
+  venue: arXiv 2026
+  notes: We introduce M$^2$CQA, a culturally grounded multimodal benchmark built from images spanning 17 MENA countries.
+- id: quran-md-a-fine-grained-multilingual-multimodal-dataset-of-the-quran
+  name: 'Quran-MD: A Fine-Grained Multilingual Multimodal Dataset of the Quran'
+  type: paper
+  country: INTL
+  org: buraaq
+  license: unknown
+  modality: multimodal
+  tasks:
+  - asr
+  - tts
+  - embedding
+  - translation
+  - speech
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2601.17880
+    hf: https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset
+  dialects:
+  - classical
+  year: 2026
+  venue: arXiv 2026
+  notes: We present Quran MD, a comprehensive multimodal dataset of the Quran that integrates textual, linguistic, and audio dimensions at the verse and word levels.
+- id: algerian-dialect
+  name: Algerian Dialect
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2512.19543
+    website: https://doi.org/10.17632/zzwg3nnhsz.2
+  dialects:
+  - magh
+  year: 2025
+  venue: arXiv 2025
+  notes: We present Algerian Dialect, a large-scale sentiment-annotated dataset consisting of 45,000 YouTube comments written in Algerian Arabic dialect.
+- id: mix-minhash-and-match-cross-source-agreement-for-multilingual-pretrain
+  name: 'Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2512.18834
+    hf: https://huggingface.co/collections/AdaMLLab/mixminmatch
+  year: 2025
+  venue: arXiv 2025
+  notes: In this work, we propose to use this wasteful redundancy as a quality signal to create high-quality pretraining datasets.
+- id: senwave-a-fine-grained-multi-language-sentiment-analysis-dataset-sourc
+  name: 'SenWave: A Fine-Grained Multi-Language Sentiment Analysis Dataset Sourced from COVID-19 Tweets'
+  type: paper
+  country: INTL
+  org: gitdevqiang
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - sentiment
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2510.08214
+    github: https://github.com/gitdevqiang/SenWave
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce SenWave, a novel fine-grained multi-language sentiment analysis dataset specifically designed for analyzing COVID-19 tweets.
+- id: oasis-a-multilingual-and-multimodal-dataset-for-culturally-grounded-sp
+  name: 'OASIS: A Multilingual and Multimodal Dataset for Culturally Grounded Spoken Visual QA'
+  type: paper
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - qa
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2510.06371
+    hf: https://huggingface.co/datasets/QCRI/OASIS
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce OASIS, a large-scale culturally grounded multimodal QA dataset covering images, text, and speech.
+- id: autoarabic-a-three-stage-framework-for-localizing-video-text-retrieval
+  name: 'AutoArabic: A Three-Stage Framework for Localizing Video-Text Retrieval Benchmarks'
+  type: paper
+  country: INTL
+  org: tahaalshatiri
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2509.16438
+    github: https://github.com/Tahaalshatiri/AutoArabic
+  dialects:
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce a three-stage framework, AutoArabic, utilizing state-of-the-art large language models.
+- id: cs-fleurs-a-massively-multilingual-and-code-switched-speech-dataset
+  name: 'CS-FLEURS: A Massively Multilingual and Code-Switched Speech Dataset'
+  type: paper
+  country: INTL
+  org: byan
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - translation
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2509.14161
+    hf: https://huggingface.co/datasets/byan/cs-fleurs
+  year: 2025
+  venue: arXiv 2025
+  notes: We present CS-FLEURS, a new dataset for developing and evaluating code-switched speech recognition and translation systems beyond high-resourced languages.
+- id: cvpd-at-qias-2025-shared-task-an-efficient-encoder-based-approach-for
+  name: 'CVPD at QIAS 2025 Shared Task: An Efficient Encoder-Based Approach for Islamic Inheritance Reasoning'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2509.00457
+  year: 2025
+  venue: arXiv 2025
+  notes: We present a lightweight framework for solving multiple-choice inheritance questions using a specialised Arabic text encoder and Attentive Relevance Scoring.
+- id: automatic-pronunciation-error-detection-and-correction-of-the-holy-qur
+  name: Automatic Pronunciation Error Detection and Correction of the Holy Quran's Learners Using Deep Learning
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - evaluation
+  - speech
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2509.00094
+    website: https://obadx.github.io/quran-muaalem/en
+  dialects:
+  - classical
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: 'We release our work as open-source: https://obadx.github.io/quran-muaalem/en/'
+- id: mizanqa-benchmarking-large-language-models-on-moroccan-legal-question
+  name: 'MizanQA: Benchmarking Large Language Models on Moroccan Legal Question Answering'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.16357
+  dialects:
+  - magh
+  - msa
+  year: 2025
+  venue: arXiv 2025
+  notes: This paper introduces MizanQA (pronounced Mizan, meaning "scale" in Arabic, a universal symbol of justice).
+- id: building-and-aligning-comparable-corpora
+  name: Building and Aligning Comparable Corpora
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2508.02555
+  year: 2025
+  venue: arXiv 2025
+  notes: In this paper, we present a method to build comparable corpora from Wikipedia encyclopedia and EURONEWS website in English, French and Arabic languages.
+- id: voxlect-a-speech-foundation-model-benchmark-for-modeling-dialects-and
+  name: 'Voxlect: A Speech Foundation Model Benchmark for Modeling Dialects and Regional Languages Around the Globe'
+  type: paper
+  country: INTL
+  org: tiantiaf0627
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2508.01691
+    github: https://github.com/tiantiaf0627/voxlect
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We present Voxlect, a novel benchmark for modeling dialects and regional languages worldwide using speech foundation models.
+- id: multi-agent-interactive-question-generation-framework-for-long-documen
+  name: Multi-Agent Interactive Question Generation Framework for Long Document Understanding
+  type: paper
+  country: INTL
+  org: wangk0b
+  license: unknown
+  modality: multimodal
+  tasks:
+  - qa
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2507.20145
+  year: 2025
+  venue: arXiv 2025
+  notes: We propose a fully automated, multi-agent interactive framework to generate long-context questions efficiently.
+- id: quranmorph-morphologically-annotated-quranic-corpus
+  name: 'QuranMorph: Morphologically Annotated Quranic Corpus'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2506.18148
+    website: https://sina.birzeit.edu/quran
+  dialects:
+  - classical
+  year: 2025
+  venue: arXiv 2025
+  notes: We present the QuranMorph corpus, a morphologically annotated corpus for the Quran (77,429 tokens).
+- id: konooz-multi-domain-multi-dialect-corpus-for-named-entity-recognition
+  name: 'Konooz: Multi-domain Multi-dialect Corpus for Named Entity Recognition'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2506.12615
+    website: https://sina.birzeit.edu/wojood/#download
+  dialects:
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce Konooz, a novel multi-dimensional corpus covering 16 Arabic dialects across 10 domains, resulting in 160 distinct corpora.
+- id: a-culturally-diverse-multilingual-multimodal-video-benchmark-model
+  name: A Culturally-diverse Multilingual Multimodal Video Benchmark & Model
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - translation
+  - qa
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2506.07032
+    website: https://mbzuai-oryx.github.io/ViMUL
+  year: 2025
+  venue: arXiv 2025
+  notes: In pursuit of more inclusive video LMMs, we introduce a multilingual Video LMM benchmark, named ViMUL-Bench, to evaluate Video LMMs across 14 languages.
+- id: macosworld-a-multilingual-interactive-benchmark-for-gui-agents
+  name: 'macOSWorld: A Multilingual Interactive Benchmark for GUI Agents'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2506.04135
+    website: https://macos-world.github.io
+  year: 2025
+  venue: arXiv 2025
+  notes: To bridge the gaps, we present macOSWorld, the first comprehensive benchmark for evaluating GUI agents.
+- id: tell-me-habibi-is-it-real-or-fake
+  name: Tell me Habibi, is it Real or Fake?
+  type: paper
+  country: INTL
+  org: kartik060702
+  license: unknown
+  modality: multimodal
+  tasks:
+  - tts
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2505.22581
+    hf: https://huggingface.co/datasets/kartik060702/ArEnAV-Full
+  year: 2025
+  venue: arXiv 2025
+  notes: Deepfake generation methods are evolving fast, making fake media harder to detect and raising serious societal concerns.
+- id: nilechat-towards-linguistically-diverse-and-culturally-aware-llms-for
+  name: 'NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities'
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2505.18383
+    github: https://github.com/UBC-NLP/nilechat
+  dialects:
+  - egy
+  - magh
+  - mixed
+  year: 2025
+  venue: arXiv 2025
+  notes: This work proposes a methodology to create both synthetic and retrieval-based pre-training data tailored to a specific community, considering.
+- id: llmvox-autoregressive-streaming-text-to-speech-model-for-any-llm
+  name: 'LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - chat
+  - tts
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2503.04724
+    website: https://mbzuai-oryx.github.io/LLMVoX
+  year: 2025
+  venue: arXiv 2025
+  notes: In contrast, we propose LLMVoX, a lightweight 30M-parameter, LLM-agnostic, autoregressive streaming TTS system that generates high-quality speech.
+- id: memeintel-explainable-detection-of-propagandistic-and-hateful-memes
+  name: 'MemeIntel: Explainable Detection of Propagandistic and Hateful Memes'
+  type: paper
+  country: INTL
+  org: mohamedbayan
+  license: unknown
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2502.16612
+    github: https://github.com/MohamedBayan/MemeIntel
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce MemeXplain, an explanation-enhanced dataset for propagandistic memes in Arabic and hateful memes in English.
+- id: propxplain-can-llms-enable-explainable-propaganda-detection
+  name: 'PropXplain: Can LLMs Enable Explainable Propaganda Detection?'
+  type: paper
+  country: INTL
+  org: firojalam
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    paper: https://arxiv.org/abs/2502.16550
+    github: https://github.com/firojalam/PropXplain
+  year: 2025
+  venue: arXiv 2025
+  notes: To address this issue, we propose a multilingual (i.e., Arabic and English) explanation-enhanced dataset, the first of its kind.
+- id: multi-lingual-cyber-threat-detection-in-tweets-x-using-ml-dl-and-llm-a
+  name: 'Multi-Lingual Cyber Threat Detection in Tweets/X Using ML, DL, and LLM: A Comparative Analysis'
+  type: paper
+  country: INTL
+  org: mmurrad
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2502.04346
+    github: https://github.com/Mmurrad/Tweet-Data-Classification.git
+  year: 2025
+  venue: arXiv 2025
+  notes: Cyber threat detection has become an important area of focus in today's digital age due to the growing spread of fake information and harmful content.
+- id: morphbpe-a-morpho-aware-tokenizer-bridging-linguistic-complexity-for-e
+  name: 'MorphBPE: A Morpho-Aware Tokenizer Bridging Linguistic Complexity for Efficient LLM Training Across Morphologies'
+  type: paper
+  country: INTL
+  org: llm-lab-org
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2502.00894
+    github: https://github.com/llm-lab-org/MorphBPE
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce MorphBPE, a morphology-aware extension of BPE that integrates linguistic structure into subword tokenization.
+- id: on-the-origin-of-cultural-biases-in-language-models-from-pre-training
+  name: 'On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena'
+  type: paper
+  country: INTL
+  org: tareknaous
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2501.04662
+    github: https://github.com/tareknaous/camel2
+  year: 2025
+  venue: arXiv 2025
+  notes: We introduce CAMeL-2, a parallel Arabic-English benchmark of 58,086 entities associated with Arab and Western cultures and 367 masked natural contexts.
+- id: towards-global-ai-inclusivity-a-large-scale-multilingual-terminology-d
+  name: 'Towards Global AI Inclusivity: A Large-Scale Multilingual Terminology Dataset (GIST)'
+  type: paper
+  country: INTL
+  org: jerry999
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2412.18367
+    hf: https://huggingface.co/datasets/Jerry999/multilingual-terminology
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce GIST, a large-scale multilingual AI terminology dataset containing 5K terms extracted from top AI conference papers spanning 2000 to 2023.
+- id: optimized-quran-passage-retrieval-using-an-expanded-qa-dataset-and-fin
+  name: Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - qa
+  - quran
+  links:
+    paper: https://arxiv.org/abs/2412.11431
+  dialects:
+  - classical
+  - msa
+  year: 2024
+  venue: arXiv 2024
+  notes: Understanding the deep meanings of the Qur'an and bridging the language gap between modern standard Arabic and classical Arabic is essential.
+- id: bimedix2-bio-medical-expert-lmm-for-diverse-medical-modalities
+  name: 'BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - chat
+  - qa
+  - summarization
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2412.07769
+    github: https://github.com/mbzuai-oryx/BiMediX2
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce BiMediX2, a bilingual (Arabic-English) Bio-Medical EXpert Large Multimodal Model that supports text-based and image-based medical interactions.
+- id: xmodel-1-5-an-1b-scale-multilingual-llm
+  name: 'Xmodel-1.5: An 1B-scale Multilingual LLM'
+  type: paper
+  country: INTL
+  org: xiaoduoailab
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2411.10083
+    github: https://github.com/XiaoduoAILab/XmodelLM-1.5
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce Xmodel-1.5, a 1-billion-parameter multilingual large language model pretrained on 2 trillion tokens.
+- id: humvi-a-multilingual-dataset-for-detecting-violent-incidents-impacting
+  name: 'HumVI: A Multilingual Dataset for Detecting Violent Incidents Impacting Humanitarian Aid'
+  type: paper
+  country: INTL
+  org: dataminr-ai
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2410.06370
+    github: https://github.com/dataminr-ai/humvi-dataset
+  year: 2024
+  venue: arXiv 2024
+  notes: 'HumVI: English, French and Arabic news articles labelled for violent incidents affecting humanitarian aid.'
+- id: xtrust-on-the-multilingual-trustworthiness-of-large-language-models
+  name: 'XTRUST: On the Multilingual Trustworthiness of Large Language Models'
+  type: paper
+  country: INTL
+  org: lluckyyh
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2409.15762
+    github: https://github.com/LluckyYH/XTRUST
+  year: 2024
+  venue: arXiv 2024
+  notes: In response to the growing global deployment of LLMs, we introduce XTRUST, the first comprehensive multilingual trustworthiness benchmark.
+- id: sina-at-fignews-2024-multilingual-datasets-annotated-with-bias-and-pro
+  name: 'Sina at FigNews 2024: Multilingual Datasets Annotated with Bias and Propaganda'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2407.09327
+    website: https://sina.birzeit.edu/fada
+  year: 2024
+  venue: arXiv 2024
+  notes: The proliferation of bias and propaganda on social media is an increasingly significant concern.
+- id: performance-analysis-of-speech-encoders-for-low-resource-slu-and-asr-i
+  name: Performance Analysis of Speech Encoders for Low-Resource SLU and ASR in Tunisian Dialect
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: multimodal
+  tasks:
+  - asr
+  - pretraining
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2407.04533
+  dialects:
+  - magh
+  year: 2024
+  venue: arXiv 2024
+  notes: Speech encoders pretrained through self-supervised learning (SSL) have demonstrated remarkable performance in various downstream tasks.
+- id: to-distill-or-not-to-distill-on-the-robustness-of-robust-knowledge-dis
+  name: To Distill or Not to Distill? On the Robustness of Robust Knowledge Distillation
+  type: paper
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2406.04512
+  dialects:
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: Arabic is known to present unique challenges for Automatic Speech Recognition (ASR).
+- id: receiptsense-beyond-traditional-ocr-a-dataset-for-receipt-understandin
+  name: 'ReceiptSense: Beyond Traditional OCR -- A Dataset for Receipt Understanding'
+  type: paper
+  country: INTL
+  org: update-for-integrated-business-ai
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - qa
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2406.04493
+    github: https://github.com/Update-For-Integrated-Business-AI/CORU
+  year: 2024
+  venue: arXiv 2024
+  notes: We introduce \dataset, a comprehensive dataset designed for Arabic-English receipt understanding comprising 20,000 annotated receipts.
+- id: visper-multilingual-audio-visual-speech-recognition
+  name: 'ViSpeR: Multilingual Audio-Visual Speech Recognition'
+  type: paper
+  country: INTL
+  org: yasserdahouml
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2406.00038
+    github: https://github.com/YasserdahouML/visper
+  year: 2024
+  venue: arXiv 2024
+  notes: This work presents an extensive and detailed study on Audio-Visual Speech Recognition (AVSR) for five widely spoken languages.
+- id: the-evolution-of-darija-open-dataset-introducing-version-2
+  name: 'The Evolution of Darija Open Dataset: Introducing Version 2'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2405.13016
+  dialects:
+  - magh
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: Darija Open Dataset (DODa) represents an open-source project aimed at enhancing Natural Language Processing capabilities for the Moroccan dialect, Darija.
+- id: palo-a-polyglot-large-multimodal-model-for-5b-people
+  name: 'PALO: A Polyglot Large Multimodal Model for 5B People'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: multimodal
+  tasks:
+  - translation
+  - instruction-tuning
+  - evaluation
+  - vision
+  links:
+    paper: https://arxiv.org/abs/2402.14818
+    github: https://github.com/mbzuai-oryx/PALO
+  year: 2024
+  venue: arXiv 2024
+  notes: In pursuit of more inclusive Vision-Language Models (VLMs), this study introduces a Large Multilingual Multimodal Model called PALO.
+- id: bimedix-bilingual-medical-mixture-of-experts-llm
+  name: 'BiMediX: Bilingual Medical Mixture of Experts LLM'
+  type: paper
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - qa
+  - instruction-tuning
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2402.13253
+    github: https://github.com/mbzuai-oryx/BiMediX
+  year: 2024
+  venue: arXiv 2024
+  notes: In this paper, we introduce BiMediX, the first bilingual medical mixture of experts LLM designed for seamless interaction in both English and Arabic.
+- id: natural-language-processing-for-dialects-of-a-language-a-survey
+  name: 'Natural Language Processing for Dialects of a Language: A Survey'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - dialect-id
+  - sentiment
+  - summarization
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2401.05632
+  dialects:
+  - mixed
+  year: 2024
+  venue: arXiv 2024
+  notes: Survey of NLP for dialects of a language, covering datasets and approaches for dialectal NLU and NLG, Arabic dialects included.
+- id: mavericks-at-nadi-2023-shared-task-unravelling-regional-nuances-throug
+  name: 'Mavericks at NADI 2023 Shared Task: Unravelling Regional Nuances through Dialect Identification using Transformer-based Approach'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - dialect-id
+  - pretraining
+  - evaluation
+  - speech
+  links:
+    paper: https://arxiv.org/abs/2311.18739
+  dialects:
+  - mixed
+  year: 2023
+  venue: arXiv 2023
+  notes: In this paper, we present our approach for the "Nuanced Arabic Dialect Identification (NADI) Shared Task 2023".
+- id: cultural-alignment-in-large-language-models-an-explanatory-analysis-ba
+  name: 'Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede''s Cultural Dimensions'
+  type: paper
+  country: INTL
+  org: reemim
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2309.12342
+    github: https://github.com/reemim/Hofstedes_CAT
+  year: 2023
+  venue: arXiv 2023
+  notes: The deployment of large language models (LLMs) raises concerns regarding their cultural misalignment and potential ramifications on individuals.
+- id: enriching-the-narabizi-treebank-a-multifaceted-approach-to-supporting
+  name: 'Enriching the NArabizi Treebank: A Multifaceted Approach to Supporting an Under-Resourced Language'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  links:
+    paper: https://arxiv.org/abs/2306.14866
+  dialects:
+  - gulf
+  year: 2023
+  venue: arXiv 2023
+  notes: 'We introduce an enriched version of NArabizi Treebank (Seddah et al., 2020) with three main contributions: the addition of two novel annotation layers.'
+- id: evaluating-emotion-arcs-across-languages-bridging-the-global-divide-in
+  name: 'Evaluating Emotion Arcs Across Languages: Bridging the Global Divide in Sentiment Analysis'
+  type: paper
+  country: INTL
+  org: dteodore
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2306.02213
+    github: https://github.com/dteodore/EmotionArcs
+  year: 2023
+  venue: arXiv 2023
+  notes: Emotion arcs capture how an individual (or a population) feels over time.
+- id: readme-benchmarking-multilingual-language-models-for-multi-domain-read
+  name: 'ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment'
+  type: paper
+  country: INTL
+  org: tareknaous
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2305.14463
+    github: https://github.com/tareknaous/readme
+  year: 2023
+  venue: arXiv 2023
+  notes: We present a comprehensive evaluation of large language models for multilingual readability assessment.
+- id: having-beer-after-prayer-measuring-cultural-bias-in-large-language-mod
+  name: Having Beer after Prayer? Measuring Cultural Bias in Large Language Models
+  type: paper
+  country: INTL
+  org: tareknaous
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - sentiment
+  - pretraining
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2305.14456
+    github: https://github.com/tareknaous/camel
+  year: 2023
+  venue: arXiv 2023
+  notes: We introduce CAMeL, a novel resource of 628 naturally-occurring prompts and 20,368 entities spanning eight types that contrast Arab and Western cultures.
+- id: semeval-2023-task-12-sentiment-analysis-for-african-languages-afrisent
+  name: 'SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)'
+  type: paper
+  country: INTL
+  org: afrisenti-semeval
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    paper: https://arxiv.org/abs/2304.06845
+    github: https://github.com/afrisenti-semeval/afrisent-semeval-2023
+  dialects:
+  - magh
+  year: 2023
+  venue: arXiv 2023
+  notes: 'AfriSenti-SemEval: tweet sentiment shared task in 14 African languages, including Algerian and Moroccan Arabic.'
+- id: impact-of-subword-pooling-strategy-on-cross-lingual-event-detection
+  name: Impact of Subword Pooling Strategy on Cross-lingual Event Detection
+  type: paper
+  country: INTL
+  org: isi-boston
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - pretraining
+  links:
+    paper: https://arxiv.org/abs/2302.11365
+    github: https://github.com/isi-boston/ed-pooling
+  year: 2023
+  venue: arXiv 2023
+  notes: Pre-trained multilingual language models (e.g., mBERT, XLM-RoBERTa) have significantly advanced the state-of-the-art.
+- id: afrisenti-a-twitter-sentiment-analysis-benchmark-for-african-languages
+  name: 'AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages'
+  type: paper
+  country: INTL
+  org: Various
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - evaluation
+  links:
+    paper: https://arxiv.org/abs/2302.08956
+    website: https://afrisenti-semeval.github.io
+  dialects:
+  - magh
+  year: 2023
+  venue: arXiv 2023
+  notes: We introduce AfriSenti, a sentiment analysis benchmark that contains a total of >110,000 tweets in 14 African languages.

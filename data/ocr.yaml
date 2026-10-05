@@ -312,3 +312,331 @@
     paper: https://arxiv.org/abs/2509.18174
   year: 2026
   notes: Merged Baseer Arabic document OCR VLM variant on Qwen2.5-VL.
+- id: arabic-ocr
+  name: Arabic-OCR
+  type: ocr
+  country: INTL
+  org: ssraza21
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/ssraza21/Arabic-OCR
+  year: 2024
+  notes: Streamlit app that converts PDFs of Arabic text images to searchable text (PDF and Word output) using Tesseract.
+- id: doctr-model-v1-arabic
+  name: doctr model v1 arabic
+  type: ocr
+  country: INTL
+  org: rania-sr
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/rania-sr/doctr-model-v1-arabic
+  year: 2025
+  notes: docTR text-recognition model trained for Arabic (TensorFlow 2 and PyTorch).
+- id: arabichar-v3
+  name: arabichar v3
+  type: ocr
+  country: INTL
+  org: asyafalni
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - handwriting
+  - classification
+  links:
+    hf: https://huggingface.co/asyafalni/arabichar-v3
+  year: 2023
+  notes: Custom CNN classifying handwritten Arabic (Hijaiyah) characters, 97.6% accuracy on its evaluation set.
+- id: arabic-base-nougat
+  name: arabic base nougat
+  type: ocr
+  country: INTL
+  org: MohamedRashad
+  license: gpl-3.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/MohamedRashad/arabic-base-nougat
+  year: 2024
+  notes: End-to-end structured OCR for Arabic books based on Nougat (arXiv 2411.17835).
+- id: ocr-rs
+  name: ocr-rs
+  type: ocr
+  country: INTL
+  org: zibo-chen
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/zibo-chen/ocr-rs
+    website: https://crates.io/crates/ocr-rs
+  year: 2026
+  notes: 高性能OCR识别库，支持上百种语言，提供命令行、图形界面及C API多种调用方式，使用便捷高效。 High-performance OCR library powered by PaddleOCR v4/v5/v6 with MNN backend.
+- id: mikhak
+  name: Mikhak
+  type: ocr
+  country: INTL
+  org: aminabedi68
+  license: ofl-1.1
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/aminabedi68/Mikhak
+    website: https://aminabedi68.github.io/Mikhak/
+  year: 2025
+  notes: simple mono-width Arabic-Latin semi handwriting typeface
+- id: mistral-arabic-ocr-test
+  name: Mistral-Arabic-OCR-test
+  type: ocr
+  country: INTL
+  org: Pythonation
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - vision
+  links:
+    github: https://github.com/Pythonation/Mistral-Arabic-OCR-test
+  year: 2025
+  notes: A powerful Python toolkit using Mistral AI's OCR to accurately convert Arabic PDFs and images to text and editable documents.
+- id: qari-ocr-0-2-2-1-vl-2b-instruct
+  name: Qari OCR 0.2.2.1 VL 2B Instruct
+  type: ocr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - chat
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Qari-OCR-0.2.2.1-VL-2B-Instruct
+  size: 2B
+  on_device: true
+  year: 2025
+  notes: 'This is the model described in the paper QARI-OCR: High-Fidelity Arabic Text Recognition through Multimodal Large Language Model Adaptation.'
+- id: quranic-arabic-recognition-dl
+  name: quranic-arabic-recognition-dl
+  type: ocr
+  country: INTL
+  org: affaan-m
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - quran
+  links:
+    github: https://github.com/affaan-m/quranic-arabic-recognition-dl
+  dialects:
+  - classical
+  year: 2026
+  notes: Enhancing Handwritten Quranic Arabic Recognition through Deep Learning
+- id: arabic-ocr-from-pdf
+  name: Arabic_OCR_From_PDF
+  type: ocr
+  country: INTL
+  org: zaakki-ahamed
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/zaakki-ahamed/Arabic_OCR_From_PDF
+  year: 2023
+  notes: Perform Optical Character Recognition (OCR) on a scanned PDF file containing Arabic text and output a searchable PDF
+- id: arabic-pp-ocrv3-mobile-rec
+  name: arabic PP OCRv3 mobile rec
+  type: ocr
+  country: INTL
+  org: PaddlePaddle
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/PaddlePaddle/arabic_PP-OCRv3_mobile_rec
+  year: 2025
+  notes: arabicPP-OCRv3mobilerec is a text line recognition model within the PP-OCRv3rec series, developed by the PaddleOCR team.
+- id: arabic-glm-ocr-v1
+  name: Arabic GLM OCR v1
+  type: ocr
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - chat
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/sherif1313/Arabic-GLM-OCR-v1
+  year: 2026
+  notes: Arabic image text to text model fine-tuned from zai-org/GLM-OCR.
+- id: waqf-ocr-hand-written-v1
+  name: waqf ocr hand written v1
+  type: ocr
+  country: EG
+  org: Waqf AI
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - chat
+  - ocr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/Waqf-AI/waqf-ocr-hand-written-v1
+  year: 2026
+  notes: Fine-tuned from PaddlePaddle/PaddleOCR-VL-1.6 on khatt-augmented-arabic-20k-s3.
+- id: invizo-ocr
+  name: Invizo-OCR
+  type: ocr
+  country: INTL
+  org: Hedrax
+  license: other
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/Hedrax/Invizo-OCR
+    website: https://arxiv.org/abs/2502.05277
+  year: 2025
+  notes: This project offers an end-to-end Arabic OCR solution for handwritten and printed text on template-based documents.
+- id: mubsir-qwen-2b-vl
+  name: Mubsir Qwen 2B VL
+  type: ocr
+  country: INTL
+  org: Hatim2221
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - chat
+  - asr
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/Hatim2221/Mubsir-Qwen-2B-VL
+  size: 2B
+  on_device: true
+  year: 2026
+  notes: This repository contains a vision-language model fine-tuned specifically for Arabic Handwritten Text Recognition (HTR).
+- id: ketaba-ocr-lora
+  name: Ketaba-OCR-LoRA
+  type: ocr
+  country: INTL
+  org: HassanB4
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/HassanB4/Ketaba-OCR-LoRA
+  year: 2026
+  notes: This repository contains the official models and results for Ketaba-OCR, our submission to the NakbaNLP 2026 Shared Task.
+- id: smart-glasses-for-blind-people
+  name: Smart-glasses-for-blind-people-
+  type: ocr
+  country: INTL
+  org: AliKhedr2
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/AliKhedr2/Smart-glasses-for-blind-people-
+  year: 2022
+  notes: Eye in AI is a smart project that can make bill detection, object detection, face detection, and OCR in Arabic and English
+- id: arabic-ocr-qwen2-5-vl-7b-vision
+  name: Arabic OCR Qwen2.5 VL 7B Vision
+  type: ocr
+  country: INTL
+  org: loay
+  license: apache-2.0
+  modality: vision
+  tasks:
+  - chat
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/loay/Arabic-OCR-Qwen2.5-VL-7B-Vision
+  size: 7B
+  on_device: false
+  year: 2025
+  notes: This repository contains the float16 merged version of a Vision-Language Model (VLM).
+- id: unlimited-ocr-quran-uthmani
+  name: unlimited ocr quran uthmani
+  type: ocr
+  country: INTL
+  org: AyoubChLin
+  license: mit
+  modality: vision
+  tasks:
+  - ocr
+  - diacritization
+  - vision
+  - quran
+  links:
+    hf: https://huggingface.co/AyoubChLin/unlimited-ocr-quran-uthmani
+  dialects:
+  - classical
+  year: 2026
+  notes: AyoubChLin/unlimited-ocr-quran-uthmani is a Quran-focused OCR fine-tune of baidu/Unlimited-OCR.
+- id: khattvision-muse-glimmer-30b-lora
+  name: KhattVision-Muse-Glimmer-30B-LoRA
+  type: ocr
+  country: SA
+  org: NAMAA-Space
+  license: other
+  modality: vision
+  tasks:
+  - chat
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/NAMAA-Space/KhattVision-Muse-Glimmer-30B-LoRA
+  size: 30B
+  on_device: false
+  year: 2026
+  notes: A Muse Glimmer 30B LoRA for Arabic calligraphy understanding
+- id: phoenix-arabic-manuscript-htr
+  name: phoenix arabic manuscript htr
+  type: ocr
+  country: INTL
+  org: factlogic
+  license: cc-by-nc-sa-2.0
+  modality: vision
+  tasks:
+  - asr
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/factlogic/phoenix-arabic-manuscript-htr
+  year: 2026
+  notes: It uses a CNN + BiLSTM + CTC architecture with approximately 4.99 million parameters and is designed to work across several Arabic handwriting domains.
+- id: trocr-ar-small
+  name: TrOCR-Ar-Small
+  type: ocr
+  country: INTL
+  org: gagan3012
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/gagan3012/TrOCR-Ar-Small
+  year: 2022
+  notes: Arabic image text to text model.

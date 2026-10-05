@@ -919,3 +919,1497 @@
   dialects:
   - gulf
   notes: LoRA adapter specializing Cohere Transcribe Arabic for Saudi dialect speech.
+- id: nemotron-3-5-quran-dual-v5
+  name: nemotron 3.5 quran dual v5
+  type: asr
+  country: INTL
+  org: tamm5y5m5
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/tamm5y5m5/nemotron-3.5-quran-dual-v5
+  dialects:
+  - classical
+  year: 2026
+  notes: Nemotron 3.5 streaming ASR (0.6B) fine-tuned for full-Quran recognition with tajweed marks; CER 2.76%.
+  size: 0.6B
+  on_device: true
+- id: arabic-morocco-speech-to-text
+  name: Arabic Morocco Speech To Text
+  type: asr
+  country: INTL
+  org: smerchi
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/smerchi/Arabic-Morocco-Speech_To_Text
+  year: 2024
+  notes: Whisper large-v3 fine-tuned on Cleverlytics voice data for Moroccan Arabic speech recognition.
+  dialects:
+  - magh
+- id: zipformer-p-quran
+  name: zipformer p quran
+  type: asr
+  country: INTL
+  org: Muno459
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/Muno459/zipformer_p-quran
+  dialects:
+  - classical
+  year: 2026
+  notes: Zipformer ASR model for Quran recitation; gated, free non-commercial use under NPL-1.1.
+- id: fastconformer-quran-streaming
+  name: fastconformer quran streaming
+  type: asr
+  country: INTL
+  org: Muno459
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/Muno459/fastconformer-quran-streaming
+  dialects:
+  - classical
+  year: 2026
+  notes: Streaming cache-aware FastConformer ASR for Quran recitation (NeMo, ONNX), trained on EveryAyah, TLOG and Muaalem data; gated.
+- id: tunisian-automatic-speech-recognition
+  name: Tunisian Automatic Speech Recognition
+  type: asr
+  country: INTL
+  org: SalahZa
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/SalahZa/Tunisian_Automatic_Speech_Recognition
+  dialects:
+  - magh
+  year: 2023
+  notes: ASR model for Tunisian Arabic dialect, aimed at underrepresented speech communities.
+- id: whisper-large-v3-arabic-byne
+  name: whisper large v3 arabic
+  type: asr
+  country: INTL
+  org: Byne
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Byne/whisper-large-v3-arabic
+  year: 2025
+  notes: Whisper large-v3 fine-tuned for Arabic speech recognition, reaching 9.38 WER on its evaluation set.
+- id: zipformer-p-arabic-v2
+  name: zipformer p arabic v2
+  type: asr
+  country: INTL
+  org: Muno459
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Muno459/zipformer_p-arabic-v2
+  dialects:
+  - classical
+  year: 2026
+  tags:
+  - variants:1
+  notes: Zipformer ASR model for Arabic (v2); gated, free non-commercial use only.
+- id: mfa-quran-hafs
+  name: mfa quran hafs
+  type: asr
+  country: INTL
+  org: Quran Lab
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - forced-alignment
+  - tajweed
+  links:
+    hf: https://huggingface.co/Quran-Lab/mfa-quran-hafs
+  dialects:
+  - classical
+  year: 2026
+  notes: Montreal Forced Aligner acoustic model for Hafs Quran recitation, built for phone-level tajweed measurement.
+- id: code-switched-tunisian-speech-recognition
+  name: Code Switched Tunisian Speech Recognition
+  type: asr
+  country: INTL
+  org: SalahZa
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - code-switching
+  links:
+    hf: https://huggingface.co/SalahZa/Code_Switched_Tunisian_Speech_Recognition
+  dialects:
+  - magh
+  year: 2023
+  notes: End-to-end ASR for code-switched Tunisian Arabic with English and French; 29.47% WER on TunSwitch CS.
+- id: conformer-ctc-arabic-asr
+  name: Conformer CTC Arabic ASR
+  type: asr
+  country: INTL
+  org: MostafaAhmed98
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MostafaAhmed98/Conformer-CTC-Arabic-ASR
+  year: 2024
+  notes: NeMo Conformer-CTC (small) Arabic ASR trained on Common Voice 17.0.
+  on_device: true
+- id: lmaana-2-4
+  name: lmaana 2.4
+  type: asr
+  country: INTL
+  org: Lmaana
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Lmaana/lmaana-2.4
+  dialects:
+  - magh
+  year: 2026
+  notes: Moroccan Darija CTC speech recognition model built with fairseq2 on Omnilingual ASR; access gated.
+- id: whisper-algerian-darja-medium
+  name: whisper algerian darja medium
+  type: asr
+  country: INTL
+  org: Touati Kamel
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/touati-kamel/whisper-algerian-darja-medium
+  dialects:
+  - magh
+  year: 2026
+  tags:
+  - variants:1
+  notes: Whisper Medium (769M) fine-tuned with LoRA for Algerian Arabic (Darja) speech recognition.
+- id: arazn-whisper-small
+  name: arazn whisper small
+  type: asr
+  country: INTL
+  org: ahmedheakl
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - code-switching
+  links:
+    hf: https://huggingface.co/ahmedheakl/arazn-whisper-small
+    paper: https://arxiv.org/abs/2406.18120
+  year: 2024
+  notes: Whisper-small fine-tuned for code-switched Egyptian Arabic-English speech recognition (ArzEn-LLM).
+  dialects:
+  - egy
+  on_device: true
+- id: whisper-small-codeswitching-arabicenglish
+  name: whisper-small-codeswitching-ArabicEnglish
+  type: asr
+  country: INTL
+  org: azeem23
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - code-switching
+  links:
+    hf: https://huggingface.co/azeem23/whisper-small-codeswitching-ArabicEnglish
+  year: 2025
+  notes: Whisper-small fine-tuned for Arabic-English code-switching speech recognition.
+  on_device: true
+- id: metro-asr-small
+  name: Metro ASR Small
+  type: asr
+  country: INTL
+  org: Mohammed Aly
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - code-switching
+  links:
+    hf: https://huggingface.co/mohammedaly22/Metro-ASR-Small
+  dialects:
+  - egy
+  year: 2026
+  notes: Non-autoregressive CTC Conformer ASR for Egyptian Arabic and Arabic-English code-switching, with a detachable n-gram language head.
+- id: artstv2
+  name: ArTSTv2
+  type: asr
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - speech-pretraining
+  links:
+    hf: https://huggingface.co/MBZUAI/ArTSTv2
+  year: 2025
+  notes: 'ArTST v2 checkpoints: dialect-pretrained base plus models fine-tuned for ASR (MGB2) and other Arabic speech tasks.'
+- id: muaalem-model-v3-2
+  name: muaalem model v3 2
+  type: asr
+  country: INTL
+  org: obadx
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/obadx/muaalem-model-v3_2
+  dialects:
+  - classical
+  year: 2025
+  tags:
+  - variants:2
+  notes: Arabic automatic speech recognition model fine-tuned from facebook/w2v-bert-2.0 trained on obadx/muaalem-annotated-v3.
+- id: quran-align
+  name: quran-align
+  type: asr
+  country: INTL
+  org: cpfair
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    github: https://github.com/cpfair/quran-align
+  dialects:
+  - classical
+  year: 2017
+  notes: Word-accurate timestamps for Qur'anic audio.
+- id: wav2vec2-quran-phonetics
+  name: wav2vec2 quran phonetics
+  type: asr
+  country: INTL
+  org: TBOGamer22
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics
+  dialects:
+  - classical
+  year: 2026
+  notes: Unlike standard Arabic ASR systems that output orthographic Arabic text, this model outputs a phonetic (sound-level) representation, making it suitable.
+- id: real-time-quran-recitation-tracker-system
+  name: Real-Time-Quran-recitation-tracker-System
+  type: asr
+  country: INTL
+  org: yayaiu6
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    github: https://github.com/yayaiu6/Real-Time-Quran-recitation-tracker-System
+  dialects:
+  - classical
+  year: 2026
+  notes: An open-source AI system enabling real time Quran recitation tracking, word-level alignment, error detection, and adaptive feedback.
+- id: wav2vec2-large-xlsr-53-arabic-quran-v-final
+  name: wav2vec2 large xlsr 53 arabic quran v final
+  type: asr
+  country: INTL
+  org: rabah2026
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final
+  dialects:
+  - classical
+  year: 2025
+  notes: Ce modèle est une version fine-tunée de jonatasgrosman/wav2vec2-large-xlsr-53-arabic sur le dataset rabah2026/Quran-Ayah-Corpus.
+- id: audar-asr-v1-turbo
+  name: Audar ASR V1 Turbo
+  type: asr
+  country: INTL
+  org: Audar AI
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/audarai/Audar-ASR-V1-Turbo
+  dialects:
+  - gulf
+  year: 2026
+  notes: Audar's Arabic-first speech-recognition model — leaderboard-grade, dialect-aware.
+- id: whisper-large-v3-ar
+  name: whisper large v3 ar
+  type: asr
+  country: INTL
+  org: Dr-AliGomaa
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  - hadith
+  links:
+    hf: https://huggingface.co/Dr-AliGomaa/whisper-large-v3-ar
+  dialects:
+  - egy
+  - classical
+  - msa
+  year: 2026
+  notes: openai/whisper-large-v3 fine-tuned for Quran and Hadith transcription without giving up general Modern Standard Arabic.
+- id: qwencleo-asr
+  name: QwenCleo-ASR
+  type: asr
+  country: EG
+  org: Mohammed Aly
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mohammedaly22/QwenCleo-ASR
+  dialects:
+  - egy
+  year: 2026
+  notes: Arabic automatic speech recognition model fine-tuned from Qwen/Qwen3-ASR-1.7B.
+- id: quranic-universal-audio
+  name: quranic-universal-audio
+  type: asr
+  country: INTL
+  org: QUD-Technologies
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - vision
+  - quran
+  links:
+    github: https://github.com/QUD-Technologies/quranic-universal-audio
+    website: https://audio.qud.dev
+  dialects:
+  - classical
+  year: 2026
+  notes: Unified audio and timing (word + letter) for Quran apps, developers, and researchers.
+- id: recitation-segmenter-v2
+  name: recitation segmenter v2
+  type: asr
+  country: INTL
+  org: obadx
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/obadx/recitation-segmenter-v2
+  dialects:
+  - classical
+  year: 2025
+  notes: This model is a fine-tuned version of facebook/w2v-bert-2.0 for segmenting Holy Quran recitations based on pause points (waqf).
+- id: fastconformer-quran-ar
+  name: fastconformer quran ar
+  type: asr
+  country: INTL
+  org: mohammed
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/mohammed/fastconformer-quran-ar
+  dialects:
+  - classical
+  year: 2026
+  notes: A fine-tuned NVIDIA FastConformer Hybrid Large model for Quranic Arabic speech recognition.
+- id: moonshine-tiny-ar
+  name: moonshine tiny ar
+  type: asr
+  country: INTL
+  org: moonshine-ai
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/moonshine-ai/moonshine-tiny-ar
+  year: 2025
+  notes: This model is part of the Moonshine family of tiny specialized Automatic Speech Recognition (ASR) models for edge devices.
+- id: audar-asr-v1-flash
+  name: Audar ASR V1 Flash
+  type: asr
+  country: INTL
+  org: Audar AI
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/audarai/Audar-ASR-V1-Flash
+  dialects:
+  - gulf
+  year: 2026
+  notes: Audar's Arabic-first ASR — the real-time, edge tier.
+- id: mms-300m-arabic-dialect-identifier
+  name: mms 300m arabic dialect identifier
+  type: asr
+  country: INTL
+  org: badrex
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/badrex/mms-300m-arabic-dialect-identifier
+  dialects:
+  - mixed
+  size: 300M
+  on_device: true
+  year: 2025
+  notes: Arabic audio classification model fine-tuned from facebook/mms-300m.
+- id: whisper-l-v3-turbo-quran-lora-dataset-mix
+  name: whisper l v3 turbo quran lora dataset mix
+  type: asr
+  country: INTL
+  org: MaddoggProduction
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - quran
+  links:
+    hf: https://huggingface.co/MaddoggProduction/whisper-l-v3-turbo-quran-lora-dataset-mix
+  dialects:
+  - classical
+  year: 2026
+  notes: This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.
+- id: whisper-small-openai-finetuned-on-arabic-language
+  name: Whisper_small_openai_finetuned_on_arabic_language
+  type: asr
+  country: INTL
+  org: Huzaifa-X
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    github: https://github.com/Huzaifa-X/Whisper_small_openai_finetuned_on_arabic_language
+  year: 2024
+  notes: 'Arabic Speech Recognition with Whisper: Fine-tune the Whisper model from OpenAI for Arabic speech recognition tasks.'
+- id: faster-whisper-base-ar-quran
+  name: faster whisper base ar quran
+  type: asr
+  country: INTL
+  org: OdyAsh
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - quran
+  links:
+    hf: https://huggingface.co/OdyAsh/faster-whisper-base-ar-quran
+  dialects:
+  - classical
+  year: 2025
+  notes: This model is a CTranslate2 version of tarteel-ai/whisper-base-ar-quran.
+- id: tadabur-whisper-small
+  name: tadabur Whisper Small
+  type: asr
+  country: INTL
+  org: FaisaI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/FaisaI/tadabur-Whisper-Small
+  dialects:
+  - classical
+  year: 2026
+  notes: Tadabur-Whisper-Small A Whisper Small model fine-tuned on Tadabur for Qur'anic speech recognition. [![Base Model](https://img.shields.
+- id: whisper-large-v3-turbo-arabic-dialectal
+  name: whisper large v3 turbo arabic dialectal
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  links:
+    hf: https://huggingface.co/oddadmix/whisper-large-v3-turbo-arabic-dialectal
+  dialects:
+  - mixed
+  year: 2026
+  notes: Fine-tune of openai/whisper-large-v3-turbo (809M) for multi-dialect Arabic speech recognition (undiacritized output).
+- id: quran-speech-recognizer
+  name: Quran speech recognizer
+  type: asr
+  country: INTL
+  org: Nuwaisir
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - pretraining
+  - quran
+  links:
+    hf: https://huggingface.co/Nuwaisir/Quran_speech_recognizer
+  dialects:
+  - classical
+  year: 2022
+  notes: This application will listen to the user's Quran recitation, and take the user to the position of the Quran from where the s/he had recited.
+- id: arabic-asr-and-di
+  name: arabic_asr_and_di
+  type: asr
+  country: INTL
+  org: ai-zahran
+  license: gpl-2.0
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  links:
+    github: https://github.com/ai-zahran/arabic_asr_and_di
+  year: 2026
+  notes: Arabic speech recognition and dialect identification (Red Hen Lab - GSoC 2018)
+- id: lstarab100words
+  name: lstArab100words
+  type: asr
+  country: INTL
+  org: Megamind22
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - vision
+  links:
+    github: https://github.com/Megamind22/lstArab100words
+  year: 2023
+  notes: Deep Visual Speech Recognition in arabic words
+- id: whisper-medium-finetuned-sada-asr
+  name: whisper medium finetuned sada asr
+  type: asr
+  country: INTL
+  org: wageehkhad
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/wageehkhad/whisper-medium-finetuned-sada-asr
+  dialects:
+  - gulf
+  year: 2026
+  notes: openai/whisper-medium fine-tuned on the full SADA22 dataset (420 hours of Saudi Arabic speech) for Arabic automatic speech recognition (ASR).
+- id: linto-asr-ar-tn-0-1
+  name: linto asr ar tn 0.1
+  type: asr
+  country: INTL
+  org: LINAGORA
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/linagora/linto-asr-ar-tn-0.1
+  year: 2025
+  notes: Arabic automatic speech recognition model.
+- id: arabic-speech-to-text
+  name: arabic speech to text
+  type: asr
+  country: INTL
+  org: maherghanem86
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/maherghanem86/arabic_speech_to_text
+  year: 2025
+  notes: تم تطوير وتدريب هذا النموذج للتعرف التلقائي على الكلام للغة العربية.
+- id: sinai-voice-ar-stt
+  name: sinai voice ar stt
+  type: asr
+  country: EG
+  org: Bakrianoo
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/bakrianoo/sinai-voice-ar-stt
+  year: 2022
+  notes: This model is a fine-tuned version of facebook/wav2vec2-xls-r-300m on the MOZILLA-FOUNDATION/COMMONVOICE80 - AR dataset.
+- id: wav2veclarge-quran-syllables-recognition
+  name: Wav2vecLarge_quran_syllables_recognition
+  type: asr
+  country: INTL
+  org: IbrahimSalah
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/IbrahimSalah/Wav2vecLarge_quran_syllables_recognition
+  dialects:
+  - classical
+  year: 2025
+  notes: This is fine tuned wav2vec2 model to recognize quran syllables from speech.
+- id: arabic-speech-recognition-by-machine-learning-and-feature-extraction
+  name: Arabic-Speech-Recognition-by-Machine-learning-and-feature-extraction
+  type: asr
+  country: INTL
+  org: AlinaBaber
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    github: https://github.com/AlinaBaber/Arabic-Speech-Recognition-by-Machine-learning-and-feature-extraction
+  dialects:
+  - classical
+  year: 2024
+  notes: This project implements an Arabic Speech Recognition system using an ensemble voting classifier.
+- id: qwencleo-asr-mohammedaly22
+  name: QwenCleo-ASR (MohammedAly22)
+  type: asr
+  country: EG
+  org: Mohammed Aly
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/MohammedAly22/QwenCleo-ASR
+  dialects:
+  - egy
+  year: 2026
+  notes: QwenCleo-ASR is the currently State-Of-The-Art (SOTA) open-source model for Egyptian Arabic & code-switching speech recognition Built on Qwen3-ASR-1.7B.
+- id: wav2vec2-xls-r-300m-iqraeval
+  name: wav2vec2 xls r 300m iqraeval
+  type: asr
+  country: YE
+  org: Fatimah Emad Eldin
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - vision
+  - quran
+  links:
+    hf: https://huggingface.co/FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval
+  dialects:
+  - classical
+  - msa
+  size: 300M
+  on_device: true
+  year: 2026
+  notes: This model is a fine-tuned version of facebook/wav2vec2-xls-r-300m specifically adapted for the Iqra'Eval 2026 Shared Task.
+- id: wav2vec2-base-word-by-word-quran-asr
+  name: wav2vec2 base word by word quran asr
+  type: asr
+  country: INTL
+  org: HamzaSidhu786
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/HamzaSidhu786/wav2vec2-base-word-by-word-quran-asr
+  dialects:
+  - classical
+  year: 2024
+  notes: It achieves the following results on the
+- id: hifzguide-muaalem-mini
+  name: hifzguide muaalem mini
+  type: asr
+  country: INTL
+  org: sysofwan
+  license: agpl-3.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/sysofwan/hifzguide-muaalem-mini
+  dialects:
+  - classical
+  year: 2026
+  notes: A size-distilled, teacher-initialised student of the Muaalem Quran phoneme-recognition model.
+- id: find-quran-verse
+  name: Find_Quran_Verse
+  type: asr
+  country: INTL
+  org: ameerssb
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    github: https://github.com/ameerssb/Find_Quran_Verse
+    website: https://quran.pythonanywhere.com/
+  dialects:
+  - lev
+  - classical
+  year: 2023
+  notes: The Quran Verse Finder is a voice-based Quran search application is a user-friendly and innovative tool designed to assist individuals.
+- id: whisper-largev3-medical
+  name: whisper largev3 medical
+  type: asr
+  country: INTL
+  org: yehiazak
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/yehiazak/whisper-largev3-medical
+  year: 2025
+  notes: This model is a fine-tuned version of openai/whisper-large-v3 on medical speech data.
+- id: whisper-small-darija
+  name: whisper small darija
+  type: asr
+  country: MA
+  org: Youssef Chafiqui
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/ychafiqui/whisper-small-darija
+  dialects:
+  - magh
+  year: 2024
+  notes: This model is a fine-tuned version of openai/whisper-small on the Darija Speech to Text dataset.
+- id: whisper-large-v3-tarteel
+  name: whisper large v3 Tarteel
+  type: asr
+  country: INTL
+  org: IJyad
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/IJyad/whisper-large-v3-Tarteel
+  dialects:
+  - classical
+  year: 2025
+  notes: This model is a fine-tuned version of OpenAI’s Whisper Large V3 model, adapted specifically for Arabic Quranic speech recognition.
+- id: whisperlevantine
+  name: WhisperLevantine
+  type: asr
+  country: INTL
+  org: HebArabNlpProject
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/HebArabNlpProject/WhisperLevantine
+  dialects:
+  - lev
+  year: 2025
+  notes: This model is a fine-tuned version of Whisper Larg v3 tailored specifically for transcribing Levantine Arabic, focusing on the Israeli dialect.
+- id: cohere-transcribe-arabic-07-2026-dialectal
+  name: cohere transcribe arabic 07 2026 dialectal
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  links:
+    hf: https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal
+  dialects:
+  - mixed
+  year: 2026
+  notes: Full fine-tune of CohereLabs/cohere-transcribe-arabic-07-2026 (2.07B, cohereasr Conformer encoder-decoder) for multi-dialect Arabic speech recognition.
+- id: dvoice-darija
+  name: dvoice darija
+  type: asr
+  country: INTL
+  org: aioxlabs
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - pretraining
+  links:
+    hf: https://huggingface.co/aioxlabs/dvoice-darija
+  dialects:
+  - magh
+  year: 2022
+  notes: This repository provides all the necessary tools to perform automatic speech recognition from an end-to-end system pretrained.
+- id: cohere-transcribe-arabic-07-2026-int4
+  name: cohere transcribe arabic 07 2026 int4
+  type: asr
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/NAMAA-Space/cohere-transcribe-arabic-07-2026-int4
+  dialects:
+  - gulf
+  year: 2026
+  tags:
+  - variants:1
+  notes: A memory-efficient INT4 (NF4) quantization of CohereLabs/cohere-transcribe-arabic-07-2026, Cohere Labs' 2B-parameter Arabic/English speech-recognition model.
+- id: whisper-medium-arabic
+  name: whisper medium arabic
+  type: asr
+  country: INTL
+  org: Seyfelislem
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/Seyfelislem/whisper-medium-arabic
+  year: 2025
+  notes: Arabic automatic speech recognition model fine-tuned from openai/whisper-medium.
+- id: s2t-wav2vec2-large-en-ar
+  name: s2t wav2vec2 large en ar
+  type: asr
+  country: INTL
+  org: Meta
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  links:
+    hf: https://huggingface.co/facebook/s2t-wav2vec2-large-en-ar
+  year: 2023
+  notes: s2t-wav2vec2-large-en-ar is a Speech to Text Transformer model trained for end-to-end Speech Translation (ST).
+- id: tarbiyah-ai-whisper-medium-merged
+  name: tarbiyah ai whisper medium merged
+  type: asr
+  country: INTL
+  org: Habib-HF
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/Habib-HF/tarbiyah-ai-whisper-medium-merged
+  dialects:
+  - classical
+  year: 2025
+  notes: 'Modelrepo: Habib-HF/tarbiyah-ai-whisper-medium-merged This repository contains an Automatic Speech Recognition (ASR) model based on openai/whisper-medium.'
+- id: whisper-algerian-dialect
+  name: whisper algerian dialect
+  type: asr
+  country: INTL
+  org: MohammedNasri
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MohammedNasri/whisper-algerian-dialect
+  dialects:
+  - magh
+  year: 2025
+  notes: This model is a fine-tuned version of OpenAI's Whisper-tiny specifically for Algerian dialect automatic speech recognition (ASR).
+- id: audar-diarization-v1
+  name: Audar Diarization V1
+  type: asr
+  country: INTL
+  org: Audar AI
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/audarai/Audar-Diarization-V1
+  year: 2026
+  notes: Real-time streaming speaker diarization — up to 8 speakers, state of the art on 8 corpora.
+- id: ara-nemotron-3-5-asr-streaming-0-6b
+  name: Ara nemotron 3.5 asr streaming 0.6b
+  type: asr
+  country: INTL
+  org: Abdelkareem
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Abdelkareem/Ara-nemotron-3.5-asr-streaming-0.6b
+  dialects:
+  - egy
+  size: 0.6B
+  on_device: true
+  year: 2026
+  notes: This model is an adapter-based fine-tune of nvidia/nemotron-3.5-asr-streaming-0.6b for Egyptian Arabic (arz) speech recognition.
+- id: whisper-small-for-quran
+  name: whisper small for quran
+  type: asr
+  country: INTL
+  org: areaz
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/areaz/whisper-small-for-quran
+  dialects:
+  - classical
+  year: 2025
+  notes: Arabic automatic speech recognition model fine-tuned from openai/whisper-small trained on abdulhamedeid/quran-verses-audio-clips.
+- id: whisper-m-quran-lora-dataset-mix
+  name: whisper m quran lora dataset mix
+  type: asr
+  country: INTL
+  org: MaddoggProduction
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - quran
+  links:
+    hf: https://huggingface.co/MaddoggProduction/whisper-m-quran-lora-dataset-mix
+  dialects:
+  - classical
+  year: 2026
+  notes: This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.
+- id: hamsa-v0-1-beta
+  name: hamsa v0.1 beta
+  type: asr
+  country: INTL
+  org: nadsoft
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - pretraining
+  links:
+    hf: https://huggingface.co/nadsoft/hamsa-v0.1-beta
+  year: 2023
+  notes: Hamsa (همسة) represents a sophisticated advancement in the realm of Arabic speech recognition.
+- id: whisperv3-tunisian-codeswitch
+  name: Whisperv3 tunisian codeswitch
+  type: asr
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  links:
+    hf: https://huggingface.co/oddadmix/Whisperv3-tunisian-codeswitch
+  dialects:
+  - magh
+  - mixed
+  year: 2026
+  notes: Whisper-large-v3 full fine-tune for Tunisian Arabic ↔ French/English code-switched ASR (NADI 2026 shared task, subtask 1.3).
+- id: tawasul-egy-stt
+  name: tawasul egy stt
+  type: asr
+  country: INTL
+  org: TawasulAI
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/TawasulAI/tawasul-egy-stt
+  dialects:
+  - egy
+  year: 2025
+  notes: Arabic automatic speech recognition model.
+- id: hubert-arabic-spoken-dialect-classifier
+  name: hubert arabic spoken dialect classifier
+  type: asr
+  country: EG
+  org: Ibrahim Amin
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  links:
+    hf: https://huggingface.co/IbrahimAmin/hubert-arabic-spoken-dialect-classifier
+  dialects:
+  - egy
+  - magh
+  - msa
+  - mixed
+  year: 2025
+  notes: This model is a fine-tuned version of facebook/hubert-base-ls960 for Arabic spoken dialect classification.
+- id: tarbiyah-ai-v1-1
+  name: tarbiyah ai v1 1
+  type: asr
+  country: INTL
+  org: Habib-HF
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/Habib-HF/tarbiyah-ai-v1-1
+  dialects:
+  - classical
+  year: 2025
+  notes: This model is a fine-tuned version of OpenAI's whisper-small model, specifically adapted for Automatic Speech Recognition (ASR) of Quranic Arabic recitation.
+- id: whisper-small-cv-ar
+  name: whisper small cv ar
+  type: asr
+  country: SA
+  org: ARBML
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/arbml/whisper-small-cv-ar
+  year: 2024
+  notes: This model is a fine-tuned version of openai/whisper-small on the Common Voice 11.0 dataset.
+- id: cohere-jordanian-dialect
+  name: Cohere Jordanian Dialect
+  type: asr
+  country: INTL
+  org: Rlamas
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Rlamas/Cohere-Jordanian-Dialect
+  dialects:
+  - lev
+  year: 2026
+  notes: This repository is self-contained — it includes the fine-tuned weights plus all processor/tokenizer files needed to run it directly, with no depende
+- id: artst-asr-v3-qasr
+  name: artst asr v3 qasr
+  type: asr
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MBZUAI/artst_asr_v3_qasr
+  year: 2025
+  tags:
+  - variants:1
+  notes: 'ArTST model finetuned for automatic speech recognition (speech-to-text) on QASR (best for Dialectal Arabic Variants) (also: 1 variants)'
+- id: stt-arabic-whisper-finetuned-diactires
+  name: stt arabic whisper finetuned diactires
+  type: asr
+  country: INTL
+  org: NightPrince
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - quran
+  links:
+    hf: https://huggingface.co/NightPrince/stt-arabic-whisper-finetuned-diactires
+  dialects:
+  - classical
+  year: 2026
+  notes: Fine-tuned openai/whisper-small on tarteel-ai/everyayah for Automatic Speech Recognition of Quranic recitation with complete tashkeel.
+- id: wav2vec2-large-xlsr-arabic
+  name: wav2vec2 large xlsr arabic
+  type: asr
+  country: INTL
+  org: mohammed
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mohammed/wav2vec2-large-xlsr-arabic
+  year: 2024
+  notes: Fine-tuned facebook/wav2vec2-large-xlsr-53 on Arabic using the train splits of Common Voice and Arabic Speech Corpus.
+- id: wav2vec2-large-xlsr-moroccan
+  name: wav2vec2 large xlsr moroccan
+  type: asr
+  country: INTL
+  org: othrif
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/othrif/wav2vec2-large-xlsr-moroccan
+  dialects:
+  - magh
+  year: 2025
+  notes: Fine-tuned facebook/wav2vec2-large-xlsr-53 on MGB5 Moroccan Arabic kindly provided by ELDA and ArabicSpeech.
+- id: arabic-speech-syllables-recognition-using-wav2vec2
+  name: Arabic speech Syllables recognition Using Wav2vec2
+  type: asr
+  country: INTL
+  org: IbrahimSalah
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/IbrahimSalah/Arabic_speech_Syllables_recognition_Using_Wav2vec2
+  dialects:
+  - msa
+  year: 2025
+  notes: This is fine tuned wav2vec2 model to recognize arabic syllables from speech.
+- id: whisper-base-arabic
+  name: Whisper base Arabic
+  type: asr
+  country: INTL
+  org: YazanSalameh
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/YazanSalameh/Whisper-base-Arabic
+  year: 2024
+  notes: Whisper-base fine-tuned for Arabic ASR on Common Voice 16, MGB-2 and Jordanian audio (WER 34.7).
+- id: whisper-base-quran
+  name: whisper base quran
+  type: asr
+  country: INTL
+  org: raghadOmar
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/raghadOmar/whisper-base-quran
+  dialects:
+  - classical
+  year: 2024
+  notes: This model is a fine-tuned version of tarteel-ai/whisper-base-ar-quran on the Zolfa Dataset dataset.
+- id: whisper-small-quran-lora-dataset-mix
+  name: whisper small quran lora dataset mix
+  type: asr
+  country: INTL
+  org: MaddoggProduction
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - quran
+  links:
+    hf: https://huggingface.co/MaddoggProduction/whisper-small-quran-lora-dataset-mix
+  dialects:
+  - classical
+  year: 2026
+  notes: This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.
+- id: whisper-large-arabic-cv-11
+  name: whisper large arabic cv 11
+  type: asr
+  country: INTL
+  org: KalamTech
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/KalamTech/whisper-large-arabic-cv-11
+  year: 2024
+  notes: نموذج كلام للتعرف على الصوت، هذا النموذج يتميز بدقة عالية في التعرف على الصوت باللغة العربية.
+- id: nawah-asr-118m-v5
+  name: Nawah ASR 118M v5
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/oddadmix/Nawah-ASR-118M-v5
+  dialects:
+  - egy
+  size: 118M
+  on_device: true
+  year: 2026
+  notes: Arabic ASR with no third-party weights anywhere in the stack.
+- id: quran-whisper-tiny-v1
+  name: quran whisper tiny v1
+  type: asr
+  country: INTL
+  org: cherifkhalifah
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/cherifkhalifah/quran-whisper-tiny-v1
+  dialects:
+  - classical
+  year: 2024
+  notes: This model is a fine-tuned version of openai/whisper-small on the audiofolder dataset.
+- id: artst-asr-v2
+  name: artst asr v2
+  type: asr
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/MBZUAI/artst_asr_v2
+  year: 2025
+  tags:
+  - variants:1
+  notes: 'ArTST model finetuned for automatic speech recognition (speech-to-text) on MGB2. (also: 1 variants)'
+- id: qwen3-asr-1-7b-jordanian-dialect-arabic
+  name: Qwen3 ASR 1.7B Jordanian Dialect Arabic
+  type: asr
+  country: INTL
+  org: sarapd
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/sarapd/Qwen3-ASR-1.7B_Jordanian_Dialect_Arabic
+  dialects:
+  - lev
+  size: 1.7B
+  on_device: false
+  year: 2026
+  notes: A full fine-tune of Qwen/Qwen3-ASR-1.7B on 10.8 hours of Jordanian Arabic speech. set.
+- id: asr-whisper-large-v2-commonvoice-ar
+  name: asr whisper large v2 commonvoice ar
+  type: asr
+  country: INTL
+  org: SpeechBrain
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/speechbrain/asr-whisper-large-v2-commonvoice-ar
+  year: 2025
+  tags:
+  - variants:1
+  notes: This repository provides all the necessary tools to perform automatic speech recognition from an end-to-end whisper model fine-tuned on CommonVoice.
+- id: voho-saudi-stt-small
+  name: voho saudi stt small
+  type: asr
+  country: SA
+  org: Voho AI
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/VohoAI/voho-saudi-stt-small
+  dialects:
+  - gulf
+  - msa
+  year: 2026
+  notes: 'Most Arabic speech models are trained on Modern Standard Arabic: the news, not a phone call from Riyadh.'
+- id: stt-ar-fastconformer-hybrid-large-streaming-pcd-v1-1-mirror
+  name: stt ar fastconformer hybrid large streaming pcd v1.1 mirror
+  type: asr
+  country: INTL
+  org: Ahmed Hany
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/dev-ahmedhany/stt_ar_fastconformer_hybrid_large_streaming_pcd_v1.1-mirror
+  dialects:
+  - classical
+  year: 2026
+  notes: Streaming-trained Arabic FastConformer-Hybrid (RNNT + CTC heads, 115M params), exported for sherpa-onnx's OnlineRecognizer with cache-aware encoder state.
+- id: whisper-small-quran-lora-everyayah
+  name: whisper small quran lora everyayah
+  type: asr
+  country: INTL
+  org: MaddoggProduction
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - quran
+  links:
+    hf: https://huggingface.co/MaddoggProduction/whisper-small-quran-lora-everyayah
+  dialects:
+  - classical
+  year: 2026
+  notes: This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.
+- id: whisper-large-v2-arabic-5k-steps
+  name: whisper large v2 arabic 5k steps
+  type: asr
+  country: INTL
+  org: clu-ling
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/clu-ling/whisper-large-v2-arabic-5k-steps
+  year: 2023
+  notes: This model is a fine-tuned version of openai/whisper-large-v2 on the Arabic CommonVoice dataset (v11).
+- id: whisper-small-full-finetune
+  name: whisper small full finetune
+  type: asr
+  country: INTL
+  org: mosama
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mosama/whisper_small_full_finetune
+  year: 2025
+  notes: Full finetuning in float32 bit of whisper small on SADA 2022 Datset.
+- id: whisper-base-ar-quran-ft-hijaiyah-2
+  name: whisper base ar quran ft hijaiyah 2
+  type: asr
+  country: INTL
+  org: ojisetyawan
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/ojisetyawan/whisper-base-ar-quran-ft-hijaiyah-2
+  dialects:
+  - classical
+  year: 2024
+  notes: Arabic audio classification model fine-tuned from tarteel-ai/whisper-base-ar-quran trained on Reinjin/Pelafalan_Huruf_Hijaiyah.
+- id: whisper-medium-arabic-suite-ii
+  name: whisper medium arabic suite II
+  type: asr
+  country: INTL
+  org: Seyfelislem
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/Seyfelislem/whisper-medium-arabic-suite-II
+  year: 2023
+  notes: Arabic automatic speech recognition model trained on mozilla-foundation/common_voice_11_0.
+- id: whisper-with-augmentation-small-arabic-with-diacritics
+  name: whisper with augmentation small arabic with diacritics
+  type: asr
+  country: INTL
+  org: mohmdsh
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - evaluation
+  links:
+    hf: https://huggingface.co/mohmdsh/whisper-with-augmentation-small-arabic_with-diacritics
+  year: 2025
+  notes: Arabic automatic speech recognition model fine-tuned from openai/whisper-small.
+- id: whisper-small-arabic-dialectal-v2
+  name: whisper small arabic dialectal v2
+  type: asr
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  links:
+    hf: https://huggingface.co/oddadmix/whisper-small-arabic-dialectal-v2
+  dialects:
+  - mixed
+  year: 2026
+  tags:
+  - variants:3
+  notes: 'multi-dialect Arabic on the dialect-balanced dataset oddadmix/lahgtna-v3-small (52k train / 2.6k test, seed 42, undiacritized output). (also: 3 variants)'
+- id: nawah-parakeet-60m
+  name: Nawah Parakeet 60M
+  type: asr
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - pretraining
+  - evaluation
+  links:
+    hf: https://huggingface.co/oddadmix/Nawah-Parakeet-60M
+  size: 60M
+  on_device: true
+  year: 2026
+  notes: A 62.7M-parameter Parakeet-style Token-and-Duration Transducer for Arabic speech recognition — FastConformer encoder, TDT objective.

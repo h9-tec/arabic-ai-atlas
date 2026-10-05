@@ -2676,3 +2676,6917 @@
   dialects:
   - lev
   notes: 60,775 untranscribed Arabic recordings, currently labelled Palestinian Arabic.
+- id: quran-data-rn0x
+  name: Quran-Data
+  type: dataset
+  country: INTL
+  org: rn0x
+  license: mit
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/rn0x/Quran-Data
+  dialects:
+  - classical
+  year: 2024
+  notes: Quran data in JSON, CSV and SQLite covering surahs, verses and audio, with an API for access.
+- id: quran-data-aliftype
+  name: quran-data (aliftype)
+  type: dataset
+  country: INTL
+  org: Aliftype
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/aliftype/quran-data
+  dialects:
+  - classical
+  year: 2025
+  notes: Unicode-encoded Quran text in plain files with tools to convert it to other formats; not formally verified by Mushaf review committees.
+- id: quranic-universal-ayahs
+  name: quranic universal ayahs
+  type: dataset
+  country: INTL
+  org: QUD-Technologies
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - alignment
+  links:
+    hf: https://huggingface.co/datasets/QUD-Technologies/quranic-universal-ayahs
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: Qur'anic ayah recitation audio with forced-alignment word and letter timestamps for ASR and segmentation.
+- id: lk-hadith-corpus
+  name: LK-Hadith-Corpus
+  type: dataset
+  country: INTL
+  org: ShathaTm
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  - translation
+  links:
+    github: https://github.com/ShathaTm/LK-Hadith-Corpus
+  dialects:
+  - classical
+  year: 2023
+  notes: 'LK Hadith Corpus: bilingual English-Arabic parallel corpus of Islamic Hadith from Leeds University and King Saud University.'
+- id: quranic-translation-audio-data
+  name: Quranic Translation Audio Data
+  type: dataset
+  country: INTL
+  org: zaibihassan
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/zaibihassan/Quranic-Translation-Audio-Data
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2026
+  notes: Complete Quran translation audio and commentary recitations across 51 translation directories in 14 languages.
+- id: quranic-word-by-word-audio-data
+  name: Quranic Word By Word Audio Data
+  type: dataset
+  country: INTL
+  org: zaibihassan
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/zaibihassan/Quranic-Word-By-Word-Audio-Data
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: Two word-by-word Quran recitation sets, Muallim (teacher style) and Mujawwad (tajweed style), for ASR and TTS.
+- id: qurantts
+  name: QuranTTS
+  type: dataset
+  country: INTL
+  org: Quran Lab
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - restoration
+  links:
+    hf: https://huggingface.co/datasets/Quran-Lab/QuranTTS
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2026
+  notes: 'QuranTTS v4: ear-verified Quranic recitation corpus at 24-bit/48 kHz for TTS and speech restoration; non-commercial.'
+- id: quran-recitations
+  name: Quran Recitations
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/Quran-Recitations
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2025
+  notes: Quranic verses paired with audio recitations by multiple Qaris, 124,689 audio-text rows.
+- id: mushafalmadinahvector
+  name: MushafAlMadinahVector
+  type: dataset
+  country: SA
+  org: MushafAlMadinahVector
+  license: other
+  modality: vision
+  tasks:
+  - quran
+  - vector-graphics
+  links:
+    github: https://github.com/MushafAlMadinahVector/MushafAlMadinahVector
+  dialects:
+  - classical
+  year: 2026
+  notes: Official vector edition of Mushaf Al-Madinah (Hafs) from King Fahd Glorious Quran Printing Complex, with full Uthmanic script and diacritics.
+- id: tlog
+  name: tlog
+  type: dataset
+  country: INTL
+  org: Tarteel AI
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/tarteel-ai/tlog
+  size: 100K–1M rows
+  year: 2026
+  notes: 'TLOG: audio recitations of Quranic ayahs paired with their Quranic texts.'
+- id: aramix-hq
+  name: AraMix-HQ
+  type: dataset
+  country: INTL
+  org: AdaMLLab
+  license: other
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/AdaMLLab/AraMix-HQ
+  size: 10M–100M rows
+  year: 2026
+  notes: 'AraMix-HQ: 53.7M Arabic text rows from AraMix filtered with a model quality score (mmbert_score).'
+- id: aramix
+  name: AraMix
+  type: dataset
+  country: INTL
+  org: AdaMLLab
+  license: other
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/AdaMLLab/AraMix
+  size: 100M–1B rows
+  year: 2026
+  notes: 'AraMix: Arabic pretraining corpus of over 100M rows combining deduplicated sources, with a quality-matched split; see arXiv 2512.18834.'
+- id: deepseek-ocr-arabic-v1
+  name: deepseek ocr arabic v1
+  type: dataset
+  country: INTL
+  org: FatimahEmadEldin
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - fine-tuning
+  links:
+    hf: https://huggingface.co/datasets/FatimahEmadEldin/deepseek-ocr-arabic-v1
+  size: 1K–10K rows
+  year: 2026
+  notes: 550 tokenized Arabic OCR samples with image patches and labels for fine-tuning DeepSeek-OCR.
+- id: ar-sarcasm
+  name: ar sarcasm
+  type: dataset
+  country: INTL
+  org: iabufarha
+  license: mit
+  modality: text
+  tasks:
+  - sarcasm
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/iabufarha/ar_sarcasm
+  size: 10K–100K rows
+  year: 2024
+  notes: 'ArSarcasm: 10,547 tweets labelled for sarcasm, sentiment and dialect, built from SemEval 2017 and ASTD.'
+- id: quranlab-arabic-speech
+  name: QuranLab-Arabic-Speech
+  type: dataset
+  country: INTL
+  org: Muno459
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/Muno459/QuranLab-Arabic-Speech
+  size: 1M–10M rows
+  year: 2026
+  notes: Broad Arabic speech from 50,000+ hours of recordings, cut into 2-20 s segments for ASR training; access restricted.
+- id: medqa-darija-multilingual
+  name: MedQA-Darija-MultiLingual
+  type: dataset
+  country: INTL
+  org: Williamsanderson
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - medical
+  - qa
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/Williamsanderson/MedQA-Darija-MultiLingual
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2026
+  notes: Trilingual English, French and Moroccan Darija medical Q&A dataset with playable speech audio.
+- id: algerian-youtube-comments
+  name: Algerian Youtube Comments
+  type: dataset
+  country: INTL
+  org: Touati Kamel
+  license: mit
+  modality: text
+  tasks:
+  - pretraining
+  - classification
+  links:
+    hf: https://huggingface.co/datasets/touati-kamel/Algerian-Youtube-Comments
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: Algerian YouTube comments dataset with a comment-extraction pipeline, for Darija NLP and pretraining.
+- id: persian-arabic-textline-image-ocr-medium
+  name: Persian_Arabic_TextLine_Image_Ocr_Medium
+  type: dataset
+  country: INTL
+  org: Mohajesmaeili
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/mohajesmaeili/Persian_Arabic_TextLine_Image_Ocr_Medium
+  size: 100K–1M rows
+  year: 2025
+  tags:
+  - variants:1
+  notes: Text-line image OCR dataset (626K train, 165K test images) covering Persian, Arabic, Pashto and Urdu scripts.
+- id: arabic-flicker-8k
+  name: Arabic Flicker 8k
+  type: dataset
+  country: INTL
+  org: Arabic-Clip
+  license: unknown
+  modality: vision
+  tasks:
+  - image-captioning
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/Arabic-Clip/Arabic_Flicker_8k
+  size: 1K–10K rows
+  year: 2024
+  notes: Arabic version of Flickr8k images for Arabic image-captioning and CLIP training.
+- id: arabic-documents-dataset-pdf
+  name: Arabic Documents Dataset PDF
+  type: dataset
+  country: INTL
+  org: HumynLabs
+  license: cc-by-4.0
+  modality: vision
+  tasks:
+  - ocr
+  - document-understanding
+  links:
+    hf: https://huggingface.co/datasets/HumynLabs/Arabic_Documents_Dataset_PDF
+  size: <1K rows
+  year: 2025
+  notes: 127 Arabic PDF documents (books, articles, reports) for document understanding and OCR research.
+- id: asjp-cerist
+  name: asjp cerist
+  type: dataset
+  country: INTL
+  org: DarjaCore
+  license: other
+  modality: text
+  tasks:
+  - retrieval
+  - ocr
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/DarjaCore/asjp-cerist
+  size: 10K–100K rows
+  year: 2026
+  notes: 37,807 academic PDFs (579,683 pages) with 21,604 metadata records from Algeria's ASJP platform in Arabic, French and English.
+- id: emotone-ar
+  name: emotone ar
+  type: dataset
+  country: INTL
+  org: emotone-ar-cicling2017
+  license: unknown
+  modality: text
+  tasks:
+  - emotion
+  links:
+    hf: https://huggingface.co/datasets/emotone-ar-cicling2017/emotone_ar
+  size: 10K–100K rows
+  year: 2024
+  notes: 'EmoTone-Ar: 10,065 Arabic tweets labelled for emotional tone.'
+- id: quranqa
+  name: quranqa
+  type: dataset
+  country: INTL
+  org: Tarteel AI
+  license: '[''cc-by-nd-4.0'']'
+  modality: text
+  tasks:
+  - qa
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/tarteel-ai/quranqa
+  dialects:
+  - classical
+  size: <1K rows
+  year: 2024
+  notes: Qur'anic Reading Comprehension Dataset (QRCD) from the Quran QA 2022 shared task.
+- id: darijadz
+  name: DarijaDz
+  type: dataset
+  country: INTL
+  org: nasrellahkharroubi
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - classification
+  links:
+    hf: https://huggingface.co/datasets/nasrellahkharroubi/DarijaDz
+  dialects:
+  - magh
+  size: 10M–100M rows
+  year: 2026
+  notes: 'DarijaDZ: about 22.5M user comments (259M tokens) from Algerian YouTube and TikTok channels, mostly in Algerian Darija.'
+- id: karsl-502-arabic-sign-language-v2
+  name: karsl 502 arabic sign language v2
+  type: dataset
+  country: INTL
+  org: FatimahEmadEldin
+  license: unknown
+  modality: vision
+  tasks:
+  - sign-language
+  links:
+    hf: https://huggingface.co/datasets/FatimahEmadEldin/karsl-502-arabic-sign-language-v2
+  year: 2026
+  tags:
+  - variants:1
+  notes: KArSL-502 Arabic sign language image frames organized by signer and sign folders.
+- id: abjad-kids
+  name: Abjad Kids
+  type: dataset
+  country: INTL
+  org: Aziz-snoubra
+  license: mit
+  modality: speech
+  tasks:
+  - speech
+  - education
+  links:
+    hf: https://huggingface.co/datasets/Aziz-snoubra/Abjad-Kids
+  size: 10K–100K rows
+  year: 2026
+  notes: 'Abjad-Kids: Arabic speech classification dataset of children''s recordings of letters, numbers and colors for primary education.'
+- id: arabic-quran-asr-dataset
+  name: Arabic Quran ASR dataset
+  type: dataset
+  country: INTL
+  org: Sabri12blm
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Sabri12blm/Arabic-Quran-ASR-dataset
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2025
+  notes: Quranic recitation ASR dataset of 74,832 audio-transcript pairs.
+- id: sard-extended
+  name: SARD Extended
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: cc-by-nc-nd-4.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/SARD-Extended
+  year: 2026
+  notes: 'SARD: large-scale synthetic Arabic OCR dataset rendered in many fonts (Amiri, Sakkal Majalla, Arial, Calibri and others).'
+- id: arabic-sentiment-twitter-corpus-arbml
+  name: Arabic Sentiment Twitter Corpus
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_Sentiment_Twitter_Corpus
+  size: 10K–100K rows
+  year: 2024
+  notes: 58.7K Arabic tweets labelled for sentiment.
+- id: fineweb-edu-ar
+  name: fineweb edu ar
+  type: dataset
+  country: SA
+  org: KAUST Generative AI
+  license: '[''cc-by-nc-4.0'']'
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/kaust-generative-ai/fineweb-edu-ar
+  size: 100M–1B rows
+  year: 2024
+  notes: Machine-translated Arabic version of FineWeb-Edu (about 202B tokens, via NLLB-200 600M) for small language models.
+- id: quran-hadith-datasets
+  name: Quran_Hadith_Datasets
+  type: dataset
+  country: INTL
+  org: ShathaTm
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - hadith
+  links:
+    github: https://github.com/ShathaTm/Quran_Hadith_Datasets
+  dialects:
+  - classical
+  year: 2023
+  notes: QQ and QH datasets from the paper challenging Transformer models with Classical Arabic Quran and Hadith text.
+- id: ar-res-reviews
+  name: ar res reviews
+  type: dataset
+  country: INTL
+  org: hadyelsahar
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/hadyelsahar/ar_res_reviews
+  size: 1K–10K rows
+  year: 2024
+  notes: 'ArRestReviews: 8,364 Arabic restaurant reviews from qaym.com for sentiment analysis.'
+- id: levanti
+  name: levanti
+  type: dataset
+  country: INTL
+  org: guymorlan
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - translation
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/guymorlan/levanti
+  dialects:
+  - lev
+  - egy
+  size: 100K–1M rows
+  year: 2024
+  notes: 'Levanti: 500K Levantine colloquial Arabic sentences translated to English and Hebrew with diacritics and transliterations.'
+- id: ajgt-twitter-ar
+  name: ajgt twitter ar
+  type: dataset
+  country: INTL
+  org: komari6
+  license: '[''unknown'']'
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/komari6/ajgt_twitter_ar
+  size: 1K–10K rows
+  year: 2024
+  notes: 'Arabic Jordanian General Tweets: 1,800 tweets labelled positive or negative, in MSA or Jordanian dialect.'
+  dialects:
+  - msa
+  - lev
+- id: darija-to-french-speech-to-text
+  name: darija to french speech to text
+  type: dataset
+  country: INTL
+  org: adiren7
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2025
+  notes: 94 Darija speech segments with start/end times and French transcriptions for speech-to-text.
+- id: arabic-tashkeel-dataset
+  name: arabic tashkeel dataset
+  type: dataset
+  country: INTL
+  org: Abdou
+  license: mit
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/Abdou/arabic-tashkeel-dataset
+  size: 1M–10M rows
+  year: 2024
+  notes: 1.5M Arabic sentences pairing non-vocalized and vocalized (tashkeel) text from Tashkeela, Shamela and other sources.
+- id: quran-json-wpdynamo
+  name: quran-json
+  type: dataset
+  country: INTL
+  org: wpdynamo
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - translation
+  links:
+    github: https://github.com/wpdynamo/quran-json
+    website: https://quran-json-sigma.vercel.app
+  dialects:
+  - classical
+  year: 2026
+  notes: Quran in Arabic Uthmani script with English (Sahih International) translation as JSON, with Juz and Madani page indexes from Quran.com API.
+- id: common-voice-arabic-12-0-augmented
+  name: common voice Arabic 12.0 Augmented
+  type: dataset
+  country: INTL
+  org: Salama1429
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/Salama1429/common_voice_Arabic_12.0_Augmented
+  size: 10K–100K rows
+  year: 2022
+  notes: 'Augmented Common Voice 12.0 Arabic: 63,546 training audio-sentence pairs at 16 kHz.'
+- id: madlad-arabic-clean
+  name: MADLAD Arabic Clean
+  type: dataset
+  country: INTL
+  org: ymoslem
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/ymoslem/MADLAD-Arabic-Clean
+  size: 10M–100M rows
+  year: 2024
+  notes: Cleaned Arabic subset of MADLAD-400 with 12.4M documents (about 77 GB of text).
+- id: khatt-v1-0-dataset
+  name: KHATT v1.0 dataset
+  type: dataset
+  country: INTL
+  org: johnlockejrr
+  license: mit
+  modality: vision
+  tasks:
+  - ocr
+  - htr
+  links:
+    hf: https://huggingface.co/datasets/johnlockejrr/KHATT_v1.0_dataset
+  year: 2024
+  notes: Line-level KHATT database of unconstrained handwritten Arabic text from 1000 writers, developed by a KFUPM research group.
+- id: lk-hadith
+  name: LK Hadith
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/arbml/LK_Hadith
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2022
+  notes: 34K hadith entries with Arabic and English chapter, section and hadith text (Leeds-King Saud corpus).
+- id: quran-tafsir-tarteel-ai
+  name: quran tafsir
+  type: dataset
+  country: INTL
+  org: Tarteel AI
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/tarteel-ai/quran-tafsir
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2023
+  notes: Quran tafsir and translations in many English editions, one column per translator.
+- id: argilla-dpo-mix-7k-arabic
+  name: argilla dpo mix 7k arabic
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: mit
+  modality: text
+  tasks:
+  - preference
+  - dpo
+  links:
+    hf: https://huggingface.co/datasets/2A2I/argilla-dpo-mix-7k-arabic
+  size: 1K–10K rows
+  year: 2024
+  notes: Arabic version of the Argilla DPO mix with 7,500 chosen/rejected response pairs and ratings.
+- id: noor-platform-hadith
+  name: noor platform hadith
+  type: dataset
+  country: INTL
+  org: hozifa1
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/hozifa1/noor-platform-hadith
+  dialects:
+  - classical
+  year: 2026
+  notes: JSON hadith books and chapters (e.g., Abu Dawud) from the Noor platform.
+- id: fw-darija
+  name: fw darija
+  type: dataset
+  country: INTL
+  org: sawalni-ai
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/sawalni-ai/fw-darija
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: Darija subset of FineWeb 2, re-classified and cleaned with the Gherbal language identifier.
+- id: arabic-hate-speech
+  name: Arabic Hate Speech
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - hate-speech
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_Hate_Speech
+  size: 1K–10K rows
+  year: 2024
+  notes: 9,823 Arabic tweets labelled for offensive, hate, vulgar and violent content.
+- id: 1milion-token-egy-songs
+  name: 1milion token EGY songs
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - lyrics
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/1milion_token_EGY_songs
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2024
+  notes: 6,554 Egyptian Arabic song lyrics with title and text.
+- id: egyptian-english-parallel
+  name: Egyptian English parallel
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/Egyptian_English_parallel
+  dialects:
+  - egy
+  size: <1K rows
+  year: 2023
+  notes: 892 Egyptian Arabic-English sentence pairs.
+- id: niletts-dataset
+  name: NileTTS-dataset
+  type: dataset
+  country: INTL
+  org: KickItLikeShika
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/KickItLikeShika/NileTTS-dataset
+    paper: https://arxiv.org/abs/2602.15675
+  dialects:
+  - egy
+  year: 2026
+  notes: 'First large-scale public Egyptian Arabic TTS dataset: 38.1 hours, 9,521 utterances, 2 speakers, across diverse domains.'
+- id: quranicwhisperdataset
+  name: QURANICWhisperDataset
+  type: dataset
+  country: INTL
+  org: ahishamm
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/ahishamm/QURANICWhisperDataset
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: 31K Quran recitation audio clips with text and harakat transcription for fine-tuning Whisper.
+- id: english-arabic-speech-translation
+  name: english arabic speech translation
+  type: dataset
+  country: INTL
+  org: ammagra
+  license: unknown
+  modality: speech
+  tasks:
+  - speech-translation
+  links:
+    hf: https://huggingface.co/datasets/ammagra/english-arabic-speech-translation
+  size: 100K–1M rows
+  year: 2025
+  notes: 302K English-Arabic speech translation rows with audio, Arabic sentence and translation (Common Voice style).
+- id: hadith-data
+  name: hadith data
+  type: dataset
+  country: INTL
+  org: fawazahmed0
+  license: cc0-1.0
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/fawazahmed0/hadith-data
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2024
+  notes: Hadith collections with book name, hadith number, Arabic text and grading by scholars such as Al-Albani (CC0).
+- id: openslr-quranic-asr
+  name: openslr quranic asr
+  type: dataset
+  country: INTL
+  org: Sadique5
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Sadique5/openslr_quranic_asr
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: Quranic speech recognition dataset with 16 kHz audio, durations, transcripts and precomputed Whisper features.
+- id: aqar-fm-saudi-real-estate-listings
+  name: Aqar.fm Saudi Real Estate Listings
+  type: dataset
+  country: INTL
+  org: afaskar
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - real-estate
+  - tabular
+  links:
+    hf: https://huggingface.co/datasets/afaskar/Aqar.fm-Saudi-Real-Estate-Listings
+  size: 10K–100K rows
+  year: 2026
+  notes: 6,252 real estate listings (sales, rentals, auctions) scraped from Aqar.fm covering regions of Saudi Arabia.
+- id: egyptian-arabic-400k
+  name: egyptian arabic 400k
+  type: dataset
+  country: INTL
+  org: geeeezx
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/geeeezx/egyptian-arabic-400k
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2025
+  notes: 408K Egyptian Arabic speech clips with transcript and speaker gender.
+- id: quran-hadith
+  name: Quran Hadith
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - hadith
+  - similarity
+  links:
+    hf: https://huggingface.co/datasets/arbml/Quran_Hadith
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2024
+  notes: 8,144 Quran-Hadith verse pairs with a relatedness label.
+- id: arabic-text-to-speech-andrewatef
+  name: Arabic Text to Speech
+  type: dataset
+  country: INTL
+  org: andrewatef
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/andrewatef/Arabic-Text-to-Speech
+  size: 10K–100K rows
+  year: 2025
+  notes: 20.9K Arabic speech segments with transcripts and YouTube video metadata for TTS.
+- id: arabic-civitai-images
+  name: Arabic-CivitAi-Images
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: gpl-3.0
+  modality: multimodal
+  tasks:
+  - image-captioning
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/Arabic-CivitAi-Images
+  size: 1K–10K rows
+  year: 2024
+  notes: Top 2K+ CivitAI images described with Qwen-VL-Max and translated into Arabic with Command-R.
+- id: arabic-reasoning-qa
+  name: ARabic Reasoning QA
+  type: dataset
+  country: INTL
+  org: MohammedNasser
+  license: apache-2.0
+  modality: text
+  tasks:
+  - reasoning
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/MohammedNasser/ARabic_Reasoning_QA
+  size: 1K–10K rows
+  year: 2024
+  notes: Arabic reasoning questions at beginner, intermediate and advanced levels for training and evaluating reasoning.
+- id: rasaif-translations
+  name: rasaif translations
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/rasaif-translations
+  size: 1K–10K rows
+  year: 2024
+  notes: 1,951 Arabic-English sentence pairs sourced from rasaif.com.
+- id: tweets-ar-en-parallel
+  name: tweets ar en parallel
+  type: dataset
+  country: QA
+  org: QCRI ALT
+  license: '[''apache-2.0'']'
+  modality: text
+  tasks:
+  - translation
+  - twitter
+  links:
+    hf: https://huggingface.co/datasets/alt-qsri/tweets_ar_en_parallel
+  size: 100K–1M rows
+  year: 2024
+  notes: Bilingual corpus of Arabic-English parallel tweets collected for machine translation research.
+- id: arabic-dialects-question-and-answer
+  name: arabic dialects question and answer
+  type: dataset
+  country: INTL
+  org: CNTXTAI0
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - dialects
+  - reasoning
+  links:
+    hf: https://huggingface.co/datasets/CNTXTAI0/arabic_dialects_question_and_answer
+  dialects:
+  - msa
+  - gulf
+  - egy
+  - lev
+  size: <1K rows
+  year: 2025
+  notes: 500 reasoning questions in English, MSA, Emirati, Egyptian and Levantine columns, with hints and word counts.
+- id: tashkeelav2
+  name: tashkeelav2
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/arbml/tashkeelav2
+  size: 100K–1M rows
+  year: 2023
+  notes: 580K Arabic sentences with diacritized and plain text pairs for tashkeel.
+- id: baybars
+  name: baybars
+  type: dataset
+  country: INTL
+  org: calfa-ai
+  license: etalab-2.0
+  modality: vision
+  tasks:
+  - htr
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/calfa-ai/baybars
+  size: 10K–100K rows
+  year: 2026
+  notes: 'BAYBARS: line-level handwritten text ground truth for Arabic historical manuscripts of the Sirat Baybars, with transcriptions.'
+- id: hala-4-6m-sft
+  name: Hala 4.6M SFT
+  type: dataset
+  country: SA
+  org: KAUST
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - instruction-tuning
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/hammh0a/Hala-4.6M-SFT
+  size: 1M–10M rows
+  year: 2025
+  notes: 'Hala: 4.06M Arabic-centric instruction and translation conversations from the KAUST Hala technical report.'
+- id: quran-embeddings
+  name: quran embeddings
+  type: dataset
+  country: INTL
+  org: beardaintweird
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/beardaintweird/quran-embeddings
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2023
+  notes: 18.7K Quran verses with surah, ayah, text and precomputed embeddings.
+- id: moroccan-darija-wikipedia-dataset
+  name: moroccan darija wikipedia dataset
+  type: dataset
+  country: INTL
+  org: AbderrahmanSkiredj1
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/AbderrahmanSkiredj1/moroccan_darija_wikipedia_dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: 4,862 Moroccan Darija Wikipedia text rows.
+- id: arabic-finanical-rag-embedding-dataset
+  name: Arabic finanical rag embedding dataset
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - retrieval
+  - finance
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-finanical-rag-embedding-dataset
+  size: 1K–10K rows
+  year: 2024
+  notes: 7,000 question-context pairs translated into Arabic from NVIDIA's 2023 SEC filing, for fine-tuning RAG embedding models.
+- id: arabic-rc
+  name: Arabic RC
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - reading-comprehension
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_RC
+  size: 1K–10K rows
+  year: 2022
+  notes: 1,008 Arabic reading comprehension questions with passages and question class labels.
+- id: darija-dataset
+  name: Darija Dataset
+  type: dataset
+  country: INTL
+  org: JasperV13
+  license: mit
+  modality: text
+  tasks:
+  - language-modeling
+  links:
+    hf: https://huggingface.co/datasets/JasperV13/Darija_Dataset
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2024
+  notes: Moroccan Darija text corpus of 2.7M rows (about 1.4 GB) with a source column.
+- id: medical-arabic-qa
+  name: medical arabic qa
+  type: dataset
+  country: INTL
+  org: MustafaIbrahim
+  license: unknown
+  modality: text
+  tasks:
+  - medical
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/MustafaIbrahim/medical-arabic-qa
+  size: 10K–100K rows
+  year: 2025
+  notes: Arabic medical question-answer pairs with labels, 52,758 rows.
+- id: moroccanwikipedia-qa
+  name: MoroccanWikipedia-QA
+  type: dataset
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/MoroccanWikipedia-QA
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: 'MoroccanWikipedia-QA: question-answering dataset derived from the Moroccan Wikipedia dump for Darija QA.'
+- id: wiki-qa-ar
+  name: wiki qa ar
+  type: dataset
+  country: QA
+  org: QCRI
+  license: '[''unknown'']'
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/qcri/wiki_qa_ar
+  size: 100K–1M rows
+  year: 2024
+  notes: 'Arabic WikiQA: machine-translated WikiQA with crowdsourced selection of the best translation.'
+- id: mgb-3
+  name: MGB 3
+  type: dataset
+  country: INTL
+  org: Elyadata
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/ArabicSpeech/MGB-3
+  size: 1K–10K rows
+  year: 2025
+  tags:
+  - variants:1
+  notes: 6,547 MGB-3 Egyptian-Arabic speech rows with audio and transcript.
+  dialects:
+  - egy
+- id: arabic-raw-text
+  name: ARABIC RAW TEXT
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/ARABIC-RAW-TEXT
+  size: 100M–1B rows
+  year: 2024
+  notes: Raw Arabic text corpus combining Aluka, AraWiki, Aya and Islamic Books subsets for pretraining.
+- id: dataset-dyal-darija
+  name: dataset dyal darija
+  type: dataset
+  country: INTL
+  org: DRAGOO
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/DRAGOO/dataset_dyal_darija
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2023
+  notes: 3.6M lines of Moroccan Darija text for pretraining.
+- id: ultimate-arabic-news
+  name: ultimate arabic news
+  type: dataset
+  country: INTL
+  org: khalidalt
+  license: unknown
+  modality: text
+  tasks:
+  - classification
+  - news
+  links:
+    hf: https://huggingface.co/datasets/khalidalt/ultimate_arabic_news
+  size: 100K–1M rows
+  year: 2022
+  notes: Collection of single-label modern Arabic news-website and press-article texts for text classification.
+- id: alpaca-arabic
+  name: alpaca arabic
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/arbml/alpaca_arabic
+  size: 10K–100K rows
+  year: 2023
+  tags:
+  - variants:3
+  notes: 52K Arabic translation of the Alpaca instruction set with English originals kept alongside.
+- id: nilechat-arabizi-mor
+  name: nilechat arabizi mor
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-mor
+  size: 1M–10M rows
+  year: 2025
+  notes: 'Arabizi-Morocco: Moroccan Arabic text converted from Arabic script to Arabizi for language-model training.'
+  dialects:
+  - magh
+- id: saudipedia-arabic-qa
+  name: saudipedia arabic qa
+  type: dataset
+  country: INTL
+  org: AhmadHakami
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - culture
+  links:
+    hf: https://huggingface.co/datasets/AhmadHakami/saudipedia-arabic-qa
+  size: 1K–10K rows
+  year: 2025
+  notes: 1,082 question-answer pairs scraped from Saudipedia about Saudi culture and topics.
+- id: hadiths-dataset
+  name: hadiths dataset
+  type: dataset
+  country: INTL
+  org: cibfaye
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/cibfaye/hadiths_dataset
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: 37K hadith rows with book, reference, narrator and English and Arabic text.
+- id: darija
+  name: darija
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/arbml/darija
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2022
+  notes: 7,325 Darija-English sentence pairs.
+- id: arabic-stsb
+  name: Arabic stsb
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - sts
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-stsb
+  size: 1K–10K rows
+  year: 2024
+  notes: Arabic version of the Semantic Textual Similarity Benchmark with human-annotated similarity scores from 1 to 5.
+- id: all-hadith
+  name: all hadith
+  type: dataset
+  country: INTL
+  org: M-AI-C
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/M-AI-C/all_hadith
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2023
+  notes: Hadith corpus with source, chapter, hadith number, chain index and Arabic text columns.
+- id: arabic-medical-dialogue
+  name: arabic medical dialogue
+  type: dataset
+  country: INTL
+  org: Mars203020
+  license: mit
+  modality: text
+  tasks:
+  - medical
+  - dialogue
+  links:
+    hf: https://huggingface.co/datasets/Mars203020/arabic_medical_dialogue
+  size: 1K–10K rows
+  year: 2024
+  notes: Arabic medical dialogue dataset for text generation.
+- id: aracast-text
+  name: aracast text
+  type: dataset
+  country: INTL
+  org: Asas AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - text-generation
+  links:
+    hf: https://huggingface.co/datasets/asas-ai/aracast_text
+  size: 10K–100K rows
+  year: 2024
+  notes: 16.3K plain-text Arabic transcripts for text generation (135 MB).
+- id: arabic-preference-data-rlhf
+  name: Arabic preference data RLHF
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: text
+  tasks:
+  - preference
+  - rlhf
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/Arabic-preference-data-RLHF
+  size: 10K–100K rows
+  year: 2023
+  notes: 11.5K Arabic RLHF preference rows with instruction, chosen and rejected responses.
+- id: arabic-speech-massive
+  name: arabic speech massive
+  type: dataset
+  country: INTL
+  org: abdusah
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/abdusah/arabic_speech_massive
+  size: 100K–1M rows
+  year: 2022
+  notes: 333K-row Arabic speech set with transcriptions, labels, country and dialect columns.
+- id: medical-reasoning-arabic-dataset
+  name: Medical Reasoning Arabic Dataset
+  type: dataset
+  country: INTL
+  org: Gheras
+  license: unknown
+  modality: text
+  tasks:
+  - medical
+  - reasoning
+  links:
+    hf: https://huggingface.co/datasets/Gheras/Medical_Reasoning_Arabic_Dataset
+  size: 10K–100K rows
+  year: 2025
+  notes: 19.7K Arabic medical reasoning rows with question, chain-of-thought and response.
+- id: egyptian-translation-dataset-2-9-openai-batch
+  name: egyptian translation dataset 2.9 openai batch
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/egyptian-translation-dataset-2.9-openai-batch
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2026
+  notes: English-to-Egyptian-Arabic translation pairs, 135,282 rows.
+- id: moroccansocialmedia-multigen
+  name: MoroccanSocialMedia-MultiGen
+  type: dataset
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: '[''mit'']'
+  modality: text
+  tasks:
+  - text-generation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/MoroccanSocialMedia-MultiGen
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: 'MoroccanSocialMedia-MultiGen: 12,973 pairs of native Darija social-media posts and their synthetic counterparts.'
+- id: moroccan-darija-youtube-subtitles
+  name: moroccan darija youtube subtitles
+  type: dataset
+  country: INTL
+  org: bourbouh
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - pretraining
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/bourbouh/moroccan-darija-youtube-subtitles
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2024
+  notes: 248 transcripts of Moroccan Darija YouTube videos from popular channels.
+- id: doda-10k
+  name: DODa 10K
+  type: dataset
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: '[''cc-by-nc-4.0'']'
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/DODa-10K
+  size: 10K–100K rows
+  year: 2024
+  notes: 'DODa-10K: Darija Open Dataset subset of translation quintuples between Darija (Arabic and Latin script) and other languages.'
+  dialects:
+  - magh
+- id: doda-darija-cosyvoice2
+  name: doda darija cosyvoice2
+  type: dataset
+  country: INTL
+  org: Jip7e
+  license: '[''cc-by-4.0'']'
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/Jip7e/doda-darija-cosyvoice2
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: DODa Moroccan Darija speech dataset standardized and tokenized for CosyVoice2 TTS training, with Kaldi-style formats.
+- id: qari-0-2-2-diacritics-dataset-large
+  name: qari 0.2.2 diacritics dataset large
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - diacritics
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/qari-0.2.2-diacritics-dataset-large
+  size: 100K–1M rows
+  year: 2026
+  notes: Synthetic images of diacritized Arabic text rendered in multiple fonts, sizes and page layouts for OCR training.
+- id: ultrafeedback-arabic
+  name: ultrafeedback arabic
+  type: dataset
+  country: INTL
+  org: alielfilali01
+  license: unknown
+  modality: text
+  tasks:
+  - preference
+  - rlhf
+  links:
+    hf: https://huggingface.co/datasets/alielfilali01/ultrafeedback-arabic
+  size: 10K–100K rows
+  year: 2024
+  notes: 63K Arabic UltraFeedback preference pairs with chosen/rejected responses and scores.
+- id: tachelhiyt-darija
+  name: tachelhiyt darija
+  type: dataset
+  country: INTL
+  org: NoureddineMOR
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/NoureddineMOR/tachelhiyt-darija
+    paper: https://aclanthology.org/2025.icnlsp-1.37.pdf
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2025
+  notes: Parallel speech corpus for Moroccan Darija and Tachelhiyt, two underrepresented languages (ICNLSP 2025).
+- id: arabic-dialects-dataset
+  name: Arabic Dialects Dataset
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_Dialects_Dataset
+  dialects:
+  - mixed
+  size: 1K–10K rows
+  year: 2024
+  notes: 9,992 Arabic dialect texts with dialect labels for dialect identification.
+- id: six-millions-instruction-dataset-for-arabic-llm-ft
+  name: six millions instruction dataset for arabic llm ft
+  type: dataset
+  country: INTL
+  org: akbargherbal
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/akbargherbal/six_millions_instruction_dataset_for_arabic_llm_ft
+  size: 1M–10M rows
+  year: 2024
+  notes: 6.4M Arabic instruction, input and output rows for LLM fine-tuning.
+- id: egyptian-arabic-fake-reviews
+  name: egyptian arabic fake reviews
+  type: dataset
+  country: INTL
+  org: IbrahimAmin
+  license: mit
+  modality: text
+  tasks:
+  - fake-reviews
+  - classification
+  links:
+    hf: https://huggingface.co/datasets/IbrahimAmin/egyptian-arabic-fake-reviews
+  dialects:
+  - egy
+  size: 10K–100K rows
+  year: 2026
+  notes: 'FREAD: Egyptian Arabic fake reviews dataset with original and translated reviews and ratings.'
+- id: tunisian-dialect-corpus
+  name: Tunisian Dialect Corpus
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - dialects
+  - classification
+  links:
+    hf: https://huggingface.co/datasets/arbml/Tunisian_Dialect_Corpus
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: 49.9K Tunisian dialect tweets with labels.
+- id: uae-laws
+  name: uae laws
+  type: dataset
+  country: INTL
+  org: obadabaq
+  license: mit
+  modality: text
+  tasks:
+  - legal
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/obadabaq/uae-laws
+  size: 1K–10K rows
+  year: 2024
+  notes: Collection of UAE laws and regulations (business, finance, family, justice, labour, residency) for QA and text generation.
+- id: saudilang-code-switch-corpus
+  name: Saudilang Code Switch Corpus
+  type: dataset
+  country: SA
+  org: SDAIA NCAI
+  license: cc-by-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/SDAIANCAI/Saudilang-Code-Switch-Corpus
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2024
+  notes: 'SCC: SDAIA NCAI corpus of transcribed code-switched Arabic-English conversations from the Thmanyah YouTube podcast.'
+- id: okapi-arabic
+  name: okapi arabic
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/arbml/okapi_arabic
+  size: 10K–100K rows
+  year: 2023
+  notes: 64.7K Okapi Arabic instruction, input and output rows.
+- id: moroccan-lawqa-dataset
+  name: moroccan-lawQA-dataset
+  type: dataset
+  country: INTL
+  org: ilyassacha
+  license: unknown
+  modality: text
+  tasks:
+  - legal
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/ilyassacha/moroccan-lawQA-dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2025
+  notes: 4,999 Moroccan legal question-answering instruction rows.
+- id: darija-therapy-qa
+  name: darija therapy qa
+  type: dataset
+  country: INTL
+  org: ayatallah
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - therapy
+  links:
+    hf: https://huggingface.co/datasets/ayatallah/darija-therapy-qa
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2025
+  notes: 6,181 Darija therapy-style context and response pairs.
+- id: arabic-poem-comprehensive-dataset-apcd
+  name: Arabic Poem Comprehensive Dataset APCD
+  type: dataset
+  country: INTL
+  org: Abdelrahman-Rezk
+  license: unknown
+  modality: text
+  tasks:
+  - poetry
+  - meter
+  links:
+    hf: https://huggingface.co/datasets/Abdelrahman-Rezk/Arabic_Poem_Comprehensive_Dataset_APCD
+  size: 1M–10M rows
+  year: 2022
+  notes: 1.68M Arabic poem verses with era, poet, collection, rhyme and meter (bahr) metadata.
+- id: arabic-news
+  name: Arabic News
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - news
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_News
+  size: 1M–10M rows
+  year: 2022
+  notes: 7.3M Arabic news text rows for language modelling.
+- id: dibt-10k-prompts-ranked-arabic
+  name: dibt 10k prompts ranked arabic
+  type: dataset
+  country: INTL
+  org: 2A2I-R
+  license: unknown
+  modality: text
+  tasks:
+  - prompts
+  - instructions
+  links:
+    hf: https://huggingface.co/datasets/2A2I-R/dibt_10k_prompts_ranked_arabic
+  size: 10K–100K rows
+  year: 2024
+  notes: Arabic translation of the DIBT 10K ranked prompts with quality ratings, annotator agreement and raw ratings (10,331 rows).
+- id: moroccan-darija-instruct-573k
+  name: Moroccan Darija Instruct 573K
+  type: dataset
+  country: INTL
+  org: Lyte
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/Lyte/Moroccan-Darija-Instruct-573K
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2026
+  notes: Synthetic instruction-tuning dataset of 573,175 question-answer pairs written entirely in Moroccan Darija.
+- id: hadith
+  name: Hadith
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/arbml/Hadith
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2022
+  notes: 124K Arabic hadith texts.
+- id: arabic-stories-corpus
+  name: Arabic Stories Corpus
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - stories
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_Stories_Corpus
+  size: <1K rows
+  year: 2022
+  notes: 58 Arabic short stories with title, author, publisher and full text.
+- id: egyptian-arabic-english-v1
+  name: Egyptian Arabic English V1
+  type: dataset
+  country: INTL
+  org: Amr-khaled
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/Amr-khaled/Egyptian-Arabic_English_V1
+  dialects:
+  - egy
+  size: 10K–100K rows
+  year: 2024
+  notes: 33K Egyptian Arabic-English sentence pairs with source text field.
+- id: arabic-ecom-data
+  name: arabic ecom data
+  type: dataset
+  country: INTL
+  org: Presto AI
+  license: unknown
+  modality: text
+  tasks:
+  - retrieval
+  - e-commerce
+  links:
+    hf: https://huggingface.co/datasets/prestoai/arabic-ecom-data
+  size: 100K–1M rows
+  year: 2026
+  notes: Arabic e-commerce query-product training data for retrieval and embedding models, in MSA and Libyan dialect.
+  dialects:
+  - mixed
+- id: arabic-literature
+  name: Arabic Literature
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/arbml/Arabic_Literature
+  size: 1M–10M rows
+  year: 2022
+  notes: 1.6M rows of Arabic literature text for language modelling.
+- id: arabic-khatt
+  name: arabic khatt
+  type: dataset
+  country: INTL
+  org: ahmedheakl
+  license: unknown
+  modality: multimodal
+  tasks:
+  - vqa
+  - multimodal
+  links:
+    hf: https://huggingface.co/datasets/ahmedheakl/arabic_khatt
+  size: 1K–10K rows
+  year: 2024
+  notes: 1,400 rows pairing images with Arabic questions and answers (Arabic Khatt).
+- id: arabic-bbc-news
+  name: arabic bbc news
+  type: dataset
+  country: INTL
+  org: Abdelkareem
+  license: unknown
+  modality: text
+  tasks:
+  - news
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/Abdelkareem/arabic-bbc-news
+  size: 1K–10K rows
+  year: 2023
+  notes: 9,380 Arabic BBC News articles with URL, title, summary and full text.
+- id: qasr-arabic-speech-continuations
+  name: qasr arabic speech continuations
+  type: dataset
+  country: LB
+  org: Wissam Antoun (AUB)
+  license: unknown
+  modality: speech
+  tasks:
+  - speech-continuation
+  links:
+    hf: https://huggingface.co/datasets/wissamantoun/qasr-arabic-speech-continuations
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic speech segments with transcripts and episode IDs for speech continuation.
+- id: algerian-darija-dictionary-v1
+  name: algerian darija dictionary v1
+  type: dataset
+  country: INTL
+  org: awras
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - dictionary
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/awras/algerian-darija-dictionary-v1
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2026
+  notes: Dictionary of 4,636 Algerian Darija words and proverbs with French spelling, definitions and examples; the card warns of quality issues.
+- id: english-arabic-translations
+  name: english arabic translations
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/english-arabic-translations
+  size: 10K–100K rows
+  year: 2026
+  notes: English-Arabic parallel sentences with source and hash columns.
+- id: darijabanking
+  name: DarijaBanking
+  type: dataset
+  country: INTL
+  org: AbderrahmanSkiredj1
+  license: unknown
+  modality: text
+  tasks:
+  - intent-detection
+  - banking
+  links:
+    hf: https://huggingface.co/datasets/AbderrahmanSkiredj1/DarijaBanking
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: 'DarijaBanking: 6,504 banking-domain Darija queries with intent label and language field.'
+- id: arabml-darija-english-parallel-dataset
+  name: arabml darija english parallel dataset
+  type: dataset
+  country: INTL
+  org: AbderrahmanSkiredj1
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - darija
+  links:
+    hf: https://huggingface.co/datasets/AbderrahmanSkiredj1/arabml_darija_english_parallel_dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: 7,314 Moroccan Darija-English sentence pairs with Darija in Latin and Arabic letters.
+- id: arabic-nli-pair-score
+  name: Arabic NLi Pair Score
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nli
+  - embedding-training
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Score
+  size: 100K–1M rows
+  year: 2024
+  notes: 'Arabic translation of SNLI and MultiNLI (pair-score subset: sentence pairs with scores) for embedding training.'
+- id: omar-al-saleh-manuscripts-full
+  name: omar al saleh manuscripts full
+  type: dataset
+  country: INTL
+  org: U4RASD
+  license: cc-by-4.0
+  modality: vision
+  tasks:
+  - htr
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full
+  size: <1K rows
+  year: 2026
+  notes: Scanned Omar Al-Saleh memoir manuscripts (1951-1965) with expert DOCX transcriptions, from the NAKBA NLP 2026 shared task.
+- id: bimed-v-1-6m
+  name: BiMed-V-1.6M
+  type: dataset
+  country: AE
+  org: MBZUAI
+  license: cc-by-nc-sa-4.0
+  modality: multimodal
+  tasks:
+  - medical
+  - vqa
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M
+    paper: https://arxiv.org/abs/2412.07769
+  size: 100K–1M rows
+  year: 2025
+  notes: 'BiMed-V: Arabic-English multimodal biomedical dataset of 1.6M samples for visual QA and image-to-text, from BiMediX2.'
+- id: tinystories-algerian-darija
+  name: TinyStories-Algerian-Darija
+  type: dataset
+  country: INTL
+  org: Touati Kamel
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - text-generation
+  links:
+    hf: https://huggingface.co/datasets/touati-kamel/TinyStories-Algerian-Darija
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: 'TinyStories translated into Algerian Darija: parallel children''s stories corpus with a cultural-adaptation pipeline.'
+- id: arabicquoraduplicates-stsb-alue-holyquran-aranli-900k-anchor-positive
+  name: ArabicQuoraDuplicates_stsb_Alue_holyquran_aranli_900k_anchor_positive_negative
+  type: dataset
+  country: INTL
+  org: AbderrahmanSkiredj1
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - triplets
+  links:
+    hf: https://huggingface.co/datasets/AbderrahmanSkiredj1/ArabicQuoraDuplicates_stsb_Alue_holyquran_aranli_900k_anchor_positive_negative
+  size: 100K–1M rows
+  year: 2024
+  notes: 873K Arabic embedding triplets (anchor, positive, negative) mixing Quora duplicates, STSB, ALUE, Quran and AraNLI sources.
+- id: arabic-nli-pair-class
+  name: Arabic NLi Pair Class
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nli
+  - embedding-training
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Class
+  size: 100K–1M rows
+  year: 2024
+  notes: 'Arabic translation of SNLI and MultiNLI (pair-class subset: premise, hypothesis, label) for NLI and embedding training.'
+- id: saudiirony
+  name: SaudiIrony
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - irony
+  - twitter
+  links:
+    hf: https://huggingface.co/datasets/arbml/SaudiIrony
+  dialects:
+  - gulf
+  size: 10K–100K rows
+  year: 2024
+  notes: 19.8K Saudi tweets labelled for irony.
+- id: dibt-prompt-translation-for-arabic
+  name: dibt prompt translation for arabic
+  type: dataset
+  country: INTL
+  org: data-is-better-together
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - prompts
+  links:
+    hf: https://huggingface.co/datasets/data-is-better-together/dibt-prompt-translation-for-arabic
+  size: <1K rows
+  year: 2024
+  notes: 501 Arabic prompt translations with quality ratings from the Data Is Better Together translation effort.
+- id: mawps-ar
+  name: MaWPS-ar
+  type: dataset
+  country: EG
+  org: Omar Adel, Alexandria University
+  license: '[''mit'']'
+  modality: text
+  tasks:
+  - math
+  links:
+    hf: https://huggingface.co/datasets/omarxadel/MaWPS-ar
+  size: 1K–10K rows
+  year: 2022
+  notes: Arabic-English version of the MAWPS math word problem repository, with equations.
+- id: emirates-dialect-speech-male
+  name: emirates dialect speech male
+  type: dataset
+  country: INTL
+  org: AhmedEladl
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - dialects
+  links:
+    hf: https://huggingface.co/datasets/AhmedEladl/emirates-dialect-speech-male
+  size: 1K–10K rows
+  year: 2026
+  notes: 4,201 Emirati-dialect speech segments with base and dialectal transcriptions for ASR and TTS fine-tuning.
+  dialects:
+  - gulf
+- id: ariq
+  name: ARIQ
+  type: dataset
+  country: SA
+  org: Misraj AI
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - quotation-extraction
+  links:
+    hf: https://huggingface.co/datasets/Misraj/ARIQ
+  size: 1K–10K rows
+  year: 2026
+  notes: 'ARIQ: first manually annotated dataset for extracting and attributing Quran, Hadith and scholarly quotations in Arabic fatwas.'
+- id: financial-news
+  name: financial news
+  type: dataset
+  country: INTL
+  org: Asas AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - news
+  - finance
+  links:
+    hf: https://huggingface.co/datasets/asas-ai/financial_news
+  size: 1K–10K rows
+  year: 2023
+  notes: 7,560 source-target text pairs of Arabic financial news.
+- id: iraqi-dialect
+  name: Iraqi Dialect
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - dialects
+  - classification
+  links:
+    hf: https://huggingface.co/datasets/arbml/Iraqi_Dialect
+  dialects:
+  - iraqi
+  size: 1K–10K rows
+  year: 2022
+  notes: 1,672 Iraqi dialect texts with labels.
+- id: arabic-news-summarization
+  name: arabic news summarization
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-news-summarization
+  size: 10K–100K rows
+  year: 2026
+  notes: MSA news summarization pairs (article and summary) with translated counterparts.
+- id: quran-uthmani
+  name: quran uthmani
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/arbml/quran_uthmani
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2022
+  notes: 6,235 Quran verses in Uthmani script indexed by surah and ayah.
+- id: aydid-public
+  name: AYDID public
+  type: dataset
+  country: INTL
+  org: Mansoor Saleh
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/mansoorSaleh/AYDID-public
+  size: <1K rows
+  year: 2026
+  notes: Public sample and test set of AYDID, the first speech corpus for Yemeni Arabic at sub-dialect level, for ASR and dialect ID.
+  dialects:
+  - yemeni
+- id: arabic-turath-ocr
+  name: arabic turath ocr
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: unknown
+  modality: text
+  tasks:
+  - ocr
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/arabic-turath-ocr
+  size: 100K–1M rows
+  year: 2026
+  notes: Page-level text of Arabic Turath books with raw and cleaned text and Arabic-character ratio, from digitized PDFs.
+- id: sudanese-dialect-tweet
+  name: Sudanese Dialect Tweet
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - dialects
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/arbml/Sudanese_Dialect_Tweet
+  dialects:
+  - sudanese
+  size: 1K–10K rows
+  year: 2024
+  notes: 2,119 Sudanese dialect tweets with three annotators' labels and mode label.
+- id: darijastory
+  name: DarijaStory
+  type: dataset
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - text-generation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/DarijaStory
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: 'DarijaStory: 4,392 long Moroccan Darija stories scraped from a story website, for story completion.'
+- id: egyptial-gulf-twitter-dataset
+  name: Egyptial Gulf Twitter Dataset
+  type: dataset
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - dialects
+  - twitter
+  links:
+    hf: https://huggingface.co/datasets/arbml/Egyptial_Gulf_Twitter_Dataset
+  dialects:
+  - egy
+  - gulf
+  size: 1K–10K rows
+  year: 2024
+  notes: Egyptian and Gulf Arabic tweets with raw tweet metadata (1K-10K rows).
+- id: oasst-arabic
+  name: oasst arabic
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  - chat
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/oasst-arabic
+  size: 10K–100K rows
+  year: 2023
+  notes: Arabic translation of the OASST conversation dataset with message, parent, role and review fields.
+- id: darija-translation
+  name: darija translation
+  type: dataset
+  country: MA
+  org: atlasia
+  license: cc
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/darija-translation
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: Moroccan Darija translation pairs with English and French.
+- id: moroccan-darija-wiki-dataset
+  name: Moroccan Darija Wiki Dataset
+  type: dataset
+  country: MA
+  org: atlasia
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/atlasia/Moroccan-Darija-Wiki-Dataset
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2025
+  notes: Text corpus built from the Moroccan Darija Wikipedia.
+- id: darija-bible-aligned
+  name: darija bible aligned
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/atlasia/darija_bible_aligned
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2025
+  notes: Moroccan Darija Bible readings with aligned audio and text.
+- id: synthetic-data-english-darija
+  name: Synthetic Data English Darija
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/Synthetic-Data-English-Darija
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: Synthetic English–Moroccan Darija parallel sentences for machine translation.
+- id: levantine-dialects
+  name: levantine dialects
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/atlasia/levantine_dialects
+  dialects:
+  - lev
+  size: 10K–100K rows
+  year: 2025
+  notes: Levantine Arabic dialect text collection released by the Atlasia lab.
+- id: prophet-mosque-library
+  name: prophet mosque library
+  type: dataset
+  country: INTL
+  org: ieasybooks
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/ieasybooks-org/prophet-mosque-library
+  size: 10K–100K rows
+  year: 2025
+  notes: Prophet’s Mosque Library is one of the primary resources for Islamic books.
+- id: quran-database
+  name: quran-database
+  type: dataset
+  country: INTL
+  org: gaitco
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - quran
+  links:
+    github: https://github.com/gaitco/quran-database
+    website: https://gaitco.com/open-source/quran-database
+  dialects:
+  - classical
+  year: 2026
+  notes: A complete, structured Quran database — verses, translations and metadata, free for any project.
+- id: shamela-waqfeya-library
+  name: shamela waqfeya library
+  type: dataset
+  country: INTL
+  org: ieasybooks
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/ieasybooks-org/shamela-waqfeya-library
+  size: 1K–10K rows
+  year: 2025
+  notes: Shamela Waqfeya is one of the primary online resources for Islamic books, similar to Shamela.
+- id: shamela4-full-db
+  name: Shamela4 Full DB
+  type: dataset
+  country: INTL
+  org: AuthenticIlm
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/AuthenticIlm/Shamela4_Full_DB
+  size: 10M–100M rows
+  year: 2026
+  notes: A complete extraction of al-Maktaba al-Shamela (الشاملة) v4, containing 8,589 books across 40 categories of classical Islamic sciences.
+- id: hadith-json
+  name: hadith-json
+  type: dataset
+  country: INTL
+  org: AhmedBaset
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  links:
+    github: https://github.com/AhmedBaset/hadith-json
+  dialects:
+  - classical
+  year: 2026
+  notes: Database of Prophet hadiths include 50,884 hadiths from 17 book, among of them the nine books
+- id: coda-llm-data
+  name: coda llm data
+  type: dataset
+  country: INTL
+  org: mohameddalii
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/mohameddalii/coda-llm-data
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2026
+  notes: This repository contains the full end-to-end dataset, fine-tuning scripts, evaluation suites, load testing harness, and proxy architecture for Coda LLM.
+- id: diwan
+  name: Diwan
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: mit
+  modality: text
+  tasks:
+  - poetry
+  links:
+    github: https://github.com/NoorBayan/Diwan
+  year: 2026
+  notes: Diwan is the largest Arabic poetry dataset, containing nearly 500,000 poems and over 15 million verses.
+- id: quranic
+  name: Quranic
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: mit
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/NoorBayan/Quranic
+  dialects:
+  - classical
+  year: 2026
+  notes: Dataset for Quran Text Processing.
+- id: tadabur-fherran
+  name: tadabur
+  type: dataset
+  country: INTL
+  org: fherran
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  - quran
+  links:
+    github: https://github.com/fherran/tadabur
+  dialects:
+  - classical
+  year: 2026
+  notes: Tadabur is a large-scale, high-diversity Qur'anic speech dataset designed to advance Arabic speech research.
+- id: hadith-islamware
+  name: hadith-islamware
+  type: dataset
+  country: INTL
+  org: ceefour
+  license: unlicense
+  modality: text
+  tasks:
+  - hadith
+  links:
+    github: https://github.com/ceefour/hadith-islamware
+    website: https://www.islamware.com/app/downloads
+  dialects:
+  - classical
+  year: 2014
+  notes: Hadith database from Islam Ware
+- id: quranic-corpus
+  name: quranic-corpus
+  type: dataset
+  country: INTL
+  org: kaisdukes
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/kaisdukes/quranic-corpus
+    website: https://qurancorpus.app
+  dialects:
+  - classical
+  year: 2023
+  notes: The Quranic Arabic Corpus, an invaluable linguistic resource, is due for a revamp.
+- id: miraya
+  name: Miraya
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: other
+  modality: text
+  tasks:
+  - poetry
+  links:
+    github: https://github.com/NoorBayan/Miraya
+  year: 2026
+  notes: A Critically Validated Computational Corpus for Arabic Poetry and Feminist Analysis
+- id: tafilat
+  name: Tafilat
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: unknown
+  modality: text
+  tasks:
+  - poetry
+  links:
+    github: https://github.com/NoorBayan/Tafilat
+  year: 2024
+  notes: A complete dataset offering all possible patterns for Arabic poetic meters, meticulously curated from classical prosody sources.
+- id: mana
+  name: Mana
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - poetry
+  links:
+    github: https://github.com/NoorBayan/Mana
+  year: 2025
+  notes: 'Mana: Thematic Corpus for Arabic Poetry with Multi-label Annotation'
+- id: waqfeya-library-compressed
+  name: waqfeya library compressed
+  type: dataset
+  country: INTL
+  org: ieasybooks
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/ieasybooks-org/waqfeya-library-compressed
+  size: 10K–100K rows
+  year: 2025
+  notes: Waqfeya is one of the primary online resources for Islamic books, similar to Shamela.
+- id: prophet-mosque-library-compressed
+  name: prophet mosque library compressed
+  type: dataset
+  country: INTL
+  org: ieasybooks
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/ieasybooks-org/prophet-mosque-library-compressed
+  size: 10K–100K rows
+  year: 2025
+  notes: Prophet’s Mosque Library is one of the primary resources for Islamic books.
+- id: arwiki
+  name: arwiki
+  type: dataset
+  country: INTL
+  org: CALM
+  license: '[''unknown'']'
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/CALM/arwiki
+  dialects:
+  - msa
+  size: 10M–100M rows
+  year: 2022
+  notes: This dataset is extracted using wikiextractor tool, from Wikipedia Arabic pages.
+- id: burhan
+  name: Burhan
+  type: dataset
+  country: INTL
+  org: Noor Bayan
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/NoorBayan/Burhan
+  dialects:
+  - classical
+  year: 2026
+  notes: '📖 Burhan: The QR-Rhetoric Computational Semantic Dataset for Classical Arabic'
+- id: muaalem-annotated-v3
+  name: muaalem annotated v3
+  type: dataset
+  country: INTL
+  org: obadx
+  license: mit
+  modality: speech
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/obadx/muaalem-annotated-v3
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2025
+  notes: Quran recitations from expert reciters with phonetic transcripts encoding tajweed rules, for recitation-error detection models.
+- id: arabic-stem-lexicon
+  name: arabic stem lexicon
+  type: dataset
+  country: INTL
+  org: TigreGotico
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - tts
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/TigreGotico/arabic-stem-lexicon
+  size: 100K–1M rows
+  year: 2026
+  notes: An undiacritized Arabic surface form → its most frequent diacritized stem.
+- id: sada22
+  name: SADA22
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/SADA22
+  dialects:
+  - gulf
+  - mixed
+  size: 100K–1M rows
+  year: 2025
+  notes: The SADA dataset (Saudi Audio Dataset for Arabic) is a large-scale Arabic speech corpus designed to support the development.
+- id: unnamed-split-ar
+  name: unnamed split ar
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: cc-by-3.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/unnamed-split-ar
+  year: 2026
+  notes: The data/ar/ partition of espnet/yodas3, cut from long recordings (median 5 minutes) into clips of 5-45 seconds, each with its own transcript.
+- id: arabic-empathetic-chatbot
+  name: Arabic-Empathetic-Chatbot
+  type: dataset
+  country: LB
+  org: AUB MIND Lab
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    github: https://github.com/aub-mind/Arabic-Empathetic-Chatbot
+  year: 2025
+  notes: 'Seq2Seq-based open domain empathetic conversational model for Arabic: Dataset & Model'
+- id: arabic-sts
+  name: arabic sts
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/arabic-sts
+  size: 10K–100K rows
+  year: 2024
+  notes: In the time of writing this Dataset Card, 31,112 civilians has been killed in Gaza (2/3 of them are women, elderly and children).
+- id: ocr-arabic-books
+  name: ocr arabic books
+  type: dataset
+  country: INTL
+  org: freococo
+  license: cc-by-nc-nd-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/freococo/ocr_arabic_books
+  size: 100K–1M rows
+  year: 2026
+  notes: This repository is a structurally aligned Arabic Optical Character Recognition (OCR) dataset.
+- id: linto-dataset-audio-ar-tn
+  name: linto dataset audio ar tn
+  type: dataset
+  country: INTL
+  org: LINAGORA
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2025
+  notes: This is the first packaged version of the datasets used to train the Linto Tunisian dialect with code-switching STT (linagora/linto-asr-ar-tn).
+- id: egyptian-drug-database
+  name: egyptian-drug-database
+  type: dataset
+  country: INTL
+  org: karem505
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/karem505/egyptian-drug-database
+  dialects:
+  - egy
+  year: 2026
+  notes: Egyptian drug database (May 2026) — 24,868 medicines with Arabic + English trade names, scientific composition, manufacturer, drug class, route, and EGP price.
+- id: fareh
+  name: fareh
+  type: dataset
+  country: DZ
+  org: linuxscout
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/linuxscout/fareh
+  year: 2025
+  notes: 'Fareh: Arabic rules database for grammar and style checking فارح: لغتنا الجميلة'
+- id: quran-md-ayahs
+  name: quran md ayahs
+  type: dataset
+  country: INTL
+  org: Buraaq
+  license: unknown
+  modality: speech
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Buraaq/quran-md-ayahs
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: Ayah-level split of Quran-MD, a multimodal Quran dataset aligning text, linguistic annotation and recitation audio.
+- id: petraai
+  name: PetraAI
+  type: dataset
+  country: INTL
+  org: PetraAI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - ner
+  - qa
+  - translation
+  - summarization
+  - embedding
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/PetraAI/PetraAI
+  size: 1M–10M rows
+  year: 2023
+  notes: PETRA is a multilingual dataset for training and evaluating AI systems on a diverse range of tasks across multiple modalities.
+- id: synth-shamela-ocr-arabic-books
+  name: synth shamela ocr arabic books
+  type: dataset
+  country: INTL
+  org: freococo
+  license: cc-by-nc-nd-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/freococo/synth_shamela_ocr_arabic_books
+  size: 1M–10M rows
+  year: 2026
+  notes: Structured book pages rendered dynamically with style, font, and degradation variations.
+- id: coru
+  name: CORU
+  type: dataset
+  country: INTL
+  org: DataScienceUIBK
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/abdoelsayed/CORU
+  size: 10K–100K rows
+  year: 2025
+  notes: Multilingual OCR and information extraction from receipts remains challenging, particularly for complex scripts like Ar
+- id: warsh-segments-v3
+  name: warsh segments v3
+  type: dataset
+  country: INTL
+  org: Haitam03
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Haitam03/warsh-segments-v3
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: Warsh (Rewayat Warsh A'n Nafi') Quran recitation, segmented at waqf with obadx/recitation-segmenter-v2.
+- id: warsh-quran-audio
+  name: warsh-quran-audio
+  type: dataset
+  country: INTL
+  org: Yousr-Allah-Allouani
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  - quran
+  links:
+    github: https://github.com/Yousr-Allah-Allouani/warsh-quran-audio
+  dialects:
+  - classical
+  year: 2026
+  notes: 'Open research: Warsh Quranic recitation tracking — dataset, alignments, live tracker'
+- id: jabarti-llm-dataset
+  name: jabarti llm dataset
+  type: dataset
+  country: EG
+  org: Bakrianoo
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - qa
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/bakrianoo/jabarti-llm-dataset
+  dialects:
+  - egy
+  size: 1M–10M rows
+  year: 2026
+  notes: Cleaned, section-chunked training corpus for a small bilingual LLM.
+- id: muharaf-public
+  name: muharaf public
+  type: dataset
+  country: INTL
+  org: Muharaf Project
+  license: cc-by-nc-sa-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/aamijar/muharaf-public
+  size: 10K–100K rows
+  year: 2025
+  notes: This dataset contains 24,495 line images of Arabic handwriting and the corresponding text.
+- id: arabic-game-arabizations
+  name: arabic game arabizations
+  type: dataset
+  country: INTL
+  org: jynxzio5
+  license: other
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/jynxzio5/arabic-game-arabizations
+  size: 10K–100K rows
+  year: 2026
+  notes: Catalog scraped from wolfgame-ar.site for use by an installer app.
+- id: ar-quran-hadith14books-msa
+  name: ar quran hadith14books MSA
+  type: dataset
+  country: INTL
+  org: Dr-AliGomaa
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - chat
+  - summarization
+  - speech
+  - quran
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/Dr-AliGomaa/ar-quran-hadith14books-MSA
+  dialects:
+  - classical
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic speech for both primary sources of Islam — Quran and Hadith.
+- id: mgb2-arabic
+  name: mgb2 arabic
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/mgb2-arabic
+  size: 100K–1M rows
+  year: 2025
+  notes: The Arabic Multi-Genre Broadcast (MGB-2) dataset is a large-scale speech recognition corpus containing 1,200 hours of Arabic broadcast audio.
+- id: arabic-audio-collection-algerian-loubna-stories
+  name: arabic audio collection algerian loubna stories
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-algerian-loubna-stories
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Loubna Stories Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 237 hours of speech recordings.
+- id: xtd-11
+  name: xtd 11
+  type: dataset
+  country: INTL
+  org: Arabic-Clip
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - embedding
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/Arabic-Clip/xtd_11
+  size: 1K–10K rows
+  year: 2024
+  notes: The expanded XTD-11 dataset, now including Arabic, enhances the original XTD collection.
+- id: emiratitts-smoke-samples
+  name: EmiratiTTS-smoke-samples
+  type: dataset
+  country: INTL
+  org: Alqayed2024
+  license: mit
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Alqayed2024/EmiratiTTS-smoke-samples
+  dialects:
+  - gulf
+  - lev
+  size: <1K rows
+  year: 2026
+  notes: These 10 audio clips are the stage 0.5 acceptance check for the EmiratiTTS project.
+- id: unnamed-ar
+  name: unnamed ar
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: cc-by-3.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/unnamed-ar
+  size: 10K–100K rows
+  year: 2026
+  notes: 'The data/ar/ partition of espnet/yodas3, repackaged as parquet with the audio inline so it loads without a script: Every row is one long-form recording.'
+- id: athar-shamela4
+  name: Athar Shamela4
+  type: dataset
+  country: INTL
+  org: Kandil7
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/Kandil7/Athar-Shamela4
+  size: 10M–100M rows
+  year: 2026
+  notes: A complete extraction of al-Maktaba al-Shamela (الشاملة) v4, containing 8,589 books across 40 categories of classical Islamic sciences.
+- id: quran-database-abdallah-mekky
+  name: Quran-Database (Abdallah-Mekky)
+  type: dataset
+  country: INTL
+  org: Abdallah-Mekky
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/Abdallah-Mekky/Quran-Database
+  dialects:
+  - classical
+  year: 2026
+  notes: This repository contains a large database of the Quran, with many features.
+- id: quran-nazimali
+  name: quran
+  type: dataset
+  country: INTL
+  org: nazimali
+  license: cc-by-3.0
+  modality: text
+  tasks:
+  - ner
+  - translation
+  - embedding
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/nazimali/quran
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2024
+  notes: The Quran with metadata, translations, and multiple Arabic text (can use specific types for embeddings, search, classification, and display).
+- id: hadith-datasets
+  name: hadith datasets
+  type: dataset
+  country: INTL
+  org: meeAtif
+  license: mit
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/meeAtif/hadith_datasets
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2026
+  notes: An open-source collection of authenticated Hadiths from the six major books of Sunnah, available in both JSON and CSV formats for research, study.
+- id: hadith-halimbahae
+  name: Hadith (halimbahae)
+  type: dataset
+  country: INTL
+  org: halimbahae
+  license: other
+  modality: text
+  tasks:
+  - diacritization
+  - hadith
+  links:
+    github: https://github.com/halimbahae/Hadith
+  dialects:
+  - classical
+  year: 2024
+  notes: A comprehensive open Hadith Library project featuring full databases of 9 renowned books, including Sahih al-Bukhari and Sahih Muslim.
+- id: arabic-dialects-gold20
+  name: arabic dialects gold20
+  type: dataset
+  country: INTL
+  org: TigreGotico
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - tts
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/TigreGotico/arabic-dialects-gold20
+  dialects:
+  - mixed
+  size: <1K rows
+  year: 2026
+  notes: 660 sentences across 33 Arabic lects, each with diacritized dialectal spelling, gold IPA, English gloss and phonetic feature tags.
+- id: linto-dataset-audio-ar-tn-augmented
+  name: linto dataset audio ar tn augmented
+  type: dataset
+  country: INTL
+  org: LINAGORA
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn-augmented
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2025
+  notes: This is the augmented datasets used to train the Linto Tunisian dialect with code-switching STT linagora/linto-asr-ar-tn.
+- id: arams-restore
+  name: AraMS-Restore
+  type: dataset
+  country: INTL
+  org: Archatext
+  license: unknown
+  modality: multimodal
+  tasks:
+  - asr
+  - ocr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/Archatext/AraMS-Restore
+  size: <1K rows
+  year: 2026
+  notes: 177 line images cropped from real damaged pages of a historical Arabic manuscript (book09), each with its transcription.
+- id: sudanese-arabic-llm
+  name: Sudanese-Arabic-LLM
+  type: dataset
+  country: INTL
+  org: AnwarCS
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/AnwarCS/Sudanese-Arabic-LLM
+    website: https://github.com/AnwarCS/Sudanese-Arabic-LLM#readme
+  dialects:
+  - sudanese
+  year: 2025
+  notes: Building a Sudanese Arabic dataset and fine-tuning LLMs to improve representation of this dialect.
+- id: bodmaghdataset
+  name: BoDmaghDataset
+  type: dataset
+  country: INTL
+  org: ImadSaddik
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    github: https://github.com/ImadSaddik/BoDmaghDataset
+  dialects:
+  - magh
+  year: 2025
+  notes: BoDmagh dataset is a Supervised Fine-Tuning (SFT) dataset for the Darija language
+- id: arabic-chat-llm-data
+  name: arabic chat llm data
+  type: dataset
+  country: INTL
+  org: amrykytt57
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/amrykytt57/arabic-chat-llm-data
+  size: 10M–100M rows
+  year: 2026
+  notes: 'Raw text from 4 sources (light cleaning: NFKC, diacritics/tatweel, URLs; exact de-duplication; no content classification), chat conversations, and token shards.'
+- id: smolkalam-arabic-conversational-sft
+  name: smolkalam arabic conversational sft
+  type: dataset
+  country: INTL
+  org: AdaMLLab
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/AdaMLLab/smolkalam-arabic-conversational-sft
+  size: 1M–10M rows
+  year: 2026
+  notes: SmolKalam is a quality-filtered Arabic SFT dataset of 1,790,478 examples (2.45B tokens), built as an ensemble translation of SmolTalk2.
+- id: mediaspeech
+  name: MediaSpeech
+  type: dataset
+  country: INTL
+  org: ymoslem
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/ymoslem/MediaSpeech
+  size: 10K–100K rows
+  year: 2024
+  notes: MediaSpeech is a dataset of Arabic, French, Spanish, and Turkish media speech built with the purpose of testing Automated Speech Recognition.
+- id: arabic-xvector-embeddings
+  name: arabic xvector embeddings
+  type: dataset
+  country: INTL
+  org: herwoww
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - embedding
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/herwoww/arabic_xvector_embeddings
+  size: <1K rows
+  year: 2024
+  notes: There is one speaker embedding for each utterance in the validation set of both datasets.
+- id: eg-drugs
+  name: eg-drugs
+  type: dataset
+  country: INTL
+  org: mahmoudfalous
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/mahmoudfalous/eg-drugs
+  dialects:
+  - egy
+  year: 2026
+  notes: 26K+ Egyptian drugs dataset with active ingredients, FDA mapping, Arabic drug information, prices, barcodes, and medical warning flags.
+- id: mushaf-layout
+  name: mushaf-layout
+  type: dataset
+  country: INTL
+  org: zonetecde
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/zonetecde/mushaf-layout
+  dialects:
+  - classical
+  year: 2025
+  notes: 604-page Madani Mushaf dataset — JSON lines/words + QPC glyphs to render Hafs 'an 'Asim in the browser.
+- id: everyayah-wav
+  name: everyayah wav
+  type: dataset
+  country: INTL
+  org: Ahmed Hany
+  license: cc0-1.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/dev-ahmedhany/everyayah-wav
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: Full-mushaf Quranic recitation audio at 16 kHz mono 16-bit WAV, re-encoded from everyayah.com for ML / ASR research.
+- id: quran-ayah-corpus
+  name: Quran Ayah Corpus
+  type: dataset
+  country: INTL
+  org: rabah2026
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/rabah2026/Quran-Ayah-Corpus
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2025
+  notes: Ayah-Corpus is a large-scale, multi-reciter Arabic speech dataset meticulously curated for Automatic Speech Recognition (ASR) tasks.
+- id: openiti-vectors
+  name: openiti vectors
+  type: dataset
+  country: INTL
+  org: Maktabati
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/Maktabati/openiti-vectors
+  size: 1M–10M rows
+  year: 2026
+  notes: This dataset contains the fully vectorized OpenITI RELEASE 2025-1-9 collection of classical Islamic texts, prepared for semantic search (RAG).
+- id: quran-audio-text-dataset
+  name: quran audio text dataset
+  type: dataset
+  country: INTL
+  org: Buraaq
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset
+  dialects:
+  - classical
+  size: 100K–1M rows
+  year: 2026
+  notes: This collection provides comprehensive audio recordings of the complete Quran (Holy Book of Islam) with multiple recitations and granular annotations.
+- id: qurantree-jl
+  name: QuranTree.jl
+  type: dataset
+  country: INTL
+  org: alstat
+  license: mit
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/alstat/QuranTree.jl
+    website: https://alstat.github.io/QuranTree.jl/dev/
+  dialects:
+  - classical
+  year: 2025
+  notes: A Julia package for working with the Quranic Arabic Corpus.
+- id: arab-dialects-20-countries-3m
+  name: arab dialects 20 countries 3m
+  type: dataset
+  country: INTL
+  org: ISLAM-PO
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/ISLAM-PO/arab-dialects-20-countries-3m
+  dialects:
+  - egy
+  - lev
+  - mixed
+  size: 1M–10M rows
+  year: 2026
+  notes: The 3M target figure is a raw-repository claim and is not yet fully verified by the Hub index.
+- id: quran-tajweed-phonetics
+  name: quran tajweed phonetics
+  type: dataset
+  country: INTL
+  org: Quran Lab
+  license: other
+  modality: text
+  tasks:
+  - asr
+  - tts
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Quran-Lab/quran-tajweed-phonetics
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2026
+  notes: The complete phonetic layer of the Quran in the riwaya of Hafs 'an 'Asim via tariq al-Shatibiyyah.
+- id: tamazight-speech-to-arabic-text-tamazight-nlp
+  name: Tamazight Speech to Arabic Text
+  type: dataset
+  country: INTL
+  org: Tamazight-NLP
+  license: unknown
+  modality: speech
+  tasks:
+  - translation
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Tamazight-NLP/Tamazight-Speech-to-Arabic-Text
+  size: 10K–100K rows
+  year: 2025
+  notes: This is the Tamazight-NLP organization-hosted version of the Tamazight-Arabic Speech Recognition Dataset.
+- id: quran-md-words
+  name: quran md words
+  type: dataset
+  country: INTL
+  org: Buraaq
+  license: unknown
+  modality: speech
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Buraaq/quran-md-words
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2026
+  notes: Word-level split of Quran-MD, a multimodal Quran dataset aligning text, linguistic annotation and recitation audio.
+- id: quran-dataset
+  name: quran-dataset
+  type: dataset
+  country: INTL
+  org: nafiskabbo
+  license: mit
+  modality: speech
+  tasks:
+  - translation
+  - speech
+  - quran
+  links:
+    github: https://github.com/nafiskabbo/quran-dataset
+  dialects:
+  - classical
+  year: 2026
+  notes: An open-source Quran dataset with tools to export verses, translations, transliteration, audio, and metadata into JSON, CSV, or custom formats.
+- id: hindawi-books-dataset
+  name: Hindawi Books dataset
+  type: dataset
+  country: INTL
+  org: alielfilali01
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/alielfilali01/Hindawi-Books-dataset
+  dialects:
+  - msa
+  size: 10K–100K rows
+  year: 2023
+  notes: Hindawi Books Dataset offers a rich and diverse collection of literary works, covering various topics and genres, all written in Modern Standard Arabic.
+- id: openiti-chunked
+  name: openiti chunked
+  type: dataset
+  country: INTL
+  org: mittagessen
+  license: cc0-1.0
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/mittagessen/openiti_chunked
+  size: 10M–100M rows
+  year: 2025
+  notes: This dataset is derived from the 2023.1.8 release of the OpenITI corpus and is intended to pretrain small language models with short context lengths.
+- id: m2cqa
+  name: M2CQA
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: multimodal
+  tasks:
+  - vision
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/M2CQA
+  dialects:
+  - egy
+  - lev
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: This release contains English, Modern Standard Arabic, Levantine Arabic, and Egyptian Arabic statements over a shared set of images.
+- id: quran-dataset-bzekeria
+  name: quran_dataset (bzekeria)
+  type: dataset
+  country: INTL
+  org: bzekeria
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/bzekeria/quran_dataset
+  dialects:
+  - classical
+  year: 2022
+  notes: The Holy Quran (Islam) Dataset
+- id: quran-qcf4
+  name: quran-qcf4
+  type: dataset
+  country: INTL
+  org: MohamadHajjRabee
+  license: other
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/MohamadHajjRabee/quran-qcf4
+    website: https://mohamadhajjrabee.github.io/quran-qcf4/demo.html
+  dialects:
+  - classical
+  year: 2026
+  notes: Developer-friendly Quran database using QCF v4 fonts (Hafs, Madinah Mushaf 1441 AH) — page JSON, verse index, font map, TTF & WOFF2.
+- id: ara-df-2026
+  name: ArA-DF-2026
+  type: dataset
+  country: INTL
+  org: Elyadata
+  license: other
+  modality: speech
+  tasks:
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/ArabicSpeech/ArA-DF-2026
+  size: 100K–1M rows
+  year: 2026
+  notes: ArA-DF-2026 is an Arabic speech deepfake detection dataset for binary audio classification.
+- id: common-voice-18-arabic
+  name: common voice 18 arabic
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: cc
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/common-voice-18-arabic
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset is an unofficial Arabic-only extraction of Mozilla Common Voice Corpus 18.0, prepared for Automatic Speech Recognition.
+- id: arabic-ocr-synthetic-scans-faker-300k
+  name: arabic ocr synthetic scans faker 300k
+  type: dataset
+  country: INTL
+  org: loay
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/loay/arabic-ocr-synthetic-scans-faker-300k
+  size: 100K–1M rows
+  year: 2026
+  notes: A large-scale synthetic dataset of 300,000 Arabic book pages generated to mimic real-world scanning imperfections.
+- id: athar
+  name: ATHAR
+  type: dataset
+  country: INTL
+  org: mohamed-khalil
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/mohamed-khalil/ATHAR
+  size: 10K–100K rows
+  year: 2024
+  notes: Welcome to ATHAR Dataset [ Paper ] GitHub ]
+- id: arabic-reasoning-dataset-logic
+  name: arabic reasoning dataset logic
+  type: dataset
+  country: INTL
+  org: beetleware
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/beetleware/arabic-reasoning-dataset-logic
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset comprises a series of logical reasoning tasks designed to evaluate and train artificial intelligence models on understanding.
+- id: tedxtn
+  name: TEDxTN
+  type: dataset
+  country: TN
+  org: Fethi Bougares
+  license: cc-by-nc-nd-4.0
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/fbougares/TEDxTN
+  dialects:
+  - magh
+  - mixed
+  size: 1M–10M rows
+  year: 2025
+  notes: 'Contact person : fethi.bougares@elyadata.com We introduce TEDxTN, the first publicly available Tunisian Arabic to English speech translation dataset.'
+- id: tunisian-proverbs-with-image-associations-a-cultural-and-linguistic-da
+  name: Tunisian Proverbs with Image Associations A Cultural and Linguistic Dataset
+  type: dataset
+  country: INTL
+  org: HabibaAbderrahim
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/HabibaAbderrahim/Tunisian-Proverbs-with-Image-Associations-A-Cultural-and-Linguistic-Dataset
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2025
+  notes: Tunisian proverbs with explanations, English translations and AI-generated image associations.
+- id: quran-mutashabihat-data
+  name: Quran_Mutashabihat_Data
+  type: dataset
+  country: INTL
+  org: Waqar144
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/Waqar144/Quran_Mutashabihat_Data
+  dialects:
+  - classical
+  year: 2026
+  notes: Dataset for quran mutashabihat (similar ayats)
+- id: arabic-audio-collection-mohamed-khairy
+  name: arabic audio collection mohamed khairy
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-mohamed-khairy
+  size: 10K–100K rows
+  year: 2026
+  notes: The Mohamed Khairy Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 430 hours of speech recordings.
+- id: general-facts-in-english-arabic-egyptian-arabic
+  name: General Facts in English Arabic Egyptian Arabic
+  type: dataset
+  country: INTL
+  org: miscovery
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/miscovery/General_Facts_in_English_Arabic_Egyptian_Arabic
+  dialects:
+  - egy
+  size: 10K–100K rows
+  year: 2025
+  notes: The World Facts General Knowledge Dataset (v1.0) is a high-quality, human-reviewed Q&A resource by Miscovery.
+- id: arabic-egypt-english-world-facts
+  name: arabic egypt english world facts
+  type: dataset
+  country: INTL
+  org: miscovery
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/miscovery/arabic_egypt_english_world_facts
+  size: 10K–100K rows
+  year: 2025
+  notes: The World Facts General Knowledge Dataset (v2.0) is a high-quality, human-reviewed Q&A resource by Miscovery.
+- id: darija-asr-corpus
+  name: darija asr corpus
+  type: dataset
+  country: INTL
+  org: abnajlae
+  license: '[''mit'', ''cc-by-4.0'', ''cc-by-sa-4.0'']'
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/abnajlae/darija-asr-corpus
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabizi (Latin-script) transcriptions of Moroccan Darija speech, produced for a Whisper fine-tuning pipeline (paper not yet published -- citation forthcoming).
+- id: visper
+  name: visper
+  type: dataset
+  country: AE
+  org: TII (UAE)
+  license: cc-by-nc-2.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/tiiuae/visper
+  size: 10K–100K rows
+  year: 2025
+  notes: This repository contains ViSpeR, a large-scale dataset and models for Visual Speech Recognition for Arabic, Chinese, French, Arabic and Spanish.
+- id: al-lataif-al-musawwara-magazine-ocr
+  name: al lataif al musawwara magazine ocr
+  type: dataset
+  country: INTL
+  org: amrosama
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - instruction-tuning
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/amrosama/al-lataif-al-musawwara-magazine-ocr
+  size: 1K–10K rows
+  year: 2026
+  notes: This dataset contains rendered Arabic magazine page images from Al-Lataif Al-Musawwara paired with page-level text and line-level bounding boxes.
+- id: mgb-3-arabic
+  name: MGB 3 Arabic
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/MGB-3-Arabic
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2025
+  notes: The MGB-3 Arabic dataset is a multi-genre collection of Egyptian Arabic speech extracted from YouTube videos.
+- id: quranexe
+  name: QuranExe
+  type: dataset
+  country: INTL
+  org: mustapha
+  license: '[''mit'']'
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/mustapha/QuranExe
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2022
+  notes: This dataset contains the exegeses/tafsirs (تفسير القرآن) of the holy Quran in arabic by 8 exegetes.
+- id: documents-egyptian-arabic
+  name: documents Egyptian Arabic
+  type: dataset
+  country: INTL
+  org: ISLAM-PO
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - asr
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/ISLAM-PO/documents-Egyptian-Arabic
+  dialects:
+  - egy
+  size: <1K rows
+  year: 2026
+  notes: Source-specific configurations are explicitly declared in the dataset metadata; use the config that matches the schema
+- id: arabic-twitter-corpus-ajgt
+  name: Arabic-twitter-corpus-AJGT
+  type: dataset
+  country: INTL
+  org: komari6
+  license: other
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/komari6/Arabic-twitter-corpus-AJGT
+  dialects:
+  - lev
+  - msa
+  year: 2023
+  notes: introduces an Arabic Jordanian General Tweets (AJGT) Corpus consisted of 1,800 tweets annotated as positive and negative.
+- id: egypt-geo-data
+  name: egypt-geo-data
+  type: dataset
+  country: INTL
+  org: useswype
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    github: https://github.com/useswype/egypt-geo-data
+    website: https://www.swypex.com
+  dialects:
+  - egy
+  year: 2026
+  notes: JSON dataset of all Egyptian cities and governorates with English and Arabic names
+- id: quranic-corpus-api
+  name: quranic-corpus-api
+  type: dataset
+  country: INTL
+  org: kaisdukes
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/kaisdukes/quranic-corpus-api
+  dialects:
+  - classical
+  year: 2023
+  notes: Backend server API for the Quranic Arabic Corpus
+- id: commonvoice-12-0-arabic-voice-converted
+  name: commonvoice 12.0 arabic voice converted
+  type: dataset
+  country: INTL
+  org: xmodar
+  license: cc0-1.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/xmodar/commonvoice-12.0-arabic-voice-converted
+  size: 100K–1M rows
+  year: 2024
+  notes: This dataset is derived from the Common Voice Arabic Corpus 12.0 and includes automatically diacritized transcriptions and phoneme representations.
+- id: quran-question-answer-context
+  name: quran question answer context
+  type: dataset
+  country: INTL
+  org: nazimali
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - qa
+  - translation
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/nazimali/quran-question-answer-context
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2024
+  notes: Translated the original dataset from Arabic to English and added the Surah ayahs to the context column.
+- id: covost2-en-ar
+  name: CoVoST2-EN-AR
+  type: dataset
+  country: INTL
+  org: ymoslem
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - translation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/ymoslem/CoVoST2-EN-AR
+  size: 100K–1M rows
+  year: 2024
+  notes: CoVoST 2 is a large-scale multilingual speech translation corpus based on Common Voice, developed by FAIR.
+- id: arabic-dialects-gold20-code-switch
+  name: arabic dialects gold20 code switch
+  type: dataset
+  country: INTL
+  org: TigreGotico
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/TigreGotico/arabic-dialects-gold20-code-switch
+  dialects:
+  - mixed
+  size: <1K rows
+  year: 2026
+  notes: 'Code-switched Arabic sentences with IPA: 20 rows per lect across 33 Arabic lects (the same roster as the sibling TigreGotico/arabic-dialects-gold20).'
+- id: khatt
+  name: KHATT
+  type: dataset
+  country: INTL
+  org: benhachem
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/benhachem/KHATT
+  size: 1K–10K rows
+  year: 2024
+  notes: The database contains handwritten Arabic text images and its ground-truth developed for research in the area of Arabic handwritten text.
+- id: tunisian-dialectic-english-derja
+  name: Tunisian Dialectic English Derja
+  type: dataset
+  country: INTL
+  org: khaled123
+  license: creativeml-openrail-m
+  modality: text
+  tasks:
+  - asr
+  - translation
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/khaled123/Tunisian_Dialectic_English_Derja
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2024
+  notes: This dataset is a rich and extensive collection of Tunisian dialectic (Derja) and English translations from various sources, updated as of October 2024.
+- id: al-kawakib-magazine-ocr
+  name: al kawakib magazine ocr
+  type: dataset
+  country: INTL
+  org: amrosama
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - instruction-tuning
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/amrosama/al-kawakib-magazine-ocr
+  size: 10K–100K rows
+  year: 2026
+  notes: This dataset contains rendered Arabic magazine page images paired with page-level text and line-level bounding boxes.
+- id: arabic-triplets-1m-curated-sims-len
+  name: arabic triplets 1m curated sims len
+  type: dataset
+  country: INTL
+  org: akhooli
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/akhooli/arabic-triplets-1m-curated-sims-len
+  size: 1M–10M rows
+  year: 2024
+  notes: This is a curated dataset to use in Arabic ColBERT and SBERT models (among other uses).
+- id: mlma-hate-speech
+  name: MLMA hate speech
+  type: dataset
+  country: INTL
+  org: nedjmaou
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/nedjmaou/MLMA_hate_speech
+  size: 10K–100K rows
+  year: 2025
+  notes: Arabic text dataset (10K<N<100K rows).
+- id: darija-stories-dataset
+  name: Darija Stories Dataset
+  type: dataset
+  country: INTL
+  org: alielfilali01
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/alielfilali01/Darija-Stories-Dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2023
+  notes: Darija (Moroccan Arabic) Stories Dataset contains a diverse range of stories that provide insights into Moroccan culture, traditions, and everyday life.
+- id: quranicmorphology
+  name: QuranicMorphology
+  type: dataset
+  country: INTL
+  org: Abbas1997
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/Abbas1997/QuranicMorphology
+    website: https://play.google.com/store/apps/details?id=com.quranvocabgrammar
+  dialects:
+  - classical
+  year: 2024
+  notes: The Holy Quran with grammatical annotations, based on corpus.quran.com data.
+- id: quran-svm-parser
+  name: quran-svm-parser
+  type: dataset
+  country: INTL
+  org: kaisdukes
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/kaisdukes/quran-svm-parser
+  dialects:
+  - classical
+  year: 2023
+  notes: The original Quranic Arabic Corpus parser using SVM-based machine learning, from Dukes & Habash's 2011 paper.
+- id: quran-db
+  name: quran_db
+  type: dataset
+  country: INTL
+  org: faisalill
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - quran
+  links:
+    github: https://github.com/faisalill/quran_db
+  dialects:
+  - classical
+  year: 2024
+  notes: A curated collection of nuanced quran translations in json format.
+- id: dclm-pro-arabic
+  name: dclm pro arabic
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/SultanR/dclm-pro-arabic
+  size: 10M–100M rows
+  year: 2026
+  notes: Arabic translation of DCLM-Pro (global shards 01 and 05), translated with Seed-X-PPO-7B using greedy decoding.
+- id: tafsir-mcp-data
+  name: tafsir mcp data
+  type: dataset
+  country: INTL
+  org: Tafsir Center
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/tafsircenter/tafsir-mcp-data
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2026
+  notes: Quran and tafsir database behind tafsir-mcp, an MCP server giving AI assistants offline access to Quranic scholarship.
+- id: covid-19-disinformation
+  name: COVID 19 disinformation
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/QCRI/COVID-19-disinformation
+  size: 10K–100K rows
+  year: 2024
+  notes: This repository contains a multilingual dataset related to the COVID-19 infodemic, annotated with fine-grained labels.
+- id: scc22
+  name: SCC22
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/SCC22
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2025
+  notes: The Saudilang Code-Switch Corpus (SCC) is a 5-hour transcribed audio dataset featuring informal Saudi Arabic speech with code-switching to English.
+- id: synthetic-bilingual-invoices-200
+  name: synthetic bilingual invoices 200
+  type: dataset
+  country: INTL
+  org: HV09
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/HV09/synthetic-bilingual-invoices-200
+  size: <1K rows
+  year: 2026
+  notes: 200 rendered invoice images and a matching 17-field ground-truth record for every one.
+- id: arabic-hadith
+  name: Arabic Hadith
+  type: dataset
+  country: INTL
+  org: Abdo1Kamr
+  license: unknown
+  modality: text
+  tasks:
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/Abdo1Kamr/Arabic_Hadith
+  dialects:
+  - classical
+  year: 2021
+  notes: There are two files of Hadith, the first one for all hadith With Tashkil and Without Tashkel from the Nine Books that are 62,169 Hadith.
+- id: rasam-1
+  name: RASAM 1
+  type: dataset
+  country: INTL
+  org: calfa-ai
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/calfa-ai/RASAM-1
+  size: 1K–10K rows
+  year: 2026
+  tags:
+  - variants:1
+  notes: 'RASAM 1 is a specialized dataset for Handwritten Text Recognit (also: 1 variants)'
+- id: amina
+  name: AMINA
+  type: dataset
+  country: INTL
+  org: MohamedZayton
+  license: unknown
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/MohamedZayton/AMINA
+  year: 2024
+  notes: 'We are pleased to introduce the AMINA : An Arabic Multi-Purpose Integral News Articles Dataset.'
+- id: aisa-arabicfc
+  name: AISA-ArabicFC
+  type: dataset
+  country: INTL
+  org: TuwaiqAcademy
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/TuwaiqAcademy/AISA-ArabicFC
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic Function Calling for Agentic AI Systems
+- id: arabic-diacritized-tts
+  name: Arabic Diacritized TTS
+  type: dataset
+  country: INTL
+  org: Nourhann
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - diacritization
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Nourhann/Arabic-Diacritized-TTS
+  size: 1K–10K rows
+  year: 2025
+  notes: The Arabic-Diacritized-TTS dataset contains Arabic audio samples and their corresponding text with full diacritization.
+- id: nemotron-r1-en-ar-midtrain
+  name: nemotron r1 en ar midtrain
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/SultanR/nemotron-r1-en-ar-midtrain
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic translation of the LlamaNemotronPostTrainingDatasetreasoningr1 split of smoltalk2 (config Mid, pinned revision fc6cc21).
+- id: darija-stt-mix
+  name: darija stt mix
+  type: dataset
+  country: INTL
+  org: ayoubkirouane
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/ayoubkirouane/darija-stt-mix
+  dialects:
+  - magh
+  - mixed
+  size: 10K–100K rows
+  year: 2024
+  notes: The Darija Speech To Text Dataset is a comprehensive collection designed to support speech recognition tasks for the Darija dialect.
+- id: islamic-scholars-prosopography
+  name: islamic scholars prosopography
+  type: dataset
+  country: INTL
+  org: hozifa1
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/hozifa1/islamic-scholars-prosopography
+  size: 10K–100K rows
+  year: 2026
+  notes: مستودع موحد مفتوح المصدر يضم أضخم قواعد البيانات التراجمية الأكاديمية المهيكلة لعلماء وأعلام العالم الإسلامي وحواضر الأندلس والمشرق والمغرب، والمستخرجة من.
+- id: al-atlas-moroccan-darija-pretraining
+  name: Al-Atlas-Moroccan-Darija-Pretraining
+  type: dataset
+  country: INTL
+  org: atlasia-ma
+  license: unknown
+  modality: text
+  tasks:
+  - pretraining
+  links:
+    github: https://github.com/atlasia-ma/Al-Atlas-Moroccan-Darija-Pretraining
+  dialects:
+  - magh
+  year: 2025
+  notes: Training and data analysis code for Al-Atlas dataset and models
+- id: quran-image-with-coordinates-generator
+  name: quran-image-with-coordinates-generator
+  type: dataset
+  country: INTL
+  org: fai9al7dad
+  license: unknown
+  modality: vision
+  tasks:
+  - vision
+  - quran
+  links:
+    github: https://github.com/fai9al7dad/quran-image-with-coordinates-generator
+  dialects:
+  - classical
+  year: 2023
+  notes: takes a QCF font and return coordinated word by word database with images
+- id: asbab-al-nuzul-dataset
+  name: asbab-al-nuzul-dataset
+  type: dataset
+  country: INTL
+  org: mostafaahmed97
+  license: mit
+  modality: text
+  tasks:
+  - quran
+  links:
+    github: https://github.com/mostafaahmed97/asbab-al-nuzul-dataset
+  dialects:
+  - classical
+  year: 2026
+  notes: A structured dataset of authenticated Asbāb al-Nuzūl (occasions of revelation) for Qur’anic verses, available in plaintext, JSON.
+- id: egyptian-arabic-lectures
+  name: Egyptian Arabic Lectures
+  type: dataset
+  country: INTL
+  org: ismaeeelxd
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/ismaeeelxd/Egyptian-Arabic-Lectures
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2026
+  notes: The Egyptian Arabic Lectures dataset is a collection of transcribed audio clips.
+- id: ar-musa
+  name: Ar MUSA
+  type: dataset
+  country: INTL
+  org: Skhaled
+  license: afl-3.0
+  modality: multimodal
+  tasks:
+  - speech
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/Skhaled/Ar-MUSA
+  size: 1K–10K rows
+  year: 2025
+  notes: The Ar-MUSA directory contains annotated datasets organized by batches and annotation teams.
+- id: habibi
+  name: Habibi
+  type: dataset
+  country: INTL
+  org: SWivid
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/SWivid/Habibi
+  size: 10K–100K rows
+  year: 2026
+  notes: 'Paper: "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis" Github: https://github.com/SWivid/Habibi-TTS'
+- id: aya-command-r-dpo
+  name: Aya Command.R DPO
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/2A2I/Aya-Command.R-DPO
+  size: 10K–100K rows
+  year: 2024
+  notes: Aya-Command.R-DPO is a DPO dataset designed to ad
+- id: muharaf-public-pages
+  name: muharaf public pages
+  type: dataset
+  country: INTL
+  org: TheRealOKAI
+  license: mit
+  modality: multimodal
+  tasks:
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/TheRealOKAI/muharaf-public-pages
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset contains 1,218 full page images of Arabic handwriting and the corresponding text.
+- id: openthoughts3-en-ar-midtrain
+  name: openthoughts3 en ar midtrain
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/SultanR/openthoughts3-en-ar-midtrain
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic translation of the OpenThoughts31.2M split of smoltalk2 (config Mid).
+- id: arabic-quotes
+  name: arabic quotes
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/arabic-quotes
+  size: 1K–10K rows
+  year: 2023
+  notes: The "Arabic Quotes" dataset contains a collection of Arabic quotes along with their corresponding authors and tags.
+- id: msa-omnivoice-tts-v1
+  name: msa omnivoice tts v1
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/msa-omnivoice-tts-v1
+  dialects:
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: It is intended for training and fine-tuning Arabic speech models, including Text-to-Speech (TTS), Automatic Speech Recognition.
+- id: arabic-guanaco-oasst1
+  name: Arabic guanaco oasst1
+  type: dataset
+  country: INTL
+  org: alielfilali01
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/alielfilali01/Arabic_guanaco_oasst1
+  size: 10K–100K rows
+  year: 2023
+  notes: This dataset is the openassistant-guanaco dataset a subset of the Open Assistant dataset translated to Arabic.
+- id: tawnza-tifinagh-arabic-dataset
+  name: TAWNZA TIFINAGH ARABIC DATASET
+  type: dataset
+  country: INTL
+  org: Tamazight-NLP
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - translation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Tamazight-NLP/TAWNZA_TIFINAGH_ARABIC_DATASET
+  dialects:
+  - mixed
+  size: 100K–1M rows
+  year: 2026
+  notes: This dataset is 70% of the total data I have of this show.
+- id: mixed-arabic-dataset-main
+  name: Mixed Arabic Dataset Main
+  type: dataset
+  country: INTL
+  org: M-A-D
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/M-A-D/Mixed-Arabic-Dataset-Main
+  size: 100K–1M rows
+  year: 2023
+  tags:
+  - variants:1
+  notes: The Mixed Arabic Datasets (MAD) project provides a comprehensive collection of diverse Arabic-language datasets, sourced from various repositories.
+- id: egypt-legal-corpus
+  name: egypt legal corpus
+  type: dataset
+  country: INTL
+  org: dataflare
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/dataflare/egypt-legal-corpus
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2026
+  notes: A comprehensive collection of Egyptian legal texts, meticulously extracted and tokenized for Natural Language Processing.
+- id: quran-speech-recognition-kaggle
+  name: Quran speech recognition kaggle
+  type: dataset
+  country: INTL
+  org: Nuwaisir
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Nuwaisir/Quran_speech_recognition_kaggle
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2022
+  notes: This dataset can be found in Kaggle
+- id: qa-arabic
+  name: QA Arabic
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - chat
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/QA_Arabic
+  size: <1K rows
+  year: 2023
+  notes: This JSON file contains a collection of questions and answers in Arabic.
+- id: muslim-names-dataset
+  name: muslim names dataset
+  type: dataset
+  country: INTL
+  org: takiuddinahmed
+  license: cc0-1.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/takiuddinahmed/muslim-names-dataset
+  size: 10K–100K rows
+  year: 2025
+  notes: A comprehensive collection of Muslim names with meanings scraped from muslimnames.com.
+- id: egyptian-arabic-wikipedia-20230101
+  name: Egyptian Arabic Wikipedia 20230101
+  type: dataset
+  country: INTL
+  org: SaiedAlshahrani
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2024
+  notes: This dataset is created using the Egyptian Arabic Wikipedia articles, downloaded on the 1st of January 2023, processed using Gensim Python library.
+- id: star-dataset-instructions
+  name: star dataset instructions
+  type: dataset
+  country: SA
+  org: KFUPM-JRCAI
+  license: unknown
+  modality: text
+  tasks:
+  - ner
+  - translation
+  - summarization
+  - qa
+  - embedding
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/KFUPM-JRCAI/star-dataset-instructions
+  size: 10M–100M rows
+  year: 2026
+  notes: STAR Instructions is a large-scale Arabic instruction-tuning dataset built by rendering the 355 STAR Jinja2 prompt templates against their 87 source.
+- id: islamic-sciences
+  name: islamic sciences
+  type: dataset
+  country: INTL
+  org: islamlab
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - qa
+  - quran
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/islamlab/islamic-sciences
+  dialects:
+  - classical
+  size: 1M–10M rows
+  year: 2026
+  notes: The Islamic sciences other than Qur'an and hadith, as their authors wrote them.
+- id: thaqalayn-classical-arabic-english-parallel-texts
+  name: Thaqalayn Classical Arabic English Parallel texts
+  type: dataset
+  country: INTL
+  org: ImruQays
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - translation
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/ImruQays/Thaqalayn-Classical-Arabic-English-Parallel-texts
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: This dataset represents a comprehensive collection of parallel Arabic-English texts from the Thaqalayn Hadith Library.
+- id: arabic-prompts-mini-175
+  name: Arabic prompts Mini 175
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/Arabic_prompts_Mini_175
+  size: <1K rows
+  year: 2024
+  notes: Small collection of Arabic prompts across literature, science, technology and culture for NLP experiments.
+- id: arabic-audio-collection-algerian-kahwa-postcast
+  name: arabic audio collection algerian kahwa postcast
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-algerian-kahwa-postcast
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Kahwa Postcast Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 110 hours of speech recordings.
+- id: vdr-energy-arabic
+  name: VDR Energy Arabic
+  type: dataset
+  country: INTL
+  org: racineai
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/racineai/VDR_Energy_Arabic
+  size: 10K–100K rows
+  year: 2025
+  notes: This dataset was created using our open-source tool VDRpdf-to-parquet.
+- id: ags-corpus
+  name: AGS Corpus
+  type: dataset
+  country: INTL
+  org: FahdSeddik
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/FahdSeddik/AGS-Corpus
+  size: 100K–1M rows
+  year: 2023
+  notes: 'AGS: Arabic GPT Summarization Corpus AGS is the first publicly accessible abstractive summarization dataset for Arabic.'
+- id: arabic-doc-to-markdown
+  name: arabic doc to markdown
+  type: dataset
+  country: INTL
+  org: presightai
+  license: other
+  modality: multimodal
+  tasks:
+  - ocr
+  - embedding
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/presightai/arabic_doc_to_markdown
+  size: 10K–100K rows
+  year: 2025
+  notes: This dataset contains OCR image–markdown pairs specifically curated for document structure retrieval and reconstruction tasks.
+- id: tunisian-language-dataset
+  name: Tunisian Language Dataset
+  type: dataset
+  country: INTL
+  org: AzizBelaweid
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/AzizBelaweid/Tunisian_Language_Dataset
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2024
+  notes: This dataset is a curated compilation of various Tunisian datasets, aimed at gathering as much Tunisian text data as possible in one place.
+- id: arabic-audio-collection-moroccan-ameed
+  name: arabic audio collection moroccan ameed
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-moroccan-ameed
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Ameed Moroccan Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 176 hours of speech recordings.
+- id: laion-coco-5m-arabic-labels
+  name: laion coco 5m arabic labels
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: cc-by-sa-4.0
+  modality: vision
+  tasks:
+  - ocr
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/laion-coco-5m-arabic-labels
+  size: 1M–10M rows
+  year: 2026
+  notes: An Arabic-labelled, image-bearing derivative of CaptionEmporium/laion-coco-13m-molmo-d-7b.
+- id: multi-tafseer-quran-rag
+  name: multi tafseer quran rag
+  type: dataset
+  country: INTL
+  org: omaressam1111
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - embedding
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/omaressam1111/multi-tafseer-quran-rag
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2026
+  notes: A structured Arabic dataset of Quranic tafseer collected from eight classical and modern tafseer books.
+- id: aslema-synth-tn
+  name: Aslema Synth TN
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - speech
+  - asr
+  - tts
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/QCRI/Aslema-Synth-TN
+  dialects:
+  - mixed
+  size: 10K–100K rows
+  year: 2026
+  notes: 'understanding: speech annotated for intent and for slot filling.'
+- id: tarab
+  name: Tarab
+  type: dataset
+  country: INTL
+  org: drelhaj
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - poetry
+  links:
+    hf: https://huggingface.co/datasets/drelhaj/Tarab
+  dialects:
+  - classical
+  - msa
+  size: 10M–100M rows
+  year: 2026
+  notes: It contains 2,557,311 verses and 13,509,336 tokens, spanning Classical Arabic, MSA, and six major regional dialect groups.
+- id: the-arabic-news-speech-corpus-dataset
+  name: The Arabic News speech Corpus Dataset
+  type: dataset
+  country: INTL
+  org: IbrahimSalah
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - diacritization
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/IbrahimSalah/The_Arabic_News_speech_Corpus_Dataset
+  dialects:
+  - msa
+  size: 1K–10K rows
+  year: 2024
+  notes: This dataset is an Arabic speech corpus that supports the development of syllable-based Arabic speech recognition using Wav2Vec-2 architecture.
+- id: arabic-books-and-research-dataset
+  name: Arabic books and research dataset
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/Arabic-books-and-research-dataset
+  size: 10K–100K rows
+  year: 2024
+  notes: About 10 GB of cleaned, previously unpublished Arabic Islamic research and book text extracted from 60K Word files.
+- id: egyptian-legal-v2
+  name: egyptian legal v2
+  type: dataset
+  country: INTL
+  org: tarekys5
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/tarekys5/egyptian_legal_v2
+  dialects:
+  - egy
+  size: 10K–100K rows
+  year: 2026
+  notes: This dataset is a high-quality, structured collection of Egyptian Legal Question & Answer pairs.
+- id: arcade-full
+  name: ARCADE full
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - speech
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/ARCADE-full
+  size: 1K–10K rows
+  year: 2026
+  notes: ARCADE is a city-scale corpus of Arabic radio speech designed for fine-grained dialect identification.
+- id: facebook-darija-dataset
+  name: facebook darija dataset
+  type: dataset
+  country: INTL
+  org: abdeljalilELmajjodi
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/abdeljalilELmajjodi/facebook_darija_dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: This dataset consists of more than 5k public posts from Facebook.
+- id: blip3-grounding-1m-arabic
+  name: blip3 grounding 1m arabic
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/blip3-grounding-1m-arabic
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic version of the first 1,000,000 usable rows of Salesforce/blip3-grounding-50m.
+- id: gutenberg-arabic-ocr-html-pages
+  name: Gutenberg Arabic OCR HTML Pages
+  type: dataset
+  country: YE
+  org: Fatimah Emad Eldin
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - translation
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/FatimahEmadEldin/Gutenberg-Arabic-OCR-HTML-Pages
+  size: 1K–10K rows
+  year: 2025
+  notes: The Gutenberg Arabic HTML-Page Dataset is a large-scale, synthetically generated dataset designed for training and evaluating document understanding.
+- id: quran-tafseers
+  name: Quran Tafseers
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/Quran-Tafseers
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: Quran tafsir texts for classical Arabic NLP and language modeling, from Prince Sultan University's RIOTU Lab.
+- id: sharegpt-arabic
+  name: sharegpt arabic
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/sharegpt-arabic
+  size: 1K–10K rows
+  year: 2023
+  notes: Arabic text dataset (1K<N<10K rows).
+- id: rasam
+  name: RASAM
+  type: dataset
+  country: INTL
+  org: johnlockejrr
+  license: mit
+  modality: multimodal
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/johnlockejrr/RASAM
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: An Open Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi The paper has been presented during the ICDAR 2021 conference (ASAR workshop).
+- id: aramix-translation-scores
+  name: AraMix-Translation-Scores
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: odc-by
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/SultanR/AraMix-Translation-Scores
+  size: 100M–1B rows
+  year: 2026
+  notes: AdaMLLab/AraMix (minhashdeduped subset, 178,883,241 rows) with a machine-translation-detection score added to every document.
+- id: openresearcher-corpus-ar
+  name: openresearcher corpus ar
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/SultanR/openresearcher-corpus-ar
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic translation of OpenResearcher-Corpus, an 11B token curated web corpus.
+- id: aramix-native
+  name: AraMix-Native
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: odc-by
+  modality: text
+  tasks:
+  - translation
+  - diacritization
+  links:
+    hf: https://huggingface.co/datasets/SultanR/AraMix-Native
+  size: 100M–1B rows
+  year: 2026
+  notes: A native-Arabic-filtered version of AdaMLLab/AraMix (minhashdeduped), derived from SultanR/AraMix-Translation-Scores.
+- id: h4-no-robots
+  name: H4 no robots
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - chat
+  - translation
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/2A2I/H4_no_robots
+  size: 10K–100K rows
+  year: 2024
+  notes: '"No Robots" is a dataset consisting of 10,000 instructions and demonstrations, created by professional annotators.'
+- id: arabicqa-2-1m
+  name: ArabicQA_2.1M
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/ArabicQA_2.1M
+  size: 1M–10M rows
+  year: 2024
+  notes: Our dataset is an amalgamation of several filtered datasets, the total number of rows for all datasets was 4,731,600 which was reduced.
+- id: arabic-audio-deepfake
+  name: Arabic Audio Deepfake
+  type: dataset
+  country: INTL
+  org: DeepFake-Audio-Rangers
+  license: odc-by
+  modality: speech
+  tasks:
+  - speech
+  - asr
+  links:
+    hf: https://huggingface.co/datasets/DeepFake-Audio-Rangers/Arabic_Audio_Deepfake
+  dialects:
+  - lev
+  - mixed
+  size: 10K–100K rows
+  year: 2024
+  notes: This dataset contains Arabic deepfake audio samples, focusing mainly on Levantine dialect with some examples in Standard Arabic.
+- id: egyptian-handwriting-dataset
+  name: Egyptian Handwriting Dataset
+  type: dataset
+  country: INTL
+  org: OmarMDiab
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/OmarMDiab/Egyptian-Handwriting-Dataset
+  dialects:
+  - egy
+  size: 10K–100K rows
+  year: 2026
+  notes: A dataset of 11k+ handwritten Arabic words from Egyptian writers, extracted and tightly cropped from scanned paper forms.
+- id: arabguard-egyptian-v1
+  name: ArabGuard-Egyptian-V1
+  type: dataset
+  country: INTL
+  org: d12o6aa
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/d12o6aa/ArabGuard-Egyptian-V1
+  dialects:
+  - egy
+  year: 2026
+  notes: Global safety guardrails often exhibit a "Linguistic Blind Spot" when faced with local cultural nuances, slang, or code-switching.
+- id: elner-dz
+  name: ELNER DZ
+  type: dataset
+  country: INTL
+  org: HadjerHaninebgt7878
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    hf: https://huggingface.co/datasets/HadjerHaninebgt7878/ELNER-DZ
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2025
+  notes: This dataset, titled ELNER-DZ, was created by Bouguettoucha Hadjer Hanine and Djouablia Ilhem as part of our Master’s thesis .
+- id: quran-classical-arabic-english-parallel-texts
+  name: Quran Classical Arabic English Parallel texts
+  type: dataset
+  country: INTL
+  org: ImruQays
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - translation
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/ImruQays/Quran-Classical-Arabic-English-Parallel-texts
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2023
+  notes: This dataset presents a collection of parallel texts of the Holy Quran in Arabic (Imla'ei & Uthmanic scripts) alongside 17 different English translations.
+- id: egyptian-customs-authority
+  name: egyptian customs authority
+  type: dataset
+  country: INTL
+  org: mostafatouny
+  license: unknown
+  modality: vision
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/mostafatouny/egyptian-customs-authority
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2026
+  notes: Raw laws are downloaded from Egyptian Customs Authority.
+- id: tunswitch
+  name: TunSwitch
+  type: dataset
+  country: TN
+  org: InstaDeep / iCompass
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/tunis-ai/TunSwitch
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2024
+  notes: Tunisian Arabic code-switched speech data used to build and test a Tunisian ASR model (mirror of the Zenodo release).
+- id: arabic-dialects
+  name: Arabic Dialects
+  type: dataset
+  country: INTL
+  org: drelhaj
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/drelhaj/Arabic-Dialects
+  dialects:
+  - msa
+  - mixed
+  size: 10K–100K rows
+  year: 2025
+  notes: The Arabic Dialects Dataset is a specialised corpus designed for automatic dialect identification.
+- id: arabic-speech-sada22-khaliji
+  name: arabic speech SADA22 Khaliji
+  type: dataset
+  country: INTL
+  org: badrex
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/badrex/arabic-speech-SADA22-Khaliji
+  dialects:
+  - gulf
+  size: 10K–100K rows
+  year: 2025
+  notes: This is only the portion of the SADA dataset where the speaker dialect is Khaliji.
+- id: hatecheck-arabic
+  name: hatecheck arabic
+  type: dataset
+  country: INTL
+  org: Paul
+  license: '[''cc-by-4.0'']'
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/Paul/hatecheck-arabic
+  size: 1K–10K rows
+  year: 2022
+  notes: Multilingual HateCheck (MHC) is a suite of functional tests for hate speech detection models in 10 different languages.
+- id: ultradata-math-textbook-exercise-ar
+  name: ultradata math textbook exercise ar
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/SultanR/ultradata-math-textbook-exercise-ar
+  size: 10M–100M rows
+  year: 2026
+  notes: Arabic translation of the English portion of UltraData-Math, config UltraData-Math-L3-Textbook-Exercise-Synthetic.
+- id: tutlait-v1
+  name: Tutlait v1
+  type: dataset
+  country: INTL
+  org: Ma-OpenHub
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Ma-OpenHub/Tutlait-v1
+  dialects:
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: 21 hours of spoken Tamazight (Amazigh / Berber) from 118 speakers, each clip paired with an Arabic (MSA) translation.
+- id: arabic-tashkeel-speech
+  name: arabic tashkeel speech
+  type: dataset
+  country: INTL
+  org: NahwAI
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - diacritization
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/NahwAI/arabic-tashkeel-speech
+  size: 1K–10K rows
+  year: 2026
+  notes: An open-source collection of 1,093 fully diacritized Arabic speech recordings, crowd-sourced from native speakers via Nahw.ai.
+- id: sunnah-ar-en-dataset
+  name: sunnah ar en dataset
+  type: dataset
+  country: INTL
+  org: gurgutan
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - chat
+  - embedding
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/gurgutan/sunnah_ar_en_dataset
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2025
+  notes: This dataset contains a comprehensive bilingual (Arabic-English) collection of hadiths from 14 major authenticated books of Islamic tradition.
+- id: dclm-edu-ar-500k
+  name: dclm edu ar 500k
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - translation
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/SultanR/dclm-edu-ar-500k
+  size: 100K–1M rows
+  year: 2026
+  notes: This is an Arabic translation of the HuggingFaceTB/dclm-edu dataset.
+- id: nadi-2026-adi20-micro
+  name: NADI 2026 ADI20 micro
+  type: dataset
+  country: INTL
+  org: UBC-NLP
+  license: mit
+  modality: speech
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/NADI_2026_ADI20_micro
+  dialects:
+  - mixed
+  size: 10K–100K rows
+  year: 2026
+  notes: This is a smaller version of the ADI-20/ADI-17 Arabic dialect identification dataset use for the NADI 2026 shared task.
+- id: memexplain
+  name: MemeXplain
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-sa-4.0
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/QCRI/MemeXplain
+  size: 10K–100K rows
+  year: 2026
+  notes: MemeXplain is a comprehensive multimodal dataset for detecting and explaining propagandistic and hateful content in memes.
+- id: aura-classification
+  name: AURA Classification
+  type: dataset
+  country: INTL
+  org: irfan-ahmad
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/irfan-ahmad/AURA-Classification
+  size: 1K–10K rows
+  year: 2026
+  notes: 'The AURA Classification dataset is available in two versions: Both versions contain the same 2,900 Arabic app reviews.'
+- id: admd
+  name: ADMD
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/ADMD
+  size: <1K rows
+  year: 2025
+  notes: The Arabic Depth Mini Dataset (ADMD) is a compact yet highly challenging dataset designed to evaluate Arabic language models across diverse domains.
+- id: arabic-quranic-asr
+  name: arabic quranic asr
+  type: dataset
+  country: INTL
+  org: Sadique5
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Sadique5/arabic_quranic_asr
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: This dataset contains quran recitations of every ayats or verses.
+- id: nemotron-mc-en-ar-midtrain
+  name: nemotron mc en ar midtrain
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - pretraining
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/SultanR/nemotron-mc-en-ar-midtrain
+  size: 10M–100M rows
+  year: 2026
+  notes: Arabic translation of the Nemotron-Pretraining-Multiple-Choice config of Nemotron-Pretraining-Specialized-v1.2 (pinned revision 807afc1).
+- id: saudi-dialect-test-samples
+  name: saudi dialect test samples
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/saudi-dialect-test-samples
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset contains 1280 Saudi dialect utterances across 44 categories, used for testing and evaluating the Omartificial-Intelligence-Space/SA-BERT-V1 model.
+- id: arabic-audio-collection-sudanese-sudan-podcast
+  name: arabic audio collection sudanese sudan podcast
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - chat
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-sudanese-sudan-podcast
+  dialects:
+  - sudanese
+  size: 10K–100K rows
+  year: 2026
+  notes: The Sudan Podcast Arabic Speech Dataset is a large-scale Sudanese Arabic speech corpus containing approximately 132 hours of speech recordings.
+- id: quran-multilingual-parallel
+  name: quran multilingual parallel
+  type: dataset
+  country: INTL
+  org: freococo
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/freococo/quran_multilingual_parallel
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset presents a clean, structurally-aligned multilingual parallel corpus of the Qur’anic text.
+- id: arabic-multidialect-emotional-speech-demo
+  name: arabic multidialect emotional speech demo
+  type: dataset
+  country: INTL
+  org: datahiveai
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - speech
+  - sentiment
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/datahiveai/arabic-multidialect-emotional-speech-demo
+  dialects:
+  - gulf
+  - lev
+  - magh
+  - mixed
+  size: <1K rows
+  year: 2026
+  notes: 'A DataHive AI dataset: a stratified 1-hour demo sample from a full corpus of 50+ hours.'
+- id: arabic-optimized-reasoning-dataset
+  name: Arabic Optimized Reasoning Dataset
+  type: dataset
+  country: INTL
+  org: Jr23xd23
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/Jr23xd23/Arabic-Optimized-Reasoning-Dataset
+  size: 1K–10K rows
+  year: 2025
+  notes: The Arabic Optimized Reasoning Dataset helps AI models get better at reasoning in Arabic.
+- id: quran-bil-quran
+  name: quran bil quran
+  type: dataset
+  country: INTL
+  org: iqrossed
+  license: mit
+  modality: text
+  tasks:
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/iqrossed/quran-bil-quran
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2026
+  notes: A linguistic dataset connecting Quranic verses through their Arabic roots — a digital Mufharis (concordance) with semantic family layers.
+- id: silma-arabic-triplets-dataset-v1-0
+  name: silma arabic triplets dataset v1.0
+  type: dataset
+  country: INTL
+  org: SILMA AI
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/silma-ai/silma-arabic-triplets-dataset-v1.0
+  size: 1M–10M rows
+  year: 2024
+  notes: The SILMA Arabic Triplets Dataset - v1.0 is a high-quality, diverse dataset specifically curated for training and training embedding models.
+- id: eg-legal-rag
+  name: eg legal rag
+  type: dataset
+  country: INTL
+  org: fr3on
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/fr3on/eg-legal-rag
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2025
+  notes: Retrieval-augmented generation optimized dataset with summaries, keywords, and cross-references for building legal search systems.
+- id: hassaniya-stories-ocr
+  name: hassaniya stories ocr
+  type: dataset
+  country: INTL
+  org: hassan-IA
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/hassan-IA/hassaniya-stories-ocr
+  size: <1K rows
+  year: 2026
+  notes: Image-to-text OCR pairs extracted from a Hassaniya Arabic stories corpus.
+- id: cafe-algerian-codeswitch-speech
+  name: cafe algerian codeswitch speech
+  type: dataset
+  country: YE
+  org: Fatimah Emad Eldin
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/FatimahEmadEldin/cafe-algerian-codeswitch-speech
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2026
+  notes: This dataset contains Algerian Arabic and French code-switched speech.
+- id: tunisian-english-parallel-pairs
+  name: tunisian english parallel pairs
+  type: dataset
+  country: INTL
+  org: KKKarim711
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/KKKarim711/tunisian-english-parallel-pairs
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2026
+  notes: This dataset contains synthetic parallel sentence pairs in Tunisian Arabic (Darija) and English.
+- id: arabic-guardrail
+  name: arabic guardrail
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-guardrail
+  size: 100K–1M rows
+  year: 2026
+  notes: message and which of 12 safety classes it belongs to.
+- id: arabic-nli-pair
+  name: Arabic NLi Pair
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair
+  size: 100K–1M rows
+  year: 2024
+  notes: The Arabic Version of SNLI and MultiNLI datasets.
+- id: arabic-whisper-multidialect
+  name: arabic whisper multidialect
+  type: dataset
+  country: INTL
+  org: MadLook
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MadLook/arabic-whisper-multidialect
+  dialects:
+  - mixed
+  size: 100K–1M rows
+  year: 2025
+  notes: A comprehensive multi-dialect Arabic speech recognition dataset prepared for Whisper model fine-tuning.
+- id: ai-for-rim
+  name: AI for RIM
+  type: dataset
+  country: INTL
+  org: Emin009
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/Emin009/AI-for-RIM
+  size: 1K–10K rows
+  year: 2026
+  notes: This repository contains open-source datasets designed for training and fine-tuning Large Language Models (LLMs) on the Hassaniya dialect of Mauritania.
+- id: ultradata-math-qa-ar
+  name: ultradata math qa ar
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - qa
+  - pretraining
+  links:
+    hf: https://huggingface.co/datasets/SultanR/ultradata-math-qa-ar
+  size: 10M–100M rows
+  year: 2026
+  notes: Arabic translation of the English portion of UltraData-Math, config UltraData-Math-L3-QA-Synthetic.
+- id: cidar-mcq-100
+  name: CIDAR MCQ 100
+  type: dataset
+  country: SA
+  org: ARBML
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/arbml/CIDAR-MCQ-100
+  size: <1K rows
+  year: 2024
+  notes: CIDAR-MCQ-100 contains 100 multiple-choice questions and answers about the Arabic culture.
+- id: arabic-tts-wav-24k
+  name: arabic tts wav 24k
+  type: dataset
+  country: INTL
+  org: NeoBoy
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/NeoBoy/arabic-tts-wav-24k
+  dialects:
+  - msa
+  size: 1K–10K rows
+  year: 2025
+  notes: A high-quality, open-source dataset for Arabic Text-to-Speech (TTS) research, containing paired audio and text samples from both male and female speakers.
+- id: arabic-reverse-dictionary
+  name: arabic reverse dictionary
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/arabic_reverse_dictionary
+  size: 10K–100K rows
+  year: 2025
+  notes: We present a novel Arabic Reverse Dictionary (RD) dataset comprising over 58,000 definitions collected from trusted, open-source books and websites.
+- id: allava-4v-arabic
+  name: ALLaVA-4V-Arabic
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - qa
+  - chat
+  - ocr
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V-Arabic
+  size: 100K–1M rows
+  year: 2024
+  notes: This is the Arabic version of the ALLaVA-4V data.
+- id: murad
+  name: MURAD
+  type: dataset
+  country: SA
+  org: riotu-lab
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - summarization
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/riotu-lab/MURAD
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic is a linguistically and culturally rich
+- id: moroccanhistory-qa-darija-dataset
+  name: MoroccanHistory-QA-Darija-Dataset
+  type: dataset
+  country: INTL
+  org: JasperV13
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/JasperV13/MoroccanHistory-QA-Darija-Dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  notes: This dataset is a translated subset from KBayoud/MoroccanHistory-QA-Dataset.
+- id: arabic-llama-math-dataset
+  name: Arabic_LLaMA_Math_Dataset
+  type: dataset
+  country: INTL
+  org: Jr23xd23
+  license: cc0-1.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/Jr23xd23/Arabic_LLaMA_Math_Dataset
+  size: 10K–100K rows
+  year: 2024
+  notes: 'Instruction: The problem statement or question (text, i'
+- id: egyptian-dpo-mixture
+  name: Egyptian DPO Mixture
+  type: dataset
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-DPO-Mixture
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset supports Direct Preference Optimization (DPO) fine-tuning using off-policy alignment signals to enhance stylistic control.
+- id: finewiki-ar-checked
+  name: finewiki ar checked
+  type: dataset
+  country: INTL
+  org: SultanR
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/SultanR/finewiki-ar-checked
+  size: 1M–10M rows
+  year: 2026
+  notes: Arabic translation of the English subset of FineWiki (6.61M Wikipedia pages, extracted from HTML dumps with templates rendered and math and tables preserved).
+- id: alukah-arabic
+  name: Alukah Arabic
+  type: dataset
+  country: INTL
+  org: ImruQays
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/ImruQays/Alukah-Arabic
+  size: 100K–1M rows
+  year: 2024
+  notes: This dataset is a comprehensive collection of articles sourced from the Alukah website, a renowned platform offering extensive content primarily in Arabic.
+- id: doda-sentences-darija-english
+  name: DoDA_sentences_darija_english
+  type: dataset
+  country: INTL
+  org: AnasAber
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/AnasAber/DoDA_sentences_darija_english
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2024
+  notes: Dataset of english/moroccan arabic translations, from DoDA dataset.
+- id: arabic-audio-collection-moroccan-wak3i
+  name: arabic audio collection moroccan wak3i
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-moroccan-wak3i
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Mak3i Moroccan Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 70 hours of speech recordings.
+- id: arabic-punctuation
+  name: arabic punctuation
+  type: dataset
+  country: INTL
+  org: Asas AI
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/asas-ai/arabic_punctuation
+  size: 10M–100M rows
+  year: 2024
+  notes: This is a curated dataset, specifically designed to facilitate the study of punctuation.
+- id: quora-arabic-gpt4
+  name: Quora Arabic GPT4
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/Quora-Arabic-GPT4
+  size: 10K–100K rows
+  year: 2023
+  notes: The dataset is created by (1) collecting Arabic questions in Quora and (2) requesting GPT4 to generate responses.
+- id: historical-arabic-handwritten-ocr
+  name: Historical Arabic Handwritten OCR
+  type: dataset
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - asr
+  - ocr
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/sherif1313/Historical-Arabic-Handwritten-OCR
+  year: 2026
+  notes: Description A collection of rich historical Arabic text, spanning different geographies across centuries, is present in this dataset.
+- id: fr-wolof-quran-corpus
+  name: fr wolof quran corpus
+  type: dataset
+  country: INTL
+  org: Lahad
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Lahad/fr_wolof_quran_corpus
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2025
+  notes: It has been generated using this raw template.
+- id: aya-sambalingo-arabic-chat-dpo
+  name: Aya-SambaLingo.Arabic.Chat-DPO
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/datasets/2A2I/Aya-SambaLingo.Arabic.Chat-DPO
+  size: 10K–100K rows
+  year: 2024
+  notes: Dataset Sources & Infos
+- id: aisa-ar-functioncall
+  name: AISA-AR-FunctionCall
+  type: dataset
+  country: INTL
+  org: AISA-Framework
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/AISA-Framework/AISA-AR-FunctionCall
+  size: 10K–100K rows
+  year: 2026
+  notes: AISA-AR-FunctionCall is a large-scale Arabic dataset designed for training language models to convert natural language into structured executable tool calls.
+- id: barec-shared-task-2025-sent
+  name: BAREC Shared Task 2025 sent
+  type: dataset
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025-sent
+  size: 10K–100K rows
+  year: 2025
+  tags:
+  - variants:1
+  notes: 'The dataset is annotated at the sentence level. (also: 1 variants)'
+- id: egyspeak
+  name: EGYSpeak
+  type: dataset
+  country: EG
+  org: Mohamed Gomaa
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedGomaa30/EGYSpeak
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2026
+  notes: A curated dataset of 147,979 single-speaker Egyptian Arabic (pure dialect) audio clips with transcriptions.
+- id: arabic-audio-collection-sudanese-ahmed-gobara
+  name: arabic audio collection sudanese ahmed gobara
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-sudanese-ahmed-gobara
+  dialects:
+  - sudanese
+  size: 1K–10K rows
+  year: 2026
+  notes: The Ahmed Gobara Sudanese Arabic Speech Dataset is a single-speaker Sudanese Arabic speech corpus containing approximately 19 hours of speech recordings.
+- id: code-alpaca-arabic-gpt4
+  name: Code Alpaca Arabic GPT4
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/Code-Alpaca-Arabic-GPT4
+  size: 10K–100K rows
+  year: 2023
+  notes: The dataset is created by (1) translating code-alpaca English questions into Arabic using GPT4 and (2) requesting GPT4 to generate Arabic responses.
+- id: spoken-arabic-digits
+  name: spoken arabic digits
+  type: dataset
+  country: INTL
+  org: mohnasgbr
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/mohnasgbr/spoken-arabic-digits
+  dialects:
+  - mixed
+  size: <1K rows
+  year: 2023
+  notes: This dataset contains spoken Arabic digits from 40 speakers from multiple Arab communities and local dialects.
+- id: quran-dataset-abdulbasit-clean
+  name: quran dataset abdulbasit clean
+  type: dataset
+  country: INTL
+  org: Nash-pAnDiTa
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - speech
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/Nash-pAnDiTa/quran_dataset_abdulbasit_clean
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2024
+  notes: The Tanzil Project is an international initiative aimed at providing a highly accurate and verified Quranic text in Unicode.
+- id: egyptian-arabic-hate-speech
+  name: egyptian arabic hate speech
+  type: dataset
+  country: EG
+  org: Ibrahim Amin
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/IbrahimAmin/egyptian-arabic-hate-speech
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset consists of 8,169 Egyptian-Arabic text samples manually labeled for offensive language and hate speech classificati
+- id: classification-arabic-dialects
+  name: classification arabic dialects
+  type: dataset
+  country: INTL
+  org: Falah
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Falah/classification_arabic_dialects
+  dialects:
+  - mixed
+  size: <1K rows
+  year: 2023
+  notes: This dataset contains audio samples of various Arabic dialects for the task of classification and recognition.
+- id: alpaca-arabic-gpt4
+  name: Alpaca Arabic GPT4
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/Alpaca-Arabic-GPT4
+  size: 10K–100K rows
+  year: 2023
+  notes: The dataset is created by (1) translating alpaca English questions into Arabic using GPT4 and (2) requesting GPT4 to generate Arabic responses.
+- id: arabic-poems
+  name: Arabic Poems
+  type: dataset
+  country: INTL
+  org: alwalid54321
+  license: gpl-2.0
+  modality: text
+  tasks:
+  - poetry
+  links:
+    hf: https://huggingface.co/datasets/alwalid54321/Arabic_Poems
+  size: 1K–10K rows
+  year: 2024
+  notes: 'Filtered al-Diwan subset of arbml/ashaar: 8,875 Arabic poems with title, meter, verses and poet metadata.'
+- id: pearl-vdr-ar-train-preprocessed
+  name: Pearl vdr ar train preprocessed
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - embedding
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Pearl-vdr-ar-train-preprocessed
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic culturally-aligned, VDR-style (query, image, hard-negatives) triplets for training multimodal embedding models with Sentence Transformers.
+- id: masd
+  name: MASD
+  type: dataset
+  country: INTL
+  org: SaiedAlshahrani
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/SaiedAlshahrani/MASD
+  size: <1K rows
+  year: 2024
+  notes: 'Masked Arab States Dataset: 160 masked prompts on capitals, currencies, nationalities and continents of 20 Arab states for probing MLMs.'
+- id: silma-arabic-english-sts-dataset-v1-0
+  name: silma arabic english sts dataset v1.0
+  type: dataset
+  country: INTL
+  org: SILMA AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/silma-ai/silma-arabic-english-sts-dataset-v1.0
+  size: 10K–100K rows
+  year: 2024
+  notes: The SILMA STS Arabic/English Dataset - v1.0 is a dataset designed for training and evaluating sentence embeddings for Arabic and English tasks.
+- id: evol-instruct-arabic
+  name: evol instruct arabic
+  type: dataset
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/evol-instruct-arabic
+  size: 10K–100K rows
+  year: 2023
+  notes: The dataset is used in the research related to MultilingualSIFT.
+- id: moroccan-arabic-wikipedia-20230101-nobots
+  name: Moroccan Arabic Wikipedia 20230101 nobots
+  type: dataset
+  country: INTL
+  org: SaiedAlshahrani
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_nobots
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2024
+  tags:
+  - variants:1
+  notes: This dataset is created using the Moroccan Arabic Wikipedia articles.
+- id: wolof-arabic-parallel-corpus
+  name: wolof arabic parallel corpus
+  type: dataset
+  country: INTL
+  org: mbaye930
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/mbaye930/wolof-arabic-parallel-corpus
+  dialects:
+  - msa
+  size: 1K–10K rows
+  year: 2026
+  notes: A publicly available parallel corpus for the Wolof–Arabic language pair, a gold-standard resource containing 1,271 sentence-aligned pairs.
+- id: dz-sentiment-yt-comments
+  name: dz sentiment yt comments
+  type: dataset
+  country: INTL
+  org: Abdou
+  license: mit
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/Abdou/dz-sentiment-yt-comments
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2023
+  notes: This dataset consists of 50,016 samples of comments extracted from Algerian YouTube channels.
+- id: financial-reasoning-qa-arabic-dataset
+  name: Financial Reasoning QA Arabic Dataset
+  type: dataset
+  country: INTL
+  org: Gheras
+  license: other
+  modality: text
+  tasks:
+  - translation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/Gheras/Financial_Reasoning_QA_Arabic_Dataset
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset is a professionally translated Arabic version of the original English FinQA dataset.
+- id: eg-legal-qa
+  name: eg legal qa
+  type: dataset
+  country: INTL
+  org: fr3on
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - chat
+  - instruction-tuning
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/fr3on/eg-legal-qa
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2025
+  notes: Question-answering dataset for Arabic legal texts with instruction-following format for training conversational AI models.
+- id: tulu-v2-sft-mixture-role-split-english-darija
+  name: tulu v2 sft mixture role split english darija
+  type: dataset
+  country: INTL
+  org: yousef-khoubrane
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - chat
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/yousef-khoubrane/tulu-v2-sft-mixture-role-split-english-darija
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset is derived from Tulu-v2-SFT-Mixture-English-Darija.
+- id: aqeedah-rag-dataset
+  name: aqeedah rag dataset
+  type: dataset
+  country: INTL
+  org: abdullah-alamodi
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset
+  size: 1K–10K rows
+  year: 2025
+  notes: A curated Arabic Islamic theology (Aqeedah) dataset with pre-computed FAISS embeddings, designed for advanced Retrieval-Augmented Generation.
+- id: amawal-dataset
+  name: amawal dataset
+  type: dataset
+  country: INTL
+  org: prothmane
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - translation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/prothmane/amawal-dataset
+  size: 10K–100K rows
+  year: 2025
+  notes: A trilingual Amazigh-French-Arabic lexicon to support AI research for Berber languages.
+- id: islamic-historical-corpus
+  name: islamic historical corpus
+  type: dataset
+  country: INTL
+  org: IslamStories
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - qa
+  - translation
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/IslamStories/islamic-historical-corpus
+  dialects:
+  - classical
+  size: <1K rows
+  year: 2026
+  notes: The public source manifest for the classified, AI-ready Islamic historical knowledge base.
+- id: fiqh-maliki-talqin
+  name: fiqh maliki talqin
+  type: dataset
+  country: INTL
+  org: islamic-datasets
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/islamic-datasets/fiqh-maliki-talqin
+  size: 1K–10K rows
+  year: 2025
+  notes: Digitized text of Al-Talqin, a concise classical manual of Maliki jurisprudence, as a structured dataset.
+- id: egytriplets-2m
+  name: egytriplets 2m
+  type: dataset
+  country: INTL
+  org: metga97
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/metga97/egytriplets-2m
+  size: 100K–1M rows
+  year: 2025
+  notes: 🔨 How It Was Built
+- id: shamela-waqfeya-library-compressed
+  name: shamela waqfeya library compressed
+  type: dataset
+  country: INTL
+  org: ieasybooks
+  license: mit
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/ieasybooks-org/shamela-waqfeya-library-compressed
+  size: 1K–10K rows
+  year: 2025
+  notes: Shamela Waqfeya is one of the primary online resources for Islamic books, similar to Shamela.
+- id: shahnameh-tajik-corpus
+  name: shahnameh tajik corpus
+  type: dataset
+  country: INTL
+  org: ArabovMK
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - translation
+  - poetry
+  links:
+    hf: https://huggingface.co/datasets/ArabovMK/shahnameh-tajik-corpus
+  size: <1K rows
+  year: 2025
+  notes: This dataset contains the full Tajik translation of the Persian epic poem Shahnameh by Abulqosim Firdausi.
+- id: arabic-web-edu-seed
+  name: arabic web edu seed
+  type: dataset
+  country: INTL
+  org: sboughorbel
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pretraining
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset contains Arabic web content that has been scored for educational value.
+- id: arabicconceptualcaptions3m
+  name: ArabicConceptualCaptions3M
+  type: dataset
+  country: INTL
+  org: LinaAlhuri
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - translation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/LinaAlhuri/ArabicConceptualCaptions3M
+  size: 1M–10M rows
+  year: 2023
+  notes: This dataset consists of conceptual captions translated into Arabic using the Google Translate API.
+- id: llamalens-arabic-native
+  name: LlamaLens-Arabic-Native
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - sentiment
+  - instruction-tuning
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/LlamaLens-Arabic-Native
+  size: 1M–10M rows
+  year: 2025
+  notes: LlamaLens is a specialized multilingual LLM designed for analyzing news and social media content.
+- id: anadolu-ocr-corpus
+  name: anadolu ocr corpus
+  type: dataset
+  country: INTL
+  org: fatihburakkaragoz
+  license: other
+  modality: text
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/datasets/fatihburakkaragoz/anadolu-ocr-corpus
+  size: 10K–100K rows
+  year: 2026
+  notes: Anadolu OCR Corpus is an OpenCR export of OCR text and document metadata for 52 historical Ottoman Turkish, Turkish, and Arabic-containing PDF sources.
+- id: arabic-audio-collection-libyan-a7rar-podcast
+  name: arabic audio collection libyan a7rar podcast
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-libyan-a7rar-podcast
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2026
+  notes: The Libyan Postcast Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 26 hours of speech recordings.
+- id: fineweb2-msa
+  name: FineWeb2-MSA
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: odc-by
+  modality: speech
+  tasks:
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/FineWeb2-MSA
+  dialects:
+  - egy
+  - msa
+  size: 100M–1B rows
+  year: 2024
+  notes: This is the MSA Arabic Portion of The FineWeb2 Dataset.
+- id: english-egyptian-translation-finance
+  name: English Egyptian Translation finance
+  type: dataset
+  country: INTL
+  org: Omar-youssef
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/Omar-youssef/English-Egyptian-Translation-finance
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset contains bilingual text pairs in English and Egyptian Arabic focused on finance and financial topics.
+- id: alpaca-arabic-cleaned
+  name: alpaca arabic cleaned
+  type: dataset
+  country: INTL
+  org: saillab
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/datasets/saillab/alpaca-arabic-cleaned
+  size: 10K–100K rows
+  year: 2024
+  notes: This repository contains the dataset used for the TaCo paper.
+- id: moroccan-darija-domain-classifier-dataset
+  name: moroccan darija domain classifier dataset
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: speech
+  tasks:
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/atlasia/moroccan_darija_domain_classifier_dataset
+  dialects:
+  - magh
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset is designed for text classification in Moroccan Darija, a dialect spoken in Morocco.
+- id: arabic-audio-collection-algerian-rawi
+  name: arabic audio collection algerian rawi
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-algerian-rawi
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2026
+  notes: The Rawi Postcast Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 51 hours of speech recordings.
+- id: darija-vlm-gqa-dataset
+  name: Darija VLM GQA Dataset
+  type: dataset
+  country: INTL
+  org: KBayoud
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/KBayoud/Darija-VLM-GQA-Dataset
+  dialects:
+  - magh
+  size: 1K–10K rows
+  year: 2025
+  notes: 'Original dataset : vikhyatk/gqa-val'
+- id: arabic-with-ranked-hard-negatives
+  name: Arabic With Ranked Hard Negatives
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-With-Ranked-Hard-Negatives
+  dialects:
+  - lev
+  size: 10K–100K rows
+  year: 2024
+  notes: The Arabic Hard Negative Dataset is derived from the Arabic subset of the Mr.
+- id: arabic-audio-collection-tunisian-deep-confessions
+  name: arabic audio collection tunisian deep confessions
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-tunisian-deep-confessions
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Deep Confessions Podcast Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 175 hours.
+- id: arabic-roots
+  name: arabic roots
+  type: dataset
+  country: INTL
+  org: MohamedRashad
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/MohamedRashad/arabic-roots
+  dialects:
+  - classical
+  size: 10K–100K rows
+  year: 2024
+  notes: The "arabic-roots" dataset is a comprehensive collection of Arabic root words along with their detailed definitions, sourced from classical Arabic lexicons.
+- id: arasl-database-grayscale
+  name: ArASL_Database_Grayscale
+  type: dataset
+  country: INTL
+  org: Mohammad Albarham
+  license: cc-by-4.0
+  modality: vision
+  tasks:
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/pain/ArASL_Database_Grayscale
+  size: 10K–100K rows
+  year: 2023
+  notes: A new dataset consists of 54,049 images of ArSL alphabets performed by more than 40 people for 32 standard Arabic signs and alphabets.
+- id: arabic-semantic-relevance
+  name: arabic semantic relevance
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - ner
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/arabic-semantic-relevance
+  size: 10K–100K rows
+  year: 2026
+  notes: This dataset provides high-quality Arabic query-context pairs with fine-grained sem
+- id: arabic-fake-news-dataset
+  name: Arabic fake news dataset
+  type: dataset
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/HeshamHaroon/Arabic_fake_news_dataset
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2023
+  notes: This repository contains the Arabicfakenewsdataset, a collection of news articles scraped from the Egyptian platform متصدقش (Matsda2sh).
+- id: egyptian-arabic-english-translation-50k
+  name: egyptian arabic english translation 50k
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - translation
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/egyptian-arabic-english-translation-50k
+  dialects:
+  - egy
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: An open-source parallel corpus of 50,000 Egyptian Arabic sentences paired with their English translations.
+- id: arabic-audio-collection-moroccan-noone-stories
+  name: arabic audio collection moroccan noone stories
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - sentiment
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-moroccan-noone-stories
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: The Noone Stories Moroccan Arabic Speech Dataset is a large-scale, first-of-its-kind Arabic speech corpus containing approximately 156 hours.
+- id: arabic-audio-collection-sudanese-nuuar
+  name: arabic audio collection sudanese nuuar
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-audio-collection-sudanese-nuuar
+  dialects:
+  - sudanese
+  size: 10K–100K rows
+  year: 2026
+  notes: The Nuuar Sudanese Arabic Speech Dataset is a single-speaker Sudanese Arabic speech corpus containing approximately 75 hours of speech recordings.
+- id: barec-shared-task-2025-doc
+  name: BAREC Shared Task 2025 doc
+  type: dataset
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025-doc
+  size: 1K–10K rows
+  year: 2025
+  tags:
+  - variants:1
+  notes: 'The dataset is annotated at the sentence level. (also: 1 variants)'
+- id: darija-english-combined
+  name: darija english combined
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/darija-english-combined
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2026
+  notes: English-Moroccan Darija-Arabizi parallel sentences merged from several public datasets into one format for translation models.
+- id: arvoice-undiacritized
+  name: ArVoice-Undiacritized
+  type: dataset
+  country: SA
+  org: mabahboh
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - diacritization
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/mabahboh/ArVoice-Undiacritized
+  dialects:
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: 'A derivative of MBZUAI/ArVoice with one added column, textundiacritized: the transcription transcripts with diacritics removed.'
+- id: algerian-arabic-english-translation-50k
+  name: algerian arabic english translation 50k
+  type: dataset
+  country: DZ
+  org: Touati Kamel
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/touati-kamel/algerian-arabic-english-translation-50k
+  dialects:
+  - magh
+  size: 10K–100K rows
+  year: 2026
+  notes: An open-source parallel corpus of 50,000 Algerian Arabic (Darija) sentences paired with their English translations.
+- id: aya-acegpt-13b-chat-dpo
+  name: Aya-AceGPT.13B.Chat-DPO
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/datasets/2A2I/Aya-AceGPT.13B.Chat-DPO
+  size: 10K–100K rows
+  year: 2024
+  notes: Aya-AceGPT.13B.Chat-DPO is a DPO dataset de
+- id: orca-parquet
+  name: orca parquet
+  type: dataset
+  country: LB
+  org: Wissam Antoun (AUB)
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/wissamantoun/orca_parquet
+  size: 100K–1M rows
+  year: 2026
+  notes: Arabic tabular/text dataset (100K<N<1M rows).
+- id: pearl-vdr-ar-train-hard-mined
+  name: Pearl vdr ar train hard mined
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - embedding
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Pearl-vdr-ar-train-hard-mined
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic culturally-aligned Visual Document Retrieval (VDR) triplets with model-mined hard negatives.
+- id: arabic-natural-questions
+  name: Arabic natural questions
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-natural-questions
+  size: 100K–1M rows
+  year: 2025
+  notes: This dataset is an Arabic-translated version of the original Natural Questions dataset by sentence-transformers.
+- id: arabic-prompt-routing
+  name: arabic prompt routing
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-prompt-routing
+  size: 100K–1M rows
+  year: 2026
+  notes: Categories are arbitrary Arabic — the point is a model that routes into a label set it has never seen.
+- id: arabic-quora-duplicates
+  name: Arabic Quora Duplicates
+  type: dataset
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-Quora-Duplicates
+  size: 100K–1M rows
+  year: 2024
+  notes: The Arabic Version of the Quora Question Pairs Dataset 2.
+- id: aya-aya-23-8b-dpo
+  name: Aya Aya.23.8B DPO
+  type: dataset
+  country: INTL
+  org: 2A2I
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/2A2I/Aya-Aya.23.8B-DPO
+  size: 10K–100K rows
+  year: 2024
+  notes: Aya-Aya.23.8B-DPO is a DPO dataset designed to ad
+- id: synthetic-egy-speech-dataset
+  name: Synthetic Egy Speech Dataset
+  type: dataset
+  country: EG
+  org: Mohamed Gomaa
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - asr
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/MohamedGomaa30/Synthetic-Egy-Speech-Dataset
+  dialects:
+  - egy
+  size: 1K–10K rows
+  year: 2026
+  notes: A curated dataset of 1000 Egyptian Arabic speech samples — the best audio selected across 4 TTS models for each prompt.
+- id: arabic-history-and-dialects
+  name: arabic history and dialects
+  type: dataset
+  country: INTL
+  org: ISLAM-PO
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - qa
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/ISLAM-PO/arabic-history-and-dialects
+  dialects:
+  - egy
+  - mixed
+  size: <1K rows
+  year: 2026
+  notes: Arabic Multi-Dialect & Civilization Instruction Dataset
+- id: probel
+  name: ProBel
+  type: dataset
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - ner
+  links:
+    hf: https://huggingface.co/datasets/QCRI/ProBel
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic and English news sentences and social-media posts, each annotated with a categories, technique-labeled character spans.
+- id: moroccan-lyrics
+  name: moroccan lyrics
+  type: dataset
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/atlasia/moroccan_lyrics
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2024
+  notes: A compilation of morocccan songs lyrics both in arabic and latin scripts (arabizi).
+- id: propxplain
+  name: PropXplain
+  type: dataset
+  country: QA
+  org: QCRI
+  license: mit
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/QCRI/PropXplain
+  size: 10K–100K rows
+  year: 2026
+  notes: PropXplain is a multilingual dataset for explainable propaganda detection in Arabic and English text.
+- id: arabic-math-reasoning-synth
+  name: arabic math reasoning synth
+  type: dataset
+  country: EG
+  org: oddadmix
+  license: apache-2.0
+  modality: text
+  tasks:
+  - nlp
+  links:
+    hf: https://huggingface.co/datasets/oddadmix/arabic-math-reasoning-synth
+  size: 100K–1M rows
+  year: 2026
+  notes: Generated with gemma-3-12b-it and Qwen3.8-27B-Uncensored-NVFP4 and own arithmetic does not check out were dropped.

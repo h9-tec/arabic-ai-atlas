@@ -1047,3 +1047,761 @@
   dialects:
   - iraqi
   notes: Originally authored Iraqi Arabic LLM benchmark, pilot public dev set; Iraq.
+- id: arabic-mmlu-10percent
+  name: Arabic MMLU 10percent
+  type: benchmark
+  country: INTL
+  org: arcee-globe
+  license: unknown
+  modality: text
+  tasks:
+  - mmlu
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/arcee-globe/Arabic_MMLU-10percent
+  size: 1K–10K rows
+  year: 2024
+  notes: 10 percent subset of Arabic MMLU multiple-choice questions across subjects.
+- id: arablegaleval
+  name: ArabLegalEval
+  type: benchmark
+  country: INTL
+  org: THIQAH-RD
+  license: unknown
+  modality: text
+  tasks:
+  - legal
+  links:
+    hf: https://huggingface.co/datasets/THIQAH-RD/ArabLegalEval
+  size: 10K–100K rows
+  year: 2025
+  notes: 'ArabLegalEval: benchmark for LLMs on Arabic legal tasks, including ArLegalBench, with prompt templates per task.'
+- id: aradice-openbookqa
+  name: AraDiCE-OpenBookQA
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/QCRI/AraDiCE-OpenBookQA
+  size: 1K–10K rows
+  year: 2024
+  notes: 'AraDiCE OpenBookQA: post-edited OpenBookQA test set in English, MSA and dialects for dialectal and cultural LLM evaluation.'
+  dialects:
+  - msa
+  - mixed
+- id: aradice-boolq
+  name: AraDiCE-BoolQ
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - reading-comprehension
+  links:
+    hf: https://huggingface.co/datasets/QCRI/AraDiCE-BoolQ
+  size: 1K–10K rows
+  year: 2024
+  notes: 'AraDiCE BoolQ: post-edited BoolQ reading-comprehension test set in MSA and dialects for dialectal and cultural LLM evaluation.'
+  dialects:
+  - msa
+  - mixed
+- id: arabic-acoustic-poetry-benchmark
+  name: arabic acoustic poetry benchmark
+  type: benchmark
+  country: SA
+  org: KFUPM-JRCAI
+  license: unknown
+  modality: speech
+  tasks:
+  - poetry
+  - meter
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/KFUPM-JRCAI/arabic-acoustic-poetry-benchmark
+  size: <1K rows
+  year: 2022
+  notes: 268 Arabic poetry recitations with bait text, bahr (meter), reciter and source, for acoustic poetry evaluation.
+- id: arabic-vicuna-80
+  name: Arabic Vicuna 80
+  type: benchmark
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - chat
+  links:
+    hf: https://huggingface.co/datasets/FreedomIntelligence/Arabic-Vicuna-80
+  size: <1K rows
+  year: 2023
+  notes: 'Arabic version of the Vicuna-80 benchmark: 80 queries with category labels.'
+- id: egyptianhellaswag
+  name: EgyptianHellaSwag
+  type: benchmark
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: '[''mit'']'
+  modality: text
+  tasks:
+  - commonsense
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI-Paris/EgyptianHellaSwag
+  dialects:
+  - egy
+  size: 100K–1M rows
+  year: 2025
+  notes: Machine-translated Egyptian Arabic (Masri) HellaSwag benchmark for commonsense reasoning and reading comprehension.
+- id: pearl-x
+  name: PEARL X
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-nd-4.0
+  modality: multimodal
+  tasks:
+  - culture
+  - vqa
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/PEARL-X
+  size: <1K rows
+  year: 2025
+  notes: 'PEARL-X: benchmark of single- and multi-image QA on shared cultural concepts that differ across Arab contexts.'
+- id: belebele-arabic
+  name: belebele arabic
+  type: benchmark
+  country: SA
+  org: ARBML
+  license: unknown
+  modality: text
+  tasks:
+  - reading-comprehension
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/arbml/belebele_arabic
+  size: 1K–10K rows
+  year: 2023
+  notes: Arabic subset of Belebele, a 5,400-question multiple-choice reading comprehension benchmark with FLORES passages.
+- id: arabic-wsd-benchmark
+  name: Arabic WSD Benchmark
+  type: benchmark
+  country: INTL
+  org: Asas AI
+  license: unknown
+  modality: text
+  tasks:
+  - wsd
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/asas-ai/Arabic_WSD_Benchmark
+  size: 10K–100K rows
+  year: 2024
+  notes: Arabic word sense disambiguation benchmark of 31K rows with word, definition, example and label fields.
+- id: darija-asr-bench
+  name: Darija ASR Bench
+  type: benchmark
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/Darija_ASR_Bench
+  dialects:
+  - magh
+  size: <1K rows
+  year: 2025
+  notes: Benchmark for Moroccan Darija speech recognition from the Atlasia Darija lab.
+- id: darija-lid-benchmark-v1
+  name: darija lid benchmark v1
+  type: benchmark
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/atlasia/darija-lid-benchmark-v1
+  dialects:
+  - magh
+  size: 1M–10M rows
+  year: 2026
+  tags:
+  - variants:1
+  notes: Language-identification benchmark for telling Moroccan Darija apart from other languages and Arabic varieties.
+- id: awzan
+  name: Awzan
+  type: benchmark
+  country: INTL
+  org: Noor Bayan
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    github: https://github.com/NoorBayan/Awzan
+  dialects:
+  - classical
+  year: 2025
+  notes: Awzān is a detailed dataset capturing all metrical patterns (taf'ilat) of classical Arabic poetic meters, addressing gaps in existing research.
+- id: isnad
+  name: isnad
+  type: benchmark
+  country: INTL
+  org: alizahidraja
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  - hadith
+  links:
+    github: https://github.com/alizahidraja/isnad
+    website: https://alizahidraja.com/isnad
+  dialects:
+  - classical
+  year: 2026
+  notes: Grade every agent, scraper and model in a claim's chain — provenance, trust scoring and audit evidence for LLM pipelines
+- id: asr-code-switch
+  name: ASR Code Switch
+  type: benchmark
+  country: INTL
+  org: Perle-ai
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch
+  size: 1K–10K rows
+  year: 2026
+  notes: A curated benchmark of 1,200 code-switching utterances (300 per language pair) for evaluating commercial ASR systems on multilingual speech.
+- id: mmcqa-semeval27
+  name: MMCQA-SemEval27
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-4.0
+  modality: multimodal
+  tasks:
+  - qa
+  - evaluation
+  - speech
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/QCRI/MMCQA-SemEval27
+  size: 10K–100K rows
+  year: 2026
+  notes: This is the dataset for MMCultureQA, the SemEval 2027 shared task on culturally grounded visual question answering in English and Arabic.
+- id: artelingo-dummy
+  name: artelingo dummy
+  type: benchmark
+  country: INTL
+  org: youssef101
+  license: mit
+  modality: multimodal
+  tasks:
+  - ocr
+  - sentiment
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/youssef101/artelingo-dummy
+  size: 10K–100K rows
+  year: 2023
+  notes: ArtELingo is a benchmark and dataset introduced in a research paper aimed at promoting work on diversity across languages and cultures.
+- id: math-cot-arabic-english-reasoning
+  name: Math_CoT_Arabic_English_Reasoning
+  type: benchmark
+  country: INTL
+  org: miscovery
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/miscovery/Math_CoT_Arabic_English_Reasoning
+  size: 1K–10K rows
+  year: 2025
+  notes: A high-quality, bilingual (English & Arabic) dataset for Chain-of-Thought (COT) reasoning in mathematics and related disciplines, developed by Miscovery AI.
+- id: arad
+  name: ArAD
+  type: benchmark
+  country: INTL
+  org: SpeechAntiSpoofingBenchmarks
+  license: odc-by
+  modality: speech
+  tasks:
+  - speech
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/SpeechAntiSpoofingBenchmarks/ArAD
+  dialects:
+  - lev
+  size: 1K–10K rows
+  year: 2026
+  notes: 'Benchmark-ready packaging of the test split of the Arabic Audio Deepfake (ArAD) dataset: binary anti-spoofing on Arabic (primarily Levantine dialect) speech.'
+- id: aralingbench
+  name: AraLingBench
+  type: benchmark
+  country: INTL
+  org: hammh0a
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/hammh0a/AraLingBench
+  size: <1K rows
+  year: 2025
+  notes: 'AraLingBench: 150 human-authored Arabic multiple-choice questions testing grammar, morphology, spelling, comprehension and syntax.'
+- id: fannorflop
+  name: FannOrFlop
+  type: benchmark
+  country: INTL
+  org: omkarthawakar
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  - poetry
+  links:
+    hf: https://huggingface.co/datasets/omkarthawakar/FannOrFlop
+  size: 1K–10K rows
+  year: 2025
+  notes: 'Fann or Flop: multigenre, multi-era benchmark testing how well LLMs understand Arabic poetry.'
+- id: imageeval-arabicnlp26
+  name: ImageEval-ArabicNLP26
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: multimodal
+  tasks:
+  - qa
+  - evaluation
+  - speech
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/QCRI/ImageEval-ArabicNLP26
+  size: 10K–100K rows
+  year: 2026
+  notes: 'It covers both of the shared task''s tasks: AynVQA (Task 1), a culturally grounded Arabic multimodal benchmark for spoken visual question answering.'
+- id: jev-ar-bench
+  name: jev ar bench
+  type: benchmark
+  country: INTL
+  org: atmaneayoub
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/atmaneayoub/jev-ar-bench
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2026
+  notes: Arabic intent-routing benchmarks for MSA, Emirati, Saudi and code-switched Arabic
+- id: idiomx
+  name: IdiomX
+  type: benchmark
+  country: INTL
+  org: aymansharara
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/aymansharara/IdiomX
+  size: 100K–1M rows
+  year: 2026
+  notes: 'Dataset: 190K+ examples • 12K+ idioms • 3 languages • 4 benchmark tasks It supports four benchmark tasks: 1.'
+- id: fa-en-ar-handwritten-ocr-v1
+  name: fa en ar handwritten ocr v1
+  type: benchmark
+  country: INTL
+  org: saeid1999
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - asr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/saeid1999/fa-en-ar-handwritten-ocr-v1
+  size: 10K–100K rows
+  year: 2026
+  notes: A large, clean, augmentation-rich synthetic handwriting dataset for training and benchmarking OCR / HTR models on Persian (fa), Arabic (ar) and English (en).
+- id: alarb
+  name: ALARB
+  type: benchmark
+  country: INTL
+  org: THIQAH-RD
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/THIQAH-RD/ALARB
+  size: 10K–100K rows
+  year: 2025
+  notes: ALARB includes a dataset of structured legal cases.
+- id: gazelle-benchmark
+  name: gazelle benchmark
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-nd-4.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/gazelle_benchmark
+  size: <1K rows
+  year: 2024
+  notes: Writing has long been considered a hallmark of human intelligence and remains a pinnacle task for artificial intelligence.
+- id: aradice-arabicmmlu-lev
+  name: AraDICE-ArabicMMLU-lev
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/AraDICE-ArabicMMLU-lev
+  dialects:
+  - lev
+  size: 10K–100K rows
+  year: 2024
+  notes: The AraDiCE dataset is crafted to assess the dialectal and cultural understanding of large language models (LLMs) within Arabic-speaking contexts.
+- id: arabic-ljp
+  name: Arabic LJP
+  type: benchmark
+  country: INTL
+  org: mbayan
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/mbayan/Arabic-LJP
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset is designed for Arabic Legal Judgment Prediction (LJP), collected and preprocessed from Saudi commercial court judgments.
+- id: quran-ocr
+  name: Quran OCR
+  type: benchmark
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - evaluation
+  - quran
+  links:
+    hf: https://huggingface.co/datasets/sherif1313/Quran-OCR
+  dialects:
+  - classical
+  size: 1K–10K rows
+  year: 2026
+  notes: Any text recognition or Optical Character Recognition (OCR) system requires a dataset to learn how to recognize the text.
+- id: arabic-ecom-search-bench
+  name: arabic ecom search bench
+  type: benchmark
+  country: INTL
+  org: Presto AI
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/prestoai/arabic-ecom-search-bench
+  dialects:
+  - magh
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: Arabic e-commerce search benchmark for evaluating retrieval systems in Modern Standard Arabic and Libyan dialect.
+- id: context212-alhazen-ocr
+  name: context212 alhazen ocr
+  type: benchmark
+  country: INTL
+  org: context212
+  license: cc-by-4.0
+  modality: multimodal
+  tasks:
+  - ocr
+  - evaluation
+  - vision
+  links:
+    hf: https://huggingface.co/datasets/context212/context212-alhazen-ocr
+  size: 10K–100K rows
+  year: 2026
+  notes: alhazen-ocr is the training dataset behind context212/alhazen-ocr, an Arabic-first OCR vision-language model.
+- id: nn-auto-bench-ds
+  name: nn auto bench ds
+  type: benchmark
+  country: INTL
+  org: nanonets
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/nanonets/nn-auto-bench-ds
+  size: 1K–10K rows
+  year: 2025
+  notes: nn-auto-bench-ds is a dataset designed for key information extraction (KIE) and serves as a benchmark dataset for nn-auto-bench.
+- id: araseg-2026-shared-task-nopnx-pa
+  name: AraSeg-2026-Shared-Task-NoPnx-PA
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/AraSeg-2026-Shared-Task-NoPnx-PA
+  dialects:
+  - msa
+  size: <1K rows
+  year: 2026
+  notes: The corpus is designed to support research on sentence segmentation in Modern Standard Arabic.
+- id: muradif
+  name: Muradif
+  type: benchmark
+  country: INTL
+  org: U4RASD
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/U4RASD/Muradif
+  dialects:
+  - lev
+  - msa
+  size: 10K–100K rows
+  year: 2026
+  notes: Muradif (مُرادِف, "synonym") is a synonym-based benchmark that directly assesses embedding quality with no additional fine-tuning.
+- id: semeval-2016-absa-reviews-arabic
+  name: semeval 2016 absa reviews arabic
+  type: benchmark
+  country: INTL
+  org: srinivasbilla
+  license: mit
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    hf: https://huggingface.co/datasets/srinivasbilla/semeval-2016-absa-reviews-arabic
+  size: 10K–100K rows
+  year: 2023
+  notes: Aspect based sentiment analysis dataset using hotel reviews in Arabic.
+- id: arabic-openai-mmmlu
+  name: Arabic Openai MMMLU
+  type: benchmark
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: mit
+  modality: text
+  tasks:
+  - qa
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic_Openai_MMMLU
+  size: 10K–100K rows
+  year: 2024
+  notes: The MMLU is a widely recognized benchmark for assessing general knowledge attained by AI models.
+- id: araseg-2026-shared-task-np
+  name: AraSeg-2026-Shared-Task-NP
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/AraSeg-2026-Shared-Task-NP
+  dialects:
+  - msa
+  size: <1K rows
+  year: 2026
+  notes: The corpus is designed to support research on sentence segmentation in Modern Standard Arabic.
+- id: aha-memes
+  name: AHA MEMES
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: cc-by-nc-4.0
+  modality: multimodal
+  tasks:
+  - vision
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/QCRI/AHA-MEMES
+  size: 10K–100K rows
+  year: 2026
+  notes: Hateful memes carry their meaning in the interaction between an image and the text laid over it.
+- id: islamiceval2026-subtask2-submission
+  name: IslamicEval2026-Subtask2-Submission
+  type: benchmark
+  country: YE
+  org: Fatimah Emad Eldin
+  license: mit
+  modality: text
+  tasks:
+  - embedding
+  - quran
+  - hadith
+  links:
+    hf: https://huggingface.co/datasets/FatimahEmadEldin/IslamicEval2026-Subtask2-Submission
+  dialects:
+  - classical
+  year: 2026
+  notes: Code, notebooks, experiments and the system-description paper for the Namaa Community submission to Subtask 2 of IslamicEval 2026.
+- id: arabic-cohere-include-base-44-mmlu-style
+  name: Arabic Cohere include base 44 mmlu style
+  type: benchmark
+  country: SA
+  org: Omartificial-Intelligence-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - qa
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-Cohere-include-base-44-mmlu-style
+  size: <1K rows
+  year: 2024
+  notes: INCLUDE is a comprehensive knowledge- and reasoning-centric benchmark spanning 44 languages that evaluates multilingual LLMs.
+- id: araseg-2026-shared-task-pa
+  name: AraSeg-2026-Shared-Task-PA
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/AraSeg-2026-Shared-Task-PA
+  dialects:
+  - msa
+  size: <1K rows
+  year: 2026
+  notes: The corpus is designed to support research on sentence segmentation in Modern Standard Arabic.
+- id: araseg-2026-shared-task-nopnx-np
+  name: AraSeg-2026-Shared-Task-NoPnx-NP
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: text
+  tasks:
+  - ner
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/MBZUAI/AraSeg-2026-Shared-Task-NoPnx-NP
+  dialects:
+  - msa
+  size: <1K rows
+  year: 2026
+  notes: The corpus is designed to support research on sentence segmentation in Modern Standard Arabic.
+- id: saudi-dialect-speech-female
+  name: saudi dialect speech female
+  type: benchmark
+  country: SA
+  org: Ahmed Eladl
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  - evaluation
+  - speech
+  links:
+    hf: https://huggingface.co/datasets/AhmedEladl/saudi-dialect-speech-female
+  dialects:
+  - gulf
+  size: 1K–10K rows
+  year: 2026
+  notes: This repository contains cleaned, segmented, and dual-transcribed Arabic speech data intended for speech modeling, ASR benchmarking, and Text-to-Speech.
+- id: cidar-eval-100
+  name: CIDAR EVAL 100
+  type: benchmark
+  country: SA
+  org: ARBML
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/arbml/CIDAR-EVAL-100
+  dialects:
+  - lev
+  size: <1K rows
+  year: 2024
+  notes: CIDAR-EVAL-100 contains 100 instructions about Arabic culture.
+- id: tunisian-msa-parallel-corpus-evaluated
+  name: tunisian msa parallel corpus evaluated
+  type: benchmark
+  country: TN
+  org: InstaDeep / iCompass
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus-evaluated
+  dialects:
+  - magh
+  - msa
+  size: 1K–10K rows
+  year: 2025
+  notes: This dataset is a synthetic parallel corpus of Tunisian Arabic (aeb) and Modern Standard Arabic (arb).
+- id: ar-reranking-eval
+  name: Ar Reranking Eval
+  type: benchmark
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/NAMAA-Space/Ar-Reranking-Eval
+  size: <1K rows
+  year: 2024
+  notes: This dataset, containing 468 rows, is curated for evaluating reranking and retrieval models in Arabic.

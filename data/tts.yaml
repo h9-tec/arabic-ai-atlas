@@ -545,3 +545,587 @@
   dialects:
   - mixed
   notes: Multi-dialect Arabic TTS on Chatterbox covering Egyptian, Saudi, Gulf, Iraqi and Moroccan.
+- id: kasbahtts-v0
+  name: KasbahTTS-V0
+  type: tts
+  country: INTL
+  org: MenaVoice
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/MenaVoice/KasbahTTS-V0
+  dialects:
+  - magh
+  year: 2026
+  notes: Zero-shot voice-cloning Algerian Arabic (Darija) TTS built on F5-TTS and Habibi-TTS.
+- id: sofelia-tts
+  name: Sofelia TTS
+  type: tts
+  country: INTL
+  org: hamdallah
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/hamdallah/Sofelia-TTS
+  dialects:
+  - lev
+  year: 2026
+  tags:
+  - variants:1
+  notes: Palestinian Arabic TTS model fine-tuned on top of YatharthS/MiraTTS.
+- id: tts-transformer-ar-cv7
+  name: tts transformer ar cv7
+  type: tts
+  country: INTL
+  org: Meta
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/facebook/tts_transformer-ar-cv7
+  year: 2022
+  notes: Fairseq S^2 Transformer single-speaker Arabic text-to-speech model.
+- id: emirati-vits-male-1-0
+  name: emirati vits male 1.0
+  type: tts
+  country: INTL
+  org: Vadim Belsky
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/vadimbelsky/emirati-vits-male-1.0
+  dialects:
+  - gulf
+  year: 2026
+  notes: Bilingual Emirati Arabic and English VITS male TTS, trained on 70 hours of audio for call-center use.
+- id: orpheus-tts-mediaspeech-ar
+  name: Orpheus-TTS-MediaSpeech-AR
+  type: tts
+  country: INTL
+  org: kadirnar
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/kadirnar/Orpheus-TTS-MediaSpeech-AR
+  year: 2025
+  notes: Orpheus TTS model fine-tuned on the MediaSpeech dataset for Arabic speech synthesis.
+- id: leva-tts
+  name: leva tts
+  type: tts
+  country: INTL
+  org: Mohammed Aly
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/mohammedaly22/leva-tts
+  dialects:
+  - lev
+  year: 2026
+  notes: XTTS-v2 fine-tune for low-latency code-switched Levantine Arabic and English TTS in conversational agents.
+- id: magpie-saqr-najdi
+  name: Magpie Saqr Najdi
+  type: tts
+  country: INTL
+  org: mabahboh
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/mabahboh/Magpie-Saqr-Najdi
+  dialects:
+  - gulf
+  year: 2026
+  notes: Najdi Saudi Arabic TTS fine-tuned from NVIDIA Magpie multilingual 357M on the SADA 2022 speakers dataset.
+- id: egtts-v0-1
+  name: EGTTS V0.1
+  type: tts
+  country: INTL
+  org: OmarSamir
+  license: other
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/OmarSamir/EGTTS-V0.1
+  dialects:
+  - egy
+  year: 2025
+  notes: EGTTS V0.1 is a cutting-edge text-to-speech (TTS) model specifically designed for Egyptian Arabic.
+- id: audar-tts-v1-flash
+  name: Audar TTS V1 Flash
+  type: tts
+  country: INTL
+  org: Audar AI
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/audarai/Audar-TTS-V1-Flash
+  year: 2026
+  notes: Open, Arabic-first, expressive zero-shot text-to-speech — quantized to run anywhere.
+- id: vits-ar-sa-huba
+  name: vits ar sa huba
+  type: tts
+  country: INTL
+  org: wasmdashai
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - pretraining
+  links:
+    hf: https://huggingface.co/wasmdashai/vits-ar-sa-huba
+  dialects:
+  - gulf
+  year: 2024
+  tags:
+  - variants:1
+  notes: An advanced text-to-speech (TTS) system specifically designed for the Saudi dialect.
+- id: audar-tts-v1-turbo
+  name: Audar TTS V1 Turbo
+  type: tts
+  country: INTL
+  org: Audar AI
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/audarai/Audar-TTS-V1-Turbo
+  year: 2026
+  notes: Open, Arabic-first, expressive zero-shot text-to-speech — the balanced production default.
+- id: saudi-tts
+  name: saudi tts
+  type: tts
+  country: SA
+  org: Ahmed Eladl
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/AhmedEladl/saudi-tts
+  dialects:
+  - gulf
+  year: 2025
+  notes: A high-quality Text-to-Speech model for Saudi Arabic dialect.
+- id: emirati-fastpitch-bilingual-v1-0
+  name: emirati fastpitch bilingual v1.0
+  type: tts
+  country: AE
+  org: Vadim Belsky
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/vadimbelsky/emirati-fastpitch-bilingual-v1.0
+  dialects:
+  - gulf
+  year: 2026
+  notes: Designed for natural prosody, dialectal Emirati pronunciation, and seamless AR/EN mixing in real-world speech.
+- id: vits-ar
+  name: vits ar
+  type: tts
+  country: INTL
+  org: wasmdashai
+  license: afl-3.0
+  modality: speech
+  tasks:
+  - tts
+  - pretraining
+  links:
+    hf: https://huggingface.co/wasmdashai/vits-ar
+  dialects:
+  - mixed
+  year: 2024
+  notes: An advanced text-to-speech (TTS) system specifically designed for the Arabic language.
+- id: arabictts
+  name: ArabicTTS
+  type: tts
+  country: INTL
+  org: karrarkazuya
+  license: gpl-3.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/karrarkazuya/ArabicTTS
+  year: 2023
+  notes: ArabicTTS (TextToSpeech) Android library with a sample
+- id: spark-tts-arabic
+  name: Spark TTS Arabic
+  type: tts
+  country: INTL
+  org: MrEzzat
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/MrEzzat/Spark_TTS_Arabic
+  year: 2025
+  notes: Spark-TTS is an advanced text-to-speech system that uses the power of large language models (LLM) for highly accurate and natural-sounding voice synthesis.
+- id: samt
+  name: samt
+  type: tts
+  country: INTL
+  org: Moshe-ship
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/Moshe-ship/samt
+    website: https://moshe-ship.github.io/samt/
+  year: 2026
+  notes: Arabic Audio/TTS Quality Checker — 14 checks, quality score, zero dependencies
+- id: qwen3-tts-ksa
+  name: qwen3 TTS KSA
+  type: tts
+  country: AE
+  org: Vadim Belsky
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/vadimbelsky/qwen3-TTS-KSA
+  dialects:
+  - gulf
+  year: 2026
+  notes: A fine-tuned version of Qwen/Qwen3-TTS-12Hz-1.7B-Base for Saudi Arabian (Khaleeji/KSA) Arabic speech synthesis.
+- id: fasih-tts-v1
+  name: Fasih TTS V1
+  type: tts
+  country: INTL
+  org: NightPrince
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/NightPrince/Fasih-TTS-V1
+  dialects:
+  - msa
+  year: 2026
+  notes: Fasih-TTS-V1 · فَصِيح Modern Standard Arabic (Fusha) text-to-speech with a professional male voice.
+- id: qwen3-5-tts-emirati
+  name: qwen3.5 TTS Emirati
+  type: tts
+  country: AE
+  org: Vadim Belsky
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  - embedding
+  links:
+    hf: https://huggingface.co/vadimbelsky/qwen3.5-TTS-Emirati
+  dialects:
+  - gulf
+  year: 2026
+  notes: 🚀 Try the live demo on HuggingFace Spaces The base model (Qwen3-TTS-12Hz-1.7B-Base) ships with a fixed set of languages in its codec token vocabulary.
+- id: egy-arabic-qwen3-tts-12hz-1-7b-base
+  name: Egy Arabic Qwen3 TTS 12Hz 1.7B Base
+  type: tts
+  country: INTL
+  org: itshamdi404
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/itshamdi404/Egy_Arabic_Qwen3-TTS-12Hz-1.7B-Base
+  dialects:
+  - egy
+  size: 1.7B
+  on_device: false
+  year: 2026
+  notes: A fine-tuned Qwen3-TTS 1.7B model specialized in generating Egyptian Arabic (Masri) speech with a natural, conversational tone.
+- id: kemetone
+  name: kemetone
+  type: tts
+  country: INTL
+  org: Rabe3
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/Rabe3/kemetone
+  dialects:
+  - egy
+  year: 2026
+  notes: A fine-tune of Nabra-82M , itself built on Kokoro-82M .
+- id: lahja-sa-ahmad-v1
+  name: lahja sa ahmad v1
+  type: tts
+  country: INTL
+  org: wasmdashai
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/wasmdashai/lahja-sa-ahmad-v1
+  year: 2026
+  notes: Designed for both research and enterprise applications, Lahja SA Ahmad V1 enables developers to integrate realistic Arabic speech synthesis.
+- id: styletts2-libritts-arabic
+  name: StyleTTS2-LibriTTS-arabic
+  type: tts
+  country: INTL
+  org: fadi77
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/fadi77/StyleTTS2-LibriTTS-arabic
+  year: 2025
+  notes: This is an Arabic text-to-speech model based on StyleTTS2 architecture, specifically adapted for Arabic language synthesis.
+- id: niletts-xtts
+  name: NileTTS-XTTS
+  type: tts
+  country: INTL
+  org: KickItLikeShika
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/KickItLikeShika/NileTTS-XTTS
+  dialects:
+  - egy
+  year: 2026
+  notes: This model was fine-tuned on the NileTTS dataset, comprising 38 hours of Egyptian Arabic speech across medical, sales, and general conversation domains.
+- id: arabic-tts-xtts-v2
+  name: arabic tts xtts v2
+  type: tts
+  country: INTL
+  org: Moeeldouma
+  license: other
+  modality: speech
+  tasks:
+  - tts
+  - evaluation
+  links:
+    hf: https://huggingface.co/Moeeldouma/arabic-tts-xtts-v2
+  dialects:
+  - egy
+  year: 2026
+  notes: A systematic project to improve Coqui XTTS-v2 for high-quality Arabic text-to-speech generation.
+- id: vibevoice-arabic-z
+  name: vibevoice arabic Z
+  type: tts
+  country: INTL
+  org: ABDALLALSWAITI
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/ABDALLALSWAITI/vibevoice-arabic-Z
+  year: 2025
+  notes: This is a LoRA (Low-Rank Adaptation) fine-tuned model for Arabic text-to-speech, based on aoi-ot/VibeVoice-Large.
+- id: kani-tts-400m-ar
+  name: kani tts 400m ar
+  type: tts
+  country: INTL
+  org: nineninesix
+  license: other
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/nineninesix/kani-tts-400m-ar
+  size: 400M
+  on_device: true
+  year: 2026
+  notes: A high-speed, high-fidelity Text-to-Speech model optimized for real-time conversational AI applications.
+- id: darija-omnivoice-kore-v1
+  name: darija omnivoice kore v1
+  type: tts
+  country: INTL
+  org: ai-ssam
+  license: cc-by-nc-4.0
+  modality: speech
+  tasks:
+  - tts
+  - evaluation
+  links:
+    hf: https://huggingface.co/ai-ssam/darija-omnivoice-kore-v1
+  dialects:
+  - magh
+  year: 2026
+  notes: A full fine-tune of k2-fsa/OmniVoice for Moroccan Arabic (Darija), targeting the Kore voice.
+- id: chatterbox-multilingual-finetuned-arabic
+  name: chatterbox multilingual finetuned arabic
+  type: tts
+  country: INTL
+  org: juliardi
+  license: mit
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/juliardi/chatterbox-multilingual-finetuned-arabic
+  year: 2026
+  notes: This is an Arabic-focused fine-tuned version of ResembleAI/chatterbox multilingual model using LoRA (Low-Rank Adaptation).
+- id: lahja-sa-huba-v1
+  name: lahja sa huba v1
+  type: tts
+  country: INTL
+  org: wasmdashai
+  license: unknown
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/wasmdashai/lahja-sa-huba-v1
+  year: 2026
+  notes: Designed for both research and enterprise applications, Lahja SA Huba V1 enables developers to integrate realistic Arabic speech synthesis.
+- id: seasmed-fine-tuned-on-common-voice-17-arabic-samehelalfi
+  name: Seasmed Fine Tuned on Common Voice 17 Arabic
+  type: tts
+  country: INTL
+  org: samehelalfi
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/samehelalfi/Seasmed-Fine-Tuned-on-Common-Voice-17-Arabic
+  year: 2025
+  notes: This model is a fine-tuned version of sesame/csm-1b on the Arabic subset of Common Voice 17.0 dataset.
+- id: saudi-tts-v4
+  name: Saudi tts v4
+  type: tts
+  country: INTL
+  org: khalidhabbash
+  license: cc-by-nc-sa-4.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/khalidhabbash/Saudi-tts-v4
+  dialects:
+  - gulf
+  year: 2026
+  notes: Saudi TTS V4 is a 162.7M-parameter, reference-conditioned F5-TTS/DiT acoustic model adapted from SILMA TTS v1.
+- id: spark-tts-arabic-complete
+  name: Spark TTS Arabic Complete
+  type: tts
+  country: INTL
+  org: azeddinShr
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/azeddinShr/Spark-TTS-Arabic-Complete
+  dialects:
+  - classical
+  year: 2025
+  notes: Fine-tuned version of SparkAudio/Spark-TTS-0.5B specialized for Arabic text-to-speech synthesis.
+- id: speecht5-tts-arabic
+  name: speecht5 tts Arabic
+  type: tts
+  country: INTL
+  org: Reyouf
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - evaluation
+  links:
+    hf: https://huggingface.co/Reyouf/speecht5_tts_Arabic
+  year: 2024
+  notes: This model is a fine-tuned version of microsoft/speecht5tts on the Hakawati dataset.
+- id: egyptian-arabic-tts-chatterbox
+  name: egyptian arabic tts chatterbox
+  type: tts
+  country: INTL
+  org: AliAbdallah
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - chat
+  - tts
+  links:
+    hf: https://huggingface.co/AliAbdallah/egyptian-arabic-tts-chatterbox
+  dialects:
+  - egy
+  year: 2026
+  notes: First open-source Egyptian Arabic TTS model based on Chatterbox Multilingual TTS.
+- id: vibevoice-egy
+  name: VibeVoice-Egy
+  type: tts
+  country: INTL
+  org: MAdel121
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  - diacritization
+  links:
+    hf: https://huggingface.co/MAdel121/VibeVoice-Egy
+  dialects:
+  - egy
+  year: 2026
+  notes: Multi-speaker Egyptian Arabic fine-tune built on VibeVoice-Large (7B).
+- id: 3arab-tts-500m-v2
+  name: 3arab TTS 500M v2
+  type: tts
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/sherif1313/3arab-TTS-500M-v2
+  size: 500M
+  on_device: true
+  year: 2026
+  tags:
+  - variants:1
+  notes: Arabic text to speech model fine-tuned from sherif1313/3arab-TTS-500M-v1.
+- id: 3arab-tts-500m-v2-voicedesign
+  name: 3arab-TTS-500M-v2-VoiceDesign
+  type: tts
+  country: INTL
+  org: sherif1313
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/sherif1313/3arab-TTS-500M-v2-VoiceDesign
+  size: 500M
+  on_device: true
+  year: 2026
+  tags:
+  - variants:1
+  notes: Arabic text to speech model fine-tuned from sherif1313/3arab-TTS-500M-v2.

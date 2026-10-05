@@ -1,6 +1,6 @@
 # Arabic AI Atlas
 
-> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3291 entries, generated 2026-10-05.
+> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-10-05.
 
 ## Models
 

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-05",
-  "count": 3291,
+  "count": 3302,
   "entries": [
     {
       "id": "xtts-v2",
@@ -14607,6 +14607,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 80,
+      "notes": "In this paper, we evaluate the performance of 24 of these models on Arabic sentiment and sarcasm detection",
       "metrics": null
     },
     {
@@ -15052,6 +15053,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 52,
+      "notes": "In this paper, we describe our efforts on the shared task of sarcasm and sentiment detection in Arabic (Abu Farha et al., 2021)",
       "metrics": null
     },
     {
@@ -15092,6 +15094,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 48,
+      "notes": "We strongly believe thatmany NLU problems in Arabic are especiallypoised to reap the benefits of such models",
       "metrics": null
     },
     {
@@ -15176,6 +15179,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 29,
+      "notes": "In this study, we exploited this relationship to enhance both tasks by proposing a multi-task learning approach using a combination of static and",
       "metrics": null
     },
     {
@@ -15197,6 +15201,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 28,
+      "notes": "We propose two systems that harness knowledge from multiple tasks to improve the performance of the classifier",
       "metrics": null
     },
     {
@@ -15218,6 +15223,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 24,
+      "notes": "In this paper, we propose a new approach for improving Arabic sarcasm detection",
       "metrics": null
     },
     {
@@ -15342,6 +15348,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 18,
+      "notes": "In this paper we present designated solutions for sentiment classification and sarcasm detection tasks that were introduced as part of a shared task by Abu",
       "metrics": null
     },
     {
@@ -15363,6 +15370,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 17,
+      "notes": "In this work, we present our submission of the sub-task1 of the shared task on sarcasm and sentiment detection in Arabic organized by the 6th Workshop for",
       "metrics": null
     },
     {
@@ -15382,6 +15390,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 17,
+      "notes": "This paper describes our systems submitted to the Second Nuanced Arabic Dialect Identification Shared Task (NADI 2021)",
       "metrics": null
     },
     {
@@ -15402,6 +15411,7 @@
       "year": 2021,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 15,
+      "notes": "This paper presents results and main findings in WANLP 2021 shared tasks one and two",
       "metrics": null
     },
     {
@@ -16593,6 +16603,7 @@
       "year": 2020,
       "venue": "International Conference on Language Resources and Evaluation",
       "citations": 52,
+      "notes": "This paper introduces Habibi the first Arabic Song Lyrics corpus",
       "metrics": null
     },
     {
@@ -16634,6 +16645,7 @@
       "year": 2020,
       "venue": "International Conference on Language Resources and Evaluation",
       "citations": 47,
+      "notes": "We query Twitter using irony-related hashtags to collect ironic messages, which are then manually annotated by two linguists according to our working",
       "metrics": null
     },
     {
@@ -16653,6 +16665,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 38,
+      "notes": "To address these challenges, we create an Arabic conversational dataset that comprises empathetic responses",
       "metrics": null
     },
     {
@@ -16673,6 +16686,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 35,
+      "notes": "In this paper, we present the first effort on a unified model for Arabizi detection and transliteration into a code-mixed output with consistent Arabic",
       "metrics": null
     },
     {
@@ -16713,6 +16727,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 29,
+      "notes": "This paper, therefore, aims to investigate several neural network models based on Convolutional Neural Network (CNN) and Recurrent Neural Networks (RNN) to",
       "metrics": null
     },
     {
@@ -16754,6 +16769,7 @@
       "year": 2020,
       "venue": "International Conference on Language Resources and Evaluation",
       "citations": 24,
+      "notes": "In this paper we present the first full morphological analysis and disambiguation system for Gulf Arabic",
       "metrics": null
     },
     {
@@ -16774,6 +16790,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 24,
+      "notes": "In this paper, we investigate the Arabic dialect identification task, from two perspectives: country-level dialect identification from 21 Arab countries, and",
       "metrics": null
     },
     {
@@ -16794,6 +16811,7 @@
       "year": 2020,
       "venue": "International Conference on Language Resources and Evaluation",
       "citations": 23,
+      "notes": "In this paper, we present the MADAR CODA Corpus, a collection of 10,000 sentences from five Arabic city dialects (Beirut, Cairo, Doha, Rabat, and Tunis)",
       "metrics": null
     },
     {
@@ -16814,6 +16832,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 23,
+      "notes": "In this work, we propose two embedding strategies that modify the tokenization phase of traditional word embedding models (Word2Vec) and contextual word",
       "metrics": null
     },
     {
@@ -16855,6 +16874,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 21,
+      "notes": "This paper proposes a semi-supervised learning approach to train a BERT-based NER model using labeled and semi-labeled datasets",
       "metrics": null
     },
     {
@@ -16894,6 +16914,7 @@
       "year": 2020,
       "venue": "International Conference on Language Resources and Evaluation",
       "citations": 18,
+      "notes": "We present in this paper our work on Algerian language, an under-resourced North African colloquial Arabic variety, for which we built a comparably large",
       "metrics": null
     },
     {
@@ -16913,6 +16934,7 @@
       "year": 2020,
       "venue": "Workshop on Arabic Natural Language Processing",
       "citations": 16,
+      "notes": "In this paper, several techniques with multiple algorithms are applied for Arabic dialects identification starting from removing noise till classification task",
       "metrics": null
     },
     {
@@ -17961,6 +17983,7 @@
       "year": 2019,
       "venue": "WANLP@ACL 2019",
       "citations": 19,
+      "notes": "Word Embeddings (WE) are getting increasingly popular and widely applied in many Natural Language Processing (NLP) applications due to their effectiveness in",
       "metrics": null
     },
     {
@@ -18219,6 +18242,7 @@
       "year": 2018,
       "venue": "International Conference on Computational Linguistics",
       "citations": 139,
+      "notes": "This paper presents the first results on a fine-grained dialect classification task covering 25 specific cities from across the Arab World, in addition to",
       "metrics": null
     },
     {
@@ -18502,6 +18526,7 @@
       "year": 2018,
       "venue": "VarDial@COLING 2018",
       "citations": 69,
+      "notes": "We treat these two limitations:We (1) benchmark the data, and (2) empirically test6different deep learning methods on thetask, comparing peformance to several",
       "metrics": null
     },
     {
@@ -34707,6 +34732,30 @@
       }
     },
     {
+      "id": "acegpt-7b-chat-gguf-heshamharoon",
+      "name": "AceGPT-7B-chat-GGUF",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/AceGPT-7B-chat-GGUF"
+      },
+      "size": "7B",
+      "on_device": true,
+      "year": 2024,
+      "notes": "GGUF quantizations (Q4_K_M, Q5_K_M) of AceGPT-7B-chat for local CPU inference; the card gives no other details.",
+      "metrics": {
+        "downloads": 108,
+        "likes": 1,
+        "lastModified": "2024-01-18"
+      }
+    },
+    {
       "id": "arabic-punctuation",
       "name": "arabic punctuation",
       "type": "dataset",
@@ -37001,6 +37050,32 @@
       }
     },
     {
+      "id": "asfar-grpo",
+      "name": "asfar-grpo",
+      "type": "dataset",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "cc-by-4.0",
+      "modality": "text",
+      "tasks": [
+        "reasoning",
+        "question-answering"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/asfar-grpo"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Classical Arabic heritage (turath) tasks for GRPO/RLVR: QA, fill-mask and multiple choice, derived from the asfar corpus.",
+      "metrics": {
+        "downloads": 82,
+        "likes": 1,
+        "lastModified": "2026-04-24"
+      }
+    },
+    {
       "id": "athar",
       "name": "ATHAR",
       "type": "dataset",
@@ -38955,6 +39030,33 @@
       }
     },
     {
+      "id": "arabic-dialect-dpo",
+      "name": "arabic-dialect-dpo",
+      "type": "dataset",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "preference",
+        "alignment"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/arabic-dialect-dpo"
+      },
+      "dialects": [
+        "egy",
+        "gulf"
+      ],
+      "year": 2026,
+      "notes": "Arabic dialect preference pairs for DPO, ORPO and GRPO, with Egyptian and Saudi subsets.",
+      "metrics": {
+        "downloads": 63,
+        "likes": 0,
+        "lastModified": "2026-02-21"
+      }
+    },
+    {
       "id": "phoenix-arabic-manuscript-htr",
       "name": "phoenix arabic manuscript htr",
       "type": "ocr",
@@ -39640,6 +39742,32 @@
         "downloads": 58,
         "likes": 0,
         "lastModified": "2026-08-02"
+      }
+    },
+    {
+      "id": "oasst1-ar-threads",
+      "name": "oasst1-ar-threads",
+      "type": "dataset",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat",
+        "instruction-tuning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/oasst1-ar-threads"
+      },
+      "dialects": [
+        "msa"
+      ],
+      "year": 2023,
+      "notes": "Arabic conversation threads from OpenAssistant oasst1 with train and validation splits; used to tune llama-2-7b-chat-ar.",
+      "metrics": {
+        "downloads": 58,
+        "likes": 3,
+        "lastModified": "2023-12-28"
       }
     },
     {
@@ -42712,6 +42840,28 @@
       }
     },
     {
+      "id": "arabic-qwen-chat-llamafile",
+      "name": "arabic_Qwen_chat_llamafile",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/arabic_Qwen_chat_llamafile"
+      },
+      "year": 2024,
+      "notes": "Arabic chat model fine-tuned with Unsloth, published as Llama-architecture safetensors despite the llamafile name; no base or dataset listed.",
+      "metrics": {
+        "downloads": 39,
+        "likes": 3,
+        "lastModified": "2024-05-06"
+      }
+    },
+    {
       "id": "arsl21l",
       "name": "ArSL21L",
       "type": "dataset",
@@ -45074,6 +45224,30 @@
         "downloads": 30,
         "likes": 3,
         "lastModified": "2026-04-19"
+      }
+    },
+    {
+      "id": "llama-3-instruct-slerp-arabic",
+      "name": "llama-3-instruct-slerp-arabic",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "llama3",
+      "modality": "text",
+      "tasks": [
+        "chat"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/llama-3-instruct-slerp-arabic"
+      },
+      "size": "8B",
+      "on_device": false,
+      "year": 2024,
+      "notes": "Mergekit SLERP merge of Meta-Llama-3-8B-Instruct and HeshamHaroon/Egy_llama3 for Arabic chat.",
+      "metrics": {
+        "downloads": 30,
+        "likes": 1,
+        "lastModified": "2024-06-11"
       }
     },
     {
@@ -51352,6 +51526,31 @@
       }
     },
     {
+      "id": "llama-2-7b-chat-ar",
+      "name": "llama-2-7b-chat-ar",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "apache-2.0",
+      "modality": "text",
+      "tasks": [
+        "chat",
+        "instruction-tuning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/llama-2-7b-chat-ar"
+      },
+      "size": "7B",
+      "on_device": false,
+      "year": 2023,
+      "notes": "PEFT adapter on NousResearch/Llama-2-7b-chat-hf trained on HeshamHaroon/oasst1-ar-threads, Arabic OpenAssistant threads.",
+      "metrics": {
+        "downloads": 15,
+        "likes": 4,
+        "lastModified": "2024-01-18"
+      }
+    },
+    {
       "id": "marsum-moroccan-articles-summarisation",
       "name": "MArSUM: Moroccan Articles Summarisation",
       "type": "dataset",
@@ -51490,6 +51689,29 @@
         "downloads": 15,
         "likes": 0,
         "lastModified": "2022-10-24"
+      }
+    },
+    {
+      "id": "whisper-small-fleurs-ar-heshamharoon",
+      "name": "whisper-small-with-google-fleurs-ar",
+      "type": "asr",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/whisper-small-with-google-fleurs-ar"
+      },
+      "size": "small",
+      "year": 2024,
+      "notes": "Whisper small fine-tuned on the Google FLEURS Arabic split; the card gives no further details.",
+      "metrics": {
+        "downloads": 15,
+        "likes": 0,
+        "lastModified": "2024-02-08"
       }
     },
     {
@@ -52596,6 +52818,31 @@
         "downloads": 11,
         "likes": 1,
         "lastModified": "2025-05-10"
+      }
+    },
+    {
+      "id": "egy-instruct",
+      "name": "Egy_instruct",
+      "type": "dataset",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "instruction-tuning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/HeshamHaroon/Egy_instruct"
+      },
+      "dialects": [
+        "egy"
+      ],
+      "year": 2024,
+      "notes": "Egyptian Arabic instruction dataset (10K-100K rows) in a single parquet file; the card gives no further details.",
+      "metrics": {
+        "downloads": 11,
+        "likes": 0,
+        "lastModified": "2024-06-03"
       }
     },
     {
@@ -54127,6 +54374,28 @@
         "downloads": 6,
         "likes": 2,
         "lastModified": "2025-01-10"
+      }
+    },
+    {
+      "id": "llama2-qlora-finetuned-arabic",
+      "name": "llama2-qlora-finetunined-Arabic",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "instruction-tuning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/llama2-qlora-finetunined-Arabic"
+      },
+      "year": 2023,
+      "notes": "QLoRA PEFT adapter for Llama 2 fine-tuned on Arabic; the card lists no base model or dataset.",
+      "metrics": {
+        "downloads": 6,
+        "likes": 8,
+        "lastModified": "2023-07-21"
       }
     },
     {
@@ -58089,6 +58358,31 @@
       "year": 2021,
       "notes": "Several deep learning models for restoring Arabic diacritics in PyTorch.",
       "metrics": null
+    },
+    {
+      "id": "arabic-mistral-7b",
+      "name": "Arabic_mistral_7b",
+      "type": "llm",
+      "country": "EG",
+      "org": "Hesham Haroon",
+      "license": "unknown",
+      "modality": "text",
+      "tasks": [
+        "chat",
+        "instruction-tuning"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HeshamHaroon/Arabic_mistral_7b"
+      },
+      "size": "7B",
+      "on_device": false,
+      "year": 2024,
+      "notes": "Arabic Mistral 7B adapter trained with Unsloth; tagged ar, text-generation. The card lists no base model or dataset.",
+      "metrics": {
+        "downloads": 0,
+        "likes": 2,
+        "lastModified": "2024-05-06"
+      }
     },
     {
       "id": "arabic-ocr-from-pdf",

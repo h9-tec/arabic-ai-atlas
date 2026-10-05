@@ -4,12 +4,12 @@ Every entry of each type. The [README](../../README.md) shows only the top 20 pe
 
 | Type | Entries |
 | --- | --- |
-| [Large Language Models](llm.md) | 387 |
-| [Speech Recognition](asr.md) | 173 |
+| [Large Language Models](llm.md) | 393 |
+| [Speech Recognition](asr.md) | 174 |
 | [Text-to-Speech](tts.md) | 85 |
 | [OCR](ocr.md) | 51 |
 | [Embeddings](embedding.md) | 66 |
-| [Datasets](dataset.md) | 1159 |
+| [Datasets](dataset.md) | 1163 |
 | [Tools](tool.md) | 313 |
 | [Benchmarks](benchmark.md) | 165 |
 | [Organizations](org.md) | 125 |

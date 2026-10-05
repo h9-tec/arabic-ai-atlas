@@ -8844,5 +8844,64 @@
     "likes": 0,
     "lastModified": "2025-09-29",
     "license": "mit"
+  },
+  "HeshamHaroon/Arabic_mistral_7b": {
+    "downloads": 0,
+    "likes": 2,
+    "lastModified": "2024-05-06"
+  },
+  "HeshamHaroon/arabic_Qwen_chat_llamafile": {
+    "downloads": 39,
+    "likes": 3,
+    "lastModified": "2024-05-06"
+  },
+  "HeshamHaroon/llama-2-7b-chat-ar": {
+    "downloads": 15,
+    "likes": 4,
+    "lastModified": "2024-01-18",
+    "license": "apache-2.0"
+  },
+  "HeshamHaroon/llama-3-instruct-slerp-arabic": {
+    "downloads": 30,
+    "likes": 1,
+    "lastModified": "2024-06-11",
+    "license": "llama3"
+  },
+  "HeshamHaroon/AceGPT-7B-chat-GGUF": {
+    "downloads": 108,
+    "likes": 1,
+    "lastModified": "2024-01-18"
+  },
+  "HeshamHaroon/llama2-qlora-finetunined-Arabic": {
+    "downloads": 6,
+    "likes": 8,
+    "lastModified": "2023-07-21"
+  },
+  "datasets/HeshamHaroon/oasst1-ar-threads": {
+    "downloads": 58,
+    "likes": 3,
+    "lastModified": "2023-12-28"
+  },
+  "datasets/HeshamHaroon/Egy_instruct": {
+    "downloads": 11,
+    "likes": 0,
+    "lastModified": "2024-06-03"
+  },
+  "datasets/HeshamHaroon/arabic-dialect-dpo": {
+    "downloads": 63,
+    "likes": 0,
+    "lastModified": "2026-02-21",
+    "license": "apache-2.0"
+  },
+  "datasets/HeshamHaroon/asfar-grpo": {
+    "downloads": 82,
+    "likes": 1,
+    "lastModified": "2026-04-24",
+    "license": "cc-by-4.0"
+  },
+  "HeshamHaroon/whisper-small-with-google-fleurs-ar": {
+    "downloads": 15,
+    "likes": 0,
+    "lastModified": "2024-02-08"
   }
 }

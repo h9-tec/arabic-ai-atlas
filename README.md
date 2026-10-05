@@ -9,7 +9,7 @@
 **The Arabic AI ecosystem as a map, a list, and a skill your agent can install.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Entries](https://img.shields.io/badge/entries-3291-0A7E8C)
+![Entries](https://img.shields.io/badge/entries-3302-0A7E8C)
 ![Updated](https://img.shields.io/badge/updated-2026--10--05-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -52,7 +52,7 @@ Add this to your `.mcp.json`:
 | 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 2220 | 214 | 119 | 58 | 32 | 30 | 725 | 238 | 76 | 671 | 23 |
 | 🇸🇦 [Saudi Arabia](https://h9-tec.github.io/arabic-ai-atlas/#country=SA) | 355 | 46 | 11 | 8 | 9 | 28 | 163 | 19 | 25 | 11 | 35 |
 | 🇦🇪 [United Arab Emirates](https://h9-tec.github.io/arabic-ai-atlas/#country=AE) | 184 | 49 | 5 | 6 | 0 | 0 | 43 | 12 | 31 | 17 | 21 |
-| 🇪🇬 [Egypt](https://h9-tec.github.io/arabic-ai-atlas/#country=EG) | 144 | 23 | 21 | 6 | 5 | 7 | 54 | 5 | 2 | 2 | 18 |
+| 🇪🇬 [Egypt](https://h9-tec.github.io/arabic-ai-atlas/#country=EG) | 155 | 29 | 22 | 6 | 5 | 7 | 58 | 5 | 2 | 2 | 18 |
 | 🇶🇦 [Qatar](https://h9-tec.github.io/arabic-ai-atlas/#country=QA) | 128 | 9 | 3 | 0 | 2 | 0 | 63 | 10 | 17 | 19 | 5 |
 | 🇲🇦 [Morocco](https://h9-tec.github.io/arabic-ai-atlas/#country=MA) | 71 | 13 | 5 | 2 | 2 | 1 | 29 | 4 | 7 | 3 | 5 |
 | 🇩🇿 [Algeria](https://h9-tec.github.io/arabic-ai-atlas/#country=DZ) | 42 | 3 | 1 | 3 | 0 | 0 | 18 | 15 | 1 | 0 | 1 |
@@ -92,7 +92,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## 🧠 Large Language Models
 
-_Showing 20 of 387 · [see all 387 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_
+_Showing 20 of 393 · [see all 393 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_
 
 | Name | Org | Country | Size | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ _Showing 20 of 387 · [see all 387 on the interactive map](https://h9-tec.github
 
 ## 🎙️ Speech Recognition
 
-_Showing 20 of 173 · [see all 173 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr) · [full table](docs/tables/asr.md)_
+_Showing 20 of 174 · [see all 174 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr) · [full table](docs/tables/asr.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -227,7 +227,7 @@ _Showing 20 of 66 · [see all 66 on the interactive map](https://h9-tec.github.i
 
 ## 📊 Datasets
 
-_Showing 20 of 1159 · [see all 1159 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
+_Showing 20 of 1163 · [see all 1163 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
 
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -417,4 +417,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ---
 
-_Generated 2026-10-05 from 3291 entries. Do not edit README.md by hand._
+_Generated 2026-10-05 from 3302 entries. Do not edit README.md by hand._

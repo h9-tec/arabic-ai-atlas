@@ -48,7 +48,7 @@ a:hover .n { opacity: 0.85; }
 <line class="grid" x1="1217.5" y1="88" x2="1217.5" y2="1157"/>
 <line class="grid" x1="1560" y1="88" x2="1560" y2="1157"/>
 <text class="title" x="40" y="50">Arabic AI Atlas</text>
-<text class="sub" x="40" y="72">The Arabic AI ecosystem · 3291 entries · 2026-10-05</text>
+<text class="sub" x="40" y="72">The Arabic AI ecosystem · 3302 entries · 2026-10-05</text>
 <rect class="llm" x="1015" y="62" width="12" height="12" rx="3"/>
 <text class="legend" x="1031" y="72">LLM</text>
 <rect class="asr" x="1070" y="62" width="12" height="12" rx="3"/>
@@ -70,7 +70,7 @@ a:hover .n { opacity: 0.85; }
 <text class="colhead" x="446.9" y="105" text-anchor="middle">🇦🇪 AE</text>
 <text class="colsub" x="446.9" y="122" text-anchor="middle">UAE · 146</text>
 <text class="colhead" x="618.1" y="105" text-anchor="middle">🇪🇬 EG</text>
-<text class="colsub" x="618.1" y="122" text-anchor="middle">Egypt · 123</text>
+<text class="colsub" x="618.1" y="122" text-anchor="middle">Egypt · 134</text>
 <text class="colhead" x="789.4" y="105" text-anchor="middle">🇶🇦 QA</text>
 <text class="colsub" x="789.4" y="122" text-anchor="middle">Qatar · 104</text>
 <text class="colhead" x="960.6" y="105" text-anchor="middle">🇲🇦 MA</text>
@@ -80,7 +80,7 @@ a:hover .n { opacity: 0.85; }
 <text class="colhead" x="1388.8" y="105" text-anchor="middle">🌍 INTL</text>
 <text class="colsub" x="1388.8" y="122" text-anchor="middle">International · 1492</text>
 <text class="bandlabel" x="54" y="154">LLMs</text>
-<text class="bandsub" x="54" y="170">387 entries</text>
+<text class="bandsub" x="54" y="170">393 entries</text>
 <a href="https://huggingface.co/faisalq/bert-base-arapoembert" target="_blank" rel="noopener"><title>AraPoemBERT · King Saud University · 109K downloads</title><rect class="n llm" x="196" y="138" width="159.2" height="28" rx="5"/><text class="nl" x="275.6" y="156" text-anchor="middle">AraPoemBERT</text></a>
 <a href="https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview" target="_blank" rel="noopener"><title>ALLaM · SDAIA &amp; IBM · 11K downloads</title><rect class="n llm" x="196.6" y="171" width="158" height="28" rx="5"/><text class="nl" x="275.6" y="189" text-anchor="middle">ALLaM</text></a>
 <a href="https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview" target="_blank" rel="noopener"><title>ALLaM-7B-Instruct-preview · HUMAIN · 11K downloads</title><rect class="n llm" x="196.6" y="204" width="158" height="28" rx="5"/><text class="nl" x="275.6" y="222" text-anchor="middle">ALLaM-7B-Instruct-previ…</text></a>
@@ -98,7 +98,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/Applied-Innovation-Center/Karnak" target="_blank" rel="noopener"><title>Karnak LLM · Applied Innovation Center (MCIT Egypt) · 1K downloads</title><rect class="n llm" x="549.1" y="204" width="138" height="28" rx="5"/><text class="nl" x="618.1" y="222" text-anchor="middle">Karnak LLM</text></a>
 <a href="https://huggingface.co/IbrahimAmin/marbertv2-arabic-written-dialect-classifier" target="_blank" rel="noopener"><title>marbertv2 arabic written dialect classifier · Ibrahim Amin · 923 downloads</title><rect class="n llm" x="550.8" y="237" width="134.7" height="28" rx="5"/><text class="nl" x="618.1" y="255" text-anchor="middle">marbertv2 arabic wri…</text></a>
 <a href="https://huggingface.co/Applied-Innovation-Center/Karnak-6B-v1.0" target="_blank" rel="noopener"><title>Karnak-6B-v1.0 · Applied Innovation Center (MCIT Egypt) · 815 downloads</title><rect class="n llm" x="551.3" y="270" width="133.6" height="28" rx="5"/><text class="nl" x="618.1" y="288" text-anchor="middle">Karnak-6B-v1.0</text></a>
-<a href="https://github.com/h9-tec/arabic-ai-atlas#-large-language-models" target="_blank" rel="noopener"><title>18 more in the README</title><rect class="n more" x="582.1" y="303" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="321" text-anchor="middle">+18 more</text></a>
+<a href="https://github.com/h9-tec/arabic-ai-atlas#-large-language-models" target="_blank" rel="noopener"><title>24 more in the README</title><rect class="n more" x="582.1" y="303" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="321" text-anchor="middle">+24 more</text></a>
 <a href="https://huggingface.co/QCRI/Fanar-2-27B-Instruct" target="_blank" rel="noopener"><title>Fanar-2-27B-Instruct · QCRI · 204K downloads</title><rect class="n llm" x="709.8" y="138" width="159.2" height="28" rx="5"/><text class="nl" x="789.4" y="156" text-anchor="middle">Fanar-2-27B-Instruct</text></a>
 <a href="https://huggingface.co/QCRI/Fanar-1-9B-Instruct" target="_blank" rel="noopener"><title>Fanar-1-9B · QCRI · 11K downloads</title><rect class="n llm" x="710.3" y="171" width="158.2" height="28" rx="5"/><text class="nl" x="789.4" y="189" text-anchor="middle">Fanar-1-9B</text></a>
 <a href="https://huggingface.co/ahmedabdelali/bert-base-qarib" target="_blank" rel="noopener"><title>bert base qarib · QCRI · 1K downloads</title><rect class="n llm" x="719.2" y="204" width="140.3" height="28" rx="5"/><text class="nl" x="789.4" y="222" text-anchor="middle">bert base qarib</text></a>
@@ -124,7 +124,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/UBC-NLP/MARBERTv2" target="_blank" rel="noopener"><title>MARBERTv2 · UBC-NLP · 102K downloads</title><rect class="n llm" x="1261.3" y="270" width="177.9" height="28" rx="5"/><text class="nl" x="1350.2" y="288" text-anchor="middle">MARBERTv2</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-large-language-models" target="_blank" rel="noopener"><title>209 more in the README</title><rect class="n more" x="1444.2" y="270" width="72" height="28" rx="5"/><text class="nl" x="1480.2" y="288" text-anchor="middle">+209 more</text></a>
 <text class="bandlabel" x="54" y="359">Speech</text>
-<text class="bandsub" x="54" y="375">258 entries</text>
+<text class="bandsub" x="54" y="375">259 entries</text>
 <a href="https://huggingface.co/NAMAA-Space/Cohere-Speech-Tashkeel-2B" target="_blank" rel="noopener"><title>Cohere-Speech-Tashkeel-2B · NAMAA-Space · 1K downloads</title><rect class="n asr" x="206.1" y="343" width="139" height="28" rx="5"/><text class="nl" x="275.6" y="361" text-anchor="middle">Cohere-Speech-Tash…</text></a>
 <a href="https://huggingface.co/NAMAA-Space/NAMAA-Saudi-TTS-V2" target="_blank" rel="noopener"><title>NAMAA-Saudi-TTS-V2 · NAMAA-Space · 922 downloads</title><rect class="n tts" x="208.3" y="376" width="134.7" height="28" rx="5"/><text class="nl" x="275.6" y="394" text-anchor="middle">NAMAA-Saudi-TTS-…</text></a>
 <a href="https://huggingface.co/vadimbelsky/qwen3-asr-arabic-ksa" target="_blank" rel="noopener"><title>qwen3-asr-arabic-ksa · Vadim Belsky · 288 downloads</title><rect class="n asr" x="213.6" y="409" width="124" height="28" rx="5"/><text class="nl" x="275.6" y="427" text-anchor="middle">qwen3-asr-arabic-…</text></a>
@@ -142,7 +142,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/oddadmix/whisper-large-v3-arabic-dialectal-v2" target="_blank" rel="noopener"><title>whisper-large-v3-arabic-dialectal-v2 · oddadmix · 1K downloads</title><rect class="n asr" x="548.9" y="409" width="138.4" height="28" rx="5"/><text class="nl" x="618.1" y="427" text-anchor="middle">whisper-large-v3-ara…</text></a>
 <a href="https://huggingface.co/oddadmix/Nabra-82M-v0.1" target="_blank" rel="noopener"><title>Nabra-82M-v0.1 · oddadmix · 1K downloads</title><rect class="n tts" x="550.1" y="442" width="136.1" height="28" rx="5"/><text class="nl" x="618.1" y="460" text-anchor="middle">Nabra-82M-v0.1</text></a>
 <a href="https://huggingface.co/oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2" target="_blank" rel="noopener"><title>whisper-large-v3-turbo-arabic-dialectal-v2 · oddadmix · 1K downloads</title><rect class="n asr" x="550.1" y="475" width="136" height="28" rx="5"/><text class="nl" x="618.1" y="493" text-anchor="middle">whisper-large-v3-tur…</text></a>
-<a href="https://github.com/h9-tec/arabic-ai-atlas#%EF%B8%8F-speech-recognition" target="_blank" rel="noopener"><title>22 more in the README</title><rect class="n more" x="582.1" y="508" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="526" text-anchor="middle">+22 more</text></a>
+<a href="https://github.com/h9-tec/arabic-ai-atlas#%EF%B8%8F-speech-recognition" target="_blank" rel="noopener"><title>23 more in the README</title><rect class="n more" x="582.1" y="508" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="526" text-anchor="middle">+23 more</text></a>
 <a href="https://alt.qcri.org/demos" target="_blank" rel="noopener"><title>FarSpeech 2.0 · QCRI · — downloads</title><rect class="n asr" x="714.9" y="343" width="72" height="28" rx="5"/><text class="nl" x="750.9" y="361" text-anchor="middle">FarSpee…</text></a>
 <a href="https://arxiv.org/abs/2604.14186" target="_blank" rel="noopener"><title>HArnESS · QCRI · — downloads</title><rect class="n asr" x="791.9" y="343" width="72" height="28" rx="5"/><text class="nl" x="827.9" y="361" text-anchor="middle">HArnESS</text></a>
 <a href="https://alt.qcri.org/demos" target="_blank" rel="noopener"><title>QATS · QCRI · — downloads</title><rect class="n asr" x="753.4" y="376" width="72" height="28" rx="5"/><text class="nl" x="789.4" y="394" text-anchor="middle">QATS</text></a>
@@ -234,7 +234,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/google/xquad" target="_blank" rel="noopener"><title>xquad · HiTZ Center · 6K downloads</title><rect class="n benchmark" x="1274" y="852" width="152.4" height="28" rx="5"/><text class="nl" x="1350.2" y="870" text-anchor="middle">xquad</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-tools" target="_blank" rel="noopener"><title>339 more in the README</title><rect class="n more" x="1431.5" y="852" width="72" height="28" rx="5"/><text class="nl" x="1467.5" y="870" text-anchor="middle">+339 more</text></a>
 <text class="bandlabel" x="54" y="974">Datasets</text>
-<text class="bandsub" x="54" y="990">1159 entries</text>
+<text class="bandsub" x="54" y="990">1163 entries</text>
 <a href="https://huggingface.co/datasets/riotu-lab/SARD" target="_blank" rel="noopener"><title>SARD · riotu-lab · 56K downloads</title><rect class="n dataset" x="196" y="958" width="159.2" height="28" rx="5"/><text class="nl" x="275.6" y="976" text-anchor="middle">SARD</text></a>
 <a href="https://huggingface.co/datasets/arbml/Arabic_Sentiment_Twitter_Corpus" target="_blank" rel="noopener"><title>Arabic Sentiment Twitter Corpus · ARBML · 637 downloads</title><rect class="n dataset" x="210" y="991" width="131.3" height="28" rx="5"/><text class="nl" x="275.6" y="1009" text-anchor="middle">Arabic Sentiment T…</text></a>
 <a href="https://huggingface.co/datasets/faisalq/SFC-mini" target="_blank" rel="noopener"><title>SFC-mini · King Saud University · 551 downloads</title><rect class="n dataset" x="210.6" y="1024" width="130" height="28" rx="5"/><text class="nl" x="275.6" y="1042" text-anchor="middle">SFC-mini</text></a>
@@ -252,7 +252,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/ehabnegm/100-hour-Egyptian-dataset-single-speaker" target="_blank" rel="noopener"><title>Masri 100h · Ehab Negm · 3K downloads</title><rect class="n dataset" x="545.2" y="1024" width="145.8" height="28" rx="5"/><text class="nl" x="618.1" y="1042" text-anchor="middle">Masri 100h</text></a>
 <a href="https://huggingface.co/datasets/oddadmix/arabic-audio-collection-algerian-loubna-stories" target="_blank" rel="noopener"><title>arabic audio collection algerian loubna stories · oddadmix · 1K downloads</title><rect class="n dataset" x="548.6" y="1057" width="139" height="28" rx="5"/><text class="nl" x="618.1" y="1075" text-anchor="middle">arabic audio collecti…</text></a>
 <a href="https://huggingface.co/datasets/oddadmix/unnamed-ar" target="_blank" rel="noopener"><title>unnamed ar · oddadmix · 1K downloads</title><rect class="n dataset" x="549.1" y="1090" width="138" height="28" rx="5"/><text class="nl" x="618.1" y="1108" text-anchor="middle">unnamed ar</text></a>
-<a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>49 more in the README</title><rect class="n more" x="582.1" y="1123" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="1141" text-anchor="middle">+49 more</text></a>
+<a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>53 more in the README</title><rect class="n more" x="582.1" y="1123" width="72" height="28" rx="5"/><text class="nl" x="618.1" y="1141" text-anchor="middle">+53 more</text></a>
 <a href="https://huggingface.co/datasets/QCRI/MenaSpeechBank" target="_blank" rel="noopener"><title>MENASpeechBank · QCRI · 3K downloads</title><rect class="n dataset" x="716.3" y="958" width="146.1" height="28" rx="5"/><text class="nl" x="789.4" y="976" text-anchor="middle">MENASpeechBank</text></a>
 <a href="https://huggingface.co/datasets/QCRI/M2CQA" target="_blank" rel="noopener"><title>M2CQA · QCRI · 662 downloads</title><rect class="n dataset" x="723.5" y="991" width="131.7" height="28" rx="5"/><text class="nl" x="789.4" y="1009" text-anchor="middle">M2CQA</text></a>
 <a href="https://huggingface.co/datasets/QCRI/COVID-19-disinformation" target="_blank" rel="noopener"><title>COVID 19 disinformation · QCRI · 495 downloads</title><rect class="n dataset" x="724.9" y="1024" width="129" height="28" rx="5"/><text class="nl" x="789.4" y="1042" text-anchor="middle">COVID 19 disinfor…</text></a>
@@ -277,5 +277,5 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/MohamedRashad/arabic-books" target="_blank" rel="noopener"><title>Arabic Books · MohamedRashad · 33K downloads</title><rect class="n dataset" x="1304.9" y="1057" width="167.7" height="28" rx="5"/><text class="nl" x="1388.8" y="1075" text-anchor="middle">Arabic Books</text></a>
 <a href="https://huggingface.co/datasets/facebook/xnli" target="_blank" rel="noopener"><title>XNLI · Facebook AI Research · 31K downloads</title><rect class="n dataset" x="1266.7" y="1090" width="167.2" height="28" rx="5"/><text class="nl" x="1350.2" y="1108" text-anchor="middle">XNLI</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>720 more in the README</title><rect class="n more" x="1438.8" y="1090" width="72" height="28" rx="5"/><text class="nl" x="1474.8" y="1108" text-anchor="middle">+720 more</text></a>
-<text class="footer" x="1560" y="1179" text-anchor="end">Generated 2026-10-05 from 3291 entries · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1560" y="1179" text-anchor="end">Generated 2026-10-05 from 3302 entries · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

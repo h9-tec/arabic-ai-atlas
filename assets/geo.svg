@@ -84,7 +84,7 @@ a:hover .bubble { fill-opacity: 1; }
 </defs>
 <rect class="bg" x="0" y="0" width="1600" height="1055"/>
 <text class="title" x="24" y="42">Arabic AI Atlas</text>
-<text class="sub" x="24" y="66">Where Arabic AI is built · 3291 entries · 2026-10-05</text>
+<text class="sub" x="24" y="66">Where Arabic AI is built · 3302 entries · 2026-10-05</text>
 <circle cx="764.4" cy="61" r="6.5" fill="#4F46E5"/>
 <text class="lg" x="774.4" y="66">LLM</text>
 <circle cx="824.3" cy="61" r="6.5" fill="#0891B2"/>
@@ -399,21 +399,21 @@ a:hover .bubble { fill-opacity: 1; }
 </a>
 </g>
 <g class="mark" data-code="EG">
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=llm" target="_blank" rel="noopener"><title>Egypt · LLM · 23 entries · 11K downloads · most downloaded: MASRIBERT v4 (3K), Karnak 40B v1.0 (1K), Karnak LLM (1K)</title><circle class="bubble" cx="902.9" cy="297.3" r="7" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=asr" target="_blank" rel="noopener"><title>Egypt · ASR · 21 entries · 11K downloads · most downloaded: egyptian-arabic-wav2vec2-xlsr-53 (3K), QwenCleo-ASR (2K), whisper-large-v3-arabic-dialectal-v2 (1K)</title><circle class="bubble" cx="919.9" cy="304" r="7" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=llm" target="_blank" rel="noopener"><title>Egypt · LLM · 29 entries · 11K downloads · most downloaded: MASRIBERT v4 (3K), Karnak 40B v1.0 (1K), Karnak LLM (1K)</title><circle class="bubble" cx="902.9" cy="297.3" r="7" fill="#4F46E5"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=asr" target="_blank" rel="noopener"><title>Egypt · ASR · 22 entries · 11K downloads · most downloaded: egyptian-arabic-wav2vec2-xlsr-53 (3K), QwenCleo-ASR (2K), whisper-large-v3-arabic-dialectal-v2 (1K)</title><circle class="bubble" cx="919.9" cy="304" r="7" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tts" target="_blank" rel="noopener"><title>Egypt · TTS · 6 entries · 2K downloads · most downloaded: Nabra-82M-v0.1 (1K), Lahgtna OmniVoice v2 (554), Nabra 7M Distill (297)</title><circle class="bubble" cx="927.5" cy="318.7" r="5.3" fill="#0E7490"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=ocr" target="_blank" rel="noopener"><title>Egypt · OCR · 5 entries · 1K downloads · most downloaded: arabic-legal-documents-ocr-1.0 (486), waqf ocr hand written v1 (380), Katib-Qwen3.5-0.8B-0.1 (270)</title><circle class="bubble" cx="925.3" cy="332.8" r="4.9" fill="#B45309"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=embedding" target="_blank" rel="noopener"><title>Egypt · Embedding · 7 entries · 12K downloads · most downloaded: Arabic-STS-Matryoshka-V2 (6K), Arabic-Retrieval-v1.0 (5K), arabic english sts matryoshka v2.0 (131)</title><circle class="bubble" cx="913.9" cy="344.4" r="7.1" fill="#7C3AED"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tool" target="_blank" rel="noopener"><title>Egypt · Tool · 5 entries</title><circle class="bubble" cx="898.9" cy="346.6" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=benchmark" target="_blank" rel="noopener"><title>Egypt · Benchmark · 2 entries · 72 downloads · most downloaded: MasriSwitch-Bench (72)</title><circle class="bubble" cx="887.7" cy="341.7" r="4.2" fill="#B91C1C"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=dataset" target="_blank" rel="noopener"><title>Egypt · Dataset · 54 entries · 24K downloads · most downloaded: Dialectal Arabic Lahgtna v2 (6K), unnamed split ar (3K), Masri 100h (3K)</title><circle class="bubble" cx="878.7" cy="327.5" r="8.4" fill="#047857"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=dataset" target="_blank" rel="noopener"><title>Egypt · Dataset · 58 entries · 24K downloads · most downloaded: Dialectal Arabic Lahgtna v2 (6K), unnamed split ar (3K), Masri 100h (3K)</title><circle class="bubble" cx="878.7" cy="327.5" r="8.4" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=org" target="_blank" rel="noopener"><title>Egypt · Organisation · 18 entries</title><circle class="bubble" cx="880.7" cy="311" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=agent-skill" target="_blank" rel="noopener"><title>Egypt · Agent skill · 1 entry</title><circle class="bubble" cx="888.5" cy="301.9" r="4" fill="#9D174D"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG" target="_blank" rel="noopener">
-<title>Egypt, 142 entries</title>
-<text class="halo l-ar" x="902.9" y="379" text-anchor="middle" lang="ar">مصر</text>
-<text class="halo l-en" x="902.9" y="398" text-anchor="middle">Egypt</text>
-<text class="halo l-n" x="902.9" y="416" text-anchor="middle">142 entries</text>
+<title>Egypt, 153 entries</title>
+<text class="halo l-ar" x="902.9" y="379.1" text-anchor="middle" lang="ar">مصر</text>
+<text class="halo l-en" x="902.9" y="398.1" text-anchor="middle">Egypt</text>
+<text class="halo l-n" x="902.9" y="416.1" text-anchor="middle">153 entries</text>
 </a>
 </g>
 <g class="mark" data-code="AE">
@@ -488,5 +488,5 @@ a:hover .bubble { fill-opacity: 1; }
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=INTL&amp;type=org" target="_blank" rel="noopener"><title>International · Organisation · 23 entries</title><circle class="over" cx="645.9" cy="965" r="7"/><circle class="bubble" cx="645.9" cy="965" r="4" fill="#334155"/><text class="di-t" x="683.9" y="962">Organisation</text><text class="di-n" x="683.9" y="980">23 entries</text></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=INTL&amp;type=agent-skill" target="_blank" rel="noopener"><title>International · Agent skill · 34 entries</title><circle class="over" cx="841.9" cy="965" r="7"/><circle class="bubble" cx="841.9" cy="965" r="4" fill="#9D174D"/><text class="di-t" x="879.9" y="962">Agent skill</text><text class="di-n" x="879.9" y="980">34 entries</text></a>
 <line class="rule" x1="24" y1="1021" x2="1576" y2="1021"/>
-<text class="footer" x="1576" y="1041" text-anchor="end">Generated 2026-10-05 from 3291 entries · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1576" y="1041" text-anchor="end">Generated 2026-10-05 from 3302 entries · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

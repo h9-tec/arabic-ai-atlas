@@ -1,4 +1,4 @@
-# Speech Recognition (173)
+# Speech Recognition (174)
 
 [← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr)
 
@@ -136,6 +136,7 @@
 | whisper-small-codeswitching-ArabicEnglish | azeem23 | 🌍 INTL | mit | 19 | 2025-05-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/azeem23/whisper-small-codeswitching-ArabicEnglish) |
 | whisper small cv ar | ARBML | 🇸🇦 SA | apache-2.0 | 17 | 2024-08-31 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/arbml/whisper-small-cv-ar) |
 | hassaniya-french-speech-translation | Mamadou-Aw | 🌍 INTL | unknown | 15 | 2026-02-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Mamadou-Aw/hassaniya-french-speech-translation) |
+| whisper-small-with-google-fleurs-ar | Hesham Haroon | 🇪🇬 EG | unknown | 15 | 2024-02-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/HeshamHaroon/whisper-small-with-google-fleurs-ar) |
 | whisper base ar quran ft hijaiyah 2 | ojisetyawan | 🌍 INTL | apache-2.0 | 14 | 2024-12-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ojisetyawan/whisper-base-ar-quran-ft-hijaiyah-2) |
 | dvoice darija | aioxlabs | 🌍 INTL | apache-2.0 | 13 | 2022-05-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/aioxlabs/dvoice-darija) |
 | hamsa v0.1 beta | nadsoft | 🌍 INTL | apache-2.0 | 12 | 2023-11-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/nadsoft/hamsa-v0.1-beta) |

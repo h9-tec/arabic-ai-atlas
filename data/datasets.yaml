@@ -53,7 +53,7 @@
 - id: open-source-arabic-tts-benchmark
   name: Open-Source Arabic TTS Benchmark
   type: dataset
-  country: SA
+  country: INTL
   org: SILMA AI
   license: unknown
   modality: speech

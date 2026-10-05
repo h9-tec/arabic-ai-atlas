@@ -13,7 +13,7 @@
 - id: arabic-broad-leaderboard-abl
   name: Arabic Broad Leaderboard (ABL)
   type: benchmark
-  country: SA
+  country: INTL
   org: SILMA AI
   license: unknown
   modality: text
@@ -61,7 +61,7 @@
 - id: silma-ragqa-benchmark
   name: SILMA RAGQA Benchmark
   type: benchmark
-  country: SA
+  country: INTL
   org: SILMA AI
   license: apache-2.0
   modality: text
@@ -73,7 +73,7 @@
 - id: arabic-broad-benchmark-abb
   name: Arabic Broad Benchmark (ABB)
   type: benchmark
-  country: SA
+  country: INTL
   org: SILMA AI
   license: apache-2.0
   modality: text

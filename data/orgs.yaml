@@ -49,7 +49,7 @@
 - id: silma-ai
   name: SILMA AI
   type: org
-  country: SA
+  country: INTL
   org: SILMA AI
   license: unknown
   modality: none
@@ -57,7 +57,7 @@
   - research
   links:
     website: https://silma.ai/
-  notes: State-of-the-art Arabic LLMs - SILMA LLMs, Arabic Broad Benchmark
+  notes: US-based company founded by Egyptians; SILMA LLMs, SILMA TTS (open v1, commercial v2), Arabic Broad Benchmark.
 - id: mbzuai
   name: MBZUAI
   type: org

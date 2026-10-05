@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-05",
-  "count": 745,
+  "count": 746,
   "entries": [
     {
       "id": "xtts-v2",
@@ -2293,7 +2293,7 @@
       "id": "silma-1-0",
       "name": "SILMA 1.0",
       "type": "llm",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "gemma",
       "modality": "text",
@@ -2771,7 +2771,7 @@
       "id": "silma-kashif",
       "name": "SILMA Kashif",
       "type": "llm",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "gemma",
       "modality": "text",
@@ -3396,7 +3396,7 @@
       "id": "silma-embedding-matryoshka-v0-1",
       "name": "silma-embedding-matryoshka-v0.1",
       "type": "embedding",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
@@ -4349,7 +4349,7 @@
       "id": "silma-embedding-sts-v0-1",
       "name": "silma-embedding-sts-v0.1",
       "type": "embedding",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
@@ -4525,19 +4525,22 @@
       "id": "silma-tts",
       "name": "SILMA TTS v1",
       "type": "tts",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
-      "license": "mit",
+      "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
-        "tts"
+        "tts",
+        "voice-cloning"
       ],
       "links": {
         "github": "https://github.com/SILMA-AI/silma-tts",
         "hf": "https://huggingface.co/silma-ai/silma-tts"
       },
       "year": 2026,
-      "notes": "Lightweight open bilingual Arabic and English TTS from SILMA.",
+      "notes": "Open 150M bilingual Arabic/English TTS on the F5-TTS architecture; voice cloning from 8 s of audio.",
+      "size": "150M",
+      "on_device": true,
       "metrics": {
         "downloads": 437,
         "likes": 35,
@@ -7542,7 +7545,7 @@
       "id": "silma-ragqa-benchmark",
       "name": "SILMA RAGQA Benchmark",
       "type": "benchmark",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
@@ -9727,7 +9730,7 @@
       "id": "arabic-broad-benchmark-abb",
       "name": "Arabic Broad Benchmark (ABB)",
       "type": "benchmark",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "apache-2.0",
       "modality": "text",
@@ -11362,7 +11365,7 @@
       "id": "arabic-broad-leaderboard-abl",
       "name": "Arabic Broad Leaderboard (ABL)",
       "type": "benchmark",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "unknown",
       "modality": "text",
@@ -14820,7 +14823,7 @@
       "id": "open-source-arabic-tts-benchmark",
       "name": "Open-Source Arabic TTS Benchmark",
       "type": "dataset",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "unknown",
       "modality": "speech",
@@ -15609,7 +15612,7 @@
       "id": "silma-ai",
       "name": "SILMA AI",
       "type": "org",
-      "country": "SA",
+      "country": "INTL",
       "org": "SILMA AI",
       "license": "unknown",
       "modality": "none",
@@ -15619,7 +15622,27 @@
       "links": {
         "website": "https://silma.ai/"
       },
-      "notes": "State-of-the-art Arabic LLMs - SILMA LLMs, Arabic Broad Benchmark",
+      "notes": "US-based company founded by Egyptians; SILMA LLMs, SILMA TTS (open v1, commercial v2), Arabic Broad Benchmark.",
+      "metrics": null
+    },
+    {
+      "id": "silma-tts-v2",
+      "name": "SILMA TTS v2",
+      "type": "tts",
+      "country": "INTL",
+      "org": "SILMA AI",
+      "license": "proprietary",
+      "modality": "speech",
+      "tasks": [
+        "tts",
+        "voice-cloning"
+      ],
+      "links": {
+        "website": "https://silma.ai/arabic-text-to-speech",
+        "github": "https://github.com/SILMA-AI/livekit-plugins-silma"
+      },
+      "year": 2026,
+      "notes": "Commercial Arabic/English TTS API from SILMA AI with LiveKit and Pipecat plugins; successor to the open v1.",
       "metrics": null
     },
     {

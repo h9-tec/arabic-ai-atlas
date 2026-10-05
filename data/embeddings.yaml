@@ -209,7 +209,7 @@
 - id: silma-embedding-matryoshka-v0-1
   name: silma-embedding-matryoshka-v0.1
   type: embedding
-  country: SA
+  country: INTL
   org: SILMA AI
   license: apache-2.0
   modality: text
@@ -227,7 +227,7 @@
 - id: silma-embedding-sts-v0-1
   name: silma-embedding-sts-v0.1
   type: embedding
-  country: SA
+  country: INTL
   org: SILMA AI
   license: apache-2.0
   modality: text

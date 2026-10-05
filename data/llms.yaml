@@ -16,7 +16,7 @@
 - id: silma-1-0
   name: SILMA 1.0
   type: llm
-  country: SA
+  country: INTL
   org: SILMA AI
   license: gemma
   modality: text
@@ -343,7 +343,7 @@
 - id: silma-kashif
   name: SILMA Kashif
   type: llm
-  country: SA
+  country: INTL
   org: SILMA AI
   license: gemma
   modality: text

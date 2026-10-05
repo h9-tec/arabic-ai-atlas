@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))  # works even when the package is not installed
 
-from atlas.enrich import FETCHED_AT, apply_cached_licenses, build_hf_ids, fetch_hf_metrics, merge_metrics
+from atlas.enrich import FETCHED_AT, build_hf_ids, fetch_hf_metrics, merged_entries
 from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
 from atlas.render_wanted import render_wanted_block, render_wanted_table
@@ -57,7 +57,7 @@ def cmd_enrich(entries: list[dict], data: Path, date: str) -> int:
 def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]:
     """Render every generated file in memory, keyed by path relative to --out."""
     cache = _load_cache(data)
-    merged = merge_metrics(apply_cached_licenses(entries, cache), cache)
+    merged = merged_entries(entries, cache)
     wpath = data / ".cache" / "wanted.json"
     wdisk = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else {}
     statuses, wcache = evaluate(load_rules(data / "wanted.yaml"), merged, wdisk, date)
@@ -130,7 +130,7 @@ def cmd_check(entries: list[dict], data: Path, out: Path, date: str) -> int:
 def cmd_wanted(entries: list[dict], data: Path, date: str, base_cache: str | None) -> int:
     """Print one `closes wanted:<id>` line per rule filled relative to the base cache."""
     cache = _load_cache(data)
-    merged = merge_metrics(apply_cached_licenses(entries, cache), cache)
+    merged = merged_entries(entries, cache)
     wpath = data / ".cache" / "wanted.json"
     wdisk = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else {}
     _, wcache = evaluate(load_rules(data / "wanted.yaml"), merged, wdisk, date)

@@ -6,7 +6,7 @@ from collections.abc import Callable
 from urllib.parse import urlsplit
 
 _HF_HOSTS = {"huggingface.co", "www.huggingface.co"}
-_EXPAND = "?expand[]=downloads&expand[]=likes&expand[]=lastModified&expand[]=cardData"
+_EXPAND = "?expand[]=downloads&expand[]=likes&expand[]=lastModified&expand[]=cardData&expand[]=tags"
 FETCHED_AT = "fetched_at"  # single top-level cache key; per-entry dates churned every nightly diff
 METRIC_KEYS = ("downloads", "likes", "lastModified")
 _VAGUE_LICENSES = {"other", "unknown", "custom", "cc", "gpl"}  # no usable terms or version: stay unknown
@@ -57,6 +57,39 @@ def card_license(data: dict) -> str | None:
     return lic.strip().lower()
 
 
+MODEL_TYPES = ("llm", "asr", "tts", "ocr", "embedding")
+_RELATIONS = {"finetune", "adapter", "quantized", "merge"}
+
+
+def normalize_base(value: str) -> str:
+    v = value.strip().lower()
+    for prefix in ("https://", "http://"):
+        if v.startswith(prefix):
+            v = v[len(prefix):]
+    if v.startswith("www."):
+        v = v[4:]
+    if v.startswith("huggingface.co/"):
+        v = v[len("huggingface.co/"):]
+    return v.rstrip("/")
+
+
+def card_base_models(data: dict) -> list[str]:
+    """Base model ids from cardData.base_model, then `base_model:[relation:]id` tags."""
+    raw = (data.get("cardData") or {}).get("base_model")
+    found = [raw] if isinstance(raw, str) else list(raw) if isinstance(raw, list) else []
+    for tag in data.get("tags") or []:
+        if not isinstance(tag, str) or not tag.startswith("base_model:"):
+            continue
+        rest = tag[len("base_model:"):]
+        rel, _, tail = rest.partition(":")
+        found.append(tail if rel in _RELATIONS and tail else rest)
+    out: list[str] = []
+    for item in found:
+        if isinstance(item, str) and (n := normalize_base(item)) and n not in out:
+            out.append(n)
+    return out
+
+
 def fetch_hf_metrics(
     hf_ids: list[str],
     cache: dict,
@@ -83,6 +116,9 @@ def fetch_hf_metrics(
             lic = card_license(data)
             if lic:
                 row["license"] = lic
+            bases = card_base_models(data)
+            if bases:
+                row["base_model"] = bases
             new[hf_id] = row
         except Exception as exc:  # noqa: BLE001 - never raise from enrichment
             warnings.append(f"{hf_id}: {type(exc).__name__}: {exc}")
@@ -131,3 +167,20 @@ def apply_cached_licenses(entries: list[dict], cache: dict) -> list[dict]:
             entry = {**entry, "license": lic}
         out.append(entry)
     return out
+
+
+def apply_base_models(entries: list[dict], cache: dict) -> list[dict]:
+    """Fill a missing `base_model` on model-type entries from the HF cache; YAML wins."""
+    out = []
+    for entry in entries:
+        row = _cached(entry, cache)
+        bases = row.get("base_model") if row else None
+        if bases and entry.get("type") in MODEL_TYPES and not entry.get("base_model"):
+            entry = {**entry, "base_model": list(bases)}
+        out.append(entry)
+    return out
+
+
+def merged_entries(entries: list[dict], cache: dict) -> list[dict]:
+    """The one merge chain: cached licenses, base models, then metrics."""
+    return merge_metrics(apply_base_models(apply_cached_licenses(entries, cache), cache), cache)

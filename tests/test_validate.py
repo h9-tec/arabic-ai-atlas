@@ -85,3 +85,9 @@ def test_paper_without_paper_link_fails(schema, good_paper, links):
 def test_non_paper_needs_no_year_or_paper_link(schema, good_entry):
     assert "year" not in good_entry
     assert validate_entries([good_entry], schema) == []
+
+
+def test_base_model_only_on_model_types(good_entry, schema):
+    assert validate_entries([{**good_entry, "base_model": ["meta-llama/llama-2-7b"]}], schema) == []
+    assert validate_entries([{**good_entry, "type": "dataset", "base_model": ["x"]}], schema)
+    assert validate_entries([{**good_entry, "base_model": []}], schema)

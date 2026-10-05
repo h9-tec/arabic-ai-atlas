@@ -1,6 +1,6 @@
 import pytest
 
-from atlas.enrich import apply_cached_licenses, build_hf_ids, card_license, fetch_hf_metrics, hf_id_from_url, merge_metrics
+from atlas.enrich import apply_base_models, apply_cached_licenses, card_base_models, build_hf_ids, card_license, fetch_hf_metrics, hf_id_from_url, merge_metrics
 
 
 def test_hf_id_from_url_model_and_dataset():
@@ -118,3 +118,24 @@ def test_apply_cached_licenses_fills_only_unknown():
     out = apply_cached_licenses(entries, cache)
     assert [e["license"] for e in out] == ["apache-2.0", "gemma", "unknown"]
     assert entries[0]["license"] == "unknown"  # inputs are not mutated
+
+
+def test_card_base_models_forms():
+    data = {"cardData": {"base_model": "Meta-Llama/Llama-2-7b"},
+            "tags": ["base_model:finetune:meta-llama/llama-2-7b", "base_model:google/gemma-2-9b", "arabic"]}
+    assert card_base_models(data) == ["meta-llama/llama-2-7b", "google/gemma-2-9b"]
+    assert card_base_models({"cardData": {"base_model": ["https://huggingface.co/Qwen/Qwen2.5-7B/"]}}) == ["qwen/qwen2.5-7b"]
+    assert card_base_models({}) == []
+
+
+def test_fetch_stores_base_model():
+    cache, _ = fetch_hf_metrics(["a/b"], {}, fetch=lambda _: {"downloads": 1, "tags": ["base_model:x/y"]}, now="2026-10-05")
+    assert cache["a/b"]["base_model"] == ["x/y"]
+
+
+def test_yaml_base_model_wins_cache_fills_gaps(good_entry):
+    cache = {"inceptionai/jais-30b-v3": {"downloads": 1, "base_model": ["x/y"]}}
+    assert apply_base_models([good_entry], cache)[0]["base_model"] == ["x/y"]
+    assert apply_base_models([{**good_entry, "base_model": ["from-scratch"]}], cache)[0]["base_model"] == ["from-scratch"]
+    ds = {**good_entry, "type": "dataset"}
+    assert "base_model" not in apply_base_models([ds], cache)[0]

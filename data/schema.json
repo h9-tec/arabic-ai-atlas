@@ -9,6 +9,12 @@
     "required": ["year", "links"],
     "properties": {"links": {"required": ["paper"]}}
   },
+  "allOf": [
+    {
+      "if": {"required": ["base_model"]},
+      "then": {"properties": {"type": {"enum": ["llm", "asr", "tts", "ocr", "embedding"]}}}
+    }
+  ],
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "name": {"type": "string", "minLength": 1},
@@ -39,6 +45,7 @@
         "website": {"type": "string", "pattern": "^https?://"}
       }
     },
+    "base_model": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
     "notes": {"type": "string", "maxLength": 160},
     "_file": {"type": "string"}
   }

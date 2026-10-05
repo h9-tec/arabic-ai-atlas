@@ -73,6 +73,8 @@ def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]
         template = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
         skills = load_shipped_skills(ROOT / "skills")
         outputs["README.md"] = render_readme(merged, template, date, skills)
+        from atlas.render_readme import render_tables
+        outputs.update(render_tables(merged, date))
     if render_svg:
         outputs["assets/map.svg"] = render_svg(merged, date)
     from atlas.render_geo import render_geo_svg

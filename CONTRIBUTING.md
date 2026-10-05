@@ -47,8 +47,8 @@ For `type: paper`, `year` and `links.paper` (an arXiv or ACL Anthology URL) are 
 
 - Every entry passes the schema in `data/schema.json`.
 - Ids are unique.
-- The generated files match `data/` byte for byte (`build --check`), rendered with the `generated_at` date in `dist/atlas.json`. A hand edit anywhere in `README.md`, `assets/` or `dist/` fails CI.
+- The generated files match `data/` byte for byte (`build --check`), rendered with the `generated_at` date in `dist/atlas.json`. A hand edit anywhere in `README.md`, `docs/tables/`, `assets/` or `dist/` fails CI.
 
 ## Never edit by hand
 
-`README.md`, `assets/` and `dist/` are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py build`.
+`README.md`, `docs/tables/`, `assets/` and `dist/` are generated. Edit `data/` (or `templates/`) and run `uv run python scripts/build.py build`.

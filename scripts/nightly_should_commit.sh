@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Decide whether the staged nightly refresh is worth a commit.
 #
-# The nightly build re-stamps dates in README.md, assets/*.svg, dist/* and the
+# The nightly build re-stamps dates in README.md, docs/tables/*.md, assets/*.svg, dist/* and the
 # HF cache every day. Committing a date-only diff would make every open data PR
 # conflict with main for no content change, so we skip it.
 #
@@ -12,7 +12,7 @@
 #   - a changed line contains no date (YYYY-MM-DD, or the badge form YYYY--MM--DD).
 set -euo pipefail
 
-generated=" README.md assets/map.svg assets/geo.svg dist/llms.txt dist/atlas.json data/.cache/hf.json "
+generated=" README.md docs/tables/README.md assets/map.svg assets/geo.svg dist/llms.txt dist/atlas.json data/.cache/hf.json "
 
 if git diff --cached --quiet; then
   echo "skip: nothing staged"
@@ -22,6 +22,7 @@ fi
 while IFS=$'\t' read -r added deleted file; do
   case "$generated" in
     *" $file "*) ;;
+    docs/tables/*.md) ;;
     *) echo "commit: $file changed"; exit 0 ;;
   esac
   if [ "$added" != "$deleted" ]; then

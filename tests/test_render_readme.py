@@ -77,11 +77,38 @@ def test_papers_section_sorted_year_citations_title(fixture_entries):
         dict(base, id="p-new-hi", name="Alpha", year=2025, venue="arXiv 2025", tasks=["asr"], citations=50),
     ]
     out = render(fixture_entries + papers)
-    assert "- [📄 Papers](#-papers)" in out
-    section = out.split("## 📄 Papers")[1].split("## 🏢")[0]
+    assert "- [📄 Papers](#-papers-3)" in out
+    section = out.split("## 📄 Papers (3)")[1].split("## 🏢")[0]
     assert "| Title | Venue | Year | Topic | Links |" in section
     rows = [l for l in section.splitlines() if l.startswith("| ") and "Title" not in l and "---" not in l[:6]]
     assert [r.split(" | ")[0][2:] for r in rows] == ["Alpha", "Zeta", "Old"]
     assert "| Old | ACL 2020 | 2020 | survey, llm |" in section
     assert out.index("## 🏆 Benchmarks") < out.index("## 📄 Papers")
     assert "from 9 entries" in out  # hero total counts papers
+
+
+def _many(fixture_entries, n, type_="llm"):
+    base = dict(fixture_entries[0], type=type_, links={})
+    return [dict(base, id=f"syn-{i:02d}", name=f"Syn {i:02d}", metrics={"downloads": 1000 - i}) for i in range(n)]
+
+
+def test_section_capped_at_20_rows(fixture_entries):
+    others = [e for e in fixture_entries if e["type"] != "llm"]
+    out = render(others + _many(fixture_entries, 25))
+    section = out.split("## 🧠 Large Language Models (25)")[1].split("\n## ")[0]
+    rows = [l for l in section.splitlines() if l.startswith("| Syn ")]
+    assert len(rows) == 20
+    assert rows[0].startswith("| Syn 00 |") and rows[-1].startswith("| Syn 19 |")
+    assert ("_Showing 20 of 25 · [see all 25 on the interactive map]"
+            "(https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_") in section
+
+
+def test_no_showing_line_when_not_capped(fixture_entries):
+    assert "_Showing" not in render(fixture_entries)
+
+
+def test_country_table(fixture_entries):
+    out = render(fixture_entries)
+    sec = out.split("### Entries by country")[1].split("###")[0]
+    assert "| Country | Entries | LLM | ASR | TTS | OCR | Embedding | Datasets | Tools | Benchmarks | Papers | Orgs |" in sec
+    assert "(https://h9-tec.github.io/arabic-ai-atlas/#country=" in sec

@@ -45,6 +45,10 @@ Add this to your `.mcp.json`:
 - A nightly job pulls Hugging Face downloads and regenerates the map, README, `dist/atlas.json` and `dist/llms.txt`.
 - The repo is itself a Claude Code plugin: 5 skills + an MCP server that reads the atlas offline.
 
+### Entries by country
+
+{{COUNTRY_TABLE}}
+
 ### Grid view
 
 The same atlas as a country-by-type grid, with the most downloaded entries named in each cell.
@@ -53,60 +57,60 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🧠 Large Language Models](#-large-language-models)
-- [🎙️ Speech Recognition](#️-speech-recognition)
-- [🔊 Text-to-Speech](#-text-to-speech)
-- [📖 OCR](#-ocr)
-- [🔤 Embeddings](#-embeddings)
-- [📊 Datasets](#-datasets)
-- [🔧 Tools](#-tools)
-- [🏆 Benchmarks](#-benchmarks)
-- [📄 Papers](#-papers)
-- [🏢 Organizations](#-organizations)
-- [🧩 Arabic Agent Skills](#-arabic-agent-skills)
+- [🧠 Large Language Models](#-large-language-models-{{COUNT:llm}})
+- [🎙️ Speech Recognition](#️-speech-recognition-{{COUNT:asr}})
+- [🔊 Text-to-Speech](#-text-to-speech-{{COUNT:tts}})
+- [📖 OCR](#-ocr-{{COUNT:ocr}})
+- [🔤 Embeddings](#-embeddings-{{COUNT:embedding}})
+- [📊 Datasets](#-datasets-{{COUNT:dataset}})
+- [🔧 Tools](#-tools-{{COUNT:tool}})
+- [🏆 Benchmarks](#-benchmarks-{{COUNT:benchmark}})
+- [📄 Papers](#-papers-{{COUNT:paper}})
+- [🏢 Organizations](#-organizations-{{COUNT:org}})
+- [🧩 Arabic Agent Skills](#-arabic-agent-skills-{{COUNT:agent-skill}})
 - [🤝 Contributing](#-contributing)
 
-## 🧠 Large Language Models
+## 🧠 Large Language Models ({{COUNT:llm}})
 
 {{TABLE:llm}}
 
-## 🎙️ Speech Recognition
+## 🎙️ Speech Recognition ({{COUNT:asr}})
 
 {{TABLE:asr}}
 
-## 🔊 Text-to-Speech
+## 🔊 Text-to-Speech ({{COUNT:tts}})
 
 {{TABLE:tts}}
 
-## 📖 OCR
+## 📖 OCR ({{COUNT:ocr}})
 
 {{TABLE:ocr}}
 
-## 🔤 Embeddings
+## 🔤 Embeddings ({{COUNT:embedding}})
 
 {{TABLE:embedding}}
 
-## 📊 Datasets
+## 📊 Datasets ({{COUNT:dataset}})
 
 {{TABLE:dataset}}
 
-## 🔧 Tools
+## 🔧 Tools ({{COUNT:tool}})
 
 {{TABLE:tool}}
 
-## 🏆 Benchmarks
+## 🏆 Benchmarks ({{COUNT:benchmark}})
 
 {{TABLE:benchmark}}
 
-## 📄 Papers
+## 📄 Papers ({{COUNT:paper}})
 
 {{TABLE:paper}}
 
-## 🏢 Organizations
+## 🏢 Organizations ({{COUNT:org}})
 
 {{TABLE:org}}
 
-## 🧩 Arabic Agent Skills
+## 🧩 Arabic Agent Skills ({{COUNT:agent-skill}})
 
 Skills shipped in this repo:
 
@@ -122,7 +126,7 @@ Other Arabic agent skills in the wild:
 2. Run `uv run python scripts/build.py build` (it uses the committed Hugging Face cache; the nightly job refreshes metrics).
 3. Open a PR.
 
-CI rejects hand edits to `README.md`, `assets/` and `dist/`.
+CI rejects hand edits to `README.md`, `docs/tables/`, `assets/` and `dist/`.
 
 ## 📜 License
 

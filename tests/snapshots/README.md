@@ -45,6 +45,14 @@ Add this to your `.mcp.json`:
 - A nightly job pulls Hugging Face downloads and regenerates the map, README, `dist/atlas.json` and `dist/llms.txt`.
 - The repo is itself a Claude Code plugin: 5 skills + an MCP server that reads the atlas offline.
 
+### Entries by country
+
+| Country | Entries | LLM | ASR | TTS | OCR | Embedding | Datasets | Tools | Benchmarks | Papers | Orgs |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 3 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 🇸🇦 [Saudi Arabia](https://h9-tec.github.io/arabic-ai-atlas/#country=SA) | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 🇦🇪 [United Arab Emirates](https://h9-tec.github.io/arabic-ai-atlas/#country=AE) | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
 ### Grid view
 
 The same atlas as a country-by-type grid, with the most downloaded entries named in each cell.
@@ -53,20 +61,20 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🧠 Large Language Models](#-large-language-models)
-- [🎙️ Speech Recognition](#️-speech-recognition)
-- [🔊 Text-to-Speech](#-text-to-speech)
-- [📖 OCR](#-ocr)
-- [🔤 Embeddings](#-embeddings)
-- [📊 Datasets](#-datasets)
-- [🔧 Tools](#-tools)
-- [🏆 Benchmarks](#-benchmarks)
-- [📄 Papers](#-papers)
-- [🏢 Organizations](#-organizations)
-- [🧩 Arabic Agent Skills](#-arabic-agent-skills)
+- [🧠 Large Language Models](#-large-language-models-3)
+- [🎙️ Speech Recognition](#️-speech-recognition-0)
+- [🔊 Text-to-Speech](#-text-to-speech-1)
+- [📖 OCR](#-ocr-0)
+- [🔤 Embeddings](#-embeddings-0)
+- [📊 Datasets](#-datasets-2)
+- [🔧 Tools](#-tools-0)
+- [🏆 Benchmarks](#-benchmarks-0)
+- [📄 Papers](#-papers-0)
+- [🏢 Organizations](#-organizations-0)
+- [🧩 Arabic Agent Skills](#-arabic-agent-skills-0)
 - [🤝 Contributing](#-contributing)
 
-## 🧠 Large Language Models
+## 🧠 Large Language Models (3)
 
 | Name | Org | Country | Size | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -74,55 +82,55 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 | Jais 30B | Inception AI | 🇦🇪 AE | 30B | apache-2.0 | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inceptionai/jais-30b-v3) |
 | SILMA 9B | SILMA AI | 🌍 INTL | 9B | gemma | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0) |
 
-## 🎙️ Speech Recognition
+## 🎙️ Speech Recognition (0)
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 🔊 Text-to-Speech
+## 🔊 Text-to-Speech (1)
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 | Fish Speech (Arabic) | Fish Audio | 🌍 INTL | cc-by-nc-sa-4.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/fishaudio/fish-speech) |
 
-## 📖 OCR
+## 📖 OCR (0)
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 🔤 Embeddings
+## 🔤 Embeddings (0)
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 📊 Datasets
+## 📊 Datasets (2)
 
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CIDAR | ARBML | 🇸🇦 SA | — | cc-by-4.0 | — | — | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/arbml/CIDAR) |
 | Masader | ARBML | 🌍 INTL | — | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ARBML/masader) |
 
-## 🔧 Tools
+## 🔧 Tools (0)
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
 
-## 🏆 Benchmarks
+## 🏆 Benchmarks (0)
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
 
-## 📄 Papers
+## 📄 Papers (0)
 
 | Title | Venue | Year | Topic | Links |
 | --- | --- | --- | --- | --- |
 
-## 🏢 Organizations
+## 🏢 Organizations (0)
 
 | Name | Country | Focus | Links |
 | --- | --- | --- | --- |
 
-## 🧩 Arabic Agent Skills
+## 🧩 Arabic Agent Skills (0)
 
 Skills shipped in this repo:
 
@@ -139,7 +147,7 @@ Other Arabic agent skills in the wild:
 2. Run `uv run python scripts/build.py build` (it uses the committed Hugging Face cache; the nightly job refreshes metrics).
 3. Open a PR.
 
-CI rejects hand edits to `README.md`, `assets/` and `dist/`.
+CI rejects hand edits to `README.md`, `docs/tables/`, `assets/` and `dist/`.
 
 ## 📜 License
 

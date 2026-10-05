@@ -294,7 +294,9 @@ def render_geo_svg(merged: list[dict], generated_at: str) -> str:
     arab_ids.update({m["id"]: (c, False) for c, m in others.items()})
     arab_ids.setdefault("732", ("EH", False))  # Western Sahara: hatched, unlabeled
 
-    entries = sorted(merged, key=lambda e: e["id"])
+    # Papers are literature, not located artifacts: not drawn, not counted in bubbles
+    # (the header `count` below still includes them).
+    entries = sorted((e for e in merged if e.get("type") != "paper"), key=lambda e: e["id"])
     by, intl = aggregate(entries)
     counts = {c: sum(t["n"] for t in by.get(c, {}).values()) for c in countries}
     top = max(counts.values(), default=0)

@@ -33,7 +33,7 @@ def search(
     type/country/modality filters are exact. Results are ordered by downloads, most first.
 
     Valid values:
-      type: llm, asr, tts, ocr, embedding, dataset, benchmark, tool, agent-skill, org
+      type: llm, asr, tts, ocr, embedding, dataset, benchmark, tool, agent-skill, org, paper
       country: SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, DZ, LY, SD, IQ, SY, YE, PS, MR, SO, DJ, KM, INTL
       modality: text, speech, vision, multimodal, none
 
@@ -56,13 +56,13 @@ def recommend(
     Score = 3 if the task is in the entry's tasks, +2 if the dialect matches, +1 if the task
     word appears in its notes; zero-score entries are dropped. Each result carries `score`
     and `why`. Ties go to models (llm, asr, tts, ocr, embedding) over datasets, benchmarks,
-    tools and orgs, then to downloads.
+    tools and orgs, then papers (literature, not model picks; pass type="paper" to get them), then to downloads.
 
     task: e.g. chat, tts, asr, ocr, embedding, translation.
     dialect: msa, egy, gulf, lev, magh, iraqi, sudanese, yemeni, classical, mixed (optional; entries lacking dialect data still match on task).
     on_device: true keeps only entries marked on-device (phone or laptop CPU); false drops those; omit for no filter.
     license_filter: "open" excludes proprietary/unknown licenses; any other string must equal the license exactly (optional).
-    type: exact entry type, e.g. "tts" to get models only, "dataset" for training data (optional).
+    type: exact entry type, e.g. "tts" to get models only, "dataset" for training data, "paper" for research papers (optional).
 
     Example: recommend(task="tts", type="tts", on_device=true, license_filter="open")
     """

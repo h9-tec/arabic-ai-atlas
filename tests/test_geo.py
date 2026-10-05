@@ -170,3 +170,13 @@ def test_all_22_arab_league_countries_are_first_class():
     assert len(meta["countries"]) == 22 and not meta["arab_league_other"]
     for code in ("DJ", "KM", "PS", "BH", "QA", "KW", "LB"):
         assert "anchor" in meta["countries"][code], code
+
+
+def test_papers_add_nothing_to_geo_map(fixture_entries):
+    paper = dict(fixture_entries[0], id="some-paper", name="Quokka Paper", type="paper", year=2024, links={"paper": "https://arxiv.org/abs/1"})
+    base = render_geo_svg(_merged(fixture_entries), "2026-10-04")
+    svg = render_geo_svg(_merged(fixture_entries + [paper]), "2026-10-04")
+    n = len(fixture_entries)
+    assert "Quokka Paper" not in svg
+    swapped = svg.replace(f"· {n + 1} entries ·", f"· {n} entries ·").replace(f"from {n + 1} entries", f"from {n} entries")
+    assert swapped == base  # bubbles, cells and the dock are unchanged; only header totals count papers

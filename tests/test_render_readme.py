@@ -67,3 +67,21 @@ import pytest
 def test_hf_badge_label(url, label):
     from atlas.render_readme import badges
     assert f"https://img.shields.io/badge/-{label}-FFD21E" in badges({"links": {"hf": url}})
+
+
+def test_papers_section_sorted_year_citations_title(fixture_entries):
+    base = dict(fixture_entries[0], type="paper", modality="text", license="unknown", org="Various", links={"paper": "https://arxiv.org/abs/1"})
+    papers = [
+        dict(base, id="p-old", name="Old", year=2020, venue="ACL 2020", tasks=["survey", "llm"]),
+        dict(base, id="p-new-lo", name="Zeta", year=2025, venue="arXiv 2025", tasks=["asr"], citations=1),
+        dict(base, id="p-new-hi", name="Alpha", year=2025, venue="arXiv 2025", tasks=["asr"], citations=50),
+    ]
+    out = render(fixture_entries + papers)
+    assert "- [📄 Papers](#-papers)" in out
+    section = out.split("## 📄 Papers")[1].split("## 🏢")[0]
+    assert "| Title | Venue | Year | Topic | Links |" in section
+    rows = [l for l in section.splitlines() if l.startswith("| ") and "Title" not in l and "---" not in l[:6]]
+    assert [r.split(" | ")[0][2:] for r in rows] == ["Alpha", "Zeta", "Old"]
+    assert "| Old | ACL 2020 | 2020 | survey, llm |" in section
+    assert out.index("## 🏆 Benchmarks") < out.index("## 📄 Papers")
+    assert "from 9 entries" in out  # hero total counts papers

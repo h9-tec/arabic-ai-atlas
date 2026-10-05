@@ -92,3 +92,12 @@ def test_new_arab_league_country_lands_in_other_column(fixture_entries):
     x = float(re.search(r'<a [^>]*>\s*<title>DZ Model[^<]*</title><rect [^>]*? x="([\d.]+)"', svg).group(1))
     left = PAD + GUTTER + COL_X["OTHER"][0]
     assert left <= x <= left + COL_X["OTHER"][1]
+
+
+def test_papers_not_drawn_on_grid(fixture_entries):
+    paper = dict(fixture_entries[0], id="some-paper", name="Quokka Paper", type="paper", year=2024, links={"paper": "https://arxiv.org/abs/1"})
+    base = render_svg(_merged(fixture_entries), "2026-10-04")
+    svg = render_svg(_merged(fixture_entries + [paper]), "2026-10-04")
+    assert "Quokka Paper" not in svg
+    n = len(fixture_entries)
+    assert svg.replace(f"{n + 1} entries", f"{n} entries") == base  # only the header totals change

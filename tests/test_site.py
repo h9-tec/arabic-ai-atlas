@@ -60,6 +60,11 @@ const out = {
   whisper: atlas.filter(E, {q: "WHISPER"}).length,
   folds: atlas.fold("\u0625\u0639\u0631\u0627\u0628") === atlas.fold("\u0627\u0639\u0631\u0627\u0628"),
   all: atlas.filter(E, {}).length,
+  paper_n: atlas.filter(E, {type: "paper"}).length,
+  paper_all_papers: atlas.filter(E, {type: "paper"}).every(e => e.type === "paper"),
+  paper_parsed: atlas.parseHash("#type=paper").type,
+  paper_cell: map.cellMax(E.concat([{type: "paper", country: "INTL", metrics: {downloads: 9e12}}]), true).key,
+  intl_cell: map.cellMax(E, true).key,
   nc: atlas.licenseClass("cc-by-nc-4.0"), open: atlas.licenseClass("apache-2.0"),
   unknown: atlas.licenseClass("unknown"), prop: atlas.licenseClass("proprietary"),
   fair: atlas.licenseClass("fair-noncommercial-research-license"), falcon: atlas.licenseClass("falcon-llm-license"),
@@ -102,6 +107,10 @@ def test_filter_logic_in_node(tmp_path):
     assert out["tts_on_device"] >= 1
     assert out["whisper"] >= 5
     assert out["all"] == count
+    assert out["paper_n"] == sum(1 for e in json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))["entries"] if e["type"] == "paper")
+    assert out["paper_all_papers"] is True
+    assert out["paper_parsed"] == ["paper"]
+    assert out["paper_cell"] == out["intl_cell"]  # papers never count toward map bubbles
     assert out["folds"] is True
     assert (out["nc"], out["open"], out["unknown"], out["prop"]) == ("nc", "open", "unknown", "unknown")
     assert (out["fair"], out["falcon"]) == ("nc", "open")

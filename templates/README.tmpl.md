@@ -61,6 +61,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [📊 Datasets](#-datasets)
 - [🔧 Tools](#-tools)
 - [🏆 Benchmarks](#-benchmarks)
+- [📄 Papers](#-papers)
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🤝 Contributing](#-contributing)
@@ -96,6 +97,10 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 ## 🏆 Benchmarks
 
 {{TABLE:benchmark}}
+
+## 📄 Papers
+
+{{TABLE:paper}}
 
 ## 🏢 Organizations
 

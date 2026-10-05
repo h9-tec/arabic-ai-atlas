@@ -53,3 +53,35 @@ def test_missing_required_field_fails(field, schema, good_entry):
     bad = {k: v for k, v in good_entry.items() if k != field}
     errs = validate_entries([bad], schema)
     assert len(errs) == 1 and errs[0].startswith("llms.yaml:")
+
+
+@pytest.fixture
+def good_paper() -> dict:
+    return {
+        "id": "arabert", "name": "AraBERT", "type": "paper", "country": "INTL", "org": "Various",
+        "license": "unknown", "modality": "text", "year": 2020, "venue": "OSACT 2020", "citations": 900,
+        "tasks": ["pretraining"], "links": {"paper": "https://aclanthology.org/2020.osact-1.2/"},
+        "notes": "BERT-style Arabic encoder.", "_file": "papers.yaml",
+    }
+
+
+def test_valid_paper_passes(schema, good_paper):
+    assert validate_entries([good_paper], schema) == []
+
+
+def test_paper_without_year_fails(schema, good_paper):
+    del good_paper["year"]
+    errors = validate_entries([good_paper], schema)
+    assert any("year" in e for e in errors)
+
+
+@pytest.mark.parametrize("links", [{"github": "https://github.com/aub-mind/arabert"}, {"hf": "https://huggingface.co/x/y"}])
+def test_paper_without_paper_link_fails(schema, good_paper, links):
+    good_paper["links"] = links
+    errors = validate_entries([good_paper], schema)
+    assert any("paper" in e for e in errors)
+
+
+def test_non_paper_needs_no_year_or_paper_link(schema, good_entry):
+    assert "year" not in good_entry
+    assert validate_entries([good_entry], schema) == []

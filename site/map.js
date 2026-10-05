@@ -60,6 +60,7 @@
   function cellMax(entries, intl) {
     var cells = {}, best = { key: null, downloads: 0 };
     (entries || []).forEach(function (e) {
+      if (e.type === "paper") return; // literature, not a located artifact
       var c = e.country || "INTL";
       if ((c === "INTL") !== !!intl) return;
       var k = c + "|" + e.type;
@@ -288,6 +289,7 @@
   function aggregate(entries) {
     var by = {}, intl = {};
     entries.forEach(function (e) {
+      if (e.type === "paper") return; // literature, not a located artifact
       var c = e.country || "INTL";
       var bucket = c === "INTL" ? intl : (by[c] = by[c] || {});
       var t = bucket[e.type] = bucket[e.type] || { n: 0, downloads: 0, top: [] };

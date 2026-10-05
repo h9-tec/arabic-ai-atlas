@@ -106,3 +106,14 @@ def test_get_missing_returns_none(fixture_entries):
     m = _merged(fixture_entries)
     assert get(m, "nope") is None
     assert get(m, "jais-30b")["id"] == "jais-30b"
+
+
+def test_recommend_ranks_papers_below_datasets_unless_requested():
+    base = {"country": "INTL", "org": "x", "license": "mit", "modality": "text", "tasks": ["asr"], "links": {"paper": "https://arxiv.org/abs/1"}}
+    entries = [
+        dict(base, id="p", name="Aaa Paper", type="paper", year=2024),
+        dict(base, id="d", name="Zzz Data", type="dataset"),
+        dict(base, id="m", name="Mmm Model", type="asr"),
+    ]
+    assert [r["id"] for r in recommend(entries, "asr", limit=5)] == ["m", "d", "p"]
+    assert [r["id"] for r in recommend(entries, "asr", type="paper")] == ["p"]

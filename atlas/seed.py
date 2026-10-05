@@ -164,3 +164,87 @@ def dedupe(entries: list[dict]) -> list[dict]:
         seen.add(e["id"])
         kept.append(e)
     return kept
+
+
+# ---------- papers ----------
+# Curated per reference number in Awesome_Arabic_NLP: (tasks, modality, one-line contribution, extra links).
+PAPER_META: dict[int, tuple[list[str], str, str, dict]] = {
+    1: (["survey", "llm"], "text", "Survey of Arabic LLMs: models, data, and evaluation to date.", {}),
+    2: (["pretraining", "encoder"], "text", "BERT-style Arabic encoder pretrained on a large MSA corpus.", {"github": "https://github.com/aub-mind/arabert"}),
+    3: (["pretraining", "encoder"], "text", "Studies how variant, size and task type shape Arabic pretrained encoders (CAMeLBERT).", {}),
+    4: (["pretraining", "encoder", "dialect-id"], "text", "ARBERT and MARBERT: MSA and dialect-heavy encoders, plus the ARLUE benchmark.", {}),
+    5: (["pretraining", "instruction-tuning", "llm"], "text", "Arabic-centric bilingual LLMs and chat models trained from scratch.", {"hf": "https://huggingface.co/inceptionai/jais-13b-chat"}),
+    6: (["ner", "dataset"], "text", "Nested named entity corpus in MSA and dialect, with a recognition baseline.", {}),
+    7: (["survey", "nlp"], "text", "Survey of deep learning methods across Arabic NLP tasks.", {}),
+    8: (["survey", "benchmark", "evaluation"], "text", "Survey of Arabic LLM benchmarks, evaluation methods and gaps.", {}),
+    9: (["embedding", "benchmark"], "text", "Dialect-aware Swan embedding models and the ArabicMTEB benchmark.", {}),
+    10: (["embedding", "sts"], "text", "Matryoshka-style general Arabic text embeddings for semantic textual similarity.", {}),
+    11: (["survey", "llm", "dialects"], "text", "Survey of LLMs for Arabic and its dialects.", {}),
+    12: (["hate-speech", "dataset"], "text", "Arabic hate speech detection: corpus design and evaluation.", {}),
+    13: (["dialect-id", "shared-task"], "text", "Overview of the fifth Nuanced Arabic Dialect Identification shared task.", {}),
+    14: (["diacritization"], "text", "Character-based Transformer for Arabic diacritization (tashkeel).", {"github": "https://github.com/abjadai/catt"}),
+    15: (["pretraining", "llm"], "text", "Native Arabic GPT-style LLM family.", {}),
+    16: (["pretraining", "multilingual", "llm"], "text", "Recipe for adapting LLMs to new languages including Arabic.", {}),
+    17: (["pretraining", "encoder", "dialects"], "text", "BERT pretrained on Saudi dialect corpora.", {}),
+    18: (["pretraining", "llm"], "text", "ALLaM: Arabic and English LLMs via second-language acquisition-style training.", {}),
+    19: (["pretraining", "encoder", "dialects"], "text", "BERT pretrained on Egyptian dialect corpora.", {}),
+}
+ARAB_AFFILIATIONS = {"SDAIA": "SA"}  # known Arab institutions that appear in the source text
+
+_REF_RE = re.compile(r"^\[(\d+)\]\s+(.*?)\s*\((\d{4})\)\.\s+(.*)$")
+_BODY_RE = re.compile(r"\[\[(\d+)\]\]\(#references\)")
+
+
+def _paper_venue(rest: str, year: str) -> str:
+    italic = re.search(r"\*([^*]+)\*", rest)
+    if not italic or italic.group(1).lower().startswith("arxiv"):
+        return f"arXiv {year}"
+    journal = re.sub(r",?\s*\d+$", "", italic.group(1)).strip()
+    return f"{journal} {year}"
+
+
+def _paper_id(name: str) -> str:
+    slug = slugify(name)
+    return slug if len(slug) <= 60 else slug[:60].rsplit("-", 1)[0]
+
+
+def parse_papers(markdown: str) -> list[dict]:
+    """Papers from the 'Foundational & Survey' and 'Recent Papers' lists, linked via the References block."""
+    refs: dict[int, dict] = {}
+    for line in markdown.splitlines():
+        m = _REF_RE.match(line.strip())
+        if not m:
+            continue
+        url = re.search(r"https?://\S+", m.group(4))
+        if url:
+            refs[int(m.group(1))] = {"title": m.group(2), "year": int(m.group(3)), "venue": _paper_venue(m.group(4), m.group(3)), "url": url.group(0)}
+    entries: list[dict] = []
+    in_section = False
+    for line in markdown.splitlines():
+        if line.startswith("### "):
+            in_section = "foundational & survey papers" in line.lower() or "recent papers" in line.lower()
+            continue
+        if line.startswith("## "):
+            in_section = False
+        if not in_section:
+            continue
+        ref = _BODY_RE.search(line)
+        bold = re.search(r"\*\*(.+?)\*\*", line)
+        if not (ref and bold) or int(ref.group(1)) not in refs:
+            continue
+        n = int(ref.group(1))
+        r, (tasks, modality, notes, extra) = refs[n], PAPER_META[n]
+        name = bold.group(1)
+        sub = re.search(r"\*\*\s+—\s+(.+?)\s+\(", line)
+        if sub:
+            name = f"{name}: {sub.group(1)}"
+        org, country = "Various", "INTL"
+        for key, code in ARAB_AFFILIATIONS.items():
+            if key in line:
+                org, country = re.search(r"\(([^()]*?" + key + r"[^()]*?),\s*\d{4}\)", line).group(1), code
+        entries.append({
+            "id": _paper_id(name), "name": name, "type": "paper", "country": country, "org": org,
+            "license": "unknown", "modality": modality, "year": r["year"], "venue": r["venue"],
+            "tasks": tasks, "links": {"paper": r["url"], **extra}, "notes": notes,
+        })
+    return entries

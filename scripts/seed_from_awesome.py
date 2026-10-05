@@ -10,7 +10,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from atlas.seed import dedupe, parse_tables  # noqa: E402
+from atlas.seed import dedupe, parse_papers, parse_tables  # noqa: E402
 
 FILES = {
     "llm": "llms.yaml",
@@ -23,6 +23,7 @@ FILES = {
     "benchmark": "benchmarks.yaml",
     "org": "orgs.yaml",
     "agent-skill": "agent-skills.yaml",
+    "paper": "papers.yaml",
 }
 
 
@@ -38,7 +39,8 @@ def main() -> None:
             if path.exists() and yaml.safe_load(path.read_text(encoding="utf-8")):
                 print(f"refusing to overwrite curated {path}; pass --force to override", file=sys.stderr)
                 sys.exit(2)
-    entries = dedupe(parse_tables(args.src.expanduser().read_text(encoding="utf-8")))
+    markdown = args.src.expanduser().read_text(encoding="utf-8")
+    entries = dedupe(parse_tables(markdown)) + parse_papers(markdown)
     args.out.mkdir(parents=True, exist_ok=True)
     for typ, fname in FILES.items():
         group = [e for e in entries if e["type"] == typ]

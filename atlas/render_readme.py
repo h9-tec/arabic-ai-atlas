@@ -24,6 +24,7 @@ COLUMNS = {
     "benchmark": ["Name", "Org", "Country", "License", "Links", "Notes"],
     "org": ["Name", "Country", "Focus", "Links"],
     "agent-skill": ["Name", "Org", "Notes", "Links"],
+    "paper": ["Title", "Venue", "Year", "Topic", "Links"],
 }
 
 
@@ -73,8 +74,14 @@ def _country(entry: dict) -> str:
 
 def _cell(entry: dict, col: str) -> str:
     m = entry.get("metrics") or {}
-    if col == "Name":
+    if col in ("Name", "Title"):
         return esc(entry.get("name"))
+    if col == "Venue":
+        return esc(entry.get("venue"))
+    if col == "Year":
+        return esc(entry.get("year"))
+    if col == "Topic":
+        return esc(", ".join(entry.get("tasks") or []))
     if col == "Org":
         return esc(entry.get("org"))
     if col == "Country":
@@ -94,7 +101,10 @@ def _cell(entry: dict, col: str) -> str:
 
 def render_table(entries: list[dict], type_: str) -> str:
     rows = [e for e in entries if e.get("type") == type_]
-    rows.sort(key=lambda e: (-((e.get("metrics") or {}).get("downloads") or 0), str(e.get("name", "")).lower()))
+    if type_ == "paper":
+        rows.sort(key=lambda e: (-(e.get("year") or 0), -(e.get("citations") or 0), str(e.get("name", "")).lower()))
+    else:
+        rows.sort(key=lambda e: (-((e.get("metrics") or {}).get("downloads") or 0), str(e.get("name", "")).lower()))
     cols = COLUMNS[type_]
     lines = ["| " + " | ".join(cols) + " |", "|" + "|".join(" --- " for _ in cols) + "|"]
     for e in rows:

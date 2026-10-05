@@ -2,7 +2,7 @@
 
 ## Add a resource
 
-1. Pick the file under `data/` that matches the resource type (`llms.yaml`, `asr.yaml`, `tts.yaml`, `ocr.yaml`, `embeddings.yaml`, `datasets.yaml`, `tools.yaml`, `benchmarks.yaml`, `orgs.yaml`, `agent-skills.yaml`).
+1. Pick the file under `data/` that matches the resource type (`llms.yaml`, `asr.yaml`, `tts.yaml`, `ocr.yaml`, `embeddings.yaml`, `datasets.yaml`, `tools.yaml`, `benchmarks.yaml`, `orgs.yaml`, `agent-skills.yaml`, `papers.yaml`).
 2. Copy the template entry below to the end of that file and fill in the fields.
 3. Run `uv run python scripts/build.py build` to validate and regenerate the README, map and dist files. It reads the committed Hugging Face cache and needs no network; do not run `all`, which refetches metrics and touches every row (the nightly job does that).
 4. Open a pull request with the YAML change and the regenerated files.
@@ -12,7 +12,7 @@
 ```yaml
 - id: my-resource            # unique, lowercase, hyphen-separated
   name: My Resource          # display name
-  type: llm                  # llm | asr | tts | ocr | embedding | dataset | tool | benchmark | org | agent-skill
+  type: llm                  # llm | asr | tts | ocr | embedding | dataset | tool | benchmark | org | agent-skill | paper
   country: SA                # SA | AE | EG | QA | MA | JO | TN | LB | KW | OM | BH | DZ | LY | SD | IQ | SY | YE | PS | MR | SO | DJ | KM | INTL
   org: Example Lab           # maintaining organization
   license: apache-2.0        # SPDX id, or unknown
@@ -28,7 +28,11 @@
     - msa
   tags: []                   # optional: free-text tags
   notes: One short line.     # optional: at most 160 characters
+  venue: ACL 2024            # optional (papers): "ACL 2024", "arXiv 2025", "Interspeech 2023"
+  citations: 120             # optional (papers): integer citation count
 ```
+
+For `type: paper`, `year` and `links.paper` (an arXiv or ACL Anthology URL) are required; `tasks` names the topic (`survey`, `pretraining`, `asr`, `benchmark`), `notes` is the one-line contribution, and `links.github` / `links.hf` may point to released artifacts. A paper qualifies if it is a peer-reviewed or arXiv paper about Arabic AI that is a survey, introduces a resource listed in the atlas, or is widely cited. Papers appear in the Papers list only, not on the maps.
 
 ## Rules
 

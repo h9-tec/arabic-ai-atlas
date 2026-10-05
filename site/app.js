@@ -6,13 +6,13 @@
 
   var COLORS = {
     llm: "#4F46E5", asr: "#0891B2", tts: "#0E7490", ocr: "#B45309", embedding: "#7C3AED",
-    tool: "#475569", benchmark: "#B91C1C", dataset: "#047857", org: "#334155", "agent-skill": "#9D174D"
+    tool: "#475569", benchmark: "#B91C1C", dataset: "#047857", org: "#334155", "agent-skill": "#9D174D", paper: "#6B7280"
   };
   var TYPE_LABELS = {
     llm: "LLM", asr: "ASR", tts: "TTS", ocr: "OCR", embedding: "Embedding", tool: "Tool",
-    benchmark: "Benchmark", dataset: "Dataset", org: "Organisation", "agent-skill": "Agent skill"
+    benchmark: "Benchmark", dataset: "Dataset", org: "Organisation", "agent-skill": "Agent skill", paper: "Paper"
   };
-  var TYPE_ORDER = ["llm", "asr", "tts", "ocr", "embedding", "tool", "benchmark", "dataset", "org", "agent-skill"];
+  var TYPE_ORDER = ["llm", "asr", "tts", "ocr", "embedding", "tool", "benchmark", "dataset", "org", "agent-skill", "paper"];
   var COUNTRY_NAMES = {
     SA: "Saudi Arabia", AE: "UAE", EG: "Egypt", QA: "Qatar", MA: "Morocco", JO: "Jordan", TN: "Tunisia",
     LB: "Lebanon", KW: "Kuwait", OM: "Oman", BH: "Bahrain",
@@ -44,7 +44,7 @@
   };
   var LICENSE_LABELS = { open: "Open", nc: "Non-commercial", unknown: "Unknown" };
   var TASK_FOR_TYPE = { llm: "chat", asr: "asr", tts: "tts", ocr: "ocr", embedding: "embedding",
-    dataset: "pretraining", benchmark: "evaluation", tool: "nlp-toolkit", "agent-skill": "agent-skill", org: "research" };
+    dataset: "pretraining", benchmark: "evaluation", tool: "nlp-toolkit", "agent-skill": "agent-skill", org: "research", paper: "survey" };
   var LINK_ORDER = [["hf", "Hugging Face"], ["github", "GitHub"], ["paper", "Paper"], ["website", "Website"]];
   var CELL_LIMIT = 8;
 
@@ -380,6 +380,20 @@
     $(sectionId).hidden = entries.length === 0;
   }
 
+  // Papers are literature, not located artifacts: a list sorted by year, never on the map or grid.
+  function renderPapers(entries) {
+    var list = $("papers-list");
+    list.textContent = "";
+    entries.sort(function (a, b) {
+      return (b.year || 0) - (a.year || 0) || (b.citations || 0) - (a.citations || 0) || a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+    }).forEach(function (e) {
+      var meta = [e.venue, e.citations ? e.citations + " citations" : null].filter(Boolean).join(" · ");
+      list.appendChild(el("li", null, [node(e), el("span", { className: "where", text: meta })]));
+    });
+    $("papers-count").textContent = String(entries.length);
+    $("papers").hidden = entries.length === 0;
+  }
+
   function hasFilters(st) {
     var c = {}; for (var k in st) c[k] = st[k];
     c.view = "map";
@@ -404,11 +418,13 @@
       // The map shows every country under the other filters, so picking another one stays possible.
       var facet = {}; for (var k in STATE) facet[k] = STATE[k];
       facet.country = [];
-      window.AtlasMap.update({ entries: filterEntries(ENTRIES, facet), visible: visible, state: normalizeState(STATE) });
+      var located = function (e) { return e.type !== "paper"; };
+      window.AtlasMap.update({ entries: filterEntries(ENTRIES, facet).filter(located), visible: visible.filter(located), state: normalizeState(STATE) });
     }
     renderGrid(visible);
     renderRoster("orgs", "orgs-list", "orgs-count", visible.filter(function (e) { return e.type === "org"; }));
     renderRoster("skills", "skills-list", "skills-count", visible.filter(function (e) { return e.type === "agent-skill"; }));
+    renderPapers(visible.filter(function (e) { return e.type === "paper"; }));
     syncChips();
     syncFoldSummary();
     var n = visible.length;
@@ -460,6 +476,8 @@
       row("Dialects", (e.dialects || []).map(function (d) { return DIALECT_LABELS[d] || d; }).join(", ")),
       row("Size", e.size),
       row("Downloads", m.downloads ? fmtDownloads(m.downloads) : null),
+      row("Venue", e.venue),
+      row("Citations", e.citations),
       row("Updated", m.lastModified || (e.year ? String(e.year) : null)),
       row("On device", e.on_device ? "Yes" : null)
     ]);

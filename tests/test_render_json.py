@@ -42,3 +42,17 @@ def test_llms_txt_caps_section_at_25():
     txt = build_llms_txt(merged, "2026-10-04")
     assert txt.count("- [M") == 25
     assert "- [M00](https://g/0)\n" in txt
+
+
+def test_llms_txt_papers_section(fixture_entries):
+    merged, _ = _merged(fixture_entries)
+    base = dict(merged[0], type="paper", metrics=None, links={"paper": "https://arxiv.org/abs/2506.01340"})
+    papers = [dict(base, id="p1", name="Older", year=2020), dict(base, id="p2", name="Newer", year=2025),
+              dict(base, id="p3", name="Newer cited", year=2025, citations=9)]
+    txt = build_llms_txt(merged + papers, "2026-10-04")
+    section = txt.split("## Papers")[1].split("## Optional")[0]
+    assert [l.split("]")[0][3:] for l in section.splitlines() if l.startswith("- ")] == ["Newer cited", "Newer", "Older"]
+    assert "(https://arxiv.org/abs/2506.01340)" in section
+    many = [dict(base, id=f"m{i}", name=f"P{i:02d}", year=2024) for i in range(40)]
+    capped = build_llms_txt(merged + many, "2026-10-04").split("## Papers")[1].split("## Optional")[0]
+    assert capped.count("\n- ") == 25

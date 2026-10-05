@@ -50,6 +50,12 @@ def _fmt_downloads(n: int) -> str:
 MODEL_TYPES = ("llm", "asr", "tts", "ocr", "embedding")
 
 
+def _tier(e: dict) -> int:
+    """Tie-break tier: models 0, datasets/benchmarks/tools/orgs 1, papers 2 (not model picks)."""
+    t = e.get("type")
+    return 0 if t in MODEL_TYPES else 2 if t == "paper" else 1
+
+
 def recommend(
     entries: list[dict],
     task: str,
@@ -64,7 +70,7 @@ def recommend(
     on_device: True keeps only entries marked `on_device: true`; False drops those
     and keeps everything else (most entries leave the field unset); None: no filter.
     type: exact filter on entry type. When None, model types (llm, asr, tts, ocr,
-    embedding) rank above datasets, benchmarks, tools and orgs at equal score.
+    embedding) rank above datasets, benchmarks, tools and orgs, and papers rank last, at equal score.
     """
     t = task.lower()
     d = dialect.lower() if dialect else None
@@ -99,7 +105,7 @@ def recommend(
         if _downloads(e):
             why.append(_fmt_downloads(_downloads(e)))
         scored.append({**e, "score": score, "why": "; ".join(why)})
-    scored.sort(key=lambda r: (-r["score"], r.get("type") not in MODEL_TYPES, *_order(r)))
+    scored.sort(key=lambda r: (-r["score"], _tier(r), *_order(r)))
     return scored[:limit]
 
 

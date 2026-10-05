@@ -4,16 +4,23 @@
   "type": "object",
   "required": ["id", "name", "type", "country", "org", "license", "modality", "tasks", "links"],
   "additionalProperties": false,
+  "if": {"properties": {"type": {"const": "paper"}}, "required": ["type"]},
+  "then": {
+    "required": ["year", "links"],
+    "properties": {"links": {"required": ["paper"]}}
+  },
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "name": {"type": "string", "minLength": 1},
-    "type": {"enum": ["llm", "asr", "tts", "ocr", "embedding", "dataset", "tool", "benchmark", "org", "agent-skill"]},
+    "type": {"enum": ["llm", "asr", "tts", "ocr", "embedding", "dataset", "tool", "benchmark", "org", "agent-skill", "paper"]},
     "country": {"enum": ["SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH", "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM", "INTL"]},
     "org": {"type": "string", "minLength": 1},
     "license": {"type": "string", "minLength": 1},
     "modality": {"enum": ["text", "speech", "vision", "multimodal", "none"]},
     "size": {"type": "string"},
     "year": {"type": "integer"},
+    "venue": {"type": "string", "minLength": 1},
+    "citations": {"type": "integer", "minimum": 0},
     "on_device": {"type": "boolean"},
     "dialects": {
       "type": "array",

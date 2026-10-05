@@ -8,6 +8,7 @@ SECTIONS = (
     ("Models", ("llm", "asr", "tts", "ocr", "embedding")),
     ("Datasets", ("dataset",)),
     ("Tools & Benchmarks", ("tool", "benchmark")),
+    ("Papers", ("paper",)),
     ("Organizations", ("org",)),
     ("Agent Skills", ("agent-skill",)),
 )
@@ -18,6 +19,8 @@ def _downloads(entry: dict) -> int:
 
 
 def _sort_key(entry: dict):
+    if entry.get("type") == "paper":  # literature: newest, then most cited
+        return (-(entry.get("year") or 0), -(entry.get("citations") or 0), entry["name"].lower())
     return (-_downloads(entry), entry["name"].lower())
 
 

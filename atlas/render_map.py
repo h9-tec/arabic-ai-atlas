@@ -218,7 +218,9 @@ def _wrap_label(label: str, max_chars: int = 13) -> list[str]:
 
 
 def render_svg(merged: list[dict], generated_at: str) -> str:
-    count = len(merged)
+    count = len(merged)  # header total includes papers
+    # Papers are literature, not located artifacts: never drawn on the grid.
+    merged = [e for e in merged if e.get("type") != "paper"]
     band_of = {t: label for label, types in BANDS for t in types}
     drawn = [e for e in merged if e.get("type") in band_of]
     grid: dict[tuple[str, str], list[dict]] = {}

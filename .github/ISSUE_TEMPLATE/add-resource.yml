@@ -12,7 +12,7 @@ body:
     id: type
     attributes:
       label: Type
-      options: [llm, asr, tts, ocr, embedding, dataset, tool, benchmark, org, agent-skill]
+      options: [llm, asr, tts, ocr, embedding, dataset, tool, benchmark, org, agent-skill, paper]
     validations:
       required: true
   - type: dropdown

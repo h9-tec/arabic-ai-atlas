@@ -24,9 +24,9 @@ def _sort_key(entry: dict):
     return (-_downloads(entry), entry["name"].lower())
 
 
-def build_atlas_json(merged: list[dict], generated_at: str) -> dict:
+def build_atlas_json(merged: list[dict], generated_at: str, extras: dict | None = None) -> dict:
     entries = [{k: v for k, v in e.items() if k != "_file"} for e in sorted(merged, key=_sort_key)]
-    return {"generated_at": generated_at, "count": len(entries), "entries": entries}
+    return {"generated_at": generated_at, "count": len(entries), "entries": entries, **(extras or {})}
 
 
 def _primary_link(entry: dict) -> str | None:

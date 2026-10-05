@@ -88,6 +88,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [📄 Papers](#-papers)
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
+- [🎯 Most Wanted](#-most-wanted)
 - [🤝 Contributing](#-contributing)
 
 ## 🧠 Large Language Models
@@ -398,6 +399,28 @@ _Showing 20 of 35 · [see all 35 on the interactive map](https://h9-tec.github.i
 | Fanar MCP Server | danijeun | MCP server exposing Fanar API tools such as Islamic RAG and image generation. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/danijeun/fanar-mcp-server) |
 | Hadith MCP (ovehbe) | ovehbe | MCP server for searchable, citation-safe hadith text. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ovehbe/hadith-mcp) |
 | Hurmoz | Moshe-ship | Collection of 63 Arabic skills for the Hermes Agent framework. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Moshe-ship/hurmoz) |
+
+## 🎯 Most Wanted
+
+_Gaps nobody has filled yet. Add an entry that matches a rule and it moves to Recently filled. Rules live in [data/wanted.yaml](data/wanted.yaml)._
+
+| Gap | Why | Rule |
+| --- | --- | --- |
+| [Open Arabic TTS with a Kuwaiti or Qatari voice](https://h9-tec.github.io/arabic-ai-atlas/#type=tts&country=KW,QA&license=open) | No openly licensed text-to-speech model with a Kuwaiti or Qatari voice is listed. | `type=tts · country=KW,QA · license=open` |
+| [Open Moroccan Arabic OCR dataset](https://h9-tec.github.io/arabic-ai-atlas/#q=ocr&type=dataset&country=MA&license=open) | The only Moroccan OCR dataset listed has no clear license, so no openly licensed one is available. | `type=dataset · country=MA · license=open · tasks=ocr` |
+| [Sudanese Arabic speech dataset for ASR](https://h9-tec.github.io/arabic-ai-atlas/#q=asr&type=dataset&country=SD) | A Sudanese ASR model exists, but no Sudanese speech dataset to train or test one is listed. | `type=dataset · country=SD · tasks=asr` |
+| [Anything from Mauritania](https://h9-tec.github.io/arabic-ai-atlas/#country=MR) | Mauritania has no listed model, dataset, or tool of any kind. | `country=MR` |
+| [Open Yemeni speech dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=YE&license=open) | No openly licensed Yemeni dataset for speech recognition or synthesis is listed. | `type=dataset · country=YE · license=open · tasks=asr,speech,tts` |
+| [Embedding model for Sudanese, Yemeni or Iraqi dialects](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding&dialect=sudanese,yemeni,iraqi) | No Arabic embedding model targets the Sudanese, Yemeni, or Iraqi dialects. | `type=embedding · dialects=sudanese,yemeni,iraqi` |
+| [Open-licensed Iraqi Arabic TTS](https://h9-tec.github.io/arabic-ai-atlas/#type=tts&dialect=iraqi&license=open) | The only TTS covering Iraqi has no clear license, so no openly licensed one is available. | `type=tts · dialects=iraqi · license=open` |
+| [Libyan Arabic corpus](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=LY) | No dataset from or about Libya is listed. | `type=dataset · country=LY` |
+| [Open Syrian-dialect dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=SY&dialect=lev&license=open) | No openly licensed dataset of Syrian Levantine Arabic is listed. | `type=dataset · country=SY · dialects=lev · license=open` |
+| [Palestinian Arabic speech recognition](https://h9-tec.github.io/arabic-ai-atlas/#type=asr&country=PS) | No speech recognition model from Palestine is listed. | `type=asr · country=PS` |
+| [Open Omani dialect dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=OM&license=open) | Omani datasets are listed, but none has a clear open license. | `type=dataset · country=OM · license=open` |
+| [Open Kuwaiti Arabic dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=KW&license=open) | The only Kuwaiti dataset listed has no clear license. | `type=dataset · country=KW · license=open` |
+| [Open Bahraini Arabic dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=BH&license=open) | The only Bahraini dataset listed is non-commercial, so no openly licensed one is available. | `type=dataset · country=BH · license=open` |
+| [Resources from the Horn of Africa and Comoros](https://h9-tec.github.io/arabic-ai-atlas/#country=KM,DJ,SO) | Nothing from Comoros, Djibouti, or Somalia is listed. | `country=KM,DJ,SO` |
+| [Open Arabic handwriting benchmark](https://h9-tec.github.io/arabic-ai-atlas/#type=benchmark&license=open) | No openly licensed benchmark covers Arabic handwriting recognition. | `type=benchmark · license=open · tasks=handwriting,htr` |
 
 ## 🤝 Contributing
 

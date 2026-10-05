@@ -75727,5 +75727,157 @@
       "notes": "RoBERTa language model for Sudanese Arabic.",
       "metrics": null
     }
+  ],
+  "wanted": [
+    {
+      "id": "open-kuwaiti-qatari-tts",
+      "title": "Open Arabic TTS with a Kuwaiti or Qatari voice",
+      "why": "No openly licensed text-to-speech model with a Kuwaiti or Qatari voice is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=tts&country=KW,QA&license=open"
+    },
+    {
+      "id": "moroccan-ocr-dataset",
+      "title": "Open Moroccan Arabic OCR dataset",
+      "why": "The only Moroccan OCR dataset listed has no clear license, so no openly licensed one is available.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#q=ocr&type=dataset&country=MA&license=open"
+    },
+    {
+      "id": "sudanese-asr",
+      "title": "Sudanese Arabic speech dataset for ASR",
+      "why": "A Sudanese ASR model exists, but no Sudanese speech dataset to train or test one is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#q=asr&type=dataset&country=SD"
+    },
+    {
+      "id": "mauritania-anything",
+      "title": "Anything from Mauritania",
+      "why": "Mauritania has no listed model, dataset, or tool of any kind.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#country=MR"
+    },
+    {
+      "id": "yemeni-dataset",
+      "title": "Open Yemeni speech dataset",
+      "why": "No openly licensed Yemeni dataset for speech recognition or synthesis is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=YE&license=open"
+    },
+    {
+      "id": "sudanese-yemeni-iraqi-embedding",
+      "title": "Embedding model for Sudanese, Yemeni or Iraqi dialects",
+      "why": "No Arabic embedding model targets the Sudanese, Yemeni, or Iraqi dialects.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=embedding&dialect=sudanese,yemeni,iraqi"
+    },
+    {
+      "id": "iraqi-tts",
+      "title": "Open-licensed Iraqi Arabic TTS",
+      "why": "The only TTS covering Iraqi has no clear license, so no openly licensed one is available.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=tts&dialect=iraqi&license=open"
+    },
+    {
+      "id": "libyan-corpus",
+      "title": "Libyan Arabic corpus",
+      "why": "No dataset from or about Libya is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=LY"
+    },
+    {
+      "id": "open-syrian-dialect-dataset",
+      "title": "Open Syrian-dialect dataset",
+      "why": "No openly licensed dataset of Syrian Levantine Arabic is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=SY&dialect=lev&license=open"
+    },
+    {
+      "id": "palestinian-asr",
+      "title": "Palestinian Arabic speech recognition",
+      "why": "No speech recognition model from Palestine is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=asr&country=PS"
+    },
+    {
+      "id": "omani-dialect-dataset",
+      "title": "Open Omani dialect dataset",
+      "why": "Omani datasets are listed, but none has a clear open license.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=OM&license=open"
+    },
+    {
+      "id": "kuwaiti-dataset",
+      "title": "Open Kuwaiti Arabic dataset",
+      "why": "The only Kuwaiti dataset listed has no clear license.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=KW&license=open"
+    },
+    {
+      "id": "bahraini-dataset",
+      "title": "Open Bahraini Arabic dataset",
+      "why": "The only Bahraini dataset listed is non-commercial, so no openly licensed one is available.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=dataset&country=BH&license=open"
+    },
+    {
+      "id": "horn-comoros-resource",
+      "title": "Resources from the Horn of Africa and Comoros",
+      "why": "Nothing from Comoros, Djibouti, or Somalia is listed.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#country=KM,DJ,SO"
+    },
+    {
+      "id": "handwriting-ocr-benchmark",
+      "title": "Open Arabic handwriting benchmark",
+      "why": "No openly licensed benchmark covers Arabic handwriting recognition.",
+      "status": "open",
+      "filled_on": null,
+      "by": [],
+      "recent": false,
+      "hash": "#type=benchmark&license=open"
+    }
   ]
 }

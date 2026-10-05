@@ -9,11 +9,22 @@ SNAPSHOT = Path(__file__).parent / "snapshots" / "README.md"
 
 
 def render(entries, skills=()):
-    return render_readme(entries, TEMPLATE, "2026-10-04", list(skills))
+    return render_readme(entries, TEMPLATE, "2026-10-04", list(skills),
+                         blocks={"WANTED": "WANTED-BLOCK", "TREE": "TREE-BLOCK"})
+
+
+def test_wanted_section_present(fixture_entries):
+    out = render(fixture_entries)
+    assert "## 🎯 Most Wanted\n\nWANTED-BLOCK" in out and "{{" not in out
 
 
 def test_readme_matches_snapshot(fixture_entries):
-    out = render(fixture_entries)
+    from atlas.render_wanted import render_wanted_block
+    from atlas.wanted import evaluate, load_rules
+
+    rules = load_rules(Path(__file__).parent / "fixtures" / "data" / "wanted.yaml")
+    block = render_wanted_block(evaluate(rules, fixture_entries, {}, "2026-10-04")[0])
+    out = render_readme(fixture_entries, TEMPLATE, "2026-10-04", [], blocks={"WANTED": block})
     if os.environ.get("UPDATE_SNAPSHOTS"):
         SNAPSHOT.write_text(out, encoding="utf-8")
     assert out == SNAPSHOT.read_text(encoding="utf-8")

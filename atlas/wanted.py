@@ -112,3 +112,62 @@ def match_rule(entry: dict, query: dict) -> bool:
 def matches(rule: dict, entries: list[dict]) -> list[str]:
     query = rule.get("query") or {}
     return sorted(e["id"] for e in entries if match_rule(e, query))
+
+
+FILLED_WINDOW_DAYS = 30
+_HASH_KEYS = (("type", "type"), ("country", "country"), ("dialects", "dialect"))
+
+
+def wanted_hash(query: dict) -> str:
+    """Site hash for a rule, in the same key order as site/app.js serializeHash."""
+    from urllib.parse import quote
+
+    enc = lambda v: quote(str(v), safe="-_.!~*'()")  # encodeURIComponent
+    parts = []
+    tasks = _as_list(query.get("tasks"))
+    if len(tasks) == 1:
+        parts.append("q=" + enc(tasks[0]))
+    for key, name in _HASH_KEYS:
+        vals = _as_list(query.get(key))
+        if vals:
+            parts.append(name + "=" + ",".join(enc(v) for v in vals))
+    if query.get("license_class") == "open":
+        parts.append("license=open")
+    if query.get("on_device") is True:
+        parts.append("on_device=1")
+    return "#" + "&".join(parts) if parts else ""
+
+
+def rule_text(query: dict) -> str:
+    parts = []
+    for key in RULE_KEYS:
+        if key not in query:
+            continue
+        v = query[key]
+        if isinstance(v, bool):
+            v = "true" if v else "false"
+        else:
+            v = ",".join(str(x) for x in _as_list(v))
+        parts.append(f"{"license" if key == "license_class" else key}={v}")
+    return " · ".join(parts)
+
+
+def evaluate(rules: list[dict], entries: list[dict], cache: dict, date: str) -> tuple[list[dict], dict]:
+    from datetime import date as _date
+
+    today = _date.fromisoformat(date)
+    statuses, new_cache = [], {}
+    for rule in rules:
+        by = matches(rule, entries)
+        filled_on = None
+        if by:
+            prior = cache.get(rule["id"]) or {}
+            filled_on = prior.get("filled_on") or date
+            new_cache[rule["id"]] = {"filled_on": filled_on, "by": by}
+        recent = bool(by) and 0 <= (today - _date.fromisoformat(filled_on)).days <= FILLED_WINDOW_DAYS
+        statuses.append({
+            "id": rule["id"], "title": rule["title"], "why": rule["why"], "query": rule["query"],
+            "status": "filled" if by else "open", "filled_on": filled_on, "by": by,
+            "recent": recent, "hash": wanted_hash(rule["query"]),
+        })
+    return statuses, dict(sorted(new_cache.items()))

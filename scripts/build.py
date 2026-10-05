@@ -11,8 +11,9 @@ sys.path.insert(0, str(ROOT))  # works even when the package is not installed
 from atlas.enrich import FETCHED_AT, apply_cached_licenses, build_hf_ids, fetch_hf_metrics, merge_metrics
 from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
+from atlas.render_wanted import render_wanted_block, render_wanted_table
 from atlas.validate import load_schema, validate_entries
-from atlas.wanted import load_rules, validate_rules
+from atlas.wanted import evaluate, load_rules, validate_rules
 
 
 def _validate(data: Path) -> tuple[list[dict], list[str]]:
@@ -57,10 +58,15 @@ def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]
     """Render every generated file in memory, keyed by path relative to --out."""
     cache = _load_cache(data)
     merged = merge_metrics(apply_cached_licenses(entries, cache), cache)
-    doc = build_atlas_json(merged, date)
+    wpath = data / ".cache" / "wanted.json"
+    wdisk = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else {}
+    statuses, wcache = evaluate(load_rules(data / "wanted.yaml"), merged, wdisk, date)
+    wanted = [{k: v for k, v in s.items() if k != "query"} for s in statuses]
+    doc = build_atlas_json(merged, date, extras={"wanted": wanted})
     outputs = {
         "dist/atlas.json": json.dumps(doc, indent=2, ensure_ascii=False) + "\n",
         "dist/llms.txt": build_llms_txt(merged, date),
+        "data/.cache/wanted.json": json.dumps(wcache, indent=2, ensure_ascii=False) + "\n",
     }
     # README and map renderers arrive in later tasks; wire them in only when the
     # modules exist so those tasks need not touch this file.
@@ -75,9 +81,10 @@ def render_outputs(entries: list[dict], data: Path, date: str) -> dict[str, str]
     if render_readme:
         template = (ROOT / "templates" / "README.tmpl.md").read_text(encoding="utf-8")
         skills = load_shipped_skills(ROOT / "skills")
-        outputs["README.md"] = render_readme(merged, template, date, skills)
+        outputs["README.md"] = render_readme(merged, template, date, skills, blocks={"WANTED": render_wanted_block(statuses)})
         from atlas.render_readme import render_tables
         outputs.update(render_tables(merged, date))
+        outputs["docs/tables/wanted.md"] = render_wanted_table(statuses, date)
     if render_svg:
         outputs["assets/map.svg"] = render_svg(merged, date)
     from atlas.render_geo import render_geo_svg

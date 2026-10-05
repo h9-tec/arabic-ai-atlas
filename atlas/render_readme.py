@@ -211,8 +211,13 @@ def load_shipped_skills(skills_dir: Path) -> list[dict]:
     return sorted(out, key=lambda s: s["name"])
 
 
-def render_readme(merged: list[dict], template: str, generated_at: str, shipped_skills: list[dict]) -> str:
+def render_readme(merged: list[dict], template: str, generated_at: str, shipped_skills: list[dict],
+                  blocks: dict[str, str] | None = None) -> str:
     out = template
+    for key, text in (blocks or {}).items():
+        out = out.replace("{{%s}}" % key, text)
+    for key in ("WANTED", "TREE"):
+        out = out.replace("{{%s}}" % key, "")
     for t in COLUMNS:
         out = out.replace("{{TABLE:%s}}" % t, render_section_table(merged, t))
         out = out.replace("{{COUNT:%s}}" % t, str(sum(1 for e in merged if e.get("type") == t)))

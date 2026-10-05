@@ -3,7 +3,8 @@ from pathlib import Path
 from atlas.load import load_entries
 from atlas.query import license_class
 from atlas.validate import load_schema
-from atlas.wanted import load_rules, match_rule, matches, validate_rules
+from atlas.render_wanted import render_wanted_block
+from atlas.wanted import evaluate, load_rules, match_rule, matches, validate_rules, wanted_hash
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -55,9 +56,65 @@ def test_load_rules_rejects_non_list(tmp_path):
         load_rules(tmp_path / "wanted.yaml")
 
 
-def test_every_seed_rule_matches_nothing_today():
-    # Invariant: a wanted rule is a gap. This WILL fail when a contribution fills one;
-    # the fix is to move that rule to the filled cache (Task 2), not to delete this test.
+def test_seed_rules_consistent_with_filled_cache():
+    # A rule that a contribution fills is recorded in data/.cache/wanted.json (build does it)
+    # and listed under Recently filled; it is not deleted. So the committed cache must equal
+    # exactly the set of seed rules that currently match something.
+    import json
+
     entries = load_entries(ROOT / "data")
-    filled = {r["id"]: matches(r, entries) for r in load_rules(ROOT / "data" / "wanted.yaml")}
-    assert {k: v for k, v in filled.items() if v} == {}
+    rules = load_rules(ROOT / "data" / "wanted.yaml")
+    cache = json.loads((ROOT / "data" / ".cache" / "wanted.json").read_text(encoding="utf-8"))
+    filled = {r["id"] for r in rules if matches(r, entries)}
+    assert set(cache) == filled
+
+
+RULES = [{"id": "gulf-tts", "title": "Gulf TTS", "why": "None open.", "query": {"type": "tts", "dialects": ["gulf"], "license_class": "open"}}]
+TTS = {"id": "t1", "type": "tts", "dialects": ["gulf"], "license": "mit", "tasks": ["tts"]}
+
+
+def test_newly_filled_gets_build_date():
+    st, cache = evaluate(RULES, [TTS], {}, "2026-10-05")
+    assert st[0]["status"] == "filled" and st[0]["recent"] and st[0]["by"] == ["t1"]
+    assert cache == {"gulf-tts": {"filled_on": "2026-10-05", "by": ["t1"]}}
+
+
+def test_filled_on_is_sticky_and_window_is_30_days():
+    cache = {"gulf-tts": {"filled_on": "2026-09-05", "by": ["t1"]}}
+    assert evaluate(RULES, [TTS], cache, "2026-10-05")[0][0]["recent"] is True   # day 30
+    st, c = evaluate(RULES, [TTS], cache, "2026-10-06")                            # day 31
+    assert st[0]["recent"] is False and c["gulf-tts"]["filled_on"] == "2026-09-05"
+
+
+def test_unfilled_again_returns_to_board():
+    cache = {"gulf-tts": {"filled_on": "2026-10-01", "by": ["t1"]}}
+    st, c = evaluate(RULES, [{**TTS, "license": "cc-by-nc-4.0"}], cache, "2026-10-05")
+    assert st[0]["status"] == "open" and c == {}
+
+
+def test_removed_rule_dropped_from_cache():
+    assert evaluate([], [TTS], {"gone": {"filled_on": "2026-10-01", "by": ["t1"]}}, "2026-10-05") == ([], {})
+
+
+def test_wanted_hash_matches_site_order():
+    assert wanted_hash(RULES[0]["query"]) == "#type=tts&dialect=gulf&license=open"
+    assert wanted_hash({"country": ["KM", "DJ"], "tasks": ["ocr"], "on_device": True}) == "#q=ocr&country=KM,DJ&on_device=1"
+    assert wanted_hash({"tasks": ["handwriting", "htr"], "type": "benchmark"}) == "#type=benchmark"
+
+
+def test_block_lists_open_and_recent_only():
+    st, _ = evaluate(RULES + [{"id": "mr", "title": "Mauritania", "why": "Nothing yet.", "query": {"country": "MR"}}],
+                     [TTS], {}, "2026-10-05")
+    out = render_wanted_block(st)
+    assert "| Gap | Why | Rule |" in out and "Mauritania" in out
+    assert "Recently filled" in out and "Gulf TTS" in out.split("Recently filled")[-1]
+
+
+def test_block_when_every_rule_filled():
+    st, _ = evaluate(RULES, [TTS], {"gulf-tts": {"filled_on": "2026-01-01", "by": ["t1"]}}, "2026-10-05")
+    assert "Every wanted gap is filled" in render_wanted_block(st)
+
+
+def test_rule_text_example():
+    from atlas.wanted import rule_text
+    assert rule_text(RULES[0]["query"]) == "type=tts · dialects=gulf · license=open"

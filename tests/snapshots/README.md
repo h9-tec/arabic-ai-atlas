@@ -72,6 +72,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [📄 Papers](#-papers)
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
+- [🎯 Most Wanted](#-most-wanted)
 - [🤝 Contributing](#-contributing)
 
 ## 🧠 Large Language Models
@@ -162,6 +163,19 @@ _0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=ag
 
 | Name | Org | Notes | Links |
 | --- | --- | --- | --- |
+
+## 🎯 Most Wanted
+
+_Gaps nobody has filled yet. Add an entry that matches a rule and it moves to Recently filled. Rules live in [data/wanted.yaml](data/wanted.yaml)._
+
+| Gap | Why | Rule |
+| --- | --- | --- |
+| [Fixture open rule A](https://h9-tec.github.io/arabic-ai-atlas/#type=asr&country=MR) | Unmatched by any fixture entry. | `type=asr · country=MR` |
+| [Fixture open rule B](https://h9-tec.github.io/arabic-ai-atlas/#type=ocr&dialect=sudanese) | Unmatched by any fixture entry. | `type=ocr · dialects=sudanese` |
+
+**Recently filled:**
+
+- Fixture filled rule, filled 2026-10-04 by jais-30b
 
 ## 🤝 Contributing
 

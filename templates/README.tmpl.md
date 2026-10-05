@@ -68,6 +68,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [📄 Papers](#-papers)
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
+- [🎯 Most Wanted](#-most-wanted)
 - [🤝 Contributing](#-contributing)
 
 ## 🧠 Large Language Models
@@ -119,6 +120,10 @@ Skills shipped in this repo:
 Other Arabic agent skills in the wild:
 
 {{TABLE:agent-skill}}
+
+## 🎯 Most Wanted
+
+{{WANTED}}
 
 ## 🤝 Contributing
 

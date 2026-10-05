@@ -139,3 +139,8 @@ def test_heading_anchors_match_map_anchors(fixture_entries):
             found[slug] = h
     for anchor in ANCHORS.values():
         assert unquote(anchor.lstrip("#")) in found, anchor
+
+
+def test_tree_section_present(fixture_entries):
+    out = render(fixture_entries)
+    assert "## 🌳 Family tree\n\nTREE-BLOCK" in out

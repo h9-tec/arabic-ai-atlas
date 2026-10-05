@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-label="Arabic AI Atlas: family tree of Arabic models by base model">
+<title>Arabic AI family tree</title>
+<style>
+svg { --bg: #E6ECEA; --sheet: #F5F8F7; --ink: #15203A; --muted: #55627A; --rule: #C3CDC9; --rule-strong: #8A99A8; --sea: #D9E3E6; --sea-line: #B4C5CB; --grat: #BFCDD2; --land-x: #EDF1EF; --border-x: #D3DBD8; --ch0: #D3DCE9; --ch1: #B2C1D8; --ch2: #8EA2C3; --ch3: #6981AA; --ch4: #4B6390; --hatch-bg: #E4E9EC; --hatch-line: #A3B0BF; --halo: rgba(245, 248, 247, .92); --bubble-stroke: #FFFFFF; --ctry-line: #FFFFFF; }
+@media (prefers-color-scheme: dark) {
+  svg { --bg: #0E1724; --sheet: #142032; --ink: #E3E9F0; --muted: #98A6BA; --rule: #26354B; --rule-strong: #4A5D78; --sea: #0A111D; --sea-line: #182740; --grat: #16233A; --land-x: #152031; --border-x: #1E2B40; --ch0: #22324C; --ch1: #2A3F62; --ch2: #35517F; --ch3: #44659C; --ch4: #5A7EB8; --hatch-bg: #172336; --hatch-line: #33445E; --halo: rgba(10, 17, 29, .9); --bubble-stroke: #0E1724; --ctry-line: #0E1724; }
+}
+text { font-family: "IBM Plex Sans Arabic", -apple-system, "Segoe UI", Tahoma, Roboto, Helvetica, Arial, sans-serif; fill: var(--ink); }
+.bg { fill: var(--bg); }
+.title { font-size: 32px; font-weight: 700; }
+.sub { font-size: 17px; fill: var(--muted); }
+.lg-h { font-size: 16px; font-weight: 600; }
+.lg { font-size: 15px; fill: var(--muted); }
+.rule { stroke: var(--rule); stroke-width: 1; }
+.root { fill: var(--sheet); stroke: var(--rule-strong); stroke-width: 1.2; }
+.root.scratch { stroke-dasharray: 5 4; }
+.r-en { font-size: 16px; font-weight: 700; }
+.r-n { font-size: 14px; fill: var(--muted); }
+.r-ar { font-size: 19px; font-weight: 700; }
+.branch { fill: none; stroke: var(--rule-strong); stroke-width: 1.4; }
+.knot { fill: var(--rule-strong); }
+.n { stroke: var(--bubble-stroke); stroke-width: .8; }
+.nl { font-size: 11.5px; font-weight: 600; fill: #FFFFFF; pointer-events: none; }
+a:hover .n, a:hover .root { opacity: .85; }
+.footer { font-size: 15px; fill: var(--muted); }
+.llm { fill: #4F46E5; }
+.asr { fill: #0891B2; }
+.tts { fill: #0E7490; }
+.ocr { fill: #B45309; }
+.embedding { fill: #7C3AED; }
+.tool { fill: #475569; }
+.benchmark { fill: #B91C1C; }
+.dataset { fill: #047857; }
+.more { fill: #6B7280; }
+</style>
+<rect class="bg" x="0" y="0" width="1600" height="240"/>
+<text class="title" x="24" y="42">Arabic AI Atlas</text>
+<text class="sub" x="24" y="70">Arabic AI family tree · 2 models from 2 base families · 2026-10-04</text>
+<text class="lg-h" x="1576" y="38" text-anchor="end">One band per base family · pill width grows with Hugging Face downloads</text>
+<rect class="llm" x="1530.2" y="58" width="14" height="14" rx="3"/>
+<text class="lg" x="1550.2" y="70">LLM</text>
+<line class="rule" x1="24" y1="96" x2="1576" y2="96"/>
+<path class="branch" d="M292 121C326 121 318 121 352 121"/>
+<a href="https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview" target="_blank" rel="noopener"><title>ALLaM 7B · LLM · 1K downloads</title><rect class="n llm" x="356" y="107" width="135.4" height="28" rx="5"/><text class="nl" x="423.7" y="125" text-anchor="middle">ALLaM 7B</text></a>
+<circle class="knot" cx="292" cy="121" r="3"/>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#view=tree" target="_blank" rel="noopener"><title>From scratch · من الصفر (1)</title><rect class="root scratch" x="24" y="103" width="268" height="36" rx="18"/><text class="r-en" x="42" y="126.5">From scratch</text><text class="r-n" x="151.5" y="126.5">1</text><text class="r-ar" x="274" y="127.5" text-anchor="end" lang="ar">من الصفر</text></a>
+<line class="rule" x1="24" y1="146" x2="1576" y2="146"/>
+<path class="branch" d="M292 171C326 171 318 171 352 171"/>
+<a href="https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0" target="_blank" rel="noopener"><title>SILMA 9B · LLM · 10K downloads</title><rect class="n llm" x="356" y="157" width="156.6" height="28" rx="5"/><text class="nl" x="434.3" y="175" text-anchor="middle">SILMA 9B</text></a>
+<circle class="knot" cx="292" cy="171" r="3"/>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#view=tree" target="_blank" rel="noopener"><title>Gemma · جيما (1)</title><rect class="root" x="24" y="153" width="268" height="36" rx="18"/><text class="r-en" x="42" y="176.5">Gemma</text><text class="r-n" x="106.7" y="176.5">1</text><text class="r-ar" x="274" y="177.5" text-anchor="end" lang="ar">جيما</text></a>
+<line class="rule" x1="24" y1="196" x2="1576" y2="196"/>
+<text class="footer" x="1576" y="224" text-anchor="end">Generated 2026-10-04 · full lineage on the live site · github.com/h9-tec/arabic-ai-atlas</text>
+</svg>

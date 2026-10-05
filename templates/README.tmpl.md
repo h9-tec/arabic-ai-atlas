@@ -57,6 +57,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
+- [🌳 Family tree](#-family-tree)
 - [🧠 Large Language Models](#-large-language-models)
 - [🎙️ Speech Recognition](#️-speech-recognition)
 - [🔊 Text-to-Speech](#-text-to-speech)
@@ -124,6 +125,10 @@ Other Arabic agent skills in the wild:
 ## 🎯 Most Wanted
 
 {{WANTED}}
+
+## 🌳 Family tree
+
+{{TREE}}
 
 ## 🤝 Contributing
 

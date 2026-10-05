@@ -74,11 +74,11 @@ def recommend(
 
 @server.tool()
 def get(id: str) -> dict:
-    """Fetch one full Arabic AI Atlas entry by its id (e.g. "jais-30b"), including links and metrics.
+    """Fetch one full Arabic AI Atlas entry by its id (e.g. "jais"), including links and metrics.
 
     Returns {"error": "unknown id", "id": ...} when no entry has that id. Use `search` to find ids.
 
-    Example: get(id="jais-30b")
+    Example: get(id="jais")
     """
     return atlas_query.get(ENTRIES, id) or {"error": "unknown id", "id": id}
 
@@ -91,9 +91,11 @@ def lineage(id: str) -> dict:
       root: the base family the chain ends in, or null for an atlas entry with no recorded base.
       ancestors: parent first, then grandparents, up to the first id outside the atlas.
       descendants: atlas models fine-tuned from it, breadth-first (children, then grandchildren).
-    Ids are atlas ids (e.g. "jais-30b") or, for bases outside the atlas, lowercase Hugging Face
-    ids (e.g. "qwen/qwen2.5-7b"); both are accepted as `id`. Returns {"error": "unknown id", "id": ...}
-    when the id is neither an entry nor part of any lineage.
+    Ids are atlas ids (e.g. "jais") or, for bases outside the atlas, lowercase Hugging Face
+    ids (e.g. "qwen/qwen2.5-7b"); both are accepted as `id`, and so are cased HF ids, full
+    huggingface.co URLs and renamed orgs (e.g. "inceptionai/..."), which resolve to the matching
+    node and echo the input as "query". Returns {"error": "unknown id", "id": ...} when the id is
+    neither an entry nor part of any lineage.
 
     Roots: whisper, mms, xlsr, wav2vec, electra, bert, t5, llama, qwen, gemma, mistral, falcon,
     bloom, phi, deepseek, xtts, f5, bge, e5, nllb, cohere, seamless, from-scratch, other.

@@ -143,15 +143,26 @@ def _walk(start: str, step: dict[str, list[str]]) -> list[str]:
 
 
 def lineage(doc: dict, id: str) -> dict:
-    """Ancestors (nearest first) and descendants (breadth-first) of an atlas or external id."""
-    from atlas.lineage import root_family
+    """Ancestors (nearest first) and descendants (breadth-first) of an atlas or external id.
+
+    An id that is neither an entry id nor a lineage node is retried as its canonical HF id
+    (lowercased, URL prefix stripped, renamed org aliased), then as the atlas entry whose HF
+    link has that canonical id. A resolved lookup echoes the original as `query`.
+    """
+    from atlas.lineage import _atlas_index, canonical, root_family
 
     lin = doc.get("lineage") or {}
     edges = lin.get("edges") or []
     root_of = lin.get("root_of") or {}
-    entry_ids = {e.get("id") for e in doc.get("entries") or []}
-    if id not in entry_ids and id not in root_of and not any(id in edge for edge in edges):
-        return {"error": "unknown id", "id": id}
+    entries = doc.get("entries") or []
+    entry_ids = {e.get("id") for e in entries}
+    nodes = entry_ids | set(root_of) | {n for edge in edges for n in edge}
+    query = id
+    if id not in nodes:
+        c = canonical(id)
+        id = c if c in nodes else _atlas_index([e for e in entries if e.get("id")]).get(c, id)
+    if id not in nodes:
+        return {"error": "unknown id", "id": query}
     up: dict[str, list[str]] = {}
     down: dict[str, list[str]] = {}
     for parent, child in edges:
@@ -163,4 +174,5 @@ def lineage(doc: dict, id: str) -> dict:
         root = None  # atlas entry without a recorded base
     else:
         root = root_family(id)  # external base id
-    return {"id": id, "root": root, "ancestors": _walk(id, up), "descendants": _walk(id, down)}
+    out = {"id": id, "root": root, "ancestors": _walk(id, up), "descendants": _walk(id, down)}
+    return out if id == query else {**out, "query": query}

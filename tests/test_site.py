@@ -63,6 +63,7 @@ const E = data.entries;
 const out = {
   tts_on_device: atlas.filter(E, {type: "tts", on_device: true}).length,
   whisper: atlas.filter(E, {q: "WHISPER"}).length,
+  by_id: atlas.filter(E, {q: "calme-2-2"}).map(e => e.id),
   folds: atlas.fold("\u0625\u0639\u0631\u0627\u0628") === atlas.fold("\u0627\u0639\u0631\u0627\u0628"),
   all: atlas.filter(E, {}).length,
   paper_n: atlas.filter(E, {type: "paper"}).length,
@@ -130,6 +131,7 @@ def test_filter_logic_in_node(tmp_path):
     count = json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))["count"]
     assert out["tts_on_device"] >= 1
     assert out["whisper"] >= 5
+    assert "calme-2-2" in out["by_id"]  # "Recently filled" links are #q=<entry id>; q must search ids
     assert out["all"] == count
     assert out["paper_n"] == sum(1 for e in json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))["entries"] if e["type"] == "paper")
     assert out["paper_all_papers"] is True

@@ -104,7 +104,7 @@
     if (st.license.length && st.license.indexOf(licenseClass(e.license)) === -1) return false;
     if (st.on_device && e.on_device !== true) return false;
     if (st.q) {
-      var hay = fold([e.name, e.org, e.notes].concat(e.tasks || []).join("\n"));
+      var hay = fold([e.id, e.name, e.org, e.notes].concat(e.tasks || []).join("\n"));
       var words = fold(st.q).split(/\s+/).filter(Boolean);
       for (var i = 0; i < words.length; i++) if (hay.indexOf(words[i]) === -1) return false;
     }

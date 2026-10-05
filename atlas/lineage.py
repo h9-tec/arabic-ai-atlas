@@ -26,7 +26,7 @@ ROOTS: list[tuple[str, str, str, str]] = [
     ("bge", r"(^|[/_-])bge", "BGE", "BGE"),
     ("e5", r"(^|[/_-])(multilingual-)?e5", "E5", "E5"),
     ("nllb", r"nllb", "NLLB", "NLLB"),
-    ("cohere", r"command-?r|c4ai|aya", "Cohere", "Cohere"),
+    ("cohere", r"command-?r|c4ai|cohere|(^|[/_-])aya([/_-]|$)", "Cohere", "Cohere"),
     ("seamless", r"seamless|m4t", "SeamlessM4T", "SeamlessM4T"),
     ("from-scratch", r"^from-scratch$", "From scratch", "من الصفر"),
 ]
@@ -101,9 +101,10 @@ def _root(eid: str, parents: dict[str, list[str]], atlas_ids: set[str], hf_of: d
     """Breadth-first up the parents (base_model order) to the first id with no parents.
 
     That is an external id, or an atlas entry with no base_model (classified by its HF id).
-    An entry outside `parents` is itself such a terminal; an atlas-only cycle gives other.
+    An entry outside `parents`, or whose only base is itself (no parents left), is itself such a
+    terminal; an atlas-only cycle gives other.
     """
-    if eid not in parents:
+    if not parents.get(eid):
         return _terminal(eid, hf_of)
     seen, frontier = {eid}, [eid]
     while frontier:
@@ -112,7 +113,7 @@ def _root(eid: str, parents: dict[str, list[str]], atlas_ids: set[str], hf_of: d
             for p in parents[node]:
                 if p not in atlas_ids:
                     return root_family(p)
-                if p not in parents:
+                if not parents.get(p):
                     return _terminal(p, hf_of)
                 if p not in seen:
                     seen.add(p)

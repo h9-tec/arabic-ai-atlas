@@ -83,3 +83,33 @@ def test_parent_without_base_roots_by_its_hf_id():
     doc = build_lineage([m("arabert", hf="https://huggingface.co/aubmindlab/bert-base-arabertv02"), m("ft", ["arabert"])])
     assert doc["root_of"] == {"arabert": "bert", "ft": "bert"}
     assert doc["edges"] == [["arabert", "ft"]]
+
+
+def test_cohere_regex_anchors_aya_and_matches_cohere_name():
+    assert root_family("x/papaya") == "other"
+    assert root_family("convaiinnovations/laya-ara-rag") == "other"
+    assert root_family("coherelabs/cohere-transcribe-03-2026") == "cohere"
+    assert root_family("coherelabs/aya-expanse-8b") == "cohere"
+    assert root_family("coherelabs/aya-23-8b") == "cohere"
+
+
+def test_self_referencing_base_is_a_dead_end_classified_by_own_hf_id():
+    doc = build_lineage([m("byt5-darija-emphatic", ["anasskabil/byt5-darija-emphatic"],
+                           hf="https://huggingface.co/anasskabil/byt5-darija-emphatic")])
+    assert doc["root_of"] == {"byt5-darija-emphatic": "t5"}
+    assert doc["edges"] == []
+
+
+def test_query_lineage_resolves_cased_ids_urls_and_renamed_orgs():
+    merged = [m("asr-ft", ["Qwen/Qwen3-ASR-1.7B"]),
+              m("jais-13b", ["from-scratch"], hf="https://huggingface.co/inception42/jais-13b"),
+              m("jais-13b-chat", ["inception42/jais-13b"])]
+    doc = {"lineage": build_lineage(merged), "entries": merged}
+    want = {"id": "qwen/qwen3-asr-1.7b", "root": "qwen", "ancestors": [], "descendants": ["asr-ft"]}
+    assert lineage(doc, "Qwen/Qwen3-ASR-1.7B") == {**want, "query": "Qwen/Qwen3-ASR-1.7B"}
+    url = "https://huggingface.co/Qwen/Qwen3-ASR-1.7B"
+    assert lineage(doc, url) == {**want, "query": url}
+    got = lineage(doc, "inceptionai/jais-13b")
+    assert got["id"] == "jais-13b" and got["descendants"] == ["jais-13b-chat"] and got["query"] == "inceptionai/jais-13b"
+    assert lineage(doc, "https://huggingface.co/InceptionAI/Jais-13B")["id"] == "jais-13b"
+    assert lineage(doc, "nope/nothing") == {"error": "unknown id", "id": "nope/nothing"}

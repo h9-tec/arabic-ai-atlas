@@ -57,60 +57,60 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🧠 Large Language Models](#-large-language-models-{{COUNT:llm}})
-- [🎙️ Speech Recognition](#️-speech-recognition-{{COUNT:asr}})
-- [🔊 Text-to-Speech](#-text-to-speech-{{COUNT:tts}})
-- [📖 OCR](#-ocr-{{COUNT:ocr}})
-- [🔤 Embeddings](#-embeddings-{{COUNT:embedding}})
-- [📊 Datasets](#-datasets-{{COUNT:dataset}})
-- [🔧 Tools](#-tools-{{COUNT:tool}})
-- [🏆 Benchmarks](#-benchmarks-{{COUNT:benchmark}})
-- [📄 Papers](#-papers-{{COUNT:paper}})
-- [🏢 Organizations](#-organizations-{{COUNT:org}})
-- [🧩 Arabic Agent Skills](#-arabic-agent-skills-{{COUNT:agent-skill}})
+- [🧠 Large Language Models](#-large-language-models)
+- [🎙️ Speech Recognition](#️-speech-recognition)
+- [🔊 Text-to-Speech](#-text-to-speech)
+- [📖 OCR](#-ocr)
+- [🔤 Embeddings](#-embeddings)
+- [📊 Datasets](#-datasets)
+- [🔧 Tools](#-tools)
+- [🏆 Benchmarks](#-benchmarks)
+- [📄 Papers](#-papers)
+- [🏢 Organizations](#-organizations)
+- [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🤝 Contributing](#-contributing)
 
-## 🧠 Large Language Models ({{COUNT:llm}})
+## 🧠 Large Language Models
 
 {{TABLE:llm}}
 
-## 🎙️ Speech Recognition ({{COUNT:asr}})
+## 🎙️ Speech Recognition
 
 {{TABLE:asr}}
 
-## 🔊 Text-to-Speech ({{COUNT:tts}})
+## 🔊 Text-to-Speech
 
 {{TABLE:tts}}
 
-## 📖 OCR ({{COUNT:ocr}})
+## 📖 OCR
 
 {{TABLE:ocr}}
 
-## 🔤 Embeddings ({{COUNT:embedding}})
+## 🔤 Embeddings
 
 {{TABLE:embedding}}
 
-## 📊 Datasets ({{COUNT:dataset}})
+## 📊 Datasets
 
 {{TABLE:dataset}}
 
-## 🔧 Tools ({{COUNT:tool}})
+## 🔧 Tools
 
 {{TABLE:tool}}
 
-## 🏆 Benchmarks ({{COUNT:benchmark}})
+## 🏆 Benchmarks
 
 {{TABLE:benchmark}}
 
-## 📄 Papers ({{COUNT:paper}})
+## 📄 Papers
 
 {{TABLE:paper}}
 
-## 🏢 Organizations ({{COUNT:org}})
+## 🏢 Organizations
 
 {{TABLE:org}}
 
-## 🧩 Arabic Agent Skills ({{COUNT:agent-skill}})
+## 🧩 Arabic Agent Skills
 
 Skills shipped in this repo:
 

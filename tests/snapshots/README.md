@@ -61,20 +61,22 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🧠 Large Language Models](#-large-language-models-3)
-- [🎙️ Speech Recognition](#️-speech-recognition-0)
-- [🔊 Text-to-Speech](#-text-to-speech-1)
-- [📖 OCR](#-ocr-0)
-- [🔤 Embeddings](#-embeddings-0)
-- [📊 Datasets](#-datasets-2)
-- [🔧 Tools](#-tools-0)
-- [🏆 Benchmarks](#-benchmarks-0)
-- [📄 Papers](#-papers-0)
-- [🏢 Organizations](#-organizations-0)
-- [🧩 Arabic Agent Skills](#-arabic-agent-skills-0)
+- [🧠 Large Language Models](#-large-language-models)
+- [🎙️ Speech Recognition](#️-speech-recognition)
+- [🔊 Text-to-Speech](#-text-to-speech)
+- [📖 OCR](#-ocr)
+- [🔤 Embeddings](#-embeddings)
+- [📊 Datasets](#-datasets)
+- [🔧 Tools](#-tools)
+- [🏆 Benchmarks](#-benchmarks)
+- [📄 Papers](#-papers)
+- [🏢 Organizations](#-organizations)
+- [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🤝 Contributing](#-contributing)
 
-## 🧠 Large Language Models (3)
+## 🧠 Large Language Models
+
+_3 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_
 
 | Name | Org | Country | Size | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -82,61 +84,81 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 | Jais 30B | Inception AI | 🇦🇪 AE | 30B | apache-2.0 | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inceptionai/jais-30b-v3) |
 | SILMA 9B | SILMA AI | 🌍 INTL | 9B | gemma | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0) |
 
-## 🎙️ Speech Recognition (0)
+## 🎙️ Speech Recognition
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr) · [full table](docs/tables/asr.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 🔊 Text-to-Speech (1)
+## 🔊 Text-to-Speech
+
+_1 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=tts) · [full table](docs/tables/tts.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 | Fish Speech (Arabic) | Fish Audio | 🌍 INTL | cc-by-nc-sa-4.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/fishaudio/fish-speech) |
 
-## 📖 OCR (0)
+## 📖 OCR
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=ocr) · [full table](docs/tables/ocr.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 🔤 Embeddings (0)
+## 🔤 Embeddings
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding) · [full table](docs/tables/embedding.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## 📊 Datasets (2)
+## 📊 Datasets
+
+_2 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
 
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CIDAR | ARBML | 🇸🇦 SA | — | cc-by-4.0 | — | — | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/arbml/CIDAR) |
 | Masader | ARBML | 🌍 INTL | — | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ARBML/masader) |
 
-## 🔧 Tools (0)
+## 🔧 Tools
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=tool) · [full table](docs/tables/tool.md)_
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
 
-## 🏆 Benchmarks (0)
+## 🏆 Benchmarks
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=benchmark) · [full table](docs/tables/benchmark.md)_
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
 
-## 📄 Papers (0)
+## 📄 Papers
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=paper) · [full table](docs/tables/paper.md)_
 
 | Title | Venue | Year | Topic | Links |
 | --- | --- | --- | --- | --- |
 
-## 🏢 Organizations (0)
+## 🏢 Organizations
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=org) · [full table](docs/tables/org.md)_
 
 | Name | Country | Focus | Links |
 | --- | --- | --- | --- |
 
-## 🧩 Arabic Agent Skills (0)
+## 🧩 Arabic Agent Skills
 
 Skills shipped in this repo:
 
 _No skills shipped yet._
 
 Other Arabic agent skills in the wild:
+
+_0 entries · [all on the map](https://h9-tec.github.io/arabic-ai-atlas/#type=agent-skill) · [full table](docs/tables/agent-skill.md)_
 
 | Name | Org | Notes | Links |
 | --- | --- | --- | --- |

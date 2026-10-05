@@ -77,8 +77,8 @@ def test_papers_section_sorted_year_citations_title(fixture_entries):
         dict(base, id="p-new-hi", name="Alpha", year=2025, venue="arXiv 2025", tasks=["asr"], citations=50),
     ]
     out = render(fixture_entries + papers)
-    assert "- [📄 Papers](#-papers-3)" in out
-    section = out.split("## 📄 Papers (3)")[1].split("## 🏢")[0]
+    assert "- [📄 Papers](#-papers)" in out
+    section = out.split("## 📄 Papers")[1].split("## 🏢")[0]
     assert "| Title | Venue | Year | Topic | Links |" in section
     rows = [l for l in section.splitlines() if l.startswith("| ") and "Title" not in l and "---" not in l[:6]]
     assert [r.split(" | ")[0][2:] for r in rows] == ["Alpha", "Zeta", "Old"]
@@ -95,7 +95,7 @@ def _many(fixture_entries, n, type_="llm"):
 def test_section_capped_at_20_rows(fixture_entries):
     others = [e for e in fixture_entries if e["type"] != "llm"]
     out = render(others + _many(fixture_entries, 25))
-    section = out.split("## 🧠 Large Language Models (25)")[1].split("\n## ")[0]
+    section = out.split("## 🧠 Large Language Models")[1].split("\n## ")[0]
     rows = [l for l in section.splitlines() if l.startswith("| Syn ")]
     assert len(rows) == 20
     assert rows[0].startswith("| Syn 00 |") and rows[-1].startswith("| Syn 19 |")
@@ -112,3 +112,19 @@ def test_country_table(fixture_entries):
     sec = out.split("### Entries by country")[1].split("###")[0]
     assert "| Country | Entries | LLM | ASR | TTS | OCR | Embedding | Datasets | Tools | Benchmarks | Papers | Orgs |" in sec
     assert "(https://h9-tec.github.io/arabic-ai-atlas/#country=" in sec
+
+
+def test_heading_anchors_match_map_anchors(fixture_entries):
+    import re
+    from urllib.parse import unquote
+    from atlas.render_map import ANCHORS
+    out = render(fixture_entries)
+    found = {}
+    for line in out.splitlines():
+        m = re.match(r"## (.+)$", line)
+        if m:
+            h = m.group(1)
+            slug = "".join(c for c in h.lower() if c.isalnum() or c in " -_" or ord(c) == 0xFE0F).replace(" ", "-")
+            found[slug] = h
+    for anchor in ANCHORS.values():
+        assert unquote(anchor.lstrip("#")) in found, anchor

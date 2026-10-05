@@ -138,13 +138,15 @@ def render_table(entries: list[dict], type_: str, limit: int | None = None) -> s
 
 
 def render_section_table(entries: list[dict], type_: str, cap: int = README_CAP) -> str:
-    """Top `cap` rows for the README, plus a pointer to the full table when rows were cut."""
+    """Status line, then the top `cap` rows for the README."""
     total = sum(1 for e in entries if e.get("type") == type_)
     table = render_table(entries, type_, cap)
-    if total <= cap:
-        return table
-    return (f"{table}\n\n_Showing {cap} of {total} · [see all {total} on the interactive map]({SITE}#type={type_})"
-            f" · [full table](docs/tables/{type_}.md)_")
+    full = f"[full table](docs/tables/{type_}.md)"
+    if total > cap:
+        status = f"_Showing {cap} of {total} · [see all {total} on the interactive map]({SITE}#type={type_}) · {full}_"
+    else:
+        status = f"_{total} entries · [all on the map]({SITE}#type={type_}) · {full}_"
+    return f"{status}\n\n{table}"
 
 
 def render_country_table(entries: list[dict]) -> str:

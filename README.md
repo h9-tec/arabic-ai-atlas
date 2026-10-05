@@ -77,20 +77,22 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🧠 Large Language Models](#-large-language-models-358)
-- [🎙️ Speech Recognition](#️-speech-recognition-158)
-- [🔊 Text-to-Speech](#-text-to-speech-77)
-- [📖 OCR](#-ocr-44)
-- [🔤 Embeddings](#-embeddings-61)
-- [📊 Datasets](#-datasets-618)
-- [🔧 Tools](#-tools-259)
-- [🏆 Benchmarks](#-benchmarks-118)
-- [📄 Papers](#-papers-348)
-- [🏢 Organizations](#-organizations-78)
-- [🧩 Arabic Agent Skills](#-arabic-agent-skills-35)
+- [🧠 Large Language Models](#-large-language-models)
+- [🎙️ Speech Recognition](#️-speech-recognition)
+- [🔊 Text-to-Speech](#-text-to-speech)
+- [📖 OCR](#-ocr)
+- [🔤 Embeddings](#-embeddings)
+- [📊 Datasets](#-datasets)
+- [🔧 Tools](#-tools)
+- [🏆 Benchmarks](#-benchmarks)
+- [📄 Papers](#-papers)
+- [🏢 Organizations](#-organizations)
+- [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🤝 Contributing](#-contributing)
 
-## 🧠 Large Language Models (358)
+## 🧠 Large Language Models
+
+_Showing 20 of 358 · [see all 358 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_
 
 | Name | Org | Country | Size | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -115,9 +117,9 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 | ALLaM | SDAIA & IBM | 🇸🇦 SA | 7B | apache-2.0 | 11K | 2025-07-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) |
 | ALLaM-7B-Instruct-preview | HUMAIN | 🇸🇦 SA | 7B | apache-2.0 | 11K | 2025-07-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview) |
 
-_Showing 20 of 358 · [see all 358 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm) · [full table](docs/tables/llm.md)_
+## 🎙️ Speech Recognition
 
-## 🎙️ Speech Recognition (158)
+_Showing 20 of 158 · [see all 158 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr) · [full table](docs/tables/asr.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,9 +144,9 @@ _Showing 20 of 358 · [see all 358 on the interactive map](https://h9-tec.github
 | whisper-large-v3-turbo-darija | Anas Zil | 🇲🇦 MA | mit | 1K | 2025-11-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/anaszil/whisper-large-v3-turbo-darija) |
 | QwenCleo-ASR | Mohammed Aly | 🇪🇬 EG | apache-2.0 | 1K | 2026-06-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/mohammedaly22/QwenCleo-ASR) |
 
-_Showing 20 of 158 · [see all 158 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=asr) · [full table](docs/tables/asr.md)_
+## 🔊 Text-to-Speech
 
-## 🔊 Text-to-Speech (77)
+_Showing 20 of 77 · [see all 77 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=tts) · [full table](docs/tables/tts.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -169,9 +171,9 @@ _Showing 20 of 158 · [see all 158 on the interactive map](https://h9-tec.github
 | voho-saudi-speak-0.6b | Voho AI | 🇸🇦 SA | cc-by-nc-sa-4.0 | 262 | 2026-09-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/VohoAI/voho-saudi-speak-0.6b) |
 | Sofelia TTS | hamdallah | 🌍 INTL | apache-2.0 | 232 | 2026-01-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/hamdallah/Sofelia-TTS) |
 
-_Showing 20 of 77 · [see all 77 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=tts) · [full table](docs/tables/tts.md)_
+## 📖 OCR
 
-## 📖 OCR (44)
+_Showing 20 of 44 · [see all 44 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=ocr) · [full table](docs/tables/ocr.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -196,9 +198,9 @@ _Showing 20 of 77 · [see all 77 on the interactive map](https://h9-tec.github.i
 | Arabic OCR Qwen2.5 VL 7B Vision | loay | 🌍 INTL | apache-2.0 | 129 | 2025-07-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/loay/Arabic-OCR-Qwen2.5-VL-7B-Vision) |
 | arabic-small-nougat | MohamedRashad | 🌍 INTL | gpl-3.0 | 121 | 2024-11-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MohamedRashad/arabic-small-nougat) |
 
-_Showing 20 of 44 · [see all 44 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=ocr) · [full table](docs/tables/ocr.md)_
+## 🔤 Embeddings
 
-## 🔤 Embeddings (61)
+_Showing 20 of 61 · [see all 61 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding) · [full table](docs/tables/embedding.md)_
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -223,9 +225,9 @@ _Showing 20 of 44 · [see all 44 on the interactive map](https://h9-tec.github.i
 | Arabic mpnet base all nli triplet | Omartificial-Intelligence-Space | 🇸🇦 SA | apache-2.0 | 462 | 2025-01-23 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-mpnet-base-all-nli-triplet) |
 | silma-embedding-sts-v0.1 | SILMA AI | 🌍 INTL | apache-2.0 | 455 | 2024-11-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/silma-ai/silma-embedding-sts-v0.1) |
 
-_Showing 20 of 61 · [see all 61 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding) · [full table](docs/tables/embedding.md)_
+## 📊 Datasets
 
-## 📊 Datasets (618)
+_Showing 20 of 618 · [see all 618 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
 
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -250,9 +252,9 @@ _Showing 20 of 61 · [see all 61 on the interactive map](https://h9-tec.github.i
 | Common Voice Arabic | Mozilla Foundation | 🌍 INTL | — | cc0-1.0 | 3K | 2025-10-24 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://commonvoice.mozilla.org/ar/datasets) |
 | muaalem annotated v3 | obadx | 🌍 INTL | 100K–1M rows | mit | 3K | 2025-09-04 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/obadx/muaalem-annotated-v3) |
 
-_Showing 20 of 618 · [see all 618 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
+## 🔧 Tools
 
-## 🔧 Tools (259)
+_Showing 20 of 259 · [see all 259 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=tool) · [full table](docs/tables/tool.md)_
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -277,9 +279,9 @@ _Showing 20 of 618 · [see all 618 on the interactive map](https://h9-tec.github
 | api | sunnah-com | 🌍 INTL | unknown | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/sunnah-com/api) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sunnah.com) | API for sunnah.com |
 | api-js | Quran Foundation | 🌍 INTL | mit | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/quran/api-js) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://api-docs.quran.foundation/docs/sdk/javascript) | Quran Foundation's Official JS SDK https://npmjs.com/package/@quranjs/api |
 
-_Showing 20 of 259 · [see all 259 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=tool) · [full table](docs/tables/tool.md)_
+## 🏆 Benchmarks
 
-## 🏆 Benchmarks (118)
+_Showing 20 of 118 · [see all 118 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=benchmark) · [full table](docs/tables/benchmark.md)_
 
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -304,9 +306,9 @@ _Showing 20 of 259 · [see all 259 on the interactive map](https://h9-tec.github
 | fa en ar handwritten ocr v1 | saeid1999 | 🌍 INTL | cc-by-4.0 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/saeid1999/fa-en-ar-handwritten-ocr-v1) | A large, clean, augmentation-rich synthetic handwriting dataset for training and benchmarking OCR / HTR models on Persian (fa), Arabic (ar) and English (en). |
 | ALM-Bench | MBZUAI | 🇦🇪 AE | cc-by-nc-4.0 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MBZUAI/ALM-Bench) | All Languages Matter multimodal cultural benchmark covering 100 languages including Arabic. |
 
-_Showing 20 of 118 · [see all 118 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=benchmark) · [full table](docs/tables/benchmark.md)_
+## 📄 Papers
 
-## 📄 Papers (348)
+_Showing 20 of 348 · [see all 348 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=paper) · [full table](docs/tables/paper.md)_
 
 | Title | Venue | Year | Topic | Links |
 | --- | --- | --- | --- | --- |
@@ -331,9 +333,9 @@ _Showing 20 of 118 · [see all 118 on the interactive map](https://h9-tec.github
 | AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse | arXiv 2026 | 2026 | chat, sentiment, speech | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.23325) |
 | AraMS-28k: The Largest Publicly Released Line-Level Dataset of Historical Arabic Manuscripts with Margin and Insertion-Anchor Annotations | arXiv 2026 | 2026 | asr, ocr, diacritization, vision | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26921) |
 
-_Showing 20 of 348 · [see all 348 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=paper) · [full table](docs/tables/paper.md)_
+## 🏢 Organizations
 
-## 🏢 Organizations (78)
+_Showing 20 of 78 · [see all 78 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=org) · [full table](docs/tables/org.md)_
 
 | Name | Country | Focus | Links |
 | --- | --- | --- | --- |
@@ -358,9 +360,7 @@ _Showing 20 of 348 · [see all 348 on the interactive map](https://h9-tec.github
 | FreedomIntelligence | 🌍 INTL | Arabic LLMs and alignment - AceGPT, Arabic cultural datasets | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/FreedomIntelligence) |
 | Future Look ITC (FLITC) | 🇸🇦 SA | Arabic-native AI solutions, venture studio - LABEAH, Smart Hire, Rayee Media, Nabadat | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://flitc.ai/) |
 
-_Showing 20 of 78 · [see all 78 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=org) · [full table](docs/tables/org.md)_
-
-## 🧩 Arabic Agent Skills (35)
+## 🧩 Arabic Agent Skills
 
 Skills shipped in this repo:
 
@@ -373,6 +373,8 @@ Skills shipped in this repo:
 | tashkeel-check | Use when Arabic text may need diacritics (tashkeel) added or stripped, for TTS input, learner material, Quran or poetry, or when diacritization looks partial or inconsistent. | `skills/tashkeel-check` |
 
 Other Arabic agent skills in the wild:
+
+_Showing 20 of 35 · [see all 35 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=agent-skill) · [full table](docs/tables/agent-skill.md)_
 
 | Name | Org | Notes | Links |
 | --- | --- | --- | --- |
@@ -396,8 +398,6 @@ Other Arabic agent skills in the wild:
 | Fanar MCP Server | danijeun | MCP server exposing Fanar API tools such as Islamic RAG and image generation. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/danijeun/fanar-mcp-server) |
 | Hadith MCP (ovehbe) | ovehbe | MCP server for searchable, citation-safe hadith text. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/ovehbe/hadith-mcp) |
 | Hurmoz | Moshe-ship | Collection of 63 Arabic skills for the Hermes Agent framework. | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Moshe-ship/hurmoz) |
-
-_Showing 20 of 35 · [see all 35 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=agent-skill) · [full table](docs/tables/agent-skill.md)_
 
 ## 🤝 Contributing
 

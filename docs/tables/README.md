@@ -4,17 +4,17 @@ Every entry of each type. The [README](../../README.md) shows only the top 20 pe
 
 | Type | Entries |
 | --- | --- |
-| [Large Language Models](llm.md) | 358 |
-| [Speech Recognition](asr.md) | 158 |
-| [Text-to-Speech](tts.md) | 77 |
-| [OCR](ocr.md) | 44 |
-| [Embeddings](embedding.md) | 61 |
-| [Datasets](dataset.md) | 618 |
-| [Tools](tool.md) | 259 |
-| [Benchmarks](benchmark.md) | 118 |
-| [Organizations](org.md) | 78 |
+| [Large Language Models](llm.md) | 387 |
+| [Speech Recognition](asr.md) | 173 |
+| [Text-to-Speech](tts.md) | 85 |
+| [OCR](ocr.md) | 51 |
+| [Embeddings](embedding.md) | 66 |
+| [Datasets](dataset.md) | 1159 |
+| [Tools](tool.md) | 313 |
+| [Benchmarks](benchmark.md) | 165 |
+| [Organizations](org.md) | 125 |
 | [Arabic Agent Skills](agent-skill.md) | 35 |
-| [Papers](paper.md) | 348 |
+| [Papers](paper.md) | 732 |
 
 ---
 

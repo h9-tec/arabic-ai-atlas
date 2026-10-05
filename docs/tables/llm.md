@@ -1,4 +1,4 @@
-# Large Language Models (358)
+# Large Language Models (387)
 
 [← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=llm)
 
@@ -62,6 +62,7 @@
 | NoormontAI | Noormont | 🌍 INTL | — | apache-2.0 | 1K | 2026-09-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Noormont/NoormontAI) |
 | AraBART | Moussa Kamal Eddine | 🌍 INTL | — | apache-2.0 | 1K | 2022-05-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/moussaKam/AraBART) |
 | Karnak 40B v1.0 | Applied Innovation Center (MCIT Egypt) | 🇪🇬 EG | 40B | apache-2.0 | 1K | 2026-04-24 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Applied-Innovation-Center/Karnak-40B-v1.0) |
+| Karnak LLM | Applied Innovation Center (MCIT Egypt) | 🇪🇬 EG | — | apache-2.0 | 1K | 2026-04-24 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Applied-Innovation-Center/Karnak) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://itida.gov.eg/Arabic/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx) |
 | SILMA Kashif | SILMA AI | 🌍 INTL | 2B | gemma | 1K | 2025-06-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/silma-ai/SILMA-Kashif-2B-Instruct-v1.0) |
 | flair arabic multi ner | megantosh | 🌍 INTL | — | apache-2.0 | 1K | 2022-03-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/megantosh/flair-arabic-multi-ner) |
 | bert mini arabic | asafaya | 🌍 INTL | — | unknown | 1K | 2023-03-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/asafaya/bert-mini-arabic) |
@@ -166,6 +167,7 @@
 | xlm r large arabic toxic | akhooli | 🌍 INTL | — | mit | 166 | 2024-10-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/akhooli/xlm-r-large-arabic-toxic) |
 | AceGPT-v2-32B-Chat | Asas AI | 🌍 INTL | 32B | apache-2.0 | 161 | 2024-07-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/asas-ai/AceGPT-v2-32B-Chat) |
 | GigaBERT-v4-Arabic-and-English | lanwuwei | 🌍 INTL | — | unknown | 157 | 2021-05-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/lanwuwei/GigaBERT-v4-Arabic-and-English) |
+| qwen2.5-1.5b-amiya-palestinian | Khamad | 🌍 INTL | — | apache-2.0 | 152 | 2026-01-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Khamad/qwen2.5-1.5b-amiya-palestinian) |
 | AraEuroBert-610M | Omartificial-Intelligence-Space | 🇸🇦 SA | 610M | mit | 151 | 2025-03-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/AraEuroBert-610M) |
 | Emhotob 25M English MSA v1 | oddadmix | 🇪🇬 EG | 25M | apache-2.0 | 151 | 2026-07-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/Emhotob-25M-English-MSA-v1) |
 | arabic t5 small | Flax Community | 🌍 INTL | — | unknown | 147 | 2023-11-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/flax-community/arabic-t5-small) |
@@ -202,6 +204,7 @@
 | egyptian punctuation restoration | oddadmix | 🇪🇬 EG | — | unknown | 83 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/egyptian-punctuation-restoration) |
 | arabic poem gen | usama98 | 🌍 INTL | — | apache-2.0 | 82 | 2022-05-31 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/usama98/arabic_poem_gen) |
 | AraBert-Arabic-NER-CoNLLpp | MostafaAhmed98 | 🌍 INTL | — | mit | 81 | 2024-06-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MostafaAhmed98/AraBert-Arabic-NER-CoNLLpp) |
+| qwen3-4b-oman-qlora | menasaat | 🌍 INTL | — | apache-2.0 | 81 | 2026-09-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/menasaat/qwen3-4b-oman-qlora) |
 | Dz-EmoBERT | Houdna-khilouf | 🌍 INTL | — | unknown | 78 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Houdna-khilouf/Dz-EmoBERT) |
 | Atlas-Chat-27B | MBZUAI-Paris Lab | 🇦🇪 AE | 27.2B | gemma | 75 | 2024-10-24 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MBZUAI-Paris/Atlas-Chat-27B) |
 | gemma iraqi finetune v2 | Ameer Wisam | 🇮🇶 IQ | — | gemma | 72 | 2026-07-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ameer4wisam/gemma-iraqi-finetune-v2) |
@@ -219,6 +222,8 @@
 | Arabic-Orpo-Llama-3-8B-Instruct | MohamedRashad | 🌍 INTL | 8.0B | llama3 | 57 | 2024-05-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MohamedRashad/Arabic-Orpo-Llama-3-8B-Instruct) |
 | kallamni 4b v1 | yasserrmd | 🌍 INTL | 4B | cc-by-nc-4.0 | 57 | 2025-10-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/yasserrmd/kallamni-4b-v1) |
 | arabic t5 small question paraphrasing | salti | 🌍 INTL | — | unknown | 56 | 2023-11-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/salti/arabic-t5-small-question-paraphrasing) |
+| Arabic-llama3 | HeshamHaroon | 🌍 INTL | — | apache-2.0 | 55 | 2024-04-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/HeshamHaroon/Arabic-llama3) |
+| English-Moroccan-Darija-v1 | oddadmix | 🌍 INTL | — | unknown | 55 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/English-Moroccan-Darija-v1) |
 | Fine Tuning Gemma 2b it for Arabic | Ruqiya | 🌍 INTL | 2B | unknown | 55 | 2024-03-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Ruqiya/Fine-Tuning-Gemma-2b-it-for-Arabic) |
 | miniReranker_arabic_v1 | prithivida | 🌍 INTL | — | apache-2.0 | 53 | 2025-05-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/prithivida/miniReranker_arabic_v1) |
 | Masrawy-BiLingual-v1 | oddadmix | 🇪🇬 EG | — | unknown | 52 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/Masrawy-BiLingual-v1) |
@@ -227,6 +232,7 @@
 | bert base arabic camelbert ca pos egy | CAMeL Lab, NYUAD | 🇦🇪 AE | — | apache-2.0 | 50 | 2021-10-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-ca-pos-egy) |
 | camelbert msa zaebuc ged 13 | CAMeL Lab, NYUAD | 🇦🇪 AE | — | mit | 50 | 2024-01-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CAMeL-Lab/camelbert-msa-zaebuc-ged-13) |
 | Shami-MT | Omartificial-Intelligence-Space | 🇸🇦 SA | 368M | apache-2.0 | 49 | 2025-08-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/Shami-MT) |
+| AraBERT Summarization Goud | Goud | 🌍 INTL | — | unknown | 47 | 2022-04-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Goud/AraBERT-summarization-goud) |
 | QuranPlus | justdeen | 🌍 INTL | — | apache-2.0 | 47 | 2025-08-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/justdeen/QuranPlus) |
 | ANER | boda | 🌍 INTL | — | unknown | 43 | 2023-09-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/boda/ANER) |
 | bert base arabic camelbert ca poetry | CAMeL Lab, NYUAD | 🇦🇪 AE | — | apache-2.0 | 43 | 2021-10-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-ca-poetry) |
@@ -243,6 +249,7 @@
 | NileChat-3B-Base | UBC-NLP | 🌍 INTL | 3.4B | other | 36 | 2026-05-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/UBC-NLP/NileChat-3B-Base) |
 | AraT5-msa-base | UBC-NLP | 🌍 INTL | — | unknown | 34 | 2023-08-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/UBC-NLP/AraT5-msa-base) |
 | english to darija 2 | Youssef Chafiqui | 🌍 INTL | — | cc-by-4.0 | 34 | 2024-02-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ychafiqui/english-to-darija-2) |
+| sdnlp-llama3.1-syrian-lora | hasankh (SDNLP) | 🌍 INTL | — | unknown | 34 | 2026-01-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/hasankh/sdnlp-llama3.1-syrian-lora) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://aclanthology.org/2026.vardial-1.29/) |
 | JameaMT-ar-en-350M | ramyibrahim | 🌍 INTL | 350M | mit | 33 | 2026-06-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ramyibrahim/JameaMT-ar-en-350M) |
 | NAMAA MT Saudi2English | NAMAA-Space | 🇸🇦 SA | — | apache-2.0 | 33 | 2025-11-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/NAMAA-MT-Saudi2English) |
 | AraCode-7B-Full | rahimdzx | 🌍 INTL | 7B | apache-2.0 | 32 | 2026-04-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/rahimdzx/AraCode-7B-Full) |
@@ -250,6 +257,7 @@
 | BiMediX-Ara | BiMediX | 🌍 INTL | — | cc-by-nc-sa-4.0 | 32 | 2024-02-26 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BiMediX/BiMediX-Ara) |
 | SambaLingo-Arabic-Chat-70B | SambaNova | 🌍 INTL | 70B | llama2 | 32 | 2024-05-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/sambanovasystems/SambaLingo-Arabic-Chat-70B) |
 | al baka llama3 8b experimental | Omartificial-Intelligence-Space | 🇸🇦 SA | 8B | apache-2.0 | 31 | 2024-04-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/al-baka-llama3-8b-experimental) |
+| ArabGlossBERT | SinaLab | 🇵🇸 PS | — | cc-by-sa-4.0 | 31 | 2026-01-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/SinaLab/ArabGlossBERT) |
 | arabic relation extraction | ychenNLP | 🌍 INTL | — | mit | 30 | 2022-07-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ychenNLP/arabic-relation-extraction) |
 | Fasih 2B | HeshamHaroon | 🌍 INTL | 2B | apache-2.0 | 30 | 2026-03-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/HeshamHaroon/Fasih-2B) |
 | LlamaLens | QCRI | 🇶🇦 QA | — | cc-by-nc-sa-4.0 | 30 | 2026-04-23 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/QCRI/LlamaLens) |
@@ -261,6 +269,7 @@
 | Arabic-Text-Correction | SuperSl6 | 🌍 INTL | — | apache-2.0 | 27 | 2025-02-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/SuperSl6/Arabic-Text-Correction) |
 | darija to english | centino00 | 🌍 INTL | — | apache-2.0 | 27 | 2024-03-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/centino00/darija-to-english) |
 | t5 darija summarization | Kamel | 🌍 INTL | — | unknown | 27 | 2024-09-25 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Kamel/t5-darija-summarization) |
+| english-egyptian-arabic-translator | Omar-youssef | 🌍 INTL | — | apache-2.0 | 26 | 2026-06-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omar-youssef/english-egyptian-arabic-translator) |
 | jais 7b chat | erfanvaredi | 🌍 INTL | 7B | apache-2.0 | 26 | 2024-02-22 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/erfanvaredi/jais-7b-chat) |
 | Kuwaiti-Qwen3-v3 | Community (Kuwait) | 🇰🇼 KW | — | unknown | 26 | 2026-06-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/balfaris/kuwaiti-qwen3-v3-GGUF) |
 | ModernAraBERT | gizadatateam | 🌍 INTL | — | mit | 26 | 2025-10-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/gizadatateam/ModernAraBERT) |
@@ -272,6 +281,8 @@
 | Hala 350M | KAUST | 🇸🇦 SA | 350M | cc-by-nc-4.0 | 24 | 2025-09-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/hammh0a/Hala-350M) |
 | AdabTranslate-Darija | itsmeussa | 🌍 INTL | — | apache-2.0 | 23 | 2024-03-27 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/itsmeussa/AdabTranslate-Darija) |
 | Arabic-DeepSeek-R1-Distill-8B | Omartificial-Intelligence-Space | 🇸🇦 SA | 8B | apache-2.0 | 23 | 2025-02-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-DeepSeek-R1-Distill-8B) |
+| Barka | Slim205 | 🌍 INTL | — | mit | 23 | 2024-10-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Slim205/Barka-9b-it-v02) |
+| Seamless Darija-English | AnasAber | 🌍 INTL | — | unknown | 23 | 2024-09-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AnasAber/seamless-darija-eng) |
 | darija to english 2 | Youssef Chafiqui | 🌍 INTL | — | cc-by-nc-4.0 | 22 | 2024-02-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ychafiqui/darija-to-english-2) |
 | jev ar | atmaneayoub | 🌍 INTL | — | cc-by-nc-4.0 | 22 | 2026-10-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atmaneayoub/jev-ar) |
 | mT5-base_ar | ArabicNLP | 🌍 INTL | — | mit | 22 | 2023-05-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ArabicNLP/mT5-base_ar) |
@@ -281,6 +292,7 @@
 | bert2bert | malmarjeh | 🌍 INTL | — | unknown | 20 | 2023-07-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/malmarjeh/bert2bert) |
 | Fanar-2-Oryx-IG | QCRI | 🇶🇦 QA | — | apache-2.0 | 20 | 2026-03-25 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/QCRI/Fanar-2-Oryx-IG) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.16397) |
 | Jais | Inception AI, Cerebras | 🇦🇪 AE | 13B, 30B | apache-2.0 | 20 | 2024-09-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inceptionai/jais-30b-v3) |
+| Tam Omani adapter (tam-omani-v3) | shaaarplegs | 🌍 INTL | — | unknown | 20 | 2026-06-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/shaaarplegs/tam-omani-v3) |
 | Arabic question generation | MIIB-NLP | 🌍 INTL | — | unknown | 19 | 2022-10-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MIIB-NLP/Arabic-question-generation) |
 | Arabic QWQ 32B Preview | Omartificial-Intelligence-Space | 🇸🇦 SA | 32B | apache-2.0 | 19 | 2024-12-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-QWQ-32B-Preview) |
 | arabic summarization | oddadmix | 🇪🇬 EG | — | unknown | 19 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/arabic-summarization) |
@@ -301,26 +313,34 @@
 | Diraya 3B Instruct Ar | Omartificial-Intelligence-Space | 🇸🇦 SA | 3B | apache-2.0 | 14 | 2025-03-15 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/Diraya-3B-Instruct-Ar) |
 | mbart large cc25 ar en | akhooli | 🌍 INTL | — | mit | 14 | 2020-12-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/akhooli/mbart-large-cc25-ar-en) |
 | mbart large cc25 en ar | akhooli | 🌍 INTL | — | mit | 14 | 2020-12-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/akhooli/mbart-large-cc25-en-ar) |
+| MorrBERT | otmangi | 🌍 INTL | — | unknown | 14 | 2023-07-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/otmangi/MorrBERT) |
 | poetry2023 | akhooli | 🌍 INTL | — | unknown | 14 | 2023-03-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/akhooli/poetry2023) |
 | arabart zaebuc gec ged 13 | CAMeL Lab, NYUAD | 🇦🇪 AE | — | mit | 13 | 2024-01-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CAMeL-Lab/arabart-zaebuc-gec-ged-13) |
 | HeArBERT | aviadrom | 🌍 INTL | — | unknown | 13 | 2024-03-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/aviadrom/HeArBERT) |
+| jordanian-to-fusha-model | faresalawneh | 🌍 INTL | — | mit | 13 | 2026-03-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/faresalawneh/jordanian-to-fusha-model) |
 | vioBERT-v3 | Vionex-digital | 🌍 INTL | — | apache-2.0 | 13 | 2026-04-23 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Vionex-digital/vioBERT-v3) |
 | AraStyleTransfer-21 | Omartificial-Intelligence-Space | 🇸🇦 SA | — | apache-2.0 | 12 | 2025-11-26 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/AraStyleTransfer-21) |
 | gpt oss math ar | Omartificial-Intelligence-Space | 🇸🇦 SA | 20B | apache-2.0 | 12 | 2025-08-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/gpt-oss-math-ar) |
 | blip-Arabic-flickr-8k | omarsabri8756 | 🌍 INTL | — | mit | 11 | 2025-05-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/omarsabri8756/blip-Arabic-flickr-8k) |
 | Al Atlas LLM 0.5B | BounharAbdelaziz | 🇲🇦 MA | 0.5B | unknown | 10 | 2025-03-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BounharAbdelaziz/Al-Atlas-LLM-0.5B) |
+| ShamiBERT | mabahboh | 🌍 INTL | — | cc-by-nc-4.0 | 10 | 2026-03-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/mabahboh/ShamiBERT) |
 | MoroccanDarija-Llama-3.1-8B | Anassk | 🌍 INTL | 8B | mit | 9 | 2024-09-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Anassk/MoroccanDarija-Llama-3.1-8B) |
+| MorRoBERTa | otmangi | 🌍 INTL | — | unknown | 9 | 2023-06-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/otmangi/MorRoBERTa) |
 | QA_FineTuned_ArabianGpt-01B | gp-tar4 | 🌍 INTL | 01B | apache-2.0 | 9 | 2024-04-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/gp-tar4/QA_FineTuned_ArabianGpt-01B) |
+| algerian-dialect-translation | zakigll | 🌍 INTL | — | apache-2.0 | 8 | 2024-03-26 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/zakigll/algerian-dialect-translation) |
 | basira omni 30b v0.1 | Omartificial-Intelligence-Space | 🇸🇦 SA | 30B | other | 8 | 2026-05-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/basira-omni-30b-v0.1) |
 | falcon-7b-QLoRA-alpaca-arabic | alielfilali01 | 🌍 INTL | 7B | apache-2.0 | 8 | 2023-06-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/alielfilali01/falcon-7b-QLoRA-alpaca-arabic) |
+| Q8BERTa-v2 | Kalmundi | 🌍 INTL | — | apache-2.0 | 7 | 2025-01-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Kalmundi/Q8BERTa-v2) |
 | Transliteration Moroccan Darija | atlasia | 🇲🇦 MA | — | unknown | 7 | 2024-04-30 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/Transliteration-Moroccan-Darija) |
 | Bahraini Dialect LLM | Community (Bahrain) | 🇧🇭 BH | — | other | 6 | 2026-02-23 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM) |
 | byt5 darija emphatic | anasskabil | 🌍 INTL | — | mit | 5 | 2026-05-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/anasskabil/byt5-darija-emphatic) |
+| hassaniya-gpt2-talk | ahmed200512 | 🌍 INTL | — | mit | 5 | 2026-05-26 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ahmed200512/hassaniya-gpt2-talk) |
 | darija translator | Dhiadev-tn | 🌍 INTL | — | cc-by-nc-sa-4.0 | 4 | 2026-07-24 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Dhiadev-tn/darija-translator) |
 | ar stablelm 2 base | Stability AI | 🌍 INTL | — | ['other'] | 2 | 2024-12-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/stabilityai/ar-stablelm-2-base) |
 | Terjman Nano v1 | atlasia | 🇲🇦 MA | — | cc-by-nc-4.0 | 2 | 2024-05-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/Terjman-Nano-v1) |
 | Terjman Supreme v1 | atlasia | 🇲🇦 MA | — | cc-by-nc-4.0 | 1 | 2024-06-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/Terjman-Supreme-v1) |
 | AceGPT | FreedomIntelligence | 🌍 INTL | 7B | apache-2.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/FreedomIntelligence/AceGPT) |
+| AceGPT-v2 | FreedomIntelligence | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/FreedomIntelligence/AceGPT-v2) |
 | AIN | MBZUAI | 🇦🇪 AE | 8B | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/mbzuai-oryx/AIN) |
 | ALLaM 34B | HUMAIN (Saudi) | 🇸🇦 SA | 34B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.humain.com/en/news/humain-chat-launch) |
 | ALLaM-2 | SDAIA & IBM | 🇸🇦 SA | 7B-70B | unknown | — | — | [![HF](https://img.shields.io/badge/-Hub-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ALLaM-AI) |
@@ -328,6 +348,7 @@
 | AraBERT | AUB MIND Lab | 🇱🇧 LB | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/aub-mind/arabert) |
 | arabic llm guard | NAMAA-Space | 🇸🇦 SA | — | apache-2.0 | 0 | 2026-03-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/arabic-llm-guard) |
 | Arabic-BERT | alisafaya | 🌍 INTL | — | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/alisafaya/Arabic-BERT) |
+| Arabic.AI LLM-X / LLM-S | Arabic.AI (Tarjama) | 🇦🇪 AE | — | proprietary | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://arabic.ai/llm) |
 | AraLLaMA | Bashar Talafha | 🌍 INTL | 7B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/bashar-talafha/AraLLaMA) |
 | Arcee-Meraj | Arcee AI | 🌍 INTL | 72B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/arcee-ai/Arcee-Meraj) |
 | Arcee-Meraj-Mini | Arcee AI | 🌍 INTL | 7B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/arcee-ai/Arcee-Meraj-Mini) |
@@ -339,16 +360,21 @@
 | Gemma 3 | Google | 🌍 INTL | 1B-27B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d) |
 | GemmAr | ClusterlabAi | 🌍 INTL | 7B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.02147) |
 | inference free splade distilbert base Arabic cased nq | Omartificial-Intelligence-Space | 🇸🇦 SA | — | apache-2.0 | 0 | 2025-07-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/inference-free-splade-distilbert-base-Arabic-cased-nq) |
+| iraqi_dialect_llm | EzioDevio | 🌍 INTL | — | unknown | 0 | 2024-11-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/EzioDevio/iraqi_dialect_llm) |
 | Karnak | ITIDA (Egypt) | 🇪🇬 EG | 30B-70B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://itida.gov.eg/English/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx) |
 | Kawn | Misraj AI (Saudi) | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/) |
 | Kuwain | Misraj AI | 🇸🇦 SA | 1.5B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.15120) |
 | Labess Chat | Linagora | 🌍 INTL | 7B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Linagora/Labess-chat-7b) |
+| Lahjawi | Misraj AI | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/en/models/lahjawi) |
 | LFM2.5 1.2B Instruct Saudi Dialect | AyoubChLin | 🌍 INTL | 1.2B | unknown | 0 | 2026-02-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AyoubChLin/LFM2.5-1.2B-Instruct-Saudi-Dialect) |
+| LibiGPT | Smart Co for Technology Projects and AI | 🇱🇾 LY | — | proprietary | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.middleeastainews.com/p/first-libyan-national-large-language) |
 | Llama 2 13b chat arabic lora | Icebear-AI | 🌍 INTL | 13B | apache-2.0 | 0 | 2023-08-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Icebear-AI/Llama-2-13b-chat-arabic-lora) |
 | LlamAr | ClusterlabAi | 🌍 INTL | 8B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.02147) |
+| Manara-3B | AgenThink AI | 🌍 INTL | — | apache-2.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/agenthinkai/manara) |
 | MARBERT | UBC-NLP | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/UBC-NLP/marbert) |
 | Math Arabic Llama 3.2 3B Instruct | Jr23xd23 | 🌍 INTL | 3B | apache-2.0 | 0 | 2024-10-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Jr23xd23/Math_Arabic_Llama-3.2-3B-Instruct) |
 | Mistral Saba | Mistral | 🌍 INTL | 24B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://mistral.ai/news/mistral-saba) |
+| Mu'een / Maeen | Oman MTCIT | 🇴🇲 OM | — | proprietary | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://initiatives.weforum.org/connected-future-initiative/case-study-details/the-omani-language-model-%E2%80%9Cmaeen%E2%80%9D/aJYTG000000058H4AQ) |
 | mubeen | MASARAT | 🇸🇦 SA | — | other | 0 | 2025-08-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MASARAT-SA/mubeen) |
 | Mulhem | SDAIA | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://sdaia.gov.sa/) |
 | Mutarjim | Misraj AI | 🇸🇦 SA | 1.5B | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.17894) |
@@ -356,12 +382,15 @@
 | NOOR | TII (UAE) | 🇦🇪 AE | 10B | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://noor.tii.ae/) |
 | Nuha | Elm (Saudi) | 🇸🇦 SA | — | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://elm.sa/en/about-us/why-elm/case-studies/Pages/Nuha-Bridging-Technology-and-Arabic-Culture.aspx) |
 | Octopus | Elyadata | 🌍 INTL | — | unknown | 0 | 2025-11-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ArabicSpeech/Octopus) |
+| Oman GPT | Oman MTCIT | 🇴🇲 OM | — | proprietary | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://www.mtcit.gov.om/sectors?sector=artificial_intelligence) |
 | Qalam | UBC-NLP | 🌍 INTL | — | unknown | — | — | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.13559) |
 | Qwen 3 | Alibaba | 🌍 INTL | 0.6B-235B | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |
 | SfaIA-LID-Arabic-Dialect-Identifier | BounharAbdelaziz | 🇲🇦 MA | — | unknown | 0 | 2025-01-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BounharAbdelaziz/SfaIA-LID-Arabic-Dialect-Identifier) |
 | Shahin | malhajar | 🇸🇾 SY | 14B | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/malhajar/Shahin-v0.1-14B) |
 | TinyOctopus | SaraAlthubaiti | 🌍 INTL | — | unknown | 0 | 2025-03-05 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/SaraAlthubaiti/TinyOctopus) |
+| VioletV2 | UBC-NLP | 🌍 INTL | — | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/UBC-NLP/VioletV2) |
 | XLM-RoBERTa-Morocco | atlasia | 🇲🇦 MA | — | mit | 0 | 2025-03-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/XLM-RoBERTa-Morocco) |
+| Zol-RoBERTa | Duaa Alshareef | 🌍 INTL | — | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/DuaaAlshareef/Sudanese-Arabic-Dialect-Encoding) |
 
 ---
 

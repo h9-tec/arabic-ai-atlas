@@ -1,10 +1,11 @@
-# Text-to-Speech (77)
+# Text-to-Speech (85)
 
 [← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=tts)
 
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 | XTTS-v2 | Coqui | 🌍 INTL | coqui-public-model-license | 6.7M | 2023-12-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/coqui/XTTS-v2) |
+| Multilingual Chatterbox | Resemble AI | 🌍 INTL | mit | 1.7M | 2026-06-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ResembleAI/chatterbox) |
 | f5tts-algerian-darja | Touati Kamel | 🇩🇿 DZ | apache-2.0 | 12K | 2026-09-23 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/touati-kamel/f5tts-algerian-darja) |
 | facebook/mms-tts-ara | Meta | 🌍 INTL | cc-by-nc-4.0 | 6K | 2023-09-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/facebook/mms-tts-ara) |
 | arabic-emirati-female-piper | Vadim Belsky | 🇦🇪 AE | mit | 1K | 2025-12-01 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vadimbelsky/arabic-emirati-female-piper) |
@@ -58,6 +59,7 @@
 | VibeVoice-Egy | MAdel121 | 🌍 INTL | mit | 16 | 2026-03-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MAdel121/VibeVoice-Egy) |
 | emirati fastpitch bilingual v1.0 | Vadim Belsky | 🇦🇪 AE | cc-by-4.0 | 14 | 2026-01-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vadimbelsky/emirati-fastpitch-bilingual-v1.0) |
 | chatterbox multilingual finetuned arabic | juliardi | 🌍 INTL | mit | 13 | 2026-01-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/juliardi/chatterbox-multilingual-finetuned-arabic) |
+| xtts-omani-qlora-merged | AhmedHamedElheity | 🌍 INTL | mit | 13 | 2025-09-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AhmedHamedElheity/xtts-omani-qlora-merged) |
 | saudi tts | Ahmed Eladl | 🇸🇦 SA | apache-2.0 | 11 | 2025-12-15 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AhmedEladl/saudi-tts) |
 | Spark TTS Arabic Complete | azeddinShr | 🌍 INTL | apache-2.0 | 7 | 2025-12-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/azeddinShr/Spark-TTS-Arabic-Complete) |
 | 3arab TTS 500M v2 | sherif1313 | 🌍 INTL | apache-2.0 | 0 | 2026-06-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/sherif1313/3arab-TTS-500M-v2) |
@@ -72,10 +74,16 @@
 | Festival Arabic TTS Docker | Nawar Halabi | 🇸🇾 SY | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/nawarhalabi/festival-tts-arabic-voices-docker) |
 | Festival Arabic voices | linuxscout | 🇩🇿 DZ | gpl-3.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/linuxscout/festival-tts-arabic-voices) |
 | Habibi-TTS | SWivid | 🌍 INTL | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/SWivid/Habibi-TTS) |
+| jordanian-arabic-tts | Abdelkareem | 🌍 INTL | unknown | — | — | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Abdelkareem/jordanian-arabic-tts) |
+| Lahgtna | oddadmix | 🌍 INTL | unknown | — | — | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/oddadmix/lahgtna-chatterbox-demo) |
 | Piper TTS | Rhasspy | 🌍 INTL | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/rhasspy/piper) |
 | samt | Moshe-ship | 🌍 INTL | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Moshe-ship/samt) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://moshe-ship.github.io/samt/) |
+| Sawt Najd | Misraj AI | 🇸🇦 SA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/en/models/sawt-najd) |
 | SILMA TTS v2 | SILMA AI | 🌍 INTL | proprietary | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/SILMA-AI/livekit-plugins-silma) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://silma.ai/arabic-text-to-speech) |
+| SILMA TTS v2 (Saudi Najdi) | SILMA AI | 🌍 INTL | proprietary | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://silma.ai/saudi-tts-model) |
+| speecht5-darija | HAMMALE | 🌍 INTL | unknown | — | — | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/HAMMALE/speecht5-darija) |
 | StyleTTS2-LibriTTS-arabic | fadi77 | 🌍 INTL | mit | 0 | 2025-04-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/fadi77/StyleTTS2-LibriTTS-arabic) |
+| Tacotron2-Arabic | youssefsharief | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/youssefsharief/arabic-tacotron-tts) |
 | tts-arabic Flutter app | nipponjo | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/nipponjo/tts-arabic-flutter) |
 | tts-arabic-pytorch | nipponjo | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/nipponjo/tts-arabic-pytorch) |
 | tts_arabic (ONNX) | nipponjo | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/nipponjo/tts_arabic) |

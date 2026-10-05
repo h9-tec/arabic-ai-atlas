@@ -1,4 +1,4 @@
-# Embeddings (61)
+# Embeddings (66)
 
 [← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding)
 
@@ -47,6 +47,7 @@
 | e5 base mlqa finetuned arabic for rag | OmarAlsaabi | 🌍 INTL | unknown | 76 | 2024-02-07 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/OmarAlsaabi/e5-base-mlqa-finetuned-arabic-for-rag) |
 | AraGemma-Embedding-300m | Omartificial-Intelligence-Space | 🇸🇦 SA | apache-2.0 | 75 | 2025-09-07 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Omartificial-Intelligence-Space/AraGemma-Embedding-300m) |
 | algerianME5 | 81melody | 🌍 INTL | mit | 72 | 2026-04-19 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/81melody/algerianME5) |
+| Namaa-Reranker | NAMAA-Space | 🇸🇦 SA | apache-2.0 | 66 | 2025-04-03 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/Namaa-Reranker-v1) |
 | Jisr Align 29M | oddadmix | 🇪🇬 EG | apache-2.0 | 57 | 2026-08-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/Jisr-Align-29M) |
 | arabic reranker | oddadmix | 🇪🇬 EG | unknown | 53 | 2026-04-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/oddadmix/arabic-reranker) |
 | zarra | NAMAA-Space | 🇸🇦 SA | mit | 41 | 2025-06-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/zarra) |
@@ -58,6 +59,10 @@
 | ModernBERT-Arabic | BounharAbdelaziz | 🌍 INTL | unknown | 3 | 2024-12-29 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BounharAbdelaziz/ModernBERT-Arabic-Embeddings) |
 | ar-embeddings | iamaziz | 🌍 INTL | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/iamaziz/ar-embeddings) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://huggingface.co/azizalto/arabic-news-embeddings) |
 | aravec | Bakrianoo | 🇪🇬 EG | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/bakrianoo/aravec) |
+| ArWordVec | mmdoha200 | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/mmdoha200/ArWordVec) |
+| Kawn Embed Islamic | Misraj AI | 🇸🇦 SA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/en/models/kawn-embed-islamic) |
+| Kawn Embed Light | Misraj AI | 🇸🇦 SA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/en/models/kawn-embed-light) |
+| Kawn Embed Medical | Misraj AI | 🇸🇦 SA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://misraj.ai/en/models/kawn-embed-medical) |
 | Morocco Darija Sentence Embedding v0.2 | BounharAbdelaziz | 🌍 INTL | apache-2.0 | 0 | 2025-02-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BounharAbdelaziz/Morocco-Darija-Sentence-Embedding-v0.2) |
 | Morocco Darija Word Embedding | atlasia | 🇲🇦 MA | unknown | 0 | 2025-02-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/Morocco-Darija-Word-Embedding) |
 | Multilingual-NLP-for-Islamic-Theology | mobassir94 | 🌍 INTL | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/mobassir94/Multilingual-NLP-for-Islamic-Theology) |

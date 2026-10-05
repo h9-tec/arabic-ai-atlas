@@ -1,4 +1,4 @@
-# OCR (44)
+# OCR (51)
 
 [← README](../../README.md) · [interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=ocr)
 
@@ -31,6 +31,7 @@
 | arabic base nougat | MohamedRashad | 🌍 INTL | gpl-3.0 | 62 | 2024-11-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MohamedRashad/arabic-base-nougat) |
 | unlimited ocr quran uthmani | AyoubChLin | 🌍 INTL | mit | 49 | 2026-07-02 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AyoubChLin/unlimited-ocr-quran-uthmani) |
 | TrOCR-Ar-Small | gagan3012 | 🌍 INTL | unknown | 25 | 2022-03-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/gagan3012/TrOCR-Ar-Small) |
+| trocr-tunisian-arabic | Ghazouaniwala | 🌍 INTL | mit | 25 | 2026-09-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Ghazouaniwala/trocr-tunisian-arabic) |
 | arabichar v3 | asyafalni | 🌍 INTL | apache-2.0 | 13 | 2023-10-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/asyafalni/arabichar-v3) |
 | Arabic Deep Learning OCR | Mohammed Fasha | 🇯🇴 JO | mit | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/msfasha/Arabic-Deep-Learning-OCR) |
 | Arabic Handwriting Recognition E2E | AHR-OCR2024 | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition) |
@@ -40,12 +41,18 @@
 | AtlasOCR | atlasia | 🇲🇦 MA | unknown | 0 | 2025-09-16 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/atlasia/AtlasOCR) |
 | Baseer | Misraj | 🇸🇦 SA | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Misraj/Baseer-Qwen2.5-VL-3B-Instruct) |
 | DIMI-Arabic-OCR | AhmedZaky1 | 🌍 INTL | apache-2.0 | 0 | 2025-10-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/AhmedZaky1/DIMI-Arabic-OCR) |
+| HTR Model - Arabic Handwritten Recognition Model Trained on the Muharaf Corpus | unknown | 🌍 INTL | cc-by-4.0 | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://zenodo.org/records/14295489) |
 | Invizo-OCR | Hedrax | 🌍 INTL | other | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Hedrax/Invizo-OCR) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://arxiv.org/abs/2502.05277) |
 | Manazir OCR | h9-tec | 🇪🇬 EG | apache-2.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/h9-tec/Manazir-OCR) |
 | Mikhak | aminabedi68 | 🌍 INTL | ofl-1.1 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/aminabedi68/Mikhak) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://aminabedi68.github.io/Mikhak/) |
 | Mistral-Arabic-OCR-test | Pythonation | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Pythonation/Mistral-Arabic-OCR-test) |
 | ocr-rs | zibo-chen | 🌍 INTL | apache-2.0 | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/zibo-chen/ocr-rs) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://crates.io/crates/ocr-rs) |
+| OCRSmith | atlasia | 🇲🇦 MA | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/atlasia-ma/OCRSmith) |
+| PrepOCRessor | QCRI | 🇶🇦 QA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://alt.qcri.org/tools/prepocressor) |
+| Printed Arabic Base Model Trained on the OpenITI Corpus | unknown | 🌍 INTL | cc0-1.0 | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://zenodo.org/records/7050296) |
+| QARI-OCR | NAMAA-Space | 🇸🇦 SA | unknown | — | — | [![HF](https://img.shields.io/badge/-Collection-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/NAMAA-Space/qari-ocr-a-high-accuracy-model-for-arabic-optical-character) |
 | QARI-OCR v0.2 | NAMAA-Space | 🇸🇦 SA | unknown | — | — | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/Qari-OCR-0.2-VL-2B-Instruct) |
+| QATIP | QCRI | 🇶🇦 QA | unknown | — | — | [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://alt.qcri.org/resources/) |
 | quranic-arabic-recognition-dl | affaan-m | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/affaan-m/quranic-arabic-recognition-dl) |
 | Smart-glasses-for-blind-people- | AliKhedr2 | 🌍 INTL | unknown | — | — | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/AliKhedr2/Smart-glasses-for-blind-people-) |
 

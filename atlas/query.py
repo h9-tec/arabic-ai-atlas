@@ -1,11 +1,24 @@
 """Pure query functions over atlas entries (the `entries` list of dist/atlas.json)."""
 
 import json
+import re
 from pathlib import Path
+
+_NC_RE = re.compile(r"(^|[-_.\s])nc([-_.\s]|$)")
 
 
 def load_atlas(path: Path) -> list[dict]:
     return json.loads(Path(path).read_text(encoding="utf-8"))["entries"]
+
+
+def license_class(license: str | None) -> str:
+    """Return "open", "nc" or "unknown"; mirrors `licenseClass` in site/app.js."""
+    lic = str(license or "unknown").lower()
+    if _NC_RE.search(lic) or "noncommercial" in lic or "non-commercial" in lic:
+        return "nc"
+    if lic in ("unknown", "proprietary", ""):
+        return "unknown"
+    return "open"
 
 
 def _downloads(e: dict) -> int:

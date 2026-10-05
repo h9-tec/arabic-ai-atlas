@@ -3,12 +3,14 @@ from pathlib import Path
 
 import yaml
 
+NON_ENTRY_FILES = {"wanted.yaml"}  # data/*.yaml files that are not entry lists
+
 
 def load_entries(data_dir: Path) -> list[dict]:
     """Merge every ``*.yaml`` list in ``data_dir``; tag each entry with ``_file``."""
     entries: list[dict] = []
     for path in sorted(Path(data_dir).glob("*.yaml")):
-        if path.name.startswith("."):
+        if path.name.startswith(".") or path.name in NON_ENTRY_FILES:
             continue
         with path.open(encoding="utf-8") as fh:
             doc = yaml.safe_load(fh)

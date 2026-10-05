@@ -12,6 +12,7 @@ from atlas.enrich import FETCHED_AT, apply_cached_licenses, build_hf_ids, fetch_
 from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
 from atlas.validate import load_schema, validate_entries
+from atlas.wanted import load_rules, validate_rules
 
 
 def _validate(data: Path) -> tuple[list[dict], list[str]]:
@@ -19,7 +20,9 @@ def _validate(data: Path) -> tuple[list[dict], list[str]]:
     schema_path = data / "schema.json"
     if not schema_path.exists():  # fixtures carry no schema; use the repo's
         schema_path = ROOT / "data" / "schema.json"
-    errors = validate_entries(entries, load_schema(schema_path))
+    schema = load_schema(schema_path)
+    errors = validate_entries(entries, schema)
+    errors += validate_rules(load_rules(data / "wanted.yaml"), schema)
     return entries, errors
 
 

@@ -1,0 +1,12 @@
+- id: fixture-filled
+  title: Fixture filled rule
+  why: Satisfied by a fixture LLM from the UAE.
+  query: {type: llm, country: AE}
+- id: fixture-open-a
+  title: Fixture open rule A
+  why: Unmatched by any fixture entry.
+  query: {type: asr, country: MR}
+- id: fixture-open-b
+  title: Fixture open rule B
+  why: Unmatched by any fixture entry.
+  query: {type: ocr, dialects: sudanese}

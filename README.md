@@ -49,10 +49,10 @@ Add this to your `.mcp.json`:
 
 | Country | Entries | LLM | ASR | TTS | OCR | Embedding | Datasets | Tools | Benchmarks | Papers | Orgs |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 2220 | 214 | 119 | 58 | 32 | 30 | 725 | 238 | 76 | 671 | 23 |
+| 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 2200 | 210 | 119 | 58 | 32 | 30 | 710 | 238 | 75 | 671 | 23 |
 | 🇸🇦 [Saudi Arabia](https://h9-tec.github.io/arabic-ai-atlas/#country=SA) | 355 | 46 | 11 | 8 | 9 | 28 | 163 | 19 | 25 | 11 | 35 |
 | 🇦🇪 [United Arab Emirates](https://h9-tec.github.io/arabic-ai-atlas/#country=AE) | 184 | 49 | 5 | 6 | 0 | 0 | 43 | 12 | 31 | 17 | 21 |
-| 🇪🇬 [Egypt](https://h9-tec.github.io/arabic-ai-atlas/#country=EG) | 155 | 29 | 22 | 6 | 5 | 7 | 58 | 5 | 2 | 2 | 18 |
+| 🇪🇬 [Egypt](https://h9-tec.github.io/arabic-ai-atlas/#country=EG) | 175 | 33 | 22 | 6 | 5 | 7 | 73 | 5 | 3 | 2 | 18 |
 | 🇶🇦 [Qatar](https://h9-tec.github.io/arabic-ai-atlas/#country=QA) | 128 | 9 | 3 | 0 | 2 | 0 | 63 | 10 | 17 | 19 | 5 |
 | 🇲🇦 [Morocco](https://h9-tec.github.io/arabic-ai-atlas/#country=MA) | 71 | 13 | 5 | 2 | 2 | 1 | 29 | 4 | 7 | 3 | 5 |
 | 🇩🇿 [Algeria](https://h9-tec.github.io/arabic-ai-atlas/#country=DZ) | 42 | 3 | 1 | 3 | 0 | 0 | 18 | 15 | 1 | 0 | 1 |

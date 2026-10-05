@@ -265,8 +265,8 @@
 - id: arabic-function-calling
   name: Arabic_Function_Calling
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -1183,8 +1183,8 @@
 - id: saudi-dialect-conversations
   name: Saudi Najdi Dialect Conversations
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -1200,8 +1200,8 @@
 - id: arabic-msa-25k-saudi-tashkeel
   name: Arabic MSA 25K Saudi Male Tashkeel
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: cc-by-4.0
   modality: speech
   tasks:
@@ -1217,8 +1217,8 @@
 - id: arzen-multigenre
   name: ArzEn-MultiGenre
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: cc-by-4.0
   modality: text
   tasks:
@@ -1233,8 +1233,8 @@
 - id: asfar
   name: Asfar
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: cc-by-4.0
   modality: text
   tasks:
@@ -1251,8 +1251,8 @@
 - id: dahee7
   name: Dahee7
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: speech
   tasks:
@@ -3395,8 +3395,8 @@
 - id: 1milion-token-egy-songs
   name: 1milion token EGY songs
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -3412,8 +3412,8 @@
 - id: egyptian-english-parallel
   name: Egyptian English parallel
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -4841,8 +4841,8 @@
 - id: arabic-turath-ocr
   name: arabic turath ocr
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: unknown
   modality: text
   tasks:
@@ -4907,8 +4907,8 @@
 - id: oasst-arabic
   name: oasst arabic
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: unknown
   modality: text
   tasks:
@@ -7046,8 +7046,8 @@
 - id: arabic-quotes
   name: arabic quotes
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: unknown
   modality: text
   tasks:
@@ -7161,8 +7161,8 @@
 - id: qa-arabic
   name: QA Arabic
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -7261,8 +7261,8 @@
 - id: arabic-prompts-mini-175
   name: Arabic prompts Mini 175
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -9241,8 +9241,8 @@
 - id: arabic-semantic-relevance
   name: arabic semantic relevance
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: cc-by-nc-4.0
   modality: text
   tasks:
@@ -9256,8 +9256,8 @@
 - id: arabic-fake-news-dataset
   name: Arabic fake news dataset
   type: dataset
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -18844,4 +18844,4 @@
   dialects:
   - classical
   year: 2026
-  notes: "Classical Arabic heritage (turath) tasks for GRPO/RLVR: QA, fill-mask and multiple choice, derived from the asfar corpus."
+  notes: 'Classical Arabic heritage (turath) tasks for GRPO/RLVR: QA, fill-mask and multiple choice, derived from the asfar corpus.'

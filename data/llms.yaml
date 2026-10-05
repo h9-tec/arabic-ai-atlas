@@ -2888,8 +2888,8 @@
 - id: aragemma2b-instruct
   name: araGemma2B-instruct
   type: llm
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: unknown
   modality: text
   tasks:
@@ -3958,8 +3958,8 @@
 - id: fasih-2b
   name: Fasih 2B
   type: llm
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:
@@ -5098,8 +5098,8 @@
 - id: arabic-semantic-highlighter
   name: arabic semantic highlighter
   type: llm
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: other
   modality: text
   tasks:
@@ -5457,8 +5457,8 @@
 - id: arabic-llama3
   name: Arabic-llama3
   type: llm
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: apache-2.0
   modality: text
   tasks:

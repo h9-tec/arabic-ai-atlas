@@ -109,8 +109,8 @@
 - id: arabicragb
   name: ArabicRAGB
   type: benchmark
-  country: INTL
-  org: HeshamHaroon
+  country: EG
+  org: Hesham Haroon
   license: cc-by-sa-4.0
   modality: text
   tasks:

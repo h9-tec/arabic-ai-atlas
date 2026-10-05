@@ -901,3 +901,76 @@
     hf: https://huggingface.co/BounharAbdelaziz/ModernBERT-Morocco-Sentence-Embeddings-v0.2-bs-32-lr-2e-05-ep-2-wp-0.05-gacc-1-gnm-1.0-v0.3
   year: 2025
   notes: This is a sentence-transformers model finetuned from BounharAbdelaziz/ModernBERT-Morocco on the triplet, negationtriplet, pairscore and [englishnonenglish]
+- id: kawn-embed-light
+  name: Kawn Embed Light
+  type: embedding
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - retrieval
+  links:
+    website: https://misraj.ai/en/models/kawn-embed-light
+  year: 2026
+  notes: Lightweight (139M) general-purpose Arabic embeddings for search, retrieval and RAG.
+- id: kawn-embed-islamic
+  name: Kawn Embed Islamic
+  type: embedding
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - retrieval
+  - quran
+  - hadith
+  links:
+    website: https://misraj.ai/en/models/kawn-embed-islamic
+  year: 2026
+  notes: Arabic embeddings optimised for retrieval over Quran, Hadith, Fiqh and Fatwa collections.
+- id: kawn-embed-medical
+  name: Kawn Embed Medical
+  type: embedding
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  - medical
+  links:
+    website: https://misraj.ai/en/models/kawn-embed-medical
+  year: 2026
+  notes: Domain-specific Arabic embeddings for healthcare applications.
+- id: namaa-reranker
+  name: Namaa-Reranker
+  type: embedding
+  country: SA
+  org: NAMAA-Space
+  license: apache-2.0
+  modality: text
+  tasks:
+  - embedding
+  links:
+    hf: https://huggingface.co/NAMAA-Space/Namaa-Reranker-v1
+  year: 2024
+  notes: NAMAA-space releases Namaa-Reranker-v1, a high-performance model fine-tuned on unicamp-dl/mmarco to elevate Arabic document retrieval and ranking to new.
+- id: arwordvec
+  name: ArWordVec
+  type: embedding
+  country: INTL
+  org: mmdoha200
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    github: https://github.com/mmdoha200/ArWordVec
+  dialects:
+  - gulf
+  - msa
+  year: 2020
+  notes: Word-embedding models trained on Arabic tweets.

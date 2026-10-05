@@ -1129,3 +1129,122 @@
   tags:
   - variants:1
   notes: Arabic text to speech model fine-tuned from sherif1313/3arab-TTS-500M-v2.
+- id: lahgtna
+  name: Lahgtna
+  type: tts
+  country: INTL
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - tts
+  - dialect
+  links:
+    hf: https://huggingface.co/spaces/oddadmix/lahgtna-chatterbox-demo
+  year: 2026
+  notes: Arabic dialect TTS model supporting Egyptian, Saudi, Moroccan and Iraqi dialects with full diacritics support.
+  dialects:
+  - egy
+  - gulf
+  - magh
+  - iraqi
+- id: sawt-najd
+  name: Sawt Najd
+  type: tts
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - dialogue
+  links:
+    website: https://misraj.ai/en/models/sawt-najd
+  dialects:
+  - gulf
+  year: 2026
+  notes: High-quality Najdi Arabic text-to-speech for conversational AI.
+- id: silma-tts-v2-saudi-najdi
+  name: SILMA TTS v2 (Saudi Najdi)
+  type: tts
+  country: INTL
+  org: SILMA AI
+  license: proprietary
+  modality: speech
+  tasks:
+  - tts
+  links:
+    website: https://silma.ai/saudi-tts-model
+  dialects:
+  - gulf
+  - msa
+  year: 2026
+  notes: Commercial low-latency (280ms TTFT) streaming TTS for MSA and Saudi Najdi, on-prem/VPC.
+- id: multilingual-chatterbox
+  name: Multilingual Chatterbox
+  type: tts
+  country: INTL
+  org: Resemble AI
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/ResembleAI/chatterbox
+  year: 2025
+  notes: Resemble AI Chatterbox multilingual TTS model covering 22 languages including Arabic.
+- id: tacotron2-arabic
+  name: Tacotron2-Arabic
+  type: tts
+  country: INTL
+  org: youssefsharief
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    github: https://github.com/youssefsharief/arabic-tacotron-tts
+  notes: End to end Arabic TTS system based on tacotron.
+- id: jordanian-arabic-tts
+  name: jordanian-arabic-tts
+  type: tts
+  country: INTL
+  org: Abdelkareem
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/spaces/Abdelkareem/jordanian-arabic-tts
+  dialects:
+  - lev
+  notes: Hugging Face Space demo of Jordanian Arabic text-to-speech.
+- id: speecht5-darija
+  name: speecht5-darija
+  type: tts
+  country: INTL
+  org: HAMMALE
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/spaces/HAMMALE/speecht5-darija
+  dialects:
+  - magh
+  notes: SpeechT5-based Moroccan Darija text-to-speech demo Space.
+- id: xtts-omani-qlora-merged
+  name: xtts-omani-qlora-merged
+  type: tts
+  country: INTL
+  org: AhmedHamedElheity
+  license: mit
+  modality: speech
+  tasks:
+  - tts
+  links:
+    hf: https://huggingface.co/AhmedHamedElheity/xtts-omani-qlora-merged
+  dialects:
+  - gulf
+  year: 2025
+  notes: XTTS fine-tuned with QLoRA (merged weights) for Omani Arabic speech synthesis.

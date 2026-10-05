@@ -3741,3 +3741,746 @@
   - classical
   year: 2023
   notes: KFGQPC HAFS Uthmanic Script Bold 13 .
+- id: al-kindi-ai
+  name: Al Kindi AI
+  type: tool
+  country: AE
+  org: Alpha to Digits
+  license: proprietary
+  modality: text
+  tasks:
+  - social-listening
+  links:
+    website: https://arabic.ai/al-kindi-ai-built-by-alpha-to-digits-on-the-worlds-top-ranked-arabic-llm
+  year: 2026
+  notes: Arabic social listening intelligence product built on the Arabic.AI LLM.
+- id: qcri-kaldi-gale-arabic-recipe
+  name: QCRI Kaldi GALE Arabic Recipe
+  type: tool
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - asr
+  links:
+    website: https://alt.qcri.org/resources/gale-recipe
+  year: 2014
+  notes: Files for building Arabic ASR using the GALE LDC database and the Kaldi toolkit.
+- id: qcri-arabic-normalizer
+  name: QCRI Arabic Normalizer
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - spell-checking
+  links:
+    website: https://alt.qcri.org/tools/arabic-normalizer
+  notes: Script normalising Arabic punctuation, digits, diacritics and spelling for consistent MT evaluation.
+- id: qcri-arabic-pos-tagger-library-qatara
+  name: QCRI Arabic POS Tagger Library (QATARA)
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - ner
+  - pos
+  links:
+    website: https://alt.qcri.org/tools/apost
+  year: 2014
+  notes: CRF-based Arabic tokenizer, POS tagger, NER, gender/number tagger and diacritizer library.
+- id: saqr
+  name: Saqr
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - offensive-language
+  - stance-detection
+  links:
+    website: https://alt.qcri.org/demos
+  notes: Social media analysis platform with stance detection, dialect and offensive-language analysis of Arabic tweets.
+- id: asad-arabic-social-media-analytics-and-understanding
+  name: ASAD (Arabic Social media Analytics and unDerstanding)
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - emotion
+  links:
+    website: https://alt.qcri.org/demos
+  notes: Toolkit providing user profiling, sentiment, emotion and inappropriate-content detection for Arabic social media.
+- id: spoken-adi17-demo
+  name: Spoken ADI17 demo
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: speech
+  tasks:
+  - dialect-id
+  links:
+    website: https://alt.qcri.org/demos
+  notes: Spoken Arabic dialect identification from YouTube speech into one of 17 Arab countries.
+- id: camelira
+  name: Camelira
+  type: tool
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    website: https://camelira.abudhabi.nyu.edu/
+  year: 2022
+  notes: An Arabic multi-dialect morphological disambiguator (web interface).
+- id: toia
+  name: TOIA
+  type: tool
+  country: AE
+  org: CAMeL Lab, NYUAD
+  license: unknown
+  modality: text
+  tasks:
+  - dialogue
+  links:
+    website: https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/research.html
+  notes: 'Time-offset interaction application: bilingual Arabic-English conversational avatar built from pre-recorded videos.'
+- id: sinalab-synonyms-tool
+  name: SinaLab Synonyms tool
+  type: tool
+  country: PS
+  org: SinaLab
+  license: unknown
+  modality: text
+  tasks:
+  - synonyms
+  links:
+    github: https://github.com/SinaLab/Synonyms
+  year: 2023
+  notes: Tool for extending and evaluating Arabic synonyms.
+- id: arwi
+  name: ARWI
+  type: tool
+  country: AE
+  org: NYU Abu Dhabi
+  license: unknown
+  modality: text
+  tasks:
+  - writing-assistant
+  links:
+    paper: https://arxiv.org/abs/2504.11814
+    github: https://github.com/mbzuai-nlp/arabic-aes-bea25
+  dialects:
+  - msa
+  year: 2025
+  notes: Writing assistant helping Arabic language learners improve MSA writing with feedback.
+- id: humain-chat
+  name: HUMAIN Chat
+  type: tool
+  country: SA
+  org: HUMAIN
+  license: proprietary
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://www.humain.ai/en/news/humain-chat-launch/
+  year: 2025
+  notes: Arabic-first conversational AI app powered by ALLAM 34B, launched in Saudi Arabia on web, iOS and Android.
+- id: humain-create
+  name: HUMAIN Create
+  type: tool
+  country: SA
+  org: HUMAIN
+  license: proprietary
+  modality: text
+  tasks:
+  - marketing
+  links:
+    website: https://www.humain.ai/en/create
+  year: 2026
+  notes: AI-native marketing operating system producing campaigns in Arabic and English.
+- id: humain-one
+  name: HUMAIN ONE
+  type: tool
+  country: SA
+  org: HUMAIN
+  license: proprietary
+  modality: text
+  tasks:
+  - agents
+  links:
+    website: https://www.humain.ai/en/humain-os
+  year: 2025
+  notes: AI-agent operating system connecting enterprise systems and automating tasks from one interface (Arabic/English).
+- id: misraj-islamic-qa-classifier
+  name: Misraj Islamic QA Classifier
+  type: tool
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - qa
+  - legal
+  links:
+    website: https://misraj.ai/en/models/islamic-qa-classifier
+  year: 2026
+  notes: Hierarchical classifier routing Fatwa and Fiqh questions to legal categories.
+- id: misraj-islamic-quotation-extractor
+  name: Misraj Islamic Quotation Extractor
+  type: tool
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - quran
+  - hadith
+  links:
+    website: https://misraj.ai/en/models/islamic-quotation-extractor
+  year: 2026
+  notes: Information extraction identifying verbatim Quran, Hadith and book quotations.
+- id: salma-ai-mawdoo3-ai
+  name: Salma.ai (Mawdoo3 AI)
+  type: tool
+  country: JO
+  org: Mawdoo3
+  license: proprietary
+  modality: text
+  tasks:
+  - assistant
+  links:
+    website: https://ai.mawdoo3.com
+  notes: Mawdoo3 Arabic AI assistant and automation platform for Arabic data-to-decision workflows.
+- id: arabic-ai-suite
+  name: Arabic.AI Suite
+  type: tool
+  country: AE
+  org: Arabic.AI (Tarjama)
+  license: proprietary
+  modality: speech
+  tasks:
+  - translation
+  - ocr
+  - speech
+  links:
+    website: https://arabic.ai
+  year: 2026
+  notes: Assistants, Translate, OCR and Speech (22 dialects) on one Arabic-first LLM, deployable in VPC or air-gapped.
+- id: tarjama-amt
+  name: Tarjama AMT
+  type: tool
+  country: AE
+  org: Arabic.AI (Tarjama)
+  license: proprietary
+  modality: text
+  tasks:
+  - translation
+  - legal
+  - medical
+  links:
+    website: https://tarjama.com/solutions/technology/ai-machine-translation
+  year: 2023
+  notes: Arabic machine translation engines customised for legal, medical and financial domains with post-editing.
+- id: osman-readability-metric
+  name: OSMAN readability metric
+  type: tool
+  country: INTL
+  org: Lancaster University
+  license: unknown
+  modality: text
+  tasks:
+  - readability
+  links:
+    github: https://github.com/drelhaj/OsmanReadability
+    hf: https://huggingface.co/datasets/arbml/Osman_Un_Corpus
+  year: 2016
+  notes: Arabic readability metric analogous to Flesch, with parallel Arabic-English corpus.
+- id: moroccan-nlp-zenodo
+  name: moroccan_nlp (Zenodo)
+  type: tool
+  country: MA
+  org: SI2M Lab (INSEA)
+  license: unknown
+  modality: text
+  tasks:
+  - code-switching
+  - darija
+  links:
+    website: https://zenodo.org/records/21154423
+  dialects:
+  - magh
+  year: 2026
+  notes: 'Linguistic resources and models for Moroccan Darija and Arabic: code-switching detection, Darija LM, DarijaBERT baseline classifier.'
+- id: aoc-id
+  name: aoc_id
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    github: https://github.com/UBC-NLP/aoc_id
+  year: 2018
+  notes: Arabic Dialect Identification on AOC data.
+- id: aranet
+  name: AraNet
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: gpl-3.0
+  modality: text
+  tasks:
+  - sentiment
+  - emotion
+  - dialect-id
+  links:
+    github: https://github.com/UBC-NLP/AraNet
+  year: 2020
+  notes: 'AraNet: deep learning toolkit for Arabic social media (age, gender, dialect, emotion, irony, sentiment)'
+- id: ara-dangspeech
+  name: ara_dangspeech
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - dangerous-speech
+  links:
+    github: https://github.com/UBC-NLP/ara_dangspeech
+  year: 2020
+  notes: Repository for Arabic dangerous speech detection from UBC-NLP.
+- id: microdialects
+  name: microdialects
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - dialect-id
+  links:
+    github: https://github.com/UBC-NLP/microdialects
+  year: 2020
+  notes: Dataset and models for micro-dialect identification in diglossic and code-switched settings (EMNLP 2020), available on registration.
+- id: wanlp2020-arabic-fake-news-detection
+  name: wanlp2020_arabic_fake_news_detection
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - fact-checking
+  links:
+    github: https://github.com/UBC-NLP/wanlp2020_arabic_fake_news_detection
+  year: 2020
+  notes: Machine Generation and Detection of Arabic Manipulated and Fake News
+- id: octopus-ubc-nlp
+  name: octopus
+  type: tool
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - generation
+  links:
+    github: https://github.com/UBC-NLP/octopus
+  year: 2023
+  notes: Octopus is a neural machine generation toolkit for Arabic Natural Lnagauge Generation (NLG)
+- id: morocco-darija-open-source-ai-tools-ministry-of-digital-transition-x-m
+  name: Morocco Darija open-source AI tools (Ministry of Digital Transition x Mistral AI)
+  type: tool
+  country: MA
+  org: Morocco Ministry of Digital Transition
+  license: unknown
+  modality: speech
+  tasks:
+  - dialect-id
+  - asr
+  links:
+    website: https://iafrica.com/morocco-releases-first-open-source-darija-ai-tools-from-mistral-partnership/
+  year: 2026
+  notes: 'Government open-source Darija tools built with Mistral AI: a dialect identification model and a speech recognition model.'
+- id: arabic-rootfinder
+  name: Arabic RootFinder
+  type: tool
+  country: INTL
+  org: tb0yd
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/tb0yd/rootfinder
+  notes: Arabic root finder with neural nets!
+- id: arabic-conjugator
+  name: Arabic-Conjugator
+  type: tool
+  country: INTL
+  org: awillborn
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/awillborn/Arabic-Conjugator
+  dialects:
+  - msa
+  notes: Conjugates MSA verbs given three root letters, verb form, tense, and pronoun
+- id: arabic-nlp
+  name: Arabic NLP
+  type: tool
+  country: INTL
+  org: SemanticFrontiers
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    github: https://github.com/SemanticFrontiers/ArabicNLP
+  notes: Collection of Arabic NLP and text processing scripts and utilities.
+- id: nlp-arabic
+  name: nlp arabic
+  type: tool
+  country: INTL
+  org: othmanela
+  license: unknown
+  modality: text
+  tasks:
+  - stopwords
+  - text-cleaning
+  links:
+    github: https://github.com/othmanela/nlp_arabic
+  notes: Ruby gem of Arabic NLP tools, including text cleaning with a hand-validated stop list built from over 900 articles.
+- id: shakkala-project
+  name: Shakkala Project مشروع شكّالة
+  type: tool
+  country: INTL
+  org: Barqawiz
+  license: unknown
+  modality: speech
+  tasks:
+  - tts
+  - diacritization
+  links:
+    github: https://github.com/Barqawiz/Shakkala
+  notes: The model can also be used in other applications such as improving search results.
+- id: tarmeez
+  name: Tarmeez
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  links:
+    website: https://sourceforge.net/projects/tarmeez
+  notes: Binary data format for etymological Arabic system
+- id: fuzzyarabicdict
+  name: FuzzyArabicDict
+  type: tool
+  country: INTL
+  org: michelleful
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  - transliteration
+  - lexicon
+  links:
+    github: https://github.com/michelleful/FuzzyArabicDict
+  notes: Dictionary app that allows you to look up Arabic words in transliteration
+- id: arabycia
+  name: Arabycia
+  type: tool
+  country: INTL
+  org: mohabmes
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  - diacritization
+  - pos
+  - transliteration
+  links:
+    github: https://github.com/mohabmes/Arabycia
+  notes: Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc..
+- id: textblob-ar
+  name: textblob-ar
+  type: tool
+  country: INTL
+  org: adhaamehab
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  - pos
+  links:
+    github: https://github.com/adhaamehab/textblob-ar
+  notes: Arabic language support extension for the TextBlob NLP library.
+- id: osman-arabic-text-readability
+  name: Osman Arabic Text Readability
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - readability
+  links:
+    website: https://sourceforge.net/projects/osmanreadability/
+  notes: An open-source tool for measuring Arabic text readability, allowing users to calculate readability for Arabic text with or without diacritics
+- id: alkhalil-morpho-sys
+  name: Alkhalil Morpho Sys
+  type: tool
+  country: INTL
+  org: unknown
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  - parsing
+  links:
+    website: https://sourceforge.net/projects/alkhalil/
+  notes: A morphosyntactic parser for Arabic words that can process both vocalized and non-vocalized texts
+- id: araclean
+  name: araclean
+  type: tool
+  country: INTL
+  org: MhdMartini
+  license: unknown
+  modality: text
+  tasks:
+  - diacritization
+  links:
+    github: https://github.com/MhdMartini/araclean
+  notes: Offset-preserving Arabic text normalization & cleaning for NLP — map cleaned spans back to the original.
+- id: farasa-segmentor
+  name: Farasa Segmentor
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - segmentation
+  links:
+    github: https://github.com/qcri/FarasaSegmenter
+  notes: Farasa package for segmenting and tokenizing Arabic text.
+- id: aracon
+  name: AraCon
+  type: tool
+  country: INTL
+  org: JaouadMousser
+  license: unknown
+  modality: text
+  tasks:
+  - morphology
+  - transliteration
+  links:
+    github: https://github.com/JaouadMousser/Aracon
+  notes: ARACON is a verb conjugator for Arabic implemented as part of a morphological Analyser and generator.
+- id: arabic-local-gpt
+  name: Arabic-Local-GPT
+  type: tool
+  country: INTL
+  org: minar09
+  license: unknown
+  modality: text
+  tasks:
+  - embedding
+  links:
+    github: https://github.com/minar09/arabic-local-gpt
+  notes: Chat locally and securely in Arabic with your local Arabic documents using open LLM/GPT models
+- id: dzsentia
+  name: DzSentiA
+  type: tool
+  country: INTL
+  org: adelabdelli
+  license: unknown
+  modality: text
+  tasks:
+  - sentiment
+  links:
+    github: https://github.com/adelabdelli/DzSentiA
+  dialects:
+  - magh
+  notes: Sentiment-analysis code and data covering Algerian dialect and MSA text.
+- id: egypt-nlp
+  name: egypt-nlp
+  type: tool
+  country: INTL
+  org: Amr Eleraqi
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/aeleraqi/egypt-nlp
+  dialects:
+  - egy
+  notes: Python toolkit for processing Egyptian Arabic dialect text.
+- id: bel-masry
+  name: Bel Masry
+  type: tool
+  country: EG
+  org: Applied Innovation Center (MCIT)
+  license: unknown
+  modality: multimodal
+  tasks:
+  - ocr
+  - asr
+  - translation
+  links:
+    website: https://egyptinnovate.com/en/news/bel-masry-launches-egypts-first-free-ai-platform-for-arabic-reading-transcription-and-translation
+  dialects:
+  - egy
+  - msa
+  year: 2026
+  notes: Free government AI platform for reading, transcribing and translating Egyptian colloquial and MSA, launched Aug 2026.
+- id: flair-arabic-dialects-codeswitch-egy-lev
+  name: flair-arabic-dialects-codeswitch-egy-lev
+  type: tool
+  country: INTL
+  org: megantosh
+  license: apache-2.0
+  modality: text
+  tasks:
+  - pos
+  - code-switching
+  links:
+    hf: https://huggingface.co/megantosh/flair-arabic-dialects-codeswitch-egy-lev
+  dialects:
+  - egy
+  - lev
+  year: 2022
+  notes: Flair and fastText part-of-speech tagger for Egyptian and Levantine code-switched Arabic.
+- id: hassaniya-punctuation-restoration
+  name: hassaniya-punctuation-restoration
+  type: tool
+  country: INTL
+  org: Emin009
+  license: apache-2.0
+  modality: text
+  tasks:
+  - preprocessing
+  links:
+    hf: https://huggingface.co/Emin009/hassaniya-punctuation-restoration
+  dialects:
+  - mixed
+  year: 2026
+  notes: Open-source punctuation-restoration model for Hassaniya Arabic.
+- id: libraqm
+  name: libraqm
+  type: tool
+  country: OM
+  org: HOST-Oman
+  license: mit
+  modality: text
+  tasks:
+  - rtl-rendering
+  links:
+    github: https://github.com/HOST-Oman/libraqm
+  notes: Complex text-layout library (bidi and shaping) for Arabic-script rendering, maintained by HOST-Oman.
+- id: pyfarasa
+  name: pyFarasa
+  type: tool
+  country: INTL
+  org: OpenITI
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/OpenITI/pyFarasa
+  dialects:
+  - msa
+  notes: Python wrapper for the Farasa Arabic segmenter and POS tagger.
+- id: dialectal-arabic-tools
+  name: Dialectal Arabic Tools
+  type: tool
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - segmentation
+  links:
+    github: https://github.com/qcri/dialectal_arabic_tools
+  dialects:
+  - egy
+  - lev
+  - gulf
+  - magh
+  notes: QCRI segmentation tools for dialectal Arabic (Egyptian, Levantine, Gulf, Maghrebi).
+- id: saudi-dialect-allam
+  name: Saudi-Dialect-ALLaM
+  type: tool
+  country: INTL
+  org: HasanBGit
+  license: unknown
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    github: https://github.com/HasanBGit/Saudi-Dialect-ALLaM
+  dialects:
+  - gulf
+  year: 2025
+  notes: Code for LoRA fine-tuning of ALLaM on Saudi dialect text.
+- id: arabic-nlp-toolkit-nidalwatfa
+  name: arabic-nlp-toolkit (nidalwatfa)
+  type: tool
+  country: INTL
+  org: Nidal Watfa
+  license: unknown
+  modality: text
+  tasks:
+  - nlp-toolkit
+  links:
+    github: https://github.com/nidalwatfa/arabic-nlp-toolkit
+  dialects:
+  - msa
+  notes: Simple open-source Python toolkit for Arabic text processing.
+- id: voxlect-arabic-dialect-whisper-large-v3
+  name: voxlect-arabic-dialect-whisper-large-v3
+  type: tool
+  country: INTL
+  org: tiantiaf (USC)
+  license: openrail
+  modality: speech
+  tasks:
+  - dialect-id
+  links:
+    hf: https://huggingface.co/tiantiaf/voxlect-arabic-dialect-whisper-large-v3
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  - iraqi
+  - yemeni
+  - sudanese
+  year: 2025
+  notes: Whisper-large-v3 Arabic dialect classifier from the Voxlect benchmark.

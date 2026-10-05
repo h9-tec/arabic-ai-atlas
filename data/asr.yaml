@@ -2413,3 +2413,224 @@
   on_device: true
   year: 2026
   notes: A 62.7M-parameter Parakeet-style Token-and-Duration Transducer for Arabic speech recognition — FastConformer encoder, TDT objective.
+- id: qats
+  name: QATS
+  type: asr
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    website: https://alt.qcri.org/demos
+  notes: Improved Arabic transcription with AI (QCRI Arabic speech transcription system demo).
+- id: farspeech-2-0
+  name: FarSpeech 2.0
+  type: asr
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - translation
+  - dialect-id
+  links:
+    website: https://alt.qcri.org/demos
+  notes: System combining QCRI Arabic speech recognition, NLP, machine translation and dialect identification.
+- id: harness
+  name: HArnESS
+  type: asr
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - dialect-id
+  - emotion
+  links:
+    paper: https://arxiv.org/abs/2604.14186
+  year: 2026
+  notes: Family of lightweight self-supervised Arabic speech models distilled from a bilingual teacher for ASR, DID and SER.
+- id: nabr
+  name: Nabr
+  type: asr
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - quran
+  - pronunciation
+  links:
+    website: https://misraj.ai/en/models/nabr
+  year: 2026
+  notes: 'Acoustic model for Quranic recitation: ASR and tajweed-aware mispronunciation detection.'
+- id: udistilwhisper
+  name: uDistilWhisper
+  type: asr
+  country: INTL
+  org: UBC-NLP
+  license: mit
+  modality: speech
+  tasks:
+  - asr
+  links:
+    github: https://github.com/UBC-NLP/uDistilWhisper
+  year: 2025
+  notes: 'UDistil-Whisper: Label-Free Data Filtering for Knowledge Distillation in Low-Data Regimes ( NAACL''2025 )'
+- id: whisper-large-v3-turbo-arabic
+  name: Whisper Large V3 Turbo (Arabic)
+  type: asr
+  country: INTL
+  org: mboushaba
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/mboushaba/whisper-large-v3-turbo-arabic
+  year: 2024
+  notes: This model is a fine-tuned version of openai/whisper-large-v3-turbo on the commonvoice110 dataset.
+- id: bahraini-arabic-asr
+  name: bahraini-arabic ASR
+  type: asr
+  country: BH
+  org: University of Bahrain (ghadeerl)
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  - code-switching
+  links:
+    hf: https://huggingface.co/ghadeerl/bahraini-arabic
+  dialects:
+  - gulf
+  year: 2026
+  notes: Bahraini Arabic transcription model handling Arabic-English code-switching, from a University of Bahrain project.
+- id: whisper-large-v2-jordanian-arabic-ft
+  name: whisper-large-v2-jordanian-arabic-ft
+  type: asr
+  country: INTL
+  org: xtz999
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/xtz999/whisper-large-v2-jordanian-arabic-ft
+  dialects:
+  - lev
+  year: 2026
+  notes: Whisper large-v2 fine-tuned for Jordanian Arabic speech recognition.
+- id: whisper-large-libyan
+  name: whisper-large-libyan
+  type: asr
+  country: INTL
+  org: Rhaodgh
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Rhaodgh/whisper-large-libyan
+  dialects:
+  - magh
+  year: 2026
+  notes: Whisper large-v3 fine-tuned for Libyan Arabic; a medium-size variant is also released.
+- id: hassaniya-mms-asr
+  name: hassaniya-mms-asr
+  type: asr
+  country: INTL
+  org: Hassen80
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/Hassen80/hassaniya-mms-asr
+  dialects:
+  - mixed
+  year: 2026
+  notes: MMS (wav2vec2) fine-tunes for Hassaniya Arabic speech recognition.
+- id: asr-hassaniya-whisper-medium-v1
+  name: ASR-hassaniya-whisper-medium-v1
+  type: asr
+  country: INTL
+  org: DesertMindAI
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/DesertMindAI/ASR-hassaniya-whisper-medium-v1
+  dialects:
+  - mixed
+  year: 2025
+  notes: Whisper-medium speech recognition model for Hassaniya Arabic from DesertMindAI.
+- id: hassaniya-french-speech-translation
+  name: hassaniya-french-speech-translation
+  type: asr
+  country: INTL
+  org: Mamadou-Aw
+  license: unknown
+  modality: speech
+  tasks:
+  - speech-translation
+  links:
+    hf: https://huggingface.co/Mamadou-Aw/hassaniya-french-speech-translation
+  dialects:
+  - mixed
+  year: 2026
+  notes: Speech-translation model from spoken Hassaniya Arabic to French.
+- id: whisper-small-tunisian-arabic
+  name: whisper-small-tunisian-arabic
+  type: asr
+  country: INTL
+  org: awaxsama
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/awaxsama/whisper-small-tunisian-arabic
+  dialects:
+  - magh
+  year: 2026
+  notes: Whisper small and tiny fine-tuned for Tunisian Arabic speech recognition.
+- id: whisper-small-yemeni
+  name: whisper-small-yemeni
+  type: asr
+  country: INTL
+  org: tahaalselwii
+  license: other
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/tahaalselwii/whisper-small-yemeni
+  dialects:
+  - yemeni
+  year: 2026
+  notes: Whisper-small fine-tuned for Yemeni Arabic speech recognition.
+- id: whisper-large-arabic-dialects-v5
+  name: whisper-large-arabic-dialects-v5
+  type: asr
+  country: INTL
+  org: samil24
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - asr
+  links:
+    hf: https://huggingface.co/samil24/whisper-large-arabic-dialects-v5
+  dialects:
+  - egy
+  - gulf
+  - lev
+  - magh
+  year: 2025
+  notes: Whisper-large fine-tuned on multi-dialect Arabic speech.

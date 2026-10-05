@@ -5344,3 +5344,425 @@
     hf: https://huggingface.co/NAMAA-Space/arabic-llm-guard
   year: 2026
   notes: This model is designed to assess Arabic prompt-response pairs and generate a safety judgment such as whether the response is safe or belongs.
+- id: arabglossbert
+  name: ArabGlossBERT
+  type: llm
+  country: PS
+  org: SinaLab
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/SinaLab/ArabGlossBERT
+  year: 2022
+  notes: BERT model for Arabic word sense disambiguation via context-gloss pairs.
+- id: lahjawi
+  name: Lahjawi
+  type: llm
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    website: https://misraj.ai/en/models/lahjawi
+  dialects:
+  - msa
+  year: 2025
+  notes: 'Family of Arabic dialect translation models: dialect-to-dialect and dialect-to-MSA.'
+- id: arabic-ai-llm-x-llm-s
+  name: Arabic.AI LLM-X / LLM-S
+  type: llm
+  country: AE
+  org: Arabic.AI (Tarjama)
+  license: proprietary
+  modality: text
+  tasks:
+  - enterprise
+  links:
+    website: https://arabic.ai/llm
+  year: 2025
+  notes: Dual Arabic LLMs (LLM-X, LLM-S) for sovereign on-prem enterprise deployment, validated on seven benchmarks.
+- id: karnak-llm
+  name: Karnak LLM
+  type: llm
+  country: EG
+  org: Applied Innovation Center (MCIT Egypt)
+  license: unknown
+  modality: text
+  tasks:
+  - legal
+  links:
+    website: https://itida.gov.eg/Arabic/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx
+    hf: https://huggingface.co/Applied-Innovation-Center/Karnak
+  year: 2026
+  notes: 'Egypt national Arabic LLM; first national apps built on it: SIA tutor and a legal/regulatory guidance assistant.'
+- id: violetv2
+  name: VioletV2
+  type: llm
+  country: INTL
+  org: UBC-NLP
+  license: mit
+  modality: vision
+  tasks:
+  - image-captioning
+  links:
+    github: https://github.com/UBC-NLP/VioletV2
+  year: 2024
+  notes: Violet v2, an Arabic image-to-text (captioning) model.
+- id: oman-gpt
+  name: Oman GPT
+  type: llm
+  country: OM
+  org: Oman MTCIT
+  license: proprietary
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://www.mtcit.gov.om/sectors?sector=artificial_intelligence
+  year: 2025
+  notes: Omani large language model implemented by MTCIT alongside Oman AI Studio.
+- id: mu-een-maeen
+  name: Mu'een / Maeen
+  type: llm
+  country: OM
+  org: Oman MTCIT
+  license: proprietary
+  modality: text
+  tasks:
+  - chat
+  - summarization
+  links:
+    website: https://initiatives.weforum.org/connected-future-initiative/case-study-details/the-omani-language-model-%E2%80%9Cmaeen%E2%80%9D/aJYTG000000058H4AQ
+  year: 2025
+  notes: Oman's national shared AI platform and LLM for government drafting, summarisation and Arabic content.
+- id: libigpt
+  name: LibiGPT
+  type: llm
+  country: LY
+  org: Smart Co for Technology Projects and AI
+  license: proprietary
+  modality: text
+  tasks:
+  - chat
+  links:
+    website: https://www.middleeastainews.com/p/first-libyan-national-large-language
+  dialects:
+  - magh
+  year: 2025
+  notes: 'Libya''s first national LLM (beta): LibiGPT-Base 7B and LibiGPT-Instruct 13B with a Libyan-dialect public chat app.'
+- id: arabic-llama3
+  name: Arabic-llama3
+  type: llm
+  country: INTL
+  org: HeshamHaroon
+  license: apache-2.0
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/HeshamHaroon/Arabic-llama3
+  year: 2024
+  notes: Fine-tuned from Meta Llama 3
+- id: morroberta
+  name: MorRoBERTa
+  type: llm
+  country: INTL
+  org: otmangi
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/otmangi/MorRoBERTa
+  dialects:
+  - magh
+  year: 2023
+  notes: MorRoBERTa is a Transformer-based Language Model designed specifically for the Moroccan Dialect.
+- id: morrbert
+  name: MorrBERT
+  type: llm
+  country: INTL
+  org: otmangi
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/otmangi/MorrBERT
+  dialects:
+  - magh
+  year: 2023
+  notes: MorrBERT is a Transformer-based Language Model designed specifically for the Moroccan Dialect.
+- id: seamless-darija-english
+  name: Seamless Darija-English
+  type: llm
+  country: INTL
+  org: AnasAber
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/AnasAber/seamless-darija-eng
+  dialects:
+  - magh
+  year: 2024
+  notes: This model is a fine-tuned version of Facebook's Seamless large m4t-v2 model, specifically optimized for translation between Moroccan Arabic (Darija)
+- id: arabert-summarization-goud
+  name: AraBERT Summarization Goud
+  type: llm
+  country: INTL
+  org: Goud
+  license: unknown
+  modality: text
+  tasks:
+  - summarization
+  links:
+    hf: https://huggingface.co/Goud/AraBERT-summarization-goud
+  dialects:
+  - magh
+  - msa
+  year: 2022
+  notes: It is an encoder-decoder model that was initialized with bert-base-arabertv02-twitter checkpoint.
+- id: barka
+  name: Barka
+  type: llm
+  country: INTL
+  org: Slim205
+  license: mit
+  modality: text
+  tasks:
+  - instruction-tuning
+  links:
+    hf: https://huggingface.co/Slim205/Barka-9b-it-v02
+  year: 2024
+  notes: Arabic instruction-tuned 9B model trained on a high-quality synthetically generated instruction dataset.
+- id: acegpt-v2
+  name: AceGPT-v2
+  type: llm
+  country: INTL
+  org: FreedomIntelligence
+  license: unknown
+  modality: text
+  tasks:
+  - alignment
+  - chat
+  links:
+    github: https://github.com/FreedomIntelligence/AceGPT-v2
+  notes: Arabic LLMs (8B, 32B, 70B) with native alignment applied at pre-training, available on Hugging Face.
+- id: algerian-dialect-translation
+  name: algerian-dialect-translation
+  type: llm
+  country: INTL
+  org: zakigll
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/zakigll/algerian-dialect-translation
+  dialects:
+  - magh
+  year: 2024
+  notes: Machine-translation model for the Algerian Arabic dialect.
+- id: english-egyptian-arabic-translator
+  name: english-egyptian-arabic-translator
+  type: llm
+  country: INTL
+  org: Omar-youssef
+  license: apache-2.0
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/Omar-youssef/english-egyptian-arabic-translator
+  dialects:
+  - egy
+  year: 2026
+  notes: Neural machine-translation model from English to Egyptian Arabic.
+- id: iraqi-dialect-llm
+  name: iraqi_dialect_llm
+  type: llm
+  country: INTL
+  org: EzioDevio
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/EzioDevio/iraqi_dialect_llm
+  dialects:
+  - iraqi
+  year: 2024
+  notes: Language model fine-tuned on Iraqi Arabic dialect text.
+- id: jordanian-to-fusha-model
+  name: jordanian-to-fusha-model
+  type: llm
+  country: INTL
+  org: faresalawneh
+  license: mit
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/faresalawneh/jordanian-to-fusha-model
+  dialects:
+  - lev
+  year: 2026
+  notes: Seq2seq model that translates Jordanian Arabic into Modern Standard Arabic.
+- id: shamibert
+  name: ShamiBERT
+  type: llm
+  country: INTL
+  org: mabahboh
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/mabahboh/ShamiBERT
+  dialects:
+  - lev
+  year: 2026
+  notes: BERT encoder model for Levantine (Shami) Arabic.
+- id: q8berta-v2
+  name: Q8BERTa-v2
+  type: llm
+  country: INTL
+  org: Kalmundi
+  license: apache-2.0
+  modality: text
+  tasks:
+  - encoder
+  links:
+    hf: https://huggingface.co/Kalmundi/Q8BERTa-v2
+  dialects:
+  - gulf
+  year: 2025
+  notes: Optimised RoBERTa encoder for Kuwaiti dialect, version 2 of Q8BERTa.
+- id: manara-3b
+  name: Manara-3B
+  type: llm
+  country: INTL
+  org: AgenThink AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    github: https://github.com/agenthinkai/manara
+  dialects:
+  - gulf
+  - msa
+  year: 2026
+  notes: 3B bilingual small language model for Kuwaiti banking, distilled from a Jais teacher for on-premise use.
+- id: hassaniya-gpt2-talk
+  name: hassaniya-gpt2-talk
+  type: llm
+  country: INTL
+  org: ahmed200512
+  license: mit
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/ahmed200512/hassaniya-gpt2-talk
+  dialects:
+  - mixed
+  year: 2026
+  notes: GPT-2 fine-tuned for conversation in Hassaniya Arabic.
+- id: english-moroccan-darija-v1
+  name: English-Moroccan-Darija-v1
+  type: llm
+  country: INTL
+  org: oddadmix
+  license: unknown
+  modality: text
+  tasks:
+  - translation
+  links:
+    hf: https://huggingface.co/oddadmix/English-Moroccan-Darija-v1
+  dialects:
+  - magh
+  year: 2025
+  notes: Translation model from English to Moroccan Darija.
+- id: tam-omani-adapter-tam-omani-v3
+  name: Tam Omani adapter (tam-omani-v3)
+  type: llm
+  country: INTL
+  org: shaaarplegs
+  license: unknown
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/shaaarplegs/tam-omani-v3
+  dialects:
+  - gulf
+  year: 2026
+  notes: LoRA/QLoRA adapter for Tam, an Omani-Arabic assistant.
+- id: qwen3-4b-oman-qlora
+  name: qwen3-4b-oman-qlora
+  type: llm
+  country: INTL
+  org: menasaat
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  - rag
+  links:
+    hf: https://huggingface.co/menasaat/qwen3-4b-oman-qlora
+  dialects:
+  - gulf
+  year: 2026
+  notes: Qwen3-4B QLoRA fine-tune focused on Oman, released by Menasaat.
+- id: qwen2-5-1-5b-amiya-palestinian
+  name: qwen2.5-1.5b-amiya-palestinian
+  type: llm
+  country: INTL
+  org: Khamad
+  license: apache-2.0
+  modality: text
+  tasks:
+  - chat
+  links:
+    hf: https://huggingface.co/Khamad/qwen2.5-1.5b-amiya-palestinian
+  dialects:
+  - lev
+  year: 2026
+  notes: Qwen2.5-1.5B fine-tuned for Palestinian dialect generation in the AMIYA shared task.
+- id: zol-roberta
+  name: Zol-RoBERTa
+  type: llm
+  country: INTL
+  org: Duaa Alshareef
+  license: unknown
+  modality: text
+  tasks:
+  - encoder
+  links:
+    github: https://github.com/DuaaAlshareef/Sudanese-Arabic-Dialect-Encoding
+  dialects:
+  - sudanese
+  notes: RoBERTa language model for Sudanese Arabic.
+- id: sdnlp-llama3-1-syrian-lora
+  name: sdnlp-llama3.1-syrian-lora
+  type: llm
+  country: INTL
+  org: hasankh (SDNLP)
+  license: unknown
+  modality: text
+  tasks:
+  - text-generation
+  links:
+    hf: https://huggingface.co/hasankh/sdnlp-llama3.1-syrian-lora
+    paper: https://aclanthology.org/2026.vardial-1.29/
+  dialects:
+  - lev
+  year: 2026
+  notes: Llama-3.1 LoRA adapter for Syrian Arabic dialect generation (AMIYA 2026).

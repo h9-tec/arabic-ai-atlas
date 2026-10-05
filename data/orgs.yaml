@@ -942,3 +942,569 @@
   links:
     website: https://www.uob.edu.bh
   notes: Bahrain national university with Arabic NLP and AI research.
+- id: munsit
+  name: Munsit
+  type: org
+  country: AE
+  org: Munsit
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://munsit.com
+  notes: Arabic speech recognition platform covering 25+ dialects, built and hosted in the UAE.
+- id: nourvoice
+  name: NourVoice
+  type: org
+  country: SA
+  org: NourVoice
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://nourvoice.com
+  notes: Arabic text-to-speech web tool with multiple voices and dialects, exporting MP3 voice-overs.
+- id: teammates-ai
+  name: Teammates.ai
+  type: org
+  country: AE
+  org: Teammates.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://teammates.ai
+  notes: AI agent platform (Raya, Adam, Sara) resolving tickets and booking meetings, with Arabic agents for 20+ dialects.
+- id: asas-ai
+  name: ASAS AI
+  type: org
+  country: INTL
+  org: ASAS AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://asas.ai
+  notes: Saudi AI company offering Arabic models, automation and in-Kingdom infrastructure.
+- id: hamsa
+  name: Hamsa
+  type: org
+  country: AE
+  org: Hamsa
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://tryhamsa.com
+  notes: Arabic dialect speech recognition and voice AI platform.
+- id: labeah-ai
+  name: Labeah AI
+  type: org
+  country: SA
+  org: Labeah AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://labeah.ai
+  notes: Saudi conversational AI platform for Arabic chatbots, callbots and voice agents for government and enterprise.
+- id: dar-al-raqmana
+  name: Dar Al-Raqmana
+  type: org
+  country: SA
+  org: Dar Al-Raqmana
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://daralraqmana.com
+  notes: Digitization company offering Arabic text recognition (OCR), digital repositories and morphological search.
+- id: doo
+  name: DOO
+  type: org
+  country: INTL
+  org: DOO
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://doo.ooo
+  notes: AI customer-experience platform automating customer interactions across channels, listed as an Arabic AI customer service platform.
+- id: sakhr-software
+  name: Sakhr Software
+  type: org
+  country: EG
+  org: Sakhr Software
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://sakhr.com
+  notes: Pioneer of Arabic language technology and NLP solutions, with 28+ years of R&D.
+- id: calfa
+  name: Calfa
+  type: org
+  country: INTL
+  org: Calfa
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://calfa.fr
+  notes: OCR service extracting printed and handwritten text from scanned documents, including Arabic script.
+- id: lahajati
+  name: Lahajati
+  type: org
+  country: EG
+  org: Lahajati
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://lahajati.ai
+  notes: 'Voice AI platform: Arabic TTS in 192+ dialects, speech-to-text, voice profiling and audio isolation.'
+- id: dialectal-ai
+  name: Dialectal AI
+  type: org
+  country: SD
+  org: Dialectal AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://dialectal.me
+  notes: Speech AI platform specialised in Sudanese Arabic for customer-service automation.
+- id: notah
+  name: Notah
+  type: org
+  country: SA
+  org: Notah
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://notah.ai
+  notes: Turns meetings, voice notes and Arabic-English conversations into transcripts, summaries and tasks.
+- id: libyan-voice-ai
+  name: Libyan Voice AI
+  type: org
+  country: LY
+  org: Libyan Voice AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://libyan-voice.ly
+  notes: Speech recognition models trained on Libyan Arabic, with Arabic summaries and English translation.
+- id: nateq
+  name: Nateq
+  type: org
+  country: SA
+  org: Nateq
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://nateq.io
+  notes: AI customer-service inbox for GCC businesses that answers in Gulf Arabic and English across WhatsApp, chat and calls.
+- id: tzamun-voicehub
+  name: Tzamun VoiceHub
+  type: org
+  country: SA
+  org: Tzamun VoiceHub
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://tzamun.sa
+  notes: Saudi enterprise software and AI company with 11+ products, including conversational AI and voice automation.
+- id: aloochat
+  name: AlooChat
+  type: org
+  country: OM
+  org: AlooChat
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://aloochat.ai
+  notes: AI customer support chat agents for WhatsApp, Instagram, web and email, found via an Arabic conversational AI search in Oman.
+- id: doxci
+  name: Doxci
+  type: org
+  country: INTL
+  org: Doxci
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://doxci.ai
+  notes: AI document processing platform for enterprise workflows, listed for Arabic document processing.
+- id: alqari
+  name: AlQari
+  type: org
+  country: SA
+  org: AlQari
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://alqari.sa
+  notes: Arabic-first document intelligence turning Arabic and English documents into structured, validated data.
+- id: hosn
+  name: Hosn
+  type: org
+  country: OM
+  org: Hosn
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://hosn.om
+  notes: Arabic-first on-premise AI for Omani institutions, with an air-gapped option built on open models.
+- id: moknah
+  name: Moknah
+  type: org
+  country: INTL
+  org: Moknah
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://moknah.io
+  notes: Arabic TTS with 60+ voices across Gulf, Egyptian, Levantine and MSA, plus diacritics support, dubbing and an API.
+- id: telewizard-ramsa
+  name: TeleWizard Ramsa
+  type: org
+  country: AE
+  org: TeleWizard Ramsa
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://telewizard.ai
+  notes: AI call-centre platform with AI phone agents and omnichannel messaging, listed for Emirati Arabic AI voice.
+- id: nabarati
+  name: Nabarati
+  type: org
+  country: INTL
+  org: Nabarati
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://nabarati.ai
+  notes: Arabic AI voice-over platform with 1,000+ voices and dialects, plus music generation and dubbing.
+- id: sautna
+  name: Sautna
+  type: org
+  country: SD
+  org: Sautna
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://sautna.com
+  notes: Sudanese Arabic text-to-speech with the Zol and Zola voices and a community studio.
+- id: scanread-ai
+  name: ScanRead.ai
+  type: org
+  country: INTL
+  org: ScanRead.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://scanread.ai
+  notes: Free OCR web tool extracting text from photos, screenshots and PDFs, listed for Arabic OCR.
+- id: injaz-solutions
+  name: INJAZ Solutions
+  type: org
+  country: EG
+  org: INJAZ Solutions
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://injaz.com.eg
+  notes: Egyptian company offering Arabic AI solutions; surfaced by an Arabic OCR company search.
+- id: qatar-center-for-artificial-intelligence
+  name: Qatar Center for Artificial Intelligence
+  type: org
+  country: QA
+  org: Qatar Center for Artificial Intelligence
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://qcai.qcri.org
+  notes: QCRI centre advancing AI research from foundations and systems to precision health and AI for social good.
+- id: smartly-ai
+  name: Smartly.ai
+  type: org
+  country: MA
+  org: Smartly.ai
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://smartly.ai
+  notes: Moroccan company building AI agents and conversational experiences for customer service, finance and document workflows.
+- id: goud
+  name: Goud
+  type: org
+  country: INTL
+  org: Goud
+  license: unknown
+  modality: none
+  tasks:
+  - summarization
+  links:
+    hf: https://huggingface.co/Goud
+  notes: Hugging Face organization publishing text summarization models trained on the Goud-sum dataset.
+- id: mbzuai-paris
+  name: MBZUAI-Paris
+  type: org
+  country: AE
+  org: MBZUAI-Paris Lab
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    hf: https://huggingface.co/MBZUAI-Paris
+  notes: Institute of Foundation Models behind Atlas-Chat and Nile-Chat
+- id: navid-ai
+  name: Navid AI
+  type: org
+  country: SA
+  org: Navid-AI
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    hf: https://huggingface.co/Navid-AI
+  notes: Saudi Arabia based group behind the Yehia-7B Arabic LLM, published on Hugging Face.
+- id: clusterlab-ai
+  name: Clusterlab AI
+  type: org
+  country: INTL
+  org: ClusterlabAi
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    hf: https://huggingface.co/ClusterlabAi
+  notes: Behind 101 Billion Arabic Words Dataset and InstAr-500k
+- id: atlasia
+  name: AtlasIA
+  type: org
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.atlasia.ma/
+  notes: Behind AL Atlas Moroccan Darija models
+- id: voice213
+  name: Voice213
+  type: org
+  country: DZ
+  org: Voice213
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.voice213.com/
+  notes: Algerian AI voice studio offering TTS and voice cloning in Algerian and other Arabic dialects.
+- id: nanovate
+  name: Nanovate
+  type: org
+  country: EG
+  org: Nanovate
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://www.linkedin.com/company/nanovateai
+  year: 2025
+  notes: Cairo startup building Arabic AI products; raised a $1M pre-seed round in 2025.
+- id: iraq-speech-labs
+  name: Iraq Speech Labs
+  type: org
+  country: IQ
+  org: Iraq SpeechLabs
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://iraqspeechlaps.shop/
+  notes: Iraqi data company building custom Arabic speech, TTS and LLM datasets; claims 12K speech hours across 18 dialects.
+- id: kuwait-university-data-ai-lab
+  name: Kuwait University Data & AI Lab
+  type: org
+  country: KW
+  org: Kuwait University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.ku.edu.kw/centers/datalabku
+  notes: Kuwait University data and AI lab with Arabic computational-linguistics work.
+- id: smia-moroccan-society-of-ai
+  name: SMIA (Moroccan Society of AI)
+  type: org
+  country: MA
+  org: SMIA
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://smia.ma/en/
+  notes: Moroccan Society of Artificial Intelligence, uniting researchers, universities and startups.
+- id: aim-lab-nu-q
+  name: AIM Lab (NU-Q)
+  type: org
+  country: QA
+  org: Northwestern University in Qatar
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://www.qatar.northwestern.edu/research/aim-lab/
+  notes: AI and media research lab at Northwestern University in Qatar.
+- id: aida-lab-psu
+  name: AIDA Lab (PSU)
+  type: org
+  country: SA
+  org: Prince Sultan University
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    website: https://aidalabpsu.com/
+  notes: AI and Data Analytics lab at Prince Sultan University, Riyadh.
+- id: darijat-tts
+  name: Darijat TTS
+  type: org
+  country: INTL
+  org: Darijat
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://tts.darijat.com/
+  notes: Arabic dialect TTS service claiming 23 dialects.
+- id: sudaverse
+  name: Sudaverse
+  type: org
+  country: INTL
+  org: Sudaverse
+  license: unknown
+  modality: none
+  tasks:
+  - research
+  links:
+    github: https://github.com/sudaverse
+  notes: Open-source ecosystem for Sudanese dialect NLP.
+- id: sawtify
+  name: Sawtify
+  type: org
+  country: TN
+  org: Sawtify
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://tribetechie.com/blog/sawtify-ai-arabic-speech-recognition-tunisia-north
+  year: 2026
+  notes: Tunisian startup building speech recognition for Tunisian Arabic.
+- id: sawtik
+  name: Sawtik
+  type: org
+  country: INTL
+  org: Sawtik
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://sawtik.ai/
+  notes: Khaleeji Arabic text-to-speech service with an API.
+- id: hakim
+  name: Hakim
+  type: org
+  country: INTL
+  org: Hakim
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://tryhakim.ai/en/blog/khaleeji-arabic-voice-ai-explained
+  notes: Voice AI company focused on Khaleeji Arabic.
+- id: takalam
+  name: Takalam
+  type: org
+  country: INTL
+  org: Takalam
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://takalam.net/en/
+  notes: Arabic text-to-speech platform offering Egyptian and Saudi dialect voices.
+- id: sawt
+  name: Sawt
+  type: org
+  country: INTL
+  org: Sawt
+  license: unknown
+  modality: none
+  tasks:
+  - industry
+  links:
+    website: https://trysawt.com/tools/text-to-speech-iraqi
+  notes: Arabic dialect text-to-speech platform with Iraqi and other dialect voices.

@@ -1805,3 +1805,822 @@
   size: <1K rows
   year: 2024
   notes: This dataset, containing 468 rows, is curated for evaluating reranking and retrieval models in Arabic.
+- id: arafinnlp-shared-task
+  name: AraFinNLP shared task
+  type: benchmark
+  country: PS
+  org: SinaLab
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  links:
+    website: https://sina.birzeit.edu/arbanking77/arafinnlp
+  year: 2024
+  notes: 'Arabic Financial NLP shared task: multi-dialect intent detection and cross-dialect translation in banking.'
+- id: nahw-benchmark
+  name: Nahw benchmark
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - grammar
+  links:
+    website: https://www.fanar.qa/en/publications
+  year: 2026
+  notes: Comprehensive benchmark of Arabic grammar understanding, error detection, correction and explanation.
+- id: arasafe
+  name: AraSafe
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - safety
+  links:
+    website: https://www.fanar.qa/en/publications
+    github: https://github.com/qcri/AraSafe-benchmark
+  year: 2025
+  notes: Benchmark for safety in Arabic LLMs.
+- id: islamiceval-2025
+  name: IslamicEval 2025
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: text
+  tasks:
+  - hallucination
+  - islamic
+  links:
+    website: https://www.fanar.qa/en/publications
+  year: 2025
+  notes: First shared task on capturing LLM hallucination in Islamic content.
+- id: silma-arabic-tts-benchmark
+  name: SILMA Arabic TTS Benchmark
+  type: benchmark
+  country: INTL
+  org: SILMA AI
+  license: apache-2.0
+  modality: speech
+  tasks:
+  - evaluation
+  - tts
+  links:
+    hf: https://huggingface.co/spaces/silma-ai/arabic-tts-benchmark
+  year: 2026
+  notes: Side-by-side comparison tool for Arabic speech synthesis models.
+- id: darija-chatbot-arena
+  name: Darija Chatbot Arena
+  type: benchmark
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/spaces/atlasia/darija-chatbot-arena
+  dialects:
+  - magh
+  year: 2025
+  notes: Arena platform comparing LLM responses to Darija prompts with Elo ratings.
+- id: dialex
+  name: dialex
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - embedding
+  links:
+    github: https://github.com/UBC-NLP/dialex
+    hf: https://huggingface.co/datasets/arbml/dialex
+  year: 2021
+  notes: DiaLex - A Benchmark for Evaluating Multidialectal Arabic Word Embeddings
+- id: nadi
+  name: nadi
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - dialect-id
+  links:
+    github: https://github.com/UBC-NLP/nadi
+  year: 2021
+  notes: Nuanced Arabic Dialect Identification Shared Tasks (NADI) 2020 and 2021
+- id: palmx-2025
+  name: palmx_2025
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    github: https://github.com/UBC-NLP/palmx_2025
+  year: 2025
+  notes: This repository contains the evaluation code and data for the PalmX 2025 Shared Task on Benchmarking LLMs for Arabic and Islamic Culture.
+- id: 2008-2010-nist-metrics-for-machine-translation-metricsmatr-gale-evalua
+  name: 2008/2010 NIST Metrics for Machine Translation (MetricsMaTr) GALE Evaluation Set
+  type: benchmark
+  country: INTL
+  org: NIST
+  license: proprietary
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  links:
+    website: https://catalog.ldc.upenn.edu/LDC2011T05
+  dialects:
+  - msa
+  size: 149 documents
+  year: 2011
+  tags:
+  - multilingual
+  notes: NIST MetricsMaTr GALE evaluation set with Arabic-English and Chinese-English translations and human adequacy assessments.
+- id: 3lm-native-stem-arabic-benchmark
+  name: 3LM Native STEM Arabic Benchmark
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: other
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    github: https://github.com/tiiuae/3LM-benchmark
+    hf: https://huggingface.co/datasets/tiiuae/NativeQA
+    paper: https://aclanthology.org/2025.arabicnlp-main.4.pdf
+  dialects:
+  - msa
+  size: 865 sentences
+  year: 2025
+  notes: The 3LM Native STEM dataset contains 865 multiple-choice questions (MCQs) curated from real Arabic educational sources.
+- id: absher
+  name: Absher
+  type: benchmark
+  country: SA
+  org: King Khalid University
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    github: https://github.com/renad-01/Absher-Benchmark
+    hf: https://huggingface.co/datasets/Renad10/Absher-Benchmark
+    paper: https://arxiv.org/pdf/2507.10216.pdf
+  dialects:
+  - gulf
+  size: 18,564 sentences
+  year: 2025
+  notes: Absher is a culturally grounded benchmark designed to evaluate the ability of Large Language Models (LLMs) to understand Saudi Arabic dialects.
+- id: airabic
+  name: AIRABIC
+  type: benchmark
+  country: INTL
+  org: University of Bridgeport
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - ai-text-detection
+  links:
+    github: https://github.com/Hamed1Hamed/AIRABIC
+    paper: https://ieeexplore.ieee.org/abstract/document/10459781
+  dialects:
+  - msa
+  size: 1,000 documents
+  year: 2023
+  notes: Arabic benchmark dataset for evaluating AI-generated text detectors, containing 500 human-written and 500 AI-generated passages with and without diacritics.
+- id: alghafa
+  name: AlGhafa
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    website: https://gitlab.com/tiiuae/alghafa
+    paper: https://aclanthology.org/2023.arabicnlp-1.21.pdf
+  dialects:
+  - mixed
+  size: 33,236 tokens
+  year: 2023
+  notes: Evaluation benchmark for Arabic LLMs.
+- id: aosed
+  name: AOSED
+  type: benchmark
+  country: SA
+  org: King Saud University
+  license: cc-by-nc-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - summarization
+  links:
+    hf: https://huggingface.co/datasets/bayandashnan/AOSED
+    paper: https://doi.org/10.1145/3838729
+  dialects:
+  - msa
+  size: 100 sentences
+  year: 2026
+  notes: AOSED is the first evaluation benchmark for Arabic opinion summarization.
+- id: arab-states-analogy-dataset-asad
+  name: Arab States Analogy Dataset (ASAD)
+  type: benchmark
+  country: INTL
+  org: Clarkson University
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  - embedding-evaluation
+  links:
+    github: https://github.com/SaiedAlshahrani/performance-implications/tree/main/Word-Representation-Evals/ASAD
+    hf: https://huggingface.co/datasets/SaiedAlshahrani/ASAD
+    paper: https://aclanthology.org/2023.arabicnlp-1.19.pdf
+  dialects:
+  - msa
+  size: 1,520 sentences
+  year: 2023
+  notes: ASAD is a word analogy dataset created using 20 Arab States with their corresponding capital cities, nationalities, currencies, and on which continents.
+- id: arabic-analogy
+  name: Arabic analogy
+  type: benchmark
+  country: INTL
+  org: University of West Bohemia
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - embedding-evaluation
+  links:
+    website: http://computersystemsartists.net/arabic-morphological-analogies.zip
+    paper: https://ieeexplore.ieee.org/document/8374386
+  dialects:
+  - msa
+  size: 240 tokens
+  year: 2018
+  notes: The corpus consists of pairs of Arabic words that explore different morphological constructs and relationships.
+- id: arabic-dataset-for-llm-safeguard-evaluation-mbzuai
+  name: Arabic Dataset for LLM Safeguard Evaluation
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - safety
+  links:
+    github: https://github.com/mbzuai-nlp/Arabic_safety_evaluation
+    paper: https://aclanthology.org/2025.naacl-long.285.pdf
+  dialects:
+  - mixed
+  size: 5,799 sentences
+  year: 2025
+  notes: A comprehensive dataset of 5,799 Arabic questions for evaluating Large Language Model safety.
+- id: arabicsense
+  name: ArabicSense
+  type: benchmark
+  country: INTL
+  org: University of Luxembourg
+  license: mit
+  modality: text
+  tasks:
+  - evaluation
+  - commonsense
+  links:
+    github: https://github.com/EL-Amrany/Arabic-Commonsense-Reasoning
+    hf: https://huggingface.co/datasets/Kamyar-zeinalipour/ArabicSense
+    paper: https://aclanthology.org/2025.wacl-1.1.pdf
+  dialects:
+  - msa
+  size: 5,650 sentences
+  year: 2025
+  notes: A synthetic commonsense reasoning benchmark in Arabic covering validation and explanation tasks.
+- id: arsen
+  name: ArSen
+  type: benchmark
+  country: INTL
+  org: Huaibei Normal University
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  - sentiment
+  links:
+    github: https://github.com/123fangyang/ArSen
+    paper: https://aclanthology.org/2024.conll-1.39.pdf
+  dialects:
+  - mixed
+  size: 10,193 sentences
+  year: 2024
+  notes: Arabic COVID-19 sentiment analysis benchmark.
+- id: be-arabic-9k
+  name: BE-Arabic-9K
+  type: benchmark
+  country: EG
+  org: Electronics Research Institute Cairo
+  license: unknown
+  modality: vision
+  tasks:
+  - evaluation
+  - ocr
+  links:
+    github: https://github.com/wdqin/BE-Arabic-9K
+    paper: https://doi.org/10.1007/s10032-021-00382-4
+  dialects:
+  - mixed
+  size: 9,000 images
+  year: 2021
+  notes: A large-scale benchmark dataset of over 9000 high-quality scanned images from Arabic books for document layout analysis and text extraction.
+- id: belebele-fleurs
+  name: Belebele-Fleurs
+  type: benchmark
+  country: INTL
+  org: University of Würzburg
+  license: cc-by-sa-4.0
+  modality: speech
+  tasks:
+  - evaluation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/WueNLP/belebele-fleurs
+    paper: https://arxiv.org/pdf/2501.06117
+  dialects:
+  - msa
+  size: 387 sentences
+  year: 2025
+  tags:
+  - multilingual
+  notes: Belebele-Fleurs extends BeleBele into a spoken SLU benchmark with multilingual multiple-choice listening comprehension QA from speech.
+- id: cleananercorp
+  name: CLEANANERCorp
+  type: benchmark
+  country: SA
+  org: King Saud University
+  license: lgpl-3.0
+  modality: text
+  tasks:
+  - evaluation
+  - ner
+  links:
+    github: https://github.com/iwan-rg/CLEANANERCorp
+    hf: https://huggingface.co/datasets/arbml/CLEANANERCorp
+    paper: https://aclanthology.org/2024.osact-1.2.pdf
+  dialects:
+  - msa
+  size: 150,000 tokens
+  year: 2024
+  notes: We conducted empirical research to understand the errors in ANERcorp, correct them and propose a cleaner version of the dataset named CLEANANERCorp.
+- id: flores-101
+  name: FLORES-101
+  type: benchmark
+  country: INTL
+  org: Facebook AI Research
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  links:
+    github: https://github.com/facebookresearch/flores
+    hf: https://huggingface.co/datasets/gsarti/flores_101
+    paper: https://arxiv.org/pdf/2106.03193.pdf
+  dialects:
+  - msa
+  size: 3,100,000 tokens
+  year: 2021
+  tags:
+  - multilingual
+  notes: Low-resource machine translation benchmark of 101 languages, with Arabic as one of them.
+- id: global-mmlu
+  name: Global-MMLU
+  type: benchmark
+  country: INTL
+  org: Cohere For AI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/CohereForAI/Global-MMLU
+    paper: https://doi.org/10.18653/v1/2025.acl-long.919
+  dialects:
+  - msa
+  size: 14,285 sentences
+  year: 2025
+  tags:
+  - multilingual
+  notes: Multilingual MMLU-style benchmark of 42 languages (Arabic included) with culturally sensitive and culturally agnostic subsets.
+- id: jeem
+  name: JEEM
+  type: benchmark
+  country: AE
+  org: MBZUAI
+  license: mit
+  modality: multimodal
+  tasks:
+  - evaluation
+  - image-captioning
+  - vqa
+  links:
+    hf: https://huggingface.co/datasets/toloka/JEEM
+    paper: http://arxiv.org/pdf/2503.21910v1.pdf
+  dialects:
+  - mixed
+  - lev
+  - gulf
+  - egy
+  - magh
+  size: 2,178 images
+  year: 2025
+  notes: Benchmark for VLMs visual understanding across four Arabic dialects
+- id: mder-ma
+  name: MDER-MA
+  type: benchmark
+  country: MA
+  org: Sidi Mohamed Ben Abdellah University
+  license: cc-by-4.0
+  modality: vision
+  tasks:
+  - evaluation
+  - emotion
+  - asr
+  - gender-id
+  - multimodal-evaluation
+  links:
+    website: https://data.mendeley.com/datasets/yzsw3ff6rn/1
+    paper: https://doi.org/10.1016/j.dib.2025.112005
+  dialects:
+  - magh
+  size: 1,322 images
+  year: 2025
+  notes: 'A multimodal Emotion Recognition Dataset for Moroccan Arabic, contain 5288 data items that express one of the four emotions: Happy, Sad, Angry, and Neutral.'
+- id: miracl-vision
+  name: MIRACL-VISION
+  type: benchmark
+  country: INTL
+  org: NVIDIA
+  license: cc-by-sa-4.0
+  modality: vision
+  tasks:
+  - evaluation
+  - retrieval
+  - rag
+  links:
+    hf: https://huggingface.co/datasets/nvidia/miracl-vision
+    paper: https://arxiv.org/pdf/2505.11651
+  dialects:
+  - msa
+  size: 75,444 documents
+  year: 2025
+  tags:
+  - multilingual
+  notes: Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.
+- id: mizanqa
+  name: MizanQA
+  type: benchmark
+  country: MA
+  org: UM6P
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/adlbh/MizanQA-v0
+    paper: https://aclanthology.org/2026.eacl-industry.10.pdf
+  dialects:
+  - magh
+  size: 1,769 sentences
+  year: 2025
+  notes: MizanQA is the first benchmark designed to evaluate large language models (LLMs) on Moroccan legal question answering tasks.
+- id: nahw
+  name: Nahw
+  type: benchmark
+  country: QA
+  org: QCRI
+  license: apache-2.0
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    github: https://github.com/qcri/nahw-arabic-grammar-benchmark/
+    paper: https://aclanthology.org/2026.eacl-long.296.pdf
+  dialects:
+  - msa
+  size: 5,100 sentences
+  year: 2026
+  notes: Nahw is a comprehensive benchmark for evaluating Arabic grammar understanding in large language models.
+- id: pearl-lite
+  name: PEARL-LITE
+  type: benchmark
+  country: INTL
+  org: UBC-NLP
+  license: cc-by-nc-nd-4.0
+  modality: vision
+  tasks:
+  - evaluation
+  - qa
+  links:
+    hf: https://huggingface.co/datasets/UBC-NLP/PEARL-LITE
+    paper: https://doi.org/10.18653/v1/2025.findings-emnlp.1254
+  dialects:
+  - msa
+  size: 893 images
+  year: 2025
+  notes: PEARL-LITE is a lightweight, smaller subset of the main PEARL benchmark.
+- id: sib-200
+  name: SIB-200
+  type: benchmark
+  country: INTL
+  org: University College London
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - classification
+  links:
+    github: https://github.com/dadelani/SIB-200
+    hf: https://huggingface.co/datasets/Davlan/sib200_14classes
+    paper: https://arxiv.org/pdf/2309.07445
+  dialects:
+  - mixed
+  - msa
+  - iraqi
+  - yemeni
+  - magh
+  - lev
+  size: 11,440 sentences
+  year: 2024
+  tags:
+  - multilingual
+  notes: A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.
+- id: sudanese-flores
+  name: Sudanese-Flores
+  type: benchmark
+  country: INTL
+  org: Mila-Quebec AI Institute
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  links:
+    hf: https://huggingface.co/datasets/McGill-NLP/Sudanese-Flores
+    paper: https://aclanthology.org/2026.africanlp-main.25.pdf
+  dialects:
+  - sudanese
+  - msa
+  size: 2,009 sentences
+  year: 2026
+  notes: An extension of the popular Flores+ machine translation (MT) benchmark to the Sudanese Arabic dialect.
+- id: the-sadid-evaluation-datasets
+  name: The SADID Evaluation Datasets
+  type: benchmark
+  country: INTL
+  org: Stanford University
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - translation
+  links:
+    github: https://github.com/we7el/SADID
+    hf: https://huggingface.co/datasets/arbml/SADID
+    paper: https://aclanthology.org/2020.coling-main.530.pdf
+  dialects:
+  - mixed
+  - lev
+  - egy
+  - msa
+  size: 29,964 sentences
+  year: 2020
+  notes: Evaluation Datasets for Low-Resource Spoken Language Machine Translation of Arabic Dialects
+- id: xquad
+  name: xquad
+  type: benchmark
+  country: INTL
+  org: HiTZ Center
+  license: cc-by-sa-4.0
+  modality: text
+  tasks:
+  - evaluation
+  - qa
+  links:
+    github: https://github.com/deepmind/xquad
+    hf: https://huggingface.co/datasets/google/xquad
+    paper: https://aclanthology.org/2020.acl-main.421.pdf
+  dialects:
+  - msa
+  size: 1,190 documents
+  year: 2019
+  tags:
+  - multilingual
+  notes: Cross-lingual QA benchmark of 240 SQuAD paragraphs and 1190 question-answer pairs translated into ten languages including Arabic.
+- id: ymgd
+  name: YMGD
+  type: benchmark
+  country: INTL
+  org: IBB University
+  license: cc-by-4.0
+  modality: speech
+  tasks:
+  - evaluation
+  - dialect-id
+  links:
+    paper: https://doi.org/10.5281/zenodo.19543208
+  dialects:
+  - yemeni
+  size: 1,150 sentences
+  year: 2026
+  notes: A benchmark for Arabic Yemeni musical traditions with five genres.
+- id: imageeval-2025
+  name: ImageEval 2025
+  type: benchmark
+  country: QA
+  org: Hamad Bin Khalifa University
+  license: unknown
+  modality: vision
+  tasks:
+  - evaluation
+  - shared-task
+  links:
+    paper: https://aclanthology.org/2025.arabicnlp-sharedtasks.52/
+    website: https://sina.birzeit.edu/image_eval2025/
+  year: 2025
+  venue: ArabicNLP 2025
+  notes: We present ImageEval 2025, the first shared task dedicated to Arabic image captioning.
+- id: taqeem-2025
+  name: TAQEEM 2025
+  type: benchmark
+  country: QA
+  org: Qatar University
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - shared-task
+  links:
+    paper: https://aclanthology.org/2025.arabicnlp-sharedtasks.134/
+    website: https://gitlab.com/bigirqu/taqeem2025
+  year: 2025
+  venue: ArabicNLP 2025
+  notes: This paper presents an overview of the task, outlines the approaches employed, and discusses the results of the participating teams.
+- id: qimma-leaderboard
+  name: qimma-leaderboard
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    github: https://github.com/tiiuae/QIMMA-leaderboard
+  notes: QIMMA ⛰ قِمّة A quality-first Arabic LLM leaderboard that validates benchmarks before evaluating models. 📖 Blog Post • 🏆 Leaderboard • 📄 Paper ⛰️ QIMMA.
+- id: sadeed-sadeeddiac-25
+  name: Sadeed / SadeedDiac-25
+  type: benchmark
+  country: SA
+  org: Misraj AI
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - diacritization
+  links:
+    github: https://github.com/misraj-ai/Sadeed
+  dialects:
+  - classical
+  - msa
+  notes: 'Sadeed: Advancing Arabic Diacritization This repository contains evaluation code and benchmark data for Sadeed, a state-of-the-art model for Arabic text.'
+- id: arabic-llm-benchmarks-repository
+  name: Arabic-LLM-Benchmarks Repository
+  type: benchmark
+  country: AE
+  org: TII (UAE)
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    github: https://github.com/tiiuae/Arabic-LLM-Benchmarks
+  notes: List of Arabic Benchmarks for Arabic LLMs.
+- id: alhd-a-large-scale-and-multigenre-benchmark-dataset-for-arabic-llm-gen-unknown
+  name: 'ALHD: A Large-Scale and Multigenre Benchmark Dataset for Arabic LLM-Generated Text Detection'
+  type: benchmark
+  country: INTL
+  org: unknown
+  license: cc-by-nc-4.0
+  modality: text
+  tasks:
+  - llm-detection
+  links:
+    website: https://zenodo.org/records/17249602
+  dialects:
+  - msa
+  year: 2025
+  notes: 'ALHD: multigenre dataset for distinguishing LLM-generated from human-written Arabic text.'
+- id: sparta-benchmark
+  name: SPARTA benchmark
+  type: benchmark
+  country: JO
+  org: Mawdoo3
+  license: unknown
+  modality: speech
+  tasks:
+  - evaluation
+  - dialect-id
+  links:
+    github: https://github.com/mawdoo3/sparta-benchmark
+  dialects:
+  - gulf
+  - lev
+  - egy
+  notes: 'Speech Profiling for ARabic TAlk: benchmark for dialect, gender and age profiling of Arabic speakers.'
+- id: aladdinbench
+  name: AladdinBench
+  type: benchmark
+  country: INTL
+  org: palmaoui
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/palmaoui/AladdinBench
+    paper: https://arxiv.org/abs/2502.20973
+  dialects:
+  - lev
+  year: 2025
+  notes: Real-world Lebanese Arabizi messages for testing how well LLMs understand Arabizi.
+- id: niyyah
+  name: NIYYAH
+  type: benchmark
+  country: INTL
+  org: niyyah-research
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - classification
+  links:
+    github: https://github.com/niyyah-research/niyyah
+  dialects:
+  - gulf
+  year: 2026
+  notes: Human-validated Saudi Arabic intent benchmark with 10,500 utterances.
+- id: sudanese-mt-benchmark
+  name: sudanese-mt-benchmark
+  type: benchmark
+  country: INTL
+  org: O96a
+  license: cc-by-4.0
+  modality: text
+  tasks:
+  - translation
+  - evaluation
+  links:
+    hf: https://huggingface.co/datasets/O96a/sudanese-mt-benchmark
+  dialects:
+  - sudanese
+  year: 2026
+  notes: Machine-translation benchmark specific to Sudanese Arabic, with a companion dialect benchmark.
+- id: arabic-agent-eval
+  name: arabic-agent-eval
+  type: benchmark
+  country: INTL
+  org: Moshe-ship
+  license: unknown
+  modality: text
+  tasks:
+  - evaluation
+  - agent
+  links:
+    github: https://github.com/Moshe-ship/arabic-agent-eval
+  dialects:
+  - msa
+  year: 2026
+  notes: Arabic function-calling and agent evaluation benchmark, distributed as a pip package.

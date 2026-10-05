@@ -640,3 +640,94 @@
     hf: https://huggingface.co/gagan3012/TrOCR-Ar-Small
   year: 2022
   notes: Arabic image text to text model.
+- id: qatip
+  name: QATIP
+  type: ocr
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    website: https://alt.qcri.org/resources/
+  notes: Continuous text recognition that works best for entire pages of historic documents with challenging script.
+- id: prepocressor
+  name: PrepOCRessor
+  type: ocr
+  country: QA
+  org: QCRI
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    website: https://alt.qcri.org/tools/prepocressor
+  notes: Tool for preprocessing document images before Arabic OCR, pipeline of image operations.
+- id: ocrsmith
+  name: OCRSmith
+  type: ocr
+  country: MA
+  org: atlasia
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    github: https://github.com/atlasia-ma/OCRSmith
+  year: 2025
+  notes: Toolkit for synthetic OCR data generation used to train AtlasOCR.
+- id: printed-arabic-base-model-trained-on-the-openiti-corpus
+  name: Printed Arabic Base Model Trained on the OpenITI Corpus
+  type: ocr
+  country: INTL
+  org: unknown
+  license: cc0-1.0
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    website: https://zenodo.org/records/7050296
+  year: 2022
+  notes: Kraken text recognition model for printed Arabic trained on the OpenITI corpus.
+- id: htr-model-arabic-handwritten-recognition-model-trained-on-the-muharaf
+  name: HTR Model - Arabic Handwritten Recognition Model Trained on the Muharaf Corpus
+  type: ocr
+  country: INTL
+  org: unknown
+  license: cc-by-4.0
+  modality: vision
+  tasks:
+  - ocr
+  - handwriting
+  links:
+    website: https://zenodo.org/records/14295489
+  year: 2024
+  notes: Kraken handwriting recognition model for Arabic trained on the Muharaf manuscripts dataset.
+- id: qari-ocr
+  name: QARI-OCR
+  type: ocr
+  country: SA
+  org: NAMAA-Space
+  license: unknown
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/collections/NAMAA-Space/qari-ocr-a-high-accuracy-model-for-arabic-optical-character
+  notes: Arabic OCR models by NAMAA-Space built on Qwen2 VL 2B and fine-tuned on an Arabic OCR dataset, released as versions v0.1 to v0.4.
+- id: trocr-tunisian-arabic
+  name: trocr-tunisian-arabic
+  type: ocr
+  country: INTL
+  org: Ghazouaniwala
+  license: mit
+  modality: vision
+  tasks:
+  - ocr
+  links:
+    hf: https://huggingface.co/Ghazouaniwala/trocr-tunisian-arabic
+  dialects:
+  - magh
+  year: 2026
+  notes: TrOCR fine-tuned for Tunisian Arabic text recognition.

@@ -78,7 +78,6 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 
 ## Contents
 
-- [🌳 Family tree](#-family-tree)
 - [🧠 Large Language Models](#-large-language-models)
 - [🎙️ Speech Recognition](#️-speech-recognition)
 - [🔊 Text-to-Speech](#-text-to-speech)
@@ -91,6 +90,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🎯 Most Wanted](#-most-wanted)
+- [🌳 Family tree](#-family-tree)
 - [🤝 Contributing](#-contributing)
 
 ## 🧠 Large Language Models
@@ -411,7 +411,7 @@ _Gaps nobody has filled yet. Add an entry that matches a rule and it moves to Re
 | [Open Arabic TTS with a Kuwaiti or Qatari voice](https://h9-tec.github.io/arabic-ai-atlas/#type=tts&country=KW,QA&license=open) | No openly licensed text-to-speech model with a Kuwaiti or Qatari voice is listed. | `type=tts · country=KW,QA · license=open` |
 | [Open Moroccan Arabic OCR dataset](https://h9-tec.github.io/arabic-ai-atlas/#q=ocr&type=dataset&country=MA&license=open) | The only Moroccan OCR dataset listed has no clear license, so no openly licensed one is available. | `type=dataset · country=MA · license=open · tasks=ocr` |
 | [Sudanese Arabic speech dataset for ASR](https://h9-tec.github.io/arabic-ai-atlas/#q=asr&type=dataset&country=SD) | A Sudanese ASR model exists, but no Sudanese speech dataset to train or test one is listed. | `type=dataset · country=SD · tasks=asr` |
-| [Anything from Mauritania](https://h9-tec.github.io/arabic-ai-atlas/#country=MR) | Mauritania has no listed model, dataset, or tool of any kind. | `country=MR` |
+| [Anything from Mauritania](https://h9-tec.github.io/arabic-ai-atlas/#type=llm,asr,tts,ocr,embedding,dataset,tool,benchmark&country=MR) | Mauritania has no listed model, dataset, or tool of any kind. | `type=llm,asr,tts,ocr,embedding,dataset,tool,benchmark · country=MR` |
 | [Open Yemeni speech dataset](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset&country=YE&license=open) | No openly licensed Yemeni dataset for speech recognition or synthesis is listed. | `type=dataset · country=YE · license=open · tasks=asr,speech,tts` |
 | [Embedding model for Sudanese, Yemeni or Iraqi dialects](https://h9-tec.github.io/arabic-ai-atlas/#type=embedding&dialect=sudanese,yemeni,iraqi) | No Arabic embedding model targets the Sudanese, Yemeni, or Iraqi dialects. | `type=embedding · dialects=sudanese,yemeni,iraqi` |
 | [Open-licensed Iraqi Arabic TTS](https://h9-tec.github.io/arabic-ai-atlas/#type=tts&dialect=iraqi&license=open) | The only TTS covering Iraqi has no clear license, so no openly licensed one is available. | `type=tts · dialects=iraqi · license=open` |
@@ -433,17 +433,17 @@ _385 models with known lineage · [explore the tree](https://h9-tec.github.io/ar
 | Base family | Models | Most downloaded |
 | --- | --- | --- |
 | Qwen · كوين | 65 | [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae) (19K ⬇) |
-| BERT · بيرت | 57 | [AraBERTv02](https://huggingface.co/aubmindlab/bert-base-arabertv02) (557K ⬇) |
+| BERT · بيرت | 58 | [AraBERTv02](https://huggingface.co/aubmindlab/bert-base-arabertv02) (557K ⬇) |
 | Whisper · ويسبر | 56 | [whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo) (6.3M ⬇) |
 | Gemma · جيما | 24 | [gemma4 e4b claims comparison](https://huggingface.co/k-chirkunov/gemma4-e4b-claims-comparison) (437K ⬇) |
 | From scratch · من الصفر | 19 | [ALLaM](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) (11K ⬇) |
 | Llama · لاما | 15 | [Llama 3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) (399K ⬇) |
-| T5 · تي 5 | 8 | [AraT5](https://huggingface.co/UBC-NLP/AraT5-base) (3K ⬇) |
+| Cohere | 9 | [cohere-transcribe-arabic-07-2026](https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026) (47K ⬇) |
+| T5 · تي 5 | 9 | [AraT5](https://huggingface.co/UBC-NLP/AraT5-base) (3K ⬇) |
 | XTTS | 7 | [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) (6.7M ⬇) |
 | BGE | 4 | [arabic english bge m3](https://huggingface.co/sayed0am/arabic-english-bge-m3) (1K ⬇) |
 | F5-TTS | 4 | [f5tts-algerian-darja](https://huggingface.co/touati-kamel/f5tts-algerian-darja) (12K ⬇) |
 | XLS-R · إكس إل إس-آر | 4 | [egyptian-arabic-wav2vec2-xlsr-53](https://huggingface.co/IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53) (3K ⬇) |
-| Cohere | 3 | [Command R7B Arabic](https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025) (1K ⬇) |
 | NLLB | 3 | [darija to english 2](https://huggingface.co/ychafiqui/darija-to-english-2) (22 ⬇) |
 | SeamlessM4T | 2 | [SeamlessM4T v2](https://huggingface.co/facebook/seamless-m4t-v2-large) (284K ⬇) |
 | wav2vec · واف تو فيك | 2 | [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics) (8K ⬇) |
@@ -452,13 +452,7 @@ _385 models with known lineage · [explore the tree](https://h9-tec.github.io/ar
 | Falcon · فالكون | 1 | [Falcon Arabic](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) (11K ⬇) |
 | Mistral · ميسترال | 1 | [Mistral 7B v0.1 arabic](https://huggingface.co/malhajar/Mistral-7B-v0.1-arabic) (29 ⬇) |
 | MMS · إم إم إس | 1 | [mms 300m arabic dialect identifier](https://huggingface.co/badrex/mms-300m-arabic-dialect-identifier) (1K ⬇) |
-| Other · أخرى | 107 | [Multilingual Chatterbox](https://huggingface.co/ResembleAI/chatterbox) (1.7M ⬇) |
-
-| Dataset | Models citing it |
-| --- | --- |
-| [Hadith](https://huggingface.co/datasets/arbml/Hadith) | 5 |
-| [NLI](https://github.com/fraunhofer-iais/arabic_nlp/) | 2 |
-| [Transliteration](https://huggingface.co/datasets/arbml/google_transliteration) | 2 |
+| Other · أخرى | 99 | [Multilingual Chatterbox](https://huggingface.co/ResembleAI/chatterbox) (1.7M ⬇) |
 
 ## 🤝 Contributing
 
@@ -466,7 +460,7 @@ _385 models with known lineage · [explore the tree](https://h9-tec.github.io/ar
 2. Run `uv run python scripts/build.py build` (it uses the committed Hugging Face cache; the nightly job refreshes metrics).
 3. Open a PR.
 
-CI rejects hand edits to `README.md`, `docs/tables/`, `assets/` and `dist/`.
+Never hand-edit `README.md`, `docs/tables/`, `assets/`, `dist/` or `data/.cache/`: the build and the nightly job write them, and CI rejects drift.
 
 ## 📜 License
 

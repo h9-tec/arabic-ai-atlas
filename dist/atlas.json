@@ -76863,7 +76863,7 @@
       "filled_on": null,
       "by": [],
       "recent": false,
-      "hash": "#country=MR"
+      "hash": "#type=llm,asr,tts,ocr,embedding,dataset,tool,benchmark&country=MR"
     },
     {
       "id": "yemeni-dataset",
@@ -76982,7 +76982,7 @@
         "id": "other",
         "label": "Other",
         "label_ar": "أخرى",
-        "count": 107
+        "count": 99
       },
       {
         "id": "qwen",
@@ -76994,7 +76994,7 @@
         "id": "bert",
         "label": "BERT",
         "label_ar": "بيرت",
-        "count": 57
+        "count": 58
       },
       {
         "id": "whisper",
@@ -77021,10 +77021,16 @@
         "count": 15
       },
       {
+        "id": "cohere",
+        "label": "Cohere",
+        "label_ar": "Cohere",
+        "count": 9
+      },
+      {
         "id": "t5",
         "label": "T5",
         "label_ar": "تي 5",
-        "count": 8
+        "count": 9
       },
       {
         "id": "xtts",
@@ -77049,12 +77055,6 @@
         "label": "XLS-R",
         "label_ar": "إكس إل إس-آر",
         "count": 4
-      },
-      {
-        "id": "cohere",
-        "label": "Cohere",
-        "label_ar": "Cohere",
-        "count": 3
       },
       {
         "id": "nllb",
@@ -78673,18 +78673,18 @@
       "bert-base-arabic-hate-speech": "bert",
       "bert-mini-arabic": "bert",
       "bge-m3-law": "bge",
-      "byt5-darija-emphatic": "other",
+      "byt5-darija-emphatic": "t5",
       "calme-2-2": "qwen",
       "camel-readability-arabertv02": "bert",
       "chatterbox-egyptian-v0": "other",
       "chatterbox-multilingual-finetuned-arabic": "other",
-      "cohere-jordanian-dialect": "other",
-      "cohere-speech-tashkeel-2b": "other",
-      "cohere-transcribe-arabic-07-2026": "other",
-      "cohere-transcribe-arabic-07-2026-dialectal": "other",
-      "cohere-transcribe-arabic-07-2026-dialectal-v2": "other",
-      "cohere-transcribe-arabic-07-2026-int4": "other",
-      "cohere-transcribe-arabic-cpu": "other",
+      "cohere-jordanian-dialect": "cohere",
+      "cohere-speech-tashkeel-2b": "cohere",
+      "cohere-transcribe-arabic-07-2026": "cohere",
+      "cohere-transcribe-arabic-07-2026-dialectal": "cohere",
+      "cohere-transcribe-arabic-07-2026-dialectal-v2": "cohere",
+      "cohere-transcribe-arabic-07-2026-int4": "cohere",
+      "cohere-transcribe-arabic-cpu": "cohere",
       "command-r7b-arabic": "cohere",
       "darija-omnivoice-kore-v1": "other",
       "darija-text-generation": "bloom",
@@ -78757,7 +78757,7 @@
       "jais-family-590m-chat": "from-scratch",
       "jais-family-chat": "other",
       "jameamt-ar-en-350m": "other",
-      "jev-ar": "cohere",
+      "jev-ar": "other",
       "jordanian-to-fusha-model": "nllb",
       "kallamni-4b-v1": "qwen",
       "kani-tts-400m-ar": "other",
@@ -78773,7 +78773,7 @@
       "lahja-sa-ahmad-v1": "other",
       "lahja-sa-huba-v1": "other",
       "lahjamt": "qwen",
-      "laya-ara-rag": "cohere",
+      "laya-ara-rag": "other",
       "lebanese-llama-3-1-8b": "llama",
       "lemura-arabic-asr-qwen3": "qwen",
       "leva-tts": "xtts",
@@ -78815,7 +78815,7 @@
       "nabra-82m-v0-1": "other",
       "namaa-egyptian-tts": "other",
       "namaa-reranker": "bert",
-      "namaa-saudi-asr-v1": "other",
+      "namaa-saudi-asr-v1": "cohere",
       "namaa-saudi-tts": "other",
       "namaa-saudi-tts-v2": "other",
       "nawah-50m-rag-chat": "other",
@@ -78825,7 +78825,7 @@
       "nawah-router-bert-6m-bilingual": "bert",
       "nemotron-3-5-asr-streaming-0-6b-jordanian": "other",
       "nemotron-asr-arabic-dialectal-v2": "other",
-      "neoarabert": "other",
+      "neoarabert": "bert",
       "neoarabert-msa-synonym-matryoshka-v1": "bert",
       "nile-chat": "gemma",
       "nile-chat-12b": "gemma",

@@ -8,6 +8,8 @@
 
   function downloads(e) { return (e && e.metrics && e.metrics.downloads) || 0; }
   function shortId(id) { var s = String(id), i = s.lastIndexOf("/"); return i === -1 ? s : s.slice(i + 1); }
+  var HF = "https://huggingface.co/";
+  function hfUrl(id) { return HF + String(id).split("/").map(encodeURIComponent).join("/"); }
   function has(o, k) { return Object.prototype.hasOwnProperty.call(o, k); }
 
   // Downloads desc, then name; an external base ranks by the busiest entry beneath it.
@@ -62,7 +64,7 @@
       });
       top.forEach(function (id) { if (!visited[id]) fam.children.push(entryNode(id, r.id)); });
       Object.keys(ext).sort().forEach(function (p) {
-        var n = { id: p, name: shortId(p), external: true, downloads: 0, rank: 0, children: [] };
+        var n = { id: p, name: shortId(p), external: true, url: hfUrl(p), downloads: 0, rank: 0, children: [] };
         (kidsOf[p] || []).slice().sort().forEach(function (c) {
           if (!visited[c] && rootOf[c] === r.id) n.children.push(entryNode(c, r.id));
         });
@@ -79,7 +81,7 @@
     return { id: "root", children: families };
   }
 
-  var api = { buildHierarchy: buildHierarchy, shortId: shortId };
+  var api = { buildHierarchy: buildHierarchy, shortId: shortId, hfUrl: hfUrl };
   if (typeof module !== "undefined" && module.exports) { module.exports = api; return; }
   if (typeof document === "undefined") return;
 
@@ -359,15 +361,11 @@
       if (n.entry) g.querySelector(".tn-mark").style.fill = S.opts.colors[n.type] || "var(--muted)";
     }
     g.appendChild(svgEl("text", { class: "tn-label", dy: "0.34em" }));
-    if (n.external) {
-      var t = svgEl("title", {});
-      t.textContent = n.id + ", a base model outside the atlas";
-      g.appendChild(t);
-    }
-    if (n.entry) {
-      g.addEventListener("mouseenter", function () { S.opts.showCard(n.entry, g, false); });
+    var card = n.entry || (n.external ? externalCard(n) : null);
+    if (card) {
+      g.addEventListener("mouseenter", function () { S.opts.showCard(card, g, false); });
       g.addEventListener("mouseleave", function () { S.opts.scheduleHide(); });
-      g.addEventListener("focus", function () { S.opts.showCard(n.entry, g, true); });
+      g.addEventListener("focus", function () { S.opts.showCard(card, g, true); });
       g.addEventListener("blur", function () { S.opts.scheduleHide(); });
     }
     g.addEventListener("focus", function () { ensureVisible(g); });
@@ -380,7 +378,8 @@
     g.addEventListener("keydown", function (ev) {
       if (ev.key === "Enter" || ev.key === " ") {
         ev.preventDefault();
-        if (n.children.length) toggle(n); else if (ev.key === "Enter") open(n);
+        // Shift+Enter always opens the page; plain Enter folds a parent and opens a leaf.
+        if (ev.key === "Enter" && (ev.shiftKey || !n.children.length)) open(n); else if (n.children.length) toggle(n);
       }
     });
   }
@@ -404,13 +403,13 @@
     hit.setAttribute("width", (r * 2 + 10 + p.lw + 4).toFixed(1)); hit.setAttribute("height", h);
     hit.setAttribute("rx", 4);
     var label = n.family ? n.label + " (" + n.label_ar + "), family of " + plural(n.desc, "model", "models")
-      : n.external ? n.id + ", base model outside the atlas" : n.name;
+      : n.external ? n.id + ", base model outside the atlas, on Hugging Face" : n.name;
     if (n.children.length) {
       label += S.collapsed[n.key] ? ", folded, " + plural(n.desc, "descendant", "descendants") + " hidden" : ", " + plural(n.children.length, "child", "children");
       g.setAttribute("role", "button");
       g.setAttribute("aria-expanded", S.collapsed[n.key] ? "false" : "true");
     } else {
-      g.setAttribute("role", n.entry && S.opts.primaryLink(n.entry) ? "link" : "img");
+      g.setAttribute("role", n.external || (n.entry && S.opts.primaryLink(n.entry)) ? "link" : "img");
       g.removeAttribute("aria-expanded");
     }
     if (S.filtering && !isMatch(n)) label += ", outside the current filters";
@@ -424,8 +423,19 @@
     draw(false);
   }
 
+  // The hover card for a base model outside the atlas: its id, its Hugging Face page, who builds on it.
+  function externalCard(n) {
+    var owner = n.id.indexOf("/") === -1 ? null : n.id.slice(0, n.id.indexOf("/"));
+    return {
+      id: n.id, name: n.id, type: "Base model outside the atlas", external: true, org: owner,
+      notes: "On Hugging Face at " + n.url.replace(/^https:\/\//, "") + ". " +
+        plural(n.desc, "atlas entry builds", "atlas entries build") + " on it.",
+      links: { hf: n.url }
+    };
+  }
+
   function open(n) {
-    var href = n.entry && S.opts.primaryLink(n.entry);
+    var href = n.external ? n.url : n.entry && S.opts.primaryLink(n.entry);
     if (href) window.open(href, "_blank", "noopener");
   }
 

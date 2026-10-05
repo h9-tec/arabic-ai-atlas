@@ -50,7 +50,8 @@ def test_no_remote_scripts_or_cdns():
         assert "http://" not in js, name
         assert not re.search(r"(import|importScripts|src\s*=)\s*\(?[\"']https://", js), name
         for url in re.findall(r"https://[^\s\"']+", js):
-            assert url.startswith("https://fonts.googleapis.com"), url
+            # Plain links to Hugging Face model pages are fine (the data links there); nothing is loaded from it.
+            assert url.startswith(("https://fonts.googleapis.com", "https://huggingface.co/")), url
 
 
 NODE_SMOKE = r"""
@@ -105,6 +106,8 @@ const out = {
     roots: [{id: "qwen", label: "Qwen", label_ar: "q", count: 3}],
     edges: [["qwen/qwen2.5-7b", "x"], ["x", "y"], ["qwen/qwen2.5-7b", "z"]], root_of: {x: "qwen", y: "qwen", z: "qwen"}},
     [{id: "x", name: "X", metrics: {downloads: 5}}, {id: "y", name: "Y"}, {id: "z", name: "Z", metrics: {downloads: 50}}]).children[0]),
+  tree_ext_urls: (function walk(n) { return (n.external ? [[n.id, n.external, n.url]] : []).concat((n.children || []).flatMap(walk)); })(tree.buildHierarchy(data.lineage, E)),
+  tree_ext_url: tree.buildHierarchy({roots: [{id: "qwen", label: "Qwen", label_ar: "q", count: 1}], edges: [["qwen/qwen2.5-7b", "x"]], root_of: {x: "qwen"}}, [{id: "x", name: "X"}]).children[0].children[0],
   layout_skip: map.bubbleLayout({llm: {n: 0, downloads: 0}, ocr: {n: 1, downloads: 0}}).length,
 };
 console.log(JSON.stringify(out));
@@ -171,6 +174,11 @@ def test_filter_logic_in_node(tmp_path):
     assert out["tree_roots"] == [r["id"] for r in atlas["lineage"]["roots"]]
     assert out["tree_cycle"] == 1
     assert sorted(out["tree_cycle_ids"]) == ["a", "b", "other", "root"]
+    ext_url = out["tree_ext_url"]
+    assert ext_url["external"] is True and ext_url["url"] == "https://huggingface.co/qwen/qwen2.5-7b"
+    assert ext_url["name"] == "qwen2.5-7b" and [c["id"] for c in ext_url["children"]] == ["x"]
+    assert len(out["tree_ext_urls"]) > 50
+    assert all(ext is True and url == "https://huggingface.co/" + i for i, ext, url in out["tree_ext_urls"])
     assert out["tree_ext"] == {"id": "qwen", "external": False, "children": [
         {"id": "qwen/qwen2.5-7b", "external": True, "children": [
             {"id": "z", "external": False, "children": []},

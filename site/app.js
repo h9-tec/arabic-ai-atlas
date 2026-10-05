@@ -487,14 +487,16 @@
     var card = $("card");
     cardOwner = anchor;
     card.textContent = "";
-    card.style.setProperty("--c", COLORS[e.type]);
+    // e.external: a base model outside the atlas (from the tree view), with no country or license of ours.
+    var color = COLORS[e.type] || "var(--rule-strong)";
+    card.style.setProperty("--c", color);
     var m = e.metrics || {};
-    card.appendChild(el("p", { className: "card-type" }, [el("span", { className: "swatch", style: "background:" + COLORS[e.type] }), TYPE_LABELS[e.type] || e.type]));
+    card.appendChild(el("p", { className: "card-type" }, [el("span", { className: "swatch", style: "background:" + color }), TYPE_LABELS[e.type] || e.type]));
     card.appendChild(el("h3", { id: "card-name", dir: "auto", text: e.name }));
     var dl = el("dl", null, [
       row("Org", e.org, { dir: "auto" }),
-      row("Country", COUNTRY_NAMES[e.country || "INTL"] || e.country),
-      row("License", (e.license || "unknown") + " (" + LICENSE_LABELS[licenseClass(e.license)].toLowerCase() + ")"),
+      e.external ? null : row("Country", COUNTRY_NAMES[e.country || "INTL"] || e.country),
+      e.external ? null : row("License", (e.license || "unknown") + " (" + LICENSE_LABELS[licenseClass(e.license)].toLowerCase() + ")"),
       row("Dialects", (e.dialects || []).map(function (d) { return DIALECT_LABELS[d] || d; }).join(", ")),
       row("Size", e.size),
       row("Downloads", m.downloads ? fmtDownloads(m.downloads) : null),
@@ -508,7 +510,7 @@
     var links = el("div", { className: "links" });
     LINK_ORDER.forEach(function (pair) {
       var href = (e.links || {})[pair[0]];
-      if (href) links.appendChild(el("a", { className: "btn small", href: href, rel: "noopener" }, [pair[1]]));
+      if (href) links.appendChild(el("a", { className: "btn small", href: href, rel: "noopener" }, [e.external ? "Open on " + pair[1] : pair[1]]));
     });
     if (links.childNodes.length) card.appendChild(links);
     card.hidden = false;

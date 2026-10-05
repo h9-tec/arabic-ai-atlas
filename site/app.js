@@ -174,7 +174,25 @@
   // 0..1 position on a log scale; 10M downloads and above is the top.
   function sizeScore(n) { return Math.min(Math.log10((n || 0) + 1) / 7, 1); }
 
+  // Split the "wanted" list from atlas.json into open gaps (link = the filters that show the gap)
+  // and recently filled ones (link = the entry that filled it). Pure; tolerates a missing list.
+  function wantedRows(wanted) {
+    var out = { open: [], recent: [] };
+    (Array.isArray(wanted) ? wanted : []).forEach(function (w) {
+      if (!w || !w.id) return;
+      var base = { id: w.id, title: w.title || w.id, why: w.why || "" };
+      if (w.status === "open") {
+        out.open.push(Object.assign(base, { href: w.hash || "#" }));
+      } else if (w.recent) {
+        var by = (w.by || [])[0];
+        out.recent.push(Object.assign(base, { href: by ? "#q=" + encodeURIComponent(by) : "#", filled_on: w.filled_on || "" }));
+      }
+    });
+    return out;
+  }
+
   var api = {
+    wantedRows: wantedRows,
     COLUMNS: COLUMNS, BANDS: BANDS, COLORS: COLORS, licenseClass: licenseClass, column: column, fold: fold,
     normalizeState: normalizeState, matches: matches, filterEntries: filterEntries, filter: filterEntries,
     parseHash: parseHash, serializeHash: serializeHash, recommendCall: recommendCall, searchCall: searchCall,
@@ -603,6 +621,32 @@
     $("fold-n").textContent = active ? active + " active" : "";
   }
 
+  function renderWanted(wanted) {
+    var rows = wantedRows(wanted);
+    var sec = $("wanted");
+    sec.hidden = rows.open.length === 0 && rows.recent.length === 0;
+    if (sec.hidden) return;
+    $("wanted-n").textContent = "(" + rows.open.length + " open)";
+    var list = $("wanted-list"), recent = $("wanted-recent");
+    list.textContent = ""; recent.textContent = "";
+    rows.open.forEach(function (r) {
+      list.appendChild(el("li", {}, [
+        el("a", { href: r.href, dir: "auto", text: r.title }),
+        el("span", { className: "why", dir: "auto", text: r.why })
+      ]));
+    });
+    rows.recent.forEach(function (r) {
+      recent.appendChild(el("li", {}, [
+        el("a", { href: r.href, dir: "auto", text: r.title }),
+        r.filled_on ? el("span", { className: "why", text: "Filled " + r.filled_on }) : null
+      ]));
+    });
+    $("wanted-recent-box").hidden = rows.recent.length === 0;
+    var d = $("wanted-fold");
+    var small = window.matchMedia && window.matchMedia("(max-width: 899px)");
+    d.open = !(small && small.matches);
+  }
+
   function boot() {
     syncThemeButton();
     wire();
@@ -616,6 +660,7 @@
       $("llms-link").href = DATA_BASE + "llms.txt";
       $("json-link").href = DATA_BASE + "atlas.json";
       setupChips();
+      renderWanted(data.wanted);
       $("grid").hidden = false;
       if (window.AtlasMap) {
         window.AtlasMap.init({

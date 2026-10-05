@@ -46,6 +46,18 @@
       <div class="result-line"><output id="result-count" aria-live="polite"></output><button type="button" id="clear" class="linkish">Clear filters</button></div>
     </form>
 
+    <section class="wanted" id="wanted" aria-label="Most wanted" hidden>
+      <details id="wanted-fold" open>
+        <summary id="wanted-h">Most wanted <span id="wanted-n"></span></summary>
+        <p class="wanted-intro">Gaps nobody has filled yet. Pick one to filter the atlas to what exists nearby.</p>
+        <ol id="wanted-list" class="wanted-list"></ol>
+        <div id="wanted-recent-box" hidden>
+          <h3>Recently filled</h3>
+          <ul id="wanted-recent" class="wanted-list"></ul>
+        </div>
+      </details>
+    </section>
+
     <section class="agent" aria-labelledby="agent-h">
       <h2 id="agent-h">Use it in your agent</h2>
       <p>Install the atlas as a Claude Code plugin:</p>

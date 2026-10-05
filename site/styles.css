@@ -116,6 +116,19 @@ fieldset { border: 0; margin: 18px 0 0; padding: 0; min-width: 0; }
 .agent { margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--rule-strong); }
 .agent h2 { font-size: 16px; margin: 0 0 6px; }
 .agent p { font-size: 13px; color: var(--muted); margin: 8px 0 6px; }
+/* most-wanted panel */
+.wanted { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--rule-strong); }
+.wanted summary { font-size: 16px; font-weight: 600; cursor: pointer; }
+.wanted summary #wanted-n { font-weight: 400; font-size: 13px; color: var(--muted); margin-left: 4px; }
+.wanted-intro { font-size: 13px; color: var(--muted); margin: 8px 0 6px; }
+.wanted h3 { font-size: 13px; margin: 14px 0 4px; }
+.wanted-list { list-style: none; margin: 0; padding: 0; }
+.wanted-list li { padding: 7px 0; border-top: 1px solid var(--rule); }
+.wanted-list li:first-child { border-top: 0; }
+.wanted-list a { display: block; font-size: 14px; font-weight: 500; color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.wanted-list a:hover { text-decoration-thickness: 2px; }
+.wanted-list .why { display: block; font-size: 12.5px; line-height: 1.4; color: var(--muted); margin-top: 2px; }
+
 .cmd { position: relative; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 10px 36px; }
 .cmd code { display: block; font-family: var(--mono); font-size: 12px; white-space: pre-wrap; word-break: break-word; }
 .cmd .btn { position: absolute; right: 8px; bottom: 6px; }

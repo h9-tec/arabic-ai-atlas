@@ -31,6 +31,7 @@ def test_site_files_exist_and_are_wired():
     assert set(centroids["countries"]) == {"SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH",
                                          "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"}
     assert re.search(r'<link[^>]+href="styles\.css"', html)
+    assert 'id="wanted"' in html and 'id="wanted-list"' in html and 'id="wanted-recent"' in html
 
 
 def test_no_remote_scripts_or_cdns():
@@ -85,6 +86,14 @@ const out = {
   arab_max: map.cellMax(E, false),
   intl_max: map.cellMax(E, true),
   arab_top_r: map.bubbleRadius(map.cellMax(E, false).downloads, map.cellMax(E, false).downloads),
+  wanted_rows: atlas.wantedRows(data.wanted),
+  wanted_absent: atlas.wantedRows(undefined),
+  wanted_synth: atlas.wantedRows([
+    {id: "a", title: "A", why: "w", status: "open", recent: false, hash: "#type=tts"},
+    {id: "b", title: "B", why: "w", status: "filled", recent: true, filled_on: "2026-10-01", by: ["x/y"], hash: "#q=z"},
+    {id: "c", title: "C", why: "w", status: "filled", recent: false, by: ["q"], hash: ""},
+    {id: "d", title: "D", why: "w", status: "open", recent: false}]),
+  wanted_canon: (data.wanted || []).every(w => !w.hash || atlas.serializeHash(atlas.parseHash(w.hash)) === w.hash),
   layout_skip: map.bubbleLayout({llm: {n: 0, downloads: 0}, ocr: {n: 1, downloads: 0}}).length,
 };
 console.log(JSON.stringify(out));
@@ -143,3 +152,16 @@ def test_filter_logic_in_node(tmp_path):
     assert not out["arab_max"]["key"].startswith("INTL|")
     assert out["intl_max"]["key"].startswith("INTL|")
     assert out["arab_top_r"] == 26
+
+    # most-wanted panel
+    wanted = json.loads((ROOT / "dist" / "atlas.json").read_text(encoding="utf-8"))["wanted"]
+    rows = out["wanted_rows"]
+    assert [r["id"] for r in rows["open"]] == [w["id"] for w in wanted if w["status"] == "open"]
+    assert len(rows["open"]) > 0
+    assert all(r["href"] == w["hash"] for r, w in zip(rows["open"], [w for w in wanted if w["status"] == "open"]))
+    assert out["wanted_canon"] is True  # Python hash and JS hash agree
+    assert out["wanted_absent"] == {"open": [], "recent": []}
+    synth = out["wanted_synth"]
+    assert [r["id"] for r in synth["open"]] == ["a", "d"] and synth["open"][1]["href"] == "#"
+    assert [r["id"] for r in synth["recent"]] == ["b"]
+    assert synth["recent"][0]["href"] == "#q=x%2Fy" and synth["recent"][0]["filled_on"] == "2026-10-01"

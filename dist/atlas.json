@@ -42,7 +42,7 @@
         "openai/whisper-large-v3"
       ],
       "metrics": {
-        "downloads": 6304256,
+        "downloads": 6295038,
         "likes": 3412,
         "lastModified": "2024-10-04"
       }
@@ -63,7 +63,7 @@
       },
       "notes": "Supports Arabic among many languages",
       "metrics": {
-        "downloads": 4128042,
+        "downloads": 4050188,
         "likes": 6561,
         "lastModified": "2024-08-12"
       }
@@ -221,9 +221,30 @@
       },
       "notes": "Meta's Massively Multilingual Speech, ASR for 1100+ languages",
       "metrics": {
-        "downloads": 304525,
+        "downloads": 292617,
         "likes": 207,
         "lastModified": "2023-06-15"
+      }
+    },
+    {
+      "id": "seamlessm4t-v2",
+      "name": "SeamlessM4T v2",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Meta",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/facebook/seamless-m4t-v2-large"
+      },
+      "notes": "Meta's all-in-one ASR + translation, ~100 languages inc. Arabic",
+      "metrics": {
+        "downloads": 286661,
+        "likes": 1024,
+        "lastModified": "2024-01-04"
       }
     },
     {
@@ -247,27 +268,6 @@
         "downloads": 284301,
         "likes": 6,
         "lastModified": "2025-05-14"
-      }
-    },
-    {
-      "id": "seamlessm4t-v2",
-      "name": "SeamlessM4T v2",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Meta",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/facebook/seamless-m4t-v2-large"
-      },
-      "notes": "Meta's all-in-one ASR + translation, ~100 languages inc. Arabic",
-      "metrics": {
-        "downloads": 284268,
-        "likes": 1024,
-        "lastModified": "2024-01-04"
       }
     },
     {
@@ -313,7 +313,7 @@
       },
       "notes": "Mistral's speech model, 3B, Arabic support, Apache 2.0",
       "metrics": {
-        "downloads": 179324,
+        "downloads": 175023,
         "likes": 675,
         "lastModified": "2025-07-28"
       }
@@ -558,7 +558,7 @@
         "coherelabs/cohere-transcribe-03-2026"
       ],
       "metrics": {
-        "downloads": 47667,
+        "downloads": 47128,
         "likes": 212,
         "lastModified": "2026-07-13"
       }
@@ -719,6 +719,35 @@
       }
     },
     {
+      "id": "whisper-large-v3-turbo-ar-quran",
+      "name": "whisper-large-v3-turbo-ar-quran",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Naazim",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran"
+      },
+      "size": "809M",
+      "year": 2025,
+      "dialects": [
+        "classical"
+      ],
+      "notes": "Whisper large-v3-turbo fine-tuned on Quran recitation.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
+      "metrics": {
+        "downloads": 26512,
+        "likes": 2,
+        "lastModified": "2025-12-08"
+      }
+    },
+    {
       "id": "global-mmlu",
       "name": "Global-MMLU",
       "type": "benchmark",
@@ -782,6 +811,35 @@
       }
     },
     {
+      "id": "qwen3-asr-arabic-uae",
+      "name": "qwen3-asr-arabic-uae",
+      "type": "asr",
+      "country": "AE",
+      "org": "Vadim Belsky",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae"
+      },
+      "size": "2B",
+      "year": 2026,
+      "dialects": [
+        "gulf"
+      ],
+      "notes": "Qwen3-ASR fine-tuned for Emirati Arabic.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
+      "metrics": {
+        "downloads": 23661,
+        "likes": 1,
+        "lastModified": "2026-04-04"
+      }
+    },
+    {
       "id": "whisper-quran",
       "name": "Whisper Quran",
       "type": "asr",
@@ -800,7 +858,7 @@
       ],
       "notes": "Whisper fine-tuned for Quranic recitation recognition",
       "metrics": {
-        "downloads": 24575,
+        "downloads": 23470,
         "likes": 185,
         "lastModified": "2022-12-13"
       }
@@ -834,64 +892,6 @@
         "downloads": 23214,
         "likes": 370,
         "lastModified": "2025-04-15"
-      }
-    },
-    {
-      "id": "qwen3-asr-arabic-uae",
-      "name": "qwen3-asr-arabic-uae",
-      "type": "asr",
-      "country": "AE",
-      "org": "Vadim Belsky",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae"
-      },
-      "size": "2B",
-      "year": 2026,
-      "dialects": [
-        "gulf"
-      ],
-      "notes": "Qwen3-ASR fine-tuned for Emirati Arabic.",
-      "base_model": [
-        "qwen/qwen3-asr-1.7b"
-      ],
-      "metrics": {
-        "downloads": 19917,
-        "likes": 1,
-        "lastModified": "2026-04-04"
-      }
-    },
-    {
-      "id": "whisper-large-v3-turbo-ar-quran",
-      "name": "whisper-large-v3-turbo-ar-quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Naazim",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran"
-      },
-      "size": "809M",
-      "year": 2025,
-      "dialects": [
-        "classical"
-      ],
-      "notes": "Whisper large-v3-turbo fine-tuned on Quran recitation.",
-      "base_model": [
-        "openai/whisper-large-v3-turbo"
-      ],
-      "metrics": {
-        "downloads": 19232,
-        "likes": 2,
-        "lastModified": "2025-12-08"
       }
     },
     {
@@ -1025,7 +1025,7 @@
         "facebook/w2v-bert-2.0"
       ],
       "metrics": {
-        "downloads": 14073,
+        "downloads": 14381,
         "likes": 11,
         "lastModified": "2025-09-04"
       }
@@ -1053,7 +1053,7 @@
       "metrics": {
         "downloads": 13953,
         "likes": 6,
-        "lastModified": "2026-10-04"
+        "lastModified": "2026-10-05"
       }
     },
     {
@@ -1464,7 +1464,7 @@
         "facebook/wav2vec2-base"
       ],
       "metrics": {
-        "downloads": 8578,
+        "downloads": 8488,
         "likes": 9,
         "lastModified": "2026-01-21"
       }
@@ -1576,6 +1576,32 @@
       }
     },
     {
+      "id": "wav2vec2-large-xlsr-53-arabic-quran-v-final",
+      "name": "wav2vec2 large xlsr 53 arabic quran v final",
+      "type": "asr",
+      "country": "INTL",
+      "org": "rabah2026",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2025,
+      "notes": "Ce modèle est une version fine-tunée de jonatasgrosman/wav2vec2-large-xlsr-53-arabic sur le dataset rabah2026/Quran-Ayah-Corpus.",
+      "metrics": {
+        "downloads": 6448,
+        "likes": 7,
+        "lastModified": "2025-12-21"
+      }
+    },
+    {
       "id": "xquad",
       "name": "xquad",
       "type": "benchmark",
@@ -1638,32 +1664,6 @@
       }
     },
     {
-      "id": "wav2vec2-large-xlsr-53-arabic-quran-v-final",
-      "name": "wav2vec2 large xlsr 53 arabic quran v final",
-      "type": "asr",
-      "country": "INTL",
-      "org": "rabah2026",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2025,
-      "notes": "Ce modèle est une version fine-tunée de jonatasgrosman/wav2vec2-large-xlsr-53-arabic sur le dataset rabah2026/Quran-Ayah-Corpus.",
-      "metrics": {
-        "downloads": 6064,
-        "likes": 7,
-        "lastModified": "2025-12-21"
-      }
-    },
-    {
       "id": "jais-2-8b-chat",
       "name": "Jais 2 8B Chat",
       "type": "llm",
@@ -1713,7 +1713,7 @@
       "size": "0.6B",
       "on_device": true,
       "metrics": {
-        "downloads": 5809,
+        "downloads": 5805,
         "likes": 2,
         "lastModified": "2026-09-02"
       }
@@ -1819,7 +1819,7 @@
       "year": 2026,
       "notes": "Audar's Arabic-first speech-recognition model — leaderboard-grade, dialect-aware.",
       "metrics": {
-        "downloads": 5375,
+        "downloads": 5469,
         "likes": 17,
         "lastModified": "2026-08-20"
       }
@@ -2149,38 +2149,6 @@
       }
     },
     {
-      "id": "whisper-large-v3-ar",
-      "name": "whisper large v3 ar",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Dr-AliGomaa",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran",
-        "hadith"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Dr-AliGomaa/whisper-large-v3-ar"
-      },
-      "dialects": [
-        "egy",
-        "classical",
-        "msa"
-      ],
-      "year": 2026,
-      "notes": "openai/whisper-large-v3 fine-tuned for Quran and Hadith transcription without giving up general Modern Standard Arabic.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 3892,
-        "likes": 0,
-        "lastModified": "2026-08-18"
-      }
-    },
-    {
       "id": "arat5",
       "name": "AraT5",
       "type": "llm",
@@ -2279,6 +2247,38 @@
       }
     },
     {
+      "id": "whisper-large-v3-ar",
+      "name": "whisper large v3 ar",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Dr-AliGomaa",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran",
+        "hadith"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Dr-AliGomaa/whisper-large-v3-ar"
+      },
+      "dialects": [
+        "egy",
+        "classical",
+        "msa"
+      ],
+      "year": 2026,
+      "notes": "openai/whisper-large-v3 fine-tuned for Quran and Hadith transcription without giving up general Modern Standard Arabic.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 3719,
+        "likes": 0,
+        "lastModified": "2026-08-18"
+      }
+    },
+    {
       "id": "bert-base-arabic-camelbert-msa",
       "name": "bert base arabic camelbert msa",
       "type": "llm",
@@ -2348,7 +2348,7 @@
       "notes": "Crowdsourced Arabic read speech in Common Voice, standard ASR training and evaluation set.",
       "metrics": {
         "downloads": 3532,
-        "likes": 51,
+        "likes": 52,
         "lastModified": "2025-10-24"
       }
     },
@@ -2519,6 +2519,36 @@
       }
     },
     {
+      "id": "egyptian-arabic-wav2vec2-xlsr-53",
+      "name": "egyptian-arabic-wav2vec2-xlsr-53",
+      "type": "asr",
+      "country": "EG",
+      "org": "Ibrahim Amin",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53"
+      },
+      "size": "315M",
+      "year": 2025,
+      "on_device": true,
+      "dialects": [
+        "egy"
+      ],
+      "notes": "wav2vec2 XLSR-53 fine-tuned on Egyptian Arabic.",
+      "base_model": [
+        "omarxadel/wav2vec2-large-xlsr-53-arabic-egyptian"
+      ],
+      "metrics": {
+        "downloads": 3130,
+        "likes": 6,
+        "lastModified": "2025-05-11"
+      }
+    },
+    {
       "id": "opus-mt-tc-big-en-ar",
       "name": "opus mt tc big en ar",
       "type": "llm",
@@ -2593,36 +2623,6 @@
         "downloads": 3058,
         "likes": 0,
         "lastModified": "2026-05-04"
-      }
-    },
-    {
-      "id": "egyptian-arabic-wav2vec2-xlsr-53",
-      "name": "egyptian-arabic-wav2vec2-xlsr-53",
-      "type": "asr",
-      "country": "EG",
-      "org": "Ibrahim Amin",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53"
-      },
-      "size": "315M",
-      "year": 2025,
-      "on_device": true,
-      "dialects": [
-        "egy"
-      ],
-      "notes": "wav2vec2 XLSR-53 fine-tuned on Egyptian Arabic.",
-      "base_model": [
-        "omarxadel/wav2vec2-large-xlsr-53-arabic-egyptian"
-      ],
-      "metrics": {
-        "downloads": 3049,
-        "likes": 6,
-        "lastModified": "2025-05-11"
       }
     },
     {
@@ -3223,34 +3223,6 @@
       }
     },
     {
-      "id": "wav2vec2-large-xlsr-moroccan-darija",
-      "name": "wav2vec2-large-xlsr-moroccan-darija",
-      "type": "asr",
-      "country": "MA",
-      "org": "Boumehdi",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/boumehdi/wav2vec2-large-xlsr-moroccan-darija"
-      },
-      "year": 2023,
-      "dialects": [
-        "magh"
-      ],
-      "notes": "wav2vec2 XLSR fine-tuned on Moroccan Darija.",
-      "base_model": [
-        "facebook/wav2vec2-large-xlsr-53"
-      ],
-      "metrics": {
-        "downloads": 2052,
-        "likes": 32,
-        "lastModified": "2024-04-12"
-      }
-    },
-    {
       "id": "arat5v2-base-1024",
       "name": "AraT5v2-base-1024",
       "type": "llm",
@@ -3297,6 +3269,34 @@
         "downloads": 2038,
         "likes": 2,
         "lastModified": "2026-01-30"
+      }
+    },
+    {
+      "id": "wav2vec2-large-xlsr-moroccan-darija",
+      "name": "wav2vec2-large-xlsr-moroccan-darija",
+      "type": "asr",
+      "country": "MA",
+      "org": "Boumehdi",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/boumehdi/wav2vec2-large-xlsr-moroccan-darija"
+      },
+      "year": 2023,
+      "dialects": [
+        "magh"
+      ],
+      "notes": "wav2vec2 XLSR fine-tuned on Moroccan Darija.",
+      "base_model": [
+        "facebook/wav2vec2-large-xlsr-53"
+      ],
+      "metrics": {
+        "downloads": 2031,
+        "likes": 32,
+        "lastModified": "2024-04-12"
       }
     },
     {
@@ -19069,6 +19069,34 @@
       }
     },
     {
+      "id": "qwencleo-asr",
+      "name": "QwenCleo-ASR",
+      "type": "asr",
+      "country": "EG",
+      "org": "Mohammed Aly",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/mohammedaly22/QwenCleo-ASR"
+      },
+      "dialects": [
+        "egy"
+      ],
+      "year": 2026,
+      "notes": "Arabic automatic speech recognition model fine-tuned from Qwen/Qwen3-ASR-1.7B.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
+      "metrics": {
+        "downloads": 1955,
+        "likes": 10,
+        "lastModified": "2026-06-17"
+      }
+    },
+    {
       "id": "synth-shamela-ocr-arabic-books",
       "name": "synth shamela ocr arabic books",
       "type": "dataset",
@@ -19115,7 +19143,7 @@
         "openai/whisper-large-v3-turbo"
       ],
       "metrics": {
-        "downloads": 1923,
+        "downloads": 1927,
         "likes": 9,
         "lastModified": "2025-11-09"
       }
@@ -19255,34 +19283,6 @@
       }
     },
     {
-      "id": "qwencleo-asr",
-      "name": "QwenCleo-ASR",
-      "type": "asr",
-      "country": "EG",
-      "org": "Mohammed Aly",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/mohammedaly22/QwenCleo-ASR"
-      },
-      "dialects": [
-        "egy"
-      ],
-      "year": 2026,
-      "notes": "Arabic automatic speech recognition model fine-tuned from Qwen/Qwen3-ASR-1.7B.",
-      "base_model": [
-        "qwen/qwen3-asr-1.7b"
-      ],
-      "metrics": {
-        "downloads": 1831,
-        "likes": 10,
-        "lastModified": "2026-06-17"
-      }
-    },
-    {
       "id": "jais-adapted",
       "name": "Jais-adapted (Llama-2 based)",
       "type": "llm",
@@ -19333,9 +19333,37 @@
         "facebook/w2v-bert-2.0"
       ],
       "metrics": {
-        "downloads": 1783,
+        "downloads": 1777,
         "likes": 3,
         "lastModified": "2025-09-03"
+      }
+    },
+    {
+      "id": "fastconformer-quran",
+      "name": "fastconformer-quran",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Muno459",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Muno459/fastconformer-quran"
+      },
+      "year": 2026,
+      "dialects": [
+        "classical"
+      ],
+      "notes": "FastConformer CTC model for Quran recitation.",
+      "base_model": [
+        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      ],
+      "metrics": {
+        "downloads": 1725,
+        "likes": 26,
+        "lastModified": "2026-08-15"
       }
     },
     {
@@ -19494,6 +19522,36 @@
       }
     },
     {
+      "id": "cohere-speech-tashkeel-2b",
+      "name": "Cohere-Speech-Tashkeel-2B",
+      "type": "asr",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "diacritization"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/Cohere-Speech-Tashkeel-2B"
+      },
+      "size": "2.1B",
+      "year": 2026,
+      "dialects": [
+        "msa"
+      ],
+      "notes": "Speech model that transcribes Arabic with tashkeel (diacritics).",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
+      "metrics": {
+        "downloads": 1605,
+        "likes": 28,
+        "lastModified": "2026-07-13"
+      }
+    },
+    {
       "id": "deepseek-ocr-arabic-v1",
       "name": "deepseek ocr arabic v1",
       "type": "dataset",
@@ -19643,6 +19701,27 @@
       }
     },
     {
+      "id": "nvidia-fastconformer-arabic-diacritics",
+      "name": "NVIDIA FastConformer Arabic (Diacritics)",
+      "type": "asr",
+      "country": "INTL",
+      "org": "NVIDIA",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      },
+      "notes": "Arabic ASR with diacritical marks, 1100h training",
+      "metrics": {
+        "downloads": 1524,
+        "likes": 42,
+        "lastModified": "2025-10-21"
+      }
+    },
+    {
       "id": "linto-dataset-audio-ar-tn",
       "name": "linto dataset audio ar tn",
       "type": "dataset",
@@ -19723,36 +19802,6 @@
         "downloads": 1478,
         "likes": 0,
         "lastModified": "2026-06-18"
-      }
-    },
-    {
-      "id": "cohere-speech-tashkeel-2b",
-      "name": "Cohere-Speech-Tashkeel-2B",
-      "type": "asr",
-      "country": "SA",
-      "org": "NAMAA-Space",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "diacritization"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/NAMAA-Space/Cohere-Speech-Tashkeel-2B"
-      },
-      "size": "2.1B",
-      "year": 2026,
-      "dialects": [
-        "msa"
-      ],
-      "notes": "Speech model that transcribes Arabic with tashkeel (diacritics).",
-      "base_model": [
-        "coherelabs/cohere-transcribe-arabic-07-2026"
-      ],
-      "metrics": {
-        "downloads": 1473,
-        "likes": 28,
-        "lastModified": "2026-07-13"
       }
     },
     {
@@ -19858,7 +19907,7 @@
         "facebook/wav2vec2-large-xlsr-53"
       ],
       "metrics": {
-        "downloads": 1451,
+        "downloads": 1462,
         "likes": 1,
         "lastModified": "2026-07-06"
       }
@@ -19888,32 +19937,6 @@
       }
     },
     {
-      "id": "whisper-tiny-ar-quran",
-      "name": "whisper-tiny-ar-quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Tarteel AI",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/tarteel-ai/whisper-tiny-ar-quran"
-      },
-      "year": 2022,
-      "on_device": true,
-      "dialects": [
-        "classical"
-      ],
-      "notes": "Whisper tiny fine-tuned for Quran recitation transcription.",
-      "metrics": {
-        "downloads": 1400,
-        "likes": 29,
-        "lastModified": "2022-12-14"
-      }
-    },
-    {
       "id": "noormontai",
       "name": "NoormontAI",
       "type": "llm",
@@ -19939,24 +19962,29 @@
       }
     },
     {
-      "id": "nvidia-fastconformer-arabic-diacritics",
-      "name": "NVIDIA FastConformer Arabic (Diacritics)",
+      "id": "whisper-tiny-ar-quran",
+      "name": "whisper-tiny-ar-quran",
       "type": "asr",
       "country": "INTL",
-      "org": "NVIDIA",
-      "license": "cc-by-4.0",
+      "org": "Tarteel AI",
+      "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
         "asr"
       ],
       "links": {
-        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+        "hf": "https://huggingface.co/tarteel-ai/whisper-tiny-ar-quran"
       },
-      "notes": "Arabic ASR with diacritical marks, 1100h training",
+      "year": 2022,
+      "on_device": true,
+      "dialects": [
+        "classical"
+      ],
+      "notes": "Whisper tiny fine-tuned for Quran recitation transcription.",
       "metrics": {
-        "downloads": 1394,
-        "likes": 42,
-        "lastModified": "2025-10-21"
+        "downloads": 1398,
+        "likes": 29,
+        "lastModified": "2022-12-14"
       }
     },
     {
@@ -19986,6 +20014,29 @@
       }
     },
     {
+      "id": "aramix",
+      "name": "AraMix",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "AdaMLLab",
+      "license": "other",
+      "modality": "text",
+      "tasks": [
+        "pretraining"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/AdaMLLab/AraMix"
+      },
+      "size": "100M–1B rows",
+      "year": 2026,
+      "notes": "AraMix: Arabic pretraining corpus of over 100M rows combining deduplicated sources, with a quality-matched split; see arXiv 2512.18834.",
+      "metrics": {
+        "downloads": 1373,
+        "likes": 7,
+        "lastModified": "2026-01-30"
+      }
+    },
+    {
       "id": "whisper-large-v3-arabic-dialectal-v2",
       "name": "whisper-large-v3-arabic-dialectal-v2",
       "type": "asr",
@@ -20009,32 +20060,9 @@
         "openai/whisper-large-v3"
       ],
       "metrics": {
-        "downloads": 1379,
+        "downloads": 1370,
         "likes": 2,
         "lastModified": "2026-07-16"
-      }
-    },
-    {
-      "id": "aramix",
-      "name": "AraMix",
-      "type": "dataset",
-      "country": "INTL",
-      "org": "AdaMLLab",
-      "license": "other",
-      "modality": "text",
-      "tasks": [
-        "pretraining"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/datasets/AdaMLLab/AraMix"
-      },
-      "size": "100M–1B rows",
-      "year": 2026,
-      "notes": "AraMix: Arabic pretraining corpus of over 100M rows combining deduplicated sources, with a quality-matched split; see arXiv 2512.18834.",
-      "metrics": {
-        "downloads": 1373,
-        "likes": 7,
-        "lastModified": "2026-01-30"
       }
     },
     {
@@ -20248,34 +20276,6 @@
       }
     },
     {
-      "id": "fastconformer-quran",
-      "name": "fastconformer-quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Muno459",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Muno459/fastconformer-quran"
-      },
-      "year": 2026,
-      "dialects": [
-        "classical"
-      ],
-      "notes": "FastConformer CTC model for Quran recitation.",
-      "base_model": [
-        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
-      ],
-      "metrics": {
-        "downloads": 1299,
-        "likes": 26,
-        "lastModified": "2026-08-15"
-      }
-    },
-    {
       "id": "flair-arabic-multi-ner",
       "name": "flair arabic multi ner",
       "type": "llm",
@@ -20323,31 +20323,6 @@
         "downloads": 1282,
         "likes": 9,
         "lastModified": "2025-10-25"
-      }
-    },
-    {
-      "id": "audar-asr-v1-flash",
-      "name": "Audar ASR V1 Flash",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Audar AI",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/audarai/Audar-ASR-V1-Flash"
-      },
-      "dialects": [
-        "gulf"
-      ],
-      "year": 2026,
-      "notes": "Audar's Arabic-first ASR — the real-time, edge tier.",
-      "metrics": {
-        "downloads": 1279,
-        "likes": 7,
-        "lastModified": "2026-08-20"
       }
     },
     {
@@ -20452,7 +20427,7 @@
       "year": 2025,
       "notes": "This model is part of the Moonshine family of tiny specialized Automatic Speech Recognition (ASR) models for edge devices.",
       "metrics": {
-        "downloads": 1246,
+        "downloads": 1249,
         "likes": 8,
         "lastModified": "2025-09-06"
       }
@@ -20538,6 +20513,31 @@
         "downloads": 1219,
         "likes": 6,
         "lastModified": "2026-08-14"
+      }
+    },
+    {
+      "id": "audar-asr-v1-flash",
+      "name": "Audar ASR V1 Flash",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Audar AI",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/audarai/Audar-ASR-V1-Flash"
+      },
+      "dialects": [
+        "gulf"
+      ],
+      "year": 2026,
+      "notes": "Audar's Arabic-first ASR — the real-time, edge tier.",
+      "metrics": {
+        "downloads": 1216,
+        "likes": 7,
+        "lastModified": "2026-08-20"
       }
     },
     {
@@ -20953,7 +20953,7 @@
         "facebook/mms-300m"
       ],
       "metrics": {
-        "downloads": 1092,
+        "downloads": 1080,
         "likes": 9,
         "lastModified": "2025-10-29"
       }
@@ -21032,35 +21032,6 @@
         "downloads": 1066,
         "likes": 0,
         "lastModified": "2026-09-29"
-      }
-    },
-    {
-      "id": "whisper-large-v3-turbo-arabic-dialectal-v2",
-      "name": "whisper-large-v3-turbo-arabic-dialectal-v2",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2"
-      },
-      "size": "809M",
-      "year": 2026,
-      "dialects": [
-        "mixed"
-      ],
-      "notes": "Whisper large-v3-turbo fine-tuned on Arabic dialects.",
-      "base_model": [
-        "openai/whisper-large-v3-turbo"
-      ],
-      "metrics": {
-        "downloads": 1065,
-        "likes": 2,
-        "lastModified": "2026-07-16"
       }
     },
     {
@@ -21170,6 +21141,35 @@
       }
     },
     {
+      "id": "whisper-large-v3-turbo-arabic-dialectal-v2",
+      "name": "whisper-large-v3-turbo-arabic-dialectal-v2",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2"
+      },
+      "size": "809M",
+      "year": 2026,
+      "dialects": [
+        "mixed"
+      ],
+      "notes": "Whisper large-v3-turbo fine-tuned on Arabic dialects.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
+      "metrics": {
+        "downloads": 1038,
+        "likes": 2,
+        "lastModified": "2026-07-16"
+      }
+    },
+    {
       "id": "audar-tts-v1-flash",
       "name": "Audar TTS V1 Flash",
       "type": "tts",
@@ -21259,7 +21259,7 @@
       "year": 2026,
       "notes": "A fine-tuned NVIDIA FastConformer Hybrid Large model for Quranic Arabic speech recognition.",
       "metrics": {
-        "downloads": 965,
+        "downloads": 969,
         "likes": 18,
         "lastModified": "2026-06-07"
       }
@@ -21343,6 +21343,53 @@
       }
     },
     {
+      "id": "nvidia-fastconformer-arabic",
+      "name": "NVIDIA FastConformer Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "NVIDIA",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0"
+      },
+      "notes": "SOTA Arabic ASR, 115M params, 760h training, CC-BY-4.0",
+      "metrics": {
+        "downloads": 941,
+        "likes": 19,
+        "lastModified": "2025-10-23"
+      }
+    },
+    {
+      "id": "arabic-whisper-codeswitching-edition",
+      "name": "Arabic-Whisper-CodeSwitching-Edition",
+      "type": "asr",
+      "country": "INTL",
+      "org": "MohamedRashad",
+      "license": "gpl-3.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MohamedRashad/Arabic-Whisper-CodeSwitching-Edition"
+      },
+      "size": "1.5B",
+      "year": 2024,
+      "dialects": [
+        "mixed"
+      ],
+      "notes": "Whisper fine-tuned for Arabic with English code-switching.",
+      "metrics": {
+        "downloads": 939,
+        "likes": 37,
+        "lastModified": "2024-07-07"
+      }
+    },
+    {
       "id": "openiti-vectors",
       "name": "openiti vectors",
       "type": "dataset",
@@ -21393,6 +21440,35 @@
         "downloads": 936,
         "likes": 0,
         "lastModified": "2025-11-26"
+      }
+    },
+    {
+      "id": "moulsot-v0-3",
+      "name": "moulsot.v0.3",
+      "type": "asr",
+      "country": "MA",
+      "org": "atlasia",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/atlasia/moulsot.v0.3"
+      },
+      "size": "2B",
+      "year": 2026,
+      "dialects": [
+        "magh"
+      ],
+      "notes": "Moulsot ASR for Moroccan Darija from Atlasia.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
+      "metrics": {
+        "downloads": 936,
+        "likes": 17,
+        "lastModified": "2026-05-02"
       }
     },
     {
@@ -21642,56 +21718,6 @@
       }
     },
     {
-      "id": "moulsot-v0-3",
-      "name": "moulsot.v0.3",
-      "type": "asr",
-      "country": "MA",
-      "org": "atlasia",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/atlasia/moulsot.v0.3"
-      },
-      "size": "2B",
-      "year": 2026,
-      "dialects": [
-        "magh"
-      ],
-      "notes": "Moulsot ASR for Moroccan Darija from Atlasia.",
-      "base_model": [
-        "qwen/qwen3-asr-1.7b"
-      ],
-      "metrics": {
-        "downloads": 906,
-        "likes": 17,
-        "lastModified": "2026-05-02"
-      }
-    },
-    {
-      "id": "nvidia-fastconformer-arabic",
-      "name": "NVIDIA FastConformer Arabic",
-      "type": "asr",
-      "country": "INTL",
-      "org": "NVIDIA",
-      "license": "cc-by-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0"
-      },
-      "notes": "SOTA Arabic ASR, 115M params, 760h training, CC-BY-4.0",
-      "metrics": {
-        "downloads": 892,
-        "likes": 19,
-        "lastModified": "2025-10-23"
-      }
-    },
-    {
       "id": "arab-dialects-20-countries-3m",
       "name": "arab dialects 20 countries 3m",
       "type": "dataset",
@@ -21772,32 +21798,6 @@
         "downloads": 869,
         "likes": 1,
         "lastModified": "2026-09-30"
-      }
-    },
-    {
-      "id": "arabic-whisper-codeswitching-edition",
-      "name": "Arabic-Whisper-CodeSwitching-Edition",
-      "type": "asr",
-      "country": "INTL",
-      "org": "MohamedRashad",
-      "license": "gpl-3.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/MohamedRashad/Arabic-Whisper-CodeSwitching-Edition"
-      },
-      "size": "1.5B",
-      "year": 2024,
-      "dialects": [
-        "mixed"
-      ],
-      "notes": "Whisper fine-tuned for Arabic with English code-switching.",
-      "metrics": {
-        "downloads": 867,
-        "likes": 37,
-        "lastModified": "2024-07-07"
       }
     },
     {
@@ -22055,6 +22055,37 @@
       }
     },
     {
+      "id": "faster-whisper-base-ar-quran",
+      "name": "faster whisper base ar quran",
+      "type": "asr",
+      "country": "INTL",
+      "org": "OdyAsh",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "translation",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/OdyAsh/faster-whisper-base-ar-quran"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2025,
+      "notes": "This model is a CTranslate2 version of tarteel-ai/whisper-base-ar-quran.",
+      "base_model": [
+        "tarteel-ai/whisper-base-ar-quran",
+        "openai/whisper-base"
+      ],
+      "metrics": {
+        "downloads": 806,
+        "likes": 6,
+        "lastModified": "2025-06-24"
+      }
+    },
+    {
       "id": "mr-tydi",
       "name": "Mr. TyDi",
       "type": "dataset",
@@ -22207,37 +22238,6 @@
         "downloads": 769,
         "likes": 27,
         "lastModified": "2025-10-01"
-      }
-    },
-    {
-      "id": "faster-whisper-base-ar-quran",
-      "name": "faster whisper base ar quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "OdyAsh",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "translation",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/OdyAsh/faster-whisper-base-ar-quran"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2025,
-      "notes": "This model is a CTranslate2 version of tarteel-ai/whisper-base-ar-quran.",
-      "base_model": [
-        "tarteel-ai/whisper-base-ar-quran",
-        "openai/whisper-base"
-      ],
-      "metrics": {
-        "downloads": 768,
-        "likes": 6,
-        "lastModified": "2025-06-24"
       }
     },
     {
@@ -22471,6 +22471,34 @@
       }
     },
     {
+      "id": "whisper-medium-finetuned-sada-asr",
+      "name": "whisper medium finetuned sada asr",
+      "type": "asr",
+      "country": "INTL",
+      "org": "wageehkhad",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/wageehkhad/whisper-medium-finetuned-sada-asr"
+      },
+      "dialects": [
+        "gulf"
+      ],
+      "year": 2026,
+      "notes": "openai/whisper-medium fine-tuned on the full SADA22 dataset (420 hours of Saudi Arabic speech) for Arabic automatic speech recognition (ASR).",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
+      "metrics": {
+        "downloads": 730,
+        "likes": 3,
+        "lastModified": "2026-03-05"
+      }
+    },
+    {
       "id": "adi20",
       "name": "ADI-20",
       "type": "dataset",
@@ -22544,7 +22572,7 @@
         "openai/whisper-large-v3-turbo"
       ],
       "metrics": {
-        "downloads": 722,
+        "downloads": 723,
         "likes": 4,
         "lastModified": "2026-07-09"
       }
@@ -22624,34 +22652,6 @@
         "downloads": 705,
         "likes": 3,
         "lastModified": "2024-01-09"
-      }
-    },
-    {
-      "id": "whisper-medium-finetuned-sada-asr",
-      "name": "whisper medium finetuned sada asr",
-      "type": "asr",
-      "country": "INTL",
-      "org": "wageehkhad",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/wageehkhad/whisper-medium-finetuned-sada-asr"
-      },
-      "dialects": [
-        "gulf"
-      ],
-      "year": 2026,
-      "notes": "openai/whisper-medium fine-tuned on the full SADA22 dataset (420 hours of Saudi Arabic speech) for Arabic automatic speech recognition (ASR).",
-      "base_model": [
-        "openai/whisper-medium"
-      ],
-      "metrics": {
-        "downloads": 699,
-        "likes": 3,
-        "lastModified": "2026-03-05"
       }
     },
     {
@@ -22809,6 +22809,28 @@
       }
     },
     {
+      "id": "arabic-speech-to-text",
+      "name": "arabic speech to text",
+      "type": "asr",
+      "country": "INTL",
+      "org": "maherghanem86",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/maherghanem86/arabic_speech_to_text"
+      },
+      "year": 2025,
+      "notes": "تم تطوير وتدريب هذا النموذج للتعرف التلقائي على الكلام للغة العربية.",
+      "metrics": {
+        "downloads": 677,
+        "likes": 1,
+        "lastModified": "2025-09-07"
+      }
+    },
+    {
       "id": "quranic-asr-benchmark",
       "name": "Quranic ASR Benchmark",
       "type": "benchmark",
@@ -22833,28 +22855,6 @@
         "downloads": 677,
         "likes": 5,
         "lastModified": "2026-08-26"
-      }
-    },
-    {
-      "id": "arabic-speech-to-text",
-      "name": "arabic speech to text",
-      "type": "asr",
-      "country": "INTL",
-      "org": "maherghanem86",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/maherghanem86/arabic_speech_to_text"
-      },
-      "year": 2025,
-      "notes": "تم تطوير وتدريب هذا النموذج للتعرف التلقائي على الكلام للغة العربية.",
-      "metrics": {
-        "downloads": 675,
-        "likes": 1,
-        "lastModified": "2025-09-07"
       }
     },
     {
@@ -23408,6 +23408,34 @@
       }
     },
     {
+      "id": "whisper-large-v3-egyptian-arabic",
+      "name": "whisper-large-v3-egyptian-arabic",
+      "type": "asr",
+      "country": "EG",
+      "org": "Abdelrahman Hassan",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/AbdelrahmanHassan/whisper-large-v3-egyptian-arabic"
+      },
+      "year": 2025,
+      "dialects": [
+        "egy"
+      ],
+      "notes": "Whisper large-v3 fine-tuned on Egyptian Arabic.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 575,
+        "likes": 12,
+        "lastModified": "2025-08-04"
+      }
+    },
+    {
       "id": "atlas-chat-9b",
       "name": "Atlas-Chat-9B",
       "type": "llm",
@@ -23492,34 +23520,6 @@
         "downloads": 565,
         "likes": 0,
         "lastModified": "2026-09-17"
-      }
-    },
-    {
-      "id": "whisper-large-v3-egyptian-arabic",
-      "name": "whisper-large-v3-egyptian-arabic",
-      "type": "asr",
-      "country": "EG",
-      "org": "Abdelrahman Hassan",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/AbdelrahmanHassan/whisper-large-v3-egyptian-arabic"
-      },
-      "year": 2025,
-      "dialects": [
-        "egy"
-      ],
-      "notes": "Whisper large-v3 fine-tuned on Egyptian Arabic.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 564,
-        "likes": 12,
-        "lastModified": "2025-08-04"
       }
     },
     {
@@ -24541,6 +24541,60 @@
       }
     },
     {
+      "id": "zipformer-p-arabic-v3",
+      "name": "zipformer_p-arabic-v3",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Quran Lab",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Quran-Lab/zipformer_p-arabic-v3"
+      },
+      "year": 2026,
+      "dialects": [
+        "classical"
+      ],
+      "notes": "Zipformer ASR for Quranic Arabic.",
+      "metrics": {
+        "downloads": 474,
+        "likes": 52,
+        "lastModified": "2026-09-29"
+      }
+    },
+    {
+      "id": "cohere-transcribe-arabic-07-2026-dialectal-v2",
+      "name": "cohere-transcribe-arabic-07-2026-dialectal-v2",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal-v2"
+      },
+      "size": "2.1B",
+      "year": 2026,
+      "dialects": [
+        "mixed"
+      ],
+      "notes": "Cohere Transcribe Arabic fine-tuned for dialectal speech.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
+      "metrics": {
+        "downloads": 473,
+        "likes": 0,
+        "lastModified": "2026-07-16"
+      }
+    },
+    {
       "id": "spokennativqa",
       "name": "SpokenNativQA",
       "type": "dataset",
@@ -24644,35 +24698,6 @@
         "downloads": 466,
         "likes": 0,
         "lastModified": "2026-08-17"
-      }
-    },
-    {
-      "id": "cohere-transcribe-arabic-07-2026-dialectal-v2",
-      "name": "cohere-transcribe-arabic-07-2026-dialectal-v2",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal-v2"
-      },
-      "size": "2.1B",
-      "year": 2026,
-      "dialects": [
-        "mixed"
-      ],
-      "notes": "Cohere Transcribe Arabic fine-tuned for dialectal speech.",
-      "base_model": [
-        "coherelabs/cohere-transcribe-arabic-07-2026"
-      ],
-      "metrics": {
-        "downloads": 465,
-        "likes": 0,
-        "lastModified": "2026-07-16"
       }
     },
     {
@@ -24802,6 +24827,36 @@
       }
     },
     {
+      "id": "wav2vec2-xls-r-300m-iqraeval",
+      "name": "wav2vec2 xls r 300m iqraeval",
+      "type": "asr",
+      "country": "YE",
+      "org": "Fatimah Emad Eldin",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "vision",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval"
+      },
+      "dialects": [
+        "classical",
+        "msa"
+      ],
+      "size": "300M",
+      "on_device": true,
+      "year": 2026,
+      "notes": "This model is a fine-tuned version of facebook/wav2vec2-xls-r-300m specifically adapted for the Iqra'Eval 2026 Shared Task.",
+      "metrics": {
+        "downloads": 454,
+        "likes": 3,
+        "lastModified": "2026-03-01"
+      }
+    },
+    {
       "id": "madinahqa",
       "name": "MadinahQA",
       "type": "benchmark",
@@ -24824,31 +24879,6 @@
         "downloads": 453,
         "likes": 1,
         "lastModified": "2024-09-17"
-      }
-    },
-    {
-      "id": "zipformer-p-arabic-v3",
-      "name": "zipformer_p-arabic-v3",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Quran Lab",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Quran-Lab/zipformer_p-arabic-v3"
-      },
-      "year": 2026,
-      "dialects": [
-        "classical"
-      ],
-      "notes": "Zipformer ASR for Quranic Arabic.",
-      "metrics": {
-        "downloads": 453,
-        "likes": 52,
-        "lastModified": "2026-09-29"
       }
     },
     {
@@ -25055,36 +25085,6 @@
       }
     },
     {
-      "id": "wav2vec2-xls-r-300m-iqraeval",
-      "name": "wav2vec2 xls r 300m iqraeval",
-      "type": "asr",
-      "country": "YE",
-      "org": "Fatimah Emad Eldin",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "vision",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval"
-      },
-      "dialects": [
-        "classical",
-        "msa"
-      ],
-      "size": "300M",
-      "on_device": true,
-      "year": 2026,
-      "notes": "This model is a fine-tuned version of facebook/wav2vec2-xls-r-300m specifically adapted for the Iqra'Eval 2026 Shared Task.",
-      "metrics": {
-        "downloads": 433,
-        "likes": 3,
-        "lastModified": "2026-03-01"
-      }
-    },
-    {
       "id": "aradice-arabicmmlu-lev",
       "name": "AraDICE-ArabicMMLU-lev",
       "type": "benchmark",
@@ -25243,32 +25243,6 @@
       }
     },
     {
-      "id": "whisper-tunisian-dialect",
-      "name": "whisper-tunisian-dialect",
-      "type": "asr",
-      "country": "TN",
-      "org": "TuniSpeech-AI",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/TuniSpeech-AI/whisper-tunisian-dialect"
-      },
-      "size": "1.5B",
-      "year": 2026,
-      "dialects": [
-        "magh"
-      ],
-      "notes": "Whisper fine-tuned on Tunisian dialect.",
-      "metrics": {
-        "downloads": 407,
-        "likes": 4,
-        "lastModified": "2026-02-13"
-      }
-    },
-    {
       "id": "bge-m3-law",
       "name": "bge m3 law",
       "type": "embedding",
@@ -25322,6 +25296,32 @@
       }
     },
     {
+      "id": "whisper-tunisian-dialect",
+      "name": "whisper-tunisian-dialect",
+      "type": "asr",
+      "country": "TN",
+      "org": "TuniSpeech-AI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/TuniSpeech-AI/whisper-tunisian-dialect"
+      },
+      "size": "1.5B",
+      "year": 2026,
+      "dialects": [
+        "magh"
+      ],
+      "notes": "Whisper fine-tuned on Tunisian dialect.",
+      "metrics": {
+        "downloads": 402,
+        "likes": 4,
+        "lastModified": "2026-02-13"
+      }
+    },
+    {
       "id": "moulsot-full",
       "name": "MoulSot-Full",
       "type": "dataset",
@@ -25345,30 +25345,6 @@
         "downloads": 399,
         "likes": 12,
         "lastModified": "2026-05-05"
-      }
-    },
-    {
-      "id": "whisper-arabic-small",
-      "name": "Whisper Arabic (small)",
-      "type": "asr",
-      "country": "INTL",
-      "org": "ayoubkirouane",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/ayoubkirouane/whisper-small-ar"
-      },
-      "notes": "Whisper-small fine-tuned for Arabic language",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 397,
-        "likes": 4,
-        "lastModified": "2023-09-19"
       }
     },
     {
@@ -25671,7 +25647,7 @@
         "openai/whisper-medium"
       ],
       "metrics": {
-        "downloads": 382,
+        "downloads": 381,
         "likes": 7,
         "lastModified": "2024-09-27"
       }
@@ -25722,7 +25698,7 @@
       "year": 2025,
       "notes": "This is fine tuned wav2vec2 model to recognize quran syllables from speech.",
       "metrics": {
-        "downloads": 379,
+        "downloads": 378,
         "likes": 6,
         "lastModified": "2025-01-05"
       }
@@ -25810,6 +25786,34 @@
       }
     },
     {
+      "id": "arabic-morocco-speech-to-text",
+      "name": "Arabic Morocco Speech To Text",
+      "type": "asr",
+      "country": "INTL",
+      "org": "smerchi",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/smerchi/Arabic-Morocco-Speech_To_Text"
+      },
+      "year": 2024,
+      "notes": "Whisper large-v3 fine-tuned on Cleverlytics voice data for Moroccan Arabic speech recognition.",
+      "dialects": [
+        "magh"
+      ],
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 372,
+        "likes": 17,
+        "lastModified": "2024-04-02"
+      }
+    },
+    {
       "id": "aramodernbert-base-sts",
       "name": "AraModernBert-Base-STS",
       "type": "embedding",
@@ -25884,34 +25888,6 @@
         "downloads": 370,
         "likes": 4,
         "lastModified": "2024-10-22"
-      }
-    },
-    {
-      "id": "arabic-morocco-speech-to-text",
-      "name": "Arabic Morocco Speech To Text",
-      "type": "asr",
-      "country": "INTL",
-      "org": "smerchi",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/smerchi/Arabic-Morocco-Speech_To_Text"
-      },
-      "year": 2024,
-      "notes": "Whisper large-v3 fine-tuned on Cleverlytics voice data for Moroccan Arabic speech recognition.",
-      "dialects": [
-        "magh"
-      ],
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 366,
-        "likes": 17,
-        "lastModified": "2024-04-02"
       }
     },
     {
@@ -26534,6 +26510,35 @@
       }
     },
     {
+      "id": "cohere-transcribe-arabic-07-2026-dialectal",
+      "name": "cohere transcribe arabic 07 2026 dialectal",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "diacritization"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal"
+      },
+      "dialects": [
+        "mixed"
+      ],
+      "year": 2026,
+      "notes": "Full fine-tune of CohereLabs/cohere-transcribe-arabic-07-2026 (2.07B, cohereasr Conformer encoder-decoder) for multi-dialect Arabic speech recognition.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
+      "metrics": {
+        "downloads": 330,
+        "likes": 2,
+        "lastModified": "2026-07-09"
+      }
+    },
+    {
       "id": "unimorph",
       "name": "UniMorph",
       "type": "dataset",
@@ -26559,35 +26564,6 @@
         "downloads": 330,
         "likes": 20,
         "lastModified": "2023-06-08"
-      }
-    },
-    {
-      "id": "cohere-transcribe-arabic-07-2026-dialectal",
-      "name": "cohere transcribe arabic 07 2026 dialectal",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "diacritization"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/cohere-transcribe-arabic-07-2026-dialectal"
-      },
-      "dialects": [
-        "mixed"
-      ],
-      "year": 2026,
-      "notes": "Full fine-tune of CohereLabs/cohere-transcribe-arabic-07-2026 (2.07B, cohereasr Conformer encoder-decoder) for multi-dialect Arabic speech recognition.",
-      "base_model": [
-        "coherelabs/cohere-transcribe-arabic-07-2026"
-      ],
-      "metrics": {
-        "downloads": 329,
-        "likes": 2,
-        "lastModified": "2026-07-09"
       }
     },
     {
@@ -26768,6 +26744,35 @@
         "downloads": 317,
         "likes": 3,
         "lastModified": "2026-06-30"
+      }
+    },
+    {
+      "id": "whisper-small-darija",
+      "name": "whisper small darija",
+      "type": "asr",
+      "country": "MA",
+      "org": "Youssef Chafiqui",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ychafiqui/whisper-small-darija"
+      },
+      "dialects": [
+        "magh"
+      ],
+      "year": 2024,
+      "notes": "This model is a fine-tuned version of openai/whisper-small on the Darija Speech to Text dataset.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 317,
+        "likes": 3,
+        "lastModified": "2024-09-27"
       }
     },
     {
@@ -26961,35 +26966,6 @@
       }
     },
     {
-      "id": "whisper-small-darija",
-      "name": "whisper small darija",
-      "type": "asr",
-      "country": "MA",
-      "org": "Youssef Chafiqui",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "evaluation"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/ychafiqui/whisper-small-darija"
-      },
-      "dialects": [
-        "magh"
-      ],
-      "year": 2024,
-      "notes": "This model is a fine-tuned version of openai/whisper-small on the Darija Speech to Text dataset.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 312,
-        "likes": 3,
-        "lastModified": "2024-09-27"
-      }
-    },
-    {
       "id": "sard-extended",
       "name": "SARD Extended",
       "type": "dataset",
@@ -27012,33 +26988,32 @@
       }
     },
     {
-      "id": "whisper-l-v3-turbo-quran-lora-dataset-mix",
-      "name": "whisper l v3 turbo quran lora dataset mix",
+      "id": "whisper-small-egyptian-codeswitch",
+      "name": "Whisper Small Egyptian Code-Switch",
       "type": "asr",
-      "country": "INTL",
-      "org": "MaddoggProduction",
+      "country": "EG",
+      "org": "Ibrahim Amin",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
-        "asr",
-        "diacritization",
-        "quran"
+        "asr"
       ],
       "links": {
-        "hf": "https://huggingface.co/MaddoggProduction/whisper-l-v3-turbo-quran-lora-dataset-mix"
+        "hf": "https://huggingface.co/IbrahimAmin/code-switched-egyptian-arabic-whisper-small"
       },
+      "size": "242M",
       "dialects": [
-        "classical"
+        "egy",
+        "mixed"
       ],
-      "year": 2026,
-      "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "notes": "Whisper-small tuned for Egyptian Arabic with English code-switching.",
       "base_model": [
-        "openai/whisper-large-v3-turbo"
+        "openai/whisper-small"
       ],
       "metrics": {
-        "downloads": 308,
-        "likes": 21,
-        "lastModified": "2026-03-23"
+        "downloads": 310,
+        "likes": 5,
+        "lastModified": "2025-05-17"
       }
     },
     {
@@ -27090,35 +27065,6 @@
         "downloads": 305,
         "likes": 0,
         "lastModified": "2026-02-01"
-      }
-    },
-    {
-      "id": "whisper-small-egyptian-codeswitch",
-      "name": "Whisper Small Egyptian Code-Switch",
-      "type": "asr",
-      "country": "EG",
-      "org": "Ibrahim Amin",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/IbrahimAmin/code-switched-egyptian-arabic-whisper-small"
-      },
-      "size": "242M",
-      "dialects": [
-        "egy",
-        "mixed"
-      ],
-      "notes": "Whisper-small tuned for Egyptian Arabic with English code-switching.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 305,
-        "likes": 5,
-        "lastModified": "2025-05-17"
       }
     },
     {
@@ -27263,6 +27209,36 @@
         "downloads": 298,
         "likes": 0,
         "lastModified": "2026-03-27"
+      }
+    },
+    {
+      "id": "whisper-l-v3-turbo-quran-lora-dataset-mix",
+      "name": "whisper l v3 turbo quran lora dataset mix",
+      "type": "asr",
+      "country": "INTL",
+      "org": "MaddoggProduction",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "diacritization",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MaddoggProduction/whisper-l-v3-turbo-quran-lora-dataset-mix"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
+      "metrics": {
+        "downloads": 298,
+        "likes": 21,
+        "lastModified": "2026-03-23"
       }
     },
     {
@@ -27574,7 +27550,7 @@
         "qwen/qwen3-asr-1.7b"
       ],
       "metrics": {
-        "downloads": 288,
+        "downloads": 286,
         "likes": 2,
         "lastModified": "2026-04-06"
       }
@@ -27600,35 +27576,6 @@
         "downloads": 285,
         "likes": 8,
         "lastModified": "2024-01-09"
-      }
-    },
-    {
-      "id": "whisper-turbo-egyptian-codeswitch",
-      "name": "Whisper Turbo Egyptian Code-Switch",
-      "type": "asr",
-      "country": "EG",
-      "org": "Mohammed Aly",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/mohammedaly22/whisper-large-v3-turbo-egyptian-code-switching"
-      },
-      "size": "809M",
-      "dialects": [
-        "egy",
-        "mixed"
-      ],
-      "notes": "Whisper large-v3-turbo fine-tuned for Egyptian Arabic and English code-switched speech.",
-      "base_model": [
-        "openai/whisper-large-v3-turbo"
-      ],
-      "metrics": {
-        "downloads": 284,
-        "likes": 0,
-        "lastModified": "2026-05-13"
       }
     },
     {
@@ -27773,6 +27720,35 @@
       }
     },
     {
+      "id": "whisper-turbo-egyptian-codeswitch",
+      "name": "Whisper Turbo Egyptian Code-Switch",
+      "type": "asr",
+      "country": "EG",
+      "org": "Mohammed Aly",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/mohammedaly22/whisper-large-v3-turbo-egyptian-code-switching"
+      },
+      "size": "809M",
+      "dialects": [
+        "egy",
+        "mixed"
+      ],
+      "notes": "Whisper large-v3-turbo fine-tuned for Egyptian Arabic and English code-switched speech.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
+      "metrics": {
+        "downloads": 279,
+        "likes": 0,
+        "lastModified": "2026-05-13"
+      }
+    },
+    {
       "id": "darijadz",
       "name": "DarijaDz",
       "type": "dataset",
@@ -27820,6 +27796,31 @@
         "downloads": 277,
         "likes": 3,
         "lastModified": "2025-07-05"
+      }
+    },
+    {
+      "id": "whisper-small-egyptian-arabic",
+      "name": "Whisper Small Egyptian Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "MAdel121",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MAdel121/whisper-small-egyptian-arabic"
+      },
+      "size": "242M",
+      "dialects": [
+        "egy"
+      ],
+      "notes": "Whisper-small fine-tuned on Egyptian Arabic speech; lighter sibling of the medium model.",
+      "metrics": {
+        "downloads": 274,
+        "likes": 7,
+        "lastModified": "2025-05-21"
       }
     },
     {
@@ -28195,6 +28196,36 @@
       }
     },
     {
+      "id": "whisperv3-tunisian-codeswitch",
+      "name": "Whisperv3 tunisian codeswitch",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "dialect-id"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/Whisperv3-tunisian-codeswitch"
+      },
+      "dialects": [
+        "magh",
+        "mixed"
+      ],
+      "year": 2026,
+      "notes": "Whisper-large-v3 full fine-tune for Tunisian Arabic ↔ French/English code-switched ASR (NADI 2026 shared task, subtask 1.3).",
+      "base_model": [
+        "oddadmix/whisper-large-v3-tunisian-codeswitch-asr-v2"
+      ],
+      "metrics": {
+        "downloads": 260,
+        "likes": 1,
+        "lastModified": "2026-08-02"
+      }
+    },
+    {
       "id": "arabic-guardrail",
       "name": "arabic guardrail",
       "type": "dataset",
@@ -28294,36 +28325,6 @@
         "downloads": 259,
         "likes": 2,
         "lastModified": "2026-09-10"
-      }
-    },
-    {
-      "id": "whisperv3-tunisian-codeswitch",
-      "name": "Whisperv3 tunisian codeswitch",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "unknown",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "dialect-id"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/Whisperv3-tunisian-codeswitch"
-      },
-      "dialects": [
-        "magh",
-        "mixed"
-      ],
-      "year": 2026,
-      "notes": "Whisper-large-v3 full fine-tune for Tunisian Arabic ↔ French/English code-switched ASR (NADI 2026 shared task, subtask 1.3).",
-      "base_model": [
-        "oddadmix/whisper-large-v3-tunisian-codeswitch-asr-v2"
-      ],
-      "metrics": {
-        "downloads": 258,
-        "likes": 1,
-        "lastModified": "2026-08-02"
       }
     },
     {
@@ -28627,6 +28628,30 @@
         "downloads": 248,
         "likes": 9,
         "lastModified": "2023-04-02"
+      }
+    },
+    {
+      "id": "whisper-arabic-small",
+      "name": "Whisper Arabic (small)",
+      "type": "asr",
+      "country": "INTL",
+      "org": "ayoubkirouane",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ayoubkirouane/whisper-small-ar"
+      },
+      "notes": "Whisper-small fine-tuned for Arabic language",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 247,
+        "likes": 4,
+        "lastModified": "2023-09-19"
       }
     },
     {
@@ -29177,31 +29202,6 @@
       }
     },
     {
-      "id": "whisper-small-egyptian-arabic",
-      "name": "Whisper Small Egyptian Arabic",
-      "type": "asr",
-      "country": "INTL",
-      "org": "MAdel121",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/MAdel121/whisper-small-egyptian-arabic"
-      },
-      "size": "242M",
-      "dialects": [
-        "egy"
-      ],
-      "notes": "Whisper-small fine-tuned on Egyptian Arabic speech; lighter sibling of the medium model.",
-      "metrics": {
-        "downloads": 231,
-        "likes": 7,
-        "lastModified": "2025-05-21"
-      }
-    },
-    {
       "id": "arabic-glm-ocr-v1",
       "name": "Arabic GLM OCR v1",
       "type": "ocr",
@@ -29530,6 +29530,36 @@
       }
     },
     {
+      "id": "nemotron-3-5-asr-streaming-0-6b-jordanian",
+      "name": "nemotron-3.5-asr-streaming-0.6b-jordanian",
+      "type": "asr",
+      "country": "JO",
+      "org": "Rama Bashar",
+      "license": "openmdw-1.1",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/RamaBashar22/nemotron-3.5-asr-streaming-0.6b-jordanian"
+      },
+      "size": "638M",
+      "year": 2026,
+      "on_device": true,
+      "dialects": [
+        "lev"
+      ],
+      "notes": "Streaming Nemotron ASR 0.6B tuned for Jordanian Arabic.",
+      "base_model": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
+      "metrics": {
+        "downloads": 211,
+        "likes": 4,
+        "lastModified": "2026-08-30"
+      }
+    },
+    {
       "id": "qed-corpus-qcri-educational-domain",
       "name": "QED Corpus (QCRI Educational Domain)",
       "type": "dataset",
@@ -29607,36 +29637,6 @@
         "downloads": 210,
         "likes": 3,
         "lastModified": "2025-09-21"
-      }
-    },
-    {
-      "id": "nemotron-3-5-asr-streaming-0-6b-jordanian",
-      "name": "nemotron-3.5-asr-streaming-0.6b-jordanian",
-      "type": "asr",
-      "country": "JO",
-      "org": "Rama Bashar",
-      "license": "openmdw-1.1",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/RamaBashar22/nemotron-3.5-asr-streaming-0.6b-jordanian"
-      },
-      "size": "638M",
-      "year": 2026,
-      "on_device": true,
-      "dialects": [
-        "lev"
-      ],
-      "notes": "Streaming Nemotron ASR 0.6B tuned for Jordanian Arabic.",
-      "base_model": [
-        "nvidia/nemotron-3.5-asr-streaming-0.6b"
-      ],
-      "metrics": {
-        "downloads": 209,
-        "likes": 4,
-        "lastModified": "2026-08-30"
       }
     },
     {
@@ -30214,30 +30214,6 @@
       }
     },
     {
-      "id": "hubert-egyptian-arabic",
-      "name": "HuBERT Egyptian Arabic",
-      "type": "asr",
-      "country": "EG",
-      "org": "Omar Adel, Alexandria University",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/omarxadel/hubert-large-arabic-egyptian"
-      },
-      "dialects": [
-        "egy"
-      ],
-      "notes": "HuBERT fine-tuned for Egyptian dialect on MGB-3",
-      "metrics": {
-        "downloads": 190,
-        "likes": 22,
-        "lastModified": "2023-03-19"
-      }
-    },
-    {
       "id": "quran-md-words",
       "name": "quran md words",
       "type": "dataset",
@@ -30292,6 +30268,30 @@
         "downloads": 189,
         "likes": 10,
         "lastModified": "2023-12-01"
+      }
+    },
+    {
+      "id": "hubert-egyptian-arabic",
+      "name": "HuBERT Egyptian Arabic",
+      "type": "asr",
+      "country": "EG",
+      "org": "Omar Adel, Alexandria University",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/omarxadel/hubert-large-arabic-egyptian"
+      },
+      "dialects": [
+        "egy"
+      ],
+      "notes": "HuBERT fine-tuned for Egyptian dialect on MGB-3",
+      "metrics": {
+        "downloads": 189,
+        "likes": 22,
+        "lastModified": "2023-03-19"
       }
     },
     {
@@ -31538,37 +31538,6 @@
       }
     },
     {
-      "id": "cohere-transcribe-arabic-07-2026-int4",
-      "name": "cohere transcribe arabic 07 2026 int4",
-      "type": "asr",
-      "country": "SA",
-      "org": "NAMAA-Space",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/NAMAA-Space/cohere-transcribe-arabic-07-2026-int4"
-      },
-      "dialects": [
-        "gulf"
-      ],
-      "year": 2026,
-      "tags": [
-        "variants:1"
-      ],
-      "notes": "A memory-efficient INT4 (NF4) quantization of CohereLabs/cohere-transcribe-arabic-07-2026, Cohere Labs' 2B-parameter Arabic/English speech-recognition model.",
-      "base_model": [
-        "coherelabs/cohere-transcribe-arabic-07-2026"
-      ],
-      "metrics": {
-        "downloads": 160,
-        "likes": 5,
-        "lastModified": "2026-07-10"
-      }
-    },
-    {
       "id": "context212-alhazen-ocr",
       "name": "context212 alhazen ocr",
       "type": "benchmark",
@@ -31855,6 +31824,35 @@
       }
     },
     {
+      "id": "whisper-large-v3-tarteel",
+      "name": "whisper large v3 Tarteel",
+      "type": "asr",
+      "country": "INTL",
+      "org": "IJyad",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IJyad/whisper-large-v3-Tarteel"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2025,
+      "notes": "This model is a fine-tuned version of OpenAI’s Whisper Large V3 model, adapted specifically for Arabic Quranic speech recognition.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 156,
+        "likes": 6,
+        "lastModified": "2025-06-04"
+      }
+    },
+    {
       "id": "camel-bench",
       "name": "CAMEL-Bench",
       "type": "benchmark",
@@ -32000,35 +31998,6 @@
       }
     },
     {
-      "id": "lemura-arabic-asr-lite",
-      "name": "Lemura Arabic ASR Lite",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Lemura Labs",
-      "license": "cc-by-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/lemuralabs/lemura-arabic-asr-lite"
-      },
-      "year": 2026,
-      "dialects": [
-        "msa",
-        "gulf",
-        "egy",
-        "lev",
-        "magh"
-      ],
-      "notes": "NeMo multi-dialect Arabic ASR covering MSA, Gulf, Egyptian, Levantine and Maghrebi.",
-      "metrics": {
-        "downloads": 151,
-        "likes": 3,
-        "lastModified": "2026-08-18"
-      }
-    },
-    {
       "id": "saudinewsnet",
       "name": "SaudiNewsNet",
       "type": "dataset",
@@ -32054,35 +32023,6 @@
         "downloads": 151,
         "likes": 9,
         "lastModified": "2024-01-18"
-      }
-    },
-    {
-      "id": "whisper-large-v3-tarteel",
-      "name": "whisper large v3 Tarteel",
-      "type": "asr",
-      "country": "INTL",
-      "org": "IJyad",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/IJyad/whisper-large-v3-Tarteel"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2025,
-      "notes": "This model is a fine-tuned version of OpenAI’s Whisper Large V3 model, adapted specifically for Arabic Quranic speech recognition.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 150,
-        "likes": 6,
-        "lastModified": "2025-06-04"
       }
     },
     {
@@ -32162,38 +32102,6 @@
         "downloads": 149,
         "likes": 6,
         "lastModified": "2026-10-02"
-      }
-    },
-    {
-      "id": "whisper-small-arabic-dialectal-v2",
-      "name": "whisper small arabic dialectal v2",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "diacritization"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/whisper-small-arabic-dialectal-v2"
-      },
-      "dialects": [
-        "mixed"
-      ],
-      "year": 2026,
-      "tags": [
-        "variants:3"
-      ],
-      "notes": "multi-dialect Arabic on the dialect-balanced dataset oddadmix/lahgtna-v3-small (52k train / 2.6k test, seed 42, undiacritized output). (also: 3 variants)",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 149,
-        "likes": 0,
-        "lastModified": "2026-07-16"
       }
     },
     {
@@ -32721,6 +32629,37 @@
       }
     },
     {
+      "id": "cohere-transcribe-arabic-07-2026-int4",
+      "name": "cohere transcribe arabic 07 2026 int4",
+      "type": "asr",
+      "country": "SA",
+      "org": "NAMAA-Space",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NAMAA-Space/cohere-transcribe-arabic-07-2026-int4"
+      },
+      "dialects": [
+        "gulf"
+      ],
+      "year": 2026,
+      "tags": [
+        "variants:1"
+      ],
+      "notes": "A memory-efficient INT4 (NF4) quantization of CohereLabs/cohere-transcribe-arabic-07-2026, Cohere Labs' 2B-parameter Arabic/English speech-recognition model.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
+      "metrics": {
+        "downloads": 142,
+        "likes": 5,
+        "lastModified": "2026-07-10"
+      }
+    },
+    {
       "id": "quranicwhisperdataset",
       "name": "QURANICWhisperDataset",
       "type": "dataset",
@@ -33108,6 +33047,35 @@
       }
     },
     {
+      "id": "lemura-arabic-asr-lite",
+      "name": "Lemura Arabic ASR Lite",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Lemura Labs",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/lemuralabs/lemura-arabic-asr-lite"
+      },
+      "year": 2026,
+      "dialects": [
+        "msa",
+        "gulf",
+        "egy",
+        "lev",
+        "magh"
+      ],
+      "notes": "NeMo multi-dialect Arabic ASR covering MSA, Gulf, Egyptian, Levantine and Maghrebi.",
+      "metrics": {
+        "downloads": 134,
+        "likes": 3,
+        "lastModified": "2026-08-18"
+      }
+    },
+    {
       "id": "wasil",
       "name": "WASIL",
       "type": "dataset",
@@ -33132,31 +33100,6 @@
         "downloads": 134,
         "likes": 2,
         "lastModified": "2026-05-19"
-      }
-    },
-    {
-      "id": "whisper-large-v3-arabic-byne",
-      "name": "whisper large v3 arabic",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Byne",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Byne/whisper-large-v3-arabic"
-      },
-      "year": 2025,
-      "notes": "Whisper large-v3 fine-tuned for Arabic speech recognition, reaching 9.38 WER on its evaluation set.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 134,
-        "likes": 6,
-        "lastModified": "2025-04-20"
       }
     },
     {
@@ -33648,6 +33591,63 @@
       }
     },
     {
+      "id": "whisper-large-v3-arabic-byne",
+      "name": "whisper large v3 arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Byne",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Byne/whisper-large-v3-arabic"
+      },
+      "year": 2025,
+      "notes": "Whisper large-v3 fine-tuned for Arabic speech recognition, reaching 9.38 WER on its evaluation set.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 129,
+        "likes": 6,
+        "lastModified": "2025-04-20"
+      }
+    },
+    {
+      "id": "whisper-small-arabic-dialectal-v2",
+      "name": "whisper small arabic dialectal v2",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "diacritization"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/whisper-small-arabic-dialectal-v2"
+      },
+      "dialects": [
+        "mixed"
+      ],
+      "year": 2026,
+      "tags": [
+        "variants:3"
+      ],
+      "notes": "multi-dialect Arabic on the dialect-balanced dataset oddadmix/lahgtna-v3-small (52k train / 2.6k test, seed 42, undiacritized output). (also: 3 variants)",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 128,
+        "likes": 0,
+        "lastModified": "2026-07-16"
+      }
+    },
+    {
       "id": "araifeval",
       "name": "AraIFEval",
       "type": "benchmark",
@@ -34012,34 +34012,6 @@
         "downloads": 123,
         "likes": 4,
         "lastModified": "2026-05-08"
-      }
-    },
-    {
-      "id": "nemotron-asr-arabic-dialectal-v2",
-      "name": "Nemotron 3.5 ASR Arabic Dialectal v2",
-      "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
-      "license": "unknown",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/oddadmix/nemotron-3.5-asr-arabic-dialectal-v2"
-      },
-      "year": 2026,
-      "dialects": [
-        "mixed"
-      ],
-      "notes": "Streaming dialectal Arabic ASR fine-tuned from NVIDIA Nemotron 3.5 ASR on Lahgtna.",
-      "base_model": [
-        "nvidia/nemotron-3.5-asr-streaming-0.6b"
-      ],
-      "metrics": {
-        "downloads": 123,
-        "likes": 2,
-        "lastModified": "2026-07-16"
       }
     },
     {
@@ -34451,29 +34423,31 @@
       }
     },
     {
-      "id": "tarbiyah-ai-v1-1",
-      "name": "tarbiyah ai v1 1",
+      "id": "nemotron-asr-arabic-dialectal-v2",
+      "name": "Nemotron 3.5 ASR Arabic Dialectal v2",
       "type": "asr",
-      "country": "INTL",
-      "org": "Habib-HF",
-      "license": "mit",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "unknown",
       "modality": "speech",
       "tasks": [
-        "asr",
-        "quran"
+        "asr"
       ],
       "links": {
-        "hf": "https://huggingface.co/Habib-HF/tarbiyah-ai-v1-1"
+        "hf": "https://huggingface.co/oddadmix/nemotron-3.5-asr-arabic-dialectal-v2"
       },
+      "year": 2026,
       "dialects": [
-        "classical"
+        "mixed"
       ],
-      "year": 2025,
-      "notes": "This model is a fine-tuned version of OpenAI's whisper-small model, specifically adapted for Automatic Speech Recognition (ASR) of Quranic Arabic recitation.",
+      "notes": "Streaming dialectal Arabic ASR fine-tuned from NVIDIA Nemotron 3.5 ASR on Lahgtna.",
+      "base_model": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
       "metrics": {
         "downloads": 118,
-        "likes": 3,
-        "lastModified": "2025-06-25"
+        "likes": 2,
+        "lastModified": "2026-07-16"
       }
     },
     {
@@ -35113,6 +35087,32 @@
       }
     },
     {
+      "id": "tarbiyah-ai-v1-1",
+      "name": "tarbiyah ai v1 1",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Habib-HF",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Habib-HF/tarbiyah-ai-v1-1"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2025,
+      "notes": "This model is a fine-tuned version of OpenAI's whisper-small model, specifically adapted for Automatic Speech Recognition (ASR) of Quranic Arabic recitation.",
+      "metrics": {
+        "downloads": 112,
+        "likes": 3,
+        "lastModified": "2025-06-25"
+      }
+    },
+    {
       "id": "nawah-asr-118m-v5",
       "name": "Nawah ASR 118M v5",
       "type": "asr",
@@ -35311,6 +35311,31 @@
         "downloads": 109,
         "likes": 0,
         "lastModified": "2025-08-23"
+      }
+    },
+    {
+      "id": "whisper-algerian-dialect",
+      "name": "whisper algerian dialect",
+      "type": "asr",
+      "country": "INTL",
+      "org": "MohammedNasri",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MohammedNasri/whisper-algerian-dialect"
+      },
+      "dialects": [
+        "magh"
+      ],
+      "year": 2025,
+      "notes": "This model is a fine-tuned version of OpenAI's Whisper-tiny specifically for Algerian dialect automatic speech recognition (ASR).",
+      "metrics": {
+        "downloads": 109,
+        "likes": 5,
+        "lastModified": "2025-08-13"
       }
     },
     {
@@ -35516,60 +35541,6 @@
       }
     },
     {
-      "id": "tadabur-whisper-small",
-      "name": "tadabur Whisper Small",
-      "type": "asr",
-      "country": "INTL",
-      "org": "FaisaI",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/FaisaI/tadabur-Whisper-Small"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2026,
-      "notes": "Tadabur-Whisper-Small A Whisper Small model fine-tuned on Tadabur for Qur'anic speech recognition. [![Base Model](https://img.shields.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 107,
-        "likes": 18,
-        "lastModified": "2026-04-24"
-      }
-    },
-    {
-      "id": "whisper-algerian-dialect",
-      "name": "whisper algerian dialect",
-      "type": "asr",
-      "country": "INTL",
-      "org": "MohammedNasri",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/MohammedNasri/whisper-algerian-dialect"
-      },
-      "dialects": [
-        "magh"
-      ],
-      "year": 2025,
-      "notes": "This model is a fine-tuned version of OpenAI's Whisper-tiny specifically for Algerian dialect automatic speech recognition (ASR).",
-      "metrics": {
-        "downloads": 107,
-        "likes": 5,
-        "lastModified": "2025-08-13"
-      }
-    },
-    {
       "id": "ien-mcq",
       "name": "IEN-MCQ",
       "type": "benchmark",
@@ -35623,6 +35594,35 @@
       }
     },
     {
+      "id": "tadabur-whisper-small",
+      "name": "tadabur Whisper Small",
+      "type": "asr",
+      "country": "INTL",
+      "org": "FaisaI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/FaisaI/tadabur-Whisper-Small"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Tadabur-Whisper-Small A Whisper Small model fine-tuned on Tadabur for Qur'anic speech recognition. [![Base Model](https://img.shields.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 106,
+        "likes": 18,
+        "lastModified": "2026-04-24"
+      }
+    },
+    {
       "id": "asfar",
       "name": "Asfar",
       "type": "dataset",
@@ -35671,6 +35671,31 @@
         "downloads": 104,
         "likes": 0,
         "lastModified": "2026-08-28"
+      }
+    },
+    {
+      "id": "artst-asr-v2",
+      "name": "artst asr v2",
+      "type": "asr",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI/artst_asr_v2"
+      },
+      "year": 2025,
+      "tags": [
+        "variants:1"
+      ],
+      "notes": "ArTST model finetuned for automatic speech recognition (speech-to-text) on MGB2. (also: 1 variants)",
+      "metrics": {
+        "downloads": 104,
+        "likes": 2,
+        "lastModified": "2025-09-10"
       }
     },
     {
@@ -35852,6 +35877,36 @@
       }
     },
     {
+      "id": "stt-arabic-whisper-finetuned-diactires",
+      "name": "stt arabic whisper finetuned diactires",
+      "type": "asr",
+      "country": "INTL",
+      "org": "NightPrince",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "diacritization",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/NightPrince/stt-arabic-whisper-finetuned-diactires"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Fine-tuned openai/whisper-small on tarteel-ai/everyayah for Automatic Speech Recognition of Quranic recitation with complete tashkeel.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 103,
+        "likes": 3,
+        "lastModified": "2026-03-18"
+      }
+    },
+    {
       "id": "acva",
       "name": "ACVA",
       "type": "benchmark",
@@ -35971,36 +36026,6 @@
         "downloads": 102,
         "likes": 4,
         "lastModified": "2022-10-25"
-      }
-    },
-    {
-      "id": "stt-arabic-whisper-finetuned-diactires",
-      "name": "stt arabic whisper finetuned diactires",
-      "type": "asr",
-      "country": "INTL",
-      "org": "NightPrince",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "diacritization",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/NightPrince/stt-arabic-whisper-finetuned-diactires"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2026,
-      "notes": "Fine-tuned openai/whisper-small on tarteel-ai/everyayah for Automatic Speech Recognition of Quranic recitation with complete tashkeel.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 102,
-        "likes": 3,
-        "lastModified": "2026-03-18"
       }
     },
     {
@@ -36235,31 +36260,6 @@
       }
     },
     {
-      "id": "artst-asr-v2",
-      "name": "artst asr v2",
-      "type": "asr",
-      "country": "AE",
-      "org": "MBZUAI",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/MBZUAI/artst_asr_v2"
-      },
-      "year": 2025,
-      "tags": [
-        "variants:1"
-      ],
-      "notes": "ArTST model finetuned for automatic speech recognition (speech-to-text) on MGB2. (also: 1 variants)",
-      "metrics": {
-        "downloads": 100,
-        "likes": 2,
-        "lastModified": "2025-09-10"
-      }
-    },
-    {
       "id": "paxqa",
       "name": "PAXQA",
       "type": "dataset",
@@ -36287,6 +36287,34 @@
         "downloads": 100,
         "likes": 1,
         "lastModified": "2024-06-14"
+      }
+    },
+    {
+      "id": "whisperlevantine",
+      "name": "WhisperLevantine",
+      "type": "asr",
+      "country": "INTL",
+      "org": "HebArabNlpProject",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/HebArabNlpProject/WhisperLevantine"
+      },
+      "dialects": [
+        "lev"
+      ],
+      "year": 2025,
+      "notes": "This model is a fine-tuned version of Whisper Larg v3 tailored specifically for transcribing Levantine Arabic, focusing on the Israeli dialect.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 100,
+        "likes": 7,
+        "lastModified": "2025-05-25"
       }
     },
     {
@@ -36408,34 +36436,6 @@
         "downloads": 97,
         "likes": 0,
         "lastModified": "2026-09-17"
-      }
-    },
-    {
-      "id": "whisperlevantine",
-      "name": "WhisperLevantine",
-      "type": "asr",
-      "country": "INTL",
-      "org": "HebArabNlpProject",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/HebArabNlpProject/WhisperLevantine"
-      },
-      "dialects": [
-        "lev"
-      ],
-      "year": 2025,
-      "notes": "This model is a fine-tuned version of Whisper Larg v3 tailored specifically for transcribing Levantine Arabic, focusing on the Israeli dialect.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 97,
-        "likes": 7,
-        "lastModified": "2025-05-25"
       }
     },
     {
@@ -37040,36 +37040,6 @@
       }
     },
     {
-      "id": "lemura-arabic-asr-qwen3",
-      "name": "Lemura Arabic ASR Qwen3",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Lemura Labs",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/lemuralabs/lemura-arabic-asr-qwen3"
-      },
-      "year": 2026,
-      "dialects": [
-        "msa",
-        "gulf",
-        "egy"
-      ],
-      "notes": "Qwen3-ASR based multi-dialect Arabic speech recognizer from Lemura Labs.",
-      "base_model": [
-        "qwen/qwen3-asr-1.7b"
-      ],
-      "metrics": {
-        "downloads": 88,
-        "likes": 2,
-        "lastModified": "2026-08-21"
-      }
-    },
-    {
       "id": "quran-question-answer-context",
       "name": "quran question answer context",
       "type": "dataset",
@@ -37120,6 +37090,31 @@
       }
     },
     {
+      "id": "whisper-largev3-medical",
+      "name": "whisper largev3 medical",
+      "type": "asr",
+      "country": "INTL",
+      "org": "yehiazak",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/yehiazak/whisper-largev3-medical"
+      },
+      "year": 2025,
+      "notes": "This model is a fine-tuned version of openai/whisper-large-v3 on medical speech data.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
+      "metrics": {
+        "downloads": 88,
+        "likes": 8,
+        "lastModified": "2025-07-12"
+      }
+    },
+    {
       "id": "darijabert-mix",
       "name": "DarijaBERT-mix",
       "type": "llm",
@@ -37164,31 +37159,6 @@
         "downloads": 87,
         "likes": 2,
         "lastModified": "2024-05-02"
-      }
-    },
-    {
-      "id": "whisper-largev3-medical",
-      "name": "whisper largev3 medical",
-      "type": "asr",
-      "country": "INTL",
-      "org": "yehiazak",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/yehiazak/whisper-largev3-medical"
-      },
-      "year": 2025,
-      "notes": "This model is a fine-tuned version of openai/whisper-large-v3 on medical speech data.",
-      "base_model": [
-        "openai/whisper-large-v3"
-      ],
-      "metrics": {
-        "downloads": 87,
-        "likes": 8,
-        "lastModified": "2025-07-12"
       }
     },
     {
@@ -37610,30 +37580,33 @@
       }
     },
     {
-      "id": "masriswitch-gemma3n",
-      "name": "MasriSwitch-Gemma3n",
+      "id": "lemura-arabic-asr-qwen3",
+      "name": "Lemura Arabic ASR Qwen3",
       "type": "asr",
-      "country": "EG",
-      "org": "oddadmix",
+      "country": "INTL",
+      "org": "Lemura Labs",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
         "asr"
       ],
       "links": {
-        "hf": "https://huggingface.co/oddadmix/MasriSwitch-Gemma3n-Transcriber-v1"
+        "hf": "https://huggingface.co/lemuralabs/lemura-arabic-asr-qwen3"
       },
+      "year": 2026,
       "dialects": [
+        "msa",
+        "gulf",
         "egy"
       ],
-      "notes": "Egyptian Arabic code-switching transcription",
+      "notes": "Qwen3-ASR based multi-dialect Arabic speech recognizer from Lemura Labs.",
       "base_model": [
-        "unsloth/gemma-3n-e4b-it"
+        "qwen/qwen3-asr-1.7b"
       ],
       "metrics": {
         "downloads": 83,
-        "likes": 16,
-        "lastModified": "2026-04-17"
+        "likes": 2,
+        "lastModified": "2026-08-21"
       }
     },
     {
@@ -37969,6 +37942,33 @@
       }
     },
     {
+      "id": "masriswitch-gemma3n",
+      "name": "MasriSwitch-Gemma3n",
+      "type": "asr",
+      "country": "EG",
+      "org": "oddadmix",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/oddadmix/MasriSwitch-Gemma3n-Transcriber-v1"
+      },
+      "dialects": [
+        "egy"
+      ],
+      "notes": "Egyptian Arabic code-switching transcription",
+      "base_model": [
+        "unsloth/gemma-3n-e4b-it"
+      ],
+      "metrics": {
+        "downloads": 79,
+        "likes": 16,
+        "lastModified": "2026-04-17"
+      }
+    },
+    {
       "id": "the-arabic-news-speech-corpus-dataset",
       "name": "The Arabic News speech Corpus Dataset",
       "type": "dataset",
@@ -38020,30 +38020,6 @@
         "downloads": 78,
         "likes": 5,
         "lastModified": "2026-03-09"
-      }
-    },
-    {
-      "id": "artst-asr-v3",
-      "name": "artst_asr_v3",
-      "type": "asr",
-      "country": "AE",
-      "org": "MBZUAI",
-      "license": "cc-by-nc-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/MBZUAI/artst_asr_v3"
-      },
-      "dialects": [
-        "msa"
-      ],
-      "notes": "ArTST for ASR on MGB2 (best for MSA)",
-      "metrics": {
-        "downloads": 78,
-        "likes": 0,
-        "lastModified": "2025-09-10"
       }
     },
     {
@@ -38426,6 +38402,27 @@
       }
     },
     {
+      "id": "hubert-large-arabic",
+      "name": "HuBERT-Large Arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "asafaya",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/asafaya/hubert-large-arabic-transcribe"
+      },
+      "notes": "HuBERT fine-tuned on 2000h Arabic, 17.68% WER",
+      "metrics": {
+        "downloads": 75,
+        "likes": 4,
+        "lastModified": "2022-12-26"
+      }
+    },
+    {
       "id": "whisper-large-arabic-dialects-v5",
       "name": "whisper-large-arabic-dialects-v5",
       "type": "asr",
@@ -38451,7 +38448,7 @@
         "openai/whisper-large-v3"
       ],
       "metrics": {
-        "downloads": 74,
+        "downloads": 75,
         "likes": 2,
         "lastModified": "2025-09-03"
       }
@@ -38483,27 +38480,6 @@
         "downloads": 73,
         "likes": 5,
         "lastModified": "2026-04-30"
-      }
-    },
-    {
-      "id": "hubert-large-arabic",
-      "name": "HuBERT-Large Arabic",
-      "type": "asr",
-      "country": "INTL",
-      "org": "asafaya",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/asafaya/hubert-large-arabic-transcribe"
-      },
-      "notes": "HuBERT fine-tuned on 2000h Arabic, 17.68% WER",
-      "metrics": {
-        "downloads": 73,
-        "likes": 4,
-        "lastModified": "2022-12-26"
       }
     },
     {
@@ -38716,35 +38692,6 @@
         "downloads": 72,
         "likes": 0,
         "lastModified": "2026-09-25"
-      }
-    },
-    {
-      "id": "tarbiyah-ai-whisper-medium-merged",
-      "name": "tarbiyah ai whisper medium merged",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Habib-HF",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Habib-HF/tarbiyah-ai-whisper-medium-merged"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2025,
-      "notes": "Modelrepo: Habib-HF/tarbiyah-ai-whisper-medium-merged This repository contains an Automatic Speech Recognition (ASR) model based on openai/whisper-medium.",
-      "base_model": [
-        "openai/whisper-medium"
-      ],
-      "metrics": {
-        "downloads": 72,
-        "likes": 6,
-        "lastModified": "2025-11-26"
       }
     },
     {
@@ -40110,6 +40057,30 @@
       }
     },
     {
+      "id": "artst-asr-v3",
+      "name": "artst_asr_v3",
+      "type": "asr",
+      "country": "AE",
+      "org": "MBZUAI",
+      "license": "cc-by-nc-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/MBZUAI/artst_asr_v3"
+      },
+      "dialects": [
+        "msa"
+      ],
+      "notes": "ArTST for ASR on MGB2 (best for MSA)",
+      "metrics": {
+        "downloads": 61,
+        "likes": 0,
+        "lastModified": "2025-09-10"
+      }
+    },
+    {
       "id": "mfa-quran-hafs",
       "name": "mfa quran hafs",
       "type": "asr",
@@ -40160,63 +40131,6 @@
         "downloads": 61,
         "likes": 3,
         "lastModified": "2024-07-28"
-      }
-    },
-    {
-      "id": "whisper-small-tunisian-arabic",
-      "name": "whisper-small-tunisian-arabic",
-      "type": "asr",
-      "country": "INTL",
-      "org": "awaxsama",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/awaxsama/whisper-small-tunisian-arabic"
-      },
-      "dialects": [
-        "magh"
-      ],
-      "year": 2026,
-      "notes": "Whisper small and tiny fine-tuned for Tunisian Arabic speech recognition.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 61,
-        "likes": 0,
-        "lastModified": "2026-08-06"
-      }
-    },
-    {
-      "id": "zipformer-p-quran",
-      "name": "zipformer p quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Muno459",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Muno459/zipformer_p-quran"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2026,
-      "notes": "Zipformer ASR model for Quran recitation; gated, free non-commercial use under NPL-1.1.",
-      "base_model": [
-        "muno459/zipformer_p-arabic"
-      ],
-      "metrics": {
-        "downloads": 61,
-        "likes": 14,
-        "lastModified": "2026-08-15"
       }
     },
     {
@@ -40474,6 +40388,32 @@
       }
     },
     {
+      "id": "metro-asr-small",
+      "name": "Metro ASR Small",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Mohammed Aly",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "code-switching"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/mohammedaly22/Metro-ASR-Small"
+      },
+      "dialects": [
+        "egy"
+      ],
+      "year": 2026,
+      "notes": "Non-autoregressive CTC Conformer ASR for Egyptian Arabic and Arabic-English code-switching, with a detachable n-gram language head.",
+      "metrics": {
+        "downloads": 58,
+        "likes": 2,
+        "lastModified": "2026-08-18"
+      }
+    },
+    {
       "id": "oasst1-ar-threads",
       "name": "oasst1-ar-threads",
       "type": "dataset",
@@ -40497,6 +40437,35 @@
         "downloads": 58,
         "likes": 3,
         "lastModified": "2023-12-28"
+      }
+    },
+    {
+      "id": "zipformer-p-quran",
+      "name": "zipformer p quran",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Muno459",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Muno459/zipformer_p-quran"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Zipformer ASR model for Quran recitation; gated, free non-commercial use under NPL-1.1.",
+      "base_model": [
+        "muno459/zipformer_p-arabic"
+      ],
+      "metrics": {
+        "downloads": 58,
+        "likes": 14,
+        "lastModified": "2026-08-15"
       }
     },
     {
@@ -40710,32 +40679,6 @@
       }
     },
     {
-      "id": "metro-asr-small",
-      "name": "Metro ASR Small",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Mohammed Aly",
-      "license": "mit",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "code-switching"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/mohammedaly22/Metro-ASR-Small"
-      },
-      "dialects": [
-        "egy"
-      ],
-      "year": 2026,
-      "notes": "Non-autoregressive CTC Conformer ASR for Egyptian Arabic and Arabic-English code-switching, with a detachable n-gram language head.",
-      "metrics": {
-        "downloads": 57,
-        "likes": 2,
-        "lastModified": "2026-08-18"
-      }
-    },
-    {
       "id": "quora-arabic-gpt4",
       "name": "Quora Arabic GPT4",
       "type": "dataset",
@@ -40824,6 +40767,31 @@
         "downloads": 56,
         "likes": 3,
         "lastModified": "2023-11-21"
+      }
+    },
+    {
+      "id": "asr-wav2vec2-dvoice-darija",
+      "name": "asr-wav2vec2-dvoice-darija",
+      "type": "asr",
+      "country": "INTL",
+      "org": "SpeechBrain",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/speechbrain/asr-wav2vec2-dvoice-darija"
+      },
+      "year": 2022,
+      "dialects": [
+        "magh"
+      ],
+      "notes": "SpeechBrain wav2vec2 recipe trained on the DVoice Darija dataset.",
+      "metrics": {
+        "downloads": 56,
+        "likes": 15,
+        "lastModified": "2024-02-19"
       }
     },
     {
@@ -40923,31 +40891,6 @@
         "downloads": 55,
         "likes": 2,
         "lastModified": "2026-09-30"
-      }
-    },
-    {
-      "id": "asr-wav2vec2-dvoice-darija",
-      "name": "asr-wav2vec2-dvoice-darija",
-      "type": "asr",
-      "country": "INTL",
-      "org": "SpeechBrain",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/speechbrain/asr-wav2vec2-dvoice-darija"
-      },
-      "year": 2022,
-      "dialects": [
-        "magh"
-      ],
-      "notes": "SpeechBrain wav2vec2 recipe trained on the DVoice Darija dataset.",
-      "metrics": {
-        "downloads": 55,
-        "likes": 15,
-        "lastModified": "2024-02-19"
       }
     },
     {
@@ -41391,34 +41334,6 @@
       }
     },
     {
-      "id": "whisper-yemeni",
-      "name": "Whisper Yemeni",
-      "type": "asr",
-      "country": "YE",
-      "org": "Mansoor Saleh",
-      "license": "cc-by-nc-sa-4.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/mansoorSaleh/whisper-yemeni"
-      },
-      "size": "242M",
-      "dialects": [
-        "yemeni"
-      ],
-      "notes": "Whisper fine-tuned for Yemeni dialect (Yemen).",
-      "base_model": [
-        "openai/whisper-large-v2"
-      ],
-      "metrics": {
-        "downloads": 53,
-        "likes": 0,
-        "lastModified": "2026-08-19"
-      }
-    },
-    {
       "id": "arabic-reasoning-dataset",
       "name": "Arabic Reasoning Dataset",
       "type": "dataset",
@@ -41517,6 +41432,35 @@
       }
     },
     {
+      "id": "tarbiyah-ai-whisper-medium-merged",
+      "name": "tarbiyah ai whisper medium merged",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Habib-HF",
+      "license": "mit",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Habib-HF/tarbiyah-ai-whisper-medium-merged"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2025,
+      "notes": "Modelrepo: Habib-HF/tarbiyah-ai-whisper-medium-merged This repository contains an Automatic Speech Recognition (ASR) model based on openai/whisper-medium.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
+      "metrics": {
+        "downloads": 52,
+        "likes": 6,
+        "lastModified": "2025-11-26"
+      }
+    },
+    {
       "id": "tawnza-tifinagh-arabic-dataset",
       "name": "TAWNZA TIFINAGH ARABIC DATASET",
       "type": "dataset",
@@ -41567,6 +41511,34 @@
         "downloads": 52,
         "likes": 18,
         "lastModified": "2024-09-05"
+      }
+    },
+    {
+      "id": "whisper-yemeni",
+      "name": "Whisper Yemeni",
+      "type": "asr",
+      "country": "YE",
+      "org": "Mansoor Saleh",
+      "license": "cc-by-nc-sa-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/mansoorSaleh/whisper-yemeni"
+      },
+      "size": "242M",
+      "dialects": [
+        "yemeni"
+      ],
+      "notes": "Whisper fine-tuned for Yemeni dialect (Yemen).",
+      "base_model": [
+        "openai/whisper-large-v2"
+      ],
+      "metrics": {
+        "downloads": 52,
+        "likes": 0,
+        "lastModified": "2026-08-19"
       }
     },
     {
@@ -42825,32 +42797,6 @@
       }
     },
     {
-      "id": "fastconformer-quran-streaming",
-      "name": "fastconformer quran streaming",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Muno459",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Muno459/fastconformer-quran-streaming"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2026,
-      "notes": "Streaming cache-aware FastConformer ASR for Quran recitation (NeMo, ONNX), trained on EveryAyah, TLOG and Muaalem data; gated.",
-      "metrics": {
-        "downloads": 44,
-        "likes": 14,
-        "lastModified": "2026-08-05"
-      }
-    },
-    {
       "id": "maoffens",
       "name": "MAOffens",
       "type": "dataset",
@@ -43027,6 +42973,32 @@
         "downloads": 43,
         "likes": 3,
         "lastModified": "2023-07-03"
+      }
+    },
+    {
+      "id": "fastconformer-quran-streaming",
+      "name": "fastconformer quran streaming",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Muno459",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Muno459/fastconformer-quran-streaming"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Streaming cache-aware FastConformer ASR for Quran recitation (NeMo, ONNX), trained on EveryAyah, TLOG and Muaalem data; gated.",
+      "metrics": {
+        "downloads": 43,
+        "likes": 14,
+        "lastModified": "2026-08-05"
       }
     },
     {
@@ -43942,27 +43914,6 @@
       }
     },
     {
-      "id": "kalematech-arabic-stt",
-      "name": "KalemaTech Arabic STT",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Salama1429",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small"
-      },
-      "notes": "Whisper-small optimized for Arabic STT",
-      "metrics": {
-        "downloads": 38,
-        "likes": 6,
-        "lastModified": "2022-12-28"
-      }
-    },
-    {
       "id": "lahga-arabic-dialects",
       "name": "Lahga Arabic Dialects Dictionary",
       "type": "dataset",
@@ -43989,32 +43940,33 @@
       }
     },
     {
-      "id": "stt-ar-fastconformer-hybrid-large-streaming-pcd-v1-1-mirror",
-      "name": "stt ar fastconformer hybrid large streaming pcd v1.1 mirror",
+      "id": "whisper-small-for-quran",
+      "name": "whisper small for quran",
       "type": "asr",
       "country": "INTL",
-      "org": "Ahmed Hany",
-      "license": "cc-by-4.0",
+      "org": "areaz",
+      "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
         "asr",
+        "evaluation",
         "quran"
       ],
       "links": {
-        "hf": "https://huggingface.co/dev-ahmedhany/stt_ar_fastconformer_hybrid_large_streaming_pcd_v1.1-mirror"
+        "hf": "https://huggingface.co/areaz/whisper-small-for-quran"
       },
       "dialects": [
         "classical"
       ],
-      "year": 2026,
-      "notes": "Streaming-trained Arabic FastConformer-Hybrid (RNNT + CTC heads, 115M params), exported for sherpa-onnx's OnlineRecognizer with cache-aware encoder state.",
+      "year": 2025,
+      "notes": "Arabic automatic speech recognition model fine-tuned from openai/whisper-small trained on abdulhamedeid/quran-verses-audio-clips.",
       "base_model": [
-        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+        "openai/whisper-small"
       ],
       "metrics": {
         "downloads": 38,
-        "likes": 3,
-        "lastModified": "2026-05-10"
+        "likes": 6,
+        "lastModified": "2025-01-12"
       }
     },
     {
@@ -44174,36 +44126,6 @@
       }
     },
     {
-      "id": "whisper-small-for-quran",
-      "name": "whisper small for quran",
-      "type": "asr",
-      "country": "INTL",
-      "org": "areaz",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "evaluation",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/areaz/whisper-small-for-quran"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2025,
-      "notes": "Arabic automatic speech recognition model fine-tuned from openai/whisper-small trained on abdulhamedeid/quran-verses-audio-clips.",
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 37,
-        "likes": 6,
-        "lastModified": "2025-01-12"
-      }
-    },
-    {
       "id": "xlm-r-large-arabic-sent",
       "name": "xlm r large arabic sent",
       "type": "llm",
@@ -44329,6 +44251,27 @@
         "downloads": 36,
         "likes": 7,
         "lastModified": "2022-07-04"
+      }
+    },
+    {
+      "id": "kalematech-arabic-stt",
+      "name": "KalemaTech Arabic STT",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Salama1429",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small"
+      },
+      "notes": "Whisper-small optimized for Arabic STT",
+      "metrics": {
+        "downloads": 36,
+        "likes": 6,
+        "lastModified": "2022-12-28"
       }
     },
     {
@@ -44669,6 +44612,35 @@
         "downloads": 35,
         "likes": 1,
         "lastModified": "2022-11-03"
+      }
+    },
+    {
+      "id": "stt-ar-fastconformer-hybrid-large-streaming-pcd-v1-1-mirror",
+      "name": "stt ar fastconformer hybrid large streaming pcd v1.1 mirror",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Ahmed Hany",
+      "license": "cc-by-4.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/dev-ahmedhany/stt_ar_fastconformer_hybrid_large_streaming_pcd_v1.1-mirror"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "notes": "Streaming-trained Arabic FastConformer-Hybrid (RNNT + CTC heads, 115M params), exported for sherpa-onnx's OnlineRecognizer with cache-aware encoder state.",
+      "base_model": [
+        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      ],
+      "metrics": {
+        "downloads": 35,
+        "likes": 3,
+        "lastModified": "2026-05-10"
       }
     },
     {
@@ -45588,6 +45560,32 @@
       }
     },
     {
+      "id": "whisper-sudanese-dialect-small",
+      "name": "Whisper-Sudanese-Dialect-small",
+      "type": "asr",
+      "country": "SD",
+      "org": "Ayman Mansour",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/AymanMansour/Whisper-Sudanese-Dialect-small"
+      },
+      "year": 2022,
+      "on_device": true,
+      "dialects": [
+        "sudanese"
+      ],
+      "notes": "Whisper small fine-tuned on Sudanese dialect; Sudan noted.",
+      "metrics": {
+        "downloads": 32,
+        "likes": 2,
+        "lastModified": "2022-12-15"
+      }
+    },
+    {
       "id": "evalplus-arabic",
       "name": "3LM Code Arabic (EvalPlus)",
       "type": "benchmark",
@@ -45793,32 +45791,6 @@
       }
     },
     {
-      "id": "whisper-sudanese-dialect-small",
-      "name": "Whisper-Sudanese-Dialect-small",
-      "type": "asr",
-      "country": "SD",
-      "org": "Ayman Mansour",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/AymanMansour/Whisper-Sudanese-Dialect-small"
-      },
-      "year": 2022,
-      "on_device": true,
-      "dialects": [
-        "sudanese"
-      ],
-      "notes": "Whisper small fine-tuned on Sudanese dialect; Sudan noted.",
-      "metrics": {
-        "downloads": 31,
-        "likes": 2,
-        "lastModified": "2022-12-15"
-      }
-    },
-    {
       "id": "amawal-dataset",
       "name": "amawal dataset",
       "type": "dataset",
@@ -45914,6 +45886,31 @@
         "downloads": 30,
         "likes": 3,
         "lastModified": "2022-07-10"
+      }
+    },
+    {
+      "id": "arabic-speech-syllables-recognition-using-wav2vec2",
+      "name": "Arabic speech Syllables recognition Using Wav2vec2",
+      "type": "asr",
+      "country": "INTL",
+      "org": "IbrahimSalah",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/IbrahimSalah/Arabic_speech_Syllables_recognition_Using_Wav2vec2"
+      },
+      "dialects": [
+        "msa"
+      ],
+      "year": 2025,
+      "notes": "This is fine tuned wav2vec2 model to recognize arabic syllables from speech.",
+      "metrics": {
+        "downloads": 30,
+        "likes": 4,
+        "lastModified": "2025-01-09"
       }
     },
     {
@@ -46281,31 +46278,6 @@
       }
     },
     {
-      "id": "arabic-speech-syllables-recognition-using-wav2vec2",
-      "name": "Arabic speech Syllables recognition Using Wav2vec2",
-      "type": "asr",
-      "country": "INTL",
-      "org": "IbrahimSalah",
-      "license": "unknown",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/IbrahimSalah/Arabic_speech_Syllables_recognition_Using_Wav2vec2"
-      },
-      "dialects": [
-        "msa"
-      ],
-      "year": 2025,
-      "notes": "This is fine tuned wav2vec2 model to recognize arabic syllables from speech.",
-      "metrics": {
-        "downloads": 29,
-        "likes": 4,
-        "lastModified": "2025-01-09"
-      }
-    },
-    {
       "id": "arasum-corpus",
       "name": "AraSum Corpus",
       "type": "dataset",
@@ -46652,6 +46624,37 @@
         "downloads": 28,
         "likes": 1,
         "lastModified": "2024-07-20"
+      }
+    },
+    {
+      "id": "arazn-whisper-small",
+      "name": "arazn whisper small",
+      "type": "asr",
+      "country": "INTL",
+      "org": "ahmedheakl",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "code-switching"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ahmedheakl/arazn-whisper-small",
+        "paper": "https://arxiv.org/abs/2406.18120"
+      },
+      "year": 2024,
+      "notes": "Whisper-small fine-tuned for code-switched Egyptian Arabic-English speech recognition (ArzEn-LLM).",
+      "dialects": [
+        "egy"
+      ],
+      "on_device": true,
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 28,
+        "likes": 3,
+        "lastModified": "2024-07-01"
       }
     },
     {
@@ -47393,6 +47396,34 @@
         "downloads": 26,
         "likes": 2,
         "lastModified": "2025-09-22"
+      }
+    },
+    {
+      "id": "whisper-small-tunisian-arabic",
+      "name": "whisper-small-tunisian-arabic",
+      "type": "asr",
+      "country": "INTL",
+      "org": "awaxsama",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/awaxsama/whisper-small-tunisian-arabic"
+      },
+      "dialects": [
+        "magh"
+      ],
+      "year": 2026,
+      "notes": "Whisper small and tiny fine-tuned for Tunisian Arabic speech recognition.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
+      "metrics": {
+        "downloads": 26,
+        "likes": 0,
+        "lastModified": "2026-08-06"
       }
     },
     {
@@ -49055,6 +49086,34 @@
       }
     },
     {
+      "id": "zipformer-p-arabic-v2",
+      "name": "zipformer p arabic v2",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Muno459",
+      "license": "other",
+      "modality": "speech",
+      "tasks": [
+        "asr"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Muno459/zipformer_p-arabic-v2"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2026,
+      "tags": [
+        "variants:1"
+      ],
+      "notes": "Zipformer ASR model for Arabic (v2); gated, free non-commercial use only.",
+      "metrics": {
+        "downloads": 22,
+        "likes": 7,
+        "lastModified": "2026-08-06"
+      }
+    },
+    {
       "id": "arabic-ala-lc-romanization",
       "name": "Arabic ALA LC  Romanization",
       "type": "dataset",
@@ -49658,37 +49717,6 @@
       }
     },
     {
-      "id": "arazn-whisper-small",
-      "name": "arazn whisper small",
-      "type": "asr",
-      "country": "INTL",
-      "org": "ahmedheakl",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "code-switching"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/ahmedheakl/arazn-whisper-small",
-        "paper": "https://arxiv.org/abs/2406.18120"
-      },
-      "year": 2024,
-      "notes": "Whisper-small fine-tuned for code-switched Egyptian Arabic-English speech recognition (ArzEn-LLM).",
-      "dialects": [
-        "egy"
-      ],
-      "on_device": true,
-      "base_model": [
-        "openai/whisper-small"
-      ],
-      "metrics": {
-        "downloads": 20,
-        "likes": 3,
-        "lastModified": "2024-07-01"
-      }
-    },
-    {
       "id": "at-odtsa",
       "name": "AT-ODTSA",
       "type": "dataset",
@@ -50112,34 +50140,6 @@
         "downloads": 20,
         "likes": 0,
         "lastModified": "2026-06-19"
-      }
-    },
-    {
-      "id": "zipformer-p-arabic-v2",
-      "name": "zipformer p arabic v2",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Muno459",
-      "license": "other",
-      "modality": "speech",
-      "tasks": [
-        "asr"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Muno459/zipformer_p-arabic-v2"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2026,
-      "tags": [
-        "variants:1"
-      ],
-      "notes": "Zipformer ASR model for Arabic (v2); gated, free non-commercial use only.",
-      "metrics": {
-        "downloads": 20,
-        "likes": 7,
-        "lastModified": "2026-08-06"
       }
     },
     {
@@ -53017,36 +53017,6 @@
       }
     },
     {
-      "id": "whisper-base-ar-quran-ft-hijaiyah-2",
-      "name": "whisper base ar quran ft hijaiyah 2",
-      "type": "asr",
-      "country": "INTL",
-      "org": "ojisetyawan",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "evaluation",
-        "quran"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/ojisetyawan/whisper-base-ar-quran-ft-hijaiyah-2"
-      },
-      "dialects": [
-        "classical"
-      ],
-      "year": 2024,
-      "notes": "Arabic audio classification model fine-tuned from tarteel-ai/whisper-base-ar-quran trained on Reinjin/Pelafalan_Huruf_Hijaiyah.",
-      "base_model": [
-        "tarteel-ai/whisper-base-ar-quran"
-      ],
-      "metrics": {
-        "downloads": 14,
-        "likes": 3,
-        "lastModified": "2024-12-02"
-      }
-    },
-    {
       "id": "anad-arabic-natural-audio-dataset",
       "name": "ANAD: Arabic Natural Audio Dataset",
       "type": "dataset",
@@ -53200,11 +53170,11 @@
       }
     },
     {
-      "id": "dvoice-darija",
-      "name": "dvoice darija",
+      "id": "hamsa-v0-1-beta",
+      "name": "hamsa v0.1 beta",
       "type": "asr",
       "country": "INTL",
-      "org": "aioxlabs",
+      "org": "nadsoft",
       "license": "apache-2.0",
       "modality": "speech",
       "tasks": [
@@ -53212,17 +53182,14 @@
         "pretraining"
       ],
       "links": {
-        "hf": "https://huggingface.co/aioxlabs/dvoice-darija"
+        "hf": "https://huggingface.co/nadsoft/hamsa-v0.1-beta"
       },
-      "dialects": [
-        "magh"
-      ],
-      "year": 2022,
-      "notes": "This repository provides all the necessary tools to perform automatic speech recognition from an end-to-end system pretrained.",
+      "year": 2023,
+      "notes": "Hamsa (همسة) represents a sophisticated advancement in the realm of Arabic speech recognition.",
       "metrics": {
         "downloads": 13,
-        "likes": 8,
-        "lastModified": "2022-05-28"
+        "likes": 6,
+        "lastModified": "2023-11-20"
       }
     },
     {
@@ -53380,6 +53347,59 @@
         "downloads": 13,
         "likes": 3,
         "lastModified": "2026-04-23"
+      }
+    },
+    {
+      "id": "whisper-base-ar-quran-ft-hijaiyah-2",
+      "name": "whisper base ar quran ft hijaiyah 2",
+      "type": "asr",
+      "country": "INTL",
+      "org": "ojisetyawan",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "evaluation",
+        "quran"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/ojisetyawan/whisper-base-ar-quran-ft-hijaiyah-2"
+      },
+      "dialects": [
+        "classical"
+      ],
+      "year": 2024,
+      "notes": "Arabic audio classification model fine-tuned from tarteel-ai/whisper-base-ar-quran trained on Reinjin/Pelafalan_Huruf_Hijaiyah.",
+      "base_model": [
+        "tarteel-ai/whisper-base-ar-quran"
+      ],
+      "metrics": {
+        "downloads": 13,
+        "likes": 3,
+        "lastModified": "2024-12-02"
+      }
+    },
+    {
+      "id": "whisper-medium-arabic-suite-ii",
+      "name": "whisper medium arabic suite II",
+      "type": "asr",
+      "country": "INTL",
+      "org": "Seyfelislem",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "evaluation"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/Seyfelislem/whisper-medium-arabic-suite-II"
+      },
+      "year": 2023,
+      "notes": "Arabic automatic speech recognition model trained on mozilla-foundation/common_voice_11_0.",
+      "metrics": {
+        "downloads": 13,
+        "likes": 3,
+        "lastModified": "2023-04-30"
       }
     },
     {
@@ -53562,29 +53582,6 @@
         "downloads": 12,
         "likes": 3,
         "lastModified": "2025-08-09"
-      }
-    },
-    {
-      "id": "hamsa-v0-1-beta",
-      "name": "hamsa v0.1 beta",
-      "type": "asr",
-      "country": "INTL",
-      "org": "nadsoft",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "pretraining"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/nadsoft/hamsa-v0.1-beta"
-      },
-      "year": 2023,
-      "notes": "Hamsa (همسة) represents a sophisticated advancement in the realm of Arabic speech recognition.",
-      "metrics": {
-        "downloads": 12,
-        "likes": 6,
-        "lastModified": "2023-11-20"
       }
     },
     {
@@ -53807,6 +53804,32 @@
         "downloads": 11,
         "likes": 1,
         "lastModified": "2025-05-10"
+      }
+    },
+    {
+      "id": "dvoice-darija",
+      "name": "dvoice darija",
+      "type": "asr",
+      "country": "INTL",
+      "org": "aioxlabs",
+      "license": "apache-2.0",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "pretraining"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/aioxlabs/dvoice-darija"
+      },
+      "dialects": [
+        "magh"
+      ],
+      "year": 2022,
+      "notes": "This repository provides all the necessary tools to perform automatic speech recognition from an end-to-end system pretrained.",
+      "metrics": {
+        "downloads": 11,
+        "likes": 8,
+        "lastModified": "2022-05-28"
       }
     },
     {
@@ -54041,29 +54064,6 @@
         "downloads": 11,
         "likes": 4,
         "lastModified": "2024-07-30"
-      }
-    },
-    {
-      "id": "whisper-medium-arabic-suite-ii",
-      "name": "whisper medium arabic suite II",
-      "type": "asr",
-      "country": "INTL",
-      "org": "Seyfelislem",
-      "license": "apache-2.0",
-      "modality": "speech",
-      "tasks": [
-        "asr",
-        "evaluation"
-      ],
-      "links": {
-        "hf": "https://huggingface.co/Seyfelislem/whisper-medium-arabic-suite-II"
-      },
-      "year": 2023,
-      "notes": "Arabic automatic speech recognition model trained on mozilla-foundation/common_voice_11_0.",
-      "metrics": {
-        "downloads": 11,
-        "likes": 3,
-        "lastModified": "2023-04-30"
       }
     },
     {

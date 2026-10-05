@@ -9,6 +9,8 @@
   - chat
   links:
     hf: https://huggingface.co/inceptionai/jais-30b-v3
+  base_model:
+  - from-scratch
   size: 13B, 30B
   dialects:
   - msa
@@ -39,6 +41,8 @@
   - chat
   links:
     hf: https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview
+  base_model:
+  - from-scratch
   size: 7B
   dialects:
   - msa
@@ -55,6 +59,8 @@
   - chat
   links:
     hf: https://huggingface.co/QCRI/Fanar-1-9B-Instruct
+  base_model:
+  - qcri/fanar-1-9b
   size: 9B
   dialects:
   - msa
@@ -70,6 +76,8 @@
   - chat
   links:
     github: https://github.com/FreedomIntelligence/AceGPT
+  base_model:
+  - meta-llama/llama-2-7b-hf
   size: 7B
   notes: Top performance, culturally aligned
 - id: atlas-chat
@@ -83,6 +91,10 @@
   - chat
   links:
     hf: https://huggingface.co/collections/MBZUAI-Paris/atlas-chat
+  base_model:
+  - google/gemma-2-2b-it
+  - google/gemma-2-9b-it
+  - google/gemma-2-27b-it
   size: 2B-27B
   dialects:
   - magh
@@ -98,6 +110,8 @@
   - chat
   links:
     hf: https://huggingface.co/UBC-NLP/NileChat-3B
+  base_model:
+  - qwen/qwen2.5-3b
   size: 3B
   on_device: true
   dialects:
@@ -115,6 +129,9 @@
   - chat
   links:
     hf: https://huggingface.co/collections/MBZUAI-Paris/nile-chat
+  base_model:
+  - google/gemma-3-4b-pt
+  - google/gemma-3-12b-pt
   size: 4B-12B
   dialects:
   - egy
@@ -130,6 +147,8 @@
   - chat
   links:
     hf: https://huggingface.co/aubmindlab/aragpt2-mega
+  base_model:
+  - from-scratch
   size: 1.5B
   notes: GPT-2 for Arabic text generation
   on_device: true
@@ -144,6 +163,8 @@
   - chat
   links:
     hf: https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025
+  base_model:
+  - coherelabs/c4ai-command-r7b-12-2024
   size: 7B
   notes: Arabic-optimized Command R variant
 - id: sambalingo-arabic
@@ -261,6 +282,8 @@
   - chat
   links:
     hf: https://huggingface.co/tiiuae/Falcon3-7B-Instruct
+  base_model:
+  - tiiuae/falcon3-7b-base
   size: 7B
   notes: First Arabic model in Falcon series, top of OALL
 - id: falcon-h1-arabic
@@ -381,6 +404,8 @@
   - chat
   links:
     hf: https://huggingface.co/Navid-AI/Yehia-7B
+  base_model:
+  - allam-ai/allam-7b-instruct-preview
   size: 7B
   notes: Based on ALLaM, Arabic instruction-tuned
 - id: arallama
@@ -596,6 +621,8 @@
   - chat
   links:
     hf: https://huggingface.co/MaziyarPanahi/calme-2.2-qwen2-72b
+  base_model:
+  - qwen/qwen2-72b
   size: 72B
   notes: Qwen2-based, strong OALL performance
 - id: ain
@@ -843,6 +870,8 @@
   - task-specific
   links:
     hf: https://huggingface.co/alnnahwi/gemma-3-1b-arabic-gec-v1
+  base_model:
+  - google/gemma-3-1b-pt
   notes: Grammar Correction - Gemma-3-1b for Arabic GEC
 - id: arabic-text-correction
   name: Arabic-Text-Correction
@@ -919,6 +948,8 @@
   - chat
   links:
     hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-9B
+  base_model:
+  - google/gemma-2-9b-it
   size: 9.2B
   year: 2024
   dialects:
@@ -935,6 +966,8 @@
   - chat
   links:
     hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-2B
+  base_model:
+  - google/gemma-2-2b-it
   size: 2.6B
   year: 2024
   on_device: true
@@ -952,6 +985,8 @@
   - chat
   links:
     hf: https://huggingface.co/MBZUAI-Paris/Atlas-Chat-27B
+  base_model:
+  - google/gemma-2-27b-it
   size: 27.2B
   year: 2024
   dialects:
@@ -968,6 +1003,8 @@
   - chat
   links:
     hf: https://huggingface.co/MBZUAI-Paris/Nile-Chat-4B
+  base_model:
+  - google/gemma-3-4b-pt
   size: 3.9B
   year: 2025
   dialects:
@@ -984,6 +1021,8 @@
   - chat
   links:
     hf: https://huggingface.co/MBZUAI-Paris/Nile-Chat-12B
+  base_model:
+  - google/gemma-3-12b-pt
   size: 11.8B
   year: 2025
   dialects:
@@ -1000,6 +1039,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/UBC-NLP/NileChat-3B-Base
+  base_model:
+  - qwen/qwen2.5-3b
   size: 3.4B
   year: 2026
   dialects:
@@ -1016,6 +1057,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/atlasia/Al-Atlas-0.5B
+  base_model:
+  - qwen/qwen2.5-0.5b
   size: 494M
   year: 2025
   on_device: true
@@ -1049,6 +1092,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/aubmindlab/aragpt2-base
+  base_model:
+  - from-scratch
   size: 148M
   year: 2022
   on_device: true
@@ -1066,6 +1111,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/aubmindlab/aragpt2-medium
+  base_model:
+  - from-scratch
   size: 394M
   year: 2022
   on_device: true
@@ -1083,6 +1130,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/aubmindlab/aragpt2-large
+  base_model:
+  - from-scratch
   size: 829M
   year: 2022
   on_device: true
@@ -1497,6 +1546,8 @@
   - chat
   links:
     hf: https://huggingface.co/MohamedRashad/Arabic-Orpo-Llama-3-8B-Instruct
+  base_model:
+  - meta-llama/meta-llama-3-8b-instruct
   size: 8.0B
   year: 2024
   dialects:
@@ -1559,6 +1610,8 @@
   - chat
   links:
     hf: https://huggingface.co/ESPRIT-Group/ESPRIT-Derja-Qwen3-8B-v2
+  base_model:
+  - qwen/qwen3-8b
   size: 8.2B
   year: 2025
   dialects:
@@ -1637,6 +1690,8 @@
   - chat
   links:
     hf: https://huggingface.co/KareemBb/Qwen2.5-7B-Instruct-Jordanian
+  base_model:
+  - qwen/qwen2.5-7b-instruct
   dialects:
   - lev
   notes: Qwen2.5-7B-Instruct fine-tuned for Jordanian dialect chat.
@@ -1651,6 +1706,8 @@
   - chat
   links:
     hf: https://huggingface.co/assix-research/lebanese-llama-3.1-8b
+  base_model:
+  - unsloth/meta-llama-3.1-8b-instruct-bnb-4bit
   size: 8.0B
   dialects:
   - lev
@@ -1695,6 +1752,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-family-13b-chat
+  base_model:
+  - inceptionai/jais-family-13b
   size: 590M-30B
   year: 2024
   notes: Jais family of bilingual Arabic-English chat models from 590M to 30B trained from scratch.
@@ -1710,6 +1769,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-family-590m
+  base_model:
+  - from-scratch
   size: 590M
   year: 2024
   on_device: true
@@ -1725,6 +1786,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-adapted-13b-chat
+  base_model:
+  - inceptionai/jais-adapted-13b
   size: 7B-70B
   year: 2024
   notes: Jais-adapted series (7B, 13B, 70B) continued-pretrained from Llama-2 with Arabic vocabulary extension.
@@ -1767,6 +1830,8 @@
   - chat
   links:
     hf: https://huggingface.co/QCRI/Fanar-2-Diwan
+  base_model:
+  - aubmindlab/aragpt2-mega
   notes: Fanar-2 family model released by QCRI on Hugging Face.
 - id: llamalens
   name: LlamaLens
@@ -1779,6 +1844,8 @@
   - classification
   links:
     hf: https://huggingface.co/QCRI/LlamaLens
+  base_model:
+  - meta-llama/llama-3.1-8b-instruct
   year: 2025
   notes: Multilingual news and social-media analysis LLM covering Arabic, from QCRI.
 - id: fasee7-najdi-small
@@ -1848,6 +1915,8 @@
   links:
     hf: https://huggingface.co/inception42/Jais-2-70B-Chat
     paper: https://arxiv.org/abs/2608.13580
+  base_model:
+  - from-scratch
   size: 70B
   year: 2025
   notes: Second-generation Jais Arabic-English chat model released Dec 2025.
@@ -1863,6 +1932,8 @@
   links:
     hf: https://huggingface.co/inception42/Jais-2-8B-Chat
     paper: https://arxiv.org/abs/2608.13580
+  base_model:
+  - from-scratch
   size: 8B
   year: 2025
   notes: Smaller Jais 2 Arabic-English chat model with GGUF builds.
@@ -1878,6 +1949,8 @@
   links:
     hf: https://huggingface.co/QCRI/Fanar-2-27B-Instruct
     paper: https://arxiv.org/abs/2603.16397
+  base_model:
+  - google/gemma-3-27b-pt
   size: 27B
   year: 2026
   notes: Fanar 2 Arabic-English instruct model built on Gemma 3 27B, released March 2026.
@@ -1967,6 +2040,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-13b
+  base_model:
+  - from-scratch
   size: 13B
   on_device: false
   year: 2024
@@ -1984,6 +2059,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-13b-chat
+  base_model:
+  - inception-mbzuai/jais-13b
   size: 13B
   on_device: false
   year: 2024
@@ -2017,6 +2094,8 @@
   - explanation
   links:
     hf: https://huggingface.co/NorahAlobaied/Mawrooth-ALLaM-7B-LoRA
+  base_model:
+  - humain-ai/allam-7b-instruct-preview
   dialects:
   - gulf
   size: 7B
@@ -2047,6 +2126,8 @@
   - chat
   links:
     hf: https://huggingface.co/Navid-AI/Yehia-7B-preview
+  base_model:
+  - allam-ai/allam-7b-instruct-preview
   size: 7B
   on_device: false
   year: 2026
@@ -2184,6 +2265,8 @@
   - chat
   links:
     hf: https://huggingface.co/beetleware/Bee1reason-arabic-Qwen-14B
+  base_model:
+  - unsloth/qwen3-14b
   size: 14B
   on_device: false
   year: 2025
@@ -2864,6 +2947,8 @@
   - translation
   links:
     hf: https://huggingface.co/hammh0a/Hala-350M
+  base_model:
+  - liquidai/lfm2-350m
   size: 350M
   on_device: true
   year: 2025
@@ -2912,6 +2997,8 @@
   - reasoning
   links:
     hf: https://huggingface.co/Omartificial-Intelligence-Space/Fanar-Math-R1-GRPO
+  base_model:
+  - qcri/fanar-1-9b-instruct
   year: 2025
   notes: Fanar-1-9B-Instruct fine-tuned with GRPO for Arabic math reasoning.
   size: 9B
@@ -2968,6 +3055,8 @@
   - chat
   links:
     hf: https://huggingface.co/BounharAbdelaziz/Al-Atlas-LLM-0.5B
+  base_model:
+  - qwen/qwen2.5-0.5b
   dialects:
   - magh
   size: 0.5B
@@ -3061,6 +3150,8 @@
   - chat
   links:
     hf: https://huggingface.co/Jr23xd23/Math_Arabic_Llama-3.2-3B-Instruct
+  base_model:
+  - meta-llama/llama-3.2-3b-instruct
   size: 3B
   on_device: true
   year: 2024
@@ -3090,6 +3181,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview
+  base_model:
+  - from-scratch
   dialects:
   - gulf
   size: 7B
@@ -3204,6 +3297,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-family-590m-chat
+  base_model:
+  - inceptionai/jais-family-590m
   size: 590M
   on_device: true
   year: 2024
@@ -3618,6 +3713,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/asas-ai/AceGPT-v2-32B-Chat
+  base_model:
+  - qwen/qwen1.5-32b
   size: 32B
   on_device: false
   year: 2024
@@ -3636,6 +3733,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/FreedomIntelligence/AceGPT-13B
+  base_model:
+  - meta-llama/llama-2-13b-hf
   size: 13B
   on_device: false
   year: 2023
@@ -3684,6 +3783,8 @@
   - chat
   links:
     hf: https://huggingface.co/inception42/jais-family-30b-8k
+  base_model:
+  - from-scratch
   size: 30B
   on_device: false
   year: 2024
@@ -3764,6 +3865,8 @@
   - pretraining
   links:
     hf: https://huggingface.co/DarjaCore/Qwen3-4B-Algerian-Darja
+  base_model:
+  - qwen/qwen3-4b-base
   dialects:
   - magh
   size: 4B
@@ -3982,6 +4085,8 @@
   - instruction-tuning
   links:
     hf: https://huggingface.co/malhajar/Mistral-7B-v0.1-arabic
+  base_model:
+  - mistralai/mistral-7b-v0.1
   size: 7B
   on_device: false
   year: 2024
@@ -4583,6 +4688,8 @@
   - vision
   links:
     hf: https://huggingface.co/AbderrahmanSkiredj1/GemMaroc-27b-it
+  base_model:
+  - google/gemma-3-27b-it
   dialects:
   - magh
   size: 27B
@@ -5149,6 +5256,8 @@
   - chat
   links:
     hf: https://huggingface.co/Omartificial-Intelligence-Space/Diraya-3B-Instruct-Ar
+  base_model:
+  - unsloth/qwen2.5-3b-instruct-unsloth-bnb-4bit
   size: 3B
   on_device: true
   year: 2025
@@ -5807,6 +5916,8 @@
   - instruction-tuning
   links:
     hf: https://huggingface.co/HeshamHaroon/llama-2-7b-chat-ar
+  base_model:
+  - nousresearch/llama-2-7b-chat-hf
   size: 7B
   on_device: false
   year: 2023

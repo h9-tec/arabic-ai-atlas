@@ -38,6 +38,9 @@
         "hf": "https://huggingface.co/openai/whisper-large-v3-turbo"
       },
       "notes": "4x faster Whisper, Arabic support, MIT license",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 6304256,
         "likes": 3412,
@@ -168,6 +171,9 @@
       },
       "year": 2026,
       "notes": "Gemma 4 E4B LoRA fine-tune for Arabic dialectal claims comparison (NLI).",
+      "base_model": [
+        "google/gemma-4-e4b-it"
+      ],
       "metrics": {
         "downloads": 437351,
         "likes": 2,
@@ -190,6 +196,9 @@
       },
       "size": "70B",
       "notes": "Strong Arabic performance",
+      "base_model": [
+        "meta-llama/llama-3.1-70b"
+      ],
       "metrics": {
         "downloads": 399695,
         "likes": 3099,
@@ -276,6 +285,9 @@
         "hf": "https://huggingface.co/QCRI/Fanar-2-27B-Instruct",
         "paper": "https://arxiv.org/abs/2603.16397"
       },
+      "base_model": [
+        "google/gemma-3-27b-pt"
+      ],
       "size": "27B",
       "year": 2026,
       "notes": "Fanar 2 Arabic-English instruct model built on Gemma 3 27B, released March 2026.",
@@ -444,6 +456,9 @@
       },
       "year": 2023,
       "notes": "Fine-tune of cardiffnlp twitter-xlm-roberta-base-sentiment for Arabic-English sentiment classification.",
+      "base_model": [
+        "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+      ],
       "metrics": {
         "downloads": 96525,
         "likes": 0,
@@ -539,6 +554,9 @@
         "msa"
       ],
       "notes": "Cohere Transcribe specialised for Arabic speech recognition.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-03-2026"
+      ],
       "metrics": {
         "downloads": 47667,
         "likes": 212,
@@ -838,6 +856,9 @@
         "gulf"
       ],
       "notes": "Qwen3-ASR fine-tuned for Emirati Arabic.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 19917,
         "likes": 1,
@@ -864,6 +885,9 @@
         "classical"
       ],
       "notes": "Whisper large-v3-turbo fine-tuned on Quran recitation.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 19232,
         "likes": 2,
@@ -886,6 +910,9 @@
       },
       "year": 2024,
       "notes": "This is a sentence-transformers model finetuned from aubmindlab/bert-base-arabertv02.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 17433,
         "likes": 17,
@@ -962,6 +989,9 @@
         "hf": "https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v1"
       },
       "notes": "SOTA on MTEB Arabic STS",
+      "base_model": [
+        "omartificial-intelligence-space/arabic-triplet-matryoshka-v2"
+      ],
       "metrics": {
         "downloads": 14758,
         "likes": 20,
@@ -991,6 +1021,9 @@
         "variants:2"
       ],
       "notes": "Arabic automatic speech recognition model fine-tuned from facebook/w2v-bert-2.0 trained on obadx/muaalem-annotated-v3.",
+      "base_model": [
+        "facebook/w2v-bert-2.0"
+      ],
       "metrics": {
         "downloads": 14073,
         "likes": 11,
@@ -1070,6 +1103,9 @@
         "magh"
       ],
       "notes": "F5-TTS fine-tuned on Algerian Darja; Algeria noted.",
+      "base_model": [
+        "ibrahimsalah/arabic-f5-tts-v2"
+      ],
       "metrics": {
         "downloads": 12541,
         "likes": 0,
@@ -1163,6 +1199,9 @@
       "links": {
         "hf": "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
       },
+      "base_model": [
+        "qcri/fanar-1-9b"
+      ],
       "size": "9B",
       "dialects": [
         "msa"
@@ -1188,6 +1227,9 @@
       "links": {
         "hf": "https://huggingface.co/tiiuae/Falcon3-7B-Instruct"
       },
+      "base_model": [
+        "tiiuae/falcon3-7b-base"
+      ],
       "size": "7B",
       "notes": "First Arabic model in Falcon series, top of OALL",
       "metrics": {
@@ -1210,6 +1252,9 @@
       "links": {
         "hf": "https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "7B",
       "dialects": [
         "msa"
@@ -1237,6 +1282,9 @@
       "links": {
         "hf": "https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "dialects": [
         "gulf"
       ],
@@ -1412,6 +1460,9 @@
       ],
       "year": 2026,
       "notes": "Unlike standard Arabic ASR systems that output orthographic Arabic text, this model outputs a phonetic (sound-level) representation, making it suitable.",
+      "base_model": [
+        "facebook/wav2vec2-base"
+      ],
       "metrics": {
         "downloads": 8578,
         "likes": 9,
@@ -1438,6 +1489,9 @@
         "msa"
       ],
       "notes": "4-bit Qwen2.5-VL 3B for Arabic handwritten OCR.",
+      "base_model": [
+        "qwen/qwen2.5-vl-3b-instruct"
+      ],
       "metrics": {
         "downloads": 8446,
         "likes": 12,
@@ -1490,6 +1544,9 @@
         "hf": "https://huggingface.co/Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2"
       },
       "notes": "Matryoshka representation",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 6958,
         "likes": 27,
@@ -1571,6 +1628,9 @@
         "msa"
       ],
       "notes": "Arabic STS Matryoshka embedding model.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 6240,
         "likes": 4,
@@ -1618,6 +1678,9 @@
         "hf": "https://huggingface.co/inception42/Jais-2-8B-Chat",
         "paper": "https://arxiv.org/abs/2608.13580"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "8B",
       "year": 2025,
       "notes": "Smaller Jais 2 Arabic-English chat model with GGUF builds.",
@@ -1836,6 +1899,9 @@
         "msa"
       ],
       "notes": "Arabic retrieval embedding model.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 5061,
         "likes": 6,
@@ -2105,6 +2171,9 @@
       ],
       "year": 2026,
       "notes": "openai/whisper-large-v3 fine-tuned for Quran and Hadith transcription without giving up general Modern Standard Arabic.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 3892,
         "likes": 0,
@@ -2440,6 +2509,9 @@
         "variants:2"
       ],
       "notes": "This repository contains merged full weights for Saudi-dialect chat generation, not just LoRA adapters. (also: 2 variants)",
+      "base_model": [
+        "unsloth/qwen3.5-9b"
+      ],
       "metrics": {
         "downloads": 3177,
         "likes": 0,
@@ -2513,6 +2585,10 @@
         "yemeni"
       ],
       "notes": "Small Gemma-based chat assistant for Yemeni dialect, GGUF (Yemen).",
+      "base_model": [
+        "unsloth/gemma-4-e2b-it",
+        "google/gemma-4-e2b-it"
+      ],
       "metrics": {
         "downloads": 3058,
         "likes": 0,
@@ -2540,6 +2616,9 @@
         "egy"
       ],
       "notes": "wav2vec2 XLSR-53 fine-tuned on Egyptian Arabic.",
+      "base_model": [
+        "omarxadel/wav2vec2-large-xlsr-53-arabic-egyptian"
+      ],
       "metrics": {
         "downloads": 3049,
         "likes": 6,
@@ -2560,6 +2639,9 @@
       "links": {
         "hf": "https://huggingface.co/aubmindlab/aragpt2-base"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "148M",
       "year": 2022,
       "on_device": true,
@@ -2592,6 +2674,9 @@
         "egy"
       ],
       "notes": "BERT-style encoder for Egyptian Arabic (Masri) text; community model.",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 2914,
         "likes": 0,
@@ -2916,6 +3001,9 @@
         "msa"
       ],
       "notes": "Arabic prompt-injection and jailbreak classifier from NAMAA.",
+      "base_model": [
+        "meta-llama/llama-prompt-guard-2-86m"
+      ],
       "metrics": {
         "downloads": 2405,
         "likes": 11,
@@ -3103,6 +3191,9 @@
         "variants:2"
       ],
       "notes": "A cross-encoder model for reranking Arabic long texts, fine-tuned from Alibaba-NLP/gte-multilingual-reranker-base. (also: 2 variants)",
+      "base_model": [
+        "alibaba-nlp/gte-multilingual-reranker-base"
+      ],
       "metrics": {
         "downloads": 2128,
         "likes": 0,
@@ -3150,6 +3241,9 @@
         "magh"
       ],
       "notes": "wav2vec2 XLSR fine-tuned on Moroccan Darija.",
+      "base_model": [
+        "facebook/wav2vec2-large-xlsr-53"
+      ],
       "metrics": {
         "downloads": 2052,
         "likes": 32,
@@ -18910,6 +19004,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-family-590m"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "590M",
       "year": 2024,
       "on_device": true,
@@ -18962,6 +19059,9 @@
         "hf": "https://huggingface.co/sherif1313/Arabic-English-handwritten-OCR-v3"
       },
       "notes": "Qwen2.5-VL-3B, trained on 47K handwriting samples",
+      "base_model": [
+        "qwen/qwen2.5-vl-3b-instruct"
+      ],
       "metrics": {
         "downloads": 1972,
         "likes": 14,
@@ -19011,6 +19111,9 @@
         "magh"
       ],
       "notes": "Whisper large-v3-turbo fine-tuned on Moroccan Darija.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 1923,
         "likes": 9,
@@ -19083,6 +19186,9 @@
       "links": {
         "hf": "https://huggingface.co/NorahAlobaied/Mawrooth-ALLaM-7B-LoRA"
       },
+      "base_model": [
+        "humain-ai/allam-7b-instruct-preview"
+      ],
       "dialects": [
         "gulf"
       ],
@@ -19167,6 +19273,9 @@
       ],
       "year": 2026,
       "notes": "Arabic automatic speech recognition model fine-tuned from Qwen/Qwen3-ASR-1.7B.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 1831,
         "likes": 10,
@@ -19187,6 +19296,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-adapted-13b-chat"
       },
+      "base_model": [
+        "inceptionai/jais-adapted-13b"
+      ],
       "size": "7B-70B",
       "year": 2024,
       "notes": "Jais-adapted series (7B, 13B, 70B) continued-pretrained from Llama-2 with Arabic vocabulary extension.",
@@ -19217,6 +19329,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of facebook/w2v-bert-2.0 for segmenting Holy Quran recitations based on pause points (waqf).",
+      "base_model": [
+        "facebook/w2v-bert-2.0"
+      ],
       "metrics": {
         "downloads": 1783,
         "likes": 3,
@@ -19289,6 +19404,9 @@
       "links": {
         "hf": "https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025"
       },
+      "base_model": [
+        "coherelabs/c4ai-command-r7b-12-2024"
+      ],
       "size": "7B",
       "notes": "Arabic-optimized Command R variant",
       "metrics": {
@@ -19363,6 +19481,9 @@
         "hf": "https://huggingface.co/inception42/Jais-2-70B-Chat",
         "paper": "https://arxiv.org/abs/2608.13580"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "70B",
       "year": 2025,
       "notes": "Second-generation Jais Arabic-English chat model released Dec 2025.",
@@ -19505,6 +19626,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-family-590m-chat"
       },
+      "base_model": [
+        "inceptionai/jais-family-590m"
+      ],
       "size": "590M",
       "on_device": true,
       "year": 2024,
@@ -19622,6 +19746,9 @@
         "msa"
       ],
       "notes": "Speech model that transcribes Arabic with tashkeel (diacritics).",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 1473,
         "likes": 28,
@@ -19647,6 +19774,9 @@
       "size": "7B",
       "year": 2026,
       "notes": "Arabic-English vision-language model on Qwen2.5-VL-7B with cultural understanding focus.",
+      "base_model": [
+        "qwen/qwen2.5-vl-7b-instruct"
+      ],
       "metrics": {
         "downloads": 1463,
         "likes": 4,
@@ -19724,6 +19854,9 @@
         "msa"
       ],
       "notes": "wav2vec2 phoneme recognizer for Arabic.",
+      "base_model": [
+        "facebook/wav2vec2-large-xlsr-53"
+      ],
       "metrics": {
         "downloads": 1451,
         "likes": 1,
@@ -19796,6 +19929,9 @@
       },
       "year": 2026,
       "notes": "تم حفظ النموذج عند الخطوة 20000.",
+      "base_model": [
+        "noormont/noormontai"
+      ],
       "metrics": {
         "downloads": 1399,
         "likes": 0,
@@ -19869,6 +20005,9 @@
         "mixed"
       ],
       "notes": "Whisper large-v3 fine-tuned on Arabic dialects.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 1379,
         "likes": 2,
@@ -19971,6 +20110,9 @@
         "msa"
       ],
       "notes": "Small Arabic MiniLM sentence embedding model trained on NLI triplets.",
+      "base_model": [
+        "sentence-transformers/paraphrase-multilingual-minilm-l12-v2"
+      ],
       "metrics": {
         "downloads": 1338,
         "likes": 4,
@@ -20044,6 +20186,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "Karnak is a powerful AI model that works in both Arabic and English.",
+      "base_model": [
+        "qwen/qwen3-30b-a3b-instruct-2507"
+      ],
       "metrics": {
         "downloads": 1323,
         "likes": 72,
@@ -20067,6 +20212,9 @@
       },
       "year": 2026,
       "notes": "Egypt national Arabic LLM; first national apps built on it: SIA tutor and a legal/regulatory guidance assistant.",
+      "base_model": [
+        "qwen/qwen3-30b-a3b-instruct-2507"
+      ],
       "metrics": {
         "downloads": 1323,
         "likes": 72,
@@ -20118,6 +20266,9 @@
         "classical"
       ],
       "notes": "FastConformer CTC model for Quran recitation.",
+      "base_model": [
+        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      ],
       "metrics": {
         "downloads": 1299,
         "likes": 26,
@@ -20165,6 +20316,9 @@
       },
       "year": 2025,
       "notes": "This model is a 36.2% smaller version of BAAI/bge-m3 for the Arabic language.",
+      "base_model": [
+        "baai/bge-m3"
+      ],
       "metrics": {
         "downloads": 1282,
         "likes": 9,
@@ -20272,6 +20426,9 @@
       "on_device": true,
       "year": 2025,
       "notes": "This is the model described in the paper QARI-OCR: High-Fidelity Arabic Text Recognition through Multimodal Large Language Model Adaptation.",
+      "base_model": [
+        "unsloth/qwen2-vl-2b-instruct-unsloth-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 1250,
         "likes": 25,
@@ -20342,6 +20499,9 @@
       },
       "year": 2025,
       "notes": "This is a sentence-transformers model finetuned from UBC-NLP/MARBERTv2 on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 1223,
         "likes": 1,
@@ -20499,6 +20659,9 @@
         "variants:1"
       ],
       "notes": "Muffakir This is the second version of the MuffakirEmbedding model. (also: 1 variants)",
+      "base_model": [
+        "sayed0am/arabic-english-bge-m3"
+      ],
       "metrics": {
         "downloads": 1194,
         "likes": 6,
@@ -20603,6 +20766,9 @@
         "msa"
       ],
       "notes": "Qari OCR 0.4.0, 4B vision-language Arabic OCR model.",
+      "base_model": [
+        "qwen/qwen3-vl-4b-instruct"
+      ],
       "metrics": {
         "downloads": 1172,
         "likes": 10,
@@ -20727,6 +20893,9 @@
         "msa"
       ],
       "notes": "Arabic Matryoshka embeddings trained on translated all-nli triplets.",
+      "base_model": [
+        "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+      ],
       "metrics": {
         "downloads": 1124,
         "likes": 6,
@@ -20780,6 +20949,9 @@
       "on_device": true,
       "year": 2025,
       "notes": "Arabic audio classification model fine-tuned from facebook/mms-300m.",
+      "base_model": [
+        "facebook/mms-300m"
+      ],
       "metrics": {
         "downloads": 1092,
         "likes": 9,
@@ -20807,6 +20979,9 @@
         "msa"
       ],
       "notes": "Nabra 82M compact Arabic text-to-speech.",
+      "base_model": [
+        "hexgrad/kokoro-82m"
+      ],
       "metrics": {
         "downloads": 1075,
         "likes": 10,
@@ -20879,6 +21054,9 @@
         "mixed"
       ],
       "notes": "Whisper large-v3-turbo fine-tuned on Arabic dialects.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 1065,
         "likes": 2,
@@ -21208,6 +21386,9 @@
         "magh"
       ],
       "notes": "DarijaTTS 500M Moroccan Darija text-to-speech.",
+      "base_model": [
+        "outeai/outetts-0.2-500m"
+      ],
       "metrics": {
         "downloads": 936,
         "likes": 0,
@@ -21287,6 +21468,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of UBC-NLP/MARBERTv2 for Arabic written dialect classification.",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 923,
         "likes": 6,
@@ -21312,6 +21496,9 @@
         "gulf"
       ],
       "notes": "Second-generation Saudi-dialect TTS from NAMAA.",
+      "base_model": [
+        "swivid/habibi-tts"
+      ],
       "metrics": {
         "downloads": 922,
         "likes": 10,
@@ -21340,6 +21527,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "ASL (أصل) is a 4-billion-parameter Arabic language model developed by SAAI.",
+      "base_model": [
+        "qwen3.5"
+      ],
       "metrics": {
         "downloads": 920,
         "likes": 19,
@@ -21442,6 +21632,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "80,000 Egyptian terms • 2,500 steps • Loss 0.079 • 2.9GB 16-bit Merged English | [بالمصري](#-بالمصري---الوثائق-الاح",
+      "base_model": [
+        "qwen/qwen2.5-1.5b-instruct"
+      ],
       "metrics": {
         "downloads": 909,
         "likes": 1,
@@ -21468,6 +21661,9 @@
         "magh"
       ],
       "notes": "Moulsot ASR for Moroccan Darija from Atlasia.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 906,
         "likes": 17,
@@ -21537,6 +21733,9 @@
       "links": {
         "hf": "https://huggingface.co/aubmindlab/aragpt2-medium"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "394M",
       "year": 2022,
       "on_device": true,
@@ -21663,6 +21862,9 @@
       },
       "year": 2025,
       "notes": "This is a sentence-transformers model finetuned from aubmindlab/bert-base-arabertv02 on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 846,
         "likes": 11,
@@ -21708,6 +21910,9 @@
         "msa"
       ],
       "notes": "Spark TTS fine-tuned on 300h clean Arabic, MSA with diacritics",
+      "base_model": [
+        "sparkaudio/spark-tts-0.5b"
+      ],
       "metrics": {
         "downloads": 830,
         "likes": 30,
@@ -21813,6 +22018,9 @@
         "egy"
       ],
       "notes": "6B small sibling of the Karnak national Egyptian LLM from the Applied Innovation Center, MCIT.",
+      "base_model": [
+        "qwen/qwen3-4b-instruct-2507"
+      ],
       "metrics": {
         "downloads": 815,
         "likes": 7,
@@ -21837,6 +22045,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "Unlike standard models trained on unstructured, noisy repositories, AynCoding-Qwen3-8B-Slim actively purges illogical pre-",
+      "base_model": [
+        "qwen/qwen3-8b"
+      ],
       "metrics": {
         "downloads": 807,
         "likes": 0,
@@ -21895,6 +22106,9 @@
         "variants:1"
       ],
       "notes": "This qwen2 model was trained 2x faster with Unsloth and Huggingface's TRL library. (also: 1 variants)",
+      "base_model": [
+        "unsloth/qwen2.5-7b-instruct"
+      ],
       "metrics": {
         "downloads": 796,
         "likes": 0,
@@ -22016,6 +22230,10 @@
       ],
       "year": 2025,
       "notes": "This model is a CTranslate2 version of tarteel-ai/whisper-base-ar-quran.",
+      "base_model": [
+        "tarteel-ai/whisper-base-ar-quran",
+        "openai/whisper-base"
+      ],
       "metrics": {
         "downloads": 768,
         "likes": 6,
@@ -22068,6 +22286,9 @@
         "msa"
       ],
       "notes": "SILMA Arabic and English Matryoshka embedding model.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 755,
         "likes": 14,
@@ -22216,6 +22437,9 @@
       ],
       "year": 2026,
       "notes": "Mtrini-SVL-1.1 is an open-weight 8B model developed by Compiwer AI, based on Qwen3-VL-8B-Instruct.",
+      "base_model": [
+        "qwen/qwen3-vl-8b-instruct"
+      ],
       "metrics": {
         "downloads": 735,
         "likes": 0,
@@ -22316,6 +22540,9 @@
       ],
       "year": 2026,
       "notes": "Fine-tune of openai/whisper-large-v3-turbo (809M) for multi-dialect Arabic speech recognition (undiacritized output).",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 722,
         "likes": 4,
@@ -22418,6 +22645,9 @@
       ],
       "year": 2026,
       "notes": "openai/whisper-medium fine-tuned on the full SADA22 dataset (420 hours of Saudi Arabic speech) for Arabic automatic speech recognition (ASR).",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 699,
         "likes": 3,
@@ -22724,6 +22954,9 @@
         "msa"
       ],
       "notes": "Arabic Matryoshka sentence embeddings based on LaBSE.",
+      "base_model": [
+        "sentence-transformers/labse"
+      ],
       "metrics": {
         "downloads": 667,
         "likes": 5,
@@ -22803,6 +23036,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "Arabic-English instruction-tuned chat model fine-tuned from Llama-3.2-1B-Instruct on alpaca-cleaned.",
+      "base_model": [
+        "unsloth/llama-3.2-1b-instruct"
+      ],
       "metrics": {
         "downloads": 661,
         "likes": 0,
@@ -22949,6 +23185,9 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI-Paris/Nile-Chat-4B"
       },
+      "base_model": [
+        "google/gemma-3-4b-pt"
+      ],
       "size": "3.9B",
       "year": 2025,
       "dialects": [
@@ -22980,6 +23219,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "Qwen2.5-7B-Instruct fine-tuned for structured chain-of-thought Arabic reasoning, evaluated on Arabic-GSM8K.",
+      "base_model": [
+        "qwen/qwen2.5-7b-instruct"
+      ],
       "metrics": {
         "downloads": 600,
         "likes": 1,
@@ -23002,6 +23244,9 @@
       },
       "year": 2025,
       "notes": "Fine-tuned Arabic End-of-Utterance (EOU) detection model for LiveKit voice agents.",
+      "base_model": [
+        "livekit/turn-detector"
+      ],
       "metrics": {
         "downloads": 597,
         "likes": 3,
@@ -23106,6 +23351,9 @@
       ],
       "year": 2026,
       "notes": "This model is a fine-tuned version of MohamedGomaa30/spark-tts-normazlied-masri-mega.",
+      "base_model": [
+        "mohamedgomaa30/spark-tts-normazlied-masri-mega"
+      ],
       "metrics": {
         "downloads": 581,
         "likes": 0,
@@ -23173,6 +23421,9 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI-Paris/Atlas-Chat-9B"
       },
+      "base_model": [
+        "google/gemma-2-9b-it"
+      ],
       "size": "9.2B",
       "year": 2024,
       "dialects": [
@@ -23262,6 +23513,9 @@
         "egy"
       ],
       "notes": "Whisper large-v3 fine-tuned on Egyptian Arabic.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 564,
         "likes": 12,
@@ -23285,6 +23539,9 @@
       },
       "year": 2026,
       "notes": "Arabic dense-retrieval embedding model for fiqh (Islamic jurisprudence), fine-tuned from Muffakir_Embedding.",
+      "base_model": [
+        "mohamed2811/muffakir_embedding"
+      ],
       "metrics": {
         "downloads": 556,
         "likes": 0,
@@ -23308,6 +23565,9 @@
       "year": 2025,
       "notes": "Qwen2.5-7B-Instruct fine-tuned with Unsloth as an Arabic story-telling model.",
       "size": "7B",
+      "base_model": [
+        "unsloth/qwen2.5-7b-instruct-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 556,
         "likes": 0,
@@ -23362,6 +23622,9 @@
         "gulf"
       ],
       "notes": "Voho Saudi chat 4B, Saudi-dialect conversational model.",
+      "base_model": [
+        "qwen/qwen3-4b-instruct-2507"
+      ],
       "metrics": {
         "downloads": 555,
         "likes": 1,
@@ -23388,6 +23651,9 @@
         "mixed"
       ],
       "notes": "Multi-dialect Arabic TTS from the Lahgtna project, trained on dialectal speech.",
+      "base_model": [
+        "k2-fsa/omnivoice"
+      ],
       "metrics": {
         "downloads": 554,
         "likes": 13,
@@ -23456,6 +23722,9 @@
       "links": {
         "hf": "https://huggingface.co/DarjaCore/Qwen3-4B-Algerian-Darja"
       },
+      "base_model": [
+        "qwen/qwen3-4b-base"
+      ],
       "dialects": [
         "magh"
       ],
@@ -23530,6 +23799,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-family-13b-chat"
       },
+      "base_model": [
+        "inceptionai/jais-family-13b"
+      ],
       "size": "590M-30B",
       "year": 2024,
       "notes": "Jais family of bilingual Arabic-English chat models from 590M to 30B trained from scratch.",
@@ -23582,6 +23854,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "It serves as the ultra-fast Drafter model within the Hierarchical Symbolic-Neural MoE (H-MoE) architecture, generating high-velocity syntax.",
+      "base_model": [
+        "qwen/qwen2.5-coder-1.5b"
+      ],
       "metrics": {
         "downloads": 535,
         "likes": 0,
@@ -23734,6 +24009,9 @@
       ],
       "year": 2026,
       "notes": "A size-distilled, teacher-initialised student of the Muaalem Quran phoneme-recognition model.",
+      "base_model": [
+        "obadx/muaalem-model-v3_2"
+      ],
       "metrics": {
         "downloads": 527,
         "likes": 0,
@@ -23761,6 +24039,9 @@
       ],
       "year": 2026,
       "notes": "A self-contained 4B conversational medical assistant for Egyptian Arabic and English.",
+      "base_model": [
+        "google/medgemma-4b-it"
+      ],
       "metrics": {
         "downloads": 519,
         "likes": 0,
@@ -23912,6 +24193,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "RightNow-Arabic-0.5B-Turbo is a 518M-parameter Arabic-specialized language model built on top of Qwen2.5-0.5B via vocabulary injection.",
+      "base_model": [
+        "qwen/qwen2.5-0.5b"
+      ],
       "metrics": {
         "downloads": 513,
         "likes": 6,
@@ -23986,6 +24270,9 @@
         "magh"
       ],
       "notes": "Habibi TTS voice for Moroccan Darija.",
+      "base_model": [
+        "swivid/habibi-tts"
+      ],
       "metrics": {
         "downloads": 510,
         "likes": 1,
@@ -24140,6 +24427,9 @@
         "msa"
       ],
       "notes": "Qwen3-VL 2B OCR for Persian and Arabic scripts.",
+      "base_model": [
+        "qwen/qwen3-vl-2b-instruct"
+      ],
       "metrics": {
         "downloads": 500,
         "likes": 20,
@@ -24241,6 +24531,9 @@
         "msa"
       ],
       "notes": "Gemma-based OCR for Arabic legal documents.",
+      "base_model": [
+        "google/gemma-3-4b-it"
+      ],
       "metrics": {
         "downloads": 486,
         "likes": 48,
@@ -24288,6 +24581,9 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI-Paris/Nile-Chat-12B"
       },
+      "base_model": [
+        "google/gemma-3-12b-pt"
+      ],
       "size": "11.8B",
       "year": 2025,
       "dialects": [
@@ -24317,6 +24613,9 @@
       },
       "year": 2026,
       "notes": "Merged Baseer Arabic document OCR VLM variant on Qwen2.5-VL.",
+      "base_model": [
+        "qwen2.5vl"
+      ],
       "metrics": {
         "downloads": 469,
         "likes": 7,
@@ -24367,6 +24666,9 @@
         "mixed"
       ],
       "notes": "Cohere Transcribe Arabic fine-tuned for dialectal speech.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 465,
         "likes": 0,
@@ -24414,6 +24716,9 @@
       },
       "year": 2025,
       "notes": "This is a sentence-transformers model finetuned from tomaarsen/mpnet-base-all-nli-triplet on the Omartificial-Intelligence-Space/arabic-nli-triplet dataset.",
+      "base_model": [
+        "tomaarsen/mpnet-base-all-nli-triplet"
+      ],
       "metrics": {
         "downloads": 462,
         "likes": 10,
@@ -24486,6 +24791,10 @@
         "msa"
       ],
       "notes": "SILMA embedding model tuned for Arabic semantic textual similarity.",
+      "base_model": [
+        "silma-ai/silma-embeddding-matryoshka-0.1",
+        "silma-ai/silma-embedding-matryoshka-v0.1"
+      ],
       "metrics": {
         "downloads": 455,
         "likes": 6,
@@ -24682,6 +24991,9 @@
       },
       "year": 2025,
       "notes": "Arabic sentence embedding model fine-tuned from mmBERT-base on 900K NLI triplets with GISTEmbedLoss (768-dim).",
+      "base_model": [
+        "jhu-clsp/mmbert-base"
+      ],
       "metrics": {
         "downloads": 442,
         "likes": 1,
@@ -24707,6 +25019,9 @@
         "magh"
       ],
       "notes": "F5-based TTS for Algerian Darija; Algeria noted.",
+      "base_model": [
+        "ibrahimsalah/arabic-f5-tts-v2"
+      ],
       "metrics": {
         "downloads": 441,
         "likes": 0,
@@ -24817,6 +25132,9 @@
         "msa"
       ],
       "notes": "Arabic reranker from NAMAA built on GATE-AraBERT.",
+      "base_model": [
+        "omartificial-intelligence-space/gate-arabert-v1"
+      ],
       "metrics": {
         "downloads": 423,
         "likes": 11,
@@ -24966,6 +25284,9 @@
       },
       "year": 2024,
       "notes": "This model is a fine-tuned version of the BAAI/bge-m3 model, which is specialized for sentence similarity tasks in Arabic legal texts in both Arabic.",
+      "base_model": [
+        "baai/bge-m3"
+      ],
       "metrics": {
         "downloads": 404,
         "likes": 6,
@@ -25041,6 +25362,9 @@
         "hf": "https://huggingface.co/ayoubkirouane/whisper-small-ar"
       },
       "notes": "Whisper-small fine-tuned for Arabic language",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 397,
         "likes": 4,
@@ -25189,6 +25513,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "A 51.8M-parameter Arabic (MSA) retrieval-augmented customer-support answerer, trained from scratch.",
+      "base_model": [
+        "oddadmix/50m-2048-emhotob"
+      ],
       "metrics": {
         "downloads": 387,
         "likes": 5,
@@ -25310,6 +25637,9 @@
       ],
       "year": 2026,
       "notes": "NeoAraBERT_Mix: NeoBERT-based Arabic encoder from ACRPS U4RASD and AUB, ranking first on 18 of 23 tasks.",
+      "base_model": [
+        "u4rasd/neoarabert"
+      ],
       "metrics": {
         "downloads": 382,
         "likes": 10,
@@ -25337,6 +25667,9 @@
         "magh"
       ],
       "notes": "Whisper medium fine-tuned on Moroccan Darija.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 382,
         "likes": 7,
@@ -25460,6 +25793,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-13b-chat"
       },
+      "base_model": [
+        "inception-mbzuai/jais-13b"
+      ],
       "size": "13B",
       "on_device": false,
       "year": 2024,
@@ -25490,6 +25826,9 @@
       },
       "year": 2025,
       "notes": "This SentenceTransformer is fine-tuned from NAMAA-Space/AraModernBert-Base-V1.0, bringing strong arabic embeddings useful for a multiple.",
+      "base_model": [
+        "namaa-space/aramodernbert-base-v1.0"
+      ],
       "metrics": {
         "downloads": 371,
         "likes": 7,
@@ -25566,6 +25905,9 @@
       "dialects": [
         "magh"
       ],
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 366,
         "likes": 17,
@@ -25641,6 +25983,9 @@
         "magh"
       ],
       "notes": "Whisper medium for Algerian Darija; Algeria noted.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 362,
         "likes": 1,
@@ -25661,6 +26006,9 @@
       "links": {
         "hf": "https://huggingface.co/UBC-NLP/NileChat-3B"
       },
+      "base_model": [
+        "qwen/qwen2.5-3b"
+      ],
       "size": "3B",
       "on_device": true,
       "dialects": [
@@ -26014,6 +26362,9 @@
         "msa"
       ],
       "notes": "Qwen3.5-based Arabic OCR model.",
+      "base_model": [
+        "qwen/qwen3.5-0.8b"
+      ],
       "metrics": {
         "downloads": 336,
         "likes": 10,
@@ -26173,6 +26524,9 @@
         "msa"
       ],
       "notes": "GLM-OCR fine-tuned for Arabic documents.",
+      "base_model": [
+        "zai-org/glm-ocr"
+      ],
       "metrics": {
         "downloads": 331,
         "likes": 17,
@@ -26227,6 +26581,9 @@
       ],
       "year": 2026,
       "notes": "Full fine-tune of CohereLabs/cohere-transcribe-arabic-07-2026 (2.07B, cohereasr Conformer encoder-decoder) for multi-dialect Arabic speech recognition.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 329,
         "likes": 2,
@@ -26432,6 +26789,9 @@
         "msa"
       ],
       "notes": "Tiny 50M Arabic RAG chat model with 8K context, tuned with GRPO.",
+      "base_model": [
+        "oddadmix/nawah-50m-rag-chat-8k"
+      ],
       "metrics": {
         "downloads": 316,
         "likes": 0,
@@ -26484,6 +26844,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "This repository contains a vision-language model fine-tuned specifically for Arabic Handwritten Text Recognition (HTR).",
+      "base_model": [
+        "qwen/qwen-vl"
+      ],
       "metrics": {
         "downloads": 315,
         "likes": 5,
@@ -26558,6 +26921,9 @@
       "links": {
         "hf": "https://huggingface.co/ESPRIT-Group/ESPRIT-Derja-Qwen3-8B-v2"
       },
+      "base_model": [
+        "qwen/qwen3-8b"
+      ],
       "size": "8.2B",
       "year": 2025,
       "dialects": [
@@ -26614,6 +26980,9 @@
       ],
       "year": 2024,
       "notes": "This model is a fine-tuned version of openai/whisper-small on the Darija Speech to Text dataset.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 312,
         "likes": 3,
@@ -26663,6 +27032,9 @@
       ],
       "year": 2026,
       "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 308,
         "likes": 21,
@@ -26740,6 +27112,9 @@
         "mixed"
       ],
       "notes": "Whisper-small tuned for Egyptian Arabic with English code-switching.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 305,
         "likes": 5,
@@ -26810,6 +27185,9 @@
       },
       "year": 2026,
       "notes": "This repository contains the official models and results for Ketaba-OCR, our submission to the NakbaNLP 2026 Shared Task.",
+      "base_model": [
+        "sherif1313/arabic-english-handwritten-ocr-v3"
+      ],
       "metrics": {
         "downloads": 304,
         "likes": 5,
@@ -26855,6 +27233,9 @@
       },
       "year": 2024,
       "notes": "Word-level Arabic readability model from the BAREC readability work at NYUAD.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 299,
         "likes": 1,
@@ -26898,6 +27279,9 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI-Paris/Atlas-Chat-2B"
       },
+      "base_model": [
+        "google/gemma-2-2b-it"
+      ],
       "size": "2.6B",
       "year": 2024,
       "on_device": true,
@@ -26949,6 +27333,9 @@
       "links": {
         "hf": "https://huggingface.co/Navid-AI/Yehia-7B"
       },
+      "base_model": [
+        "allam-ai/allam-7b-instruct-preview"
+      ],
       "size": "7B",
       "notes": "Based on ALLaM, Arabic instruction-tuned",
       "metrics": {
@@ -26971,6 +27358,9 @@
       "links": {
         "hf": "https://huggingface.co/Navid-AI/Yehia-7B-preview"
       },
+      "base_model": [
+        "allam-ai/allam-7b-instruct-preview"
+      ],
       "size": "7B",
       "on_device": false,
       "year": 2026,
@@ -27180,6 +27570,9 @@
         "gulf"
       ],
       "notes": "Qwen3-ASR fine-tuned for Saudi Arabic.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 288,
         "likes": 2,
@@ -27229,6 +27622,9 @@
         "mixed"
       ],
       "notes": "Whisper large-v3-turbo fine-tuned for Egyptian Arabic and English code-switched speech.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 284,
         "likes": 0,
@@ -27284,6 +27680,9 @@
       ],
       "year": 2026,
       "notes": "🚀 Try the live demo on HuggingFace Spaces The base model (Qwen3-TTS-12Hz-1.7B-Base) ships with a fixed set of languages in its codec token vocabulary.",
+      "base_model": [
+        "qwen/qwen3-tts-12hz-1.7b-base"
+      ],
       "metrics": {
         "downloads": 282,
         "likes": 3,
@@ -27304,6 +27703,9 @@
       "links": {
         "hf": "https://huggingface.co/aubmindlab/aragpt2-large"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "829M",
       "year": 2022,
       "on_device": true,
@@ -27331,6 +27733,9 @@
       "links": {
         "hf": "https://huggingface.co/QCRI/Fanar-2-Diwan"
       },
+      "base_model": [
+        "aubmindlab/aragpt2-mega"
+      ],
       "notes": "Fanar-2 family model released by QCRI on Hugging Face.",
       "metrics": {
         "downloads": 279,
@@ -27358,6 +27763,9 @@
       ],
       "year": 2024,
       "notes": "It achieves the following results on the",
+      "base_model": [
+        "facebook/wav2vec2-base"
+      ],
       "metrics": {
         "downloads": 279,
         "likes": 5,
@@ -27587,6 +27995,9 @@
         "msa"
       ],
       "notes": "Small Qwen3.5 0.8B Arabic OCR model.",
+      "base_model": [
+        "unsloth/qwen3.5-0.8b"
+      ],
       "metrics": {
         "downloads": 270,
         "likes": 11,
@@ -27638,6 +28049,9 @@
       },
       "year": 2025,
       "notes": "This fine-tuned AraBERT model classifies Arabic restaurant reviews as Positive or Negative.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 267,
         "likes": 8,
@@ -27686,6 +28100,9 @@
       },
       "year": 2026,
       "notes": "A compact (270M-parameter) Arabic function-calling model t",
+      "base_model": [
+        "google/gemma-3-270m"
+      ],
       "metrics": {
         "downloads": 264,
         "likes": 3,
@@ -27711,6 +28128,9 @@
       ],
       "year": 2026,
       "notes": "A fine-tuned version of Qwen/Qwen3-TTS-12Hz-1.7B-Base for Saudi Arabian (Khaleeji/KSA) Arabic speech synthesis.",
+      "base_model": [
+        "qwen/qwen3-tts-12hz-1.7b-base"
+      ],
       "metrics": {
         "downloads": 262,
         "likes": 6,
@@ -27738,6 +28158,9 @@
         "gulf"
       ],
       "notes": "Voho 0.6B Saudi-dialect TTS.",
+      "base_model": [
+        "qwen/qwen3-0.6b"
+      ],
       "metrics": {
         "downloads": 262,
         "likes": 0,
@@ -27864,6 +28287,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "A 5.98M-parameter Arabic dialect identifier.",
+      "base_model": [
+        "oddadmix/nawah-bert-6m-v2"
+      ],
       "metrics": {
         "downloads": 259,
         "likes": 2,
@@ -27891,6 +28317,9 @@
       ],
       "year": 2026,
       "notes": "Whisper-large-v3 full fine-tune for Tunisian Arabic ↔ French/English code-switched ASR (NADI 2026 shared task, subtask 1.3).",
+      "base_model": [
+        "oddadmix/whisper-large-v3-tunisian-codeswitch-asr-v2"
+      ],
       "metrics": {
         "downloads": 258,
         "likes": 1,
@@ -27912,6 +28341,9 @@
         "hf": "https://huggingface.co/NAMAA-Space/gliner_arabic-v2.1"
       },
       "notes": "Named Entity Recognition - Plug-and-play Arabic NER (NAMAA-Space)",
+      "base_model": [
+        "urchade/gliner_multi-v2.1"
+      ],
       "metrics": {
         "downloads": 257,
         "likes": 22,
@@ -28363,6 +28795,9 @@
       },
       "year": 2026,
       "notes": "A 51.8M-parameter Arabic math reasoning model.",
+      "base_model": [
+        "oddadmix/50m-2048-emhotob"
+      ],
       "metrics": {
         "downloads": 241,
         "likes": 2,
@@ -28416,6 +28851,9 @@
         "msa"
       ],
       "notes": "Arabic semantic embedding model built on Qwen3-Embedding 0.6B.",
+      "base_model": [
+        "qwen/qwen3-embedding-0.6b"
+      ],
       "metrics": {
         "downloads": 239,
         "likes": 8,
@@ -28548,6 +28986,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of facebook/hubert-base-ls960 for Arabic spoken dialect classification.",
+      "base_model": [
+        "facebook/hubert-base-ls960"
+      ],
       "metrics": {
         "downloads": 236,
         "likes": 1,
@@ -28672,6 +29113,9 @@
       },
       "year": 2026,
       "notes": "Arabic short-list reranker — passage relevance and k≤12 ranking on laya-multilingual.",
+      "base_model": [
+        "convaiinnovations/laya-multilingual"
+      ],
       "metrics": {
         "downloads": 232,
         "likes": 3,
@@ -28700,6 +29144,9 @@
         "variants:1"
       ],
       "notes": "Palestinian Arabic TTS model fine-tuned on top of YatharthS/MiraTTS.",
+      "base_model": [
+        "yatharths/miratts"
+      ],
       "metrics": {
         "downloads": 232,
         "likes": 4,
@@ -28772,6 +29219,9 @@
       },
       "year": 2026,
       "notes": "Arabic image text to text model fine-tuned from zai-org/GLM-OCR.",
+      "base_model": [
+        "zai-org/glm-ocr"
+      ],
       "metrics": {
         "downloads": 230,
         "likes": 9,
@@ -28792,6 +29242,9 @@
       "links": {
         "hf": "https://huggingface.co/aubmindlab/aragpt2-mega"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "1.5B",
       "notes": "GPT-2 for Arabic text generation",
       "on_device": true,
@@ -28893,6 +29346,9 @@
         "egy"
       ],
       "notes": "High-performance ASR for Egyptian Arabic",
+      "base_model": [
+        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      ],
       "metrics": {
         "downloads": 220,
         "likes": 17,
@@ -29118,6 +29574,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "A fine-tuned Qwen3-TTS 1.7B model specialized in generating Egyptian Arabic (Masri) speech with a natural, conversational tone.",
+      "base_model": [
+        "qwen/qwen3-tts-12hz-1.7b-base"
+      ],
       "metrics": {
         "downloads": 210,
         "likes": 4,
@@ -29171,6 +29630,9 @@
         "lev"
       ],
       "notes": "Streaming Nemotron ASR 0.6B tuned for Jordanian Arabic.",
+      "base_model": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
       "metrics": {
         "downloads": 209,
         "likes": 4,
@@ -29480,6 +29942,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-13b"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "13B",
       "on_device": false,
       "year": 2024,
@@ -29813,6 +30278,9 @@
       "links": {
         "hf": "https://huggingface.co/FreedomIntelligence/AceGPT-13B"
       },
+      "base_model": [
+        "meta-llama/llama-2-13b-hf"
+      ],
       "size": "13B",
       "on_device": false,
       "year": 2023,
@@ -29841,6 +30309,9 @@
         "hf": "https://huggingface.co/NAMAA-Space/Qari-OCR-0.1-VL-2B-Instruct"
       },
       "notes": "Qwen2 VL 2B fine-tuned for Arabic OCR",
+      "base_model": [
+        "unsloth/qwen2-vl-2b-instruct-unsloth-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 189,
         "likes": 44,
@@ -29994,6 +30465,9 @@
         "egy"
       ],
       "notes": "EN→Egyptian Arabic - 150K+ rows, 10M+ tokens, Egyptian dialect",
+      "base_model": [
+        "helsinki-nlp/opus-mt-tc-big-en-ar"
+      ],
       "metrics": {
         "downloads": 185,
         "likes": 20,
@@ -30021,6 +30495,9 @@
         "gulf"
       ],
       "notes": "Saudi-dialect TTS from NAMAA.",
+      "base_model": [
+        "resembleai/chatterbox"
+      ],
       "metrics": {
         "downloads": 184,
         "likes": 51,
@@ -30177,6 +30654,9 @@
         "msa"
       ],
       "notes": "Arabic embedding model fine-tuned from EuroBERT 210M.",
+      "base_model": [
+        "eurobert/eurobert-210m"
+      ],
       "metrics": {
         "downloads": 181,
         "likes": 7,
@@ -30504,6 +30984,9 @@
       ],
       "year": 2026,
       "notes": "A fine-tune of Nabra-82M , itself built on Kokoro-82M .",
+      "base_model": [
+        "oddadmix/nabra-82m-v0.1"
+      ],
       "metrics": {
         "downloads": 174,
         "likes": 4,
@@ -30575,6 +31058,9 @@
       "links": {
         "hf": "https://huggingface.co/inception42/jais-family-30b-8k"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "30B",
       "on_device": false,
       "year": 2024,
@@ -30883,6 +31369,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of MARBERTv2.",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 166,
         "likes": 3,
@@ -30983,6 +31472,9 @@
         "magh"
       ],
       "notes": "Whisper small fine-tuned on Libyan Arabic; Libya noted.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 164,
         "likes": 1,
@@ -31004,6 +31496,9 @@
       "links": {
         "hf": "https://huggingface.co/asas-ai/AceGPT-v2-32B-Chat"
       },
+      "base_model": [
+        "qwen/qwen1.5-32b"
+      ],
       "size": "32B",
       "on_device": false,
       "year": 2024,
@@ -31064,6 +31559,9 @@
         "variants:1"
       ],
       "notes": "A memory-efficient INT4 (NF4) quantization of CohereLabs/cohere-transcribe-arabic-07-2026, Cohere Labs' 2B-parameter Arabic/English speech-recognition model.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 160,
         "likes": 5,
@@ -31429,6 +31927,9 @@
       ],
       "year": 2026,
       "notes": "Qwen2.5-1.5B fine-tuned for Palestinian dialect generation in the AMIYA shared task.",
+      "base_model": [
+        "qwen/qwen2.5-1.5b-instruct"
+      ],
       "metrics": {
         "downloads": 152,
         "likes": 0,
@@ -31454,6 +31955,9 @@
       "on_device": true,
       "year": 2025,
       "notes": "This model maps sentences and paragraphs to a 1152-dimensional dense vector space and Maximum Sequence Length: 8,192 tokens.",
+      "base_model": [
+        "eurobert/eurobert-610m"
+      ],
       "metrics": {
         "downloads": 151,
         "likes": 4,
@@ -31486,6 +31990,9 @@
         "variants:4"
       ],
       "notes": "A 25.3M-parameter model that translates both ways between English and Modern Standard Arabic (الفصحى). (also: 4 variants)",
+      "base_model": [
+        "oddadmix/emhotob-25m"
+      ],
       "metrics": {
         "downloads": 151,
         "likes": 0,
@@ -31569,6 +32076,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of OpenAI’s Whisper Large V3 model, adapted specifically for Arabic Quranic speech recognition.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 150,
         "likes": 6,
@@ -31645,6 +32155,9 @@
       ],
       "year": 2026,
       "notes": "Fasih-TTS-V1 · فَصِيح Modern Standard Arabic (Fusha) text-to-speech with a professional male voice.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 149,
         "likes": 6,
@@ -31674,6 +32187,9 @@
         "variants:3"
       ],
       "notes": "multi-dialect Arabic on the dialect-balanced dataset oddadmix/lahgtna-v3-small (52k train / 2.6k test, seed 42, undiacritized output). (also: 3 variants)",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 149,
         "likes": 0,
@@ -32103,6 +32619,9 @@
         "variants:1"
       ],
       "notes": "Whisper Medium (769M) fine-tuned with LoRA for Algerian Arabic (Darja) speech recognition.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 144,
         "likes": 1,
@@ -32424,6 +32943,9 @@
       "links": {
         "hf": "https://huggingface.co/alnnahwi/gemma-3-1b-arabic-gec-v1"
       },
+      "base_model": [
+        "google/gemma-3-1b-pt"
+      ],
       "notes": "Grammar Correction - Gemma-3-1b for Arabic GEC",
       "metrics": {
         "downloads": 137,
@@ -32576,6 +33098,9 @@
       ],
       "year": 2026,
       "notes": "This model was fine-tuned on the NileTTS dataset, comprising 38 hours of Egyptian Arabic speech across medical, sales, and general conversation domains.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 135,
         "likes": 4,
@@ -32625,6 +33150,9 @@
       },
       "year": 2025,
       "notes": "Whisper large-v3 fine-tuned for Arabic speech recognition, reaching 9.38 WER on its evaluation set.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 134,
         "likes": 6,
@@ -32699,6 +33227,9 @@
         "variants:1"
       ],
       "notes": "نموذج بحجم 700 مليون بارامتر مخصص لتشكيل النصوص العربية. (also: 1 variants)",
+      "base_model": [
+        "liquidai/lfm2-700m"
+      ],
       "metrics": {
         "downloads": 133,
         "likes": 6,
@@ -32725,6 +33256,9 @@
       ],
       "year": 2026,
       "notes": "A full fine-tune of k2-fsa/OmniVoice for Moroccan Arabic (Darija), targeting the Kore voice.",
+      "base_model": [
+        "k2-fsa/omnivoice"
+      ],
       "metrics": {
         "downloads": 132,
         "likes": 3,
@@ -32748,6 +33282,9 @@
       },
       "year": 2026,
       "notes": "Following the release of Arcee Meraj, our enterprise's globally top-performing Arabic LLM, we are thrilled to unveil Arcee Meraj Mini.",
+      "base_model": [
+        "qwen/qwen2.5-7b-instruct"
+      ],
       "metrics": {
         "downloads": 132,
         "likes": 19,
@@ -32854,6 +33391,9 @@
         "variants:1"
       ],
       "notes": "Bilingual Arabic-English sentence embedding model with Matryoshka dimensions; v2.0 of omarelshehy/arabic-english-sts-matryoshka.",
+      "base_model": [
+        "facebookai/xlm-roberta-large"
+      ],
       "metrics": {
         "downloads": 131,
         "likes": 3,
@@ -33004,6 +33544,9 @@
       "on_device": false,
       "year": 2025,
       "notes": "This repository contains the float16 merged version of a Vision-Language Model (VLM).",
+      "base_model": [
+        "unsloth/qwen2.5-vl-7b-instruct-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 129,
         "likes": 5,
@@ -33073,6 +33616,9 @@
       "on_device": false,
       "year": 2025,
       "notes": "مدل Fibonacci-2-14b یک مدل زبانی بزرگ (LLM) مبتنی بر معماری Phi 4 است که با 14 میلیارد پارامتر طراحی شده است.",
+      "base_model": [
+        "fibonacciai/fibonacci-1-en-8b-chat.p1_5"
+      ],
       "metrics": {
         "downloads": 129,
         "likes": 13,
@@ -33270,6 +33816,9 @@
       },
       "year": 2026,
       "notes": "The bilingual multi-task model from the ProBel paper (Mt-SFT).",
+      "base_model": [
+        "qwen/qwen2.5-7b-instruct"
+      ],
       "metrics": {
         "downloads": 125,
         "likes": 0,
@@ -33343,6 +33892,9 @@
       },
       "year": 2026,
       "notes": "A pruned version of google/gemma-4-e2b-it optimized for Arabic and English vision-language tasks.",
+      "base_model": [
+        "google/gemma-4-e2b-it"
+      ],
       "metrics": {
         "downloads": 124,
         "likes": 4,
@@ -33397,6 +33949,9 @@
         "egy"
       ],
       "notes": "Egyptian-dialect TTS from NAMAA.",
+      "base_model": [
+        "resembleai/chatterbox"
+      ],
       "metrics": {
         "downloads": 124,
         "likes": 15,
@@ -33478,6 +34033,9 @@
         "mixed"
       ],
       "notes": "Streaming dialectal Arabic ASR fine-tuned from NVIDIA Nemotron 3.5 ASR on Lahgtna.",
+      "base_model": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
       "metrics": {
         "downloads": 123,
         "likes": 2,
@@ -33641,6 +34199,9 @@
         "hf": "https://huggingface.co/MohamedRashad/arabic-small-nougat"
       },
       "notes": "Smaller Nougat variant for Arabic document OCR",
+      "base_model": [
+        "facebook/nougat-small"
+      ],
       "metrics": {
         "downloads": 121,
         "likes": 26,
@@ -33774,6 +34335,9 @@
       },
       "year": 2026,
       "notes": "Designed for both research and enterprise applications, Lahja SA Ahmad V1 enables developers to integrate realistic Arabic speech synthesis.",
+      "base_model": [
+        "wasmdashai/vits-ar-sa-a"
+      ],
       "metrics": {
         "downloads": 119,
         "likes": 5,
@@ -33827,6 +34391,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "Arabic text generation model fine-tuned from sherif1313/3arabLM-4B-Fiqh-v1.",
+      "base_model": [
+        "sherif1313/3arablm-4b-fiqh-v1"
+      ],
       "metrics": {
         "downloads": 118,
         "likes": 1,
@@ -33926,6 +34493,9 @@
       },
       "year": 2024,
       "notes": "This is an Arabic only sentence-transformers model finetuned from FacebookAI/xlm-roberta-large.",
+      "base_model": [
+        "facebookai/xlm-roberta-large"
+      ],
       "metrics": {
         "downloads": 117,
         "likes": 2,
@@ -33975,6 +34545,9 @@
       ],
       "year": 2026,
       "notes": "This repository is self-contained — it includes the fine-tuned weights plus all processor/tokenizer files needed to run it directly, with no depende",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 117,
         "likes": 3,
@@ -34000,6 +34573,9 @@
       },
       "year": 2026,
       "notes": "A lightweight Arabic dialect identification model that classifies input text into one of 11 Arabic dialect / language codes.",
+      "base_model": [
+        "asafaya/bert-mini-arabic"
+      ],
       "metrics": {
         "downloads": 117,
         "likes": 9,
@@ -34024,6 +34600,9 @@
       "on_device": true,
       "year": 2025,
       "notes": "This model is a retrieval-optimized SentenceTransformer, fine-tuned from Omartificial-Intelligence-Space/SA-STS-Embeddings-0.2B.",
+      "base_model": [
+        "omartificial-intelligence-space/sa-sts-embeddings-0.2b"
+      ],
       "metrics": {
         "downloads": 117,
         "likes": 7,
@@ -34387,6 +34966,9 @@
       },
       "year": 2025,
       "notes": "This is a General Arabic Text Embedding trained using SentenceTransformers in a multi-task setup.",
+      "base_model": [
+        "omartificial-intelligence-space/arabert-all-nli-triplet-matryoshka"
+      ],
       "metrics": {
         "downloads": 113,
         "likes": 1,
@@ -34819,6 +35401,9 @@
         "iraqi"
       ],
       "notes": "Instruction-tuned 4B model for Iraqi dialect (Iraq).",
+      "base_model": [
+        "unsloth/gemma-3n-e4b-it"
+      ],
       "metrics": {
         "downloads": 108,
         "likes": 2,
@@ -34842,6 +35427,9 @@
       },
       "year": 2026,
       "notes": "Designed for both research and enterprise applications, Lahja SA Huba V1 enables developers to integrate realistic Arabic speech synthesis.",
+      "base_model": [
+        "wasmdashai/vits-ar-sa-huba-v2"
+      ],
       "metrics": {
         "downloads": 107,
         "likes": 3,
@@ -34867,6 +35455,9 @@
       ],
       "year": 2026,
       "notes": "XTTS-v2 fine-tune for low-latency code-switched Levantine Arabic and English TTS in conversational agents.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 107,
         "likes": 3,
@@ -34944,6 +35535,9 @@
       ],
       "year": 2026,
       "notes": "Tadabur-Whisper-Small A Whisper Small model fine-tuned on Tadabur for Qur'anic speech recognition. [![Base Model](https://img.shields.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 107,
         "likes": 18,
@@ -35019,6 +35613,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "Give it a text and any categories in plain English or Arabic; it scores all of them in one forward pass.",
+      "base_model": [
+        "oddadmix/nawah-bert-6m-v2"
+      ],
       "metrics": {
         "downloads": 106,
         "likes": 1,
@@ -35147,6 +35744,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "A 51.8M-parameter small language model that translates both ways between both directions; a direction-specific system prompt selects which way to translate.",
+      "base_model": [
+        "oddadmix/50m-2048-emhotob"
+      ],
       "metrics": {
         "downloads": 103,
         "likes": 0,
@@ -35197,6 +35797,9 @@
         "gulf"
       ],
       "notes": "Small Najdi-dialect Arabic chat model from Wittify.",
+      "base_model": [
+        "openbmb/voxcpm2"
+      ],
       "metrics": {
         "downloads": 103,
         "likes": 4,
@@ -35285,6 +35888,9 @@
       },
       "year": 2024,
       "notes": "This is a sentence-transformers model finetuned from google-bert/bert-base-multilingual-cased on the all-nli-pair, all-nli-pair-class, all-nli-pair-score.",
+      "base_model": [
+        "google-bert/bert-base-multilingual-cased"
+      ],
       "metrics": {
         "downloads": 102,
         "likes": 1,
@@ -35307,6 +35913,9 @@
       },
       "year": 2025,
       "notes": "This is a sentence-transformers model finetuned from BounharAbdelaziz/ModernBERT-Morocco on the triplet, negationtriplet, pairscore and [englishnonenglish]",
+      "base_model": [
+        "bounharabdelaziz/modernbert-morocco"
+      ],
       "metrics": {
         "downloads": 102,
         "likes": 0,
@@ -35385,6 +35994,9 @@
       ],
       "year": 2026,
       "notes": "Fine-tuned openai/whisper-small on tarteel-ai/everyayah for Automatic Speech Recognition of Quranic recitation with complete tashkeel.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 102,
         "likes": 3,
@@ -35454,6 +36066,9 @@
       "links": {
         "hf": "https://huggingface.co/AbderrahmanSkiredj1/GemMaroc-27b-it"
       },
+      "base_model": [
+        "google/gemma-3-27b-it"
+      ],
       "dialects": [
         "magh"
       ],
@@ -35488,6 +36103,9 @@
         "variants:1"
       ],
       "notes": "A 0.6B-parameter Arabic sentence embedding model based on microsoft/harrier-oss-v1-0.6b.",
+      "base_model": [
+        "microsoft/harrier-oss-v1-0.6b"
+      ],
       "metrics": {
         "downloads": 101,
         "likes": 5,
@@ -35686,6 +36304,9 @@
         "hf": "https://huggingface.co/IbrahimSalah/F5-TTS-Arabic"
       },
       "notes": "F5-TTS with regional diversity",
+      "base_model": [
+        "swivid/f5-tts"
+      ],
       "metrics": {
         "downloads": 99,
         "likes": 27,
@@ -35808,6 +36429,9 @@
       ],
       "year": 2025,
       "notes": "This model is a fine-tuned version of Whisper Larg v3 tailored specifically for transcribing Levantine Arabic, focusing on the Israeli dialect.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 97,
         "likes": 7,
@@ -35991,6 +36615,9 @@
       ],
       "year": 2026,
       "notes": "AraT5 sequence-to-sequence spelling corrector fine-tuned on a balanced Saudi dialect corpus.",
+      "base_model": [
+        "ubc-nlp/arat5v2-base-1024"
+      ],
       "metrics": {
         "downloads": 95,
         "likes": 6,
@@ -36067,6 +36694,9 @@
       ],
       "year": 2026,
       "notes": "Most Arabic speech models are trained on Modern Standard Arabic: the news, not a phone call from Riyadh.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 94,
         "likes": 2,
@@ -36217,6 +36847,9 @@
         "egy"
       ],
       "notes": "F5-TTS fine-tuned for Egyptian Arabic.",
+      "base_model": [
+        "swivid/habibi-tts"
+      ],
       "metrics": {
         "downloads": 91,
         "likes": 2,
@@ -36239,6 +36872,9 @@
       },
       "year": 2026,
       "notes": "Int8 CPU-oriented build of Cohere Transcribe Arabic with speculative decoding.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 90,
         "likes": 5,
@@ -36340,6 +36976,9 @@
         "gulf"
       ],
       "notes": "Magpie TTS fine-tuned for Saudi Arabic.",
+      "base_model": [
+        "nvidia/magpie_tts_multilingual_357m"
+      ],
       "metrics": {
         "downloads": 89,
         "likes": 3,
@@ -36421,6 +37060,9 @@
         "egy"
       ],
       "notes": "Qwen3-ASR based multi-dialect Arabic speech recognizer from Lemura Labs.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 88,
         "likes": 2,
@@ -36540,6 +37182,9 @@
       },
       "year": 2025,
       "notes": "This model is a fine-tuned version of openai/whisper-large-v3 on medical speech data.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 87,
         "likes": 8,
@@ -36612,6 +37257,9 @@
         "hf": "https://huggingface.co/AhmedZaky1/DIMI-embedding-matryoshka-arabic"
       },
       "notes": "Matryoshka + AraBERT for NLI",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 86,
         "likes": 4,
@@ -36636,6 +37284,9 @@
       "year": 2026,
       "on_device": true,
       "notes": "LoRA-tuned Arabic e-commerce search embedding with a companion benchmark.",
+      "base_model": [
+        "qwen/qwen3-embedding-0.6b"
+      ],
       "metrics": {
         "downloads": 86,
         "likes": 1,
@@ -36733,6 +37384,9 @@
       "links": {
         "hf": "https://huggingface.co/atlasia/Al-Atlas-0.5B"
       },
+      "base_model": [
+        "qwen/qwen2.5-0.5b"
+      ],
       "size": "494M",
       "year": 2025,
       "on_device": true,
@@ -36842,6 +37496,9 @@
       },
       "year": 2026,
       "notes": "A fine-tuned version of Qwen2.5-1.5B-Instruct that answers Python programming questions in Arabic, with structured JSON output.",
+      "base_model": [
+        "qwen/qwen2.5-1.5b-instruct"
+      ],
       "metrics": {
         "downloads": 84,
         "likes": 5,
@@ -36970,6 +37627,9 @@
         "egy"
       ],
       "notes": "Egyptian Arabic code-switching transcription",
+      "base_model": [
+        "unsloth/gemma-3n-e4b-it"
+      ],
       "metrics": {
         "downloads": 83,
         "likes": 16,
@@ -37016,6 +37676,9 @@
       },
       "year": 2024,
       "notes": "First version of Arabic ColBERT (better models are available now - see the 250k and 711k ones).",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02"
+      ],
       "metrics": {
         "downloads": 82,
         "likes": 4,
@@ -37218,6 +37881,9 @@
       ],
       "year": 2026,
       "notes": "Qwen3-4B QLoRA fine-tune focused on Oman, released by Menasaat.",
+      "base_model": [
+        "qwen/qwen3-4b"
+      ],
       "metrics": {
         "downloads": 81,
         "likes": 0,
@@ -37401,6 +38067,9 @@
       ],
       "year": 2026,
       "notes": "To validate the quality of the Dz-Emotion dataset, we fine-tuned a transformer-based model, resulting in Dz-EmoBERT.",
+      "base_model": [
+        "alger-ia/dziribert"
+      ],
       "metrics": {
         "downloads": 78,
         "likes": 3,
@@ -37625,6 +38294,9 @@
         "gulf"
       ],
       "notes": "LoRA adapter specializing Cohere Transcribe Arabic for Saudi dialect speech.",
+      "base_model": [
+        "coherelabs/cohere-transcribe-arabic-07-2026"
+      ],
       "metrics": {
         "downloads": 76,
         "likes": 2,
@@ -37689,6 +38361,9 @@
         "msa"
       ],
       "notes": "Arabic embedding model built on EmbeddingGemma 300M.",
+      "base_model": [
+        "google/embeddinggemma-300m"
+      ],
       "metrics": {
         "downloads": 75,
         "likes": 15,
@@ -37709,6 +38384,9 @@
       "links": {
         "hf": "https://huggingface.co/MBZUAI-Paris/Atlas-Chat-27B"
       },
+      "base_model": [
+        "google/gemma-2-27b-it"
+      ],
       "size": "27.2B",
       "year": 2024,
       "dialects": [
@@ -37769,6 +38447,9 @@
       ],
       "year": 2025,
       "notes": "Whisper-large fine-tuned on multi-dialect Arabic speech.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 74,
         "likes": 2,
@@ -37795,6 +38476,9 @@
       ],
       "year": 2026,
       "notes": "A systematic project to improve Coqui XTTS-v2 for high-quality Arabic text-to-speech generation.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 73,
         "likes": 5,
@@ -37890,6 +38574,9 @@
       ],
       "year": 2026,
       "notes": "Sentence-Transformer (768-dim) tuned on multilingual-e5 for Algerian car and real-estate search mixing Arabic, French and darja.",
+      "base_model": [
+        "intfloat/multilingual-e5-base"
+      ],
       "metrics": {
         "downloads": 72,
         "likes": 3,
@@ -37967,6 +38654,9 @@
         "variants:3"
       ],
       "notes": "نموذج محادثة باللهجة العراقية مبني على google/gemma-4-E12B-it بتقنية LoRA ثم دُمج بالأوزان الأساسية (bf16). (also: 3 variants)",
+      "base_model": [
+        "google/gemma-4-12b-it"
+      ],
       "metrics": {
         "downloads": 72,
         "likes": 2,
@@ -37993,6 +38683,9 @@
         "mixed"
       ],
       "notes": "Multi-dialect Arabic TTS on Chatterbox covering Egyptian, Saudi, Gulf, Iraqi and Moroccan.",
+      "base_model": [
+        "resembleai/chatterbox"
+      ],
       "metrics": {
         "downloads": 72,
         "likes": 16,
@@ -38045,6 +38738,9 @@
       ],
       "year": 2025,
       "notes": "Modelrepo: Habib-HF/tarbiyah-ai-whisper-medium-merged This repository contains an Automatic Speech Recognition (ASR) model based on openai/whisper-medium.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 72,
         "likes": 6,
@@ -38191,6 +38887,9 @@
       "links": {
         "hf": "https://huggingface.co/assix-research/lebanese-llama-3.1-8b"
       },
+      "base_model": [
+        "unsloth/meta-llama-3.1-8b-instruct-bnb-4bit"
+      ],
       "size": "8.0B",
       "dialects": [
         "lev"
@@ -38320,6 +39019,9 @@
       ],
       "year": 2026,
       "notes": "Saudi TTS V4 is a 162.7M-parameter, reference-conditioned F5-TTS/DiT acoustic model adapted from SILMA TTS v1.",
+      "base_model": [
+        "silma-ai/silma-tts"
+      ],
       "metrics": {
         "downloads": 70,
         "likes": 3,
@@ -38565,6 +39267,9 @@
       },
       "year": 2025,
       "notes": "A fine-tuned BERT model to classify Arabic text into: Neutral, Offensive, Sexism, Religious Discrimination, or Racism.",
+      "base_model": [
+        "camel-lab/bert-base-arabic-camelbert-da-sentiment"
+      ],
       "metrics": {
         "downloads": 68,
         "likes": 3,
@@ -38772,6 +39477,9 @@
       },
       "year": 2024,
       "notes": "NAMAA-space releases Namaa-Reranker-v1, a high-performance model fine-tuned on unicamp-dl/mmarco to elevate Arabic document retrieval and ranking to new.",
+      "base_model": [
+        "omartificial-intelligence-space/arabic-triplet-matryoshka-v2"
+      ],
       "metrics": {
         "downloads": 66,
         "likes": 1,
@@ -38820,6 +39528,9 @@
         "magh"
       ],
       "notes": "Tunisian dialect text-to-speech model.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 66,
         "likes": 5,
@@ -38843,6 +39554,9 @@
       },
       "year": 2026,
       "notes": "This model is a fine-tuned version of the meta-llama/Llama-Prompt-Guard-2-86M model.",
+      "base_model": [
+        "meta-llama/llama-prompt-guard-2-86m"
+      ],
       "metrics": {
         "downloads": 65,
         "likes": 7,
@@ -38996,6 +39710,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "A Muse Glimmer 30B LoRA for Arabic calligraphy understanding",
+      "base_model": [
+        "unsloth/muse-glimmer-30b-unsloth-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 64,
         "likes": 4,
@@ -39099,6 +39816,9 @@
       ],
       "year": 2026,
       "notes": "Arabic text generation model fine-tuned from Qwen/Qwen3-235B-A22B-Instruct-2507.",
+      "base_model": [
+        "qwen/qwen3-235b-a22b-instruct-2507"
+      ],
       "metrics": {
         "downloads": 63,
         "likes": 3,
@@ -39146,6 +39866,9 @@
       },
       "year": 2024,
       "notes": "End-to-end structured OCR for Arabic books based on Nougat (arXiv 2411.17835).",
+      "base_model": [
+        "facebook/nougat-base"
+      ],
       "metrics": {
         "downloads": 62,
         "likes": 2,
@@ -39458,6 +40181,9 @@
       ],
       "year": 2026,
       "notes": "Whisper small and tiny fine-tuned for Tunisian Arabic speech recognition.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 61,
         "likes": 0,
@@ -39484,6 +40210,9 @@
       ],
       "year": 2026,
       "notes": "Zipformer ASR model for Quran recitation; gated, free non-commercial use under NPL-1.1.",
+      "base_model": [
+        "muno459/zipformer_p-arabic"
+      ],
       "metrics": {
         "downloads": 61,
         "likes": 14,
@@ -39832,6 +40561,9 @@
       "links": {
         "hf": "https://huggingface.co/MohamedRashad/Arabic-Orpo-Llama-3-8B-Instruct"
       },
+      "base_model": [
+        "meta-llama/meta-llama-3-8b-instruct"
+      ],
       "size": "8.0B",
       "year": 2024,
       "dialects": [
@@ -39968,6 +40700,9 @@
         "variants:1"
       ],
       "notes": "Chat model fine-tuned on natural spoken Emirati Arabic dialect.",
+      "base_model": [
+        "qwen/qwen3-4b"
+      ],
       "metrics": {
         "downloads": 57,
         "likes": 3,
@@ -40158,6 +40893,9 @@
       },
       "year": 2024,
       "notes": "Fine-tuned from Meta Llama 3",
+      "base_model": [
+        "unsloth/llama-3-8b-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 55,
         "likes": 15,
@@ -40258,6 +40996,9 @@
       ],
       "year": 2025,
       "notes": "EGTTS V0.1 is a cutting-edge text-to-speech (TTS) model specifically designed for Egyptian Arabic.",
+      "base_model": [
+        "coqui/xtts-v2"
+      ],
       "metrics": {
         "downloads": 55,
         "likes": 42,
@@ -40283,6 +41024,9 @@
       ],
       "year": 2025,
       "notes": "Translation model from English to Moroccan Darija.",
+      "base_model": [
+        "liquidai/lfm2-350m"
+      ],
       "metrics": {
         "downloads": 55,
         "likes": 1,
@@ -40308,6 +41052,9 @@
       "on_device": true,
       "year": 2024,
       "notes": "This model is a fine-tuned version of google/gemma-2b-it on arbml/CIDAR Arabic dataset.",
+      "base_model": [
+        "google/gemma-2b-it"
+      ],
       "metrics": {
         "downloads": 55,
         "likes": 4,
@@ -40561,6 +41308,9 @@
         "variants:1"
       ],
       "notes": "This is an Arabic reranker model, fine-tuned from the Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2, which itself is based on… (also: 1 variants)",
+      "base_model": [
+        "omartificial-intelligence-space/arabic-triplet-matryoshka-v2"
+      ],
       "metrics": {
         "downloads": 53,
         "likes": 10,
@@ -40659,6 +41409,9 @@
         "yemeni"
       ],
       "notes": "Whisper fine-tuned for Yemeni dialect (Yemen).",
+      "base_model": [
+        "openai/whisper-large-v2"
+      ],
       "metrics": {
         "downloads": 53,
         "likes": 0,
@@ -40754,6 +41507,9 @@
       },
       "year": 2026,
       "notes": "The model was evaluated using held-out test sets consisting of diverse, high-q",
+      "base_model": [
+        "ubc-nlp/arat5v2-base-1024"
+      ],
       "metrics": {
         "downloads": 52,
         "likes": 9,
@@ -41209,6 +41965,9 @@
       ],
       "year": 2026,
       "notes": "Whisper large-v3 fine-tuned for Libyan Arabic; a medium-size variant is also released.",
+      "base_model": [
+        "openai/whisper-large-v3"
+      ],
       "metrics": {
         "downloads": 50,
         "likes": 0,
@@ -41360,6 +42119,9 @@
         "lev"
       ],
       "notes": "Syrian dialect to MSA bidirectional translation model.",
+      "base_model": [
+        "ubc-nlp/arat5v2-base-1024"
+      ],
       "metrics": {
         "downloads": 49,
         "likes": 1,
@@ -41388,6 +42150,9 @@
       ],
       "year": 2026,
       "notes": "AyoubChLin/unlimited-ocr-quran-uthmani is a Quran-focused OCR fine-tune of baidu/Unlimited-OCR.",
+      "base_model": [
+        "baidu/unlimited-ocr"
+      ],
       "metrics": {
         "downloads": 49,
         "likes": 5,
@@ -42026,6 +42791,9 @@
         "egy"
       ],
       "notes": "Chatterbox TTS fine-tuned for Egyptian Arabic.",
+      "base_model": [
+        "resembleai/chatterbox"
+      ],
       "metrics": {
         "downloads": 44,
         "likes": 30,
@@ -42224,6 +42992,9 @@
       "links": {
         "hf": "https://huggingface.co/MaziyarPanahi/calme-2.2-qwen2-72b"
       },
+      "base_model": [
+        "qwen/qwen2-72b"
+      ],
       "size": "72B",
       "notes": "Qwen2-based, strong OALL performance",
       "metrics": {
@@ -42274,6 +43045,9 @@
       },
       "year": 2026,
       "notes": "(EG, JO, LB, LY, MA, MR, OM, PS, SA, SD, SY, TN, YE).",
+      "base_model": [
+        "ubc-nlp/nilechat-3b-base"
+      ],
       "metrics": {
         "downloads": 43,
         "likes": 3,
@@ -42496,6 +43270,9 @@
       },
       "year": 2024,
       "notes": "This model is trained for Arabic sentiment classification.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv2"
+      ],
       "metrics": {
         "downloads": 41,
         "likes": 3,
@@ -42623,6 +43400,9 @@
       },
       "year": 2025,
       "notes": "It is a distilled version of a Sentence Transformer, specifically optimized for the Arabic language.",
+      "base_model": [
+        "jinaai/jina-embeddings-v3"
+      ],
       "metrics": {
         "downloads": 41,
         "likes": 2,
@@ -42979,6 +43759,9 @@
         "gulf"
       ],
       "notes": "Saudi Arabic BERT, fine-tuned MARBERTv2",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 39,
         "likes": 5,
@@ -43225,6 +44008,9 @@
       ],
       "year": 2026,
       "notes": "Streaming-trained Arabic FastConformer-Hybrid (RNNT + CTC heads, 115M params), exported for sherpa-onnx's OnlineRecognizer with cache-aware encoder state.",
+      "base_model": [
+        "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0"
+      ],
       "metrics": {
         "downloads": 38,
         "likes": 3,
@@ -43277,6 +44063,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "A high-speed, high-fidelity Text-to-Speech model optimized for real-time conversational AI applications.",
+      "base_model": [
+        "nineninesix/kani-tts-400m-0.3-pt"
+      ],
       "metrics": {
         "downloads": 37,
         "likes": 5,
@@ -43405,6 +44194,9 @@
       ],
       "year": 2025,
       "notes": "Arabic automatic speech recognition model fine-tuned from openai/whisper-small trained on abdulhamedeid/quran-verses-audio-clips.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 37,
         "likes": 6,
@@ -43606,6 +44398,9 @@
       "links": {
         "hf": "https://huggingface.co/UBC-NLP/NileChat-3B-Base"
       },
+      "base_model": [
+        "qwen/qwen2.5-3b"
+      ],
       "size": "3.4B",
       "year": 2026,
       "dialects": [
@@ -43687,6 +44482,9 @@
       },
       "year": 2024,
       "notes": "This model is a fine-tuned version of openai/whisper-large-v3-turbo on the commonvoice110 dataset.",
+      "base_model": [
+        "openai/whisper-large-v3-turbo"
+      ],
       "metrics": {
         "downloads": 36,
         "likes": 2,
@@ -44109,6 +44907,9 @@
       ],
       "year": 2024,
       "notes": "Helsinki-NLP model fine-tuned for English-to-Darija translation.",
+      "base_model": [
+        "helsinki-nlp/opus-mt-tc-big-en-ar"
+      ],
       "metrics": {
         "downloads": 34,
         "likes": 3,
@@ -44311,6 +45112,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "Gmail | LinkedIn | GitHub | Hugging Face Author : Ramy I.",
+      "base_model": [
+        "liquidai/lfm2.5-350m"
+      ],
       "metrics": {
         "downloads": 33,
         "likes": 3,
@@ -44468,6 +45272,9 @@
       },
       "year": 2024,
       "notes": "Fine-tuned facebook/wav2vec2-large-xlsr-53 on Arabic using the train splits of Common Voice and Arabic Speech Corpus.",
+      "base_model": [
+        "facebook/wav2vec2-large-xlsr-53"
+      ],
       "metrics": {
         "downloads": 33,
         "likes": 4,
@@ -44589,6 +45396,9 @@
       "links": {
         "hf": "https://huggingface.co/beetleware/Bee1reason-arabic-Qwen-14B"
       },
+      "base_model": [
+        "unsloth/qwen3-14b"
+      ],
       "size": "14B",
       "on_device": false,
       "year": 2025,
@@ -44738,6 +45548,9 @@
       },
       "year": 2024,
       "notes": "This model is a fine-tuned version of microsoft/speecht5tts on the Hakawati dataset.",
+      "base_model": [
+        "microsoft/speecht5_tts"
+      ],
       "metrics": {
         "downloads": 32,
         "likes": 3,
@@ -44765,6 +45578,9 @@
       ],
       "year": 2026,
       "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 32,
         "likes": 3,
@@ -44967,6 +45783,9 @@
       ],
       "year": 2026,
       "notes": "Whisper-small fine-tuned for Yemeni Arabic speech recognition.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 31,
         "likes": 1,
@@ -45244,6 +46063,10 @@
       "on_device": false,
       "year": 2024,
       "notes": "Mergekit SLERP merge of Meta-Llama-3-8B-Instruct and HeshamHaroon/Egy_llama3 for Arabic chat.",
+      "base_model": [
+        "meta-llama/meta-llama-3-8b-instruct",
+        "heshamharoon/egy_llama3"
+      ],
       "metrics": {
         "downloads": 30,
         "likes": 1,
@@ -45264,6 +46087,9 @@
       "links": {
         "hf": "https://huggingface.co/QCRI/LlamaLens"
       },
+      "base_model": [
+        "meta-llama/llama-3.1-8b-instruct"
+      ],
       "year": 2025,
       "notes": "Multilingual news and social-media analysis LLM covering Arabic, from QCRI.",
       "metrics": {
@@ -45602,6 +46428,9 @@
       "links": {
         "hf": "https://huggingface.co/malhajar/Mistral-7B-v0.1-arabic"
       },
+      "base_model": [
+        "mistralai/mistral-7b-v0.1"
+      ],
       "size": "7B",
       "on_device": false,
       "year": 2024,
@@ -45705,6 +46534,9 @@
       },
       "year": 2025,
       "notes": "Arabic automatic speech recognition model fine-tuned from openai/whisper-medium.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 29,
         "likes": 7,
@@ -45941,6 +46773,9 @@
       "links": {
         "hf": "https://huggingface.co/KareemBb/Qwen2.5-7B-Instruct-Jordanian"
       },
+      "base_model": [
+        "qwen/qwen2.5-7b-instruct"
+      ],
       "dialects": [
         "lev"
       ],
@@ -45990,6 +46825,9 @@
       },
       "year": 2024,
       "notes": "Whisper-base fine-tuned for Arabic ASR on Common Voice 16, MGB-2 and Jordanian audio (WER 34.7).",
+      "base_model": [
+        "openai/whisper-base"
+      ],
       "metrics": {
         "downloads": 28,
         "likes": 4,
@@ -46133,6 +46971,9 @@
         "hf": "https://huggingface.co/SuperSl6/Arabic-Text-Correction"
       },
       "notes": "Text Correction - AraT5-based text correction",
+      "base_model": [
+        "ubc-nlp/arat5-base"
+      ],
       "metrics": {
         "downloads": 27,
         "likes": 7,
@@ -46181,6 +47022,9 @@
       ],
       "year": 2024,
       "notes": "Fine-tune of opus-mt-ar-en translating Latin-script Darija to English (BLEU 29.9).",
+      "base_model": [
+        "helsinki-nlp/opus-mt-ar-en"
+      ],
       "metrics": {
         "downloads": 27,
         "likes": 7,
@@ -46389,6 +47233,9 @@
       ],
       "year": 2026,
       "notes": "Neural machine-translation model from English to Egyptian Arabic.",
+      "base_model": [
+        "helsinki-nlp/opus-mt-tc-big-en-ar"
+      ],
       "metrics": {
         "downloads": 26,
         "likes": 0,
@@ -46459,6 +47306,9 @@
       },
       "year": 2025,
       "notes": "Arabic encoder adapted from ModernBERT-base via continued pretraining on about 9.8GB of Arabic text.",
+      "base_model": [
+        "answerdotai/modernbert-base"
+      ],
       "metrics": {
         "downloads": 26,
         "likes": 5,
@@ -46722,6 +47572,9 @@
       ],
       "year": 2024,
       "notes": "Arabic text generation model fine-tuned from bigscience/bloom-560m.",
+      "base_model": [
+        "bigscience/bloom-560m"
+      ],
       "metrics": {
         "downloads": 25,
         "likes": 2,
@@ -46803,6 +47656,9 @@
       ],
       "year": 2026,
       "notes": "Diacritics-aware Arabic sentence embeddings fine-tuned from NeoAraBERT-MSA to keep synonym sensitivity in MSA and Classical Arabic.",
+      "base_model": [
+        "u4rasd/neoarabert_msa"
+      ],
       "metrics": {
         "downloads": 25,
         "likes": 2,
@@ -46929,6 +47785,9 @@
       ],
       "year": 2026,
       "notes": "TrOCR fine-tuned for Tunisian Arabic text recognition.",
+      "base_model": [
+        "microsoft/trocr-base-handwritten"
+      ],
       "metrics": {
         "downloads": 25,
         "likes": 0,
@@ -46956,6 +47815,9 @@
       ],
       "year": 2024,
       "notes": "This model is a fine-tuned version of tarteel-ai/whisper-base-ar-quran on the Zolfa Dataset dataset.",
+      "base_model": [
+        "tarteel-ai/whisper-base-ar-quran"
+      ],
       "metrics": {
         "downloads": 25,
         "likes": 4,
@@ -47129,6 +47991,9 @@
       ],
       "year": 2026,
       "notes": "Bahraini Arabic transcription model handling Arabic-English code-switching, from a University of Bahrain project.",
+      "base_model": [
+        "openai/whisper-base"
+      ],
       "metrics": {
         "downloads": 24,
         "likes": 1,
@@ -47280,6 +48145,9 @@
       },
       "year": 2025,
       "notes": "Sentence embedding model fine-tuned for Arabic-English semantic textual similarity with Matryoshka and CoSENT losses.",
+      "base_model": [
+        "ahmedzaky1/dimi-embedding-v2"
+      ],
       "metrics": {
         "downloads": 24,
         "likes": 4,
@@ -47329,6 +48197,9 @@
       "links": {
         "hf": "https://huggingface.co/hammh0a/Hala-350M"
       },
+      "base_model": [
+        "liquidai/lfm2-350m"
+      ],
       "size": "350M",
       "on_device": true,
       "year": 2025,
@@ -47412,6 +48283,9 @@
       ],
       "year": 2024,
       "notes": "Darija-to-MSA translator fine-tuned from AraBART (BLEU 46.5).",
+      "base_model": [
+        "moussakam/arabart"
+      ],
       "metrics": {
         "downloads": 23,
         "likes": 8,
@@ -47511,6 +48385,9 @@
       "on_device": false,
       "year": 2025,
       "notes": "DeepSeek-R1-Distill-Llama-8B fine-tuned for Arabic reasoning.",
+      "base_model": [
+        "unsloth/deepseek-r1-distill-llama-8b-unsloth-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 23,
         "likes": 4,
@@ -47613,6 +48490,9 @@
       },
       "year": 2024,
       "notes": "Arabic instruction-tuned 9B model trained on a high-quality synthetically generated instruction dataset.",
+      "base_model": [
+        "google/gemma-2-9b-it"
+      ],
       "metrics": {
         "downloads": 23,
         "likes": 0,
@@ -47764,6 +48644,9 @@
       ],
       "year": 2024,
       "notes": "This model is a fine-tuned version of Facebook's Seamless large m4t-v2 model, specifically optimized for translation between Moroccan Arabic (Darija)",
+      "base_model": [
+        "facebook/seamless-m4t-v2-large"
+      ],
       "metrics": {
         "downloads": 23,
         "likes": 0,
@@ -47791,6 +48674,9 @@
       ],
       "year": 2026,
       "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 23,
         "likes": 6,
@@ -47897,6 +48783,9 @@
       ],
       "year": 2024,
       "notes": "NLLB-200-distilled-600M fine-tuned for Darija-to-English translation.",
+      "base_model": [
+        "facebook/nllb-200-distilled-600m"
+      ],
       "metrics": {
         "downloads": 22,
         "likes": 3,
@@ -48026,6 +48915,9 @@
       ],
       "year": 2026,
       "notes": "Gulf Arabic (Emirati, Saudi) code-switching intent-routing classifier for RAG, based on convaiinnovations/laya.",
+      "base_model": [
+        "convaiinnovations/laya"
+      ],
       "metrics": {
         "downloads": 22,
         "likes": 5,
@@ -48153,6 +49045,9 @@
       ],
       "year": 2026,
       "notes": "This is a specialized Automatic Speech Recognition (ASR) model for Quranic Recitation with tashkeel or diacritics.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 22,
         "likes": 4,
@@ -48360,6 +49255,9 @@
       ],
       "year": 2025,
       "notes": "Whisper-medium speech recognition model for Hassaniya Arabic from DesertMindAI.",
+      "base_model": [
+        "ychafiqui/whisper-medium-darija"
+      ],
       "metrics": {
         "downloads": 21,
         "likes": 2,
@@ -48631,6 +49529,9 @@
         "magh"
       ],
       "notes": "English to Moroccan Darija translation model from atlasia.",
+      "base_model": [
+        "atlasia/terjman-large-v1.2"
+      ],
       "metrics": {
         "downloads": 21,
         "likes": 1,
@@ -48778,6 +49679,9 @@
         "egy"
       ],
       "on_device": true,
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 20,
         "likes": 3,
@@ -48936,6 +49840,9 @@
       },
       "year": 2026,
       "notes": "Culturally aligned Arabic-English image generation model fine-tuned from FLUX.1-schnell.",
+      "base_model": [
+        "black-forest-labs/flux.1-schnell"
+      ],
       "metrics": {
         "downloads": 20,
         "likes": 3,
@@ -48981,6 +49888,9 @@
       "links": {
         "hf": "https://huggingface.co/inceptionai/jais-30b-v3"
       },
+      "base_model": [
+        "from-scratch"
+      ],
       "size": "13B, 30B",
       "dialects": [
         "msa"
@@ -49140,6 +50050,9 @@
       },
       "year": 2025,
       "notes": "This model is a fine-tuned version of sesame/csm-1b on the Arabic subset of Common Voice 17.0 dataset.",
+      "base_model": [
+        "sesame/csm-1b"
+      ],
       "metrics": {
         "downloads": 20,
         "likes": 4,
@@ -49192,6 +50105,9 @@
       ],
       "year": 2026,
       "notes": "LoRA/QLoRA adapter for Tam, an Omani-Arabic assistant.",
+      "base_model": [
+        "qwen/qwen3-14b"
+      ],
       "metrics": {
         "downloads": 20,
         "likes": 0,
@@ -49349,6 +50265,9 @@
       "on_device": false,
       "year": 2024,
       "notes": "Arabic fine-tune of QwQ-32B-Preview focused on Arabic reasoning, mainly math.",
+      "base_model": [
+        "qwen/qwq-32b-preview"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 4,
@@ -49373,6 +50292,9 @@
       },
       "year": 2026,
       "notes": "هذا المشروع يقدّم نموذج تلخيص نصوص باللغة العربية مبني على النموذج الأساسي LiquidAI/LFM2-350M، وتمت إعادة تدريبه.",
+      "base_model": [
+        "liquidai/lfm2-350m"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 2,
@@ -49423,6 +50345,9 @@
       },
       "year": 2025,
       "notes": "This is an Experimental Arabic version of ModernBERT-base, trained ONLY on Topic Classification Task using the base model of original modernbert.",
+      "base_model": [
+        "answerdotai/modernbert-base"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 5,
@@ -49538,6 +50463,9 @@
         "egy"
       ],
       "notes": "0.8B Qwen3.5 classifier for end-of-turn detection in Egyptian Arabic voice agents.",
+      "base_model": [
+        "qwen/qwen3.5-0.8b"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 0,
@@ -49565,6 +50493,9 @@
       "on_device": false,
       "year": 2024,
       "notes": "See axolotl config axolotl version: 0.4.1",
+      "base_model": [
+        "meta-llama/meta-llama-3-8b"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 8,
@@ -49766,6 +50697,9 @@
       },
       "year": 2025,
       "notes": "Full finetuning in float32 bit of whisper small on SADA 2022 Datset.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 3,
@@ -49790,6 +50724,9 @@
       "year": 2025,
       "notes": "Whisper-small fine-tuned for Arabic-English code-switching speech recognition.",
       "on_device": true,
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 19,
         "likes": 3,
@@ -50217,6 +51154,9 @@
         "variants:1"
       ],
       "notes": "Arabic translation model fine-tuned from Helsinki-NLP/opus-mt-en-ar trained on oddadmix/english-arabic-translations.",
+      "base_model": [
+        "helsinki-nlp/opus-mt-en-ar"
+      ],
       "metrics": {
         "downloads": 18,
         "likes": 2,
@@ -50341,6 +51281,9 @@
       ],
       "year": 2026,
       "notes": "A sentence-level semantic highlighting model for Arabic text, designed for RAG (Retrieval-Augmented Generation) systems.",
+      "base_model": [
+        "baai/bge-reranker-base"
+      ],
       "metrics": {
         "downloads": 17,
         "likes": 3,
@@ -50499,6 +51442,9 @@
       ],
       "year": 2026,
       "notes": "Najdi Saudi Arabic TTS fine-tuned from NVIDIA Magpie multilingual 357M on the SADA 2022 speakers dataset.",
+      "base_model": [
+        "nvidia/magpie_tts_multilingual_357m"
+      ],
       "metrics": {
         "downloads": 17,
         "likes": 2,
@@ -50809,6 +51755,9 @@
       },
       "year": 2026,
       "notes": "Qwen3-4B fine-tune for Arabic red-teaming, adversarial prompts and safety evaluation.",
+      "base_model": [
+        "qwen/qwen3-4b"
+      ],
       "metrics": {
         "downloads": 16,
         "likes": 7,
@@ -51001,6 +51950,10 @@
       },
       "year": 2023,
       "notes": "This is a SpanMarker model trained on the wikiann dataset that can be used for Named Entity Recognition.",
+      "base_model": [
+        "xlm-roberta-base",
+        "facebookai/xlm-roberta-base"
+      ],
       "metrics": {
         "downloads": 16,
         "likes": 4,
@@ -51023,6 +51976,9 @@
       },
       "year": 2025,
       "notes": "Spark-TTS is an advanced text-to-speech system that uses the power of large language models (LLM) for highly accurate and natural-sounding voice synthesis.",
+      "base_model": [
+        "sparkaudio/spark-tts-0.5b"
+      ],
       "metrics": {
         "downloads": 16,
         "likes": 12,
@@ -51076,6 +52032,9 @@
       ],
       "year": 2026,
       "notes": "Multi-speaker Egyptian Arabic fine-tune built on VibeVoice-Large (7B).",
+      "base_model": [
+        "aoi-ot/vibevoice-large"
+      ],
       "metrics": {
         "downloads": 16,
         "likes": 2,
@@ -51435,6 +52394,9 @@
       "links": {
         "hf": "https://huggingface.co/Omartificial-Intelligence-Space/Fanar-Math-R1-GRPO"
       },
+      "base_model": [
+        "qcri/fanar-1-9b-instruct"
+      ],
       "year": 2025,
       "notes": "Fanar-1-9B-Instruct fine-tuned with GRPO for Arabic math reasoning.",
       "size": "9B",
@@ -51540,6 +52502,9 @@
       "links": {
         "hf": "https://huggingface.co/HeshamHaroon/llama-2-7b-chat-ar"
       },
+      "base_model": [
+        "nousresearch/llama-2-7b-chat-hf"
+      ],
       "size": "7B",
       "on_device": false,
       "year": 2023,
@@ -51862,6 +52827,9 @@
       "links": {
         "hf": "https://huggingface.co/Omartificial-Intelligence-Space/Diraya-3B-Instruct-Ar"
       },
+      "base_model": [
+        "unsloth/qwen2.5-3b-instruct-unsloth-bnb-4bit"
+      ],
       "size": "3B",
       "on_device": true,
       "year": 2025,
@@ -51891,6 +52859,9 @@
       ],
       "year": 2026,
       "notes": "Designed for natural prosody, dialectal Emirati pronunciation, and seamless AR/EN mixing in real-world speech.",
+      "base_model": [
+        "vadimbelsky/emirati-fastpitch-bilingual-v1.0"
+      ],
       "metrics": {
         "downloads": 14,
         "likes": 20,
@@ -52066,6 +53037,9 @@
       ],
       "year": 2024,
       "notes": "Arabic audio classification model fine-tuned from tarteel-ai/whisper-base-ar-quran trained on Reinjin/Pelafalan_Huruf_Hijaiyah.",
+      "base_model": [
+        "tarteel-ai/whisper-base-ar-quran"
+      ],
       "metrics": {
         "downloads": 14,
         "likes": 3,
@@ -52216,6 +53190,9 @@
       },
       "year": 2026,
       "notes": "This is an Arabic-focused fine-tuned version of ResembleAI/chatterbox multilingual model using LoRA (Low-Rank Adaptation).",
+      "base_model": [
+        "resembleai/chatterbox"
+      ],
       "metrics": {
         "downloads": 13,
         "likes": 5,
@@ -52291,6 +53268,9 @@
       ],
       "year": 2026,
       "notes": "Seq2seq model that translates Jordanian Arabic into Modern Standard Arabic.",
+      "base_model": [
+        "facebook/nllb-200-distilled-600m"
+      ],
       "metrics": {
         "downloads": 13,
         "likes": 0,
@@ -52393,6 +53373,9 @@
       },
       "year": 2026,
       "notes": "Arabic medical BERT: MARBERTv2 continued on about 1.12M medical documents, cutting medical perplexity 82.7%.",
+      "base_model": [
+        "ubc-nlp/marbertv2"
+      ],
       "metrics": {
         "downloads": 13,
         "likes": 3,
@@ -52519,6 +53502,9 @@
       },
       "year": 2025,
       "notes": "Style-transfer model rewriting text in the style of 21 Arabic authors; first place at AraGenEval 2025.",
+      "base_model": [
+        "ubc-nlp/arat5v2-base-1024"
+      ],
       "metrics": {
         "downloads": 12,
         "likes": 3,
@@ -52569,6 +53555,9 @@
       "year": 2025,
       "notes": "gpt-oss-20B LoRA fine-tune for step-by-step Arabic math solving on GSM8K-style problems.",
       "size": "20B",
+      "base_model": [
+        "unsloth/gpt-oss-20b-unsloth-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 12,
         "likes": 3,
@@ -53045,6 +54034,9 @@
       },
       "year": 2024,
       "notes": "نموذج كلام للتعرف على الصوت، هذا النموذج يتميز بدقة عالية في التعرف على الصوت باللغة العربية.",
+      "base_model": [
+        "openai/whisper-large"
+      ],
       "metrics": {
         "downloads": 11,
         "likes": 4,
@@ -53092,6 +54084,9 @@
         "gulf"
       ],
       "notes": "Whisper base fine-tuned on Bahraini-dialect speech.",
+      "base_model": [
+        "openai/whisper-base"
+      ],
       "metrics": {
         "downloads": 11,
         "likes": 1,
@@ -53112,6 +54107,9 @@
       "links": {
         "hf": "https://huggingface.co/BounharAbdelaziz/Al-Atlas-LLM-0.5B"
       },
+      "base_model": [
+        "qwen/qwen2.5-0.5b"
+      ],
       "dialects": [
         "magh"
       ],
@@ -53360,6 +54358,9 @@
       ],
       "year": 2026,
       "notes": "BERT encoder model for Levantine (Shami) Arabic.",
+      "base_model": [
+        "aubmindlab/bert-base-arabertv02-twitter"
+      ],
       "metrics": {
         "downloads": 10,
         "likes": 0,
@@ -53688,6 +54689,9 @@
       "on_device": true,
       "year": 2024,
       "notes": "This model is a fine-tuned version of riotu-lab/ArabianGPT-01B on an arcd dataset(Arabic dataset).",
+      "base_model": [
+        "riotu-lab/arabiangpt-01b"
+      ],
       "metrics": {
         "downloads": 9,
         "likes": 3,
@@ -53791,6 +54795,9 @@
       ],
       "year": 2024,
       "notes": "Machine-translation model for the Algerian Arabic dialect.",
+      "base_model": [
+        "google-t5/t5-small"
+      ],
       "metrics": {
         "downloads": 8,
         "likes": 0,
@@ -53905,6 +54912,10 @@
       "on_device": false,
       "year": 2026,
       "notes": "A first open-source attempt at an Arabic multimodal large language model.",
+      "base_model": [
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-bf16"
+      ],
       "metrics": {
         "downloads": 8,
         "likes": 4,
@@ -54007,6 +55018,9 @@
       ],
       "year": 2024,
       "notes": "This model is a fine-tuned version of openai/whisper-small on the audiofolder dataset.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 8,
         "likes": 4,
@@ -54214,6 +55228,9 @@
       ],
       "year": 2025,
       "notes": "Fine-tuned version of SparkAudio/Spark-TTS-0.5B specialized for Arabic text-to-speech synthesis.",
+      "base_model": [
+        "sparkaudio/spark-tts-0.5b"
+      ],
       "metrics": {
         "downloads": 7,
         "likes": 4,
@@ -54344,6 +55361,9 @@
         "gulf"
       ],
       "notes": "Chat model fine-tuned for the Bahraini dialect.",
+      "base_model": [
+        "humain-ai/allam-7b-instruct-preview"
+      ],
       "metrics": {
         "downloads": 6,
         "likes": 1,
@@ -54417,6 +55437,9 @@
       ],
       "year": 2026,
       "notes": "ByT5-base fine-tuned to predict emphatic consonants in Moroccan Darija Arabizi-to-Arabic transliteration.",
+      "base_model": [
+        "anasskabil/byt5-darija-emphatic"
+      ],
       "metrics": {
         "downloads": 5,
         "likes": 3,
@@ -54473,6 +55496,9 @@
       ],
       "year": 2026,
       "notes": "GPT-2 fine-tuned for conversation in Hassaniya Arabic.",
+      "base_model": [
+        "openai-community/gpt2"
+      ],
       "metrics": {
         "downloads": 5,
         "likes": 0,
@@ -54573,6 +55599,9 @@
         "hf": "https://huggingface.co/BounharAbdelaziz/ModernBERT-Arabic-Embeddings"
       },
       "notes": "ModernBERT-based sentence embeddings",
+      "base_model": [
+        "answerdotai/modernbert-base"
+      ],
       "metrics": {
         "downloads": 3,
         "likes": 4,
@@ -54597,6 +55626,9 @@
       },
       "year": 2025,
       "notes": "Arabic automatic speech recognition model fine-tuned from openai/whisper-small.",
+      "base_model": [
+        "openai/whisper-small"
+      ],
       "metrics": {
         "downloads": 3,
         "likes": 3,
@@ -54647,6 +55679,9 @@
       "dialects": [
         "magh"
       ],
+      "base_model": [
+        "helsinki-nlp/opus-mt-en-ar"
+      ],
       "metrics": {
         "downloads": 2,
         "likes": 4,
@@ -54671,6 +55706,9 @@
       "notes": "Terjman-Supreme: English-Darija translation model fine-tuned from NLLB-200 3.3B; access gated.",
       "dialects": [
         "magh"
+      ],
+      "base_model": [
+        "facebook/nllb-200-3.3b"
       ],
       "metrics": {
         "downloads": 1,
@@ -54813,6 +55851,9 @@
         "variants:1"
       ],
       "notes": "Arabic text to speech model fine-tuned from sherif1313/3arab-TTS-500M-v1.",
+      "base_model": [
+        "sherif1313/3arab-tts-500m-v1"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 2,
@@ -54840,6 +55881,9 @@
         "variants:1"
       ],
       "notes": "Arabic text to speech model fine-tuned from sherif1313/3arab-TTS-500M-v2.",
+      "base_model": [
+        "sherif1313/3arab-tts-500m-v2"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 2,
@@ -54901,6 +55945,9 @@
       "links": {
         "github": "https://github.com/FreedomIntelligence/AceGPT"
       },
+      "base_model": [
+        "meta-llama/llama-2-7b-hf"
+      ],
       "size": "7B",
       "notes": "Top performance, culturally aligned",
       "metrics": null
@@ -57186,6 +58233,9 @@
       },
       "year": 2026,
       "notes": "This model is designed to assess Arabic prompt-response pairs and generate a safety judgment such as whether the response is safe or belongs.",
+      "base_model": [
+        "unsloth/granite-4.0-h-small-base"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 2,
@@ -57855,6 +58905,9 @@
         "hf": "https://huggingface.co/IbrahimSalah/Arabic-F5-TTS-v2"
       },
       "notes": "Improved F5-TTS Arabic fine-tune",
+      "base_model": [
+        "swivid/f5-tts"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 38,
@@ -60057,6 +61110,11 @@
       "links": {
         "hf": "https://huggingface.co/collections/MBZUAI-Paris/atlas-chat"
       },
+      "base_model": [
+        "google/gemma-2-2b-it",
+        "google/gemma-2-9b-it",
+        "google/gemma-2-27b-it"
+      ],
       "size": "2B-27B",
       "dialects": [
         "magh"
@@ -62361,6 +63419,9 @@
         "hf": "https://huggingface.co/AhmedZaky1/DIMI-Arabic-OCR"
       },
       "notes": "Printed Arabic with diacritics OCR (Qwen2-VL based)",
+      "base_model": [
+        "unsloth/qwen2.5-vl-7b-instruct-bnb-4bit"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 4,
@@ -64713,6 +65774,9 @@
       },
       "year": 2025,
       "notes": "This is a Asymmetric Inference-free SPLADE Sparse Encoder model finetuned from distilbert/distilbert-base-multilingual-cased.",
+      "base_model": [
+        "distilbert/distilbert-base-multilingual-cased"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 3,
@@ -66084,6 +67148,9 @@
       "on_device": true,
       "year": 2026,
       "notes": "LiquidAI LFM2.5-1.2B-Instruct fine-tuned on saudi-dialect-conversations for Saudi dialect chat.",
+      "base_model": [
+        "liquidai/lfm2.5-1.2b-instruct"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 11,
@@ -67073,6 +68140,9 @@
       "links": {
         "hf": "https://huggingface.co/Jr23xd23/Math_Arabic_Llama-3.2-3B-Instruct"
       },
+      "base_model": [
+        "meta-llama/llama-3.2-3b-instruct"
+      ],
       "size": "3B",
       "on_device": true,
       "year": 2024,
@@ -67880,6 +68950,9 @@
       ],
       "year": 2025,
       "notes": "Moroccan Darija sentence embedding model fine-tuned from XLM-RoBERTa-Morocco on 637K pairs with Matryoshka and CoSENT losses.",
+      "base_model": [
+        "bounharabdelaziz/xlm-roberta-morocco"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 2,
@@ -68912,6 +69985,10 @@
       "links": {
         "hf": "https://huggingface.co/collections/MBZUAI-Paris/nile-chat"
       },
+      "base_model": [
+        "google/gemma-3-4b-pt",
+        "google/gemma-3-12b-pt"
+      ],
       "size": "4B-12B",
       "dialects": [
         "egy"
@@ -69212,6 +70289,10 @@
       },
       "year": 2025,
       "notes": "Bilingual Arabic-English audio LLM family for ASR, speech translation and Arabic dialect identification.",
+      "base_model": [
+        "deepseek-ai/deepseek-r1-distill-qwen-1.5b",
+        "meta-llama/llama-3.2-1b"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 5,
@@ -72183,6 +73264,9 @@
       "on_device": false,
       "year": 2026,
       "notes": "A full fine-tune of Qwen/Qwen3-ASR-1.7B on 10.8 hours of Jordanian Arabic speech. set.",
+      "base_model": [
+        "qwen/qwen3-asr-1.7b"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 4,
@@ -74490,6 +75574,9 @@
       },
       "year": 2025,
       "notes": "TinyOctopus maintaining the architectural princip",
+      "base_model": [
+        "deepseek-ai/deepseek-r1-distill-qwen-1.5b"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 10,
@@ -75136,6 +76223,9 @@
       },
       "year": 2025,
       "notes": "This is a LoRA (Low-Rank Adaptation) fine-tuned model for Arabic text-to-speech, based on aoi-ot/VibeVoice-Large.",
+      "base_model": [
+        "aoi-ot/vibevoice-large"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 6,
@@ -75349,6 +76439,9 @@
         "egy"
       ],
       "notes": "Whisper-medium fine-tuned on 72h Egyptian speech",
+      "base_model": [
+        "openai/whisper-medium"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 6,
@@ -75588,6 +76681,9 @@
       ],
       "year": 2025,
       "notes": "XLM-RoBERTa-large adapted with masked-LM training for Moroccan Darija on atlasia/Atlaset; access gated.",
+      "base_model": [
+        "facebookai/xlm-roberta-large"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 4,

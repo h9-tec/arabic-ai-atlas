@@ -28,7 +28,8 @@ def test_site_files_exist_and_are_wired():
     assert re.search(r'<script[^>]+src="app\.js"', html)
     assert re.search(r'<script[^>]+src="map\.js"', html)
     centroids = json.loads((SITE / "geo" / "centroids.json").read_text(encoding="utf-8"))
-    assert set(centroids["countries"]) == {"SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH"}
+    assert set(centroids["countries"]) == {"SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH",
+                                         "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"}
     assert re.search(r'<link[^>]+href="styles\.css"', html)
 
 

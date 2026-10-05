@@ -19,7 +19,7 @@ body:
     id: country
     attributes:
       label: Country of the maintaining organization
-      options: [SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, INTL]
+      options: [SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, DZ, LY, SD, IQ, SY, YE, PS, MR, SO, DJ, KM, INTL]
     validations:
       required: true
   - type: input

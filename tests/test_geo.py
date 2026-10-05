@@ -1,3 +1,4 @@
+import re
 import json
 import os
 import xml.etree.ElementTree as ET
@@ -79,7 +80,7 @@ def test_fit_fills_the_padded_box():
 
 def test_conic_matches_d3_reference():
     # d3.geoConicConformal().parallels([18,34]).rotate([-23,0]).fitExtent([[96,60],[1504,940]], box)
-    project = geo.fit(BBOX, 1600, 1000, 0.06, **PROJ)
+    project = geo.fit((-13.2, 12.1, 59.8, 37.3), 1600, 1000, 0.06, **PROJ)  # the d3 reference box, not the live BBOX
     assert project(31.24, 30.04) == pytest.approx((933.0994159978497, 431.9346677980353))
     assert project(-13.2, 12.1) == pytest.approx((96.0, 689.6997345486745))
 
@@ -152,3 +153,20 @@ def test_geo_svg_real_data_under_600kb():
     for code in ("KW", "BH", "QA", "AE", "LB"):
         block = svg.split(f'<g class="mark" data-code="{code}">', 1)[1].split("</g>", 1)[0]
         assert '<line class="leader"' in block, code
+
+
+def test_entry_in_new_country_gets_choropleth_fill_not_hatch(fixture_entries):
+    base = render_geo_svg(_merged(fixture_entries), "2026-10-04")
+    assert re.search(r'<use href="#c012" class="s-none" data-code="DZ"/>', base)  # zero entries: hatched
+    e = dict(fixture_entries[0], id="dz-model", name="DZ Model", type="llm", country="DZ",
+             links={"hf": "https://huggingface.co/dz/model"})
+    svg = render_geo_svg(_merged(fixture_entries + [e]), "2026-10-04")
+    assert re.search(r'<use href="#c012" class="s[0-4]" data-code="DZ"/>', svg)  # shaded
+    assert "Algeria, 1 entry" in svg
+
+
+def test_all_22_arab_league_countries_are_first_class():
+    meta = json.loads((ROOT / "site" / "geo" / "centroids.json").read_text(encoding="utf-8"))
+    assert len(meta["countries"]) == 22 and not meta["arab_league_other"]
+    for code in ("DJ", "KM", "PS", "BH", "QA", "KW", "LB"):
+        assert "anchor" in meta["countries"][code], code

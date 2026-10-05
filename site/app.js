@@ -15,17 +15,20 @@
   var TYPE_ORDER = ["llm", "asr", "tts", "ocr", "embedding", "tool", "benchmark", "dataset", "org", "agent-skill"];
   var COUNTRY_NAMES = {
     SA: "Saudi Arabia", AE: "UAE", EG: "Egypt", QA: "Qatar", MA: "Morocco", JO: "Jordan", TN: "Tunisia",
-    LB: "Lebanon", KW: "Kuwait", OM: "Oman", BH: "Bahrain", INTL: "International"
+    LB: "Lebanon", KW: "Kuwait", OM: "Oman", BH: "Bahrain",
+    DZ: "Algeria", LY: "Libya", SD: "Sudan", IQ: "Iraq", SY: "Syria", YE: "Yemen", PS: "Palestine", MR: "Mauritania",
+    SO: "Somalia", DJ: "Djibouti", KM: "Comoros", INTL: "International"
   };
-  var COUNTRY_ORDER = ["SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH", "INTL"];
-  var OTHER = ["JO", "TN", "LB", "KW", "OM", "BH"];
+  var COUNTRY_ORDER = ["SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH",
+    "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM", "INTL"];
+  var OTHER = ["JO", "TN", "LB", "KW", "OM", "BH", "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"];
   var COLUMNS = [
     { code: "SA", en: "Saudi Arabia", ar: "السعودية" },
     { code: "AE", en: "UAE", ar: "الإمارات" },
     { code: "EG", en: "Egypt", ar: "مصر" },
     { code: "QA", en: "Qatar", ar: "قطر" },
     { code: "MA", en: "Morocco", ar: "المغرب" },
-    { code: "OTHER", en: "Jordan, Tunisia +4", ar: "دول أخرى" },
+    { code: "OTHER", en: "Jordan, Tunisia +15", ar: "دول أخرى" },
     { code: "INTL", en: "International", ar: "دولي" }
   ];
   var BANDS = [

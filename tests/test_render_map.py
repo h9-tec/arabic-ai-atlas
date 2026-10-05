@@ -79,3 +79,16 @@ def test_more_node_contrast_and_intl_symbol(fixture_entries):
     assert ".more { fill: #6B7280; }" in svg  # white label needs >= 4.5:1
     assert "🌍 INTL</text>" in svg  # same globe as the README country column
     assert "🌐 OTHER</text>" in svg
+
+
+def test_new_arab_league_country_lands_in_other_column(fixture_entries):
+    from atlas.render_map import COL_X, GUTTER, OTHER, PAD, _column
+
+    assert {"DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"} <= OTHER
+    e = dict(fixture_entries[0], id="dz-model", name="DZ Model", type="llm", country="DZ",
+             links={"hf": "https://huggingface.co/dz/model"})
+    assert _column(e) == "OTHER"
+    svg = render_svg(_merged(fixture_entries + [e]), "2026-10-04")
+    x = float(re.search(r'<a [^>]*>\s*<title>DZ Model[^<]*</title><rect [^>]*? x="([\d.]+)"', svg).group(1))
+    left = PAD + GUTTER + COL_X["OTHER"][0]
+    assert left <= x <= left + COL_X["OTHER"][1]

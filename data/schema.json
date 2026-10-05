@@ -8,7 +8,7 @@
     "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "name": {"type": "string", "minLength": 1},
     "type": {"enum": ["llm", "asr", "tts", "ocr", "embedding", "dataset", "tool", "benchmark", "org", "agent-skill"]},
-    "country": {"enum": ["SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH", "INTL"]},
+    "country": {"enum": ["SA", "AE", "EG", "QA", "MA", "JO", "TN", "LB", "KW", "OM", "BH", "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM", "INTL"]},
     "org": {"type": "string", "minLength": 1},
     "license": {"type": "string", "minLength": 1},
     "modality": {"enum": ["text", "speech", "vision", "multimodal", "none"]},

@@ -151,7 +151,7 @@ svg.map:active { cursor: grabbing; }
 .hatch-bg { fill: var(--hatch-bg); }
 .hatch-line { stroke: var(--hatch-line); stroke-width: 1.4; }
 .ctry.listed { fill: var(--ch0); cursor: pointer; }
-.ctry.listed[data-step="none"] { fill: var(--hatch-bg); }
+.ctry.listed[data-step="none"] { fill: url(#hatch); }
 .ctry.listed[data-step="1"] { fill: var(--ch1); }
 .ctry.listed[data-step="2"] { fill: var(--ch2); }
 .ctry.listed[data-step="3"] { fill: var(--ch3); }

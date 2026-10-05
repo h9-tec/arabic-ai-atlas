@@ -38,7 +38,7 @@ If nothing fits, say: "Not in the atlas: I found no entry matching this request.
 | Parameter | Values |
 | --- | --- |
 | type | llm, asr, tts, ocr, embedding, dataset, benchmark, tool, agent-skill, org |
-| country | SA, AE, EG, LB, QA, JO, MA, INTL |
+| country | SA, AE, EG, LB, QA, JO, MA, TN, KW, OM, BH, DZ, LY, SD, IQ, SY, YE, PS, MR, SO, DJ, KM, INTL |
 | modality | text, speech, vision, multimodal, none |
 | dialect | msa, egy, gulf, lev, magh, iraqi, sudanese, yemeni, classical, mixed |
 | task (examples) | chat, tts, asr, ocr, embedding, translation |

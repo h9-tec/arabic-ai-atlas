@@ -34,7 +34,7 @@ def search(
 
     Valid values:
       type: llm, asr, tts, ocr, embedding, dataset, benchmark, tool, agent-skill, org
-      country: SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, INTL
+      country: SA, AE, EG, QA, MA, JO, TN, LB, KW, OM, BH, DZ, LY, SD, IQ, SY, YE, PS, MR, SO, DJ, KM, INTL
       modality: text, speech, vision, multimodal, none
 
     Example: search(query="speech", type="asr", limit=5)

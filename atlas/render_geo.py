@@ -19,7 +19,7 @@ FONT = ('"IBM Plex Sans Arabic", "Noto Sans Arabic", -apple-system, "Segoe UI", 
 
 WIDTH = 1600
 HEAD_H = 76  # title strip above the map
-BBOX = (-13.2, 12.1, 59.8, 37.3)  # west, south, east, north: Morocco's coast to Oman, Yemen to Syria
+BBOX = (-13.2, 5.0, 59.8, 37.3)  # west, south, east, north: Morocco's coast to Oman, Somalia's horn to Syria
 PAD = 0.06
 PROJ = {"kind": "conic", "parallels": (18.0, 34.0), "rotate": -23.0}
 MAP_H = round(WIDTH * (1 - 2 * PAD) * geo.plane_aspect(BBOX, **PROJ) / (1 - 2 * PAD))
@@ -215,7 +215,7 @@ text {{ font-family: {FONT}; fill: var(--ink); }}
 .unlisted {{ fill: url(#hatch); }}
 .hatch-bg {{ fill: var(--hatch-bg); }}
 .hatch-line {{ stroke: var(--hatch-line); stroke-width: 1.4; }}
-.s-none {{ fill: var(--hatch-bg); }}
+.s-none {{ fill: url(#hatch); }}
 .s0 {{ fill: var(--ch0); }}
 .s1 {{ fill: var(--ch1); }}
 .s2 {{ fill: var(--ch2); }}
@@ -328,7 +328,7 @@ def render_geo_svg(merged: list[dict], generated_at: str) -> str:
         if not m.get("point"):
             continue
         x, y = project(*m["lonlat"])
-        if not (0 <= x <= WIDTH and 0 <= y <= MAP_H):
+        if m.get("offmap") or not (0 <= x <= WIDTH and 0 <= y <= MAP_H):
             continue
         listed = code in countries
         cls = (f"s{choropleth_step(counts[code], top)}" if counts[code] else "s-none") if listed else "unlisted"
@@ -362,8 +362,9 @@ def render_geo_svg(merged: list[dict], generated_at: str) -> str:
         ext = ring_extent(ring)
         px, py = project(*m["lonlat"])
         ax, ay = project(*m["anchor"]) if m.get("anchor") else (px, py)
+        en = m["en"] + (" ↓" if m.get("offmap") else "")
         g = [f'<g class="mark" data-code="{code}">']
-        if m.get("anchor"):
+        if m.get("anchor") and not m.get("offmap"):
             g.append(f'<line class="leader" x1="{_n(px)}" y1="{_n(py)}" x2="{_n(ax)}" y2="{_n(ay)}"/>')
             g.append(f'<circle class="leader-dot" cx="{_n(px)}" cy="{_n(py)}" r="2.4"/>')
         for it in ring:
@@ -385,7 +386,7 @@ def render_geo_svg(merged: list[dict], generated_at: str) -> str:
         lab = [f'<a href="{_attr(_href(code))}" target="_blank" rel="noopener">',
                f'<title>{_attr(m["en"] + ", " + plural(n, "entry", "entries"))}</title>',
                f'<text class="halo l-ar" x="{_n(x)}" y="{_n(ay + ty)}" text-anchor="{anchor}" lang="ar">{_attr(m["ar"])}</text>',
-               f'<text class="halo l-en" x="{_n(x)}" y="{_n(ay + ty + FS_EN + 4)}" text-anchor="{anchor}">{_attr(m["en"])}</text>',
+               f'<text class="halo l-en" x="{_n(x)}" y="{_n(ay + ty + FS_EN + 4)}" text-anchor="{anchor}">{_attr(en)}</text>',
                f'<text class="halo l-n{"" if n else " empty"}" x="{_n(x)}" y="{_n(ay + ty + 2 * FS_EN + 7)}" '
                f'text-anchor="{anchor}">{_attr(plural(n, "entry", "entries") if n else "no entries yet")}</text>',
                "</a>"]

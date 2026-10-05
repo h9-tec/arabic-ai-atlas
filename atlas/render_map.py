@@ -33,7 +33,7 @@ COLUMNS = [
     ("OTHER", "🌐", "Other"),
     ("INTL", FLAGS["INTL"], "International"),
 ]
-OTHER = {"JO", "TN", "LB", "KW", "OM", "BH"}
+OTHER = {"JO", "TN", "LB", "KW", "OM", "BH", "DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"}
 BANDS = [
     ("LLMs", ("llm",)),
     ("Speech", ("asr", "tts")),

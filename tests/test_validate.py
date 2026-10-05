@@ -24,6 +24,11 @@ def test_bad_field_fails(field, value, schema, good_entry):
     assert len(errs) == 1 and errs[0].startswith("llms.yaml:")
 
 
+@pytest.mark.parametrize("code", ["DZ", "LY", "SD", "IQ", "SY", "YE", "PS", "MR", "SO", "DJ", "KM"])
+def test_every_arab_league_country_validates(code, schema, good_entry):
+    assert validate_entries([{**good_entry, "country": code}], schema) == []
+
+
 def test_duplicate_ids_name_both_files(schema, good_entry):
     a = {**good_entry, "_file": "llms.yaml"}
     b = {**good_entry, "_file": "tts.yaml"}

@@ -92,7 +92,7 @@
   /* ---------- DOM ---------- */
 
   var d3 = window.d3, topojson = window.topojson;
-  var BBOX = { west: -13.2, east: 59.8, south: 12.1, north: 37.3 };
+  var BBOX = { west: -13.2, east: 59.8, south: 5.0, north: 37.3 };
   var PAD = 0.06;
   var MOBILE = window.matchMedia ? window.matchMedia("(max-width: 899px)") : { matches: false };
   var REDUCED = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : { matches: false };
@@ -264,7 +264,7 @@
       .on("click", function (ev, f) { var a = arab[f.id]; if (a.listed) select(a.code); else reset(); });
     // Countries too small for 110m geometry render as points.
     var pts = [];
-    Object.keys(S.meta.countries).forEach(function (c) { var m = S.meta.countries[c]; if (m.point) pts.push({ code: c, m: m, listed: true }); });
+    Object.keys(S.meta.countries).forEach(function (c) { var m = S.meta.countries[c]; if (m.point && !m.offmap) pts.push({ code: c, m: m, listed: true }); });
     Object.keys(S.meta.arab_league_other).forEach(function (c) { var m = S.meta.arab_league_other[c]; if (m.point) pts.push({ code: c, m: m, listed: false }); });
     ctry.selectAll("circle.ctry-pt").data(pts).join("circle")
       .attr("class", function (d) { return "ctry ctry-pt " + (d.listed ? "listed" : "unlisted"); })
@@ -373,7 +373,7 @@
       else { tx = 0; ty = off + fs * 0.85; anchor = "middle"; }
       lab.selectAll("text").attr("text-anchor", anchor).attr("x", tx);
       lab.select(".l-ar").attr("y", ty).style("font-size", fs + "px").text(x.m.ar);
-      lab.select(".l-en").attr("y", ty + fs * 0.95).text(MOBILE.matches ? "" : x.m.en);
+      lab.select(".l-en").attr("y", ty + fs * 0.95).text(MOBILE.matches ? "" : x.m.en + (x.m.offmap ? " \u2193" : ""));
       lab.select(".l-n").attr("y", ty + (MOBILE.matches ? fs * 1.05 : fs * 1.85)).text(x.n ? (MOBILE.matches ? String(x.n) : plural(x.n, "entry", "entries")) : "");
       var b = node.select(".ring").selectAll("circle.bubble").data(x.ring, function (it) { return it.type; });
       b.exit().remove();
@@ -406,14 +406,14 @@
       var p = S.projection(x.m.lonlat), a = S.projection(x.m.anchor || x.m.lonlat);
       var pt = [t.applyX(p[0]), t.applyY(p[1])];
       // Zoomed in far enough, the callout returns to the country itself.
-      var at = x.m.anchor && t.k < 2.2 && !MOBILE.matches ? [t.applyX(a[0]), t.applyY(a[1])] : pt;
+      var at = x.m.anchor && (x.m.offmap || (t.k < 2.2 && !MOBILE.matches)) ? [t.applyX(a[0]), t.applyY(a[1])] : pt;
       var node = d3.select(this);
       node.select(".ring").attr("transform", "translate(" + at[0] + "," + at[1] + ")");
       node.select(".label").attr("transform", "translate(" + at[0] + "," + at[1] + ")");
       x._at = at;
       var callout = at !== pt;
-      node.select(".leader").attr("x1", pt[0]).attr("y1", pt[1]).attr("x2", at[0]).attr("y2", at[1]).attr("hidden", callout ? null : true);
-      node.select(".leader-dot").attr("cx", pt[0]).attr("cy", pt[1]).attr("hidden", callout ? null : true);
+      node.select(".leader").attr("x1", pt[0]).attr("y1", pt[1]).attr("x2", at[0]).attr("y2", at[1]).attr("hidden", callout && !x.m.offmap ? null : true);
+      node.select(".leader-dot").attr("cx", pt[0]).attr("cy", pt[1]).attr("hidden", callout && !x.m.offmap ? null : true);
     });
     declutter();
     var lg = S.opts.stage.querySelector(".legend");

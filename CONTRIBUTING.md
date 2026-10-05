@@ -13,7 +13,7 @@
 - id: my-resource            # unique, lowercase, hyphen-separated
   name: My Resource          # display name
   type: llm                  # llm | asr | tts | ocr | embedding | dataset | tool | benchmark | org | agent-skill
-  country: SA                # SA | AE | EG | QA | MA | JO | TN | LB | KW | OM | BH | INTL
+  country: SA                # SA | AE | EG | QA | MA | JO | TN | LB | KW | OM | BH | DZ | LY | SD | IQ | SY | YE | PS | MR | SO | DJ | KM | INTL
   org: Example Lab           # maintaining organization
   license: apache-2.0        # SPDX id, or unknown
   modality: text             # text | speech | vision | multimodal | none

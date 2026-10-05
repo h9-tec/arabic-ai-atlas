@@ -4,7 +4,7 @@ from atlas.load import load_entries
 from atlas.query import license_class
 from atlas.validate import load_schema
 from atlas.render_wanted import render_wanted_block
-from atlas.wanted import evaluate, load_rules, match_rule, matches, validate_rules, wanted_hash
+from atlas.wanted import evaluate, load_rules, match_rule, matches, newly_filled, validate_rules, wanted_hash
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -118,3 +118,9 @@ def test_block_when_every_rule_filled():
 def test_rule_text_example():
     from atlas.wanted import rule_text
     assert rule_text(RULES[0]["query"]) == "type=tts · dialects=gulf · license=open"
+
+
+def test_newly_filled():
+    base = {"a": {"filled_on": "2026-10-01", "by": ["x"]}}
+    new = {"a": {"filled_on": "2026-10-01", "by": ["x"]}, "c": {"by": []}, "b": {"by": []}}
+    assert newly_filled(base, new) == ["b", "c"]

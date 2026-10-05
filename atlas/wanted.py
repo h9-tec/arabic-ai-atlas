@@ -170,3 +170,8 @@ def evaluate(rules: list[dict], entries: list[dict], cache: dict, date: str) -> 
             "recent": recent, "hash": wanted_hash(rule["query"]),
         })
     return statuses, dict(sorted(new_cache.items()))
+
+
+def newly_filled(base_cache: dict, new_cache: dict) -> list[str]:
+    """Rule ids filled in new_cache but not in base_cache, sorted."""
+    return sorted(set(new_cache) - set(base_cache))

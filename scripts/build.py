@@ -13,7 +13,7 @@ from atlas.load import load_entries
 from atlas.render_json import build_atlas_json, build_llms_txt
 from atlas.render_wanted import render_wanted_block, render_wanted_table
 from atlas.validate import load_schema, validate_entries
-from atlas.wanted import evaluate, load_rules, validate_rules
+from atlas.wanted import evaluate, load_rules, newly_filled, validate_rules
 
 
 def _validate(data: Path) -> tuple[list[dict], list[str]]:
@@ -127,14 +127,31 @@ def cmd_check(entries: list[dict], data: Path, out: Path, date: str) -> int:
     return 1 if drifted else 0
 
 
+def cmd_wanted(entries: list[dict], data: Path, date: str, base_cache: str | None) -> int:
+    """Print one `closes wanted:<id>` line per rule filled relative to the base cache."""
+    cache = _load_cache(data)
+    merged = merge_metrics(apply_cached_licenses(entries, cache), cache)
+    wpath = data / ".cache" / "wanted.json"
+    wdisk = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else {}
+    _, wcache = evaluate(load_rules(data / "wanted.yaml"), merged, wdisk, date)
+    base: dict = {}
+    if base_cache and Path(base_cache).exists():
+        text = Path(base_cache).read_text(encoding="utf-8").strip()
+        base = json.loads(text) if text else {}
+    for rid in newly_filled(base, wcache):
+        print(f"closes wanted:{rid}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="build.py")
-    p.add_argument("command", choices=["validate", "enrich", "build", "all"])
+    p.add_argument("command", choices=["validate", "enrich", "build", "all", "wanted"])
     p.add_argument("--data", default="data")
     p.add_argument("--out", default=".")
     p.add_argument("--date", default=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     p.add_argument("--check", action="store_true", help="build: re-render with the date in dist/atlas.json, compare byte-exact with disk, write nothing, exit 1 on drift")
     p.add_argument("--skip-enrich", action="store_true", help="build/all: use the cached HF metrics as is")
+    p.add_argument("--base-cache", default=None, help="wanted: base branch data/.cache/wanted.json (missing or empty counts as {})")
     args = p.parse_args(argv)
     data, out = Path(args.data), Path(args.out)
 
@@ -144,6 +161,8 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "validate":
         print(f"{len(entries)} entries valid")
         return 0
+    if args.command == "wanted":
+        return cmd_wanted(entries, data, args.date, args.base_cache)
     if args.check:
         if args.command != "build":
             p.error("--check only works with the build command")

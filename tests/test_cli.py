@@ -96,3 +96,18 @@ def test_cli_build_fills_unknown_license_from_cache(tmp_path):
     assert by_id["allam-7b"]["license"] == "mit"
     assert by_id["jais-30b"]["license"] == "unknown"  # no cache row: stays unknown
     assert by_id["allam-7b"]["metrics"] == {"downloads": 5, "likes": 1, "lastModified": None}
+
+
+def test_wanted_command_prints_closes(tmp_path, capsys):
+    from scripts.build import main
+    shutil.copytree(ROOT / FIX, tmp_path / "data")
+    base = tmp_path / "base.json"
+    base.write_text("{}", encoding="utf-8")
+    argv = ["wanted", "--data", str(tmp_path / "data"), "--base-cache", str(base), "--date", "2026-10-04"]
+    assert main(argv) == 0
+    assert capsys.readouterr().out == "closes wanted:fixture-filled\n"
+    base.write_text(json.dumps({"fixture-filled": {"filled_on": "2026-10-01", "by": []}}), encoding="utf-8")
+    assert main(argv) == 0
+    assert capsys.readouterr().out == ""
+    assert main(argv[:3] + ["--base-cache", str(tmp_path / "missing.json")] + argv[5:]) == 0
+    assert capsys.readouterr().out == "closes wanted:fixture-filled\n"

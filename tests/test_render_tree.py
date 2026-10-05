@@ -111,6 +111,4 @@ def test_tree_block(fixture_entries):
     block = render_tree_block(merged, build_lineage(merged))
     assert '<img src="assets/tree.svg"' in block
     assert "| Base family | Models | Most downloaded |" in block
-    assert "| Dataset | Models citing it |" in block
-    no_ds = render_tree_block(_merged(_with_bases(fixture_entries)), build_lineage(_merged(_with_bases(fixture_entries))))
-    assert "| Dataset | Models citing it |" not in no_ds
+    assert "Dataset" not in block  # tag/task coincidences are not citations: no dataset-reuse table

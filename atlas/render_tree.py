@@ -198,7 +198,10 @@ def render_tree_svg(merged: list[dict], lineage: dict, generated_at: str) -> str
 
 
 def reused_datasets(merged: list[dict], limit: int = 10) -> list[tuple[str, str, int]]:
-    """(dataset_id, dataset_name, n_models): models whose lowercase tasks or tags name the dataset id."""
+    """(dataset_id, dataset_name, n_models): models whose lowercase tasks or tags name the dataset id.
+
+    Not rendered: a task/tag coincidence is too weak to claim citation (see render_tree_block).
+    """
     datasets = {e["id"]: e["name"] for e in merged if e.get("type") == "dataset"}
     counts: dict[str, int] = {}
     for e in merged:
@@ -237,9 +240,6 @@ def render_tree_block(merged: list[dict], lineage: dict) -> str:
         d = _downloads(top)
         lines.append(f"| {esc(name)} | {len(members[r['id']])} | {_linked(top)}"
                      f"{f' ({fmt_downloads(d)} ⬇)' if d else ''} |")
-    ds = reused_datasets(merged)
-    if ds:
-        by_id = {e["id"]: e for e in merged}
-        lines += ["", "| Dataset | Models citing it |", "| --- | --- |"]
-        lines += [f"| {_linked(by_id[d])} | {k} |" for d, _name, k in ds]
+    # No dataset-reuse table: task/tag names coinciding with a dataset id are not evidence a model
+    # was trained on it. Reinstate from `reused_datasets` once entries carry a `datasets_used` field.
     return "\n".join(lines)

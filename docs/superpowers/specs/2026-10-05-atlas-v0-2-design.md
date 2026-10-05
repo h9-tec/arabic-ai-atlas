@@ -18,6 +18,7 @@ Baseline: 3,291 entries, 22-country enum, `paper` type, geographic map (static +
 - Schema: optional `base_model: [str]` on model types (HF ids or atlas ids). Enrichment stores `cardData.base_model` / `base_model:` tags in the HF cache; merge rule: YAML value wins, cache fills gaps.
 - `atlas/render_tree.py` → `assets/tree.svg`: roots are base families inferred by regex over base ids (llama, qwen, gemma, mistral, falcon, bert, electra, whisper, wav2vec, xlsr, mms, t5, bloom, phi, deepseek, from-scratch), edges to atlas models, node size by downloads, color by type, Arabic labels where available. Deterministic, stdlib only, light/dark.
 - README section `## 🌳 Family tree` with the image and a stats table (models per root, most-reused datasets by `tasks`/`tags` mention). Site: a "Tree" view (D3 tree/force, vendored) with the same data; MCP tool `lineage(id)` returning ancestors and descendants from the JSON.
+  - Shipped without the most-reused-datasets table: a model's `tasks`/`tags` naming a dataset id is a coincidence, not a citation. Reinstate it (`atlas.render_tree.reused_datasets` is kept and tested) once entries carry a `datasets_used` field.
 - Curated `base_model` for the ~40 best-known Arabic LLMs where cards omit it (ALLaM→Llama 2, SILMA→Gemma 2, Jais→from-scratch, Fanar→Gemma/from-scratch per card, AceGPT→Llama 2, NileChat→Qwen2.5, Atlas-Chat→Gemma 2, Falcon Arabic→Falcon3, etc.).
 
 ## C. Arabic-ready badge (two days)

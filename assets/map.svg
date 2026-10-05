@@ -48,7 +48,7 @@ a:hover .n { opacity: 0.85; }
 <line class="grid" x1="1217.5" y1="88" x2="1217.5" y2="1124"/>
 <line class="grid" x1="1560" y1="88" x2="1560" y2="1124"/>
 <text class="title" x="40" y="50">Arabic AI Atlas</text>
-<text class="sub" x="40" y="72">The Arabic AI ecosystem · 726 entries · 2026-10-05</text>
+<text class="sub" x="40" y="72">The Arabic AI ecosystem · 745 entries · 2026-10-05</text>
 <rect class="llm" x="1015" y="62" width="12" height="12" rx="3"/>
 <text class="legend" x="1031" y="72">LLM</text>
 <rect class="asr" x="1070" y="62" width="12" height="12" rx="3"/>
@@ -262,5 +262,5 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/tarteel-ai/everyayah" target="_blank" rel="noopener"><title>Tarteel EveryAyah · Tarteel AI · 4K downloads</title><rect class="n dataset" x="1397" y="991" width="148.2" height="28" rx="5"/><text class="nl" x="1471.1" y="1009" text-anchor="middle">Tarteel EveryAyah</text></a>
 <a href="https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0" target="_blank" rel="noopener"><title>Common Voice Arabic · Mozilla Foundation · 3K downloads</title><rect class="n dataset" x="1276.7" y="1024" width="147" height="28" rx="5"/><text class="nl" x="1350.2" y="1042" text-anchor="middle">Common Voice Arabic</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>75 more in the README</title><rect class="n more" x="1428.8" y="1024" width="72" height="28" rx="5"/><text class="nl" x="1464.8" y="1042" text-anchor="middle">+75 more</text></a>
-<text class="footer" x="1560" y="1146" text-anchor="end">Generated 2026-10-05 from 726 entries · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1560" y="1146" text-anchor="end">Generated 2026-10-05 from 745 entries · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

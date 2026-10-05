@@ -1,6 +1,6 @@
 # Arabic AI Atlas
 
-> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 726 entries, generated 2026-10-05.
+> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 745 entries, generated 2026-10-05.
 
 ## Models
 
@@ -85,6 +85,28 @@
 - [DuwatBench](https://huggingface.co/datasets/MBZUAI/DuwatBench): Benchmark on Arabic calligraphy images bridging language and visual heritage for multimodal models.
 - [Arabic EXAMS-Redux](https://huggingface.co/datasets/inceptlabs/Arabic_EXAMS-Redux): Corrected and text-repaired version of OALL/Arabic_EXAMS.
 - [SadeedDiac-25](https://huggingface.co/datasets/Misraj/SadeedDiac-25): Benchmark for Arabic diacritization covering MSA and classical text.
+
+## Papers
+
+- [Evaluating Arabic LLMs: A Survey of Benchmarks, Methods, and Gaps](https://arxiv.org/abs/2510.13430): Survey of Arabic LLM benchmarks, evaluation methods and gaps.
+- [GATE: General Arabic Text Embedding for Enhanced STS](https://arxiv.org/abs/2505.24581): Matryoshka-style general Arabic text embeddings for semantic textual similarity.
+- [The Landscape of Arabic Large Language Models](https://arxiv.org/html/2506.01340v1): Survey of Arabic LLMs: models, data, and evaluation to date.
+- [A Survey of LLMs for Arabic Language and its Dialects](https://arxiv.org/abs/2410.20238): Survey of LLMs for Arabic and its dialects.
+- [ALLaM: Large Language Models for Arabic and English](https://arxiv.org/abs/2407.15390): ALLaM: Arabic and English LLMs via second-language acquisition-style training.
+- [ArabianGPT: Native Arabic GPT-based LLM](https://arxiv.org/abs/2402.15313): Native Arabic GPT-style LLM family.
+- [CATT: Character-based Arabic Tashkeel Transformer](https://github.com/abjadai/catt): Character-based Transformer for Arabic diacritization (tashkeel).
+- [EgyBERT: BERT Pretrained on Egyptian Dialect Corpora](https://arxiv.org/abs/2408.03524): BERT pretrained on Egyptian dialect corpora.
+- [Hate speech detection in Arabic: corpus design and evaluation](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1345445/full): Arabic hate speech detection: corpus design and evaluation.
+- [NADI 2024: Fifth Nuanced Arabic Dialect Identification Shared Task](https://arxiv.org/abs/2407.04910): Overview of the fifth Nuanced Arabic Dialect Identification shared task.
+- [SambaLingo: Teaching LLMs New Languages](https://arxiv.org/abs/2404.05829): Recipe for adapting LLMs to new languages including Arabic.
+- [SaudiBERT: BERT Pretrained on Saudi Dialect Corpora](https://arxiv.org/abs/2405.06239): BERT pretrained on Saudi dialect corpora.
+- [Swan and ArabicMTEB: Dialect-Aware, Cross-Lingual Language Understanding](https://arxiv.org/abs/2411.01192): Dialect-aware Swan embedding models and the ArabicMTEB benchmark.
+- [Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned LLMs](https://huggingface.co/inceptionai/jais-13b-chat): Arabic-centric bilingual LLMs and chat models trained from scratch.
+- [Wojood: Nested Arabic Named Entity Corpus and Recognition](https://arxiv.org/abs/2205.09651): Nested named entity corpus in MSA and dialect, with a recognition baseline.
+- [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic](https://aclanthology.org/2021.acl-long.551/): ARBERT and MARBERT: MSA and dialect-heavy encoders, plus the ARLUE benchmark.
+- [The Interplay of Variant, Size, and Task Type in Arabic Pre-trained Language Models](https://aclanthology.org/2021.wanlp-1.10/): Studies how variant, size and task type shape Arabic pretrained encoders (CAMeLBERT).
+- [AraBERT: Transformer-based Model for Arabic Language Understanding](https://github.com/aub-mind/arabert): BERT-style Arabic encoder pretrained on a large MSA corpus.
+- [Deep Learning for Arabic NLP: A Survey](https://www.sciencedirect.com/science/article/pii/S1877750317303757): Survey of deep learning methods across Arabic NLP tasks.
 
 ## Organizations
 

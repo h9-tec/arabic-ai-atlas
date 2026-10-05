@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-05",
-  "count": 726,
+  "count": 745,
   "entries": [
     {
       "id": "xtts-v2",
@@ -1801,6 +1801,395 @@
         "likes": 32,
         "lastModified": "2024-05-16"
       }
+    },
+    {
+      "id": "evaluating-arabic-llms-a-survey-of-benchmarks-methods-and",
+      "name": "Evaluating Arabic LLMs: A Survey of Benchmarks, Methods, and Gaps",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2025,
+      "venue": "arXiv 2025",
+      "tasks": [
+        "survey",
+        "benchmark",
+        "evaluation"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.13430"
+      },
+      "notes": "Survey of Arabic LLM benchmarks, evaluation methods and gaps.",
+      "metrics": null
+    },
+    {
+      "id": "gate-general-arabic-text-embedding-for-enhanced-sts",
+      "name": "GATE: General Arabic Text Embedding for Enhanced STS",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2025,
+      "venue": "arXiv 2025",
+      "tasks": [
+        "embedding",
+        "sts"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.24581"
+      },
+      "notes": "Matryoshka-style general Arabic text embeddings for semantic textual similarity.",
+      "metrics": null
+    },
+    {
+      "id": "the-landscape-of-arabic-large-language-models",
+      "name": "The Landscape of Arabic Large Language Models",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2025,
+      "venue": "arXiv 2025",
+      "tasks": [
+        "survey",
+        "llm"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/html/2506.01340v1"
+      },
+      "notes": "Survey of Arabic LLMs: models, data, and evaluation to date.",
+      "metrics": null
+    },
+    {
+      "id": "a-survey-of-llms-for-arabic-language-and-its-dialects",
+      "name": "A Survey of LLMs for Arabic Language and its Dialects",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "survey",
+        "llm",
+        "dialects"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2410.20238"
+      },
+      "notes": "Survey of LLMs for Arabic and its dialects.",
+      "metrics": null
+    },
+    {
+      "id": "allam-large-language-models-for-arabic-and-english",
+      "name": "ALLaM: Large Language Models for Arabic and English",
+      "type": "paper",
+      "country": "SA",
+      "org": "SDAIA & IBM",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "pretraining",
+        "llm"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.15390"
+      },
+      "notes": "ALLaM: Arabic and English LLMs via second-language acquisition-style training.",
+      "metrics": null
+    },
+    {
+      "id": "arabiangpt-native-arabic-gpt-based-llm",
+      "name": "ArabianGPT: Native Arabic GPT-based LLM",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "pretraining",
+        "llm"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2402.15313"
+      },
+      "notes": "Native Arabic GPT-style LLM family.",
+      "metrics": null
+    },
+    {
+      "id": "catt-character-based-arabic-tashkeel-transformer",
+      "name": "CATT: Character-based Arabic Tashkeel Transformer",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "diacritization"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.03236",
+        "github": "https://github.com/abjadai/catt"
+      },
+      "notes": "Character-based Transformer for Arabic diacritization (tashkeel).",
+      "metrics": null
+    },
+    {
+      "id": "egybert-bert-pretrained-on-egyptian-dialect-corpora",
+      "name": "EgyBERT: BERT Pretrained on Egyptian Dialect Corpora",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "pretraining",
+        "encoder",
+        "dialects"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.03524"
+      },
+      "notes": "BERT pretrained on Egyptian dialect corpora.",
+      "metrics": null
+    },
+    {
+      "id": "hate-speech-detection-in-arabic-corpus-design-and-evaluation",
+      "name": "Hate speech detection in Arabic: corpus design and evaluation",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "Frontiers in AI 2024",
+      "tasks": [
+        "hate-speech",
+        "dataset"
+      ],
+      "links": {
+        "paper": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1345445/full"
+      },
+      "notes": "Arabic hate speech detection: corpus design and evaluation.",
+      "metrics": null
+    },
+    {
+      "id": "nadi-2024-fifth-nuanced-arabic-dialect-identification",
+      "name": "NADI 2024: Fifth Nuanced Arabic Dialect Identification Shared Task",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "ArabicNLP 2024",
+      "tasks": [
+        "dialect-id",
+        "shared-task"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2407.04910"
+      },
+      "notes": "Overview of the fifth Nuanced Arabic Dialect Identification shared task.",
+      "metrics": null
+    },
+    {
+      "id": "sambalingo-teaching-llms-new-languages",
+      "name": "SambaLingo: Teaching LLMs New Languages",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "pretraining",
+        "multilingual",
+        "llm"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2404.05829"
+      },
+      "notes": "Recipe for adapting LLMs to new languages including Arabic.",
+      "metrics": null
+    },
+    {
+      "id": "saudibert-bert-pretrained-on-saudi-dialect-corpora",
+      "name": "SaudiBERT: BERT Pretrained on Saudi Dialect Corpora",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "pretraining",
+        "encoder",
+        "dialects"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2405.06239"
+      },
+      "notes": "BERT pretrained on Saudi dialect corpora.",
+      "metrics": null
+    },
+    {
+      "id": "swan-and-arabicmteb-dialect-aware-cross-lingual-language",
+      "name": "Swan and ArabicMTEB: Dialect-Aware, Cross-Lingual Language Understanding",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2024,
+      "venue": "arXiv 2024",
+      "tasks": [
+        "embedding",
+        "benchmark"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2411.01192"
+      },
+      "notes": "Dialect-aware Swan embedding models and the ArabicMTEB benchmark.",
+      "metrics": null
+    },
+    {
+      "id": "jais-and-jais-chat-arabic-centric-foundation-and",
+      "name": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned LLMs",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2023,
+      "venue": "arXiv 2023",
+      "tasks": [
+        "pretraining",
+        "instruction-tuning",
+        "llm"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2308.16149",
+        "hf": "https://huggingface.co/inceptionai/jais-13b-chat"
+      },
+      "notes": "Arabic-centric bilingual LLMs and chat models trained from scratch.",
+      "metrics": null
+    },
+    {
+      "id": "wojood-nested-arabic-named-entity-corpus-and-recognition",
+      "name": "Wojood: Nested Arabic Named Entity Corpus and Recognition",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2022,
+      "venue": "arXiv 2022",
+      "tasks": [
+        "ner",
+        "dataset"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2205.09651"
+      },
+      "notes": "Nested named entity corpus in MSA and dialect, with a recognition baseline.",
+      "metrics": null
+    },
+    {
+      "id": "arbert-marbert-deep-bidirectional-transformers-for-arabic",
+      "name": "ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2021,
+      "venue": "ACL 2021",
+      "tasks": [
+        "pretraining",
+        "encoder",
+        "dialect-id"
+      ],
+      "links": {
+        "paper": "https://aclanthology.org/2021.acl-long.551/"
+      },
+      "notes": "ARBERT and MARBERT: MSA and dialect-heavy encoders, plus the ARLUE benchmark.",
+      "metrics": null
+    },
+    {
+      "id": "the-interplay-of-variant-size-and-task-type-in-arabic-pre",
+      "name": "The Interplay of Variant, Size, and Task Type in Arabic Pre-trained Language Models",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2021,
+      "venue": "WANLP 2021",
+      "tasks": [
+        "pretraining",
+        "encoder"
+      ],
+      "links": {
+        "paper": "https://aclanthology.org/2021.wanlp-1.10/"
+      },
+      "notes": "Studies how variant, size and task type shape Arabic pretrained encoders (CAMeLBERT).",
+      "metrics": null
+    },
+    {
+      "id": "arabert-transformer-based-model-for-arabic-language",
+      "name": "AraBERT: Transformer-based Model for Arabic Language Understanding",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2020,
+      "venue": "OSACT 2020",
+      "tasks": [
+        "pretraining",
+        "encoder"
+      ],
+      "links": {
+        "paper": "https://aclanthology.org/2020.osact-1.2/",
+        "github": "https://github.com/aub-mind/arabert"
+      },
+      "notes": "BERT-style Arabic encoder pretrained on a large MSA corpus.",
+      "metrics": null
+    },
+    {
+      "id": "deep-learning-for-arabic-nlp-a-survey",
+      "name": "Deep Learning for Arabic NLP: A Survey",
+      "type": "paper",
+      "country": "INTL",
+      "org": "Various",
+      "license": "unknown",
+      "modality": "text",
+      "year": 2018,
+      "venue": "Journal of Computational Science 2018",
+      "tasks": [
+        "survey",
+        "nlp"
+      ],
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S1877750317303757"
+      },
+      "notes": "Survey of deep learning methods across Arabic NLP tasks.",
+      "metrics": null
     },
     {
       "id": "jais-family-590m",

@@ -9,7 +9,7 @@
 **The Arabic AI ecosystem as a map, a list, and a skill your agent can install.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Entries](https://img.shields.io/badge/entries-726-0A7E8C)
+![Entries](https://img.shields.io/badge/entries-745-0A7E8C)
 ![Updated](https://img.shields.io/badge/updated-2026--10--05-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -61,6 +61,7 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 - [📊 Datasets](#-datasets)
 - [🔧 Tools](#-tools)
 - [🏆 Benchmarks](#-benchmarks)
+- [📄 Papers](#-papers)
 - [🏢 Organizations](#-organizations)
 - [🧩 Arabic Agent Skills](#-arabic-agent-skills)
 - [🤝 Contributing](#-contributing)
@@ -718,6 +719,30 @@ The same atlas as a country-by-type grid, with the most downloaded entries named
 | Open Arabic LLM Leaderboard | OALL | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard) | Evaluation of Arabic LLMs across multiple benchmarks |
 | Open Universal Arabic ASR Leaderboard | Elm Research Center | 🇸🇦 SA | unknown | [![HF](https://img.shields.io/badge/-Space-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard) | Multi-dialectal Arabic speech recognition benchmark |
 
+## 📄 Papers
+
+| Title | Venue | Year | Topic | Links |
+| --- | --- | --- | --- | --- |
+| Evaluating Arabic LLMs: A Survey of Benchmarks, Methods, and Gaps | arXiv 2025 | 2025 | survey, benchmark, evaluation | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.13430) |
+| GATE: General Arabic Text Embedding for Enhanced STS | arXiv 2025 | 2025 | embedding, sts | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.24581) |
+| The Landscape of Arabic Large Language Models | arXiv 2025 | 2025 | survey, llm | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/html/2506.01340v1) |
+| A Survey of LLMs for Arabic Language and its Dialects | arXiv 2024 | 2024 | survey, llm, dialects | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.20238) |
+| ALLaM: Large Language Models for Arabic and English | arXiv 2024 | 2024 | pretraining, llm | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.15390) |
+| ArabianGPT: Native Arabic GPT-based LLM | arXiv 2024 | 2024 | pretraining, llm | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.15313) |
+| CATT: Character-based Arabic Tashkeel Transformer | arXiv 2024 | 2024 | diacritization | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/abjadai/catt) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.03236) |
+| EgyBERT: BERT Pretrained on Egyptian Dialect Corpora | arXiv 2024 | 2024 | pretraining, encoder, dialects | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.03524) |
+| Hate speech detection in Arabic: corpus design and evaluation | Frontiers in AI 2024 | 2024 | hate-speech, dataset | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1345445/full) |
+| NADI 2024: Fifth Nuanced Arabic Dialect Identification Shared Task | ArabicNLP 2024 | 2024 | dialect-id, shared-task | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.04910) |
+| SambaLingo: Teaching LLMs New Languages | arXiv 2024 | 2024 | pretraining, multilingual, llm | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.05829) |
+| SaudiBERT: BERT Pretrained on Saudi Dialect Corpora | arXiv 2024 | 2024 | pretraining, encoder, dialects | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.06239) |
+| Swan and ArabicMTEB: Dialect-Aware, Cross-Lingual Language Understanding | arXiv 2024 | 2024 | embedding, benchmark | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.01192) |
+| Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned LLMs | arXiv 2023 | 2023 | pretraining, instruction-tuning, llm | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inceptionai/jais-13b-chat) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.16149) |
+| Wojood: Nested Arabic Named Entity Corpus and Recognition | arXiv 2022 | 2022 | ner, dataset | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.09651) |
+| ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic | ACL 2021 | 2021 | pretraining, encoder, dialect-id | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://aclanthology.org/2021.acl-long.551/) |
+| The Interplay of Variant, Size, and Task Type in Arabic Pre-trained Language Models | WANLP 2021 | 2021 | pretraining, encoder | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://aclanthology.org/2021.wanlp-1.10/) |
+| AraBERT: Transformer-based Model for Arabic Language Understanding | OSACT 2020 | 2020 | pretraining, encoder | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/aub-mind/arabert) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://aclanthology.org/2020.osact-1.2/) |
+| Deep Learning for Arabic NLP: A Survey | Journal of Computational Science 2018 | 2018 | survey, nlp | [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://www.sciencedirect.com/science/article/pii/S1877750317303757) |
+
 ## 🏢 Organizations
 
 | Name | Country | Focus | Links |
@@ -871,4 +896,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ---
 
-_Generated 2026-10-05 from 726 entries. Do not edit README.md by hand._
+_Generated 2026-10-05 from 745 entries. Do not edit README.md by hand._

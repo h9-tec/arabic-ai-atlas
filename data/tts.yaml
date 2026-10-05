@@ -301,7 +301,7 @@
 - id: f5tts-algerian-darja
   name: f5tts-algerian-darja
   type: tts
-  country: INTL
+  country: DZ
   org: Touati Kamel
   license: apache-2.0
   modality: speech
@@ -316,7 +316,7 @@
 - id: hadra-tts-f5
   name: Hadra-TTS-f5
   type: tts
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: apache-2.0
   modality: speech
@@ -460,7 +460,7 @@
 - id: festival-tts-arabic-voices
   name: Festival Arabic voices
   type: tts
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: speech
@@ -473,7 +473,7 @@
 - id: festival-arabic-voices-docker
   name: Festival Arabic TTS Docker
   type: tts
-  country: INTL
+  country: SY
   org: Nawar Halabi
   license: unknown
   modality: speech

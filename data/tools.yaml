@@ -85,7 +85,7 @@
 - id: mishkal
   name: Mishkal
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: text
@@ -121,7 +121,7 @@
 - id: sinatools
   name: SinaTools
   type: tool
-  country: INTL
+  country: PS
   org: SinaLab
   license: mit
   modality: text
@@ -133,7 +133,7 @@
 - id: qalsadi
   name: Qalsadi
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: unknown
   modality: text
@@ -145,7 +145,7 @@
 - id: pyarabic
   name: PyArabic
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: text
@@ -429,7 +429,7 @@
 - id: arramooz
   name: Arramooz
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-2.0
   modality: text
@@ -442,7 +442,7 @@
 - id: tashaphyne
   name: Tashaphyne
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: text
@@ -455,7 +455,7 @@
 - id: alyahmor
   name: Alyahmor
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: text
@@ -468,7 +468,7 @@
 - id: qutrub
   name: Qutrub
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: unknown
   modality: text
@@ -481,7 +481,7 @@
 - id: yaraspell
   name: YaraSpell
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: gpl-3.0
   modality: text
@@ -494,7 +494,7 @@
 - id: ayaspell
   name: AyaSpell
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: unknown
   modality: text
@@ -507,7 +507,7 @@
 - id: arabicstopwords
   name: ArabicStopWords (linuxscout)
   type: tool
-  country: INTL
+  country: DZ
   org: linuxscout
   license: unknown
   modality: text
@@ -520,7 +520,7 @@
 - id: assem-arabic-stemmer
   name: Assem Arabic Light Stemmer
   type: tool
-  country: INTL
+  country: DZ
   org: Assem Chelli
   license: unknown
   modality: text
@@ -718,7 +718,7 @@
 - id: pipeline-diacritizer
   name: Pipeline Diacritizer
   type: tool
-  country: INTL
+  country: DZ
   org: Hamza5
   license: mit
   modality: text
@@ -731,7 +731,7 @@
 - id: multilevel-diacritizer
   name: Multilevel Diacritizer
   type: tool
-  country: INTL
+  country: DZ
   org: Hamza5
   license: unknown
   modality: text
@@ -744,7 +744,7 @@
 - id: ara-pronunciation-tool
   name: Arabic pronunciation tool
   type: tool
-  country: INTL
+  country: PS
   org: Motaz Saad
   license: gpl-3.0
   modality: text
@@ -757,7 +757,7 @@
 - id: process-arabic-text
   name: process-arabic-text
   type: tool
-  country: INTL
+  country: PS
   org: Motaz Saad
   license: gpl-3.0
   modality: text
@@ -1042,7 +1042,7 @@
 - id: khoja-stemmer-cli
   name: Khoja Stemmer CLI
   type: tool
-  country: INTL
+  country: PS
   org: Motaz Saad
   license: apache-2.0
   modality: text
@@ -1068,7 +1068,7 @@
 - id: jslingua
   name: JsLingua
   type: tool
-  country: INTL
+  country: DZ
   org: Abdelkrime Aries
   license: apache-2.0
   modality: text

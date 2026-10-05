@@ -575,7 +575,7 @@
 - id: hadra-asr-whisper-medium
   name: Hadra-ASR-whisper-medium
   type: asr
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: mit
   modality: speech
@@ -606,7 +606,7 @@
 - id: whisper-sudanese-dialect-small
   name: Whisper-Sudanese-Dialect-small
   type: asr
-  country: INTL
+  country: SD
   org: Ayman Mansour
   license: apache-2.0
   modality: speech
@@ -622,7 +622,7 @@
 - id: whisper-small-libyan
   name: whisper-small-libyan
   type: asr
-  country: INTL
+  country: LY
   org: Tass02
   license: apache-2.0
   modality: speech
@@ -720,7 +720,7 @@
 - id: whisper-yemeni
   name: Whisper Yemeni
   type: asr
-  country: INTL
+  country: YE
   org: Mansoor Saleh
   license: cc-by-nc-sa-4.0
   modality: speech

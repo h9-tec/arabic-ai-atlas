@@ -193,7 +193,7 @@
 - id: sinalab-birzeit-university
   name: SinaLab, Birzeit University
   type: org
-  country: INTL
+  country: PS
   org: SinaLab, Birzeit University
   license: unknown
   modality: none
@@ -337,7 +337,7 @@
 - id: sinalab
   name: SinaLab
   type: org
-  country: INTL
+  country: PS
   org: SinaLab
   license: unknown
   modality: none

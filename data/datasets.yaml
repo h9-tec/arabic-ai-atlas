@@ -241,7 +241,7 @@
 - id: wojood
   name: Wojood
   type: dataset
-  country: INTL
+  country: PS
   org: SinaLab
   license: mit
   modality: text
@@ -1799,7 +1799,7 @@
 - id: algerian-darja-corpus
   name: Algerian Darja Corpus
   type: dataset
-  country: INTL
+  country: DZ
   org: Touati Kamel
   license: cc-by-4.0
   modality: text
@@ -1848,7 +1848,7 @@
 - id: algerian-darija-text
   name: Algerian Darija
   type: dataset
-  country: INTL
+  country: DZ
   org: ayoubkirouane
   license: cc-by-4.0
   modality: text
@@ -2105,7 +2105,7 @@
 - id: dziralign
   name: DziriAlign
   type: dataset
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: mit
   modality: text
@@ -2119,7 +2119,7 @@
 - id: curras
   name: Curras
   type: dataset
-  country: INTL
+  country: PS
   org: SinaLab
   license: unknown
   modality: text
@@ -2134,7 +2134,7 @@
 - id: nabra-syrian
   name: Nabra
   type: dataset
-  country: INTL
+  country: PS
   org: SinaLab
   license: unknown
   modality: text
@@ -2149,7 +2149,7 @@
 - id: baladi
   name: Baladi
   type: dataset
-  country: INTL
+  country: PS
   org: SinaLab
   license: unknown
   modality: text
@@ -2235,7 +2235,7 @@
 - id: iraqi-sales-dialogue
   name: Iraqi Arabic Sales Dialogue
   type: dataset
-  country: INTL
+  country: IQ
   org: Ameer Wisam
   license: cc-by-4.0
   modality: text
@@ -2249,7 +2249,7 @@
 - id: yemeni-speech-emotion
   name: Yemeni Speech Emotion Dataset
   type: dataset
-  country: INTL
+  country: YE
   org: Fatimah Emad Eldin
   license: other
   modality: speech
@@ -2571,7 +2571,7 @@
 - id: algerian-arabic-english-50k
   name: Algerian Arabic-English 50K
   type: dataset
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: apache-2.0
   modality: text

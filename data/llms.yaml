@@ -399,7 +399,7 @@
 - id: shahin
   name: Shahin
   type: llm
-  country: INTL
+  country: SY
   org: malhajar
   license: unknown
   modality: text
@@ -1393,7 +1393,7 @@
 - id: arabicner-wojood
   name: ArabicNER-Wojood
   type: llm
-  country: INTL
+  country: PS
   org: SinaLab
   license: mit
   modality: text
@@ -1567,7 +1567,7 @@
 - id: dziribert
   name: DziriBERT
   type: llm
-  country: INTL
+  country: DZ
   org: alger-ia
   license: apache-2.0
   modality: text
@@ -1583,7 +1583,7 @@
 - id: dziribert-sentiment
   name: DziriBERT Sentiment
   type: llm
-  country: INTL
+  country: DZ
   org: alger-ia
   license: unknown
   modality: text
@@ -1598,7 +1598,7 @@
 - id: dzair
   name: DZAIR
   type: llm
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: apache-2.0
   modality: text
@@ -1658,7 +1658,7 @@
 - id: shako-iraqi-4b
   name: Shako Iraqi 4B
   type: llm
-  country: INTL
+  country: IQ
   org: Anas Pro
   license: apache-2.0
   modality: text
@@ -1673,7 +1673,7 @@
 - id: yemeni-arabic-assistant
   name: Gemma-4 E2B Yemeni Arabic Assistant
   type: llm
-  country: INTL
+  country: YE
   org: Yemeni AI Lab
   license: cc-by-nc-sa-4.0
   modality: text

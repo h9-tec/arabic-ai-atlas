@@ -877,7 +877,7 @@
 - id: dzirieval
   name: DziriEval
   type: benchmark
-  country: INTL
+  country: DZ
   org: Algerian NLP
   license: mit
   modality: text
@@ -1035,7 +1035,7 @@
 - id: mizan-iraqi-benchmark
   name: Mizan Iraqi Arabic Benchmark
   type: benchmark
-  country: INTL
+  country: IQ
   org: Nawar Alseelawi
   license: cc-by-4.0
   modality: text

@@ -9,13 +9,18 @@ def m(i, base=None, hf=None, t="llm", dl=0):
 
 def test_root_family_order():
     assert [root_family(x) for x in ("facebook/mms-1b-all", "facebook/wav2vec2-xls-r-300m", "aubmindlab/bert-base-arabertv2",
-            "google/mt5-base", "microsoft/phi-3-mini", "graphic/philosophy-model", "from-scratch", "x/unknown")] == \
-           ["mms", "xlsr", "bert", "t5", "phi", "other", "from-scratch", "other"]
+            "google/mt5-base", "microsoft/phi-3-mini", "graphic/philosophy-model", "from-scratch", "x/unknown",
+            "ubc-nlp/arat5v2-base-1024", "ubc-nlp/arat5-base", "coqui/xtts-v2", "swivid/f5-tts", "baai/bge-m3",
+            "intfloat/multilingual-e5-base", "facebook/nllb-200-distilled-600m", "coherelabs/c4ai-command-r7b-12-2024",
+            "facebook/seamless-m4t-v2-large")] == \
+           ["mms", "xlsr", "bert", "t5", "phi", "other", "from-scratch", "other",
+            "t5", "t5", "xtts", "f5", "bge", "e5", "nllb", "cohere", "seamless"]
 
 
 def test_roots_in_global_order():
     assert [r[0] for r in ROOTS] == ["whisper", "mms", "xlsr", "wav2vec", "electra", "bert", "t5", "llama", "qwen",
-                                     "gemma", "mistral", "falcon", "bloom", "phi", "deepseek", "from-scratch"]
+                                     "gemma", "mistral", "falcon", "bloom", "phi", "deepseek", "xtts", "f5", "bge", "e5",
+                                     "nllb", "cohere", "seamless", "from-scratch"]
 
 
 def test_base_resolves_by_hf_url_and_atlas_id():
@@ -72,3 +77,9 @@ def test_dead_end_atlas_parent_classified_by_its_hf_id():
 def test_lineage_of_external_id():
     q = {"lineage": build_lineage([m("ft", ["Qwen/Qwen2.5-7B"])]), "entries": [m("ft", ["Qwen/Qwen2.5-7B"])]}
     assert lineage(q, "qwen/qwen2.5-7b") == {"id": "qwen/qwen2.5-7b", "root": "qwen", "ancestors": [], "descendants": ["ft"]}
+
+
+def test_parent_without_base_roots_by_its_hf_id():
+    doc = build_lineage([m("arabert", hf="https://huggingface.co/aubmindlab/bert-base-arabertv02"), m("ft", ["arabert"])])
+    assert doc["root_of"] == {"arabert": "bert", "ft": "bert"}
+    assert doc["edges"] == [["arabert", "ft"]]

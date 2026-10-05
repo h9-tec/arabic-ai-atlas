@@ -60,7 +60,7 @@
   links:
     hf: https://huggingface.co/QCRI/Fanar-1-9B-Instruct
   base_model:
-  - qcri/fanar-1-9b
+  - google/gemma-2-9b
   size: 9B
   dialects:
   - msa

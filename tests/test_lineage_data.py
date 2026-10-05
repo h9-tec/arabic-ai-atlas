@@ -13,7 +13,7 @@ CURATED = {
     "nile-chat": ["google/gemma-3-4b-pt", "google/gemma-3-12b-pt"],
     "atlas-chat": ["google/gemma-2-2b-it", "google/gemma-2-9b-it", "google/gemma-2-27b-it"],
     "falcon-arabic": ["tiiuae/falcon3-7b-base"],
-    "fanar-1-9b": ["qcri/fanar-1-9b"],
+    "fanar-1-9b": ["google/gemma-2-9b"],
     "fanar-2-27b-instruct": ["google/gemma-3-27b-pt"],
     "jais-adapted": ["inceptionai/jais-adapted-13b"],
     "jais-family-590m": ["from-scratch"],

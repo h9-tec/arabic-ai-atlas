@@ -96,9 +96,9 @@ def lineage(id: str) -> dict:
     when the id is neither an entry nor part of any lineage.
 
     Roots: whisper, mms, xlsr, wav2vec, electra, bert, t5, llama, qwen, gemma, mistral, falcon,
-    bloom, phi, deepseek, from-scratch, other.
+    bloom, phi, deepseek, xtts, f5, bge, e5, nllb, cohere, seamless, from-scratch, other.
 
-    Example: lineage(id="silma-1-0")
+    Example: lineage(id="yehia")
     """
     return atlas_query.lineage(DOC, id)
 

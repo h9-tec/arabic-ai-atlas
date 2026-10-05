@@ -12,7 +12,7 @@ ROOTS: list[tuple[str, str, str, str]] = [
     ("wav2vec", r"wav2vec", "wav2vec", "واف تو فيك"),
     ("electra", r"electra", "ELECTRA", "إلكترا"),
     ("bert", r"bert|roberta", "BERT", "بيرت"),
-    ("t5", r"(^|[/_-])(m|by|ara)?t5([/_.-]|$)", "T5", "تي 5"),
+    ("t5", r"(^|[/_-])(m|by|ara)?t5(v[0-9]+)?([/_.-]|$)", "T5", "تي 5"),
     ("llama", r"llama", "Llama", "لاما"),
     ("qwen", r"qwen", "Qwen", "كوين"),
     ("gemma", r"gemma", "Gemma", "جيما"),
@@ -21,6 +21,13 @@ ROOTS: list[tuple[str, str, str, str]] = [
     ("bloom", r"bloom", "BLOOM", "بلوم"),
     ("phi", r"(^|[/_-])phi-?[0-9]", "Phi", "فاي"),
     ("deepseek", r"deepseek", "DeepSeek", "ديب سيك"),
+    ("xtts", r"xtts", "XTTS", "XTTS"),
+    ("f5", r"f5-?tts|f5tts", "F5-TTS", "F5-TTS"),
+    ("bge", r"(^|[/_-])bge", "BGE", "BGE"),
+    ("e5", r"(^|[/_-])(multilingual-)?e5", "E5", "E5"),
+    ("nllb", r"nllb", "NLLB", "NLLB"),
+    ("cohere", r"command-?r|c4ai|aya", "Cohere", "Cohere"),
+    ("seamless", r"seamless|m4t", "SeamlessM4T", "SeamlessM4T"),
     ("from-scratch", r"^from-scratch$", "From scratch", "من الصفر"),
 ]
 OTHER = ("other", "", "Other", "أخرى")
@@ -117,7 +124,9 @@ def _root(eid: str, parents: dict[str, list[str]], atlas_ids: set[str], hf_of: d
 def build_lineage(merged: list[dict]) -> dict:
     """{"roots": [{id, label, label_ar, count}], "edges": [[parent, child]], "root_of": {entry_id: root_id}}.
 
-    Entries with a base_model, and atlas entries named as someone's base, get a root. Parents are atlas ids when the base resolves to
+    Entries with a base_model, and atlas entries named as someone's base, get a root. A walk that
+    ends at an atlas entry with no base_model classifies that entry by root_family of its canonical
+    HF id (else its atlas id), e.g. a fine-tune of an atlas AraBERT entry roots as bert. Parents are atlas ids when the base resolves to
     an entry (by id or by its HF link, org renames aliased), else the canonical lowercase HF id.
     """
     atlas_ids = {e["id"] for e in merged}

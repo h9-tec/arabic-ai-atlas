@@ -1,60 +1,77 @@
-Post when: the repo is public at github.com/h9-tec/arabic-ai-atlas and the first CI run is green.
+Post when: the repo is public at github.com/h9-tec/arabic-ai-atlas and CI is green (both true as of 2026-10-05).
 
 # X thread
 
-**1/6**
+**1/7**
 
-The Arabic AI ecosystem as one map: 271 models, datasets, tools and orgs, by country and modality, sized by Hugging Face downloads.
+3,291 Arabic AI models, datasets, papers and tools on one map of the Arab world. Countries shaded by entry count, bubbles sized by Hugging Face downloads. Click a country to see its work.
 
-Install it into Claude Code:
+https://h9-tec.github.io/arabic-ai-atlas/
+
+[attach docs/launch/geo-map.png]
+
+**2/7**
+
+It is also a Claude Code plugin. An offline MCP server (search, recommend, get) reads the atlas JSON, so you can ask "which open Arabic TTS runs on a phone?" and get Piper and two MMS models back.
+
 claude plugin marketplace add h9-tec/arabic-ai-atlas
-claude plugin install arabic-ai-atlas@arabic-ai-atlas
 
-[attach assets/map.svg rendered as PNG]
+**3/7**
 
-**2/6**
+18 of the 22 Arab League countries have entries. Saudi Arabia 355, UAE 184, Egypt 144, Qatar 128, Morocco 71, Algeria 42, Palestine 30.
 
-The idea: don't just read the list, install it into your agent. Ask "which open Arabic TTS runs on a phone?" and its MCP server answers from the atlas offline, with licenses and download counts where known.
+1,586 entries carry dialect tags: MSA, Egyptian, Gulf, Levantine, Maghrebi, Iraqi, Sudanese, Yemeni, Classical.
 
-**3/6**
+**4/7**
 
-How it works: every entry is a YAML record. CI validates them and regenerates the map, the README, atlas.json, llms.txt and the plugin data. A nightly GitHub Action pulls fresh Hugging Face download counts, so the map tracks real usage.
+1,159 datasets and 732 papers, plus 387 LLMs, 173 ASR and 85 TTS models.
 
-**4/6**
+Built from a full Hugging Face crawl (23k models, 16k datasets examined), GitHub, arXiv, Masader and ACL Arabic workshops: 8,300 candidates filtered, 650 hand-reviewed, every link checked.
 
-5 skills ship with it:
-arabic-ai-advisor: pick an LLM, ASR, TTS, OCR or embedding model
+**5/7**
+
+5 skills ship with the plugin:
+arabic-ai-advisor: pick an LLM, ASR, TTS, OCR or embedder
 tashkeel-check: add or strip diacritics
 rtl-bidi-lint: catch broken RTL/LTR mixing
 arabic-dialect-prompts: prompts in a target dialect
 arabic-token-cost: compare tokenizer cost
 
-**5/6**
+**6/7**
 
-Numbers: 271 entries (68 LLMs, 53 datasets, 19 ASR, 12 TTS, 8 OCR), 7 countries plus international, 121 with live download counts.
+Gaps: Mauritania, Somalia, Djibouti and Comoros have no entries yet. Many licenses read "unknown" because the model card omits them. Most papers lack affiliations.
 
-Gaps I need PRs for: country tags still incomplete, more dialect tags and licenses. One YAML file per change.
+Fixes are a PR: edit the YAML, run one build command.
 
-**6/6**
+**7/7**
 
 Repo: https://github.com/h9-tec/arabic-ai-atlas
-Sister list (hand-curated, 700+ lines): https://github.com/h9-tec/Awesome_Arabic_NLP
+Map: https://h9-tec.github.io/arabic-ai-atlas/
 For LLMs: https://raw.githubusercontent.com/h9-tec/arabic-ai-atlas/main/dist/llms.txt
+Sister list: https://github.com/h9-tec/Awesome_Arabic_NLP
+
+Data CC BY 4.0, code MIT.
 
 ---
 
 ## Arabic versions
 
-**1/6 (عربي)**
+**1/7 (عربي)**
 
-الذكاء الاصطناعي العربي في خريطة واحدة: 271 نموذجا ومجموعة بيانات وأداة وجهة، حسب الدولة والمجال، وحجم كل نقطة بتحميلات Hugging Face.
+3,291 نموذجا ومجموعة بيانات وورقة بحثية وأداة وجهة في الذكاء الاصطناعي العربي، على خريطة واحدة للعالم العربي. اضغط على أي دولة لترى ما أُنجز فيها.
 
-ثبتها في Claude Code:
+https://h9-tec.github.io/arabic-ai-atlas/
+
+[attach docs/launch/geo-map.png]
+
+**2/7 (عربي)**
+
+الأطلس أيضا إضافة لـ Claude Code. خادم MCP يعمل دون إنترنت ويقرأ بيانات الأطلس، فتسأل وكيلك "أي نموذج TTS عربي مفتوح يعمل على الجوال؟" فيقترح Piper ونموذجين من MMS.
+
 claude plugin marketplace add h9-tec/arabic-ai-atlas
-claude plugin install arabic-ai-atlas@arabic-ai-atlas
 
-[attach assets/map.svg rendered as PNG]
+**3/7 (عربي)**
 
-**2/6 (عربي)**
+18 دولة من 22 في الجامعة العربية لها مدخلات. السعودية 355، الإمارات 184، مصر 144، قطر 128، المغرب 71، الجزائر 42، فلسطين 30.
 
-الفكرة: القائمة ليست للقراءة فقط، بل يستخدمها وكيلك مباشرة. اسأله "أي نموذج TTS عربي مفتوح يعمل على الجوال؟" فيجيبك من الأطلس دون إنترنت، مع الرخصة وعدد التحميلات حيثما توفرت.
+و1,586 مدخلا موسومة باللهجة: الفصحى والمصرية والخليجية والشامية والمغاربية والعراقية وغيرها.

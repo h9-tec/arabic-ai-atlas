@@ -99,7 +99,7 @@
   var S = {
     opts: null, families: [], collapsed: {}, visible: null, filtering: false, total: 0,
     svg: null, gView: null, gBands: null, gLinks: null, gNodes: null, zoom: null, home: null,
-    width: 0, height: 0, mobile: null, clickTimer: null, measure: null
+    width: 0, height: 0, mobile: null, clickTimer: null, measure: null, keyboard: false
   };
 
   function dur(ms) { return REDUCED.matches ? 0 : ms; }
@@ -169,10 +169,16 @@
     svgNode.addEventListener("wheel", function (ev) {
       if (S.mobile || ev.ctrlKey || ev.metaKey) return;
       var before = d3.zoomTransform(svgNode);
-      S.zoom.translateBy(S.svg, -ev.deltaX / before.k, -ev.deltaY / before.k);
+      // Firefox reports lines (deltaMode 1) or pages (2); d3's wheelDelta normalises the same way.
+      var unit = ev.deltaMode === 1 ? 16 : ev.deltaMode === 2 ? (svgNode.parentNode.clientHeight || 600) : 1;
+      S.zoom.translateBy(S.svg, -ev.deltaX * unit / before.k, -ev.deltaY * unit / before.k);
       var after = d3.zoomTransform(svgNode);
       if (after.x !== before.x || after.y !== before.y) ev.preventDefault(); // at the edge the page scrolls on
     }, { passive: false });
+    // Auto-pan follows keyboard focus only: a pointer press also focuses a node, and moving it
+    // between mousedown and mouseup would swallow the click.
+    document.addEventListener("keydown", function () { S.keyboard = true; }, true);
+    document.addEventListener("pointerdown", function () { S.keyboard = false; }, true);
     stage.querySelector(".tree-reset").addEventListener("click", function () {
       trans(S.svg, 450).call(S.zoom.transform, S.home);
     });
@@ -368,7 +374,7 @@
       g.addEventListener("focus", function () { S.opts.showCard(card, g, true); });
       g.addEventListener("blur", function () { S.opts.scheduleHide(); });
     }
-    g.addEventListener("focus", function () { ensureVisible(g); });
+    g.addEventListener("focus", function () { if (S.keyboard) ensureVisible(g); });
     g.addEventListener("click", function (ev) {
       if (ev.detail > 1) return;
       clearTimeout(S.clickTimer);

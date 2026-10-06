@@ -21,7 +21,7 @@ def _downloads(entry: dict) -> int:
 def _sort_key(entry: dict):
     if entry.get("type") == "paper":  # literature: newest, then most cited
         return (-(entry.get("year") or 0), -(entry.get("citations") or 0), entry["name"].lower())
-    return (-_downloads(entry), entry["name"].lower())
+    return (-_downloads(entry), 0, entry["name"].lower())
 
 
 def build_atlas_json(merged: list[dict], generated_at: str, extras: dict | None = None) -> dict:

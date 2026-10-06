@@ -1,3 +1,5 @@
+import pytest
+
 from atlas.enrich import build_hf_ids, hf_id_from_url, merge_metrics
 from atlas.render_json import build_atlas_json, build_llms_txt
 
@@ -17,6 +19,21 @@ def test_atlas_json_sorted_and_clean(fixture_entries):
     downloads = [(e["metrics"] or {}).get("downloads", 0) for e in doc["entries"]]
     assert downloads == sorted(downloads, reverse=True)
     assert doc["entries"][0]["metrics"]["downloads"] == max(m["downloads"] for m in cache.values())
+
+
+@pytest.mark.parametrize("year", [2025, 0])
+def test_atlas_json_mixed_entries_with_tied_sort_keys(year):
+    merged = [
+        {"id": "model-b", "name": "Beta", "type": "llm", "metrics": {"downloads": year}},
+        {"id": "paper-b", "name": "Bravo", "type": "paper", "year": year},
+        {"id": "model-a", "name": "Alpha", "type": "llm", "metrics": {"downloads": year}},
+        {"id": "paper-a", "name": "Alfa", "type": "paper", "year": year},
+        {"id": "paper-cited", "name": "Cited", "type": "paper", "year": year, "citations": 9},
+    ]
+    doc = build_atlas_json(merged, "2026-10-06")
+    assert [e["id"] for e in doc["entries"]] == [
+        "paper-cited", "paper-a", "model-a", "model-b", "paper-b",
+    ]
 
 
 def test_llms_txt_has_sections_and_links(fixture_entries):

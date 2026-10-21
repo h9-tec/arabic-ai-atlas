@@ -1,6 +1,6 @@
 # Arabic AI Atlas
 
-> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-10-20.
+> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-10-21.
 
 ## Models
 
@@ -21,14 +21,14 @@
 - [AraPoemBERT](https://huggingface.co/faisalq/bert-base-arapoembert): BERT model pretrained on Arabic poetry for meter, rhyme, sentiment classification.
 - [opus-mt-ar-en](https://huggingface.co/Helsinki-NLP/opus-mt-ar-en): Translation AR→EN - Helsinki-NLP (12.4M+ downloads)
 - [bert-base-arabic-camelbert-mix-sentiment](https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment): CAMeLBERT-Mix fine-tuned for Arabic sentiment analysis.
+- [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
 - [SentimentArEng](https://huggingface.co/qandos0/SentimentArEng): Fine-tune of cardiffnlp twitter-xlm-roberta-base-sentiment for Arabic-English sentiment classification.
 - [bert-base-arabic-camelbert-da-sentiment](https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment): CAMeLBERT-DA fine-tuned for Arabic sentiment analysis.
 - [MARBERTv2](https://huggingface.co/UBC-NLP/MARBERTv2): Updated with improved dialectal coverage
-- [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
 - [whisper-large-v3-turbo-ar-quran](https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran): Whisper large-v3-turbo fine-tuned on Quran recitation.
+- [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics): Unlike standard Arabic ASR systems that output orthographic Arabic text, this model outputs a phonetic (sound-level) representation, making it suitable.
 - [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae): Qwen3-ASR fine-tuned for Emirati Arabic.
 - [opus mt tc big ar en](https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-ar-en): Neural machine translation model for translating from Arabic (ar) to English (en).
-- [opus-mt-en-ar](https://huggingface.co/Helsinki-NLP/opus-mt-en-ar): Translation EN→AR - Helsinki-NLP (3.5M+ downloads)
 
 ## Datasets
 
@@ -47,8 +47,8 @@
 - [coda llm data](https://huggingface.co/datasets/mohameddalii/coda-llm-data): This repository contains the full end-to-end dataset, fine-tuning scripts, evaluation suites, load testing harness, and proxy architecture for Coda LLM.
 - [XStoryCloze](https://huggingface.co/datasets/juletxara/xstory_cloze): XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages.
 - [TYDIQA](https://huggingface.co/datasets/google-research-datasets/tydiqa): Question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs
-- [MIRACL](https://huggingface.co/datasets/miracl/miracl-corpus): MIRACL multilingual retrieval corpus spanning 18 languages, with Arabic as one documented subset.
 - [Quranic Translation Audio Data](https://huggingface.co/datasets/zaibihassan/Quranic-Translation-Audio-Data): Complete Quran translation audio and commentary recitations across 51 translation directories in 14 languages.
+- [MIRACL](https://huggingface.co/datasets/miracl/miracl-corpus): MIRACL multilingual retrieval corpus spanning 18 languages, with Arabic as one documented subset.
 - [karsl 502 arabic sign language v2](https://huggingface.co/datasets/FatimahEmadEldin/karsl-502-arabic-sign-language-v2): KArSL-502 Arabic sign language image frames organized by signer and sign folders.
 - [Dialectal Arabic Lahgtna v2](https://huggingface.co/datasets/oddadmix/dialectal-arabic-lahgtna-v2): Multi-dialect Arabic speech across 13 dialects, 3,000+ hours.
 - [waqfeya library compressed](https://huggingface.co/datasets/ieasybooks-org/waqfeya-library-compressed): Waqfeya is one of the primary online resources for Islamic books, similar to Shamela.
@@ -66,11 +66,11 @@
 - [ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU): Multi-task language understanding from school exams
 - [MMCQA-SemEval27](https://huggingface.co/datasets/QCRI/MMCQA-SemEval27): This is the dataset for MMCultureQA, the SemEval 2027 shared task on culturally grounded visual question answering in English and Arabic.
 - [TunisianMMLU](https://huggingface.co/datasets/linagora/TunisianMMLU): MMLU translated into Tunisian Derja, LINAGORA (France); evaluated with lighteval.
-- [Belebele-Fleurs](https://huggingface.co/datasets/WueNLP/belebele-fleurs): Belebele-Fleurs extends BeleBele into a spoken SLU benchmark with multilingual multiple-choice listening comprehension QA from speech.
 - [AlGhafa Arabic LLM Benchmark (Native)](https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native): Native-Arabic multiple-choice evaluation tasks used as OALL leaderboard tasks.
-- [MIRACL-VISION](https://huggingface.co/datasets/nvidia/miracl-vision): Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.
+- [Belebele-Fleurs](https://huggingface.co/datasets/WueNLP/belebele-fleurs): Belebele-Fleurs extends BeleBele into a spoken SLU benchmark with multilingual multiple-choice listening comprehension QA from speech.
 - [Arabic EXAMS (OALL)](https://huggingface.co/datasets/OALL/Arabic_EXAMS): Arabic subset of the EXAMS multilingual school-exam benchmark, an OALL task.
 - [ArAD](https://huggingface.co/datasets/SpeechAntiSpoofingBenchmarks/ArAD): Benchmark-ready packaging of the test split of the Arabic Audio Deepfake (ArAD) dataset: binary anti-spoofing on Arabic (primarily Levantine dialect) speech.
+- [MIRACL-VISION](https://huggingface.co/datasets/nvidia/miracl-vision): Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.
 - [Human-Translated Arabic MMLU](https://huggingface.co/datasets/MBZUAI/human_translated_arabic_mmlu): Human-translated MMLU into Arabic from MBZUAI, companion to ArabicMMLU.
 - [jev ar bench](https://huggingface.co/datasets/atmaneayoub/jev-ar-bench): Arabic intent-routing benchmarks for MSA, Emirati, Saudi and code-switched Arabic
 - [ASR Code Switch](https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch): A curated benchmark of 1,200 code-switching utterances (300 per language pair) for evaluating commercial ASR systems on multilingual speech.
@@ -78,13 +78,13 @@
 - [ALRAGE](https://huggingface.co/datasets/OALL/ALRAGE): Arabic retrieval-augmented generation evaluation set used in OALL v2.
 - [EgyMMLU](https://huggingface.co/datasets/UBC-NLP/EgyMMLU): MMLU translated into Egyptian Arabic from UBC (Canada), released with NileChat.
 - [OALL Arabic MMLU](https://huggingface.co/datasets/OALL/Arabic_MMLU): GPT-translated Arabic MMLU copy from FreedomIntelligence, used as an OALL v1 task.
-- [Quranic ASR Benchmark](https://huggingface.co/datasets/Quran-Lab/quranic-asr-benchmark): Small benchmark set for evaluating ASR models on Quran recitation.
-- [MMLU Arabic (FreedomIntelligence)](https://huggingface.co/datasets/FreedomIntelligence/MMLU_Arabic): MMLU translated into Arabic by gpt-3.5-turbo.
 - [AraTrust](https://huggingface.co/datasets/asas-ai/AraTrust): Arabic LLM trustworthiness benchmark across truthfulness, ethics, safety and privacy.
+- [MMLU Arabic (FreedomIntelligence)](https://huggingface.co/datasets/FreedomIntelligence/MMLU_Arabic): MMLU translated into Arabic by gpt-3.5-turbo.
 - [ALM-Bench](https://huggingface.co/datasets/MBZUAI/ALM-Bench): All Languages Matter multimodal cultural benchmark covering 100 languages including Arabic.
-- [fa en ar handwritten ocr v1](https://huggingface.co/datasets/saeid1999/fa-en-ar-handwritten-ocr-v1): A large, clean, augmentation-rich synthetic handwriting dataset for training and benchmarking OCR / HTR models on Persian (fa), Arabic (ar) and English (en).
-- [AraDICE ArabicMMLU Egyptian](https://huggingface.co/datasets/QCRI/AraDICE-ArabicMMLU-egy): Egyptian-dialect translation of ArabicMMLU from the QCRI AraDiCE benchmark suite.
 - [QuranMB.v2](https://huggingface.co/datasets/IqraEval/QuranMB.v2): IqraEval benchmark for Quranic mispronunciation detection.
+- [Quranic ASR Benchmark](https://huggingface.co/datasets/Quran-Lab/quranic-asr-benchmark): Small benchmark set for evaluating ASR models on Quran recitation.
+- [AraDICE ArabicMMLU Egyptian](https://huggingface.co/datasets/QCRI/AraDICE-ArabicMMLU-egy): Egyptian-dialect translation of ArabicMMLU from the QCRI AraDiCE benchmark suite.
+- [MadinahQA](https://huggingface.co/datasets/MBZUAI/MadinahQA): Arabic language and grammar multiple-choice QA split released with ArabicMMLU.
 
 ## Papers
 

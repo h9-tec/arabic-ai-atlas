@@ -43,8 +43,8 @@
 | AraModernBert-Base-V1.0 | NAMAA-Space | 🇸🇦 SA | 150M | apache-2.0 | 2K | 2026-03-30 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NAMAA-Space/AraModernBert-Base-V1.0) |
 | bert base qarib | QCRI | 🇶🇦 QA | — | unknown | 1K | 2021-05-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ahmedabdelali/bert-base-qarib) |
 | Mawrooth-ALLaM-7B-LoRA | NorahAlobaied | 🌍 INTL | 7B | apache-2.0 | 1K | 2026-09-27 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/NorahAlobaied/Mawrooth-ALLaM-7B-LoRA) |
-| Nile-Chat-4B | MBZUAI-Paris Lab | 🇦🇪 AE | 3.9B | gemma | 1K | 2025-07-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MBZUAI-Paris/Nile-Chat-4B) |
 | SILMA 1.0 | SILMA AI | 🌍 INTL | 9B | gemma | 1K | 2025-06-25 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0) |
+| Nile-Chat-4B | MBZUAI-Paris Lab | 🇦🇪 AE | 3.9B | gemma | 1K | 2025-07-10 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MBZUAI-Paris/Nile-Chat-4B) |
 | bert-large-arabertv2 | AUB MIND Lab | 🇱🇧 LB | 371M | unknown | 1K | 2023-03-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/aubmindlab/bert-large-arabertv2) |
 | Jais-adapted (Llama-2 based) | Inception AI (G42) | 🇦🇪 AE | 7B-70B | apache-2.0 | 1K | 2024-09-11 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inception42/jais-adapted-13b-chat) |
 | Jais 2 70B Chat | Inception AI (G42) | 🇦🇪 AE | 70B | apache-2.0 | 1K | 2026-08-18 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/inception42/Jais-2-70B-Chat) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.13580) |
@@ -400,4 +400,4 @@
 
 ---
 
-_Generated 2026-10-21. Do not edit by hand._
+_Generated 2026-10-22. Do not edit by hand._

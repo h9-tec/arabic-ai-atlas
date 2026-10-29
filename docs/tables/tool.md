@@ -5,9 +5,9 @@
 | Name | Org | Country | License | Links | Notes |
 | --- | --- | --- | --- | --- | --- |
 | voxlect-arabic-dialect-whisper-large-v3 | tiantiaf (USC) | 🌍 INTL | openrail | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/tiantiaf/voxlect-arabic-dialect-whisper-large-v3) | Whisper-large-v3 Arabic dialect classifier from the Voxlect benchmark. |
-| hassaniya-punctuation-restoration | Emin009 | 🌍 INTL | apache-2.0 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Emin009/hassaniya-punctuation-restoration) | Open-source punctuation-restoration model for Hassaniya Arabic. |
 | flair-arabic-dialects-codeswitch-egy-lev | megantosh | 🌍 INTL | apache-2.0 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/megantosh/flair-arabic-dialects-codeswitch-egy-lev) | Flair and fastText part-of-speech tagger for Egyptian and Levantine code-switched Arabic. |
 | OSMAN readability metric | Lancaster University | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/arbml/Osman_Un_Corpus) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/drelhaj/OsmanReadability) | Arabic readability metric analogous to Flesch, with parallel Arabic-English corpus. |
+| hassaniya-punctuation-restoration | Emin009 | 🌍 INTL | apache-2.0 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Emin009/hassaniya-punctuation-restoration) | Open-source punctuation-restoration model for Hassaniya Arabic. |
 | Agentic-AI-Design-Patterns | Muhannad-Khaled | 🌍 INTL | mit | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Muhannad-Khaled/Agentic-AI-Design-Patterns) | The 21 agentic AI design patterns from Antonio Gulli's book, explained in Egyptian Arabic — with framework-free, runnable Python examples. |
 | Ai-Quran-Video-Composer | WalidZein | 🌍 INTL | unknown | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/WalidZein/Ai-Quran-Video-Composer) | What if you can generate a a video with cinematic backgrounds behind the majestic verses of the Quran. |
 | ai-rtl-resolver | miladniroee | 🌍 INTL | mit | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/miladniroee/ai-rtl-resolver) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://miladniroee.github.io/ai-rtl-resolver/) | Ai Chatbot RTL Resolver |
@@ -320,4 +320,4 @@
 
 ---
 
-_Generated 2026-10-28. Do not edit by hand._
+_Generated 2026-10-29. Do not edit by hand._

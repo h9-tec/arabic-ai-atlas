@@ -9,7 +9,7 @@ Every entry of each type. The [README](../../README.md) shows only the top 20 pe
 | [Text-to-Speech](tts.md) | 85 |
 | [OCR](ocr.md) | 51 |
 | [Embeddings](embedding.md) | 66 |
-| [Datasets](dataset.md) | 1163 |
+| [Datasets](dataset.md) | 1164 |
 | [Tools](tool.md) | 313 |
 | [Benchmarks](benchmark.md) | 165 |
 | [Organizations](org.md) | 125 |

@@ -9,7 +9,7 @@
 **The Arabic AI ecosystem as a map, a list, and a skill your agent can install.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Entries](https://img.shields.io/badge/entries-3302-0A7E8C)
+![Entries](https://img.shields.io/badge/entries-3303-0A7E8C)
 ![Updated](https://img.shields.io/badge/updated-2026--10--31-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -50,7 +50,7 @@ Add this to your `.mcp.json`:
 
 | Country | Entries | LLM | ASR | TTS | OCR | Embedding | Datasets | Tools | Benchmarks | Papers | Orgs |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 2200 | 210 | 119 | 58 | 32 | 30 | 710 | 238 | 75 | 671 | 23 |
+| 🌍 [International](https://h9-tec.github.io/arabic-ai-atlas/#country=INTL) | 2201 | 210 | 119 | 58 | 32 | 30 | 711 | 238 | 75 | 671 | 23 |
 | 🇸🇦 [Saudi Arabia](https://h9-tec.github.io/arabic-ai-atlas/#country=SA) | 355 | 46 | 11 | 8 | 9 | 28 | 163 | 19 | 25 | 11 | 35 |
 | 🇦🇪 [United Arab Emirates](https://h9-tec.github.io/arabic-ai-atlas/#country=AE) | 184 | 49 | 5 | 6 | 0 | 0 | 43 | 12 | 31 | 17 | 21 |
 | 🇪🇬 [Egypt](https://h9-tec.github.io/arabic-ai-atlas/#country=EG) | 175 | 33 | 22 | 6 | 5 | 7 | 73 | 5 | 3 | 2 | 18 |
@@ -230,7 +230,7 @@ _Showing 20 of 66 · [see all 66 on the interactive map](https://h9-tec.github.i
 
 ## 📊 Datasets
 
-_Showing 20 of 1163 · [see all 1163 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
+_Showing 20 of 1164 · [see all 1164 on the interactive map](https://h9-tec.github.io/arabic-ai-atlas/#type=dataset) · [full table](docs/tables/dataset.md)_
 
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -472,4 +472,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ---
 
-_Generated 2026-10-31 from 3302 entries. Do not edit README.md by hand._
+_Generated 2026-10-31 from 3303 entries. Do not edit README.md by hand._

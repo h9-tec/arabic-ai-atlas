@@ -18845,3 +18845,25 @@
   - classical
   year: 2026
   notes: 'Classical Arabic heritage (turath) tasks for GRPO/RLVR: QA, fill-mask and multiple choice, derived from the asfar corpus.'
+- id: darbuka-arabic
+  name: Darbuka Arabic
+  type: dataset
+  country: INTL
+  org: Bitmanager.ai
+  license: unknown
+  modality: speech
+  tasks:
+  - asr
+  - tts
+  links:
+    hf: https://huggingface.co/datasets/bitmanagerai-speech-lab/darbuka_arabic_tts_dataset
+  size: 1,944 hours
+  year: 2026
+  dialects:
+  - egy
+  - gulf
+  tags:
+  - webdataset
+  - speech-quality
+  - consensus-transcription
+  notes: 943,731 clips; Egyptian and Saudi speech; three-ASR consensus and quality scores. Custom noncommercial license; commercial version on request.

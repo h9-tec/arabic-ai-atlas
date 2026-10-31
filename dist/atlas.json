@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-31",
-  "count": 3302,
+  "count": 3303,
   "entries": [
     {
       "id": "xtts-v2",
@@ -62963,6 +62963,35 @@
         "website": "https://daralraqmana.com"
       },
       "notes": "Digitization company offering Arabic text recognition (OCR), digital repositories and morphological search.",
+      "metrics": null
+    },
+    {
+      "id": "darbuka-arabic",
+      "name": "Darbuka Arabic",
+      "type": "dataset",
+      "country": "INTL",
+      "org": "Bitmanager.ai",
+      "license": "unknown",
+      "modality": "speech",
+      "tasks": [
+        "asr",
+        "tts"
+      ],
+      "links": {
+        "hf": "https://huggingface.co/datasets/bitmanagerai-speech-lab/darbuka_arabic_tts_dataset"
+      },
+      "size": "1,944 hours",
+      "year": 2026,
+      "dialects": [
+        "egy",
+        "gulf"
+      ],
+      "tags": [
+        "webdataset",
+        "speech-quality",
+        "consensus-transcription"
+      ],
+      "notes": "943,731 clips; Egyptian and Saudi speech; three-ASR consensus and quality scores. Custom noncommercial license; commercial version on request.",
       "metrics": null
     },
     {

@@ -84,7 +84,7 @@ a:hover .bubble { fill-opacity: 1; }
 </defs>
 <rect class="bg" x="0" y="0" width="1600" height="1055"/>
 <text class="title" x="24" y="42">Arabic AI Atlas</text>
-<text class="sub" x="24" y="66">Where Arabic AI is built · 3302 entries · 2026-11-01</text>
+<text class="sub" x="24" y="66">Where Arabic AI is built · 3302 entries · 2026-11-02</text>
 <circle cx="764.4" cy="61" r="6.5" fill="#4F46E5"/>
 <text class="lg" x="774.4" y="66">LLM</text>
 <circle cx="824.3" cy="61" r="6.5" fill="#0891B2"/>
@@ -211,7 +211,7 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="LY">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=LY&amp;type=llm" target="_blank" rel="noopener"><title>Libya · LLM · 1 entry</title><circle class="bubble" cx="706" cy="303" r="4" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=LY&amp;type=asr" target="_blank" rel="noopener"><title>Libya · ASR · 1 entry · 118 downloads · most downloaded: whisper-small-libyan (118)</title><circle class="bubble" cx="713.7" cy="316.7" r="4.3" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=LY&amp;type=asr" target="_blank" rel="noopener"><title>Libya · ASR · 1 entry · 115 downloads · most downloaded: whisper-small-libyan (115)</title><circle class="bubble" cx="713.7" cy="316.7" r="4.3" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=LY&amp;type=org" target="_blank" rel="noopener"><title>Libya · Organisation · 1 entry</title><circle class="bubble" cx="698.1" cy="316.3" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=LY" target="_blank" rel="noopener">
 <title>Libya, 3 entries</title>
@@ -234,7 +234,7 @@ a:hover .bubble { fill-opacity: 1; }
 <line class="leader" x1="1245.6" y1="283.4" x2="1212.6" y2="186.1"/>
 <circle class="leader-dot" cx="1245.6" cy="283.4" r="2.4"/>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH&amp;type=llm" target="_blank" rel="noopener"><title>Bahrain · LLM · 1 entry</title><circle class="bubble" cx="1212.6" cy="177.1" r="4" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH&amp;type=asr" target="_blank" rel="noopener"><title>Bahrain · ASR · 2 entries · 30 downloads · most downloaded: bahraini-arabic ASR (20), Whisper-base Bahraini (10)</title><circle class="bubble" cx="1221.6" cy="186.1" r="4.1" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH&amp;type=asr" target="_blank" rel="noopener"><title>Bahrain · ASR · 2 entries · 29 downloads · most downloaded: bahraini-arabic ASR (20), Whisper-base Bahraini (9)</title><circle class="bubble" cx="1221.6" cy="186.1" r="4.1" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH&amp;type=dataset" target="_blank" rel="noopener"><title>Bahrain · Dataset · 1 entry</title><circle class="bubble" cx="1212.5" cy="195.1" r="4" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH&amp;type=org" target="_blank" rel="noopener"><title>Bahrain · Organisation · 1 entry</title><circle class="bubble" cx="1203.6" cy="186" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=BH" target="_blank" rel="noopener">
@@ -245,7 +245,7 @@ a:hover .bubble { fill-opacity: 1; }
 </a>
 </g>
 <g class="mark" data-code="SD">
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SD&amp;type=asr" target="_blank" rel="noopener"><title>Sudan · ASR · 1 entry · 30 downloads · most downloaded: Whisper-Sudanese-Dialect-small (30)</title><circle class="bubble" cx="920" cy="508.2" r="4.1" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SD&amp;type=asr" target="_blank" rel="noopener"><title>Sudan · ASR · 1 entry · 31 downloads · most downloaded: Whisper-Sudanese-Dialect-small (31)</title><circle class="bubble" cx="920" cy="508.2" r="4.1" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SD&amp;type=dataset" target="_blank" rel="noopener"><title>Sudan · Dataset · 3 entries · 148 downloads · most downloaded: Sudan-MM (134), Sudanese Dialect tweets about telecommunication companies (14)</title><circle class="bubble" cx="927.7" cy="521.9" r="4.3" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SD&amp;type=org" target="_blank" rel="noopener"><title>Sudan · Organisation · 2 entries</title><circle class="bubble" cx="912.1" cy="521.5" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SD" target="_blank" rel="noopener">
@@ -281,7 +281,7 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="YE">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE&amp;type=llm" target="_blank" rel="noopener"><title>Yemen · LLM · 1 entry · 4K downloads · most downloaded: Gemma-4 E2B Yemeni Arabic Assistant (4K)</title><circle class="bubble" cx="1233.8" cy="471.8" r="5.7" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE&amp;type=asr" target="_blank" rel="noopener"><title>Yemen · ASR · 2 entries · 121 downloads · most downloaded: wav2vec2 xls r 300m iqraeval (106), Whisper Yemeni (15)</title><circle class="bubble" cx="1242.8" cy="481.3" r="4.3" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE&amp;type=asr" target="_blank" rel="noopener"><title>Yemen · ASR · 2 entries · 116 downloads · most downloaded: wav2vec2 xls r 300m iqraeval (101), Whisper Yemeni (15)</title><circle class="bubble" cx="1242.8" cy="481.3" r="4.3" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE&amp;type=benchmark" target="_blank" rel="noopener"><title>Yemen · Benchmark · 1 entry · 98 downloads · most downloaded: IslamicEval2026-Subtask2-Submission (98)</title><circle class="bubble" cx="1234.5" cy="489.8" r="4.3" fill="#B91C1C"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE&amp;type=dataset" target="_blank" rel="noopener"><title>Yemen · Dataset · 4 entries · 1K downloads · most downloaded: Gutenberg Arabic OCR HTML Pages (675), cafe algerian codeswitch speech (324), Yemeni Speech Emotion Dataset (149)</title><circle class="bubble" cx="1224.8" cy="482" r="4.9" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=YE" target="_blank" rel="noopener">
@@ -293,7 +293,7 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="TN">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=llm" target="_blank" rel="noopener"><title>Tunisia · LLM · 2 entries · 472 downloads · most downloaded: ESPRIT-Derja-Qwen3-8B (331), TunBERT (141)</title><circle class="bubble" cx="585.4" cy="163.5" r="4.6" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=asr" target="_blank" rel="noopener"><title>Tunisia · ASR · 1 entry · 501 downloads · most downloaded: whisper-tunisian-dialect (501)</title><circle class="bubble" cx="596.3" cy="170.1" r="4.6" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=asr" target="_blank" rel="noopener"><title>Tunisia · ASR · 1 entry · 521 downloads · most downloaded: whisper-tunisian-dialect (521)</title><circle class="bubble" cx="596.3" cy="170.1" r="4.6" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=tts" target="_blank" rel="noopener"><title>Tunisia · TTS · 1 entry · 40 downloads · most downloaded: Tunisian-TTS (40)</title><circle class="bubble" cx="595.7" cy="182.5" r="4.2" fill="#0E7490"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=benchmark" target="_blank" rel="noopener"><title>Tunisia · Benchmark · 1 entry · 24 downloads · most downloaded: tunisian msa parallel corpus evaluated (24)</title><circle class="bubble" cx="585.2" cy="188.1" r="4.1" fill="#B91C1C"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=TN&amp;type=dataset" target="_blank" rel="noopener"><title>Tunisia · Dataset · 11 entries · 490 downloads · most downloaded: TEDxTN (155), TSAC (135), TunSwitch (97)</title><circle class="bubble" cx="574.7" cy="181.7" r="4.6" fill="#047857"/></a>
@@ -321,7 +321,7 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="JO">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=llm" target="_blank" rel="noopener"><title>Jordan · LLM · 1 entry · 16 downloads · most downloaded: Qwen2.5-7B Jordanian (16)</title><circle class="bubble" cx="1011.2" cy="222.5" r="4.1" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=asr" target="_blank" rel="noopener"><title>Jordan · ASR · 1 entry · 233 downloads · most downloaded: nemotron-3.5-asr-streaming-0.6b-jordanian (233)</title><circle class="bubble" cx="1022.2" cy="227.9" r="4.4" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=asr" target="_blank" rel="noopener"><title>Jordan · ASR · 1 entry · 224 downloads · most downloaded: nemotron-3.5-asr-streaming-0.6b-jordanian (224)</title><circle class="bubble" cx="1022.2" cy="227.9" r="4.4" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=ocr" target="_blank" rel="noopener"><title>Jordan · OCR · 1 entry</title><circle class="bubble" cx="1024.6" cy="239.7" r="4" fill="#B45309"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=tool" target="_blank" rel="noopener"><title>Jordan · Tool · 2 entries</title><circle class="bubble" cx="1017.1" cy="248.7" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=benchmark" target="_blank" rel="noopener"><title>Jordan · Benchmark · 2 entries</title><circle class="bubble" cx="1005.4" cy="248.7" r="4" fill="#B91C1C"/></a>
@@ -329,9 +329,9 @@ a:hover .bubble { fill-opacity: 1; }
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO&amp;type=org" target="_blank" rel="noopener"><title>Jordan · Organisation · 2 entries</title><circle class="bubble" cx="1000.6" cy="227.5" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=JO" target="_blank" rel="noopener">
 <title>Jordan, 24 entries</title>
-<text class="halo l-ar" x="1011.2" y="278.2" text-anchor="middle" lang="ar">الأردن</text>
-<text class="halo l-en" x="1011.2" y="297.2" text-anchor="middle">Jordan</text>
-<text class="halo l-n" x="1011.2" y="315.2" text-anchor="middle">24 entries</text>
+<text class="halo l-ar" x="1011.2" y="278.1" text-anchor="middle" lang="ar">الأردن</text>
+<text class="halo l-en" x="1011.2" y="297.1" text-anchor="middle">Jordan</text>
+<text class="halo l-n" x="1011.2" y="315.1" text-anchor="middle">24 entries</text>
 </a>
 </g>
 <g class="mark" data-code="PS">
@@ -351,7 +351,7 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="DZ">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=llm" target="_blank" rel="noopener"><title>Algeria · LLM · 3 entries · 1K downloads · most downloaded: DziriBERT (1K), DZAIR (93), DziriBERT Sentiment (63)</title><circle class="bubble" cx="465.3" cy="250.9" r="5.1" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=asr" target="_blank" rel="noopener"><title>Algeria · ASR · 1 entry · 552 downloads · most downloaded: Hadra-ASR-whisper-medium (552)</title><circle class="bubble" cx="477.3" cy="256.9" r="4.6" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=asr" target="_blank" rel="noopener"><title>Algeria · ASR · 1 entry · 569 downloads · most downloaded: Hadra-ASR-whisper-medium (569)</title><circle class="bubble" cx="477.4" cy="256.9" r="4.7" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=tts" target="_blank" rel="noopener"><title>Algeria · TTS · 3 entries · 6K downloads · most downloaded: f5tts-algerian-darja (6K), Hadra-TTS-f5 (89)</title><circle class="bubble" cx="479.5" cy="271.3" r="6.1" fill="#0E7490"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=tool" target="_blank" rel="noopener"><title>Algeria · Tool · 15 entries</title><circle class="bubble" cx="469.2" cy="280.6" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=DZ&amp;type=benchmark" target="_blank" rel="noopener"><title>Algeria · Benchmark · 1 entry · 60 downloads · most downloaded: DziriEval (60)</title><circle class="bubble" cx="457.3" cy="278.9" r="4.2" fill="#B91C1C"/></a>
@@ -367,12 +367,12 @@ a:hover .bubble { fill-opacity: 1; }
 <g class="mark" data-code="MA">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=llm" target="_blank" rel="noopener"><title>Morocco · LLM · 13 entries · 2K downloads · most downloaded: DarijaBERT-arabizi (1K), DarijaBERT (491), Al-Atlas-0.5B (123)</title><circle class="bubble" cx="339" cy="152.5" r="5.2" fill="#4F46E5"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=asr" target="_blank" rel="noopener"><title>Morocco · ASR · 5 entries · 8K downloads · most downloaded: wav2vec2-large-xlsr-moroccan-darija (3K), whisper-large-v3-turbo-darija (3K), moulsot.v0.3 (2K)</title><circle class="bubble" cx="353.4" cy="158.8" r="6.5" fill="#0891B2"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=tts" target="_blank" rel="noopener"><title>Morocco · TTS · 2 entries · 2K downloads · most downloaded: habibi-tts-doda-darija (1K), DarijaTTS-v0.1-500M (872)</title><circle class="bubble" cx="358.6" cy="173.6" r="5.2" fill="#0E7490"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=tts" target="_blank" rel="noopener"><title>Morocco · TTS · 2 entries · 2K downloads · most downloaded: habibi-tts-doda-darija (1K), DarijaTTS-v0.1-500M (872)</title><circle class="bubble" cx="358.7" cy="173.7" r="5.2" fill="#0E7490"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=ocr" target="_blank" rel="noopener"><title>Morocco · OCR · 2 entries</title><circle class="bubble" cx="353.4" cy="185.7" r="4" fill="#B45309"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=embedding" target="_blank" rel="noopener"><title>Morocco · Embedding · 1 entry</title><circle class="bubble" cx="343" cy="191.6" r="4" fill="#7C3AED"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=tool" target="_blank" rel="noopener"><title>Morocco · Tool · 4 entries</title><circle class="bubble" cx="331.2" cy="190.4" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=benchmark" target="_blank" rel="noopener"><title>Morocco · Benchmark · 7 entries · 192 downloads · most downloaded: TerjamaBench (71), MizanQA (57), AtlasOCRBench (33)</title><circle class="bubble" cx="321.9" cy="182.3" r="4.4" fill="#B91C1C"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=dataset" target="_blank" rel="noopener"><title>Morocco · Dataset · 29 entries · 3K downloads · most downloaded: MoulSot-Full (850), Darija-English (DODa) (683), Darija Speech to Text (396)</title><circle class="bubble" cx="319.6" cy="168.5" r="5.6" fill="#047857"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=dataset" target="_blank" rel="noopener"><title>Morocco · Dataset · 29 entries · 3K downloads · most downloaded: MoulSot-Full (850), Darija-English (DODa) (683), Darija Speech to Text (394)</title><circle class="bubble" cx="319.6" cy="168.5" r="5.6" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA&amp;type=org" target="_blank" rel="noopener"><title>Morocco · Organisation · 5 entries</title><circle class="bubble" cx="326.6" cy="156.9" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=MA" target="_blank" rel="noopener">
 <title>Morocco, 68 entries</title>
@@ -402,9 +402,9 @@ a:hover .bubble { fill-opacity: 1; }
 <line class="leader" x1="1315.7" y1="309.7" x2="1355.7" y2="208.2"/>
 <circle class="leader-dot" cx="1315.7" cy="309.7" r="2.4"/>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=llm" target="_blank" rel="noopener"><title>UAE · LLM · 49 entries · 258K downloads · most downloaded: bert-base-arabic-camelbert-mix-sentiment (97K), bert-base-arabic-camelbert-da-sentiment (82K), bert-base-arabic-camelbert-msa-ner (17K)</title><circle class="bubble" cx="1355.7" cy="184.7" r="18.5" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=asr" target="_blank" rel="noopener"><title>UAE · ASR · 5 entries · 73K downloads · most downloaded: qwen3-asr-arabic-uae (73K), artst asr v2 (43), artst asr v3 qasr (23)</title><circle class="bubble" cx="1379.1" cy="207.8" r="11.7" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=asr" target="_blank" rel="noopener"><title>UAE · ASR · 5 entries · 73K downloads · most downloaded: qwen3-asr-arabic-uae (73K), artst asr v2 (44), artst asr v3 qasr (23)</title><circle class="bubble" cx="1379.1" cy="207.8" r="11.7" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=tts" target="_blank" rel="noopener"><title>UAE · TTS · 6 entries · 3K downloads · most downloaded: arabic-emirati-female-piper (2K), qwen3 TTS KSA (233), speecht5_tts_clartts_ar (214)</title><circle class="bubble" cx="1369.7" cy="227" r="5.4" fill="#0E7490"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=tool" target="_blank" rel="noopener"><title>UAE · Tool · 12 entries</title><circle class="bubble" cx="1357" cy="231.6" r="4" fill="#475569"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=tool" target="_blank" rel="noopener"><title>UAE · Tool · 12 entries</title><circle class="bubble" cx="1357.1" cy="231.6" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=benchmark" target="_blank" rel="noopener"><title>UAE · Benchmark · 31 entries · 11K downloads · most downloaded: ArabicMMLU (4K), DarijaMMLU (2K), Human-Translated Arabic MMLU (842)</title><circle class="bubble" cx="1342.6" cy="227.6" r="6.9" fill="#B91C1C"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=dataset" target="_blank" rel="noopener"><title>UAE · Dataset · 43 entries · 5K downloads · most downloaded: ArVoice (2K), ClArTTS (1K), visper (562)</title><circle class="bubble" cx="1332.9" cy="213.6" r="6" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=AE&amp;type=org" target="_blank" rel="noopener"><title>UAE · Organisation · 21 entries</title><circle class="bubble" cx="1333.9" cy="199.6" r="4" fill="#334155"/></a>
@@ -417,25 +417,25 @@ a:hover .bubble { fill-opacity: 1; }
 </g>
 <g class="mark" data-code="EG">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=llm" target="_blank" rel="noopener"><title>Egypt · LLM · 33 entries · 6K downloads · most downloaded: Karnak LLM (1K), Karnak 40B v1.0 (1K), Karnak-6B-v1.0 (571)</title><circle class="bubble" cx="902.9" cy="296.2" r="6.2" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=asr" target="_blank" rel="noopener"><title>Egypt · ASR · 22 entries · 54K downloads · most downloaded: QwenCleo-ASR (44K), egyptian-arabic-wav2vec2-xlsr-53 (4K), whisper-large-v3-arabic-dialectal-v2 (1K)</title><circle class="bubble" cx="922.3" cy="304.9" r="10.6" fill="#0891B2"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tts" target="_blank" rel="noopener"><title>Egypt · TTS · 6 entries · 3K downloads · most downloaded: Nabra-82M-v0.1 (1K), Lahgtna OmniVoice v2 (1K), Nabra 7M Distill (274)</title><circle class="bubble" cx="928.8" cy="324.3" r="5.5" fill="#0E7490"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=ocr" target="_blank" rel="noopener"><title>Egypt · OCR · 5 entries · 628 downloads · most downloaded: waqf ocr hand written v1 (230), Katib-Qwen3.5-0.8B-0.1 (203), arabic-legal-documents-ocr-1.0 (195)</title><circle class="bubble" cx="923.6" cy="337.7" r="4.7" fill="#B45309"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=asr" target="_blank" rel="noopener"><title>Egypt · ASR · 22 entries · 55K downloads · most downloaded: QwenCleo-ASR (45K), egyptian-arabic-wav2vec2-xlsr-53 (4K), whisper-large-v3-turbo-arabic-dialectal-v2 (1K)</title><circle class="bubble" cx="922.3" cy="304.9" r="10.7" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tts" target="_blank" rel="noopener"><title>Egypt · TTS · 6 entries · 3K downloads · most downloaded: Nabra-82M-v0.1 (1K), Lahgtna OmniVoice v2 (1K), Nabra 7M Distill (274)</title><circle class="bubble" cx="928.8" cy="324.4" r="5.5" fill="#0E7490"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=ocr" target="_blank" rel="noopener"><title>Egypt · OCR · 5 entries · 628 downloads · most downloaded: waqf ocr hand written v1 (230), Katib-Qwen3.5-0.8B-0.1 (203), arabic-legal-documents-ocr-1.0 (195)</title><circle class="bubble" cx="923.6" cy="337.8" r="4.7" fill="#B45309"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=embedding" target="_blank" rel="noopener"><title>Egypt · Embedding · 7 entries · 9K downloads · most downloaded: Arabic-STS-Matryoshka-V2 (5K), Arabic-Retrieval-v1.0 (3K), arabic english sts matryoshka v2.0 (148)</title><circle class="bubble" cx="911" cy="346.8" r="6.7" fill="#7C3AED"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tool" target="_blank" rel="noopener"><title>Egypt · Tool · 5 entries</title><circle class="bubble" cx="896.2" cy="347.2" r="4" fill="#475569"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=tool" target="_blank" rel="noopener"><title>Egypt · Tool · 5 entries</title><circle class="bubble" cx="896.1" cy="347.2" r="4" fill="#475569"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=benchmark" target="_blank" rel="noopener"><title>Egypt · Benchmark · 3 entries · 170 downloads · most downloaded: ArabicRAGB (136), MasriSwitch-Bench (34)</title><circle class="bubble" cx="885.3" cy="341.2" r="4.3" fill="#B91C1C"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=dataset" target="_blank" rel="noopener"><title>Egypt · Dataset · 73 entries · 31K downloads · most downloaded: Dialectal Arabic Lahgtna v2 (7K), unnamed split ar (5K), jabarti llm dataset (5K)</title><circle class="bubble" cx="877.2" cy="325.6" r="9" fill="#047857"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=org" target="_blank" rel="noopener"><title>Egypt · Organisation · 18 entries</title><circle class="bubble" cx="880.7" cy="308.7" r="4" fill="#334155"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG&amp;type=agent-skill" target="_blank" rel="noopener"><title>Egypt · Agent skill · 1 entry</title><circle class="bubble" cx="889.1" cy="300.2" r="4" fill="#9D174D"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=EG" target="_blank" rel="noopener">
 <title>Egypt, 173 entries</title>
-<text class="halo l-ar" x="902.9" y="382.4" text-anchor="middle" lang="ar">مصر</text>
-<text class="halo l-en" x="902.9" y="401.4" text-anchor="middle">Egypt</text>
-<text class="halo l-n" x="902.9" y="419.4" text-anchor="middle">173 entries</text>
+<text class="halo l-ar" x="902.9" y="382.5" text-anchor="middle" lang="ar">مصر</text>
+<text class="halo l-en" x="902.9" y="401.5" text-anchor="middle">Egypt</text>
+<text class="halo l-n" x="902.9" y="419.5" text-anchor="middle">173 entries</text>
 </a>
 </g>
 <g class="mark" data-code="SA">
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=llm" target="_blank" rel="noopener"><title>Saudi Arabia · LLM · 46 entries · 298K downloads · most downloaded: AraPoemBERT (104K), ALLaM (93K), ALLaM-7B-Instruct-preview (93K)</title><circle class="bubble" cx="1149.9" cy="316.2" r="19.5" fill="#4F46E5"/></a>
-<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=asr" target="_blank" rel="noopener"><title>Saudi Arabia · ASR · 11 entries · 4K downloads · most downloaded: Cohere-Speech-Tashkeel-2B (3K), NAMAA Saudi ASR V1 (508), EgypTalk-ASR-v2 (218)</title><circle class="bubble" cx="1176.2" cy="330.6" r="5.8" fill="#0891B2"/></a>
+<a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=asr" target="_blank" rel="noopener"><title>Saudi Arabia · ASR · 11 entries · 4K downloads · most downloaded: Cohere-Speech-Tashkeel-2B (3K), NAMAA Saudi ASR V1 (514), EgypTalk-ASR-v2 (217)</title><circle class="bubble" cx="1176.2" cy="330.6" r="5.8" fill="#0891B2"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=tts" target="_blank" rel="noopener"><title>Saudi Arabia · TTS · 8 entries · 2K downloads · most downloaded: NAMAA-Saudi-TTS-V2 (1K), NAMAA-Saudi-TTS (241), NAMAA-Egyptian-TTS (196)</title><circle class="bubble" cx="1181" cy="345.1" r="5.2" fill="#0E7490"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=ocr" target="_blank" rel="noopener"><title>Saudi Arabia · OCR · 9 entries · 134K downloads · most downloaded: Qari-OCR-v0.3-VL-2B-Instruct (130K), Qari OCR 0.2.2.1 VL 2B Instruct (1K), Qari-OCR-0.4.0-VL-4B-Instruct (1K)</title><circle class="bubble" cx="1173.1" cy="368.1" r="14.4" fill="#B45309"/></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=SA&amp;type=embedding" target="_blank" rel="noopener"><title>Saudi Arabia · Embedding · 28 entries · 25K downloads · most downloaded: GATE-AraBert-v1 (10K), Arabic-Triplet-Matryoshka-V2 (5K), ARA-Reranker-V1 (4K)</title><circle class="bubble" cx="1147.6" cy="378.4" r="8.5" fill="#7C3AED"/></a>
@@ -488,5 +488,5 @@ a:hover .bubble { fill-opacity: 1; }
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=INTL&amp;type=org" target="_blank" rel="noopener"><title>International · Organisation · 23 entries</title><circle class="over" cx="641.4" cy="965" r="7"/><circle class="bubble" cx="641.4" cy="965" r="4" fill="#334155"/><text class="di-t" x="679.4" y="962">Organisation</text><text class="di-n" x="679.4" y="980">23 entries</text></a>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#country=INTL&amp;type=agent-skill" target="_blank" rel="noopener"><title>International · Agent skill · 34 entries</title><circle class="over" cx="837.4" cy="965" r="7"/><circle class="bubble" cx="837.4" cy="965" r="4" fill="#9D174D"/><text class="di-t" x="875.4" y="962">Agent skill</text><text class="di-n" x="875.4" y="980">34 entries</text></a>
 <line class="rule" x1="24" y1="1021" x2="1576" y2="1021"/>
-<text class="footer" x="1576" y="1041" text-anchor="end">Generated 2026-11-01 from 3302 entries · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1576" y="1041" text-anchor="end">Generated 2026-11-02 from 3302 entries · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

@@ -62969,9 +62969,9 @@
       "id": "darbuka-arabic",
       "name": "Darbuka Arabic",
       "type": "dataset",
-      "country": "INTL",
+      "country": "AE",
       "org": "Bitmanager.ai",
-      "license": "unknown",
+      "license": "custom-noncommercial",
       "modality": "speech",
       "tasks": [
         "asr",

@@ -48,7 +48,7 @@ a:hover .n { opacity: 0.85; }
 <line class="grid" x1="1217.5" y1="88" x2="1217.5" y2="1157"/>
 <line class="grid" x1="1560" y1="88" x2="1560" y2="1157"/>
 <text class="title" x="40" y="50">Arabic AI Atlas</text>
-<text class="sub" x="40" y="72">The Arabic AI ecosystem · 3302 entries · 2026-11-02</text>
+<text class="sub" x="40" y="72">The Arabic AI ecosystem · 3303 entries · 2026-11-02</text>
 <rect class="llm" x="1015" y="62" width="12" height="12" rx="3"/>
 <text class="legend" x="1031" y="72">LLM</text>
 <rect class="asr" x="1070" y="62" width="12" height="12" rx="3"/>
@@ -68,7 +68,7 @@ a:hover .n { opacity: 0.85; }
 <text class="colhead" x="275.6" y="105" text-anchor="middle">🇸🇦 SA</text>
 <text class="colsub" x="275.6" y="122" text-anchor="middle">Saudi Arabia · 309</text>
 <text class="colhead" x="446.9" y="105" text-anchor="middle">🇦🇪 AE</text>
-<text class="colsub" x="446.9" y="122" text-anchor="middle">UAE · 146</text>
+<text class="colsub" x="446.9" y="122" text-anchor="middle">UAE · 147</text>
 <text class="colhead" x="618.1" y="105" text-anchor="middle">🇪🇬 EG</text>
 <text class="colsub" x="618.1" y="122" text-anchor="middle">Egypt · 154</text>
 <text class="colhead" x="789.4" y="105" text-anchor="middle">🇶🇦 QA</text>
@@ -234,7 +234,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/ALJIACHI/Mizan-Rerank-V2" target="_blank" rel="noopener"><title>Mizan Rerank V2 · ALJIACHI · 2K downloads</title><rect class="n embedding" x="1398.8" y="819" width="143.1" height="28" rx="5"/><text class="nl" x="1470.4" y="837" text-anchor="middle">Mizan Rerank V2</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-tools" target="_blank" rel="noopener"><title>338 more in the README</title><rect class="n more" x="1352.8" y="852" width="72" height="28" rx="5"/><text class="nl" x="1388.8" y="870" text-anchor="middle">+338 more</text></a>
 <text class="bandlabel" x="54" y="974">Datasets</text>
-<text class="bandsub" x="54" y="990">1163 entries</text>
+<text class="bandsub" x="54" y="990">1164 entries</text>
 <a href="https://huggingface.co/datasets/riotu-lab/SARD" target="_blank" rel="noopener"><title>SARD · riotu-lab · 8K downloads</title><rect class="n dataset" x="197.9" y="958" width="155.5" height="28" rx="5"/><text class="nl" x="275.6" y="976" text-anchor="middle">SARD</text></a>
 <a href="https://huggingface.co/datasets/arbml/Sanadset" target="_blank" rel="noopener"><title>Sanadset · ARBML · 2K downloads</title><rect class="n dataset" x="204.7" y="991" width="141.8" height="28" rx="5"/><text class="nl" x="275.6" y="1009" text-anchor="middle">Sanadset</text></a>
 <a href="https://huggingface.co/datasets/arbml/CIDAR" target="_blank" rel="noopener"><title>CIDAR · ARBML · 1K downloads</title><rect class="n dataset" x="207.6" y="1024" width="136.1" height="28" rx="5"/><text class="nl" x="275.6" y="1042" text-anchor="middle">CIDAR</text></a>
@@ -246,7 +246,7 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/tiiuae/visper" target="_blank" rel="noopener"><title>visper · TII (UAE) · 562 downloads</title><rect class="n dataset" x="381.8" y="1024" width="130.2" height="28" rx="5"/><text class="nl" x="446.9" y="1042" text-anchor="middle">visper</text></a>
 <a href="https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-SFT-Mixture" target="_blank" rel="noopener"><title>Egyptian SFT Mixture · MBZUAI-Paris Lab · 496 downloads</title><rect class="n dataset" x="382.4" y="1057" width="129" height="28" rx="5"/><text class="nl" x="446.9" y="1075" text-anchor="middle">Egyptian SFT Mixt…</text></a>
 <a href="https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0" target="_blank" rel="noopener"><title>BAREC Corpus · CAMeL Lab, NYUAD · 169 downloads</title><rect class="n dataset" x="387.3" y="1090" width="119.2" height="28" rx="5"/><text class="nl" x="446.9" y="1108" text-anchor="middle">BAREC Corpus</text></a>
-<a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>38 more in the README</title><rect class="n more" x="410.9" y="1123" width="72" height="28" rx="5"/><text class="nl" x="446.9" y="1141" text-anchor="middle">+38 more</text></a>
+<a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>39 more in the README</title><rect class="n more" x="410.9" y="1123" width="72" height="28" rx="5"/><text class="nl" x="446.9" y="1141" text-anchor="middle">+39 more</text></a>
 <a href="https://huggingface.co/datasets/oddadmix/dialectal-arabic-lahgtna-v2" target="_blank" rel="noopener"><title>Dialectal Arabic Lahgtna v2 · oddadmix · 6K downloads</title><rect class="n dataset" x="541.6" y="958" width="153" height="28" rx="5"/><text class="nl" x="618.1" y="976" text-anchor="middle">Dialectal Arabic Lahgtn…</text></a>
 <a href="https://huggingface.co/datasets/oddadmix/unnamed-split-ar" target="_blank" rel="noopener"><title>unnamed split ar · oddadmix · 5K downloads</title><rect class="n dataset" x="542.6" y="991" width="151.1" height="28" rx="5"/><text class="nl" x="618.1" y="1009" text-anchor="middle">unnamed split ar</text></a>
 <a href="https://huggingface.co/datasets/bakrianoo/jabarti-llm-dataset" target="_blank" rel="noopener"><title>jabarti llm dataset · Bakrianoo · 4K downloads</title><rect class="n dataset" x="543.4" y="1024" width="149.5" height="28" rx="5"/><text class="nl" x="618.1" y="1042" text-anchor="middle">jabarti llm dataset</text></a>
@@ -277,5 +277,5 @@ a:hover .n { opacity: 0.85; }
 <a href="https://huggingface.co/datasets/AuthenticIlm/Shamela4_Full_DB" target="_blank" rel="noopener"><title>Shamela4 Full DB · AuthenticIlm · 49K downloads</title><rect class="n dataset" x="1303.1" y="1057" width="171.3" height="28" rx="5"/><text class="nl" x="1388.8" y="1075" text-anchor="middle">Shamela4 Full DB</text></a>
 <a href="https://huggingface.co/datasets/facebook/xnli" target="_blank" rel="noopener"><title>XNLI · Facebook AI Research · 37K downloads</title><rect class="n dataset" x="1265.8" y="1090" width="168.8" height="28" rx="5"/><text class="nl" x="1350.2" y="1108" text-anchor="middle">XNLI</text></a>
 <a href="https://github.com/h9-tec/arabic-ai-atlas#-datasets" target="_blank" rel="noopener"><title>705 more in the README</title><rect class="n more" x="1439.7" y="1090" width="72" height="28" rx="5"/><text class="nl" x="1475.7" y="1108" text-anchor="middle">+705 more</text></a>
-<text class="footer" x="1560" y="1179" text-anchor="end">Generated 2026-11-02 from 3302 entries · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1560" y="1179" text-anchor="end">Generated 2026-11-02 from 3303 entries · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

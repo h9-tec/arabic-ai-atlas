@@ -18,4 +18,4 @@ Every entry of each type. The [README](../../README.md) shows only the top 20 pe
 
 ---
 
-_Generated 2026-11-04. Do not edit by hand._
+_Generated 2026-11-05. Do not edit by hand._

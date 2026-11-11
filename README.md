@@ -10,7 +10,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Entries](https://img.shields.io/badge/entries-3302-0A7E8C)
-![Updated](https://img.shields.io/badge/updated-2026--11--10-555)
+![Updated](https://img.shields.io/badge/updated-2026--11--11-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/arabic-ai-atlas?style=flat)](https://github.com/h9-tec/arabic-ai-atlas/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -127,24 +127,24 @@ _Showing 20 of 174 · [see all 174 on the interactive map](https://h9-tec.github
 | Name | Org | Country | License | ⬇ Downloads | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 | whisper-large-v3-turbo | OpenAI | 🌍 INTL | mit | 5.1M | 2024-10-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/openai/whisper-large-v3-turbo) |
-| openai/whisper-large-v3 | OpenAI | 🌍 INTL | apache-2.0 | 3.6M | 2024-08-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/openai/whisper-large-v3) |
+| openai/whisper-large-v3 | OpenAI | 🌍 INTL | apache-2.0 | 3.5M | 2024-08-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/openai/whisper-large-v3) |
 | wav2vec2-large-xlsr-53-arabic | jonatasgrosman | 🌍 INTL | apache-2.0 | 2.3M | 2022-12-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic) |
-| Whisper Quran | Tarteel AI | 🌍 INTL | apache-2.0 | 353K | 2022-12-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/tarteel-ai/whisper-base-ar-quran) |
-| SeamlessM4T v2 | Meta | 🌍 INTL | cc-by-nc-4.0 | 293K | 2024-01-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/facebook/seamless-m4t-v2-large) |
-| wav2vec2 quran phonetics | TBOGamer22 | 🌍 INTL | apache-2.0 | 255K | 2026-01-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics) |
+| Whisper Quran | Tarteel AI | 🌍 INTL | apache-2.0 | 354K | 2022-12-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/tarteel-ai/whisper-base-ar-quran) |
+| SeamlessM4T v2 | Meta | 🌍 INTL | cc-by-nc-4.0 | 292K | 2024-01-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/facebook/seamless-m4t-v2-large) |
+| wav2vec2 quran phonetics | TBOGamer22 | 🌍 INTL | apache-2.0 | 254K | 2026-01-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics) |
 | cohere-transcribe-arabic-07-2026 | Cohere Labs | 🌍 INTL | apache-2.0 | 233K | 2026-07-13 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026) |
-| MMS-1b-all | Meta | 🌍 INTL | cc-by-nc-4.0 | 220K | 2023-06-15 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/facebook/mms-1b-all) |
-| Voxtral Mini | Mistral AI | 🌍 INTL | apache-2.0 | 112K | 2025-07-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507) |
-| qwen3-asr-arabic-uae | Vadim Belsky | 🇦🇪 AE | apache-2.0 | 80K | 2026-04-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae) |
-| muaalem model v3 2 | obadx | 🌍 INTL | mit | 77K | 2025-09-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/obadx/muaalem-model-v3_2) |
+| MMS-1b-all | Meta | 🌍 INTL | cc-by-nc-4.0 | 219K | 2023-06-15 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/facebook/mms-1b-all) |
+| Voxtral Mini | Mistral AI | 🌍 INTL | apache-2.0 | 110K | 2025-07-28 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507) |
+| qwen3-asr-arabic-uae | Vadim Belsky | 🇦🇪 AE | apache-2.0 | 84K | 2026-04-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae) |
+| muaalem model v3 2 | obadx | 🌍 INTL | mit | 76K | 2025-09-04 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/obadx/muaalem-model-v3_2) |
 | QwenCleo-ASR | Mohammed Aly | 🇪🇬 EG | apache-2.0 | 45K | 2026-06-17 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/mohammedaly22/QwenCleo-ASR) |
 | wav2vec2 large xlsr 53 arabic quran v final | rabah2026 | 🌍 INTL | apache-2.0 | 10K | 2025-12-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final) |
 | whisper-tiny-ar-quran | Tarteel AI | 🌍 INTL | apache-2.0 | 5K | 2022-12-14 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/tarteel-ai/whisper-tiny-ar-quran) |
 | whisper-large-v3-turbo-ar-quran | Naazim | 🌍 INTL | apache-2.0 | 5K | 2025-12-08 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/naazimsnh02/whisper-large-v3-turbo-ar-quran) |
-| NVIDIA FastConformer Arabic (Diacritics) | NVIDIA | 🌍 INTL | cc-by-4.0 | 3K | 2025-10-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0) |
 | wav2vec2-large-xlsr-moroccan-darija | Boumehdi | 🇲🇦 MA | apache-2.0 | 3K | 2024-04-12 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/boumehdi/wav2vec2-large-xlsr-moroccan-darija) |
-| Audar ASR V1 Turbo | Audar AI | 🌍 INTL | other | 3K | 2026-08-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/audarai/Audar-ASR-V1-Turbo) |
+| NVIDIA FastConformer Arabic (Diacritics) | NVIDIA | 🌍 INTL | cc-by-4.0 | 3K | 2025-10-21 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0) |
 | whisper-large-v3-turbo-darija | Anas Zil | 🇲🇦 MA | mit | 3K | 2025-11-09 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/anaszil/whisper-large-v3-turbo-darija) |
+| Audar ASR V1 Turbo | Audar AI | 🌍 INTL | other | 3K | 2026-08-20 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/audarai/Audar-ASR-V1-Turbo) |
 | wav2vec2-arabic-phoneme-asr | Mostafa Maroof | 🌍 INTL | apache-2.0 | 2K | 2026-07-06 | [![HF](https://img.shields.io/badge/-Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/MostafaMaroof/wav2vec2-arabic-phoneme-asr) |
 
 ## 🔊 Text-to-Speech
@@ -235,9 +235,9 @@ _Showing 20 of 1163 · [see all 1163 on the interactive map](https://h9-tec.gith
 | Name | Org | Country | Size | License | ⬇ | Updated | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | prophet mosque library | ieasybooks | 🌍 INTL | 10K–100K rows | mit | 433K | 2025-05-14 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ieasybooks-org/prophet-mosque-library) |
-| Waqfeya Library | ieasybooks | 🌍 INTL | 10K-100K books | mit | 147K | 2025-05-14 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ieasybooks-org/waqfeya-library) |
+| Waqfeya Library | ieasybooks | 🌍 INTL | 10K-100K books | mit | 149K | 2025-05-14 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ieasybooks-org/waqfeya-library) |
 | shamela waqfeya library | ieasybooks | 🌍 INTL | 1K–10K rows | mit | 139K | 2025-05-14 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ieasybooks-org/shamela-waqfeya-library) |
-| Quranic Recitation Data | zaibihassan | 🌍 INTL | 100K-1M clips | apache-2.0 | 48K | 2026-11-06 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/zaibihassan/Quranic-Recitation-Data) |
+| Quranic Recitation Data | zaibihassan | 🌍 INTL | 100K-1M clips | apache-2.0 | 50K | 2026-11-06 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/zaibihassan/Quranic-Recitation-Data) |
 | XNLI | Facebook AI Research | 🌍 INTL | 7,500 sentences | cc-by-nc-4.0 | 40K | 2024-01-05 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/facebook/xnli) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/facebookresearch/XNLI) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/1809.05053.pdf) |
 | wikiann | Rensselaer Polytechnic Institute | 🌍 INTL | 185,000 tokens | unknown | 26K | 2024-02-22 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/unimelb-nlp/wikiann) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://aclanthology.org/P17-1178.pdf) |
 | Aya Dataset | Cohere For AI Community | 🌍 INTL | 14,250 sentences | apache-2.0 | 24K | 2025-04-15 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/CohereForAI/aya_dataset) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://doi.org/10.18653/v1/2024.acl-long.620) |
@@ -247,9 +247,9 @@ _Showing 20 of 1163 · [see all 1163 on the interactive map](https://h9-tec.gith
 | Shamela4 Full DB | AuthenticIlm | 🌍 INTL | 10M–100M rows | mit | 17K | 2026-05-19 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/AuthenticIlm/Shamela4_Full_DB) |
 | Quranic Translation Audio Data | zaibihassan | 🌍 INTL | 1K–10K rows | apache-2.0 | 16K | 2026-10-22 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/zaibihassan/Quranic-Translation-Audio-Data) |
 | Global-MMLU Lite | Cohere For AI | 🌍 INTL | 685 sentences | apache-2.0 | 15K | 2026-06-08 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://doi.org/10.18653/v1/2025.acl-long.919) |
-| Arabic Books | MohamedRashad | 🌍 INTL | 8.5k books | gpl-3.0 | 10K | 2024-11-28 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MohamedRashad/arabic-books) |
-| arwiki | CALM | 🌍 INTL | 10M–100M rows | ['unknown'] | 10K | 2022-08-01 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/CALM/arwiki) |
 | SARD | riotu-lab | 🇸🇦 SA | — | cc-by-nc-nd-4.0 | 10K | 2026-05-20 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/riotu-lab/SARD) |
+| arwiki | CALM | 🌍 INTL | 10M–100M rows | ['unknown'] | 10K | 2022-08-01 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/CALM/arwiki) |
+| Arabic Books | MohamedRashad | 🌍 INTL | 8.5k books | gpl-3.0 | 10K | 2024-11-28 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MohamedRashad/arabic-books) |
 | prophet mosque library compressed | ieasybooks | 🌍 INTL | 10K–100K rows | mit | 9K | 2025-05-08 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ieasybooks-org/prophet-mosque-library-compressed) |
 | XStoryCloze | MetaAI | 🌍 INTL | 1,870 sentences | cc-by-sa-4.0 | 9K | 2025-07-23 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/juletxara/xstory_cloze) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://doi.org/10.18653/v1/2022.emnlp-main.616) |
 | MedQA-Darija-MultiLingual | Williamsanderson | 🌍 INTL | 100K–1M rows | cc-by-4.0 | 9K | 2026-05-06 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Williamsanderson/MedQA-Darija-MultiLingual) |
@@ -302,8 +302,8 @@ _Showing 20 of 165 · [see all 165 on the interactive map](https://h9-tec.github
 | TunisianMMLU | LINAGORA | 🌍 INTL | cc-by-nc-sa-4.0 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/linagora/TunisianMMLU) | MMLU translated into Tunisian Derja, LINAGORA (France); evaluated with lighteval. |
 | Arabic EXAMS (OALL) | Open Arabic LLM Leaderboard (OALL) | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/OALL/Arabic_EXAMS) | Arabic subset of the EXAMS multilingual school-exam benchmark, an OALL task. |
 | ARCD | Mozannar et al. | 🌍 INTL | mit | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/hsseinmz/arcd) | Arabic Reading Comprehension Dataset of 1,395 Wikipedia-based questions from the SOQAL paper. |
-| Human-Translated Arabic MMLU | MBZUAI | 🇦🇪 AE | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MBZUAI/human_translated_arabic_mmlu) | Human-translated MMLU into Arabic from MBZUAI, companion to ArabicMMLU. |
 | EgyMMLU | UBC-NLP | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/UBC-NLP/EgyMMLU) | MMLU translated into Egyptian Arabic from UBC (Canada), released with NileChat. |
+| Human-Translated Arabic MMLU | MBZUAI | 🇦🇪 AE | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MBZUAI/human_translated_arabic_mmlu) | Human-translated MMLU into Arabic from MBZUAI, companion to ArabicMMLU. |
 | IdiomX | aymansharara | 🌍 INTL | mit | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/aymansharara/IdiomX) | Dataset: 190K+ examples • 12K+ idioms • 3 languages • 4 benchmark tasks It supports four benchmark tasks: 1. |
 | nn auto bench ds | nanonets | 🌍 INTL | mit | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/nanonets/nn-auto-bench-ds) | nn-auto-bench-ds is a dataset designed for key information extraction (KIE) and serves as a benchmark dataset for nn-auto-bench. |
 | OALL Arabic MMLU | Open Arabic LLM Leaderboard (OALL) | 🌍 INTL | unknown | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/OALL/Arabic_MMLU) | GPT-translated Arabic MMLU copy from FreedomIntelligence, used as an OALL v1 task. |
@@ -432,7 +432,7 @@ _385 models with known lineage · [explore the tree](https://h9-tec.github.io/ar
 
 | Base family | Models | Most downloaded |
 | --- | --- | --- |
-| Qwen · كوين | 65 | [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae) (80K ⬇) |
+| Qwen · كوين | 65 | [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae) (84K ⬇) |
 | BERT · بيرت | 58 | [AraBERTv02](https://huggingface.co/aubmindlab/bert-base-arabertv02) (544K ⬇) |
 | Whisper · ويسبر | 56 | [whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo) (5.1M ⬇) |
 | Gemma · جيما | 24 | [Fanar-1-9B](https://huggingface.co/QCRI/Fanar-1-9B-Instruct) (4K ⬇) |
@@ -445,8 +445,8 @@ _385 models with known lineage · [explore the tree](https://h9-tec.github.io/ar
 | F5-TTS | 4 | [f5tts-algerian-darja](https://huggingface.co/touati-kamel/f5tts-algerian-darja) (5K ⬇) |
 | XLS-R · إكس إل إس-آر | 4 | [wav2vec2-large-xlsr-moroccan-darija](https://huggingface.co/boumehdi/wav2vec2-large-xlsr-moroccan-darija) (3K ⬇) |
 | NLLB | 3 | [darija to english 2](https://huggingface.co/ychafiqui/darija-to-english-2) (25 ⬇) |
-| SeamlessM4T | 2 | [SeamlessM4T v2](https://huggingface.co/facebook/seamless-m4t-v2-large) (293K ⬇) |
-| wav2vec · واف تو فيك | 2 | [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics) (255K ⬇) |
+| SeamlessM4T | 2 | [SeamlessM4T v2](https://huggingface.co/facebook/seamless-m4t-v2-large) (292K ⬇) |
+| wav2vec · واف تو فيك | 2 | [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics) (254K ⬇) |
 | BLOOM · بلوم | 1 | [darija text generation](https://huggingface.co/ychafiqui/darija-text-generation) (26 ⬇) |
 | E5 | 1 | [algerianME5](https://huggingface.co/81melody/algerianME5) (84 ⬇) |
 | Falcon · فالكون | 1 | [Falcon Arabic](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) (10K ⬇) |
@@ -472,4 +472,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ---
 
-_Generated 2026-11-10 from 3302 entries. Do not edit README.md by hand._
+_Generated 2026-11-11 from 3302 entries. Do not edit README.md by hand._

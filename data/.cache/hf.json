@@ -33,7 +33,7 @@
     "license": "apache-2.0"
   },
   "Abdelkareem/Ara-nemotron-3.5-asr-streaming-0.6b": {
-    "downloads": 59,
+    "downloads": 57,
     "likes": 6,
     "lastModified": "2026-06-05",
     "license": "cc-by-4.0"
@@ -215,7 +215,7 @@
     ]
   },
   "AymanMansour/Whisper-Sudanese-Dialect-small": {
-    "downloads": 38,
+    "downloads": 36,
     "likes": 3,
     "lastModified": "2022-12-15",
     "license": "apache-2.0"
@@ -297,7 +297,7 @@
     "lastModified": "2025-01-10"
   },
   "Byne/whisper-large-v3-arabic": {
-    "downloads": 50,
+    "downloads": 53,
     "likes": 6,
     "lastModified": "2025-04-20",
     "license": "apache-2.0",
@@ -483,8 +483,8 @@
     "license": "cc-by-nc-4.0"
   },
   "CohereLabs/cohere-transcribe-arabic-07-2026": {
-    "downloads": 136694,
-    "likes": 250,
+    "downloads": 134671,
+    "likes": 253,
     "lastModified": "2026-07-13",
     "license": "apache-2.0",
     "base_model": [
@@ -510,7 +510,7 @@
     ]
   },
   "DesertMindAI/ASR-hassaniya-whisper-medium-v1": {
-    "downloads": 175,
+    "downloads": 184,
     "likes": 2,
     "lastModified": "2025-09-18",
     "base_model": [
@@ -524,7 +524,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "Dr-AliGomaa/whisper-large-v3-ar": {
-    "downloads": 63,
+    "downloads": 51,
     "likes": 0,
     "lastModified": "2026-08-18",
     "license": "apache-2.0",
@@ -568,7 +568,7 @@
     "license": "apache-2.0"
   },
   "FaisaI/tadabur-Whisper-Small": {
-    "downloads": 155,
+    "downloads": 152,
     "likes": 18,
     "lastModified": "2026-04-24",
     "license": "cc-by-nc-4.0",
@@ -577,7 +577,7 @@
     ]
   },
   "Fatimaa75/whisper-base-bahraini": {
-    "downloads": 11,
+    "downloads": 10,
     "likes": 1,
     "lastModified": "2026-05-03",
     "license": "apache-2.0",
@@ -586,7 +586,7 @@
     ]
   },
   "FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval": {
-    "downloads": 270,
+    "downloads": 268,
     "likes": 4,
     "lastModified": "2026-03-01",
     "license": "apache-2.0"
@@ -636,7 +636,7 @@
     "license": "mit"
   },
   "Habib-HF/tarbiyah-ai-whisper-medium-merged": {
-    "downloads": 50,
+    "downloads": 49,
     "likes": 6,
     "lastModified": "2025-11-26",
     "license": "mit",
@@ -645,7 +645,7 @@
     ]
   },
   "HamzaSidhu786/wav2vec2-base-word-by-word-quran-asr": {
-    "downloads": 136,
+    "downloads": 135,
     "likes": 5,
     "lastModified": "2024-07-23",
     "license": "apache-2.0",
@@ -702,7 +702,7 @@
     ]
   },
   "HebArabNlpProject/WhisperLevantine": {
-    "downloads": 102,
+    "downloads": 101,
     "likes": 7,
     "lastModified": "2025-05-25",
     "license": "apache-2.0",
@@ -836,7 +836,7 @@
     ]
   },
   "IJyad/whisper-large-v3-Tarteel": {
-    "downloads": 209,
+    "downloads": 206,
     "likes": 6,
     "lastModified": "2025-06-04",
     "license": "mit",
@@ -854,7 +854,7 @@
     ]
   },
   "IbrahimAmin/code-switched-egyptian-arabic-whisper-small": {
-    "downloads": 382,
+    "downloads": 366,
     "likes": 5,
     "lastModified": "2025-05-17",
     "license": "apache-2.0",
@@ -863,7 +863,7 @@
     ]
   },
   "IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53": {
-    "downloads": 1359,
+    "downloads": 1283,
     "likes": 7,
     "lastModified": "2025-05-11",
     "license": "apache-2.0",
@@ -872,7 +872,7 @@
     ]
   },
   "IbrahimAmin/hubert-arabic-spoken-dialect-classifier": {
-    "downloads": 467,
+    "downloads": 472,
     "likes": 1,
     "lastModified": "2025-05-11",
     "license": "apache-2.0",
@@ -917,7 +917,7 @@
     ]
   },
   "IbrahimSalah/Arabic_speech_Syllables_recognition_Using_Wav2vec2": {
-    "downloads": 530,
+    "downloads": 498,
     "likes": 4,
     "lastModified": "2025-01-09"
   },
@@ -1057,7 +1057,7 @@
     ]
   },
   "MAdel121/whisper-small-egyptian-arabic": {
-    "downloads": 389,
+    "downloads": 381,
     "likes": 8,
     "lastModified": "2025-05-21",
     "license": "mit"
@@ -1120,19 +1120,19 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "MBZUAI/artst_asr_v2": {
-    "downloads": 48,
+    "downloads": 47,
     "likes": 2,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
   },
   "MBZUAI/artst_asr_v3": {
-    "downloads": 24,
+    "downloads": 23,
     "likes": 0,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
   },
   "MBZUAI/artst_asr_v3_qasr": {
-    "downloads": 26,
+    "downloads": 25,
     "likes": 4,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
@@ -1149,7 +1149,7 @@
     "lastModified": "2022-10-09"
   },
   "MaddoggProduction/whisper-l-v3-turbo-quran-lora-dataset-mix": {
-    "downloads": 95,
+    "downloads": 98,
     "likes": 21,
     "lastModified": "2026-03-23",
     "license": "apache-2.0",
@@ -1246,7 +1246,7 @@
     "license": "llama3"
   },
   "MohamedRashad/Arabic-Whisper-CodeSwitching-Edition": {
-    "downloads": 412,
+    "downloads": 396,
     "likes": 37,
     "lastModified": "2024-07-07",
     "license": "gpl-3.0"
@@ -1276,7 +1276,7 @@
     ]
   },
   "MohammedNasri/whisper-algerian-dialect": {
-    "downloads": 47,
+    "downloads": 46,
     "likes": 5,
     "lastModified": "2025-08-13",
     "license": "apache-2.0"
@@ -1288,7 +1288,7 @@
     "license": "mit"
   },
   "MostafaAhmed98/Conformer-CTC-Arabic-ASR": {
-    "downloads": 105,
+    "downloads": 104,
     "likes": 5,
     "lastModified": "2024-09-18",
     "license": "mit"
@@ -1300,7 +1300,7 @@
     "license": "apache-2.0"
   },
   "MostafaMaroof/wav2vec2-arabic-phoneme-asr": {
-    "downloads": 2400,
+    "downloads": 2396,
     "likes": 2,
     "lastModified": "2026-07-06",
     "license": "apache-2.0",
@@ -1327,8 +1327,8 @@
     ]
   },
   "Muno459/fastconformer-quran": {
-    "downloads": 99,
-    "likes": 39,
+    "downloads": 81,
+    "likes": 42,
     "lastModified": "2026-11-13",
     "license": "npl-1.1",
     "base_model": [
@@ -1336,8 +1336,8 @@
     ]
   },
   "Muno459/fastconformer-quran-streaming": {
-    "downloads": 23,
-    "likes": 19,
+    "downloads": 21,
+    "likes": 20,
     "lastModified": "2026-11-13",
     "license": "npl-1.1"
   },
@@ -1348,7 +1348,7 @@
     "license": "free-non-commercial"
   },
   "Muno459/zipformer_p-quran": {
-    "downloads": 17,
+    "downloads": 15,
     "likes": 18,
     "lastModified": "2026-11-13",
     "license": "npl-1.1",
@@ -1414,7 +1414,7 @@
     ]
   },
   "NAMAA-Space/Cohere-Speech-Tashkeel-2B": {
-    "downloads": 1188,
+    "downloads": 1221,
     "likes": 32,
     "lastModified": "2026-07-13",
     "license": "apache-2.0",
@@ -1423,7 +1423,7 @@
     ]
   },
   "NAMAA-Space/EgypTalk-ASR-v2": {
-    "downloads": 179,
+    "downloads": 180,
     "likes": 19,
     "lastModified": "2025-08-09",
     "license": "cc-by-4.0",
@@ -1464,7 +1464,7 @@
     "license": "apache-2.0"
   },
   "NAMAA-Space/NAMAA-Saudi-ASR-V1": {
-    "downloads": 368,
+    "downloads": 374,
     "likes": 4,
     "lastModified": "2026-09-16",
     "license": "apache-2.0",
@@ -1563,7 +1563,7 @@
     "license": "mit"
   },
   "NAMAA-Space/cohere-transcribe-arabic-07-2026-int4": {
-    "downloads": 128,
+    "downloads": 130,
     "likes": 5,
     "lastModified": "2026-07-10",
     "license": "apache-2.0",
@@ -1634,7 +1634,7 @@
     ]
   },
   "NightPrince/stt-arabic-whisper-finetuned-diactires": {
-    "downloads": 91,
+    "downloads": 87,
     "likes": 3,
     "lastModified": "2026-03-18",
     "license": "apache-2.0",
@@ -1675,7 +1675,7 @@
     "lastModified": "2022-08-20"
   },
   "OdyAsh/faster-whisper-base-ar-quran": {
-    "downloads": 1242,
+    "downloads": 1163,
     "likes": 7,
     "lastModified": "2025-06-24",
     "license": "apache-2.0",
@@ -2090,14 +2090,14 @@
     ]
   },
   "Quran-Lab/mfa-quran-hafs": {
-    "downloads": 169,
+    "downloads": 162,
     "likes": 7,
     "lastModified": "2026-08-06",
     "license": "apache-2.0"
   },
   "Quran-Lab/zipformer_p-arabic-v3": {
-    "downloads": 486,
-    "likes": 135,
+    "downloads": 487,
+    "likes": 137,
     "lastModified": "2026-11-17",
     "license": "quran-lab-npl-1.2"
   },
@@ -2120,7 +2120,7 @@
     ]
   },
   "RamaBashar22/nemotron-3.5-asr-streaming-0.6b-jordanian": {
-    "downloads": 174,
+    "downloads": 156,
     "likes": 4,
     "lastModified": "2026-08-30",
     "license": "openmdw-1.1",
@@ -2162,7 +2162,7 @@
     ]
   },
   "Rlamas/Cohere-Jordanian-Dialect": {
-    "downloads": 132,
+    "downloads": 141,
     "likes": 3,
     "lastModified": "2026-08-31",
     "license": "apache-2.0",
@@ -2205,7 +2205,7 @@
     "lastModified": "2023-09-25"
   },
   "Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small": {
-    "downloads": 24,
+    "downloads": 23,
     "likes": 6,
     "lastModified": "2022-12-28",
     "license": "apache-2.0"
@@ -2234,7 +2234,7 @@
     ]
   },
   "Seyfelislem/whisper-medium-arabic-suite-II": {
-    "downloads": 18,
+    "downloads": 19,
     "likes": 3,
     "lastModified": "2023-04-30",
     "license": "apache-2.0"
@@ -2290,7 +2290,7 @@
     ]
   },
   "TBOGamer22/wav2vec2-quran-phonetics": {
-    "downloads": 191969,
+    "downloads": 171435,
     "likes": 10,
     "lastModified": "2026-01-21",
     "license": "apache-2.0",
@@ -2299,8 +2299,8 @@
     ]
   },
   "Tass02/whisper-small-libyan": {
-    "downloads": 85,
-    "likes": 1,
+    "downloads": 91,
+    "likes": 2,
     "lastModified": "2026-09-21",
     "license": "apache-2.0",
     "base_model": [
@@ -2314,7 +2314,7 @@
     "license": "cc-by-4.0"
   },
   "TuniSpeech-AI/whisper-tunisian-dialect": {
-    "downloads": 611,
+    "downloads": 603,
     "likes": 5,
     "lastModified": "2026-02-13",
     "license": "cc-by-nc-4.0"
@@ -2438,7 +2438,7 @@
     ]
   },
   "VohoAI/voho-saudi-stt-small": {
-    "downloads": 78,
+    "downloads": 75,
     "likes": 3,
     "lastModified": "2026-09-14",
     "license": "cc-by-nc-sa-4.0",
@@ -2494,7 +2494,7 @@
     "lastModified": "2023-03-23"
   },
   "YazanSalameh/Whisper-base-Arabic": {
-    "downloads": 49,
+    "downloads": 51,
     "likes": 4,
     "lastModified": "2024-02-25",
     "license": "apache-2.0",
@@ -2566,7 +2566,7 @@
     ]
   },
   "aioxlabs/dvoice-darija": {
-    "downloads": 36,
+    "downloads": 35,
     "likes": 9,
     "lastModified": "2022-05-28",
     "license": "apache-2.0"
@@ -2663,7 +2663,7 @@
     "license": "apache-2.0"
   },
   "algerian-nlp/Hadra-ASR-whisper-medium": {
-    "downloads": 726,
+    "downloads": 729,
     "likes": 2,
     "lastModified": "2026-11-18",
     "license": "mit"
@@ -2720,7 +2720,7 @@
     ]
   },
   "anaszil/whisper-large-v3-turbo-darija": {
-    "downloads": 5061,
+    "downloads": 5080,
     "likes": 9,
     "lastModified": "2025-11-09",
     "license": "mit",
@@ -2729,13 +2729,13 @@
     ]
   },
   "arbml/wav2vec2-large-xlsr-53-arabic-egyptian": {
-    "downloads": 56,
+    "downloads": 79,
     "likes": 16,
     "lastModified": "2021-07-05",
     "license": "apache-2.0"
   },
   "arbml/whisper-small-cv-ar": {
-    "downloads": 30,
+    "downloads": 32,
     "likes": 5,
     "lastModified": "2024-08-31",
     "license": "apache-2.0"
@@ -2750,7 +2750,7 @@
     ]
   },
   "areaz/whisper-small-for-quran": {
-    "downloads": 34,
+    "downloads": 21,
     "likes": 6,
     "lastModified": "2025-01-12",
     "license": "apache-2.0",
@@ -2769,7 +2769,7 @@
     "lastModified": "2023-03-20"
   },
   "asafaya/hubert-large-arabic-transcribe": {
-    "downloads": 42,
+    "downloads": 40,
     "likes": 4,
     "lastModified": "2022-12-26",
     "license": "mit"
@@ -2861,7 +2861,7 @@
     ]
   },
   "atlasia/moulsot.v0.3": {
-    "downloads": 2678,
+    "downloads": 2632,
     "likes": 27,
     "lastModified": "2026-05-02",
     "license": "apache-2.0",
@@ -2934,13 +2934,13 @@
     "lastModified": "2023-03-20"
   },
   "audarai/Audar-ASR-V1-Flash": {
-    "downloads": 1946,
+    "downloads": 1848,
     "likes": 7,
     "lastModified": "2026-08-20",
     "license": "audarai-open-license-v1.0"
   },
   "audarai/Audar-ASR-V1-Turbo": {
-    "downloads": 2596,
+    "downloads": 2582,
     "likes": 21,
     "lastModified": "2026-08-20",
     "license": "audarai-community-license-v1.0"
@@ -2978,7 +2978,7 @@
     ]
   },
   "ayoubkirouane/whisper-small-ar": {
-    "downloads": 76,
+    "downloads": 79,
     "likes": 4,
     "lastModified": "2023-09-19",
     "license": "apache-2.0",
@@ -3005,7 +3005,7 @@
     ]
   },
   "badrex/mms-300m-arabic-dialect-identifier": {
-    "downloads": 2553,
+    "downloads": 2609,
     "likes": 9,
     "lastModified": "2025-10-29",
     "license": "cc-by-4.0",
@@ -3023,7 +3023,7 @@
     ]
   },
   "bakrianoo/sinai-voice-ar-stt": {
-    "downloads": 14,
+    "downloads": 15,
     "likes": 13,
     "lastModified": "2022-03-23",
     "license": "apache-2.0"
@@ -3059,7 +3059,7 @@
     "lastModified": "2023-09-18"
   },
   "boumehdi/wav2vec2-large-xlsr-moroccan-darija": {
-    "downloads": 1984,
+    "downloads": 1991,
     "likes": 35,
     "lastModified": "2024-04-12",
     "license": "apache-2.0",
@@ -3103,18 +3103,18 @@
     "lastModified": "2023-11-15"
   },
   "datasets/2A2I-R/dibt_10k_prompts_ranked_arabic": {
-    "downloads": 12,
+    "downloads": 13,
     "likes": 3,
     "lastModified": "2024-03-07"
   },
   "datasets/2A2I/Arabic-OpenHermes-2.5": {
-    "downloads": 1492,
+    "downloads": 1606,
     "likes": 21,
     "lastModified": "2024-03-15",
     "license": "apache-2.0"
   },
   "datasets/2A2I/Arabic_Aya": {
-    "downloads": 1237,
+    "downloads": 1168,
     "likes": 16,
     "lastModified": "2024-03-15",
     "license": "apache-2.0"
@@ -3150,7 +3150,7 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/2A2I/argilla-dpo-mix-7k-arabic": {
-    "downloads": 69,
+    "downloads": 70,
     "likes": 10,
     "lastModified": "2024-03-18",
     "license": "mit"
@@ -3180,7 +3180,7 @@
     "license": "mit"
   },
   "datasets/Abdelkareem/arabic-bbc-news": {
-    "downloads": 68,
+    "downloads": 81,
     "likes": 3,
     "lastModified": "2023-06-21"
   },
@@ -3190,12 +3190,12 @@
     "lastModified": "2022-05-17"
   },
   "datasets/Abdelrahman-Rezk/Arabic_Poem_Comprehensive_Dataset_APCD": {
-    "downloads": 59,
+    "downloads": 60,
     "likes": 3,
     "lastModified": "2022-05-27"
   },
   "datasets/AbderrahmanSkiredj1/ArabicQuoraDuplicates_stsb_Alue_holyquran_aranli_900k_anchor_positive_negative": {
-    "downloads": 20,
+    "downloads": 30,
     "likes": 3,
     "lastModified": "2024-07-15"
   },
@@ -3205,12 +3205,12 @@
     "lastModified": "2024-09-07"
   },
   "datasets/AbderrahmanSkiredj1/arabml_darija_english_parallel_dataset": {
-    "downloads": 55,
+    "downloads": 69,
     "likes": 3,
     "lastModified": "2024-07-15"
   },
   "datasets/AbderrahmanSkiredj1/moroccan_darija_wikipedia_dataset": {
-    "downloads": 61,
+    "downloads": 84,
     "likes": 6,
     "lastModified": "2024-07-15"
   },
@@ -3220,7 +3220,7 @@
     "lastModified": "2021-08-21"
   },
   "datasets/Abdou/arabic-tashkeel-dataset": {
-    "downloads": 262,
+    "downloads": 265,
     "likes": 7,
     "lastModified": "2024-10-28",
     "license": "mit"
@@ -3232,12 +3232,12 @@
     "license": "mit"
   },
   "datasets/AdaMLLab/AraMix": {
-    "downloads": 976,
+    "downloads": 927,
     "likes": 8,
     "lastModified": "2026-01-30"
   },
   "datasets/AdaMLLab/AraMix-HQ": {
-    "downloads": 1307,
+    "downloads": 1296,
     "likes": 2,
     "lastModified": "2026-01-30"
   },
@@ -3248,30 +3248,30 @@
     "license": "apache-2.0"
   },
   "datasets/AhmadHakami/saudipedia-arabic-qa": {
-    "downloads": 40,
+    "downloads": 44,
     "likes": 3,
     "lastModified": "2025-09-03",
     "license": "mit"
   },
   "datasets/Ahmed-Selem/Shifaa_Arabic_Medical_Consultations": {
-    "downloads": 712,
+    "downloads": 708,
     "likes": 13,
     "lastModified": "2025-02-28",
     "license": "apache-2.0"
   },
   "datasets/Ahmed-Selem/Shifaa_Arabic_Mental_Health_Consultations": {
-    "downloads": 211,
+    "downloads": 217,
     "likes": 14,
     "lastModified": "2025-03-08",
     "license": "apache-2.0"
   },
   "datasets/AhmedEladl/emirates-dialect-speech-male": {
-    "downloads": 85,
+    "downloads": 84,
     "likes": 0,
     "lastModified": "2026-08-19"
   },
   "datasets/AhmedEladl/saudi-dialect-speech-female": {
-    "downloads": 111,
+    "downloads": 115,
     "likes": 1,
     "lastModified": "2026-08-18"
   },
@@ -3281,7 +3281,7 @@
     "lastModified": "2025-08-23"
   },
   "datasets/AhmedSSabir/Gulf-Arabic-Tweets-2018-2020": {
-    "downloads": 136,
+    "downloads": 156,
     "likes": 1,
     "lastModified": "2025-01-10",
     "license": "cc-by-4.0"
@@ -3310,7 +3310,7 @@
     "license": "mit"
   },
   "datasets/Amr-khaled/Egyptian-Arabic_English_V1": {
-    "downloads": 50,
+    "downloads": 42,
     "likes": 3,
     "lastModified": "2024-12-09",
     "license": "apache-2.0"
@@ -3327,7 +3327,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/Arabic-Clip/Arabic_Flicker_8k": {
-    "downloads": 4975,
+    "downloads": 4977,
     "likes": 0,
     "lastModified": "2024-07-09"
   },
@@ -3337,12 +3337,12 @@
     "lastModified": "2024-08-11"
   },
   "datasets/ArabicSpeech/ADI17": {
-    "downloads": 1451,
+    "downloads": 1441,
     "likes": 2,
     "lastModified": "2025-08-11"
   },
   "datasets/ArabicSpeech/ADI20": {
-    "downloads": 1555,
+    "downloads": 1499,
     "likes": 0,
     "lastModified": "2026-07-04"
   },
@@ -3352,7 +3352,7 @@
     "lastModified": "2026-08-04"
   },
   "datasets/ArabicSpeech/MGB-3": {
-    "downloads": 295,
+    "downloads": 351,
     "likes": 4,
     "lastModified": "2025-08-11"
   },
@@ -3379,13 +3379,13 @@
     "license": "openrail"
   },
   "datasets/AuthenticIlm/Shamela4_Full_DB": {
-    "downloads": 17037,
-    "likes": 37,
+    "downloads": 24868,
+    "likes": 38,
     "lastModified": "2026-05-19",
     "license": "mit"
   },
   "datasets/Aziz-snoubra/Abjad-Kids": {
-    "downloads": 613,
+    "downloads": 634,
     "likes": 2,
     "lastModified": "2026-03-14",
     "license": "mit"
@@ -3412,18 +3412,18 @@
     "lastModified": "2026-01-27"
   },
   "datasets/CALM/arwiki": {
-    "downloads": 10515,
+    "downloads": 8451,
     "likes": 5,
     "lastModified": "2022-08-01"
   },
   "datasets/CAMeL-Lab/BAREC-10M": {
-    "downloads": 65,
+    "downloads": 70,
     "likes": 0,
     "lastModified": "2026-06-08",
     "license": "cc-by-sa-4.0"
   },
   "datasets/CAMeL-Lab/BAREC-Corpus-v1.0": {
-    "downloads": 298,
+    "downloads": 301,
     "likes": 2,
     "lastModified": "2025-09-02",
     "license": "cc-by-sa-4.0"
@@ -3441,13 +3441,13 @@
     "license": "cc-by-sa-4.0"
   },
   "datasets/CAMeL-Lab/FIGNEWS-2024": {
-    "downloads": 127,
+    "downloads": 138,
     "likes": 2,
     "lastModified": "2024-07-27",
     "license": "cc-by-sa-4.0"
   },
   "datasets/CNTXTAI0/arabic_dialects_question_and_answer": {
-    "downloads": 53,
+    "downloads": 52,
     "likes": 6,
     "lastModified": "2025-01-31",
     "license": "mit"
@@ -3459,13 +3459,13 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/ClusterlabAi/101_billion_arabic_words_dataset": {
-    "downloads": 3029,
+    "downloads": 3066,
     "likes": 73,
     "lastModified": "2024-06-16",
     "license": "apache-2.0"
   },
   "datasets/ClusterlabAi/InstAr-500k": {
-    "downloads": 192,
+    "downloads": 197,
     "likes": 15,
     "lastModified": "2024-07-30",
     "license": "apache-2.0"
@@ -3476,7 +3476,7 @@
     "lastModified": "2025-10-30"
   },
   "datasets/CohereForAI/Global-MMLU": {
-    "downloads": 40653,
+    "downloads": 44440,
     "likes": 169,
     "lastModified": "2025-08-14",
     "license": "apache-2.0"
@@ -3494,7 +3494,7 @@
     "license": "apache-2.0"
   },
   "datasets/DRAGOO/dataset_dyal_darija": {
-    "downloads": 40,
+    "downloads": 39,
     "likes": 5,
     "lastModified": "2023-08-25"
   },
@@ -3505,12 +3505,12 @@
     "license": "mit"
   },
   "datasets/DarjaCore/asjp-cerist": {
-    "downloads": 877,
+    "downloads": 879,
     "likes": 1,
     "lastModified": "2026-10-08"
   },
   "datasets/Davlan/sib200_14classes": {
-    "downloads": 251,
+    "downloads": 253,
     "likes": 0,
     "lastModified": "2025-05-27",
     "license": "cc-by-sa-4.0"
@@ -3568,12 +3568,12 @@
     "license": "mit"
   },
   "datasets/FatimahEmadEldin/Yemeni-Speech-Emotion-Dataset": {
-    "downloads": 474,
+    "downloads": 475,
     "likes": 1,
     "lastModified": "2026-05-01"
   },
   "datasets/FatimahEmadEldin/alsanaa-emirati-arabic-asr": {
-    "downloads": 100,
+    "downloads": 99,
     "likes": 0,
     "lastModified": "2026-06-13"
   },
@@ -3583,23 +3583,23 @@
     "lastModified": "2026-06-13"
   },
   "datasets/FatimahEmadEldin/deepseek-ocr-arabic-v1": {
-    "downloads": 1886,
+    "downloads": 1958,
     "likes": 0,
     "lastModified": "2026-02-09"
   },
   "datasets/FatimahEmadEldin/karsl-502-arabic-sign-language-v2": {
-    "downloads": 817,
+    "downloads": 834,
     "likes": 1,
     "lastModified": "2026-01-20"
   },
   "datasets/FrancophonIA/UFAL_Parallel_Corpus_of_North_Levantine_1.0": {
-    "downloads": 1009,
+    "downloads": 1077,
     "likes": 0,
     "lastModified": "2025-03-30",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/FreedomIntelligence/ACVA-Arabic-Cultural-Value-Alignment": {
-    "downloads": 129,
+    "downloads": 131,
     "likes": 8,
     "lastModified": "2023-09-21",
     "license": "apache-2.0"
@@ -3611,7 +3611,7 @@
     "license": "apache-2.0"
   },
   "datasets/FreedomIntelligence/AceGPT-v2-AlignmentData": {
-    "downloads": 80,
+    "downloads": 78,
     "likes": 0,
     "lastModified": "2025-12-29",
     "license": "apache-2.0"
@@ -3628,7 +3628,7 @@
     "lastModified": "2023-09-21"
   },
   "datasets/FreedomIntelligence/Arabic-preference-data-RLHF": {
-    "downloads": 41,
+    "downloads": 42,
     "likes": 4,
     "lastModified": "2023-09-21"
   },
@@ -3639,13 +3639,13 @@
     "license": "apache-2.0"
   },
   "datasets/FreedomIntelligence/Evol-Instruct-Arabic-GPT4": {
-    "downloads": 156,
+    "downloads": 153,
     "likes": 4,
     "lastModified": "2023-12-06",
     "license": "apache-2.0"
   },
   "datasets/FreedomIntelligence/MMLU_Arabic": {
-    "downloads": 1607,
+    "downloads": 1620,
     "likes": 1,
     "lastModified": "2023-08-06",
     "license": "mit"
@@ -3657,7 +3657,7 @@
     "license": "apache-2.0"
   },
   "datasets/FreedomIntelligence/alpaca-gpt4-arabic": {
-    "downloads": 1309,
+    "downloads": 1376,
     "likes": 12,
     "lastModified": "2023-08-06",
     "license": "apache-2.0"
@@ -3679,7 +3679,7 @@
     "lastModified": "2025-08-27"
   },
   "datasets/Gheras/Medical_Reasoning_Arabic_Dataset": {
-    "downloads": 46,
+    "downloads": 36,
     "likes": 4,
     "lastModified": "2025-09-09"
   },
@@ -3734,19 +3734,19 @@
     "lastModified": "2024-01-18"
   },
   "datasets/HeshamHaroon/1milion_token_EGY_songs": {
-    "downloads": 39,
+    "downloads": 42,
     "likes": 9,
     "lastModified": "2024-06-03",
     "license": "apache-2.0"
   },
   "datasets/HeshamHaroon/ArabicRAGB": {
-    "downloads": 165,
+    "downloads": 173,
     "likes": 13,
     "lastModified": "2025-12-15",
     "license": "cc-by-sa-4.0"
   },
   "datasets/HeshamHaroon/Arabic_Function_Calling": {
-    "downloads": 183,
+    "downloads": 176,
     "likes": 61,
     "lastModified": "2025-12-14",
     "license": "apache-2.0"
@@ -3770,7 +3770,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/HeshamHaroon/Dahee7": {
-    "downloads": 183,
+    "downloads": 185,
     "likes": 7,
     "lastModified": "2024-02-06",
     "license": "apache-2.0"
@@ -3781,7 +3781,7 @@
     "lastModified": "2024-06-03"
   },
   "datasets/HeshamHaroon/Egyptian_English_parallel": {
-    "downloads": 23,
+    "downloads": 29,
     "likes": 9,
     "lastModified": "2023-08-03",
     "license": "apache-2.0"
@@ -3799,7 +3799,7 @@
     "license": "apache-2.0"
   },
   "datasets/HeshamHaroon/arabic-msa-25k-saudi-male-tashkeel": {
-    "downloads": 160,
+    "downloads": 156,
     "likes": 11,
     "lastModified": "2026-04-20",
     "license": "cc-by-4.0"
@@ -3816,12 +3816,12 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/HeshamHaroon/arabic-turath-ocr": {
-    "downloads": 140,
+    "downloads": 151,
     "likes": 0,
     "lastModified": "2026-04-22"
   },
   "datasets/HeshamHaroon/asfar": {
-    "downloads": 137,
+    "downloads": 129,
     "likes": 7,
     "lastModified": "2026-04-22",
     "license": "cc-by-4.0"
@@ -3833,7 +3833,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/HeshamHaroon/oasst-arabic": {
-    "downloads": 9,
+    "downloads": 18,
     "likes": 2,
     "lastModified": "2023-12-28"
   },
@@ -3843,13 +3843,13 @@
     "lastModified": "2023-12-28"
   },
   "datasets/HeshamHaroon/saudi-dialect-conversations": {
-    "downloads": 293,
+    "downloads": 302,
     "likes": 20,
     "lastModified": "2026-02-18",
     "license": "apache-2.0"
   },
   "datasets/HumynLabs/Arabic_Documents_Dataset_PDF": {
-    "downloads": 848,
+    "downloads": 864,
     "likes": 0,
     "lastModified": "2025-11-07",
     "license": "cc-by-4.0"
@@ -3867,7 +3867,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/ISLAM-PO/arabic-to-code-8-langs-3m": {
-    "downloads": 1456,
+    "downloads": 1491,
     "likes": 0,
     "lastModified": "2026-09-25",
     "license": "cc-by-4.0"
@@ -3891,7 +3891,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/IbrahimAmin/egyptian-arabic-fake-reviews": {
-    "downloads": 137,
+    "downloads": 143,
     "likes": 3,
     "lastModified": "2026-07-19",
     "license": "mit"
@@ -3921,7 +3921,7 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/ImruQays/Rasaif-Classical-Arabic-English-Parallel-texts": {
-    "downloads": 177,
+    "downloads": 174,
     "likes": 8,
     "lastModified": "2024-03-22",
     "license": "cc-by-4.0"
@@ -3939,7 +3939,7 @@
     "license": "apache-2.0"
   },
   "datasets/IqraEval/QuranMB.v2": {
-    "downloads": 480,
+    "downloads": 490,
     "likes": 3,
     "lastModified": "2026-11-03",
     "license": "cc-by-nc-4.0"
@@ -3951,7 +3951,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/JasperV13/Darija_Dataset": {
-    "downloads": 65,
+    "downloads": 62,
     "likes": 5,
     "lastModified": "2024-07-29",
     "license": "mit"
@@ -3968,7 +3968,7 @@
     "license": "apache-2.0"
   },
   "datasets/Jip7e/doda-darija-cosyvoice2": {
-    "downloads": 742,
+    "downloads": 898,
     "likes": 1,
     "lastModified": "2026-08-29",
     "license": "cc-by-4.0"
@@ -3980,7 +3980,7 @@
     "license": "apache-2.0"
   },
   "datasets/Jr23xd23/ArabicText-Large": {
-    "downloads": 523,
+    "downloads": 528,
     "likes": 72,
     "lastModified": "2025-10-27",
     "license": "apache-2.0"
@@ -4003,7 +4003,7 @@
     "lastModified": "2022-09-06"
   },
   "datasets/KFUPM-JRCAI/arabic-generated-abstracts": {
-    "downloads": 201,
+    "downloads": 205,
     "likes": 4,
     "lastModified": "2026-05-22"
   },
@@ -4030,7 +4030,7 @@
     "lastModified": "2025-01-06"
   },
   "datasets/Kamyar-zeinalipour/ArabicSense": {
-    "downloads": 60,
+    "downloads": 70,
     "likes": 1,
     "lastModified": "2026-11-11",
     "license": "cc-by-sa-4.0"
@@ -4042,7 +4042,7 @@
     "license": "mit"
   },
   "datasets/KickItLikeShika/NileTTS-dataset": {
-    "downloads": 512,
+    "downloads": 1206,
     "likes": 6,
     "lastModified": "2026-03-23",
     "license": "apache-2.0"
@@ -4059,13 +4059,13 @@
     "lastModified": "2023-11-15"
   },
   "datasets/Lyte/Moroccan-Darija-Instruct-573K": {
-    "downloads": 331,
+    "downloads": 336,
     "likes": 4,
     "lastModified": "2026-03-05",
     "license": "cc-by-4.0"
   },
   "datasets/M-A-D/DarijaBridge": {
-    "downloads": 142,
+    "downloads": 148,
     "likes": 8,
     "lastModified": "2023-11-26",
     "license": "apache-2.0"
@@ -4076,52 +4076,52 @@
     "lastModified": "2023-10-06"
   },
   "datasets/M-A-D/Mixed-Arabic-Datasets-Repo": {
-    "downloads": 5761,
+    "downloads": 5512,
     "likes": 39,
     "lastModified": "2023-10-16"
   },
   "datasets/M-AI-C/all_hadith": {
-    "downloads": 36,
-    "likes": 4,
+    "downloads": 65,
+    "likes": 5,
     "lastModified": "2023-04-02"
   },
   "datasets/MAdel121/arabic-egy-cleaned": {
-    "downloads": 891,
+    "downloads": 905,
     "likes": 21,
     "lastModified": "2025-05-04"
   },
   "datasets/MBZUAI-Paris/DODa-10K": {
-    "downloads": 89,
+    "downloads": 111,
     "likes": 3,
     "lastModified": "2024-09-27",
     "license": "cc-by-nc-4.0"
   },
   "datasets/MBZUAI-Paris/Darija-SFT-Mixture": {
-    "downloads": 147,
+    "downloads": 152,
     "likes": 18,
     "lastModified": "2025-05-02",
     "license": "odc-by"
   },
   "datasets/MBZUAI-Paris/DarijaBench": {
-    "downloads": 221,
+    "downloads": 224,
     "likes": 5,
     "lastModified": "2025-02-17",
     "license": "odc-by"
   },
   "datasets/MBZUAI-Paris/DarijaHellaSwag": {
-    "downloads": 84,
+    "downloads": 85,
     "likes": 4,
     "lastModified": "2024-09-27",
     "license": "mit"
   },
   "datasets/MBZUAI-Paris/DarijaMMLU": {
-    "downloads": 2173,
+    "downloads": 2174,
     "likes": 9,
     "lastModified": "2024-09-27",
     "license": "mit"
   },
   "datasets/MBZUAI-Paris/DarijaStory": {
-    "downloads": 14,
+    "downloads": 16,
     "likes": 2,
     "lastModified": "2024-11-13"
   },
@@ -4131,122 +4131,122 @@
     "lastModified": "2025-07-07"
   },
   "datasets/MBZUAI-Paris/Egyptian-SFT-Mixture": {
-    "downloads": 426,
+    "downloads": 425,
     "likes": 6,
     "lastModified": "2025-06-17"
   },
   "datasets/MBZUAI-Paris/EgyptianHellaSwag": {
-    "downloads": 176,
+    "downloads": 177,
     "likes": 1,
     "lastModified": "2025-04-15",
     "license": "mit"
   },
   "datasets/MBZUAI-Paris/EgyptianMMLU": {
-    "downloads": 329,
+    "downloads": 308,
     "likes": 0,
     "lastModified": "2025-06-02"
   },
   "datasets/MBZUAI-Paris/MoroccanSocialMedia-MultiGen": {
-    "downloads": 29,
+    "downloads": 33,
     "likes": 4,
     "lastModified": "2024-09-27",
     "license": "mit"
   },
   "datasets/MBZUAI-Paris/MoroccanWikipedia-QA": {
-    "downloads": 37,
+    "downloads": 41,
     "likes": 6,
     "lastModified": "2024-09-27"
   },
   "datasets/MBZUAI/ALM-Bench": {
-    "downloads": 681,
+    "downloads": 670,
     "likes": 20,
     "lastModified": "2025-02-28",
     "license": "cc-by-nc-4.0"
   },
   "datasets/MBZUAI/ARB": {
-    "downloads": 181,
+    "downloads": 182,
     "likes": 11,
     "lastModified": "2025-06-21"
   },
   "datasets/MBZUAI/ArVoice": {
-    "downloads": 1586,
+    "downloads": 1485,
     "likes": 34,
     "lastModified": "2025-10-31",
     "license": "cc-by-4.0"
   },
   "datasets/MBZUAI/AraSeg-2026-Shared-Task-NP": {
-    "downloads": 182,
+    "downloads": 184,
     "likes": 1,
     "lastModified": "2026-05-22",
     "license": "mit"
   },
   "datasets/MBZUAI/AraSeg-2026-Shared-Task-NoPnx-NP": {
-    "downloads": 101,
+    "downloads": 102,
     "likes": 1,
     "lastModified": "2026-05-22",
     "license": "mit"
   },
   "datasets/MBZUAI/AraSeg-2026-Shared-Task-NoPnx-PA": {
-    "downloads": 81,
+    "downloads": 79,
     "likes": 3,
     "lastModified": "2026-05-22",
     "license": "mit"
   },
   "datasets/MBZUAI/AraSeg-2026-Shared-Task-PA": {
-    "downloads": 209,
+    "downloads": 213,
     "likes": 1,
     "lastModified": "2026-05-22",
     "license": "mit"
   },
   "datasets/MBZUAI/ArabCulture": {
-    "downloads": 467,
+    "downloads": 468,
     "likes": 14,
     "lastModified": "2025-05-23",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/MBZUAI/ArabicMMLU": {
-    "downloads": 3726,
+    "downloads": 3683,
     "likes": 39,
     "lastModified": "2024-09-17",
     "license": "cc-by-nc-4.0"
   },
   "datasets/MBZUAI/BiMed-V-1.6M": {
-    "downloads": 75,
+    "downloads": 76,
     "likes": 2,
     "lastModified": "2025-10-21",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/MBZUAI/CAMEL-Bench": {
-    "downloads": 393,
+    "downloads": 390,
     "likes": 0,
     "lastModified": "2026-05-09"
   },
   "datasets/MBZUAI/ClArTTS": {
-    "downloads": 2394,
+    "downloads": 2521,
     "likes": 27,
     "lastModified": "2025-10-01",
     "license": "cc-by-4.0"
   },
   "datasets/MBZUAI/Dialectal-Arabic-MMLU": {
-    "downloads": 315,
+    "downloads": 323,
     "likes": 2,
     "lastModified": "2026-09-28",
     "license": "cc-by-4.0"
   },
   "datasets/MBZUAI/DuwatBench": {
-    "downloads": 290,
+    "downloads": 296,
     "likes": 6,
     "lastModified": "2026-01-28",
     "license": "apache-2.0"
   },
   "datasets/MBZUAI/FiqhQA": {
-    "downloads": 176,
+    "downloads": 175,
     "likes": 4,
     "lastModified": "2025-08-13",
     "license": "mit"
   },
   "datasets/MBZUAI/MadinahQA": {
-    "downloads": 468,
+    "downloads": 420,
     "likes": 1,
     "lastModified": "2024-09-17",
     "license": "cc-by-nc-4.0"
@@ -4257,7 +4257,7 @@
     "lastModified": "2025-09-04"
   },
   "datasets/MBZUAI/human_translated_arabic_mmlu": {
-    "downloads": 522,
+    "downloads": 450,
     "likes": 4,
     "lastModified": "2024-09-17"
   },
@@ -4284,40 +4284,40 @@
     "license": "cc-by-4.0"
   },
   "datasets/Mars203020/arabic_medical_dialogue": {
-    "downloads": 134,
+    "downloads": 133,
     "likes": 3,
     "lastModified": "2024-06-29",
     "license": "mit"
   },
   "datasets/McGill-NLP/Sudanese-Flores": {
-    "downloads": 13,
+    "downloads": 14,
     "likes": 0,
     "lastModified": "2026-04-15"
   },
   "datasets/Melaraby/EvArEST-dataset-for-Arabic-scene-text-recognition": {
-    "downloads": 700,
+    "downloads": 695,
     "likes": 3,
     "lastModified": "2025-11-09",
     "license": "bsd-3-clause"
   },
   "datasets/MightyStudent/Egyptian-ASR-MGB-3": {
-    "downloads": 363,
+    "downloads": 370,
     "likes": 25,
     "lastModified": "2024-09-03"
   },
   "datasets/Misraj/ARIQ": {
-    "downloads": 19,
+    "downloads": 29,
     "likes": 2,
     "lastModified": "2026-09-30",
     "license": "cc-by-4.0"
   },
   "datasets/Misraj/Arabic-Image-Captioning_100M": {
-    "downloads": 87,
+    "downloads": 90,
     "likes": 4,
     "lastModified": "2026-09-17"
   },
   "datasets/Misraj/KITAB_pdf_to_markdown_reviewed": {
-    "downloads": 158,
+    "downloads": 166,
     "likes": 4,
     "lastModified": "2025-09-24",
     "license": "apache-2.0"
@@ -4329,28 +4329,28 @@
     "license": "apache-2.0"
   },
   "datasets/Misraj/SadeedDiac-25": {
-    "downloads": 155,
+    "downloads": 157,
     "likes": 7,
     "lastModified": "2025-05-20"
   },
   "datasets/Misraj/Sadeed_Tashkeela": {
-    "downloads": 95,
+    "downloads": 114,
     "likes": 17,
     "lastModified": "2026-09-17"
   },
   "datasets/Misraj/Tarjama-25": {
-    "downloads": 161,
+    "downloads": 163,
     "likes": 8,
     "lastModified": "2025-05-28"
   },
   "datasets/Misraj/msdd": {
-    "downloads": 67,
+    "downloads": 66,
     "likes": 5,
     "lastModified": "2026-09-17",
     "license": "apache-2.0"
   },
   "datasets/Misraj/mudd": {
-    "downloads": 41,
+    "downloads": 42,
     "likes": 5,
     "lastModified": "2026-09-17"
   },
@@ -4361,7 +4361,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/MohamedGomaa30/MasriAudio-Mega-v0": {
-    "downloads": 82,
+    "downloads": 84,
     "likes": 2,
     "lastModified": "2026-02-05"
   },
@@ -4372,7 +4372,7 @@
     "license": "mit"
   },
   "datasets/MohamedRashad/Al-Maktabah-Al-Shamilah": {
-    "downloads": 187,
+    "downloads": 180,
     "likes": 14,
     "lastModified": "2025-09-11"
   },
@@ -4383,12 +4383,12 @@
     "license": "gpl-3.0"
   },
   "datasets/MohamedRashad/Arabic-VLM-Full-Pearl": {
-    "downloads": 262,
+    "downloads": 241,
     "likes": 10,
     "lastModified": "2025-12-08"
   },
   "datasets/MohamedRashad/MASC-Arabic": {
-    "downloads": 2738,
+    "downloads": 2722,
     "likes": 11,
     "lastModified": "2026-04-06",
     "license": "cc-by-4.0"
@@ -4399,12 +4399,12 @@
     "lastModified": "2025-12-28"
   },
   "datasets/MohamedRashad/Quran-Recitations": {
-    "downloads": 395,
+    "downloads": 417,
     "likes": 63,
     "lastModified": "2025-03-30"
   },
   "datasets/MohamedRashad/Quran-Tafseer": {
-    "downloads": 146,
+    "downloads": 137,
     "likes": 63,
     "lastModified": "2024-09-13",
     "license": "apache-2.0"
@@ -4422,23 +4422,23 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/MohamedRashad/arabic-billion-words": {
-    "downloads": 203,
+    "downloads": 243,
     "likes": 12,
     "lastModified": "2023-12-16"
   },
   "datasets/MohamedRashad/arabic-books": {
-    "downloads": 18713,
+    "downloads": 19608,
     "likes": 3,
     "lastModified": "2024-11-28",
     "license": "gpl-3.0"
   },
   "datasets/MohamedRashad/arabic-english-code-switching": {
-    "downloads": 362,
+    "downloads": 367,
     "likes": 38,
     "lastModified": "2024-07-04"
   },
   "datasets/MohamedRashad/arabic-img2md": {
-    "downloads": 609,
+    "downloads": 644,
     "likes": 14,
     "lastModified": "2024-11-28",
     "license": "gpl-3.0"
@@ -4465,7 +4465,7 @@
     "lastModified": "2025-12-27"
   },
   "datasets/MohamedRashad/rasaif-translations": {
-    "downloads": 31,
+    "downloads": 32,
     "likes": 6,
     "lastModified": "2024-03-19"
   },
@@ -4481,8 +4481,8 @@
     "license": "apache-2.0"
   },
   "datasets/Muno459/QuranLab-Arabic-Speech": {
-    "downloads": 13692,
-    "likes": 0,
+    "downloads": 15423,
+    "likes": 1,
     "lastModified": "2026-11-10",
     "license": "quranlab-internal"
   },
@@ -4492,43 +4492,43 @@
     "lastModified": "2025-03-15"
   },
   "datasets/NABA-AI/LUB-Saudi-Arabic-Intent": {
-    "downloads": 97,
+    "downloads": 93,
     "likes": 1,
     "lastModified": "2026-09-24",
     "license": "cc-by-4.0"
   },
   "datasets/NAMAA-Space/ASCAT-Arabic-Scientific-Translation": {
-    "downloads": 31,
+    "downloads": 35,
     "likes": 1,
     "lastModified": "2026-04-02",
     "license": "cc-by-nc-4.0"
   },
   "datasets/NAMAA-Space/Ar-Reranking-Eval": {
-    "downloads": 36,
+    "downloads": 37,
     "likes": 2,
     "lastModified": "2024-11-01",
     "license": "apache-2.0"
   },
   "datasets/NAMAA-Space/Ara-TyDi-Triplet": {
-    "downloads": 38,
+    "downloads": 40,
     "likes": 2,
     "lastModified": "2024-11-21",
     "license": "apache-2.0"
   },
   "datasets/NAMAA-Space/Arabic-Triplet-With-Multi-Negatives": {
-    "downloads": 41,
+    "downloads": 24,
     "likes": 2,
     "lastModified": "2024-11-21",
     "license": "apache-2.0"
   },
   "datasets/NAMAA-Space/QariOCR-v0.3-markdown-mixed-dataset": {
-    "downloads": 77,
+    "downloads": 79,
     "likes": 13,
     "lastModified": "2025-06-10",
     "license": "apache-2.0"
   },
   "datasets/NAMAA-Space/alexandria-backtranslated-pairs": {
-    "downloads": 38,
+    "downloads": 35,
     "likes": 0,
     "lastModified": "2026-08-21",
     "license": "cc-by-nc-4.0"
@@ -4557,12 +4557,12 @@
     "license": "cc-by-4.0"
   },
   "datasets/NoraAlt/Mawqif_Stance-Detection": {
-    "downloads": 112,
+    "downloads": 116,
     "likes": 6,
     "lastModified": "2024-01-18"
   },
   "datasets/NoureddineMOR/tachelhiyt-darija": {
-    "downloads": 72,
+    "downloads": 74,
     "likes": 4,
     "lastModified": "2025-11-18",
     "license": "mit"
@@ -4584,27 +4584,27 @@
     "license": "cc-by-4.0"
   },
   "datasets/OALL/ALRAGE": {
-    "downloads": 518,
+    "downloads": 508,
     "likes": 4,
     "lastModified": "2024-11-14"
   },
   "datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native": {
-    "downloads": 1476,
+    "downloads": 1484,
     "likes": 8,
     "lastModified": "2024-03-07"
   },
   "datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Translated": {
-    "downloads": 778,
+    "downloads": 843,
     "likes": 2,
     "lastModified": "2024-03-31"
   },
   "datasets/OALL/Arabic_EXAMS": {
-    "downloads": 968,
+    "downloads": 952,
     "likes": 3,
     "lastModified": "2024-02-16"
   },
   "datasets/OALL/Arabic_MMLU": {
-    "downloads": 959,
+    "downloads": 1012,
     "likes": 3,
     "lastModified": "2024-09-05"
   },
@@ -4645,7 +4645,7 @@
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-Math-SFT": {
-    "downloads": 50,
+    "downloads": 52,
     "likes": 4,
     "lastModified": "2026-04-09",
     "license": "apache-2.0"
@@ -4657,19 +4657,19 @@
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Class": {
-    "downloads": 182,
+    "downloads": 164,
     "likes": 2,
     "lastModified": "2024-08-03",
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Score": {
-    "downloads": 78,
+    "downloads": 102,
     "likes": 3,
     "lastModified": "2024-08-02",
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet": {
-    "downloads": 207,
+    "downloads": 202,
     "likes": 6,
     "lastModified": "2024-08-02",
     "license": "apache-2.0"
@@ -4687,7 +4687,7 @@
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-finanical-rag-embedding-dataset": {
-    "downloads": 21,
+    "downloads": 30,
     "likes": 6,
     "lastModified": "2024-10-09",
     "license": "apache-2.0"
@@ -4705,25 +4705,25 @@
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic-stsb": {
-    "downloads": 135,
+    "downloads": 148,
     "likes": 5,
     "lastModified": "2024-08-02",
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic_Openai_MMMLU": {
-    "downloads": 79,
+    "downloads": 87,
     "likes": 4,
     "lastModified": "2024-09-23",
     "license": "mit"
   },
   "datasets/Omartificial-Intelligence-Space/Arabic_Reasoning_Dataset": {
-    "downloads": 80,
+    "downloads": 81,
     "likes": 10,
     "lastModified": "2024-12-01",
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/FineWeb2-Egyptian-Arabic": {
-    "downloads": 201,
+    "downloads": 226,
     "likes": 2,
     "lastModified": "2024-12-12",
     "license": "odc-by"
@@ -4735,19 +4735,19 @@
     "license": "odc-by"
   },
   "datasets/Omartificial-Intelligence-Space/FineWeb2-Moroccan-Arabic": {
-    "downloads": 133,
+    "downloads": 164,
     "likes": 3,
     "lastModified": "2024-12-12",
     "license": "odc-by"
   },
   "datasets/Omartificial-Intelligence-Space/FineWeb2-Najdi-Arabic": {
-    "downloads": 122,
+    "downloads": 137,
     "likes": 4,
     "lastModified": "2024-12-12",
     "license": "odc-by"
   },
   "datasets/Omartificial-Intelligence-Space/FineWeb2-North-Levantine-Arabic": {
-    "downloads": 85,
+    "downloads": 116,
     "likes": 2,
     "lastModified": "2024-12-12",
     "license": "odc-by"
@@ -4765,7 +4765,7 @@
     "license": "apache-2.0"
   },
   "datasets/Omartificial-Intelligence-Space/SaudiDialect-Triplet-21": {
-    "downloads": 14,
+    "downloads": 28,
     "likes": 5,
     "lastModified": "2025-11-29",
     "license": "cc-by-nc-4.0"
@@ -4783,7 +4783,7 @@
     "license": "apache-2.0"
   },
   "datasets/PRAli22/Arabic_dialects_to_MSA": {
-    "downloads": 63,
+    "downloads": 68,
     "likes": 10,
     "lastModified": "2024-03-01",
     "license": "afl-3.0"
@@ -4801,7 +4801,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/Perle-ai/ASR_Code_Switch": {
-    "downloads": 704,
+    "downloads": 790,
     "likes": 13,
     "lastModified": "2026-05-22",
     "license": "mit"
@@ -4813,37 +4813,37 @@
     "license": "apache-2.0"
   },
   "datasets/QCRI/AHA-MEMES": {
-    "downloads": 376,
+    "downloads": 380,
     "likes": 1,
     "lastModified": "2026-10-31",
     "license": "cc-by-nc-4.0"
   },
   "datasets/QCRI/ArGuard-Task1": {
-    "downloads": 89,
+    "downloads": 91,
     "likes": 0,
     "lastModified": "2026-08-10",
     "license": "cc-by-nc-4.0"
   },
   "datasets/QCRI/ArMeme": {
-    "downloads": 670,
+    "downloads": 685,
     "likes": 9,
     "lastModified": "2024-10-08",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/AraDICE-ArabicMMLU-egy": {
-    "downloads": 512,
+    "downloads": 519,
     "likes": 1,
     "lastModified": "2024-11-08",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/AraDICE-ArabicMMLU-lev": {
-    "downloads": 401,
+    "downloads": 410,
     "likes": 0,
     "lastModified": "2024-11-08",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/AraDiCE-BoolQ": {
-    "downloads": 204,
+    "downloads": 199,
     "likes": 0,
     "lastModified": "2024-11-03",
     "license": "cc-by-nc-sa-4.0"
@@ -4855,7 +4855,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/AraDiCE-OpenBookQA": {
-    "downloads": 245,
+    "downloads": 238,
     "likes": 0,
     "lastModified": "2024-11-03",
     "license": "cc-by-nc-sa-4.0"
@@ -4885,25 +4885,25 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/QCRI/Fanar-Sadiq-Bench": {
-    "downloads": 67,
+    "downloads": 74,
     "likes": 0,
     "lastModified": "2026-06-25",
     "license": "apache-2.0"
   },
   "datasets/QCRI/ImageEval-ArabicNLP26": {
-    "downloads": 1106,
+    "downloads": 1105,
     "likes": 4,
     "lastModified": "2026-08-30",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/IslamicFaithQA": {
-    "downloads": 147,
+    "downloads": 150,
     "likes": 3,
     "lastModified": "2026-04-30",
     "license": "apache-2.0"
   },
   "datasets/QCRI/LlamaLens-Arabic": {
-    "downloads": 411,
+    "downloads": 406,
     "likes": 2,
     "lastModified": "2025-03-13",
     "license": "cc-by-nc-sa-4.0"
@@ -4921,7 +4921,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/MMCQA-SemEval27": {
-    "downloads": 2871,
+    "downloads": 3000,
     "likes": 17,
     "lastModified": "2026-11-16",
     "license": "cc-by-nc-4.0"
@@ -4933,13 +4933,13 @@
     "license": "cc-by-sa-4.0"
   },
   "datasets/QCRI/MenaSpeechBank": {
-    "downloads": 480,
+    "downloads": 482,
     "likes": 5,
     "lastModified": "2026-10-30",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/MultiNativQA": {
-    "downloads": 348,
+    "downloads": 330,
     "likes": 4,
     "lastModified": "2026-03-31",
     "license": "cc-by-nc-sa-4.0"
@@ -4963,13 +4963,13 @@
     "license": "mit"
   },
   "datasets/QCRI/QASR": {
-    "downloads": 55,
+    "downloads": 56,
     "likes": 5,
     "lastModified": "2025-10-13",
     "license": "cc-by-nc-2.0"
   },
   "datasets/QCRI/SpokenNativQA": {
-    "downloads": 574,
+    "downloads": 571,
     "likes": 3,
     "lastModified": "2025-05-29",
     "license": "cc-by-nc-sa-4.0"
@@ -4981,13 +4981,13 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/WASIL": {
-    "downloads": 484,
+    "downloads": 493,
     "likes": 2,
     "lastModified": "2026-10-31",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/QCRI/arabic_pos_dialect": {
-    "downloads": 510,
+    "downloads": 521,
     "likes": 12,
     "lastModified": "2024-01-09",
     "license": "apache-2.0"
@@ -4999,18 +4999,18 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/QCRI/mgb2": {
-    "downloads": 298,
+    "downloads": 206,
     "likes": 4,
     "lastModified": "2025-10-13"
   },
   "datasets/QUD-Technologies/quranic-universal-ayahs": {
-    "downloads": 22401,
+    "downloads": 25492,
     "likes": 14,
     "lastModified": "2026-11-19",
     "license": "qua-dataset-1.0"
   },
   "datasets/Quran-Lab/QuranTTS": {
-    "downloads": 92,
+    "downloads": 97,
     "likes": 6,
     "lastModified": "2026-09-21",
     "license": "quranlab-noncommercial-2.0"
@@ -5022,7 +5022,7 @@
     "license": "quran-lab-npl-1.2"
   },
   "datasets/Quran-Lab/quranic-asr-benchmark": {
-    "downloads": 382,
+    "downloads": 396,
     "likes": 9,
     "lastModified": "2026-08-26",
     "license": "quran-lab-npl-1.2"
@@ -5040,18 +5040,18 @@
     "license": "apache-2.0"
   },
   "datasets/Renad10/Absher-Benchmark": {
-    "downloads": 103,
+    "downloads": 110,
     "likes": 1,
     "lastModified": "2026-01-24",
     "license": "cc-by-4.0"
   },
   "datasets/RetaSy/quranic_audio_dataset": {
-    "downloads": 642,
+    "downloads": 660,
     "likes": 12,
     "lastModified": "2024-05-14"
   },
   "datasets/SDAIANCAI/Saudilang-Code-Switch-Corpus": {
-    "downloads": 111,
+    "downloads": 105,
     "likes": 4,
     "lastModified": "2024-07-28",
     "license": "cc-by-sa-4.0"
@@ -5063,7 +5063,7 @@
     "license": "apache-2.0"
   },
   "datasets/Sabri12blm/Arabic-Quran-ASR-dataset": {
-    "downloads": 75,
+    "downloads": 73,
     "likes": 5,
     "lastModified": "2025-02-19"
   },
@@ -5074,12 +5074,12 @@
     "license": "mit"
   },
   "datasets/Sadique5/openslr_quranic_asr": {
-    "downloads": 112,
+    "downloads": 113,
     "likes": 3,
     "lastModified": "2024-09-05"
   },
   "datasets/SaiedAlshahrani/ASAD": {
-    "downloads": 27,
+    "downloads": 30,
     "likes": 1,
     "lastModified": "2024-01-05",
     "license": "mit"
@@ -5127,7 +5127,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/Salama1429/common_voice_Arabic_12.0_Augmented": {
-    "downloads": 122,
+    "downloads": 127,
     "likes": 2,
     "lastModified": "2022-12-24"
   },
@@ -5144,9 +5144,9 @@
     "license": "afl-3.0"
   },
   "datasets/SpeechAntiSpoofingBenchmarks/ArAD": {
-    "downloads": 3575,
+    "downloads": 3539,
     "likes": 1,
-    "lastModified": "2026-11-10",
+    "lastModified": "2026-11-19",
     "license": "odc-by"
   },
   "datasets/SultanR/AraMix-Native": {
@@ -5173,7 +5173,7 @@
     "lastModified": "2026-08-17"
   },
   "datasets/SultanR/fineweb-edu-arabic": {
-    "downloads": 364,
+    "downloads": 363,
     "likes": 2,
     "lastModified": "2026-08-17"
   },
@@ -5221,13 +5221,13 @@
     "license": "apache-2.0"
   },
   "datasets/THIQAH-RD/ALARB": {
-    "downloads": 189,
+    "downloads": 185,
     "likes": 8,
     "lastModified": "2025-10-15",
     "license": "apache-2.0"
   },
   "datasets/THIQAH-RD/ArabLegalEval": {
-    "downloads": 34,
+    "downloads": 39,
     "likes": 4,
     "lastModified": "2025-01-02"
   },
@@ -5243,7 +5243,7 @@
     "lastModified": "2025-03-29"
   },
   "datasets/Tarek737/MasriSwitch-Bench": {
-    "downloads": 37,
+    "downloads": 36,
     "likes": 0,
     "lastModified": "2026-09-25",
     "license": "cc-by-4.0"
@@ -5255,7 +5255,7 @@
     "license": "mit"
   },
   "datasets/TheSeniorTeam/Arabic_Manuscript_Collection_Dataset": {
-    "downloads": 2895,
+    "downloads": 2906,
     "likes": 0,
     "lastModified": "2026-09-12",
     "license": "mixed-per-subset"
@@ -5285,34 +5285,34 @@
     "license": "apache-2.0"
   },
   "datasets/U4RASD/Muradif": {
-    "downloads": 90,
+    "downloads": 92,
     "likes": 5,
     "lastModified": "2026-07-07",
     "license": "cc-by-sa-4.0"
   },
   "datasets/U4RASD/omar-al-saleh-manuscripts-full": {
-    "downloads": 12,
-    "likes": 3,
+    "downloads": 121,
+    "likes": 4,
     "lastModified": "2026-04-08",
     "license": "cc-by-4.0"
   },
   "datasets/UBC-NLP/DetoxLLM": {
-    "downloads": 100,
+    "downloads": 149,
     "likes": 1,
     "lastModified": "2024-11-12"
   },
   "datasets/UBC-NLP/EgyHellaSwag": {
-    "downloads": 72,
+    "downloads": 73,
     "likes": 2,
     "lastModified": "2025-11-11"
   },
   "datasets/UBC-NLP/EgyMMLU": {
-    "downloads": 583,
+    "downloads": 586,
     "likes": 0,
     "lastModified": "2025-11-11"
   },
   "datasets/UBC-NLP/Jawaher-benchmark": {
-    "downloads": 174,
+    "downloads": 179,
     "likes": 3,
     "lastModified": "2025-05-27"
   },
@@ -5323,7 +5323,7 @@
     "license": "mit"
   },
   "datasets/UBC-NLP/PEARL": {
-    "downloads": 116,
+    "downloads": 117,
     "likes": 5,
     "lastModified": "2025-10-27",
     "license": "cc-by-nc-nd-4.0"
@@ -5335,31 +5335,31 @@
     "license": "cc-by-nc-nd-4.0"
   },
   "datasets/UBC-NLP/PEARL-X": {
-    "downloads": 55,
+    "downloads": 56,
     "likes": 3,
     "lastModified": "2025-10-08",
     "license": "cc-by-nc-nd-4.0"
   },
   "datasets/UBC-NLP/alexandria": {
-    "downloads": 1038,
+    "downloads": 1033,
     "likes": 16,
     "lastModified": "2026-10-26",
     "license": "cc-by-nc-4.0"
   },
   "datasets/UBC-NLP/gazelle_benchmark": {
-    "downloads": 94,
+    "downloads": 95,
     "likes": 9,
     "lastModified": "2024-12-23",
     "license": "cc-by-nc-nd-4.0"
   },
   "datasets/UBC-NLP/nilechat-arabizi-egy": {
-    "downloads": 78,
+    "downloads": 86,
     "likes": 5,
     "lastModified": "2025-11-11",
     "license": "cc-by-nc-4.0"
   },
   "datasets/UBC-NLP/nilechat-arabizi-mor": {
-    "downloads": 38,
+    "downloads": 45,
     "likes": 5,
     "lastModified": "2025-11-11",
     "license": "cc-by-nc-4.0"
@@ -5371,7 +5371,7 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/UBC-NLP/nilechat-lhv-egy": {
-    "downloads": 58,
+    "downloads": 59,
     "likes": 4,
     "lastModified": "2025-11-11",
     "license": "cc-by-nc-4.0"
@@ -5388,7 +5388,7 @@
     "lastModified": "2023-11-22"
   },
   "datasets/UBC-NLP/palm": {
-    "downloads": 102,
+    "downloads": 100,
     "likes": 23,
     "lastModified": "2025-10-28",
     "license": "cc-by-nc-nd-4.0"
@@ -5404,19 +5404,19 @@
     "lastModified": "2025-10-07"
   },
   "datasets/Williamsanderson/MedQA-Darija-MultiLingual": {
-    "downloads": 8267,
+    "downloads": 8206,
     "likes": 4,
     "lastModified": "2026-05-06",
     "license": "cc-by-4.0"
   },
   "datasets/WueNLP/belebele-fleurs": {
-    "downloads": 2463,
+    "downloads": 2465,
     "likes": 10,
     "lastModified": "2024-12-12",
     "license": "cc-by-sa-4.0"
   },
   "datasets/Yasbok/Alpaca_arabic_instruct": {
-    "downloads": 94,
+    "downloads": 90,
     "likes": 27,
     "lastModified": "2024-04-21"
   },
@@ -5454,7 +5454,7 @@
     "license": "mit"
   },
   "datasets/abdoelsayed/Open-ArabicaQA": {
-    "downloads": 177,
+    "downloads": 170,
     "likes": 9,
     "lastModified": "2024-03-27",
     "license": "mit"
@@ -5466,7 +5466,7 @@
     "license": "mit"
   },
   "datasets/abdusah/arabic_speech_massive": {
-    "downloads": 37,
+    "downloads": 36,
     "likes": 4,
     "lastModified": "2022-03-18"
   },
@@ -5483,35 +5483,35 @@
     "license": "cc-by-4.0"
   },
   "datasets/adiren7/darija_speech_to_text": {
-    "downloads": 388,
+    "downloads": 390,
     "likes": 22,
     "lastModified": "2024-08-11",
     "license": "apache-2.0"
   },
   "datasets/adiren7/darija_to_french_speech_to_text": {
-    "downloads": 30,
+    "downloads": 35,
     "likes": 13,
     "lastModified": "2025-02-16",
     "license": "apache-2.0"
   },
   "datasets/adlbh/MizanQA-v0": {
-    "downloads": 108,
+    "downloads": 109,
     "likes": 1,
     "lastModified": "2025-08-22"
   },
   "datasets/afaskar/Aqar.fm-Saudi-Real-Estate-Listings": {
-    "downloads": 130,
+    "downloads": 127,
     "likes": 3,
     "lastModified": "2026-01-02",
     "license": "cc-by-4.0"
   },
   "datasets/ahishamm/QURANICWhisperDataset": {
-    "downloads": 776,
+    "downloads": 767,
     "likes": 6,
     "lastModified": "2024-04-02"
   },
   "datasets/ahmedheakl/arabic_khatt": {
-    "downloads": 19,
+    "downloads": 25,
     "likes": 3,
     "lastModified": "2024-10-29"
   },
@@ -5522,7 +5522,7 @@
     "license": "mit"
   },
   "datasets/akbargherbal/six_millions_instruction_dataset_for_arabic_llm_ft": {
-    "downloads": 76,
+    "downloads": 73,
     "likes": 3,
     "lastModified": "2024-05-20"
   },
@@ -5533,19 +5533,19 @@
     "license": "mit"
   },
   "datasets/algerian-nlp/DziriAlign": {
-    "downloads": 53,
+    "downloads": 67,
     "likes": 1,
     "lastModified": "2026-11-18",
     "license": "mit"
   },
   "datasets/algerian-nlp/DziriEval": {
-    "downloads": 82,
+    "downloads": 94,
     "likes": 0,
     "lastModified": "2026-11-18",
     "license": "mit"
   },
   "datasets/algerian-nlp/algerian-arabic-english-translation-50k": {
-    "downloads": 103,
+    "downloads": 126,
     "likes": 1,
     "lastModified": "2026-11-18",
     "license": "apache-2.0"
@@ -5569,12 +5569,12 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/alielfilali01/ultrafeedback-arabic": {
-    "downloads": 48,
+    "downloads": 34,
     "likes": 3,
     "lastModified": "2024-01-31"
   },
   "datasets/alt-qsri/tweets_ar_en_parallel": {
-    "downloads": 155,
+    "downloads": 162,
     "likes": 4,
     "lastModified": "2024-01-18",
     "license": "apache-2.0"
@@ -5586,7 +5586,7 @@
     "license": "gpl-2.0"
   },
   "datasets/ameer4wisam/iraqi-arabic-sales-dialogue-dataset": {
-    "downloads": 428,
+    "downloads": 644,
     "likes": 0,
     "lastModified": "2026-07-30",
     "license": "cc-by-4.0"
@@ -5614,7 +5614,7 @@
     "lastModified": "2026-10-01"
   },
   "datasets/andrewatef/Arabic-Text-to-Speech": {
-    "downloads": 81,
+    "downloads": 74,
     "likes": 4,
     "lastModified": "2025-04-27"
   },
@@ -5635,7 +5635,7 @@
     "lastModified": "2024-04-14"
   },
   "datasets/arbml/AFND": {
-    "downloads": 181,
+    "downloads": 180,
     "likes": 0,
     "lastModified": "2022-10-31"
   },
@@ -5750,7 +5750,7 @@
     "lastModified": "2024-05-04"
   },
   "datasets/arbml/ArSAS": {
-    "downloads": 121,
+    "downloads": 141,
     "likes": 1,
     "lastModified": "2022-10-15"
   },
@@ -5765,7 +5765,7 @@
     "lastModified": "2024-03-17"
   },
   "datasets/arbml/ArSarcasm_v2": {
-    "downloads": 185,
+    "downloads": 187,
     "likes": 0,
     "lastModified": "2024-07-19"
   },
@@ -5785,7 +5785,7 @@
     "lastModified": "2022-10-30"
   },
   "datasets/arbml/AraSenti": {
-    "downloads": 29,
+    "downloads": 30,
     "likes": 0,
     "lastModified": "2024-04-14"
   },
@@ -5805,17 +5805,17 @@
     "lastModified": "2024-07-15"
   },
   "datasets/arbml/Arabic_Dialects_Dataset": {
-    "downloads": 72,
+    "downloads": 124,
     "likes": 4,
     "lastModified": "2024-07-14"
   },
   "datasets/arbml/Arabic_Hate_Speech": {
-    "downloads": 114,
+    "downloads": 137,
     "likes": 8,
     "lastModified": "2024-07-19"
   },
   "datasets/arbml/Arabic_Literature": {
-    "downloads": 22,
+    "downloads": 24,
     "likes": 3,
     "lastModified": "2022-10-23"
   },
@@ -5825,7 +5825,7 @@
     "lastModified": "2022-11-05"
   },
   "datasets/arbml/Arabic_News": {
-    "downloads": 38,
+    "downloads": 58,
     "likes": 2,
     "lastModified": "2022-10-26"
   },
@@ -5835,7 +5835,7 @@
     "lastModified": "2022-10-25"
   },
   "datasets/arbml/Arabic_RC": {
-    "downloads": 31,
+    "downloads": 28,
     "likes": 5,
     "lastModified": "2022-10-05"
   },
@@ -5845,12 +5845,12 @@
     "lastModified": "2022-11-03"
   },
   "datasets/arbml/Arabic_Sentiment_Twitter_Corpus": {
-    "downloads": 75,
+    "downloads": 79,
     "likes": 2,
     "lastModified": "2024-03-30"
   },
   "datasets/arbml/Arabic_Stories_Corpus": {
-    "downloads": 38,
+    "downloads": 44,
     "likes": 3,
     "lastModified": "2022-10-25"
   },
@@ -5915,13 +5915,13 @@
     "lastModified": "2022-10-26"
   },
   "datasets/arbml/CIDAR": {
-    "downloads": 1504,
+    "downloads": 1574,
     "likes": 57,
     "lastModified": "2025-07-01",
     "license": "apache-2.0"
   },
   "datasets/arbml/CIDAR-EVAL-100": {
-    "downloads": 54,
+    "downloads": 59,
     "likes": 2,
     "lastModified": "2024-02-14",
     "license": "apache-2.0"
@@ -5933,7 +5933,7 @@
     "license": "apache-2.0"
   },
   "datasets/arbml/CLEANANERCorp": {
-    "downloads": 17,
+    "downloads": 19,
     "likes": 1,
     "lastModified": "2024-06-23"
   },
@@ -5988,7 +5988,7 @@
     "lastModified": "2022-12-03"
   },
   "datasets/arbml/Egyptial_Gulf_Twitter_Dataset": {
-    "downloads": 19,
+    "downloads": 22,
     "likes": 2,
     "lastModified": "2024-04-07"
   },
@@ -6003,7 +6003,7 @@
     "lastModified": "2022-10-23"
   },
   "datasets/arbml/Hadith": {
-    "downloads": 36,
+    "downloads": 34,
     "likes": 3,
     "lastModified": "2022-10-24"
   },
@@ -6013,12 +6013,12 @@
     "lastModified": "2024-06-21"
   },
   "datasets/arbml/Iraqi_Dialect": {
-    "downloads": 24,
+    "downloads": 63,
     "likes": 2,
     "lastModified": "2022-10-15"
   },
   "datasets/arbml/KSUCCA": {
-    "downloads": 11,
+    "downloads": 12,
     "likes": 1,
     "lastModified": "2022-10-26"
   },
@@ -6063,12 +6063,12 @@
     "lastModified": "2024-07-18"
   },
   "datasets/arbml/Maknuune": {
-    "downloads": 42,
+    "downloads": 43,
     "likes": 0,
     "lastModified": "2024-04-07"
   },
   "datasets/arbml/MediaSpeech_ar": {
-    "downloads": 25,
+    "downloads": 26,
     "likes": 2,
     "lastModified": "2022-11-03"
   },
@@ -6128,7 +6128,7 @@
     "lastModified": "2024-07-19"
   },
   "datasets/arbml/PADIC": {
-    "downloads": 92,
+    "downloads": 117,
     "likes": 2,
     "lastModified": "2022-10-21"
   },
@@ -6138,7 +6138,7 @@
     "lastModified": "2024-03-31"
   },
   "datasets/arbml/Quran_Hadith": {
-    "downloads": 41,
+    "downloads": 45,
     "likes": 5,
     "lastModified": "2024-07-19"
   },
@@ -6158,12 +6158,12 @@
     "lastModified": "2022-11-01"
   },
   "datasets/arbml/SADID": {
-    "downloads": 9,
+    "downloads": 10,
     "likes": 0,
     "lastModified": "2022-11-03"
   },
   "datasets/arbml/SANAD": {
-    "downloads": 283,
+    "downloads": 270,
     "likes": 3,
     "lastModified": "2024-05-07"
   },
@@ -6173,7 +6173,7 @@
     "lastModified": "2022-11-03"
   },
   "datasets/arbml/Sanadset": {
-    "downloads": 156,
+    "downloads": 157,
     "likes": 4,
     "lastModified": "2022-10-25"
   },
@@ -6183,8 +6183,8 @@
     "lastModified": "2022-10-15"
   },
   "datasets/arbml/SaudiIrony": {
-    "downloads": 35,
-    "likes": 2,
+    "downloads": 75,
+    "likes": 3,
     "lastModified": "2024-07-18"
   },
   "datasets/arbml/SenZi": {
@@ -6203,7 +6203,7 @@
     "lastModified": "2022-10-14"
   },
   "datasets/arbml/Shami": {
-    "downloads": 76,
+    "downloads": 93,
     "likes": 0,
     "lastModified": "2024-07-14"
   },
@@ -6213,7 +6213,7 @@
     "lastModified": "2022-11-01"
   },
   "datasets/arbml/Sudanese_Dialect_Tweet": {
-    "downloads": 33,
+    "downloads": 69,
     "likes": 2,
     "lastModified": "2024-07-18"
   },
@@ -6238,7 +6238,7 @@
     "lastModified": "2024-03-24"
   },
   "datasets/arbml/TUNIZI": {
-    "downloads": 52,
+    "downloads": 63,
     "likes": 5,
     "lastModified": "2024-03-23"
   },
@@ -6248,7 +6248,7 @@
     "lastModified": "2022-11-03"
   },
   "datasets/arbml/Tunisian_Dialect_Corpus": {
-    "downloads": 178,
+    "downloads": 177,
     "likes": 3,
     "lastModified": "2024-04-07"
   },
@@ -6303,7 +6303,7 @@
     "lastModified": "2024-04-14"
   },
   "datasets/arbml/alpaca_arabic": {
-    "downloads": 135,
+    "downloads": 173,
     "likes": 5,
     "lastModified": "2023-08-11"
   },
@@ -6338,12 +6338,12 @@
     "lastModified": "2024-07-18"
   },
   "datasets/arbml/ashaar": {
-    "downloads": 679,
+    "downloads": 684,
     "likes": 9,
     "lastModified": "2024-07-14"
   },
   "datasets/arbml/belebele_arabic": {
-    "downloads": 26,
+    "downloads": 29,
     "likes": 3,
     "lastModified": "2023-09-05"
   },
@@ -6358,12 +6358,12 @@
     "lastModified": "2024-03-23"
   },
   "datasets/arbml/darija": {
-    "downloads": 39,
+    "downloads": 44,
     "likes": 4,
     "lastModified": "2022-11-03"
   },
   "datasets/arbml/dialex": {
-    "downloads": 18,
+    "downloads": 19,
     "likes": 0,
     "lastModified": "2022-11-03"
   },
@@ -6403,7 +6403,7 @@
     "lastModified": "2024-04-14"
   },
   "datasets/arbml/okapi_arabic": {
-    "downloads": 30,
+    "downloads": 26,
     "likes": 4,
     "lastModified": "2023-08-15"
   },
@@ -6413,7 +6413,7 @@
     "lastModified": "2024-05-13"
   },
   "datasets/arbml/quran_uthmani": {
-    "downloads": 77,
+    "downloads": 64,
     "likes": 3,
     "lastModified": "2022-11-03"
   },
@@ -6423,12 +6423,12 @@
     "lastModified": "2022-10-23"
   },
   "datasets/arbml/sudanese_dialect_speech": {
-    "downloads": 100,
+    "downloads": 102,
     "likes": 7,
     "lastModified": "2022-12-04"
   },
   "datasets/arbml/tashkeelav2": {
-    "downloads": 81,
+    "downloads": 91,
     "likes": 6,
     "lastModified": "2023-04-09"
   },
@@ -6448,12 +6448,12 @@
     "lastModified": "2024-03-17"
   },
   "datasets/arcee-globe/Arabic_MMLU-10percent": {
-    "downloads": 524,
+    "downloads": 582,
     "likes": 0,
     "lastModified": "2024-08-13"
   },
   "datasets/asas-ai/AraTrust": {
-    "downloads": 550,
+    "downloads": 558,
     "likes": 4,
     "lastModified": "2024-05-07",
     "license": "mit"
@@ -6475,73 +6475,73 @@
     "license": "cc-by-4.0"
   },
   "datasets/asas-ai/aracast_text": {
-    "downloads": 490,
+    "downloads": 1672,
     "likes": 0,
     "lastModified": "2024-07-01",
     "license": "apache-2.0"
   },
   "datasets/asas-ai/financial_news": {
-    "downloads": 90,
+    "downloads": 42,
     "likes": 2,
     "lastModified": "2023-11-01",
     "license": "apache-2.0"
   },
   "datasets/atlasia/AtlasOCRBench": {
-    "downloads": 29,
+    "downloads": 28,
     "likes": 2,
     "lastModified": "2025-09-16"
   },
   "datasets/atlasia/Atlaset": {
-    "downloads": 117,
+    "downloads": 122,
     "likes": 33,
     "lastModified": "2025-03-31"
   },
   "datasets/atlasia/DODa-audio-dataset": {
-    "downloads": 644,
+    "downloads": 690,
     "likes": 31,
     "lastModified": "2025-02-07",
     "license": "mit"
   },
   "datasets/atlasia/Darija-LID": {
-    "downloads": 33,
+    "downloads": 31,
     "likes": 3,
     "lastModified": "2025-05-09"
   },
   "datasets/atlasia/Darija_ASR_Bench": {
-    "downloads": 21,
+    "downloads": 31,
     "likes": 2,
     "lastModified": "2025-07-18"
   },
   "datasets/atlasia/Moroccan-Darija-Wiki-Audio-Dataset": {
-    "downloads": 110,
+    "downloads": 113,
     "likes": 18,
     "lastModified": "2025-02-14",
     "license": "cc-by-4.0"
   },
   "datasets/atlasia/Moroccan-Darija-Wiki-Dataset": {
-    "downloads": 30,
+    "downloads": 39,
     "likes": 7,
     "lastModified": "2025-03-08",
     "license": "cc-by-4.0"
   },
   "datasets/atlasia/MoulSot-Full": {
-    "downloads": 1511,
+    "downloads": 1505,
     "likes": 16,
     "lastModified": "2026-05-05"
   },
   "datasets/atlasia/Synthetic-Data-English-Darija": {
-    "downloads": 25,
+    "downloads": 33,
     "likes": 2,
     "lastModified": "2024-11-03"
   },
   "datasets/atlasia/TerjamaBench": {
-    "downloads": 102,
+    "downloads": 101,
     "likes": 18,
     "lastModified": "2025-01-19",
     "license": "mit"
   },
   "datasets/atlasia/atlasOCR-data": {
-    "downloads": 106,
+    "downloads": 104,
     "likes": 3,
     "lastModified": "2025-09-16"
   },
@@ -6551,28 +6551,28 @@
     "lastModified": "2026-07-01"
   },
   "datasets/atlasia/darija-lid-benchmark-v1": {
-    "downloads": 53,
+    "downloads": 49,
     "likes": 2,
     "lastModified": "2026-06-13"
   },
   "datasets/atlasia/darija-translation": {
-    "downloads": 48,
+    "downloads": 96,
     "likes": 18,
     "lastModified": "2024-04-25"
   },
   "datasets/atlasia/darija_bible_aligned": {
-    "downloads": 13,
+    "downloads": 23,
     "likes": 3,
     "lastModified": "2025-04-20"
   },
   "datasets/atlasia/darija_english": {
-    "downloads": 194,
+    "downloads": 200,
     "likes": 14,
     "lastModified": "2024-05-16",
     "license": "cc-by-nc-4.0"
   },
   "datasets/atlasia/levantine_dialects": {
-    "downloads": 8,
+    "downloads": 27,
     "likes": 2,
     "lastModified": "2025-01-10"
   },
@@ -6587,30 +6587,30 @@
     "lastModified": "2024-11-03"
   },
   "datasets/atmaneayoub/jev-ar-bench": {
-    "downloads": 322,
+    "downloads": 321,
     "likes": 2,
     "lastModified": "2026-10-01",
     "license": "cc-by-4.0"
   },
   "datasets/awras/algerian-darija-dictionary-v1": {
-    "downloads": 35,
+    "downloads": 36,
     "likes": 3,
     "lastModified": "2026-07-26",
     "license": "cc-by-4.0"
   },
   "datasets/ayatallah/darija-therapy-qa": {
-    "downloads": 17,
+    "downloads": 13,
     "likes": 4,
     "lastModified": "2025-12-27"
   },
   "datasets/aymansharara/IdiomX": {
-    "downloads": 915,
+    "downloads": 910,
     "likes": 2,
     "lastModified": "2026-06-05",
     "license": "mit"
   },
   "datasets/ayoubkirouane/Algerian-Darija": {
-    "downloads": 163,
+    "downloads": 156,
     "likes": 18,
     "lastModified": "2026-04-18",
     "license": "cc-by-4.0"
@@ -6621,7 +6621,7 @@
     "lastModified": "2024-07-18"
   },
   "datasets/badrex/MADIS5-spoken-arabic-dialects": {
-    "downloads": 224,
+    "downloads": 227,
     "likes": 0,
     "lastModified": "2025-06-02"
   },
@@ -6632,7 +6632,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/badrex/arabic-speech-SADA22-MSA": {
-    "downloads": 80,
+    "downloads": 86,
     "likes": 2,
     "lastModified": "2025-05-12",
     "license": "cc-by-nc-sa-4.0"
@@ -6644,13 +6644,13 @@
     "license": "cc-by-sa-4.0"
   },
   "datasets/bayandashnan/AOSED": {
-    "downloads": 189,
+    "downloads": 199,
     "likes": 0,
     "lastModified": "2026-08-03",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/beardaintweird/quran-embeddings": {
-    "downloads": 34,
+    "downloads": 33,
     "likes": 7,
     "lastModified": "2023-01-02"
   },
@@ -6666,12 +6666,12 @@
     "lastModified": "2024-11-25"
   },
   "datasets/bigIR/ar_cov19": {
-    "downloads": 246,
+    "downloads": 249,
     "likes": 11,
     "lastModified": "2023-09-19"
   },
   "datasets/bourbouh/moroccan-darija-youtube-subtitles": {
-    "downloads": 117,
+    "downloads": 132,
     "likes": 3,
     "lastModified": "2024-04-03",
     "license": "cc-by-4.0"
@@ -6689,7 +6689,7 @@
     "license": "apache-2.0"
   },
   "datasets/calfa-ai/baybars": {
-    "downloads": 282,
+    "downloads": 305,
     "likes": 3,
     "lastModified": "2026-09-11",
     "license": "etalab-2.0"
@@ -6701,7 +6701,7 @@
     "license": "apache-2.0"
   },
   "datasets/cibfaye/hadiths_dataset": {
-    "downloads": 25,
+    "downloads": 26,
     "likes": 5,
     "lastModified": "2024-05-20"
   },
@@ -6716,7 +6716,7 @@
     "lastModified": "2024-06-26"
   },
   "datasets/context212/context212-alhazen-ocr": {
-    "downloads": 98,
+    "downloads": 99,
     "likes": 3,
     "lastModified": "2026-08-24",
     "license": "cc-by-4.0"
@@ -6728,7 +6728,7 @@
     "license": "apache-2.0"
   },
   "datasets/data-is-better-together/dibt-prompt-translation-for-arabic": {
-    "downloads": 23,
+    "downloads": 16,
     "likes": 3,
     "lastModified": "2024-03-21"
   },
@@ -6804,7 +6804,7 @@
     "license": "cc-by-sa-4.0"
   },
   "datasets/eabayed/EmiratiDialictShowsAudioTranscription": {
-    "downloads": 189,
+    "downloads": 191,
     "likes": 4,
     "lastModified": "2022-05-30",
     "license": "afl-3.0"
@@ -6822,13 +6822,13 @@
     "license": "cc-by-4.0"
   },
   "datasets/ehabnegm/100-hour-Egyptian-dataset-single-speaker": {
-    "downloads": 157473,
+    "downloads": 157549,
     "likes": 15,
     "lastModified": "2026-08-07",
     "license": "cc-by-nc-4.0"
   },
   "datasets/ehabnegm/masri-podcast-300h-egyptian-tts": {
-    "downloads": 300,
+    "downloads": 301,
     "likes": 0,
     "lastModified": "2026-09-07",
     "license": "cc-by-nc-4.0"
@@ -6839,7 +6839,7 @@
     "lastModified": "2026-07-10"
   },
   "datasets/emotone-ar-cicling2017/emotone_ar": {
-    "downloads": 188,
+    "downloads": 194,
     "likes": 14,
     "lastModified": "2024-08-08"
   },
@@ -6873,19 +6873,19 @@
     "lastModified": "2024-01-05"
   },
   "datasets/faisalq/AraPoems": {
-    "downloads": 33,
+    "downloads": 31,
     "likes": 1,
     "lastModified": "2024-03-19",
     "license": "cc-by-nc-4.0"
   },
   "datasets/faisalq/SFC-mini": {
-    "downloads": 441,
+    "downloads": 437,
     "likes": 2,
     "lastModified": "2024-05-08",
     "license": "cc-by-nc-4.0"
   },
   "datasets/faisalq/STMC": {
-    "downloads": 35,
+    "downloads": 34,
     "likes": 0,
     "lastModified": "2024-05-08",
     "license": "cc-by-nc-4.0"
@@ -6896,7 +6896,7 @@
     "lastModified": "2026-05-12"
   },
   "datasets/fawazahmed0/hadith-data": {
-    "downloads": 35,
+    "downloads": 34,
     "likes": 7,
     "lastModified": "2024-10-30",
     "license": "cc0-1.0"
@@ -6908,7 +6908,7 @@
     "license": "cc-by-nc-nd-4.0"
   },
   "datasets/fbougares/tsac": {
-    "downloads": 177,
+    "downloads": 184,
     "likes": 3,
     "lastModified": "2024-01-18",
     "license": "lgpl-3.0"
@@ -6926,7 +6926,7 @@
     "license": "apache-2.0"
   },
   "datasets/fr3on/egyptian-dialogue": {
-    "downloads": 191,
+    "downloads": 199,
     "likes": 9,
     "lastModified": "2025-12-22",
     "license": "cc-by-4.0"
@@ -6950,7 +6950,7 @@
     "license": "cc-by-nc-nd-4.0"
   },
   "datasets/geeeezx/egyptian-arabic-400k": {
-    "downloads": 49,
+    "downloads": 50,
     "likes": 4,
     "lastModified": "2025-08-10"
   },
@@ -6973,13 +6973,13 @@
     "license": "apache-2.0"
   },
   "datasets/google/xquad": {
-    "downloads": 12245,
+    "downloads": 12505,
     "likes": 43,
     "lastModified": "2024-01-04",
     "license": "cc-by-sa-4.0"
   },
   "datasets/gsarti/flores_101": {
-    "downloads": 2224,
+    "downloads": 2205,
     "likes": 35,
     "lastModified": "2022-10-27",
     "license": "cc-by-sa-4.0"
@@ -6991,29 +6991,29 @@
     "license": "mit"
   },
   "datasets/guymorlan/levanti": {
-    "downloads": 195,
+    "downloads": 201,
     "likes": 11,
     "lastModified": "2026-11-17",
     "license": "cc-by-sa-4.0"
   },
   "datasets/hadyelsahar/ar_res_reviews": {
-    "downloads": 418,
+    "downloads": 430,
     "likes": 11,
     "lastModified": "2024-01-09"
   },
   "datasets/halabi2016/arabic_speech_corpus": {
-    "downloads": 439,
+    "downloads": 448,
     "likes": 37,
     "lastModified": "2024-08-14",
     "license": "cc-by-4.0"
   },
   "datasets/hammh0a/AraLingBench": {
-    "downloads": 204,
+    "downloads": 200,
     "likes": 12,
     "lastModified": "2025-11-19"
   },
   "datasets/hammh0a/Hala-4.6M-SFT": {
-    "downloads": 128,
+    "downloads": 117,
     "likes": 6,
     "lastModified": "2025-09-18",
     "license": "cc-by-nc-4.0"
@@ -7047,50 +7047,50 @@
     "license": "cc-by-4.0"
   },
   "datasets/hozifa1/noor-platform-hadith": {
-    "downloads": 23,
+    "downloads": 22,
     "likes": 0,
     "lastModified": "2026-09-03"
   },
   "datasets/hsseinmz/arcd": {
-    "downloads": 1331,
+    "downloads": 1329,
     "likes": 12,
     "lastModified": "2024-01-09",
     "license": "mit"
   },
   "datasets/humain-ai/AraIFEval": {
-    "downloads": 80,
+    "downloads": 79,
     "likes": 1,
     "lastModified": "2025-09-17",
     "license": "apache-2.0"
   },
   "datasets/humain-ai/AraMath": {
-    "downloads": 85,
+    "downloads": 84,
     "likes": 1,
     "lastModified": "2025-09-17",
     "license": "apache-2.0"
   },
   "datasets/humain-ai/AraPro": {
-    "downloads": 37,
+    "downloads": 36,
     "likes": 3,
     "lastModified": "2025-09-17"
   },
   "datasets/humain-ai/AraTruthfulQA": {
-    "downloads": 67,
+    "downloads": 61,
     "likes": 3,
     "lastModified": "2025-09-17"
   },
   "datasets/humain-ai/Etec": {
-    "downloads": 32,
+    "downloads": 34,
     "likes": 2,
     "lastModified": "2025-09-17"
   },
   "datasets/humain-ai/IEN_MCQ": {
-    "downloads": 48,
+    "downloads": 55,
     "likes": 1,
     "lastModified": "2025-10-16"
   },
   "datasets/humain-ai/LC-Eval": {
-    "downloads": 65,
+    "downloads": 73,
     "likes": 2,
     "lastModified": "2025-09-15"
   },
@@ -7101,26 +7101,26 @@
     "license": "mit"
   },
   "datasets/iabufarha/ar_sarcasm": {
-    "downloads": 432,
+    "downloads": 437,
     "likes": 18,
     "lastModified": "2024-01-09",
     "license": "mit"
   },
   "datasets/ieasybooks-org/prophet-mosque-library": {
-    "downloads": 433116,
-    "likes": 20,
+    "downloads": 520596,
+    "likes": 27,
     "lastModified": "2025-05-14",
     "license": "mit"
   },
   "datasets/ieasybooks-org/prophet-mosque-library-compressed": {
-    "downloads": 9700,
+    "downloads": 5076,
     "likes": 0,
     "lastModified": "2025-05-08",
     "license": "mit"
   },
   "datasets/ieasybooks-org/shamela-waqfeya-library": {
-    "downloads": 139344,
-    "likes": 11,
+    "downloads": 163218,
+    "likes": 12,
     "lastModified": "2025-05-14",
     "license": "mit"
   },
@@ -7131,24 +7131,24 @@
     "license": "mit"
   },
   "datasets/ieasybooks-org/waqfeya-library": {
-    "downloads": 186286,
+    "downloads": 194352,
     "likes": 23,
     "lastModified": "2025-05-14",
     "license": "mit"
   },
   "datasets/ieasybooks-org/waqfeya-library-compressed": {
-    "downloads": 8738,
+    "downloads": 5195,
     "likes": 6,
     "lastModified": "2025-04-25",
     "license": "mit"
   },
   "datasets/ilyassacha/moroccan-lawQA-dataset": {
-    "downloads": 26,
+    "downloads": 22,
     "likes": 3,
     "lastModified": "2025-06-16"
   },
   "datasets/imomayiz/darija-english": {
-    "downloads": 1052,
+    "downloads": 1048,
     "likes": 13,
     "lastModified": "2024-04-17"
   },
@@ -7159,12 +7159,12 @@
     "license": "cc-by-4.0"
   },
   "datasets/inception42/AraGen": {
-    "downloads": 210,
+    "downloads": 260,
     "likes": 2,
     "lastModified": "2025-12-15"
   },
   "datasets/inception42/Arabic-IFEval": {
-    "downloads": 145,
+    "downloads": 148,
     "likes": 6,
     "lastModified": "2025-04-05",
     "license": "cc-by-nc-4.0"
@@ -7211,7 +7211,7 @@
     "license": "mit"
   },
   "datasets/johnlockejrr/KHATT_v1.0_dataset": {
-    "downloads": 1774,
+    "downloads": 3135,
     "likes": 4,
     "lastModified": "2024-07-01",
     "license": "mit"
@@ -7239,7 +7239,7 @@
     "lastModified": "2025-06-01"
   },
   "datasets/kaust-generative-ai/fineweb-edu-ar": {
-    "downloads": 48,
+    "downloads": 55,
     "likes": 13,
     "lastModified": "2024-11-12",
     "license": "cc-by-nc-4.0"
@@ -7251,17 +7251,17 @@
     "license": "creativeml-openrail-m"
   },
   "datasets/khalidalt/ultimate_arabic_news": {
-    "downloads": 140,
+    "downloads": 173,
     "likes": 4,
     "lastModified": "2022-06-15"
   },
   "datasets/komari6/ajgt_twitter_ar": {
-    "downloads": 397,
+    "downloads": 405,
     "likes": 11,
     "lastModified": "2024-01-09"
   },
   "datasets/lahga/arabic-dialects": {
-    "downloads": 159,
+    "downloads": 191,
     "likes": 1,
     "lastModified": "2026-10-02",
     "license": "cc-by-sa-4.0"
@@ -7279,13 +7279,13 @@
     "license": "odc-by"
   },
   "datasets/linagora/TunisianMMLU": {
-    "downloads": 1262,
+    "downloads": 1326,
     "likes": 0,
     "lastModified": "2026-11-02",
     "license": "cc-by-nc-sa-4.0"
   },
   "datasets/linagora/Tunisian_Derja_Dataset": {
-    "downloads": 234,
+    "downloads": 242,
     "likes": 6,
     "lastModified": "2025-09-15",
     "license": "cc-by-sa-4.0"
@@ -7309,7 +7309,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/m6011/sada2022": {
-    "downloads": 347,
+    "downloads": 350,
     "likes": 3,
     "lastModified": "2024-09-12",
     "license": "cc-by-4.0"
@@ -7321,7 +7321,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/mabahboh/sitr-arabic-pii": {
-    "downloads": 147,
+    "downloads": 149,
     "likes": 0,
     "lastModified": "2026-09-19",
     "license": "apache-2.0"
@@ -7332,18 +7332,18 @@
     "lastModified": "2024-06-14"
   },
   "datasets/mansoorSaleh/AYDID-public": {
-    "downloads": 19,
+    "downloads": 48,
     "likes": 2,
     "lastModified": "2026-06-02",
     "license": "cc-by-nc-4.0"
   },
   "datasets/manueltonneau/arabic-hate-speech-superset": {
-    "downloads": 58,
+    "downloads": 56,
     "likes": 8,
     "lastModified": "2024-11-28"
   },
   "datasets/mbayan/Arabic-LJP": {
-    "downloads": 149,
+    "downloads": 142,
     "likes": 6,
     "lastModified": "2025-02-28"
   },
@@ -7378,7 +7378,7 @@
     "license": "mit"
   },
   "datasets/miscovery/Math_CoT_Arabic_English_Reasoning": {
-    "downloads": 95,
+    "downloads": 90,
     "likes": 17,
     "lastModified": "2025-05-12",
     "license": "mit"
@@ -7396,12 +7396,12 @@
     "license": "cc0-1.0"
   },
   "datasets/moaead/dialectal-arabic-voices": {
-    "downloads": 622,
+    "downloads": 610,
     "likes": 0,
     "lastModified": "2026-09-26"
   },
   "datasets/mohajesmaeili/Persian_Arabic_TextLine_Image_Ocr_Medium": {
-    "downloads": 188,
+    "downloads": 194,
     "likes": 18,
     "lastModified": "2025-09-26"
   },
@@ -7417,19 +7417,19 @@
     "lastModified": "2024-08-08"
   },
   "datasets/mohameddalii/coda-llm-data": {
-    "downloads": 5490,
+    "downloads": 3827,
     "likes": 0,
     "lastModified": "2026-10-19",
     "license": "apache-2.0"
   },
   "datasets/mohammedaly22/ArabicDeXlit-Corpus": {
-    "downloads": 41,
+    "downloads": 42,
     "likes": 0,
     "lastModified": "2026-09-20",
     "license": "cc-by-sa-4.0"
   },
   "datasets/mohammedaly22/lahgtna-levantine-tts": {
-    "downloads": 330,
+    "downloads": 334,
     "likes": 5,
     "lastModified": "2026-05-30",
     "license": "cc-by-4.0"
@@ -7441,7 +7441,7 @@
     "license": "apache-2.0"
   },
   "datasets/mohres/The_Arabic_E-Book_Corpus": {
-    "downloads": 147,
+    "downloads": 148,
     "likes": 3,
     "lastModified": "2024-06-09",
     "license": "cc-by-4.0"
@@ -7452,7 +7452,7 @@
     "lastModified": "2026-05-08"
   },
   "datasets/mozilla-foundation/common_voice_17_0": {
-    "downloads": 2956,
+    "downloads": 2977,
     "likes": 55,
     "lastModified": "2025-10-24"
   },
@@ -7468,18 +7468,18 @@
     "license": "mit"
   },
   "datasets/nanonets/nn-auto-bench-ds": {
-    "downloads": 789,
+    "downloads": 790,
     "likes": 5,
     "lastModified": "2025-03-13",
     "license": "mit"
   },
   "datasets/nasrellahkharroubi/DarijaDz": {
-    "downloads": 359,
+    "downloads": 370,
     "likes": 14,
     "lastModified": "2026-09-14"
   },
   "datasets/nawaralseelawi/mizan-iraqi-arabic-benchmark": {
-    "downloads": 313,
+    "downloads": 312,
     "likes": 1,
     "lastModified": "2026-09-12",
     "license": "cc-by-4.0"
@@ -7503,19 +7503,19 @@
     "license": "mit"
   },
   "datasets/nvidia/miracl-vision": {
-    "downloads": 2468,
+    "downloads": 2459,
     "likes": 13,
     "lastModified": "2025-05-20",
     "license": "cc-by-sa-4.0"
   },
   "datasets/obadabaq/uae-laws": {
-    "downloads": 39,
+    "downloads": 52,
     "likes": 4,
     "lastModified": "2024-07-24",
     "license": "mit"
   },
   "datasets/obadx/muaalem-annotated-v3": {
-    "downloads": 5239,
+    "downloads": 4045,
     "likes": 7,
     "lastModified": "2025-09-04",
     "license": "mit"
@@ -7567,7 +7567,7 @@
     "lastModified": "2026-06-30"
   },
   "datasets/oddadmix/arabic-audio-collection-mostafa-mahmoud": {
-    "downloads": 263,
+    "downloads": 265,
     "likes": 13,
     "lastModified": "2026-06-18"
   },
@@ -7587,7 +7587,7 @@
     "lastModified": "2026-08-07"
   },
   "datasets/oddadmix/arabic-audio-collection-syrian-podcast": {
-    "downloads": 561,
+    "downloads": 544,
     "likes": 3,
     "lastModified": "2026-06-18"
   },
@@ -7609,7 +7609,7 @@
     "license": "apache-2.0"
   },
   "datasets/oddadmix/arabic-news-summarization": {
-    "downloads": 25,
+    "downloads": 40,
     "likes": 2,
     "lastModified": "2026-04-17"
   },
@@ -7626,7 +7626,7 @@
     "license": "apache-2.0"
   },
   "datasets/oddadmix/dialectal-arabic-lahgtna-v2": {
-    "downloads": 4815,
+    "downloads": 4822,
     "likes": 33,
     "lastModified": "2026-08-04"
   },
@@ -7637,12 +7637,12 @@
     "license": "apache-2.0"
   },
   "datasets/oddadmix/egyptian-translation-dataset-2.9-openai-batch": {
-    "downloads": 27,
+    "downloads": 26,
     "likes": 1,
     "lastModified": "2026-04-17"
   },
   "datasets/oddadmix/english-arabic-translations": {
-    "downloads": 64,
+    "downloads": 59,
     "likes": 3,
     "lastModified": "2026-04-17"
   },
@@ -7652,7 +7652,7 @@
     "lastModified": "2026-08-31"
   },
   "datasets/oddadmix/lahgtna-v3-small": {
-    "downloads": 2283,
+    "downloads": 2273,
     "likes": 9,
     "lastModified": "2026-07-17"
   },
@@ -7668,7 +7668,7 @@
     "lastModified": "2026-07-08"
   },
   "datasets/oddadmix/qari-0.2.2-diacritics-dataset-large": {
-    "downloads": 80,
+    "downloads": 65,
     "likes": 5,
     "lastModified": "2026-04-17"
   },
@@ -7685,7 +7685,7 @@
     "license": "cc-by-3.0"
   },
   "datasets/oi-uae/EmiratiAudioDataset-20H": {
-    "downloads": 69,
+    "downloads": 68,
     "likes": 1,
     "lastModified": "2025-04-24"
   },
@@ -7705,13 +7705,13 @@
     "lastModified": "2026-05-10"
   },
   "datasets/omarxadel/MaWPS-ar": {
-    "downloads": 97,
+    "downloads": 152,
     "likes": 1,
     "lastModified": "2022-07-12",
     "license": "mit"
   },
   "datasets/omkarthawakar/FannOrFlop": {
-    "downloads": 118,
+    "downloads": 115,
     "likes": 11,
     "lastModified": "2025-08-21",
     "license": "apache-2.0"
@@ -7746,7 +7746,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/pain/Arabic-Tweets": {
-    "downloads": 262,
+    "downloads": 293,
     "likes": 24,
     "lastModified": "2023-04-08",
     "license": "cc-by-4.0"
@@ -7758,7 +7758,7 @@
     "license": "cc-by-4.0"
   },
   "datasets/palmaoui/AladdinBench": {
-    "downloads": 40,
+    "downloads": 42,
     "likes": 5,
     "lastModified": "2025-04-21"
   },
@@ -7768,12 +7768,12 @@
     "lastModified": "2025-07-04"
   },
   "datasets/prestoai/arabic-ecom-data": {
-    "downloads": 59,
+    "downloads": 55,
     "likes": 3,
     "lastModified": "2026-07-09"
   },
   "datasets/prestoai/arabic-ecom-search-bench": {
-    "downloads": 313,
+    "downloads": 210,
     "likes": 5,
     "lastModified": "2026-07-09"
   },
@@ -7789,7 +7789,7 @@
     "lastModified": "2022-12-23"
   },
   "datasets/qcri/wiki_qa_ar": {
-    "downloads": 152,
+    "downloads": 188,
     "likes": 3,
     "lastModified": "2024-01-18"
   },
@@ -7823,7 +7823,7 @@
     "license": "mit"
   },
   "datasets/riotu-lab/ARABIC-RAW-TEXT": {
-    "downloads": 53,
+    "downloads": 72,
     "likes": 5,
     "lastModified": "2024-08-08",
     "license": "apache-2.0"
@@ -7859,7 +7859,7 @@
     "license": "apache-2.0"
   },
   "datasets/riotu-lab/SARD": {
-    "downloads": 11484,
+    "downloads": 11636,
     "likes": 19,
     "lastModified": "2026-05-20",
     "license": "cc-by-nc-nd-4.0"
@@ -7887,7 +7887,7 @@
     "license": "apache-2.0"
   },
   "datasets/saeid1999/fa-en-ar-handwritten-ocr-v1": {
-    "downloads": 1468,
+    "downloads": 1905,
     "likes": 0,
     "lastModified": "2026-09-17",
     "license": "cc-by-4.0"
@@ -7904,7 +7904,7 @@
     "license": "apache-2.0"
   },
   "datasets/sawalni-ai/fw-darija": {
-    "downloads": 49,
+    "downloads": 46,
     "likes": 10,
     "lastModified": "2024-12-08"
   },
@@ -7921,13 +7921,13 @@
     "license": "apache-2.0"
   },
   "datasets/sherif1313/Quran-OCR": {
-    "downloads": 129,
+    "downloads": 167,
     "likes": 0,
     "lastModified": "2026-02-18",
     "license": "apache-2.0"
   },
   "datasets/silma-ai/arabic-broad-benchmark": {
-    "downloads": 191,
+    "downloads": 195,
     "likes": 15,
     "lastModified": "2025-07-21",
     "license": "apache-2.0"
@@ -7944,13 +7944,13 @@
     "lastModified": "2024-10-17"
   },
   "datasets/silma-ai/silma-rag-qa-benchmark-v1.0": {
-    "downloads": 214,
+    "downloads": 232,
     "likes": 7,
     "lastModified": "2025-06-11",
     "license": "apache-2.0"
   },
   "datasets/srinivasbilla/semeval-2016-absa-reviews-arabic": {
-    "downloads": 79,
+    "downloads": 77,
     "likes": 4,
     "lastModified": "2023-06-07",
     "license": "mit"
@@ -7973,7 +7973,7 @@
     "license": "cc0-1.0"
   },
   "datasets/tarekeldeeb/ArabicCorpus2B": {
-    "downloads": 18,
+    "downloads": 19,
     "likes": 1,
     "lastModified": "2022-12-14"
   },
@@ -7984,44 +7984,44 @@
     "license": "apache-2.0"
   },
   "datasets/tarteel-ai/EA-UD": {
-    "downloads": 468,
+    "downloads": 464,
     "likes": 2,
     "lastModified": "2022-07-15"
   },
   "datasets/tarteel-ai/everyayah": {
-    "downloads": 4331,
+    "downloads": 4297,
     "likes": 46,
     "lastModified": "2026-09-17"
   },
   "datasets/tarteel-ai/quran-tafsir": {
-    "downloads": 29,
+    "downloads": 30,
     "likes": 9,
     "lastModified": "2023-02-11"
   },
   "datasets/tarteel-ai/quranqa": {
-    "downloads": 115,
+    "downloads": 112,
     "likes": 17,
     "lastModified": "2024-09-11",
     "license": "cc-by-nd-4.0"
   },
   "datasets/tarteel-ai/tlog": {
-    "downloads": 7113,
-    "likes": 32,
+    "downloads": 7372,
+    "likes": 34,
     "lastModified": "2026-09-17",
     "license": "cc-by-4.0"
   },
   "datasets/tiiuae/NativeQA": {
-    "downloads": 52,
+    "downloads": 47,
     "likes": 3,
     "lastModified": "2026-02-14"
   },
   "datasets/tiiuae/alyah-emirati-benchmark": {
-    "downloads": 426,
+    "downloads": 417,
     "likes": 25,
     "lastModified": "2026-01-27"
   },
   "datasets/tiiuae/evalplus-arabic": {
-    "downloads": 51,
+    "downloads": 54,
     "likes": 2,
     "lastModified": "2026-02-14"
   },
@@ -8032,19 +8032,19 @@
     "license": "cc-by-nc-2.0"
   },
   "datasets/toloka/JEEM": {
-    "downloads": 230,
+    "downloads": 242,
     "likes": 14,
     "lastModified": "2025-05-11",
     "license": "mit"
   },
   "datasets/touati-kamel/Algerian-Youtube-Comments": {
-    "downloads": 1398,
+    "downloads": 1323,
     "likes": 0,
-    "lastModified": "2026-09-28",
+    "lastModified": "2026-11-20",
     "license": "mit"
   },
   "datasets/touati-kamel/TinyStories-Algerian-Darija": {
-    "downloads": 53,
+    "downloads": 439,
     "likes": 0,
     "lastModified": "2026-09-28",
     "license": "mit"
@@ -8100,7 +8100,7 @@
     "lastModified": "2026-03-01"
   },
   "datasets/wissamantoun/qasr-arabic-speech-continuations": {
-    "downloads": 268,
+    "downloads": 261,
     "likes": 0,
     "lastModified": "2026-03-11"
   },
@@ -8111,7 +8111,7 @@
     "license": "cc0-1.0"
   },
   "datasets/xri/OmaniArabicNMT": {
-    "downloads": 45,
+    "downloads": 48,
     "likes": 2,
     "lastModified": "2025-02-27",
     "license": "cc-by-sa-4.0"
@@ -8123,7 +8123,7 @@
     "license": "cc-by-nc-4.0"
   },
   "datasets/ymoslem/MADLAD-Arabic-Clean": {
-    "downloads": 136,
+    "downloads": 124,
     "likes": 0,
     "lastModified": "2024-07-11"
   },
@@ -8145,25 +8145,25 @@
     "lastModified": "2025-01-16"
   },
   "datasets/youssef101/artelingo-dummy": {
-    "downloads": 504,
+    "downloads": 527,
     "likes": 2,
     "lastModified": "2023-07-23",
     "license": "mit"
   },
   "datasets/zaibihassan/Quranic-Recitation-Data": {
-    "downloads": 65976,
+    "downloads": 65666,
     "likes": 9,
     "lastModified": "2026-11-18",
     "license": "apache-2.0"
   },
   "datasets/zaibihassan/Quranic-Translation-Audio-Data": {
-    "downloads": 12764,
+    "downloads": 13021,
     "likes": 2,
     "lastModified": "2026-10-22",
     "license": "apache-2.0"
   },
   "datasets/zaibihassan/Quranic-Word-By-Word-Audio-Data": {
-    "downloads": 2957,
+    "downloads": 2731,
     "likes": 4,
     "lastModified": "2026-05-23",
     "license": "apache-2.0"
@@ -8181,7 +8181,7 @@
     "license": "apache-2.0"
   },
   "dev-ahmedhany/stt_ar_fastconformer_hybrid_large_streaming_pcd_v1.1-mirror": {
-    "downloads": 106,
+    "downloads": 108,
     "likes": 3,
     "lastModified": "2026-05-10",
     "license": "cc-by-4.0",
@@ -8205,7 +8205,7 @@
     "license": "apache-2.0"
   },
   "elgeish/wav2vec2-large-xlsr-53-levantine-arabic": {
-    "downloads": 110,
+    "downloads": 91,
     "likes": 6,
     "lastModified": "2021-07-06",
     "license": "apache-2.0"
@@ -8247,7 +8247,7 @@
     "license": "cc-by-sa-3.0"
   },
   "facebook/mms-1b-all": {
-    "downloads": 240326,
+    "downloads": 234617,
     "likes": 221,
     "lastModified": "2023-06-15",
     "license": "cc-by-nc-4.0"
@@ -8259,14 +8259,14 @@
     "license": "cc-by-nc-4.0"
   },
   "facebook/s2t-wav2vec2-large-en-ar": {
-    "downloads": 51,
+    "downloads": 53,
     "likes": 7,
     "lastModified": "2023-01-24",
     "license": "mit"
   },
   "facebook/seamless-m4t-v2-large": {
-    "downloads": 321238,
-    "likes": 1037,
+    "downloads": 332027,
+    "likes": 1038,
     "lastModified": "2024-01-04",
     "license": "cc-by-nc-4.0"
   },
@@ -8314,7 +8314,7 @@
       "facebook/nllb-200-distilled-600m"
     ]
   },
-  "fetched_at": "2026-11-19",
+  "fetched_at": "2026-11-20",
   "fibonacciai/fibonacci-2-14B": {
     "downloads": 120,
     "likes": 13,
@@ -8335,7 +8335,7 @@
     "lastModified": "2022-03-21"
   },
   "ghadeerl/bahraini-arabic": {
-    "downloads": 30,
+    "downloads": 29,
     "likes": 2,
     "lastModified": "2026-05-16",
     "license": "apache-2.0",
@@ -8530,7 +8530,7 @@
     "license": "mit"
   },
   "jonatasgrosman/wav2vec2-large-xlsr-53-arabic": {
-    "downloads": 640888,
+    "downloads": 637260,
     "likes": 70,
     "lastModified": "2022-12-14",
     "license": "apache-2.0"
@@ -8595,13 +8595,13 @@
     "lastModified": "2021-05-19"
   },
   "lemuralabs/lemura-arabic-asr-lite": {
-    "downloads": 278,
+    "downloads": 275,
     "likes": 5,
     "lastModified": "2026-08-18",
     "license": "cc-by-4.0"
   },
   "lemuralabs/lemura-arabic-asr-qwen3": {
-    "downloads": 197,
+    "downloads": 186,
     "likes": 4,
     "lastModified": "2026-08-21",
     "license": "apache-2.0",
@@ -8643,7 +8643,7 @@
     ]
   },
   "maherghanem86/arabic_speech_to_text": {
-    "downloads": 74,
+    "downloads": 79,
     "likes": 1,
     "lastModified": "2025-09-07",
     "license": "apache-2.0"
@@ -8675,7 +8675,7 @@
     "lastModified": "2023-07-01"
   },
   "mansoorSaleh/whisper-yemeni": {
-    "downloads": 17,
+    "downloads": 19,
     "likes": 0,
     "lastModified": "2026-08-19",
     "license": "cc-by-nc-sa-4.0",
@@ -8700,7 +8700,7 @@
     "lastModified": "2021-07-13"
   },
   "mboushaba/whisper-large-v3-turbo-arabic": {
-    "downloads": 16,
+    "downloads": 15,
     "likes": 2,
     "lastModified": "2024-10-03",
     "license": "apache-2.0",
@@ -8758,7 +8758,7 @@
     "license": "mit"
   },
   "mistralai/Voxtral-Mini-3B-2507": {
-    "downloads": 164415,
+    "downloads": 190459,
     "likes": 702,
     "lastModified": "2025-07-28",
     "license": "apache-2.0"
@@ -8790,7 +8790,7 @@
     ]
   },
   "mohammed/fastconformer-quran-ar": {
-    "downloads": 2633,
+    "downloads": 2950,
     "likes": 20,
     "lastModified": "2026-06-07",
     "license": "cc-by-4.0"
@@ -8805,13 +8805,13 @@
     ]
   },
   "mohammedaly22/Metro-ASR-Small": {
-    "downloads": 77,
+    "downloads": 75,
     "likes": 2,
     "lastModified": "2026-08-18",
     "license": "mit"
   },
   "mohammedaly22/QwenCleo-ASR": {
-    "downloads": 37813,
+    "downloads": 37560,
     "likes": 16,
     "lastModified": "2026-06-17",
     "license": "apache-2.0",
@@ -8829,7 +8829,7 @@
     ]
   },
   "mohammedaly22/whisper-large-v3-turbo-egyptian-code-switching": {
-    "downloads": 797,
+    "downloads": 810,
     "likes": 2,
     "lastModified": "2026-05-13",
     "license": "mit",
@@ -8838,7 +8838,7 @@
     ]
   },
   "mohmdsh/whisper-with-augmentation-small-arabic_with-diacritics": {
-    "downloads": 34,
+    "downloads": 35,
     "likes": 3,
     "lastModified": "2025-01-10",
     "license": "apache-2.0",
@@ -8847,7 +8847,7 @@
     ]
   },
   "moonshine-ai/moonshine-tiny-ar": {
-    "downloads": 144,
+    "downloads": 161,
     "likes": 8,
     "lastModified": "2025-09-06"
   },
@@ -8867,7 +8867,7 @@
     "license": "apache-2.0"
   },
   "naazimsnh02/whisper-large-v3-turbo-ar-quran": {
-    "downloads": 4670,
+    "downloads": 4195,
     "likes": 2,
     "lastModified": "2025-12-08",
     "license": "apache-2.0",
@@ -8897,19 +8897,19 @@
     ]
   },
   "nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0": {
-    "downloads": 1502,
+    "downloads": 1458,
     "likes": 22,
     "lastModified": "2025-10-23",
     "license": "cc-by-4.0"
   },
   "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0": {
-    "downloads": 2804,
+    "downloads": 2781,
     "likes": 47,
     "lastModified": "2025-10-21",
     "license": "cc-by-4.0"
   },
   "obadx/muaalem-model-v3_2": {
-    "downloads": 72475,
+    "downloads": 72418,
     "likes": 13,
     "lastModified": "2025-09-04",
     "license": "mit",
@@ -8918,7 +8918,7 @@
     ]
   },
   "obadx/recitation-segmenter-v2": {
-    "downloads": 1655,
+    "downloads": 1666,
     "likes": 4,
     "lastModified": "2025-09-03",
     "license": "mit",
@@ -8982,7 +8982,7 @@
     ]
   },
   "oddadmix/MasriSwitch-Gemma3n-Transcriber-v1": {
-    "downloads": 35,
+    "downloads": 36,
     "likes": 16,
     "lastModified": "2026-04-17",
     "license": "apache-2.0",
@@ -9054,7 +9054,7 @@
     ]
   },
   "oddadmix/Nawah-Parakeet-60M": {
-    "downloads": 14,
+    "downloads": 11,
     "likes": 2,
     "lastModified": "2026-09-27"
   },
@@ -9068,7 +9068,7 @@
     ]
   },
   "oddadmix/Whisperv3-tunisian-codeswitch": {
-    "downloads": 898,
+    "downloads": 924,
     "likes": 1,
     "lastModified": "2026-08-02",
     "base_model": [
@@ -9101,7 +9101,7 @@
     ]
   },
   "oddadmix/cohere-transcribe-arabic-07-2026-dialectal": {
-    "downloads": 159,
+    "downloads": 161,
     "likes": 2,
     "lastModified": "2026-07-09",
     "license": "apache-2.0",
@@ -9110,7 +9110,7 @@
     ]
   },
   "oddadmix/cohere-transcribe-arabic-07-2026-dialectal-v2": {
-    "downloads": 686,
+    "downloads": 693,
     "likes": 1,
     "lastModified": "2026-07-16",
     "license": "apache-2.0",
@@ -9159,7 +9159,7 @@
     ]
   },
   "oddadmix/nemotron-3.5-asr-arabic-dialectal-v2": {
-    "downloads": 84,
+    "downloads": 74,
     "likes": 2,
     "lastModified": "2026-07-16",
     "base_model": [
@@ -9167,7 +9167,7 @@
     ]
   },
   "oddadmix/whisper-large-v3-arabic-dialectal-v2": {
-    "downloads": 1516,
+    "downloads": 1514,
     "likes": 2,
     "lastModified": "2026-07-16",
     "license": "apache-2.0",
@@ -9176,7 +9176,7 @@
     ]
   },
   "oddadmix/whisper-large-v3-turbo-arabic-dialectal": {
-    "downloads": 903,
+    "downloads": 896,
     "likes": 4,
     "lastModified": "2026-07-09",
     "license": "apache-2.0",
@@ -9185,7 +9185,7 @@
     ]
   },
   "oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2": {
-    "downloads": 1357,
+    "downloads": 1345,
     "likes": 2,
     "lastModified": "2026-07-16",
     "license": "apache-2.0",
@@ -9194,7 +9194,7 @@
     ]
   },
   "oddadmix/whisper-small-arabic-dialectal-v2": {
-    "downloads": 199,
+    "downloads": 207,
     "likes": 0,
     "lastModified": "2026-07-16",
     "license": "apache-2.0",
@@ -9203,7 +9203,7 @@
     ]
   },
   "ojisetyawan/whisper-base-ar-quran-ft-hijaiyah-2": {
-    "downloads": 51,
+    "downloads": 52,
     "likes": 3,
     "lastModified": "2024-12-02",
     "license": "apache-2.0",
@@ -9257,19 +9257,19 @@
     "license": "mit"
   },
   "omarxadel/hubert-large-arabic-egyptian": {
-    "downloads": 41,
+    "downloads": 40,
     "likes": 22,
     "lastModified": "2023-03-19",
     "license": "cc-by-nc-4.0"
   },
   "openai/whisper-large-v3": {
-    "downloads": 3313514,
+    "downloads": 3303148,
     "likes": 6828,
     "lastModified": "2024-08-12",
     "license": "apache-2.0"
   },
   "openai/whisper-large-v3-turbo": {
-    "downloads": 4731457,
+    "downloads": 4713890,
     "likes": 3560,
     "lastModified": "2024-10-04",
     "license": "mit",
@@ -9329,7 +9329,7 @@
     ]
   },
   "rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final": {
-    "downloads": 10471,
+    "downloads": 10324,
     "likes": 10,
     "lastModified": "2025-12-21",
     "license": "apache-2.0"
@@ -9428,7 +9428,7 @@
     ]
   },
   "samil24/whisper-large-arabic-dialects-v5": {
-    "downloads": 40,
+    "downloads": 39,
     "likes": 2,
     "lastModified": "2025-09-03",
     "license": "apache-2.0",
@@ -9455,7 +9455,7 @@
     ]
   },
   "sayedM/cohere-transcribe-arabic-cpu-friendly": {
-    "downloads": 37,
+    "downloads": 36,
     "likes": 5,
     "lastModified": "2026-09-06",
     "license": "apache-2.0",
@@ -9581,8 +9581,8 @@
     "license": "apache-2.0"
   },
   "smerchi/Arabic-Morocco-Speech_To_Text": {
-    "downloads": 67,
-    "likes": 21,
+    "downloads": 69,
+    "likes": 22,
     "lastModified": "2024-04-02",
     "license": "apache-2.0",
     "base_model": [
@@ -9598,19 +9598,19 @@
     ]
   },
   "speechbrain/asr-wav2vec2-commonvoice-14-ar": {
-    "downloads": 35,
+    "downloads": 34,
     "likes": 0,
     "lastModified": "2024-02-26",
     "license": "apache-2.0"
   },
   "speechbrain/asr-wav2vec2-dvoice-darija": {
-    "downloads": 35,
+    "downloads": 34,
     "likes": 15,
     "lastModified": "2024-02-19",
     "license": "apache-2.0"
   },
   "speechbrain/asr-whisper-large-v2-commonvoice-ar": {
-    "downloads": 72,
+    "downloads": 71,
     "likes": 3,
     "lastModified": "2025-01-03",
     "license": "apache-2.0"
@@ -9643,7 +9643,7 @@
     "lastModified": "2023-11-09"
   },
   "sysofwan/hifzguide-muaalem-mini": {
-    "downloads": 534,
+    "downloads": 408,
     "likes": 0,
     "lastModified": "2026-09-22",
     "license": "agpl-3.0",
@@ -9669,18 +9669,18 @@
     ]
   },
   "tamm5y5m5/nemotron-3.5-quran-dual-v5": {
-    "downloads": 786,
+    "downloads": 787,
     "likes": 3,
     "lastModified": "2026-09-02"
   },
   "tarteel-ai/whisper-base-ar-quran": {
-    "downloads": 278403,
-    "likes": 196,
+    "downloads": 252840,
+    "likes": 197,
     "lastModified": "2022-12-13",
     "license": "apache-2.0"
   },
   "tarteel-ai/whisper-tiny-ar-quran": {
-    "downloads": 6005,
+    "downloads": 6043,
     "likes": 31,
     "lastModified": "2022-12-14",
     "license": "apache-2.0"
@@ -9719,7 +9719,7 @@
     ]
   },
   "touati-kamel/whisper-algerian-darja-medium": {
-    "downloads": 96,
+    "downloads": 82,
     "likes": 1,
     "lastModified": "2026-11-08",
     "license": "mit",
@@ -9770,7 +9770,7 @@
     ]
   },
   "vadimbelsky/qwen3-asr-arabic-ksa": {
-    "downloads": 95,
+    "downloads": 94,
     "likes": 2,
     "lastModified": "2026-04-06",
     "license": "apache-2.0",
@@ -9779,7 +9779,7 @@
     ]
   },
   "vadimbelsky/qwen3-asr-arabic-uae": {
-    "downloads": 112458,
+    "downloads": 112824,
     "likes": 2,
     "lastModified": "2026-04-04",
     "license": "apache-2.0",
@@ -9797,7 +9797,7 @@
     ]
   },
   "wageehkhad/whisper-medium-finetuned-sada-asr": {
-    "downloads": 335,
+    "downloads": 313,
     "likes": 4,
     "lastModified": "2026-03-05",
     "license": "apache-2.0",
@@ -9893,7 +9893,7 @@
     ]
   },
   "ychafiqui/whisper-medium-darija": {
-    "downloads": 362,
+    "downloads": 352,
     "likes": 7,
     "lastModified": "2024-09-27",
     "license": "apache-2.0",
@@ -9902,7 +9902,7 @@
     ]
   },
   "ychafiqui/whisper-small-darija": {
-    "downloads": 193,
+    "downloads": 199,
     "likes": 3,
     "lastModified": "2024-09-27",
     "license": "apache-2.0",

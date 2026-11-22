@@ -35,7 +35,7 @@ a:hover .n, a:hover .root { opacity: .85; }
 </style>
 <rect class="bg" x="0" y="0" width="1600" height="1379"/>
 <text class="title" x="24" y="42">Arabic AI Atlas</text>
-<text class="sub" x="24" y="70">Arabic AI family tree · 383 models from 21 base families · 2026-11-21</text>
+<text class="sub" x="24" y="70">Arabic AI family tree · 383 models from 21 base families · 2026-11-22</text>
 <text class="lg-h" x="1576" y="38" text-anchor="end">One band per base family · pill width grows with Hugging Face downloads</text>
 <rect class="llm" x="1223.4" y="58" width="14" height="14" rx="3"/>
 <text class="lg" x="1243.4" y="70">LLM</text>
@@ -278,5 +278,5 @@ a:hover .n, a:hover .root { opacity: .85; }
 <circle class="knot" cx="292" cy="1296.5" r="3"/>
 <a href="https://h9-tec.github.io/arabic-ai-atlas/#view=tree" target="_blank" rel="noopener"><title>Other · أخرى (99)</title><rect class="root" x="24" y="1278.5" width="268" height="36" rx="18"/><text class="r-en" x="42" y="1302">Other</text><text class="r-n" x="89.6" y="1302">99</text><text class="r-ar" x="274" y="1303" text-anchor="end" lang="ar">أخرى</text></a>
 <line class="rule" x1="24" y1="1335" x2="1576" y2="1335"/>
-<text class="footer" x="1576" y="1363" text-anchor="end">Generated 2026-11-21 · full lineage on the live site · github.com/h9-tec/arabic-ai-atlas</text>
+<text class="footer" x="1576" y="1363" text-anchor="end">Generated 2026-11-22 · full lineage on the live site · github.com/h9-tec/arabic-ai-atlas</text>
 </svg>

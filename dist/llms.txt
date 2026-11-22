@@ -1,6 +1,6 @@
 # Arabic AI Atlas
 
-> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-11-21.
+> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-11-22.
 
 ## Models
 
@@ -45,18 +45,18 @@
 - [Arabic Books](https://huggingface.co/datasets/MohamedRashad/arabic-books): 8,500 rows of full Arabic book texts.
 - [MIRACL](https://huggingface.co/datasets/miracl/miracl-corpus): MIRACL multilingual retrieval corpus spanning 18 languages, with Arabic as one documented subset.
 - [TYDIQA](https://huggingface.co/datasets/google-research-datasets/tydiqa): Question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs
-- [MMMLU](https://huggingface.co/datasets/openai/MMMLU): Translated the MMLU’s test set into 14 languages using professional human translators.
 - [QuranLab-Arabic-Speech](https://huggingface.co/datasets/Muno459/QuranLab-Arabic-Speech): Broad Arabic speech from 50,000+ hours of recordings, cut into 2-20 s segments for ASR training; access restricted.
-- [Global-MMLU Lite](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite): Lite version of Global-MMLU with 200 culturally sensitive and 200 culturally agnostic samples per language across 16 languages, including Arabic.
+- [MMMLU](https://huggingface.co/datasets/openai/MMMLU): Translated the MMLU’s test set into 14 languages using professional human translators.
+- [arabic stem lexicon](https://huggingface.co/datasets/TigreGotico/arabic-stem-lexicon): An undiacritized Arabic surface form → its most frequent diacritized stem.
 - [Quranic Translation Audio Data](https://huggingface.co/datasets/zaibihassan/Quranic-Translation-Audio-Data): Complete Quran translation audio and commentary recitations across 51 translation directories in 14 languages.
+- [Global-MMLU Lite](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite): Lite version of Global-MMLU with 200 culturally sensitive and 200 culturally agnostic samples per language across 16 languages, including Arabic.
 - [SARD](https://huggingface.co/datasets/riotu-lab/SARD): Synthetic Arabic OCR dataset for recognition training
 - [XStoryCloze](https://huggingface.co/datasets/juletxara/xstory_cloze): XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages.
-- [arwiki](https://huggingface.co/datasets/CALM/arwiki): This dataset is extracted using wikiextractor tool, from Wikipedia Arabic pages.
 - [MedQA-Darija-MultiLingual](https://huggingface.co/datasets/Williamsanderson/MedQA-Darija-MultiLingual): Trilingual English, French and Moroccan Darija medical Q&A dataset with playable speech audio.
+- [arwiki](https://huggingface.co/datasets/CALM/arwiki): This dataset is extracted using wikiextractor tool, from Wikipedia Arabic pages.
 - [tlog](https://huggingface.co/datasets/tarteel-ai/tlog): TLOG: audio recitations of Quranic ayahs paired with their Quranic texts.
 - [Universal Dependencies](https://huggingface.co/datasets/universal-dependencies/universal_dependencies): Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages.
 - [MLQA](https://huggingface.co/datasets/facebook/mlqa): 5K extractive QA instances (12K in English) in SQuAD format in seven languages - English, Arabic, German, Spanish, Hindi, Vietnamese and Simplified Chinese.
-- [Mr. TyDi](https://huggingface.co/datasets/castorini/mr-tydi): Multilingual retrieval benchmark built from TyDi QA across eleven languages including Arabic.
 
 ## Tools & Benchmarks
 
@@ -72,9 +72,9 @@
 - [fa en ar handwritten ocr v1](https://huggingface.co/datasets/saeid1999/fa-en-ar-handwritten-ocr-v1): A large, clean, augmentation-rich synthetic handwriting dataset for training and benchmarking OCR / HTR models on Persian (fa), Arabic (ar) and English (en).
 - [MMLU Arabic (FreedomIntelligence)](https://huggingface.co/datasets/FreedomIntelligence/MMLU_Arabic): MMLU translated into Arabic by gpt-3.5-turbo.
 - [AlGhafa Arabic LLM Benchmark (Native)](https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native): Native-Arabic multiple-choice evaluation tasks used as OALL leaderboard tasks.
+- [ImageEval-ArabicNLP26](https://huggingface.co/datasets/QCRI/ImageEval-ArabicNLP26): It covers both of the shared task's tasks: AynVQA (Task 1), a culturally grounded Arabic multimodal benchmark for spoken visual question answering.
 - [TunisianMMLU](https://huggingface.co/datasets/linagora/TunisianMMLU): MMLU translated into Tunisian Derja, LINAGORA (France); evaluated with lighteval.
 - [ARCD](https://huggingface.co/datasets/hsseinmz/arcd): Arabic Reading Comprehension Dataset of 1,395 Wikipedia-based questions from the SOQAL paper.
-- [ImageEval-ArabicNLP26](https://huggingface.co/datasets/QCRI/ImageEval-ArabicNLP26): It covers both of the shared task's tasks: AynVQA (Task 1), a culturally grounded Arabic multimodal benchmark for spoken visual question answering.
 - [OALL Arabic MMLU](https://huggingface.co/datasets/OALL/Arabic_MMLU): GPT-translated Arabic MMLU copy from FreedomIntelligence, used as an OALL v1 task.
 - [Arabic EXAMS (OALL)](https://huggingface.co/datasets/OALL/Arabic_EXAMS): Arabic subset of the EXAMS multilingual school-exam benchmark, an OALL task.
 - [IdiomX](https://huggingface.co/datasets/aymansharara/IdiomX): Dataset: 190K+ examples • 12K+ idioms • 3 languages • 4 benchmark tasks It supports four benchmark tasks: 1.

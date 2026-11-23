@@ -58,4 +58,4 @@
 
 ---
 
-_Generated 2026-11-22. Do not edit by hand._
+_Generated 2026-11-23. Do not edit by hand._

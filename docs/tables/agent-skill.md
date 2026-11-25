@@ -42,4 +42,4 @@
 
 ---
 
-_Generated 2026-11-24. Do not edit by hand._
+_Generated 2026-11-25. Do not edit by hand._

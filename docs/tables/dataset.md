@@ -12,7 +12,7 @@
 | XNLI | Facebook AI Research | 🌍 INTL | 7,500 sentences | cc-by-nc-4.0 | 63K | 2024-01-05 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/facebook/xnli) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/facebookresearch/XNLI) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/1809.05053.pdf) |
 | MIRACL | unknown | 🌍 INTL | 2,061,414 documents | apache-2.0 | 58K | 2023-01-05 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/miracl/miracl-corpus) |
 | Shamela4 Full DB | AuthenticIlm | 🌍 INTL | 10M–100M rows | mit | 57K | 2026-05-19 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/AuthenticIlm/Shamela4_Full_DB) |
-| quranic universal ayahs | QUD-Technologies | 🌍 INTL | 100K–1M rows | cc-by-4.0 | 43K | 2026-11-25 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/QUD-Technologies/quranic-universal-ayahs) |
+| quranic universal ayahs | QUD-Technologies | 🌍 INTL | 100K–1M rows | cc-by-4.0 | 43K | 2026-11-26 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/QUD-Technologies/quranic-universal-ayahs) |
 | Arabic Books | MohamedRashad | 🌍 INTL | 8.5k books | gpl-3.0 | 28K | 2024-11-28 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MohamedRashad/arabic-books) |
 | Aya Dataset | Cohere For AI Community | 🌍 INTL | 14,250 sentences | apache-2.0 | 26K | 2025-04-15 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/CohereForAI/aya_dataset) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://doi.org/10.18653/v1/2024.acl-long.620) |
 | QuranLab-Arabic-Speech | Muno459 | 🌍 INTL | 1M–10M rows | other | 24K | 2026-11-10 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Muno459/QuranLab-Arabic-Speech) |
@@ -79,7 +79,7 @@
 | synthetic bilingual invoices 200 | HV09 | 🌍 INTL | <1K rows | cc-by-4.0 | 1K | 2026-08-01 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/HV09/synthetic-bilingual-invoices-200) |
 | linto dataset audio ar tn | LINAGORA | 🌍 INTL | 10K–100K rows | cc-by-4.0 | 1K | 2025-04-11 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn) |
 | MASC: Massive Arabic Speech Corpus | Appswave | 🌍 INTL | 1,000 hours | cc-by-4.0 | 1K | 2023-06-12 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/pain/MASC) [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&logoColor=white)](https://ieeexplore.ieee.org/abstract/document/10022652) [![Web](https://img.shields.io/badge/-Website-4285F4?logo=googlechrome&logoColor=white)](https://ieee-dataport.org/open-access/masc-massive-arabic-speech-corpus) |
-| Algerian Youtube Comments | Touati Kamel | 🌍 INTL | 10K–100K rows | mit | 1K | 2026-11-25 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/touati-kamel/Algerian-Youtube-Comments) |
+| Algerian Youtube Comments | Touati Kamel | 🌍 INTL | 10K–100K rows | mit | 1K | 2026-11-27 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/touati-kamel/Algerian-Youtube-Comments) |
 | AraMix-HQ | AdaMLLab | 🌍 INTL | 10M–100M rows | other | 1K | 2026-01-30 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/AdaMLLab/AraMix-HQ) |
 | Arabic-to-Code 8 Languages 3M | ISLAM-PO | 🌍 INTL | 3M | cc-by-4.0 | 1K | 2026-09-25 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/ISLAM-PO/arabic-to-code-8-langs-3m) |
 | Dialectal Arabic Voices | moaead | 🌍 INTL | — | unknown | 1K | 2026-09-26 | [![HF](https://img.shields.io/badge/-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/moaead/dialectal-arabic-voices) |
@@ -1170,4 +1170,4 @@
 
 ---
 
-_Generated 2026-11-26. Do not edit by hand._
+_Generated 2026-11-27. Do not edit by hand._

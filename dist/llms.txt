@@ -1,6 +1,6 @@
 # Arabic AI Atlas
 
-> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-11-26.
+> The Arabic AI ecosystem as a map, a list, and a skill your agent can install. 3302 entries, generated 2026-11-27.
 
 ## Models
 
@@ -16,8 +16,8 @@
 - [Llama 3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct): Strong Arabic performance
 - [Whisper Quran](https://huggingface.co/tarteel-ai/whisper-base-ar-quran): Whisper fine-tuned for Quranic recitation recognition
 - [Phi-4](https://huggingface.co/microsoft/phi-4): Multilingual with Arabic, compact & efficient
-- [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics): Unlike standard Arabic ASR systems that output orthographic Arabic text, this model outputs a phonetic (sound-level) representation, making it suitable.
 - [Qari-OCR-v0.3-VL-2B-Instruct](https://huggingface.co/NAMAA-Space/Qari-OCR-v0.3-VL-2B-Instruct): Qari OCR v0.3, 2B Qwen2-VL based Arabic OCR with diacritics support.
+- [wav2vec2 quran phonetics](https://huggingface.co/TBOGamer22/wav2vec2-quran-phonetics): Unlike standard Arabic ASR systems that output orthographic Arabic text, this model outputs a phonetic (sound-level) representation, making it suitable.
 - [qwen3-asr-arabic-uae](https://huggingface.co/vadimbelsky/qwen3-asr-arabic-uae): Qwen3-ASR fine-tuned for Emirati Arabic.
 - [AraPoemBERT](https://huggingface.co/faisalq/bert-base-arapoembert): BERT model pretrained on Arabic poetry for meter, rhyme, sentiment classification.
 - [bert-base-arabic-camelbert-mix-sentiment](https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment): CAMeLBERT-Mix fine-tuned for Arabic sentiment analysis.

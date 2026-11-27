@@ -39,7 +39,7 @@
     "license": "cc-by-4.0"
   },
   "AbdelrahmanHassan/whisper-large-v3-egyptian-arabic": {
-    "downloads": 220,
+    "downloads": 223,
     "likes": 13,
     "lastModified": "2025-08-04",
     "license": "apache-2.0",
@@ -215,7 +215,7 @@
     ]
   },
   "AymanMansour/Whisper-Sudanese-Dialect-small": {
-    "downloads": 47,
+    "downloads": 48,
     "likes": 3,
     "lastModified": "2022-12-15",
     "license": "apache-2.0"
@@ -297,7 +297,7 @@
     "lastModified": "2025-01-10"
   },
   "Byne/whisper-large-v3-arabic": {
-    "downloads": 54,
+    "downloads": 52,
     "likes": 6,
     "lastModified": "2025-04-20",
     "license": "apache-2.0",
@@ -510,7 +510,7 @@
     ]
   },
   "DesertMindAI/ASR-hassaniya-whisper-medium-v1": {
-    "downloads": 181,
+    "downloads": 193,
     "likes": 2,
     "lastModified": "2025-09-18",
     "base_model": [
@@ -524,7 +524,7 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "Dr-AliGomaa/whisper-large-v3-ar": {
-    "downloads": 38,
+    "downloads": 37,
     "likes": 0,
     "lastModified": "2026-08-18",
     "license": "apache-2.0",
@@ -586,7 +586,7 @@
     ]
   },
   "FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval": {
-    "downloads": 304,
+    "downloads": 311,
     "likes": 4,
     "lastModified": "2026-03-01",
     "license": "apache-2.0"
@@ -636,7 +636,7 @@
     "license": "mit"
   },
   "Habib-HF/tarbiyah-ai-whisper-medium-merged": {
-    "downloads": 47,
+    "downloads": 41,
     "likes": 6,
     "lastModified": "2025-11-26",
     "license": "mit",
@@ -645,7 +645,7 @@
     ]
   },
   "HamzaSidhu786/wav2vec2-base-word-by-word-quran-asr": {
-    "downloads": 171,
+    "downloads": 108,
     "likes": 5,
     "lastModified": "2024-07-23",
     "license": "apache-2.0",
@@ -702,7 +702,7 @@
     ]
   },
   "HebArabNlpProject/WhisperLevantine": {
-    "downloads": 149,
+    "downloads": 152,
     "likes": 8,
     "lastModified": "2025-05-25",
     "license": "apache-2.0",
@@ -836,7 +836,7 @@
     ]
   },
   "IJyad/whisper-large-v3-Tarteel": {
-    "downloads": 168,
+    "downloads": 167,
     "likes": 6,
     "lastModified": "2025-06-04",
     "license": "mit",
@@ -854,7 +854,7 @@
     ]
   },
   "IbrahimAmin/code-switched-egyptian-arabic-whisper-small": {
-    "downloads": 326,
+    "downloads": 303,
     "likes": 5,
     "lastModified": "2025-05-17",
     "license": "apache-2.0",
@@ -863,7 +863,7 @@
     ]
   },
   "IbrahimAmin/egyptian-arabic-wav2vec2-xlsr-53": {
-    "downloads": 1022,
+    "downloads": 1002,
     "likes": 7,
     "lastModified": "2025-05-11",
     "license": "apache-2.0",
@@ -872,7 +872,7 @@
     ]
   },
   "IbrahimAmin/hubert-arabic-spoken-dialect-classifier": {
-    "downloads": 422,
+    "downloads": 420,
     "likes": 1,
     "lastModified": "2025-05-11",
     "license": "apache-2.0",
@@ -930,7 +930,7 @@
     ]
   },
   "IbrahimSalah/Wav2vecLarge_quran_syllables_recognition": {
-    "downloads": 46,
+    "downloads": 44,
     "likes": 6,
     "lastModified": "2025-01-05"
   },
@@ -959,7 +959,7 @@
     ]
   },
   "KalamTech/whisper-large-arabic-cv-11": {
-    "downloads": 21,
+    "downloads": 22,
     "likes": 4,
     "lastModified": "2024-07-30",
     "license": "apache-2.0",
@@ -1057,7 +1057,7 @@
     ]
   },
   "MAdel121/whisper-small-egyptian-arabic": {
-    "downloads": 330,
+    "downloads": 317,
     "likes": 8,
     "lastModified": "2025-05-21",
     "license": "mit"
@@ -1120,19 +1120,19 @@
     "license": "cc-by-nc-sa-4.0"
   },
   "MBZUAI/artst_asr_v2": {
-    "downloads": 52,
+    "downloads": 51,
     "likes": 2,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
   },
   "MBZUAI/artst_asr_v3": {
-    "downloads": 25,
+    "downloads": 27,
     "likes": 0,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
   },
   "MBZUAI/artst_asr_v3_qasr": {
-    "downloads": 29,
+    "downloads": 28,
     "likes": 4,
     "lastModified": "2025-09-10",
     "license": "cc-by-nc-4.0"
@@ -1149,7 +1149,7 @@
     "lastModified": "2022-10-09"
   },
   "MaddoggProduction/whisper-l-v3-turbo-quran-lora-dataset-mix": {
-    "downloads": 95,
+    "downloads": 86,
     "likes": 21,
     "lastModified": "2026-03-23",
     "license": "apache-2.0",
@@ -1185,7 +1185,7 @@
     ]
   },
   "Mamadou-Aw/hassaniya-french-speech-translation": {
-    "downloads": 10,
+    "downloads": 13,
     "likes": 0,
     "lastModified": "2026-02-03"
   },
@@ -1246,7 +1246,7 @@
     "license": "llama3"
   },
   "MohamedRashad/Arabic-Whisper-CodeSwitching-Edition": {
-    "downloads": 323,
+    "downloads": 310,
     "likes": 38,
     "lastModified": "2024-07-07",
     "license": "gpl-3.0"
@@ -1276,7 +1276,7 @@
     ]
   },
   "MohammedNasri/whisper-algerian-dialect": {
-    "downloads": 49,
+    "downloads": 45,
     "likes": 5,
     "lastModified": "2025-08-13",
     "license": "apache-2.0"
@@ -1288,7 +1288,7 @@
     "license": "mit"
   },
   "MostafaAhmed98/Conformer-CTC-Arabic-ASR": {
-    "downloads": 94,
+    "downloads": 84,
     "likes": 5,
     "lastModified": "2024-09-18",
     "license": "mit"
@@ -1300,7 +1300,7 @@
     "license": "apache-2.0"
   },
   "MostafaMaroof/wav2vec2-arabic-phoneme-asr": {
-    "downloads": 2212,
+    "downloads": 2040,
     "likes": 3,
     "lastModified": "2026-11-22",
     "license": "apache-2.0",
@@ -1343,7 +1343,7 @@
   },
   "Muno459/zipformer_p-arabic-v2": {
     "downloads": 9,
-    "likes": 12,
+    "likes": 13,
     "lastModified": "2026-11-13",
     "license": "free-non-commercial"
   },
@@ -1423,7 +1423,7 @@
     ]
   },
   "NAMAA-Space/EgypTalk-ASR-v2": {
-    "downloads": 190,
+    "downloads": 206,
     "likes": 20,
     "lastModified": "2025-08-09",
     "license": "cc-by-4.0",
@@ -1634,7 +1634,7 @@
     ]
   },
   "NightPrince/stt-arabic-whisper-finetuned-diactires": {
-    "downloads": 80,
+    "downloads": 140,
     "likes": 3,
     "lastModified": "2026-03-18",
     "license": "apache-2.0",
@@ -1670,12 +1670,12 @@
     ]
   },
   "Nuwaisir/Quran_speech_recognizer": {
-    "downloads": 107,
+    "downloads": 91,
     "likes": 16,
     "lastModified": "2022-08-20"
   },
   "OdyAsh/faster-whisper-base-ar-quran": {
-    "downloads": 994,
+    "downloads": 955,
     "likes": 7,
     "lastModified": "2025-06-24",
     "license": "apache-2.0",
@@ -2205,7 +2205,7 @@
     "lastModified": "2023-09-25"
   },
   "Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small": {
-    "downloads": 28,
+    "downloads": 30,
     "likes": 6,
     "lastModified": "2022-12-28",
     "license": "apache-2.0"
@@ -2225,7 +2225,7 @@
     "license": "cc-by-nc-4.0"
   },
   "Seyfelislem/whisper-medium-arabic": {
-    "downloads": 55,
+    "downloads": 52,
     "likes": 7,
     "lastModified": "2025-06-22",
     "license": "apache-2.0",
@@ -2234,7 +2234,7 @@
     ]
   },
   "Seyfelislem/whisper-medium-arabic-suite-II": {
-    "downloads": 18,
+    "downloads": 19,
     "likes": 3,
     "lastModified": "2023-04-30",
     "license": "apache-2.0"
@@ -2290,7 +2290,7 @@
     ]
   },
   "TBOGamer22/wav2vec2-quran-phonetics": {
-    "downloads": 132297,
+    "downloads": 115033,
     "likes": 10,
     "lastModified": "2026-01-21",
     "license": "apache-2.0",
@@ -2314,7 +2314,7 @@
     "license": "cc-by-4.0"
   },
   "TuniSpeech-AI/whisper-tunisian-dialect": {
-    "downloads": 563,
+    "downloads": 564,
     "likes": 5,
     "lastModified": "2026-02-13",
     "license": "cc-by-nc-4.0"
@@ -2494,7 +2494,7 @@
     "lastModified": "2023-03-23"
   },
   "YazanSalameh/Whisper-base-Arabic": {
-    "downloads": 62,
+    "downloads": 64,
     "likes": 4,
     "lastModified": "2024-02-25",
     "license": "apache-2.0",
@@ -2539,7 +2539,7 @@
     "lastModified": "2021-05-20"
   },
   "ahmedheakl/arazn-whisper-small": {
-    "downloads": 47,
+    "downloads": 48,
     "likes": 3,
     "lastModified": "2024-07-01",
     "license": "apache-2.0",
@@ -2566,7 +2566,7 @@
     ]
   },
   "aioxlabs/dvoice-darija": {
-    "downloads": 20,
+    "downloads": 19,
     "likes": 9,
     "lastModified": "2022-05-28",
     "license": "apache-2.0"
@@ -2664,7 +2664,7 @@
   },
   "algerian-nlp/Hadra-ASR-whisper-medium": {
     "downloads": 670,
-    "likes": 2,
+    "likes": 3,
     "lastModified": "2026-11-18",
     "license": "mit"
   },
@@ -2717,7 +2717,7 @@
     ]
   },
   "anaszil/whisper-large-v3-turbo-darija": {
-    "downloads": 6107,
+    "downloads": 6130,
     "likes": 9,
     "lastModified": "2025-11-09",
     "license": "mit",
@@ -2726,7 +2726,7 @@
     ]
   },
   "arbml/wav2vec2-large-xlsr-53-arabic-egyptian": {
-    "downloads": 84,
+    "downloads": 90,
     "likes": 16,
     "lastModified": "2021-07-05",
     "license": "apache-2.0"
@@ -2747,7 +2747,7 @@
     ]
   },
   "areaz/whisper-small-for-quran": {
-    "downloads": 24,
+    "downloads": 22,
     "likes": 6,
     "lastModified": "2025-01-12",
     "license": "apache-2.0",
@@ -2766,7 +2766,7 @@
     "lastModified": "2023-03-20"
   },
   "asafaya/hubert-large-arabic-transcribe": {
-    "downloads": 60,
+    "downloads": 61,
     "likes": 4,
     "lastModified": "2022-12-26",
     "license": "mit"
@@ -2858,7 +2858,7 @@
     ]
   },
   "atlasia/moulsot.v0.3": {
-    "downloads": 3105,
+    "downloads": 3273,
     "likes": 29,
     "lastModified": "2026-05-02",
     "license": "apache-2.0",
@@ -2937,7 +2937,7 @@
     "license": "audarai-open-license-v1.0"
   },
   "audarai/Audar-ASR-V1-Turbo": {
-    "downloads": 2787,
+    "downloads": 2822,
     "likes": 22,
     "lastModified": "2026-08-20",
     "license": "audarai-community-license-v1.0"
@@ -2975,7 +2975,7 @@
     ]
   },
   "ayoubkirouane/whisper-small-ar": {
-    "downloads": 65,
+    "downloads": 62,
     "likes": 4,
     "lastModified": "2023-09-19",
     "license": "apache-2.0",
@@ -2993,7 +2993,7 @@
     ]
   },
   "azeem23/whisper-small-codeswitching-ArabicEnglish": {
-    "downloads": 19,
+    "downloads": 18,
     "likes": 3,
     "lastModified": "2025-05-01",
     "license": "mit",
@@ -3002,7 +3002,7 @@
     ]
   },
   "badrex/mms-300m-arabic-dialect-identifier": {
-    "downloads": 2583,
+    "downloads": 2576,
     "likes": 10,
     "lastModified": "2025-10-29",
     "license": "cc-by-4.0",
@@ -3056,7 +3056,7 @@
     "lastModified": "2023-09-18"
   },
   "boumehdi/wav2vec2-large-xlsr-moroccan-darija": {
-    "downloads": 1682,
+    "downloads": 1706,
     "likes": 35,
     "lastModified": "2024-04-12",
     "license": "apache-2.0",
@@ -3074,7 +3074,7 @@
     ]
   },
   "cherifkhalifah/quran-whisper-tiny-v1": {
-    "downloads": 10,
+    "downloads": 9,
     "likes": 4,
     "lastModified": "2024-09-04",
     "license": "apache-2.0",
@@ -3083,7 +3083,7 @@
     ]
   },
   "clu-ling/whisper-large-v2-arabic-5k-steps": {
-    "downloads": 16,
+    "downloads": 18,
     "likes": 3,
     "lastModified": "2023-03-03",
     "license": "apache-2.0"
@@ -5004,7 +5004,7 @@
   "datasets/QUD-Technologies/quranic-universal-ayahs": {
     "downloads": 43063,
     "likes": 14,
-    "lastModified": "2026-11-25",
+    "lastModified": "2026-11-26",
     "license": "qua-dataset-1.0"
   },
   "datasets/Quran-Lab/QuranTTS": {
@@ -8038,7 +8038,7 @@
   "datasets/touati-kamel/Algerian-Youtube-Comments": {
     "downloads": 1523,
     "likes": 0,
-    "lastModified": "2026-11-25",
+    "lastModified": "2026-11-27",
     "license": "mit"
   },
   "datasets/touati-kamel/TinyStories-Algerian-Darija": {
@@ -8203,7 +8203,7 @@
     "license": "apache-2.0"
   },
   "elgeish/wav2vec2-large-xlsr-53-levantine-arabic": {
-    "downloads": 75,
+    "downloads": 73,
     "likes": 6,
     "lastModified": "2021-07-06",
     "license": "apache-2.0"
@@ -8245,7 +8245,7 @@
     "license": "cc-by-sa-3.0"
   },
   "facebook/mms-1b-all": {
-    "downloads": 238100,
+    "downloads": 242767,
     "likes": 222,
     "lastModified": "2023-06-15",
     "license": "cc-by-nc-4.0"
@@ -8263,7 +8263,7 @@
     "license": "mit"
   },
   "facebook/seamless-m4t-v2-large": {
-    "downloads": 383568,
+    "downloads": 392318,
     "likes": 1039,
     "lastModified": "2024-01-04",
     "license": "cc-by-nc-4.0"
@@ -8312,7 +8312,7 @@
       "facebook/nllb-200-distilled-600m"
     ]
   },
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "fibonacciai/fibonacci-2-14B": {
     "downloads": 120,
     "likes": 13,
@@ -8528,7 +8528,7 @@
     "license": "mit"
   },
   "jonatasgrosman/wav2vec2-large-xlsr-53-arabic": {
-    "downloads": 625405,
+    "downloads": 623580,
     "likes": 70,
     "lastModified": "2022-12-14",
     "license": "apache-2.0"
@@ -8641,7 +8641,7 @@
     ]
   },
   "maherghanem86/arabic_speech_to_text": {
-    "downloads": 85,
+    "downloads": 86,
     "likes": 1,
     "lastModified": "2025-09-07",
     "license": "apache-2.0"
@@ -8756,7 +8756,7 @@
     "license": "mit"
   },
   "mistralai/Voxtral-Mini-3B-2507": {
-    "downloads": 327182,
+    "downloads": 346485,
     "likes": 706,
     "lastModified": "2025-07-28",
     "license": "apache-2.0"
@@ -8794,7 +8794,7 @@
     "license": "cc-by-4.0"
   },
   "mohammed/wav2vec2-large-xlsr-arabic": {
-    "downloads": 42,
+    "downloads": 46,
     "likes": 4,
     "lastModified": "2024-07-22",
     "license": "apache-2.0",
@@ -8836,7 +8836,7 @@
     ]
   },
   "mohmdsh/whisper-with-augmentation-small-arabic_with-diacritics": {
-    "downloads": 26,
+    "downloads": 25,
     "likes": 3,
     "lastModified": "2025-01-10",
     "license": "apache-2.0",
@@ -8845,7 +8845,7 @@
     ]
   },
   "moonshine-ai/moonshine-tiny-ar": {
-    "downloads": 181,
+    "downloads": 183,
     "likes": 8,
     "lastModified": "2025-09-06"
   },
@@ -8865,7 +8865,7 @@
     "license": "apache-2.0"
   },
   "naazimsnh02/whisper-large-v3-turbo-ar-quran": {
-    "downloads": 1078,
+    "downloads": 1061,
     "likes": 2,
     "lastModified": "2025-12-08",
     "license": "apache-2.0",
@@ -8874,7 +8874,7 @@
     ]
   },
   "nadsoft/hamsa-v0.1-beta": {
-    "downloads": 11,
+    "downloads": 12,
     "likes": 6,
     "lastModified": "2023-11-20",
     "license": "apache-2.0"
@@ -8895,19 +8895,19 @@
     ]
   },
   "nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0": {
-    "downloads": 1505,
+    "downloads": 1555,
     "likes": 22,
     "lastModified": "2025-10-23",
     "license": "cc-by-4.0"
   },
   "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0": {
-    "downloads": 2628,
+    "downloads": 2581,
     "likes": 47,
     "lastModified": "2025-10-21",
     "license": "cc-by-4.0"
   },
   "obadx/muaalem-model-v3_2": {
-    "downloads": 74132,
+    "downloads": 73983,
     "likes": 15,
     "lastModified": "2025-09-04",
     "license": "mit",
@@ -8916,7 +8916,7 @@
     ]
   },
   "obadx/recitation-segmenter-v2": {
-    "downloads": 1593,
+    "downloads": 1586,
     "likes": 4,
     "lastModified": "2025-09-03",
     "license": "mit",
@@ -8980,7 +8980,7 @@
     ]
   },
   "oddadmix/MasriSwitch-Gemma3n-Transcriber-v1": {
-    "downloads": 39,
+    "downloads": 40,
     "likes": 16,
     "lastModified": "2026-04-17",
     "license": "apache-2.0",
@@ -9255,20 +9255,20 @@
     "license": "mit"
   },
   "omarxadel/hubert-large-arabic-egyptian": {
-    "downloads": 38,
+    "downloads": 35,
     "likes": 22,
     "lastModified": "2023-03-19",
     "license": "cc-by-nc-4.0"
   },
   "openai/whisper-large-v3": {
-    "downloads": 3181133,
-    "likes": 6850,
+    "downloads": 3141206,
+    "likes": 6855,
     "lastModified": "2024-08-12",
     "license": "apache-2.0"
   },
   "openai/whisper-large-v3-turbo": {
-    "downloads": 4524410,
-    "likes": 3574,
+    "downloads": 4448566,
+    "likes": 3577,
     "lastModified": "2024-10-04",
     "license": "mit",
     "base_model": [
@@ -9327,7 +9327,7 @@
     ]
   },
   "rabah2026/wav2vec2-large-xlsr-53-arabic-quran-v_final": {
-    "downloads": 10670,
+    "downloads": 10859,
     "likes": 11,
     "lastModified": "2025-12-21",
     "license": "apache-2.0"
@@ -9426,7 +9426,7 @@
     ]
   },
   "samil24/whisper-large-arabic-dialects-v5": {
-    "downloads": 35,
+    "downloads": 36,
     "likes": 2,
     "lastModified": "2025-09-03",
     "license": "apache-2.0",
@@ -9579,7 +9579,7 @@
     "license": "apache-2.0"
   },
   "smerchi/Arabic-Morocco-Speech_To_Text": {
-    "downloads": 62,
+    "downloads": 67,
     "likes": 24,
     "lastModified": "2024-04-02",
     "license": "apache-2.0",
@@ -9596,19 +9596,19 @@
     ]
   },
   "speechbrain/asr-wav2vec2-commonvoice-14-ar": {
-    "downloads": 22,
+    "downloads": 21,
     "likes": 0,
     "lastModified": "2024-02-26",
     "license": "apache-2.0"
   },
   "speechbrain/asr-wav2vec2-dvoice-darija": {
-    "downloads": 30,
+    "downloads": 31,
     "likes": 15,
     "lastModified": "2024-02-19",
     "license": "apache-2.0"
   },
   "speechbrain/asr-whisper-large-v2-commonvoice-ar": {
-    "downloads": 46,
+    "downloads": 43,
     "likes": 3,
     "lastModified": "2025-01-03",
     "license": "apache-2.0"
@@ -9672,13 +9672,13 @@
     "lastModified": "2026-09-02"
   },
   "tarteel-ai/whisper-base-ar-quran": {
-    "downloads": 202855,
+    "downloads": 177907,
     "likes": 199,
     "lastModified": "2022-12-13",
     "license": "apache-2.0"
   },
   "tarteel-ai/whisper-tiny-ar-quran": {
-    "downloads": 3317,
+    "downloads": 3137,
     "likes": 31,
     "lastModified": "2022-12-14",
     "license": "apache-2.0"
@@ -9768,7 +9768,7 @@
     ]
   },
   "vadimbelsky/qwen3-asr-arabic-ksa": {
-    "downloads": 85,
+    "downloads": 86,
     "likes": 2,
     "lastModified": "2026-04-06",
     "license": "apache-2.0",
@@ -9777,7 +9777,7 @@
     ]
   },
   "vadimbelsky/qwen3-asr-arabic-uae": {
-    "downloads": 112894,
+    "downloads": 112502,
     "likes": 2,
     "lastModified": "2026-04-04",
     "license": "apache-2.0",
@@ -9795,7 +9795,7 @@
     ]
   },
   "wageehkhad/whisper-medium-finetuned-sada-asr": {
-    "downloads": 203,
+    "downloads": 176,
     "likes": 4,
     "lastModified": "2026-03-05",
     "license": "apache-2.0",
@@ -9891,7 +9891,7 @@
     ]
   },
   "ychafiqui/whisper-medium-darija": {
-    "downloads": 280,
+    "downloads": 278,
     "likes": 7,
     "lastModified": "2024-09-27",
     "license": "apache-2.0",
@@ -9900,7 +9900,7 @@
     ]
   },
   "ychafiqui/whisper-small-darija": {
-    "downloads": 176,
+    "downloads": 183,
     "likes": 3,
     "lastModified": "2024-09-27",
     "license": "apache-2.0",
